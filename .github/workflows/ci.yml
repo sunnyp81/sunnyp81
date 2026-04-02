@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating JSON files..."
+          find . -name '*.json' -not -path './node_modules/*' | while read f; do
+            echo "  Checking $f"
+            python3 -m json.tool "$f" > /dev/null || { echo "FAIL: $f is not valid JSON"; exit 1; }
+          done
+          echo "All JSON files are valid."
+
+      - name: Check for accidentally committed secrets
+        run: |
+          echo "Scanning for potential secrets..."
+          FAILED=0
+          # Look for hex strings that look like API keys (32+ hex chars)
+          MATCHES=$(grep -rEnI '[0-9a-f]{32,}' --include='*.json' --include='*.yml' --include='*.yaml' --include='*.env' --include='*.py' --include='*.js' . 2>/dev/null | grep -v '.github/workflows/ci.yml' | grep -v 'node_modules' || true)
+          if [ -n "$MATCHES" ]; then
+            echo "WARNING: Potential hardcoded secret (long hex string) found:"
+            echo "$MATCHES"
+            FAILED=1
+          fi
+          # Look for AWS keys
+          MATCHES=$(grep -rEnI 'AKIA[0-9A-Z]{16}' . 2>/dev/null | grep -v '.github/workflows/ci.yml' || true)
+          if [ -n "$MATCHES" ]; then
+            echo "WARNING: Potential AWS access key found:"
+            echo "$MATCHES"
+            FAILED=1
+          fi
+          if [ "$FAILED" -eq 1 ]; then
+            echo "Secret scan found potential issues. Please review above."
+            exit 1
+          fi
+          echo "No secrets detected."
+
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: '**/*.md'
+          config: |
+            {
+              "MD013": false,
+              "MD033": false,
+              "MD041": false
+            }
