@@ -4,7 +4,7 @@
       "type": "http",
       "url": "https://api.ahrefs.com/mcp/mcp",
       "description": "Ahrefs SEO data API",
-      "status": "✅ Active"
+      "status": "\u2705 Active"
     },
     "gsc": {
       "type": "stdio",
@@ -14,7 +14,7 @@
       ],
       "env": {},
       "description": "Google Search Console (custom Python server)",
-      "status": "✅ Active"
+      "status": "\u2705 Active"
     },
     "ga4": {
       "type": "stdio",
@@ -28,7 +28,7 @@
         "GOOGLE_PROJECT_ID": "ga4-mcp-488300"
       },
       "description": "Google Analytics 4 (official Google MCP)",
-      "status": "✅ Active"
+      "status": "\u2705 Active"
     },
     "bing": {
       "type": "stdio",
@@ -38,10 +38,11 @@
         "mcp_server_bwt"
       ],
       "env": {
-        "BING_WEBMASTER_API_KEY": "YOUR_API_KEY_HERE"
+        "BING_WEBMASTER_API_KEY": "${BING_WEBMASTER_API_KEY}",
+        "_NOTE": "Set BING_WEBMASTER_API_KEY as an environment variable before use"
       },
       "description": "Bing Webmaster Tools (custom Python server)",
-      "status": "✅ Active"
+      "status": "\u2705 Active"
     }
   },
   "metadata": {
@@ -80,7 +81,7 @@
       "venv": "G:\\My Drive\\_SHARED\\mcp-servers\\bing\\.venv\\Scripts\\python.exe",
       "entry_point": "mcp_server_bwt",
       "auth": "API Key (environment variable)",
-      "api_key_location": "Bing Webmaster Tools → Settings → API Access"
+      "api_key_location": "Bing Webmaster Tools \u2192 Settings \u2192 API Access"
     },
     "ahrefs": {
       "type": "HTTP (Remote)",
