@@ -38,7 +38,7 @@
         "mcp_server_bwt"
       ],
       "env": {
-        "BING_WEBMASTER_API_KEY": "fd0147cf4f4446f4984568ee673533e6"
+        "BING_WEBMASTER_API_KEY": "YOUR_API_KEY_HERE"
       },
       "description": "Bing Webmaster Tools (custom Python server)",
       "status": "✅ Active"

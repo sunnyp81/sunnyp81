@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating JSON files..."
+          find . -name "*.json" -not -path "./.git/*" | while read f; do
+            echo "Checking $f"
+            python3 -m json.tool "$f" > /dev/null || exit 1
+          done
+          echo "All JSON files valid."
+
+      - name: Check for hardcoded secrets
+        run: |
+          echo "Scanning for potential secrets..."
+          PATTERNS="[a-f0-9]{32,}|AKIA[0-9A-Z]{16}|sk-[a-zA-Z0-9]{20,}|ghp_[a-zA-Z0-9]{36}"
+          FOUND=$(grep -rEn "$PATTERNS" --include="*.json" --include="*.yml" --include="*.yaml" --include="*.md" . \
+            --exclude-dir=.git \
+            | grep -v "YOUR_API_KEY_HERE" \
+            | grep -v "ci.yml" \
+            || true)
+          if [ -n "$FOUND" ]; then
+            echo "WARNING: Potential secrets detected:"
+            echo "$FOUND"
+            exit 1
+          fi
+          echo "No secrets found."
+
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: "**/*.md"
+          config: |
+            {
+              "MD013": false,
+              "MD033": false,
+              "MD041": false
+            }
