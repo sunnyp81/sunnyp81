@@ -1,0 +1,14 @@
+schema: "paperclip/v1"
+agents:
+  claude-code:
+    role: "engineer"
+    adapter:
+      type: "claude_local"
+sidebar:
+  agents:
+    - "claude-code"
+tasks:
+  sun-1:
+    identifier: "SUN-1"
+    priority: "medium"
+    status: "backlog"
