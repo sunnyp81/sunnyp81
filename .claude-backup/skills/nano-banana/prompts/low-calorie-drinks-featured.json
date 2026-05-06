@@ -1,0 +1,43 @@
+{
+  "scene_type": "food_photography",
+  "composition": {
+    "style": "flat_lay",
+    "arrangement": "editorial_spread"
+  },
+  "objects": [
+    {
+      "type": "glass",
+      "contents": "gin and slimline tonic",
+      "garnish": ["ice cubes", "lime wedge"],
+      "appearance": "clear, bubbly, refreshing"
+    },
+    {
+      "type": "glass",
+      "contents": "dry white wine",
+      "appearance": "pale golden, elegant"
+    },
+    {
+      "type": "bottle",
+      "contents": "prosecco",
+      "appearance": "elegant, frosted, upscale"
+    }
+  ],
+  "environment": {
+    "surface": "light marble with subtle grey veining",
+    "background": "same marble surface, bright white",
+    "props": ["fresh lime slices", "scattered ice", "small botanical sprigs"]
+  },
+  "lighting": {
+    "type": "natural daylight",
+    "direction": "soft overhead with slight side angle",
+    "quality": "bright, airy, clean shadows"
+  },
+  "aesthetics": {
+    "mood": "fresh, aspirational, healthy lifestyle",
+    "color_palette": ["white", "pale gold", "green", "clear"],
+    "style": "UK lifestyle magazine, clean food photography"
+  },
+  "constraints": {
+    "exclusions": ["text", "watermark", "dark background", "people", "hands", "labels visible"]
+  }
+}

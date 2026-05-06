@@ -1,0 +1,41 @@
+{
+  "scene_type": "food_photography",
+  "composition": {
+    "style": "side_by_side_comparison",
+    "framing": "two glasses equal prominence"
+  },
+  "objects": [
+    {
+      "id": "glass_left",
+      "type": "highball glass",
+      "contents": "gin and tonic with regular tonic water",
+      "appearance": "slightly more syrupy, less clear, fuller bubbles",
+      "garnish": ["ice cubes", "lime wedge"]
+    },
+    {
+      "id": "glass_right",
+      "type": "highball glass",
+      "contents": "gin and slimline tonic water",
+      "appearance": "very clear, light, crisp bubbles",
+      "garnish": ["ice cubes", "lime wedge"]
+    }
+  ],
+  "environment": {
+    "surface": "white marble",
+    "background": "bright white, minimal",
+    "spacing": "glasses placed close together for comparison"
+  },
+  "lighting": {
+    "type": "natural daylight",
+    "direction": "soft side light",
+    "quality": "bright, clean, airy"
+  },
+  "aesthetics": {
+    "mood": "clean comparison, informative yet beautiful",
+    "color_palette": ["white", "clear", "green", "light gold"],
+    "style": "clean food photography, lifestyle blog"
+  },
+  "constraints": {
+    "exclusions": ["text", "watermark", "labels", "people", "hands", "dark tones"]
+  }
+}

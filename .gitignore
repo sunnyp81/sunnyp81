@@ -1,0 +1,15 @@
+.claude-backup/file-history/
+.claude-backup/projects/
+.claude-backup/sessions/
+.claude-backup/shell-snapshots/
+.claude-backup/todos/
+.claude-backup/statsig/
+.claude-backup/ide/
+.claude-backup/backups/
+.claude-backup/downloads/
+.claude-backup/mcp-credentials/
+.claude-backup/skills/nano-banana/.env
+.claude-backup/skills/nano-banana/.config.json
+.claude-backup/**/*.exe
+.claude-backup/**/.credentials.json
+.claude-backup/**/*.jsonl

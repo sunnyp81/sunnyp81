@@ -1,0 +1,4 @@
+{
+  "api_key": "YOUR_API_KEY_HERE",
+  "_instructions": "1. Copy this file to .config.json  2. Get your API key from https://aistudio.google.com/apikey  3. Replace YOUR_API_KEY_HERE with your actual key"
+}

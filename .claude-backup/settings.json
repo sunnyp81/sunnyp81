@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits"
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "Check if any content files (HTML, markdown, .astro, .mdx, PHP, JS with JSX) were created or modified this session. If yes: (1) run /semantic-audit on each file and iterate improvements until score >=85, logging results to results.tsv. (2) If a URL was deployed, use puppeteer MCP to navigate to it, check for console errors via puppeteer_evaluate, and take a screenshot. Only confirm completion after both checks pass. Skip if session only involved config changes, git operations, or MCP setup with no content/code output.",
+            "timeout": 300,
+            "statusMessage": "Running quality validation..."
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:/Users/sunny/.claude/statusline-command.ps1\""
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "vercel@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "superpowers-dev": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/obra/superpowers.git"
+      }
+    }
+  },
+  "effortLevel": "high",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark",
+  "model": "sonnet"
+}

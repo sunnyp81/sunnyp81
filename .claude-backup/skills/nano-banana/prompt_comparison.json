@@ -1,0 +1,56 @@
+{
+  "subject": {
+    "items": [
+      {
+        "type": "Greek yogurt pot",
+        "container": "plain white plastic pot, no label text visible",
+        "position": "left",
+        "spoon": { "type": "teaspoon", "material": "stainless steel", "placement": "alongside pot" }
+      },
+      {
+        "type": "Greek yogurt pot",
+        "container": "plain white plastic pot, no label text visible",
+        "position": "center",
+        "spoon": { "type": "teaspoon", "material": "stainless steel", "placement": "alongside pot" }
+      },
+      {
+        "type": "Greek yogurt pot",
+        "container": "plain white plastic pot, no label text visible",
+        "position": "right",
+        "spoon": { "type": "teaspoon", "material": "stainless steel", "placement": "alongside pot" }
+      }
+    ],
+    "arrangement": "three pots lined up in a row, evenly spaced, horizontally"
+  },
+  "environment": {
+    "surface": {
+      "material": "marble",
+      "color": "white with subtle grey veining",
+      "texture": "smooth, polished"
+    },
+    "background": "marble surface continues, clean and uncluttered"
+  },
+  "cinematography": {
+    "camera_body": "Sony A7R IV",
+    "lens": "35mm f/2.8",
+    "angle": "overhead flat lay, directly above",
+    "composition": {
+      "framing": "all three pots visible with spoons, centered",
+      "depth_of_field": "everything in focus, sharp"
+    },
+    "lighting": {
+      "type": "natural daylight",
+      "quality": "soft, diffused, even illumination",
+      "mood": "clean, bright, clinical but appetising"
+    }
+  },
+  "style": {
+    "genre": "food product photography",
+    "aesthetic": "clean, minimal, comparison-ready",
+    "colour_palette": "white pots, white marble, silver spoons, neutral tones"
+  },
+  "constraints": {
+    "exclusions": ["text", "watermark", "brand names", "labels with writing", "coloured backgrounds", "props other than spoons"],
+    "mandatory": ["no text of any kind on the pots", "no brand logos", "pure clean food styling", "all three pots fully visible"]
+  }
+}

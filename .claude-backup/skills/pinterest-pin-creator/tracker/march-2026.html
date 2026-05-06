@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pinterest Pin Tracker — shecookssheeats.co.uk — March 2026</title>
+<style>
+  :root {
+    --purple: #473f99;
+    --purple-light: #6b63b5;
+    --purple-bg: #f0eef8;
+    --green: #22c55e;
+    --red: #ef4444;
+    --terracotta: #C67B5C;
+    --sage: #8B9A6B;
+    --mustard: #D4A843;
+    --deepred: #B84233;
+    --pink: #D4878F;
+    --bg: #fafafa;
+    --card: #ffffff;
+    --text: #1a1a2e;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', -apple-system, sans-serif; background: var(--bg); color: var(--text); }
+
+  .header {
+    background: linear-gradient(135deg, var(--purple), var(--purple-light));
+    color: white; padding: 32px 40px; display: flex; justify-content: space-between; align-items: center;
+  }
+  .header h1 { font-size: 24px; font-weight: 700; }
+  .header .subtitle { opacity: 0.85; font-size: 14px; margin-top: 4px; }
+  .header .stats-bar { display: flex; gap: 32px; }
+  .stat-box { text-align: center; }
+  .stat-box .num { font-size: 36px; font-weight: 800; }
+  .stat-box .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; opacity: 0.8; }
+
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+
+  .summary-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .summary-card {
+    background: var(--card); border-radius: 12px; padding: 20px; border: 1px solid var(--border);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .summary-card .card-label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .summary-card .card-value { font-size: 28px; font-weight: 800; color: var(--purple); }
+  .summary-card .card-detail { font-size: 13px; color: var(--muted); margin-top: 4px; }
+
+  .section-title { font-size: 18px; font-weight: 700; margin: 32px 0 16px; display: flex; align-items: center; gap: 8px; }
+  .section-title .badge { background: var(--purple); color: white; font-size: 12px; padding: 2px 10px; border-radius: 12px; }
+
+  .board-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .board-chip {
+    padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 600; cursor: pointer;
+    border: 2px solid var(--purple); color: var(--purple); background: white; transition: all 0.2s;
+  }
+  .board-chip:hover, .board-chip.active { background: var(--purple); color: white; }
+
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+  thead { background: var(--purple-bg); }
+  th { padding: 12px 16px; text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--purple); font-weight: 700; }
+  td { padding: 12px 16px; border-top: 1px solid var(--border); font-size: 13px; vertical-align: middle; }
+  tr:hover td { background: #faf9ff; }
+
+  .status-live { color: var(--green); font-weight: 700; }
+  .layout-tag {
+    display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;
+    background: var(--purple-bg); color: var(--purple);
+  }
+  .colour-dot { width: 16px; height: 16px; border-radius: 50%; display: inline-block; vertical-align: middle; border: 1px solid rgba(0,0,0,0.1); }
+  .board-tag {
+    display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px;
+    background: #f3f4f6; color: #4b5563;
+  }
+  .link-url { color: var(--purple); text-decoration: none; font-size: 12px; }
+  .link-url:hover { text-decoration: underline; }
+  .wp-id { font-family: monospace; font-size: 12px; color: var(--muted); }
+
+  .filter-bar { display: flex; gap: 12px; margin-bottom: 16px; align-items: center; flex-wrap: wrap; }
+  .filter-bar label { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; }
+  .filter-bar select {
+    padding: 6px 12px; border-radius: 8px; border: 1px solid var(--border); font-size: 13px;
+    background: white; color: var(--text);
+  }
+  .filter-bar input[type="text"] {
+    padding: 6px 12px; border-radius: 8px; border: 1px solid var(--border); font-size: 13px; width: 200px;
+  }
+
+  .notes-section { margin-top: 40px; background: var(--card); border-radius: 12px; padding: 24px; border: 1px solid var(--border); }
+  .notes-section h3 { font-size: 16px; margin-bottom: 12px; }
+  .notes-section ul { margin-left: 20px; font-size: 14px; line-height: 1.8; color: #374151; }
+
+  @media (max-width: 768px) {
+    .header { flex-direction: column; gap: 16px; padding: 20px; }
+    .header .stats-bar { gap: 20px; }
+    .stat-box .num { font-size: 28px; }
+    .container { padding: 12px; }
+    td, th { padding: 8px 10px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>Pinterest Pin Tracker</h1>
+    <div class="subtitle">shecookssheeats.co.uk &mdash; March 2026</div>
+  </div>
+  <div class="stats-bar">
+    <div class="stat-box"><div class="num">35</div><div class="label">Pins Posted</div></div>
+    <div class="stat-box"><div class="num">11</div><div class="label">Articles</div></div>
+    <div class="stat-box"><div class="num">8</div><div class="label">Boards</div></div>
+    <div class="stat-box"><div class="num">7</div><div class="label">Layouts</div></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="summary-cards">
+    <div class="summary-card">
+      <div class="card-label">Total Pins</div>
+      <div class="card-value">35</div>
+      <div class="card-detail">23 collage + 12 varied</div>
+    </div>
+    <div class="summary-card">
+      <div class="card-label">Batch 1</div>
+      <div class="card-value">23</div>
+      <div class="card-detail">5 Mar — collage grids</div>
+    </div>
+    <div class="summary-card">
+      <div class="card-label">Batch 2</div>
+      <div class="card-value">12</div>
+      <div class="card-detail">5 Mar — varied layouts</div>
+    </div>
+    <div class="summary-card">
+      <div class="card-label">Success Rate</div>
+      <div class="card-value">100%</div>
+      <div class="card-detail">35/35 generated + posted</div>
+    </div>
+    <div class="summary-card">
+      <div class="card-label">Brand Colour</div>
+      <div class="card-value" style="color: #473f99;">#473f99</div>
+      <div class="card-detail">Deep purple — primary</div>
+    </div>
+  </div>
+
+  <div class="section-title">Board Distribution <span class="badge">8 boards</span></div>
+  <div class="board-chips">
+    <span class="board-chip active" onclick="filterBoard('')">All (35)</span>
+    <span class="board-chip" onclick="filterBoard('dinner')">Dinner (6)</span>
+    <span class="board-chip" onclick="filterBoard('weightLoss')">Weight Loss (9)</span>
+    <span class="board-chip" onclick="filterBoard('foodInspo')">Food Inspo (8)</span>
+    <span class="board-chip" onclick="filterBoard('synCount')">Syn Count (4)</span>
+    <span class="board-chip" onclick="filterBoard('snacks')">Snacks (4)</span>
+    <span class="board-chip" onclick="filterBoard('lowSyn')">Low Syn (2)</span>
+    <span class="board-chip" onclick="filterBoard('yummy')">Yummy (2)</span>
+  </div>
+
+  <div class="section-title">All Pins <span class="badge">35 pins</span></div>
+
+  <div class="filter-bar">
+    <label>Filter:</label>
+    <select id="layoutFilter" onchange="applyFilters()">
+      <option value="">All Layouts</option>
+      <option value="Collage">Collage Grid</option>
+      <option value="Hero Banner">Hero Banner</option>
+      <option value="Sandwich">Sandwich</option>
+      <option value="Sidebar">Sidebar</option>
+      <option value="Diagonal">Diagonal</option>
+      <option value="Filmstrip">Filmstrip</option>
+      <option value="Hero+Row">Hero+Row</option>
+    </select>
+    <select id="articleFilter" onchange="applyFilters()">
+      <option value="">All Articles</option>
+      <option value="syn-free-dinners">Syn Free Dinners</option>
+      <option value="takeaway-syns">Takeaway Syns Guide</option>
+      <option value="beginners-guide">Beginners Guide</option>
+      <option value="aldi-shopping">Aldi Shopping List</option>
+      <option value="meal-plan">7-Day Meal Plan</option>
+      <option value="speed-foods">Speed Foods</option>
+      <option value="free-foods">Free Foods List</option>
+      <option value="healthy-extras">Healthy Extras</option>
+      <option value="syn-calculator">Syn Calculator</option>
+      <option value="low-syn-drinks">Low Syn Drinks</option>
+      <option value="low-syn-choc">Low Syn Chocolates</option>
+      <option value="low-syn-desserts">Low Syn Desserts</option>
+      <option value="quiche">Quiche Recipe</option>
+      <option value="low-syn-crisps">Low Syn Crisps</option>
+    </select>
+    <input type="text" id="searchBox" placeholder="Search pins..." oninput="applyFilters()">
+  </div>
+
+  <table id="pinTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Pin Name</th>
+        <th>Headline</th>
+        <th>Article</th>
+        <th>Board</th>
+        <th>Layout</th>
+        <th>Colour</th>
+        <th>WP ID</th>
+        <th>Status</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Batch 1: First 3 (syn free dinners) -->
+      <tr data-board="dinner" data-layout="Collage" data-article="syn-free-dinners">
+        <td>1</td><td>v1_purple_collage</td><td>15 SYN FREE DINNERS</td><td>Syn Free Dinners</td>
+        <td><span class="board-tag">dinner</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27537</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/syn-free-slimming-world-dinner-recipes/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="dinner" data-layout="Collage" data-article="syn-free-dinners">
+        <td>2</td><td>v2_purple_different</td><td>15 SYN FREE DINNERS</td><td>Syn Free Dinners</td>
+        <td><span class="board-tag">dinner</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27538</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/syn-free-slimming-world-dinner-recipes/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="dinner" data-layout="Collage" data-article="syn-free-dinners">
+        <td>3</td><td>v3_purple_4grid</td><td>DINNER SORTED</td><td>Syn Free Dinners</td>
+        <td><span class="board-tag">dinner</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27539</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/syn-free-slimming-world-dinner-recipes/" target="_blank">View</a></td>
+      </tr>
+      <!-- Batch 1: Takeaway (3) -->
+      <tr data-board="synCount" data-layout="Collage" data-article="takeaway-syns">
+        <td>4</td><td>takeaway_v1</td><td>FAKEAWAY FRIDAY</td><td>Takeaway Syns Guide</td>
+        <td><span class="board-tag">synCount</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#B84233"></span></td><td class="wp-id">27540</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-takeaway-syns-guide/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="foodInspo" data-layout="Collage" data-article="takeaway-syns">
+        <td>5</td><td>takeaway_v2</td><td>TAKEAWAY SYNS GUIDE</td><td>Takeaway Syns Guide</td>
+        <td><span class="board-tag">foodInspo</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27541</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-takeaway-syns-guide/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="yummy" data-layout="Collage" data-article="takeaway-syns">
+        <td>6</td><td>takeaway_v3</td><td>YOUR FAKEAWAY GUIDE</td><td>Takeaway Syns Guide</td>
+        <td><span class="board-tag">yummy</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#B84233"></span></td><td class="wp-id">27542</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-takeaway-syns-guide/" target="_blank">View</a></td>
+      </tr>
+      <!-- Batch 1: Beginners (2) -->
+      <tr data-board="weightLoss" data-layout="Collage" data-article="beginners-guide">
+        <td>7</td><td>beginners_v1</td><td>START HERE</td><td>Beginners Guide</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27543</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-beginners-guide/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="foodInspo" data-layout="Collage" data-article="beginners-guide">
+        <td>8</td><td>beginners_v2</td><td>SLIMMING WORLD 101</td><td>Beginners Guide</td>
+        <td><span class="board-tag">foodInspo</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27544</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-beginners-guide/" target="_blank">View</a></td>
+      </tr>
+      <!-- Batch 1: Aldi (2) -->
+      <tr data-board="weightLoss" data-layout="Collage" data-article="aldi-shopping">
+        <td>9</td><td>aldi_v1</td><td>ALDI HAUL ON PLAN</td><td>Aldi Shopping List</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27545</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/aldi-slimming-world-shopping-list-2026/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="foodInspo" data-layout="Collage" data-article="aldi-shopping">
+        <td>10</td><td>aldi_v2</td><td>50+ ALDI SW BUYS</td><td>Aldi Shopping List</td>
+        <td><span class="board-tag">foodInspo</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27546</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/aldi-slimming-world-shopping-list-2026/" target="_blank">View</a></td>
+      </tr>
+      <!-- Batch 1: Meal Plan (2) -->
+      <tr data-board="dinner" data-layout="Collage" data-article="meal-plan">
+        <td>11</td><td>mealplan_v1</td><td>7 DAY MEAL PLAN</td><td>7-Day Meal Plan</td>
+        <td><span class="board-tag">dinner</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27547</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/7-day-slimming-world-meal-plan/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="foodInspo" data-layout="Collage" data-article="meal-plan">
+        <td>12</td><td>mealplan_v2</td><td>YOUR WEEK SORTED</td><td>7-Day Meal Plan</td>
+        <td><span class="board-tag">foodInspo</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27548</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/7-day-slimming-world-meal-plan/" target="_blank">View</a></td>
+      </tr>
+      <!-- Batch 1: Speed Foods (2) -->
+      <tr data-board="weightLoss" data-layout="Collage" data-article="speed-foods">
+        <td>13</td><td>speed_v1</td><td>SPEED FOODS UNLOCKED</td><td>Speed Foods</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27549</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-speed-foods/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="foodInspo" data-layout="Collage" data-article="speed-foods">
+        <td>14</td><td>speed_v2</td><td>50+ SPEED FOODS</td><td>Speed Foods</td>
+        <td><span class="board-tag">foodInspo</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#8B9A6B"></span></td><td class="wp-id">27550</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-speed-foods/" target="_blank">View</a></td>
+      </tr>
+      <!-- Batch 1: Free Foods (2) -->
+      <tr data-board="weightLoss" data-layout="Collage" data-article="free-foods">
+        <td>15</td><td>freefoods_v1</td><td>EAT FREE LOSE WEIGHT</td><td>Free Foods List</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27551</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-free-foods-list/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="foodInspo" data-layout="Collage" data-article="free-foods">
+        <td>16</td><td>freefoods_v2</td><td>100+ FREE FOODS</td><td>Free Foods List</td>
+        <td><span class="board-tag">foodInspo</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#8B9A6B"></span></td><td class="wp-id">27552</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-free-foods-list/" target="_blank">View</a></td>
+      </tr>
+      <!-- Batch 1: Singles -->
+      <tr data-board="weightLoss" data-layout="Collage" data-article="healthy-extras">
+        <td>17</td><td>hexguide_v1</td><td>THE CHEAT SHEET</td><td>Healthy Extras</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27553</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-healthy-extra-guide/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="synCount" data-layout="Collage" data-article="syn-calculator">
+        <td>18</td><td>calculator_v1</td><td>HACK YOUR SYNS</td><td>Syn Calculator</td>
+        <td><span class="board-tag">synCount</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27554</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-syn-calculator/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="lowSyn" data-layout="Collage" data-article="low-syn-drinks">
+        <td>19</td><td>drinks_v1</td><td>LOW SYN DRINKS</td><td>Low Syn Drinks</td>
+        <td><span class="board-tag">lowSyn</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27555</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/low-syn-drinks/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="snacks" data-layout="Collage" data-article="low-syn-choc">
+        <td>20</td><td>choc_v1</td><td>LOW SYN CHOCOLATES</td><td>Low Syn Chocolates</td>
+        <td><span class="board-tag">snacks</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27556</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/low-syn-chocolates/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="snacks" data-layout="Collage" data-article="low-syn-desserts">
+        <td>21</td><td>desserts_v1</td><td>DESSERT SORTED</td><td>Low Syn Desserts</td>
+        <td><span class="board-tag">snacks</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#D4878F"></span></td><td class="wp-id">27557</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/low-syn-desserts/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="dinner" data-layout="Collage" data-article="quiche">
+        <td>22</td><td>quiche_v1</td><td>SYN FREE QUICHE</td><td>Quiche Recipe</td>
+        <td><span class="board-tag">dinner</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27558</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-quiche-recipe/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="snacks" data-layout="Collage" data-article="low-syn-crisps">
+        <td>23</td><td>crisps_v1</td><td>LOW SYN CRISPS</td><td>Low Syn Crisps</td>
+        <td><span class="board-tag">snacks</span></td><td><span class="layout-tag">Collage</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27559</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/low-syn-crisps/" target="_blank">View</a></td>
+      </tr>
+      <!-- Batch 2: Varied layouts -->
+      <tr data-board="synCount" data-layout="Hero Banner" data-article="takeaway-syns">
+        <td>24</td><td>extra_takeaway_hero</td><td>FAKEAWAY FRIDAY</td><td>Takeaway Syns Guide</td>
+        <td><span class="board-tag">synCount</span></td><td><span class="layout-tag">Hero Banner</span></td>
+        <td><span class="colour-dot" style="background:#B84233"></span></td><td class="wp-id">27560</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-takeaway-syns-guide/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="dinner" data-layout="Sandwich" data-article="meal-plan">
+        <td>25</td><td>extra_mealplan_sandwich</td><td>YOUR WEEK SORTED</td><td>7-Day Meal Plan</td>
+        <td><span class="board-tag">dinner</span></td><td><span class="layout-tag">Sandwich</span></td>
+        <td><span class="colour-dot" style="background:#D4A843"></span></td><td class="wp-id">27561</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/7-day-slimming-world-meal-plan/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="weightLoss" data-layout="Sidebar" data-article="speed-foods">
+        <td>26</td><td>extra_speed_sidebar</td><td>SPEED FOODS</td><td>Speed Foods</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Sidebar</span></td>
+        <td><span class="colour-dot" style="background:#8B9A6B"></span></td><td class="wp-id">27562</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-speed-foods/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="dinner" data-layout="Diagonal" data-article="quiche">
+        <td>27</td><td>extra_quiche_diagonal</td><td>SYN FREE QUICHE</td><td>Quiche Recipe</td>
+        <td><span class="board-tag">dinner</span></td><td><span class="layout-tag">Diagonal</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27563</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-quiche-recipe/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="weightLoss" data-layout="Filmstrip" data-article="free-foods">
+        <td>28</td><td>extra_freefoods_film</td><td>100+ FREE FOODS</td><td>Free Foods List</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Filmstrip</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27564</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-free-foods-list/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="weightLoss" data-layout="Hero+Row" data-article="aldi-shopping">
+        <td>29</td><td>extra_aldi_herorow</td><td>ALDI HAUL</td><td>Aldi Shopping List</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Hero+Row</span></td>
+        <td><span class="colour-dot" style="background:#C67B5C"></span></td><td class="wp-id">27565</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/aldi-slimming-world-shopping-list-2026/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="weightLoss" data-layout="Hero Banner" data-article="beginners-guide">
+        <td>30</td><td>extra_beginners_hero</td><td>START HERE</td><td>Beginners Guide</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Hero Banner</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27566</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-beginners-guide/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="dinner" data-layout="Sandwich" data-article="syn-free-dinners">
+        <td>31</td><td>extra_dinners_sandwich</td><td>15 SYN FREE DINNERS</td><td>Syn Free Dinners</td>
+        <td><span class="board-tag">dinner</span></td><td><span class="layout-tag">Sandwich</span></td>
+        <td><span class="colour-dot" style="background:#C67B5C"></span></td><td class="wp-id">27567</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/syn-free-slimming-world-dinner-recipes/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="snacks" data-layout="Filmstrip" data-article="low-syn-desserts">
+        <td>32</td><td>extra_desserts_film</td><td>GUILT-FREE DESSERTS</td><td>Low Syn Desserts</td>
+        <td><span class="board-tag">snacks</span></td><td><span class="layout-tag">Filmstrip</span></td>
+        <td><span class="colour-dot" style="background:#D4878F"></span></td><td class="wp-id">27568</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/low-syn-desserts/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="weightLoss" data-layout="Sidebar" data-article="healthy-extras">
+        <td>33</td><td>extra_hex_sidebar</td><td>HEX CHEAT SHEET</td><td>Healthy Extras</td>
+        <td><span class="board-tag">weightLoss</span></td><td><span class="layout-tag">Sidebar</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27569</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/slimming-world-healthy-extra-guide/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="lowSyn" data-layout="Diagonal" data-article="low-syn-drinks">
+        <td>34</td><td>extra_drinks_diagonal</td><td>LOW SYN DRINKS</td><td>Low Syn Drinks</td>
+        <td><span class="board-tag">lowSyn</span></td><td><span class="layout-tag">Diagonal</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27570</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/low-syn-drinks/" target="_blank">View</a></td>
+      </tr>
+      <tr data-board="snacks" data-layout="Hero+Row" data-article="low-syn-choc">
+        <td>35</td><td>extra_choc_herorow</td><td>CHOCOLATE FIX</td><td>Low Syn Chocolates</td>
+        <td><span class="board-tag">snacks</span></td><td><span class="layout-tag">Hero+Row</span></td>
+        <td><span class="colour-dot" style="background:#473f99"></span></td><td class="wp-id">27571</td>
+        <td class="status-live">LIVE</td><td><a class="link-url" href="https://shecookssheeats.co.uk/low-syn-chocolates/" target="_blank">View</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="notes-section">
+    <h3>Session Notes — 5 March 2026</h3>
+    <ul>
+      <li><strong>Skill rewritten v2 &rarr; v3</strong> — Moved from cinematic hero shots to collage grids + varied layouts based on real top-performer analysis</li>
+      <li><strong>Design feedback applied:</strong> brand purple #473f99 as primary, readable italic subtitles (not cursive), 3D embossed headline text</li>
+      <li><strong>7 layout types created:</strong> Collage Grid, Hero Banner, Sandwich, Sidebar, Diagonal Banner, Filmstrip, Hero+Row</li>
+      <li><strong>Pipeline:</strong> Gemini 3 Pro Image &rarr; WordPress upload &rarr; Pinterest post via Activepieces MCP (all Node.js)</li>
+      <li><strong>Scripts saved:</strong> <code>scse_march_pins.js</code> (batch 1) and <code>scse_march_extra.js</code> (batch 2) in %TEMP%</li>
+      <li><strong>Next month:</strong> Run new batch with varied layouts from day 1. Track which layouts get highest save rate.</li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+function filterBoard(board) {
+  document.querySelectorAll('.board-chip').forEach(c => c.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('#pinTable tbody tr').forEach(row => {
+    row.style.display = (!board || row.dataset.board === board) ? '' : 'none';
+  });
+}
+
+function applyFilters() {
+  const layout = document.getElementById('layoutFilter').value;
+  const article = document.getElementById('articleFilter').value;
+  const search = document.getElementById('searchBox').value.toLowerCase();
+  document.querySelectorAll('#pinTable tbody tr').forEach(row => {
+    const matchLayout = !layout || row.dataset.layout === layout;
+    const matchArticle = !article || row.dataset.article === article;
+    const matchSearch = !search || row.textContent.toLowerCase().includes(search);
+    row.style.display = (matchLayout && matchArticle && matchSearch) ? '' : 'none';
+  });
+}
+</script>
+
+</body>
+</html>

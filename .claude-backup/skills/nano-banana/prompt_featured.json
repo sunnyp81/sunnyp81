@@ -1,0 +1,49 @@
+{
+  "subject": {
+    "primary": {
+      "type": "ceramic bowl",
+      "color": "white",
+      "contents": {
+        "base": "thick creamy Greek yogurt",
+        "toppings": [
+          { "item": "fresh blueberries", "placement": "scattered across top" },
+          { "item": "honey drizzle", "color": "golden amber", "pattern": "natural drizzle lines" }
+        ]
+      }
+    }
+  },
+  "environment": {
+    "surface": {
+      "material": "light natural wood",
+      "texture": "fine grain, clean",
+      "color": "pale blonde wood"
+    },
+    "props": [],
+    "background": "light wood surface, softly out of focus"
+  },
+  "cinematography": {
+    "camera_body": "Canon EOS R5",
+    "lens": "50mm f/1.8",
+    "angle": "overhead flat lay, 90 degrees directly above",
+    "composition": {
+      "framing": "bowl centered with breathing room around edges",
+      "depth_of_field": "shallow, edges soft"
+    },
+    "lighting": {
+      "type": "natural daylight",
+      "direction": "soft side window light",
+      "quality": "diffused, no harsh shadows",
+      "mood": "bright, fresh, clean"
+    }
+  },
+  "style": {
+    "genre": "food photography",
+    "aesthetic": "clean, minimal, appetising",
+    "colour_palette": "whites, creams, blue-purple berries, golden honey, blonde wood",
+    "mood": "fresh, healthy, inviting"
+  },
+  "constraints": {
+    "exclusions": ["text", "watermark", "logo", "labels", "props", "cutlery", "napkins", "dark background", "artificial light"],
+    "mandatory": ["no text of any kind", "pure food photography", "natural light only"]
+  }
+}

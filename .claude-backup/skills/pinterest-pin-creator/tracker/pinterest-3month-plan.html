@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pinterest 3-Month Plan — She Cooks She Eats</title>
+<style>
+  :root {
+    --brand: #473f99;
+    --brand-light: #6b62c7;
+    --brand-dark: #2e2866;
+    --sage: #7a9e7e;
+    --terracotta: #c4704b;
+    --mustard: #d4a843;
+    --warm-pink: #d4748a;
+    --bg: #faf9fc;
+    --card: #ffffff;
+    --text: #1a1a2e;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --success: #10b981;
+    --warning: #f59e0b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+
+  .header {
+    background: linear-gradient(135deg, var(--brand) 0%, var(--brand-light) 100%);
+    color: white; padding: 2rem; text-align: center;
+  }
+  .header h1 { font-size: 2rem; font-weight: 800; margin-bottom: 0.25rem; }
+  .header p { opacity: 0.9; font-size: 1.1rem; }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+
+  /* KPI Strip */
+  .kpi-strip {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem; margin-bottom: 2rem;
+  }
+  .kpi {
+    background: var(--card); border-radius: 12px; padding: 1.25rem;
+    text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    border-top: 3px solid var(--brand);
+  }
+  .kpi .number { font-size: 2rem; font-weight: 800; color: var(--brand); }
+  .kpi .label { font-size: 0.85rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+  /* Month Sections */
+  .month-section {
+    background: var(--card); border-radius: 16px; padding: 2rem;
+    margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .month-header {
+    display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;
+    padding-bottom: 1rem; border-bottom: 2px solid var(--border);
+  }
+  .month-badge {
+    background: var(--brand); color: white; padding: 0.5rem 1rem;
+    border-radius: 8px; font-weight: 700; font-size: 1.1rem; white-space: nowrap;
+  }
+  .month-badge.april { background: var(--sage); }
+  .month-badge.may { background: var(--terracotta); }
+  .month-badge.june { background: var(--mustard); }
+  .month-header h2 { font-size: 1.4rem; }
+  .month-header .pin-target {
+    margin-left: auto; background: var(--bg); padding: 0.4rem 0.8rem;
+    border-radius: 6px; font-weight: 600; font-size: 0.9rem;
+  }
+
+  /* Week Tables */
+  .week-block { margin-bottom: 1.5rem; }
+  .week-block h3 {
+    font-size: 1rem; color: var(--brand-dark); margin-bottom: 0.5rem;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .week-block h3 .week-pins {
+    background: var(--brand); color: white; font-size: 0.75rem;
+    padding: 0.15rem 0.5rem; border-radius: 4px;
+  }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  th { background: var(--bg); text-align: left; padding: 0.6rem 0.75rem; font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.3px; color: var(--muted); }
+  td { padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--border); }
+  tr:hover td { background: #f8f7ff; }
+
+  .board-tag {
+    display: inline-block; padding: 0.15rem 0.5rem; border-radius: 4px;
+    font-size: 0.75rem; font-weight: 600; color: white;
+  }
+  .board-tag.dinner { background: #c4704b; }
+  .board-tag.chicken { background: #d4a843; }
+  .board-tag.breakfast { background: #7a9e7e; }
+  .board-tag.snacks { background: #d4748a; }
+  .board-tag.lowSyn { background: #6b62c7; }
+  .board-tag.synCount { background: #473f99; }
+  .board-tag.foodInspo { background: #2563eb; }
+  .board-tag.weightLoss { background: #dc2626; }
+  .board-tag.yummy { background: #ea580c; }
+  .board-tag.vegan { background: #16a34a; }
+
+  .layout-tag {
+    display: inline-block; padding: 0.1rem 0.4rem; border-radius: 3px;
+    font-size: 0.7rem; background: var(--bg); color: var(--muted); border: 1px solid var(--border);
+  }
+
+  .pin-type { font-weight: 600; }
+  .pin-type.roundup { color: var(--terracotta); }
+  .pin-type.single { color: var(--sage); }
+  .pin-type.guide { color: var(--brand); }
+  .pin-type.seasonal { color: var(--mustard); }
+
+  /* Strategy Section */
+  .strategy-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem; margin-bottom: 2rem;
+  }
+  .strategy-card {
+    background: var(--card); border-radius: 12px; padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    border-left: 4px solid var(--brand);
+  }
+  .strategy-card h3 { font-size: 1rem; margin-bottom: 0.75rem; color: var(--brand-dark); }
+  .strategy-card ul { list-style: none; }
+  .strategy-card li { padding: 0.3rem 0; padding-left: 1.2rem; position: relative; }
+  .strategy-card li::before { content: "->"; position: absolute; left: 0; color: var(--brand); font-weight: bold; }
+
+  /* Content Gap Section */
+  .gap-section {
+    background: var(--card); border-radius: 16px; padding: 2rem;
+    margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .gap-section h2 { margin-bottom: 1rem; }
+  .gap-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  .gap-card {
+    border: 1px solid var(--border); border-radius: 8px; padding: 1rem;
+  }
+  .gap-card h4 { color: var(--brand); margin-bottom: 0.5rem; }
+  .gap-card p { font-size: 0.85rem; color: var(--muted); }
+  .gap-card .impact { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; }
+  .gap-card .impact.high { color: var(--success); }
+  .gap-card .impact.medium { color: var(--warning); }
+
+  /* Board Strategy */
+  .board-strategy {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+  }
+  .board-plan {
+    border: 1px solid var(--border); border-radius: 8px; padding: 0.75rem;
+    display: flex; align-items: center; gap: 0.75rem;
+  }
+  .board-plan .freq { font-size: 1.5rem; font-weight: 800; color: var(--brand); min-width: 2rem; text-align: center; }
+  .board-plan .info { font-size: 0.85rem; }
+  .board-plan .info strong { display: block; }
+  .board-plan .info span { color: var(--muted); font-size: 0.8rem; }
+
+  /* Milestones */
+  .milestone-track {
+    display: flex; gap: 0; margin: 2rem 0; position: relative;
+  }
+  .milestone-track::before {
+    content: ""; position: absolute; top: 50%; left: 0; right: 0;
+    height: 3px; background: var(--border); transform: translateY(-50%); z-index: 0;
+  }
+  .milestone {
+    flex: 1; text-align: center; position: relative; z-index: 1;
+  }
+  .milestone .dot {
+    width: 24px; height: 24px; border-radius: 50%; margin: 0 auto 0.5rem;
+    border: 3px solid var(--brand); background: white;
+  }
+  .milestone .dot.done { background: var(--brand); }
+  .milestone .label { font-size: 0.8rem; font-weight: 600; }
+  .milestone .date { font-size: 0.7rem; color: var(--muted); }
+
+  /* Tabs */
+  .tab-bar {
+    display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;
+  }
+  .tab-btn {
+    padding: 0.5rem 1rem; border: 2px solid var(--border); background: white;
+    border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.9rem;
+    transition: all 0.2s;
+  }
+  .tab-btn:hover { border-color: var(--brand-light); }
+  .tab-btn.active { background: var(--brand); color: white; border-color: var(--brand); }
+
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .header h1 { font-size: 1.5rem; }
+    .kpi-strip { grid-template-columns: repeat(2, 1fr); }
+    .month-header { flex-wrap: wrap; }
+    .month-header .pin-target { margin-left: 0; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 0.4rem; }
+  }
+
+  .section-title {
+    font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;
+    padding-bottom: 0.5rem; border-bottom: 2px solid var(--brand);
+    display: inline-block;
+  }
+
+  .note-box {
+    background: #fffbeb; border: 1px solid #fbbf24; border-radius: 8px;
+    padding: 1rem; margin-bottom: 1.5rem; font-size: 0.9rem;
+  }
+  .note-box strong { color: #92400e; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pinterest 3-Month Growth Plan</h1>
+  <p>shecookssheeats.co.uk | April - May - June 2026</p>
+</div>
+
+<div class="container">
+
+  <!-- KPI Strip -->
+  <div class="kpi-strip">
+    <div class="kpi">
+      <div class="number">150</div>
+      <div class="label">Total Pins (3 Months)</div>
+    </div>
+    <div class="kpi">
+      <div class="number">50</div>
+      <div class="label">Pins Per Month</div>
+    </div>
+    <div class="kpi">
+      <div class="number">60+</div>
+      <div class="label">Articles Covered</div>
+    </div>
+    <div class="kpi">
+      <div class="number">10</div>
+      <div class="label">Boards Active</div>
+    </div>
+    <div class="kpi">
+      <div class="number">7</div>
+      <div class="label">Layout Rotations</div>
+    </div>
+    <div class="kpi">
+      <div class="number">35</div>
+      <div class="label">March Baseline</div>
+    </div>
+  </div>
+
+  <!-- Growth Milestones -->
+  <div class="month-section">
+    <h2 class="section-title">Growth Milestones</h2>
+    <div class="milestone-track">
+      <div class="milestone">
+        <div class="dot done"></div>
+        <div class="label">35 Pins Live</div>
+        <div class="date">March 2026 (Done)</div>
+      </div>
+      <div class="milestone">
+        <div class="dot"></div>
+        <div class="label">85 Pins | 500 Monthly Views</div>
+        <div class="date">End April 2026</div>
+      </div>
+      <div class="milestone">
+        <div class="dot"></div>
+        <div class="label">135 Pins | 2K Monthly Views</div>
+        <div class="date">End May 2026</div>
+      </div>
+      <div class="milestone">
+        <div class="dot"></div>
+        <div class="label">185 Pins | 5K Monthly Views</div>
+        <div class="date">End June 2026</div>
+      </div>
+      <div class="milestone">
+        <div class="dot"></div>
+        <div class="label">10K+ Monthly Views</div>
+        <div class="date">Q3 Target</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Strategy Cards -->
+  <h2 class="section-title">Core Strategy</h2>
+  <div class="strategy-grid">
+    <div class="strategy-card">
+      <h3>Posting Cadence</h3>
+      <ul>
+        <li>12-13 pins per week (consistent daily posting)</li>
+        <li>2 pins/day most days, 1 on weekends</li>
+        <li>Best times: 8-10pm UK (peak food browsing)</li>
+        <li>Batch create weekly, schedule via Activepieces</li>
+      </ul>
+    </div>
+    <div class="strategy-card">
+      <h3>Content Mix (per month)</h3>
+      <ul>
+        <li>15 roundup/list pins (collage layouts)</li>
+        <li>20 "syns in X" product pins (hero/sidebar)</li>
+        <li>10 guide/educational pins (filmstrip/diagonal)</li>
+        <li>5 seasonal/trending pins (special layouts)</li>
+      </ul>
+    </div>
+    <div class="strategy-card">
+      <h3>Board Distribution</h3>
+      <ul>
+        <li>Every pin goes to 1 primary + 1-2 secondary boards</li>
+        <li>synCount: all "syns in X" posts (biggest board)</li>
+        <li>Themed boards: dinner, breakfast, snacks, chicken</li>
+        <li>Rotate boards to keep all 10 active</li>
+      </ul>
+    </div>
+    <div class="strategy-card">
+      <h3>Design Rules</h3>
+      <ul>
+        <li>Never repeat same layout for same article</li>
+        <li>Rotate through 7 layouts each week</li>
+        <li>3D embossed headlines with character</li>
+        <li>Vary bg: purple, terracotta, sage, mustard, pink, red</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Board Frequency Plan -->
+  <h2 class="section-title">Board Distribution Plan (per month)</h2>
+  <div class="board-strategy" style="margin-bottom: 2rem;">
+    <div class="board-plan">
+      <div class="freq">15</div>
+      <div class="info"><strong>synCount</strong><span>All "syns in" product pins</span></div>
+    </div>
+    <div class="board-plan">
+      <div class="freq">8</div>
+      <div class="info"><strong>foodInspo</strong><span>Roundups, recipe collections</span></div>
+    </div>
+    <div class="board-plan">
+      <div class="freq">7</div>
+      <div class="info"><strong>lowSyn</strong><span>Low-syn lists & guides</span></div>
+    </div>
+    <div class="board-plan">
+      <div class="freq">5</div>
+      <div class="info"><strong>dinner</strong><span>Dinner recipes & meal ideas</span></div>
+    </div>
+    <div class="board-plan">
+      <div class="freq">4</div>
+      <div class="info"><strong>weightLoss</strong><span>Guides, motivation, plans</span></div>
+    </div>
+    <div class="board-plan">
+      <div class="freq">3</div>
+      <div class="info"><strong>snacks</strong><span>Crisps, chocolate, treats</span></div>
+    </div>
+    <div class="board-plan">
+      <div class="freq">3</div>
+      <div class="info"><strong>breakfast</strong><span>Porridge, yogurt, cereals</span></div>
+    </div>
+    <div class="board-plan">
+      <div class="freq">2</div>
+      <div class="info"><strong>chicken</strong><span>Chicken-specific recipes</span></div>
+    </div>
+    <div class="board-plan">
+      <div class="freq">2</div>
+      <div class="info"><strong>yummy</strong><span>Desserts, ice cream, treats</span></div>
+    </div>
+    <div class="board-plan">
+      <div class="freq">1</div>
+      <div class="info"><strong>vegan</strong><span>Quorn, vegan alternatives</span></div>
+    </div>
+  </div>
+
+  <!-- Monthly Tabs -->
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="showTab('april')">April 2026</button>
+    <button class="tab-btn" onclick="showTab('may')">May 2026</button>
+    <button class="tab-btn" onclick="showTab('june')">June 2026</button>
+  </div>
+
+  <!-- APRIL -->
+  <div id="april" class="tab-content active">
+    <div class="month-section">
+      <div class="month-header">
+        <span class="month-badge april">APRIL</span>
+        <h2>Foundation Month - Cover High-Value Lists</h2>
+        <span class="pin-target">Target: 50 pins</span>
+      </div>
+
+      <div class="note-box">
+        <strong>April Theme:</strong> Spring refresh + Easter treats. Focus on the "ultimate list" articles (low-syn chocolates, crisps, snacks, desserts, drinks) — these are the most pinnable content on the site. Also tap into Easter seasonal search (hot cross buns, Easter eggs, chocolate).
+      </div>
+
+      <div class="week-block">
+        <h3>Week 1 (Apr 1-7) <span class="week-pins">13 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>Low Syn Chocolates</td><td>25 Low Syn Chocolates Under 5 Syns</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag lowSyn">lowSyn</span></td></tr>
+          <tr><td>Low Syn Chocolates</td><td>Best Chocolate Bars for Slimming World</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag snacks">snacks</span></td></tr>
+          <tr><td>Low Syn Crisps</td><td>Ranked: Every Crisp Packet by Syns</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag lowSyn">lowSyn</span></td></tr>
+          <tr><td>Low Syn Crisps</td><td>3.5 Syn Crisps That Actually Taste Good</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Sidebar</td><td><span class="board-tag snacks">snacks</span></td></tr>
+          <tr><td>Low Syn Sweets & Chocolates</td><td>The Ultimate Low Syn Sweet Treats List</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag lowSyn">lowSyn</span></td></tr>
+          <tr><td>Syns in Hot Cross Bun</td><td>Hot Cross Buns: How Many Syns? (Easter)</td><td class="pin-type seasonal">Seasonal</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns Ferrero Rocher Easter Eggs</td><td>Easter Eggs Syn Count - Stay On Plan!</td><td class="pin-type seasonal">Seasonal</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Maltesers</td><td>Maltesers Syn Value: Know Before You Eat</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Jaffa Cakes</td><td>Jaffa Cakes - Only 2.5 Syns Each!</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Kinder Bueno</td><td>Kinder Bueno: Worth the Syns?</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Lindt Balls</td><td>3.5 Syns Per Lindt Ball - All Flavours</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Slimming World Free Foods</td><td>Every Free Food on Slimming World</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+          <tr><td>Slimming World Speed Foods</td><td>Speed Foods: The Complete List 2026</td><td class="pin-type guide">Guide</td><td class="layout-tag">Diagonal</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+        </table>
+      </div>
+
+      <div class="week-block">
+        <h3>Week 2 (Apr 8-14) <span class="week-pins">13 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>Low Syn Snacks</td><td>30 Guilt-Free Slimming World Snacks</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag snacks">snacks</span></td></tr>
+          <tr><td>Low Syn Desserts</td><td>Desserts Under 5 Syns - Indulge Guilt-Free</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag yummy">yummy</span></td></tr>
+          <tr><td>Low Syn Drinks</td><td>Every Low Syn Drink Ranked (2026)</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag lowSyn">lowSyn</span></td></tr>
+          <tr><td>Low Syn Cakes & Biscuits</td><td>Cakes & Biscuits You CAN Eat on SW</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag yummy">yummy</span></td></tr>
+          <tr><td>Low Syn Ice Cream</td><td>Best Low Syn Ice Cream 2026</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Sidebar</td><td><span class="board-tag lowSyn">lowSyn</span></td></tr>
+          <tr><td>Syns in Magnum</td><td>Every Magnum Ice Cream Compared (Syns)</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Cornetto</td><td>Cornetto vs Magnum: Which Has Fewer Syns?</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Prosecco</td><td>Prosecco Syn Count: Your Party Guide</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Gin & Tonic</td><td>G&T: Just 3 Syns With Slimline Tonic</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Wine</td><td>Red vs White Wine: Full Syn Breakdown</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>SW Healthy Extra B List</td><td>Healthy Extra B: The Complete List</td><td class="pin-type guide">Guide</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+          <tr><td>How Many Syns Per Day</td><td>Your Daily Syn Allowance Explained</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+          <tr><td>Red & Green Days</td><td>Red vs Green Days: Which Is Right For You?</td><td class="pin-type guide">Guide</td><td class="layout-tag">Diagonal</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+        </table>
+      </div>
+
+      <div class="week-block">
+        <h3>Week 3 (Apr 15-21) <span class="week-pins">12 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>Low Syn Meals</td><td>Easy Low Syn Meals for Every Night</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Low Syn Carbs</td><td>Low Syn Carbs That Keep You Full</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>Low Syn Flavours & Condiments</td><td>Free & Low Syn Sauces You Need</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag lowSyn">lowSyn</span></td></tr>
+          <tr><td>Low Syn Vegetarian Foods</td><td>Veggie? Your Low Syn Shopping List</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Sidebar</td><td><span class="board-tag vegan">vegan</span></td></tr>
+          <tr><td>Syns in Peanut Butter</td><td>Peanut Butter: 4.5 Syns Per Tbsp</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Nutella</td><td>Nutella: How Bad Is It Really? (Syns)</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Baked Beans</td><td>Are Baked Beans Syn Free? The Truth</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Fish Fingers</td><td>Fish Fingers: Every Brand Compared</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Syn Free Yogurts</td><td>Every Syn Free Yogurt (Complete List)</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag breakfast">breakfast</span></td></tr>
+          <tr><td>How to Work Out Syns</td><td>How to Calculate Syns (Step by Step)</td><td class="pin-type guide">Guide</td><td class="layout-tag">Sidebar</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+          <tr><td>Chinese Takeaway Syns</td><td>Chinese Takeaway: Every Dish Ranked by Syns</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Indian Takeaway Syns</td><td>Indian Takeaway Syn Guide: Curry Night Sorted</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag dinner">dinner</span></td></tr>
+        </table>
+      </div>
+
+      <div class="week-block">
+        <h3>Week 4 (Apr 22-30) <span class="week-pins">12 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>SW Iceland Shopping List</td><td>Your Slimming World Iceland Haul</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>Low Syn Red Meats</td><td>Best Red Meats for Slimming World</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Domino's Pizza Syns</td><td>Domino's: How Many Syns? Full Menu</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Toby Carvery Syns</td><td>Eating Out? Toby Carvery Syn Guide</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Sidebar</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Syns in Pringles</td><td>Pringles: Are They Worth the Syns?</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Hula Hoops</td><td>Hula Hoops vs Quavers: Syn Showdown</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag snacks">snacks</span></td></tr>
+          <tr><td>Syns in Pizza (slice)</td><td>1 Slice of Pizza: The Syn Damage</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Butter</td><td>Butter Syn Guide: Every Brand Compared</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Crumpets</td><td>Crumpets for Breakfast: Syn Breakdown</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag breakfast">breakfast</span></td></tr>
+          <tr><td>Syns in Oats</td><td>Oats & Porridge: Your HExB Guide</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag breakfast">breakfast</span></td></tr>
+          <tr><td>Can You Lose Weight Over Syns</td><td>Gone Over Your Syns? Don't Panic!</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+          <tr><td>Save Syns for Weekend</td><td>Should You Bank Syns? Pros & Cons</td><td class="pin-type guide">Guide</td><td class="layout-tag">Sandwich</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAY -->
+  <div id="may" class="tab-content">
+    <div class="month-section">
+      <div class="month-header">
+        <span class="month-badge may">MAY</span>
+        <h2>Expansion Month - Product Pins at Scale</h2>
+        <span class="pin-target">Target: 50 pins</span>
+      </div>
+
+      <div class="note-box">
+        <strong>May Theme:</strong> Bank Holiday BBQ season + summer body prep. Lean into the massive "syns in X" library with themed batches: breakfast week, drinks week, eating out week. Create "vs comparison" pins which perform well on Pinterest. Start repinning March/April best performers.
+      </div>
+
+      <div class="week-block">
+        <h3>Week 1 (May 1-7) — Breakfast & Cereal Week <span class="week-pins">13 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>Syns in Granola</td><td>Granola Syn Trap: What You Need to Know</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag breakfast">breakfast</span></td></tr>
+          <tr><td>Syns in Ready Brek</td><td>Ready Brek vs Porridge: Which Has Fewer Syns?</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Shreddies</td><td>Shreddies: Free as HExB (Guide)</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Shredded Wheat</td><td>Shredded Wheat: Your Free Breakfast</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag breakfast">breakfast</span></td></tr>
+          <tr><td>Syns in Rice Krispies</td><td>Rice Krispies: Free as HExB (30g)</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in All Bran</td><td>All Bran Syn Guide (2026)</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Scrambled Eggs Toast</td><td>Scrambled Eggs on Toast: Syn Count</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag breakfast">breakfast</span></td></tr>
+          <tr><td>Syns in Warburton Thins</td><td>Warburton Thins: Your Bread Swap</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Wholemeal Bread</td><td>Bread Guide: Which Loaves Are Free?</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>Syns Man vs Woman</td><td>Men vs Women: Different Syn Allowances?</td><td class="pin-type guide">Guide</td><td class="layout-tag">Diagonal</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+          <tr><td>Bacon Medallions Syn Free</td><td>Bacon Medallions: Your Syn Free Fry-Up Hero</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Muller Light Yogurt</td><td>Muller Light: Still Worth It? (2026)</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Muller Rice</td><td>Muller Rice: 5.5 Syns Per Pot</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+        </table>
+      </div>
+
+      <div class="week-block">
+        <h3>Week 2 (May 8-14) — Eating Out & Takeaway <span class="week-pins">12 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>Wetherspoons Syns</td><td>Wetherspoons: Best Low Syn Choices</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Frankie & Benny's Syns</td><td>Frankie & Benny's Syn Guide</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Syns in Big Mac</td><td>Big Mac: The Full Syn Breakdown</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in McDonald's Wraps</td><td>McDonald's Wraps: Best & Worst for Syns</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in KFC Rice Box</td><td>KFC Rice Box: A Smarter Fast Food Choice?</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Prawn Crackers</td><td>Prawn Crackers: Syn Surprise!</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Battered Fish</td><td>Fish & Chips Night: Full Syn Count</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Chip Shop Fish & Chips</td><td>Chippy Tea Syn Guide (Stay On Track!)</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Syns in Fajita Wraps</td><td>Fajita Night: How Many Syns?</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Old El Paso Fajitas Syns</td><td>Old El Paso Kits: Full Syn Breakdown</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Peri Peri Chicken Sides</td><td>Nando's Night: Best Sides to Serve</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Sidebar</td><td><span class="board-tag chicken">chicken</span></td></tr>
+          <tr><td>Starbucks Frappuccino Syns</td><td>Starbucks: The Syn Cost of Your Coffee</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+        </table>
+      </div>
+
+      <div class="week-block">
+        <h3>Week 3 (May 15-21) — Sauces, Condiments & Cooking <span class="week-pins">13 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>Syns in Sweet Chilli Sauce</td><td>Sweet Chilli Sauce: Is It Syn Free?</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Soy Sauce</td><td>Soy Sauce: Good News for Stir Fry Fans</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Hellmann's Mayo</td><td>Mayo Showdown: Light vs Full Fat Syns</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Salad Cream</td><td>Salad Cream: A Better Choice Than Mayo?</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Olive Oil</td><td>Cooking Oils: Every Syn Value Compared</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>Blue Dragon Sauces Syns</td><td>Blue Dragon Sauces: 0.5-5 Syns</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Skinny Food Sauces</td><td>Skinny Food Sauces: Really Syn Free?</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Gravy</td><td>Roast Dinner Gravy: Syn Breakdown</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Syns in Branston Pickle</td><td>Pickle & Chutney Syn Guide</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Dolmio Bolognese Syns</td><td>Jar Sauces: Dolmio vs Homemade Syns</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Pataks Tikka Masala Syns</td><td>Fakeaway Curry: Patak's Syn Guide</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>JD Seasonings Syn Free</td><td>JD Seasonings: All Syn Free! (Confirmed)</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>Knorr Stock Cubes Syn Free</td><td>Stock Cubes: Which Ones Are Free?</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+        </table>
+      </div>
+
+      <div class="week-block">
+        <h3>Week 4 (May 22-31) — Summer Treats & BBQ Prep <span class="week-pins">12 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>Syns in Magnum Mini</td><td>Mini Magnums: Only 7 Syns Each!</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag yummy">yummy</span></td></tr>
+          <tr><td>Syns in Solero</td><td>Solero vs Cornetto: Summer Ice Cream Battle</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Nobbly Bobbly</td><td>Nobbly Bobbly: Your BBQ Dessert Sorted</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Rocket Lolly</td><td>Ice Lollies: Lowest Syn Options</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag yummy">yummy</span></td></tr>
+          <tr><td>Syns in Halo Top</td><td>Halo Top: The SW-Friendly Ice Cream?</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Pina Colada</td><td>Summer Cocktails: Syn Guide</td><td class="pin-type seasonal">Seasonal</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Kopparberg</td><td>Cider in the Sun: Kopparberg Syns</td><td class="pin-type seasonal">Seasonal</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Pint of Lager</td><td>BBQ Beers: Full Syn Breakdown</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Southern Comfort</td><td>Spirits Syn Guide: Gin, Rum, SoCo</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>Syns in Pulled Pork</td><td>BBQ Pulled Pork: Syn-Friendly Recipe Ideas</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Quorn Nuggets Syns</td><td>Veggie BBQ: Quorn Syn Guide</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag vegan">vegan</span></td></tr>
+          <tr><td>SW Chicken Supreme</td><td>Chicken Supreme: SW Recipe Roundup</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag chicken">chicken</span></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- JUNE -->
+  <div id="june" class="tab-content">
+    <div class="month-section">
+      <div class="month-header">
+        <span class="month-badge june">JUNE</span>
+        <h2>Scale Month - Repins, Fresh Content & Optimization</h2>
+        <span class="pin-target">Target: 50 pins</span>
+      </div>
+
+      <div class="note-box">
+        <strong>June Theme:</strong> Summer body, holiday prep, picnic/BBQ content. By now you'll have 135+ pins and Pinterest analytics data. Use June to: (1) create fresh pins for top-performing articles from March-May, (2) fill remaining content gaps, (3) start testing video/Idea Pins, (4) publish 3-5 NEW articles written specifically for Pinterest traffic.
+      </div>
+
+      <div class="week-block">
+        <h3>Week 1 (Jun 1-7) — Re-pin Top Performers + Fresh Content <span class="week-pins">13 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td colspan="5" style="background:#fffbeb;font-style:italic;">Re-pins: Create NEW designs for your top 5 performing articles from April-May analytics</td></tr>
+          <tr><td>Top Performer #1</td><td>[New angle on same article]</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">New layout</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>Top Performer #2</td><td>[New angle on same article]</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">New layout</td><td><span class="board-tag lowSyn">lowSyn</span></td></tr>
+          <tr><td>Top Performer #3</td><td>[New angle on same article]</td><td class="pin-type single">Single</td><td class="layout-tag">New layout</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Top Performer #4</td><td>[New angle on same article]</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">New layout</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>Top Performer #5</td><td>[New angle on same article]</td><td class="pin-type guide">Guide</td><td class="layout-tag">New layout</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+          <tr><td colspan="5" style="background:#f0fdf4;font-style:italic;">Fresh product pins</td></tr>
+          <tr><td>Syns in Angel Delight</td><td>Angel Delight: Your 4 Syn Dessert Fix</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag yummy">yummy</span></td></tr>
+          <tr><td>Syns in Lotus Biscoff</td><td>Biscoff Obsessed? Here Are the Syns</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Wagon Wheel</td><td>Wagon Wheel: Retro Treat Syn Count</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Curly Wurly</td><td>Curly Wurly: Best Low Syn Choc Bar?</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag snacks">snacks</span></td></tr>
+          <tr><td>Syns in Double Decker</td><td>Double Decker vs KitKat: Which Wins?</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Haribo Tangfastics</td><td>Haribo: Every Sweet Bag Ranked by Syns</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag snacks">snacks</span></td></tr>
+          <tr><td>Cuppa Soups Syn Free</td><td>Cuppa Soups: Which Are Syn Free?</td><td class="pin-type guide">Guide</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+        </table>
+      </div>
+
+      <div class="week-block">
+        <h3>Week 2 (Jun 8-14) — Snacks & Quick Bites <span class="week-pins">12 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>Snack A Jacks Syns</td><td>Snack A Jacks: 3.5 Syns (All Flavours)</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag snacks">snacks</span></td></tr>
+          <tr><td>Syns in Wotsits</td><td>Wotsits: Worth the Syns?</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Quavers</td><td>Quavers vs Wotsits: Syn Showdown</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Popchips</td><td>Popchips: A Lighter Crisp Choice</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Monster Munch</td><td>Monster Munch: Pickled Onion Syn Count</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Twiglets</td><td>Twiglets: A Surprisingly Low Syn Snack</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag snacks">snacks</span></td></tr>
+          <tr><td>Belvita Biscuits Syns</td><td>Belvita for Breakfast: Syn Guide</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag breakfast">breakfast</span></td></tr>
+          <tr><td>Syns in Rich Tea Biscuits</td><td>Rich Tea: Just 2.5 Syns Each</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Maryland Cookie</td><td>Maryland vs Digestive: Biscuit Syn Battle</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>MugShots Syns</td><td>MugShot Lunches: Low Syn Office Hero</td><td class="pin-type single">Single</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag lowSyn">lowSyn</span></td></tr>
+          <tr><td>Syns in Ryvita</td><td>Ryvita: Every Variety Ranked by Syns</td><td class="pin-type guide">Guide</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>Syns in Jacob's Crackers</td><td>Crackers: Best Choices for Cheese Night</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+        </table>
+      </div>
+
+      <div class="week-block">
+        <h3>Week 3 (Jun 15-21) — Rice, Pasta & Carbs <span class="week-pins">12 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td>Syns in Microwave Rice</td><td>Microwave Rice: Which Ones Are Free?</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>Syns in Egg Fried Rice</td><td>Egg Fried Rice: Syn Count Revealed</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Boil in Bag Rice Syn Free</td><td>Boil in Bag Rice: Confirmed Syn Free!</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Super Noodles Syns</td><td>Super Noodles: Are They Worth the Syns?</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Bachelor's Pasta n Sauce Syns</td><td>Pasta 'n' Sauce: Quick Lunch Syn Guide</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Gnocchi</td><td>Gnocchi: A Syn-Friendly Pasta Swap?</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Bread Roll</td><td>Bread Rolls: The Complete Syn Guide</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Pancakes</td><td>Pancake Day Sorted: Syn Breakdown</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag breakfast">breakfast</span></td></tr>
+          <tr><td>Syns in Potato Waffles</td><td>Potato Waffles: Family Favourite Syn Count</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Mushy Peas</td><td>Mushy Peas: Free or Not? (Answer Inside)</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Heinz Spaghetti</td><td>Tinned Spaghetti: Every Brand Compared</td><td class="pin-type single">Single</td><td class="layout-tag">Diagonal</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Tinned Tomatoes Syn Free</td><td>Tinned Tomatoes: Confirmed Free!</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+        </table>
+      </div>
+
+      <div class="week-block">
+        <h3>Week 4 (Jun 22-30) — Holiday Prep + New Content Push <span class="week-pins">13 pins</span></h3>
+        <table>
+          <tr><th>Article</th><th>Pin Title</th><th>Type</th><th>Layout</th><th>Board</th></tr>
+          <tr><td colspan="5" style="background:#f0fdf4;font-style:italic;">NEW articles to write specifically for Pinterest (high pin potential)</td></tr>
+          <tr><td>NEW: Summer Salad Recipes SW</td><td>10 Syn Free Summer Salads</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>NEW: SW Holiday Survival Guide</td><td>Holiday Eating: Stay On Plan Abroad</td><td class="pin-type guide">Guide</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+          <tr><td>NEW: 7-Day SW Meal Plan</td><td>Free 7-Day Slimming World Meal Plan</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>NEW: BBQ Syn Guide</td><td>BBQ Season: Complete Syn Guide</td><td class="pin-type seasonal">Seasonal</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag dinner">dinner</span></td></tr>
+          <tr><td>NEW: Picnic Syn Guide</td><td>Pack a Syn-Smart Picnic</td><td class="pin-type seasonal">Seasonal</td><td class="layout-tag">Diagonal</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td colspan="5" style="background:#fffbeb;font-style:italic;">Remaining product pins from existing content</td></tr>
+          <tr><td>Syns in Toblerone</td><td>Toblerone: Worth the Splurge?</td><td class="pin-type single">Single</td><td class="layout-tag">Hero Banner</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Ferrero Rocher</td><td>Ferrero Rocher: 4 Syns of Luxury</td><td class="pin-type single">Single</td><td class="layout-tag">Sidebar</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Smarties</td><td>Smarties vs M&Ms: Syn Comparison</td><td class="pin-type single">Single</td><td class="layout-tag">Sandwich</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Squashies</td><td>Squashies: How Many Can You Have?</td><td class="pin-type single">Single</td><td class="layout-tag">Filmstrip</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Syns in Krispy Kreme</td><td>Krispy Kreme: The Syn Damage Revealed</td><td class="pin-type single">Single</td><td class="layout-tag">Hero+Row</td><td><span class="board-tag synCount">synCount</span></td></tr>
+          <tr><td>Frozen Peas Syn Free</td><td>Free Foods Cheat Sheet (Quick Reference)</td><td class="pin-type guide">Guide</td><td class="layout-tag">Collage Grid</td><td><span class="board-tag foodInspo">foodInspo</span></td></tr>
+          <tr><td>What Does Syns Mean</td><td>New to SW? What Syns Actually Mean</td><td class="pin-type guide">Guide</td><td class="layout-tag">Diagonal</td><td><span class="board-tag weightLoss">weightLoss</span></td></tr>
+          <tr><td>Quiche Sides</td><td>What to Eat With Quiche (SW-Friendly)</td><td class="pin-type roundup">Roundup</td><td class="layout-tag">Sidebar</td><td><span class="board-tag dinner">dinner</span></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- New Content to Write -->
+  <div class="gap-section">
+    <h2 class="section-title">New Articles to Write for Pinterest</h2>
+    <p style="margin-bottom:1rem;color:var(--muted);">These articles don't exist yet but would drive significant Pinterest traffic. Write and publish before creating pins.</p>
+    <div class="gap-grid">
+      <div class="gap-card">
+        <span class="impact high">HIGH IMPACT</span>
+        <h4>7-Day Slimming World Meal Plan (Free)</h4>
+        <p>Meal plans are the #1 pinned content in the SW niche. Include full breakfast/lunch/dinner for 7 days with syn counts. Create 3+ pins with different layouts.</p>
+      </div>
+      <div class="gap-card">
+        <span class="impact high">HIGH IMPACT</span>
+        <h4>10 Syn Free Summer Salads</h4>
+        <p>Seasonal roundup perfectly timed for June. Photo-heavy collage pins. Multiple board targets: dinner, foodInspo, weightLoss.</p>
+      </div>
+      <div class="gap-card">
+        <span class="impact high">HIGH IMPACT</span>
+        <h4>Slimming World BBQ Guide</h4>
+        <p>May-July seasonal peak. Cover marinades, meat choices, sides, sauces all with syn counts. Perfect collage pin content.</p>
+      </div>
+      <div class="gap-card">
+        <span class="impact medium">MEDIUM IMPACT</span>
+        <h4>Holiday Eating: Stay On Plan Abroad</h4>
+        <p>June-Aug travel season. Tips for buffets, all-inclusive, restaurant ordering. Guide-style pin performs well.</p>
+      </div>
+      <div class="gap-card">
+        <span class="impact medium">MEDIUM IMPACT</span>
+        <h4>Pack a Syn-Smart Picnic</h4>
+        <p>Seasonal May-July. Shopping list format works great as a pinnable infographic.</p>
+      </div>
+      <div class="gap-card">
+        <span class="impact medium">MEDIUM IMPACT</span>
+        <h4>Slimming World Batch Cooking: 5 Freezer Meals</h4>
+        <p>Evergreen content. Batch cooking posts get saved heavily on Pinterest. Photo collage format.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Performance Tracking -->
+  <div class="month-section">
+    <h2 class="section-title">Monthly Review Checklist</h2>
+    <table>
+      <tr><th>Metric</th><th>Where to Check</th><th>April Target</th><th>May Target</th><th>June Target</th></tr>
+      <tr><td>Monthly Pin Views (Impressions)</td><td>Pinterest Analytics > Overview</td><td>500+</td><td>2,000+</td><td>5,000+</td></tr>
+      <tr><td>Outbound Clicks</td><td>Pinterest Analytics > Overview</td><td>20+</td><td>80+</td><td>200+</td></tr>
+      <tr><td>Saves</td><td>Pinterest Analytics > Overview</td><td>50+</td><td>150+</td><td>400+</td></tr>
+      <tr><td>Top Pin (by clicks)</td><td>Pinterest Analytics > Top Pins</td><td>Identify</td><td>Re-pin</td><td>Scale</td></tr>
+      <tr><td>Website Traffic from Pinterest</td><td>Google Analytics > Acquisition</td><td>10+ sessions</td><td>50+ sessions</td><td>150+ sessions</td></tr>
+      <tr><td>Follower Count</td><td>Pinterest Profile</td><td>Track</td><td>50+</td><td>100+</td></tr>
+      <tr><td>Board Engagement</td><td>Pinterest Analytics > Boards</td><td>ID top 3 boards</td><td>Double down</td><td>Optimize</td></tr>
+    </table>
+
+    <div class="note-box" style="margin-top:1.5rem;">
+      <strong>End-of-Month Actions:</strong><br>
+      1. Pull Pinterest Analytics — identify top 5 pins by clicks/saves<br>
+      2. Create fresh pin designs for top performers (new layout, new title angle)<br>
+      3. Archive underperformers — don't re-pin layouts/titles that got zero traction<br>
+      4. Check GSC for Pinterest referral traffic — which articles convert?<br>
+      5. Update the tracker page with new pins and performance notes<br>
+      6. Plan next month's seasonal angles
+    </div>
+  </div>
+
+  <!-- Quick Reference -->
+  <div class="month-section">
+    <h2 class="section-title">Quick Reference</h2>
+    <table>
+      <tr><th>Item</th><th>Detail</th></tr>
+      <tr><td>Pinterest Profile</td><td><a href="https://www.pinterest.co.uk/shecookssheeatsuk/" target="_blank">pinterest.co.uk/shecookssheeatsuk</a></td></tr>
+      <tr><td>Pin Creation Script</td><td>Node.js via Gemini 3 Pro Image API + Activepieces MCP</td></tr>
+      <tr><td>Batch Script (Collage)</td><td>C:\Users\sunny\AppData\Local\Temp\scse_march_pins.js</td></tr>
+      <tr><td>Batch Script (Varied)</td><td>C:\Users\sunny\AppData\Local\Temp\scse_march_extra.js</td></tr>
+      <tr><td>March Tracker</td><td><a href="https://shecookssheeats.co.uk/pinterest-tracker/" target="_blank">shecookssheeats.co.uk/pinterest-tracker</a></td></tr>
+      <tr><td>Skill Docs</td><td>G:\My Drive\_SHARED\skills\pinterest-pin-creator\SKILL.md</td></tr>
+      <tr><td>7 Layout Types</td><td>Collage Grid, Hero Banner, Sandwich, Sidebar, Diagonal, Filmstrip, Hero+Row</td></tr>
+      <tr><td>6 Colour Palette</td><td>Purple (#473f99), Terracotta, Sage, Mustard, Deep Red, Warm Pink</td></tr>
+    </table>
+  </div>
+
+</div>
+
+<script>
+function showTab(month) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(month).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+
+</body>
+</html>

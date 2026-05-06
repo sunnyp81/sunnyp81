@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "plugins": {
+    "claude-code-setup@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "G:\\",
+        "installPath": "C:\\Users\\sunny\\.claude\\plugins\\cache\\claude-plugins-official\\claude-code-setup\\1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-02-14T21:03:17.008Z",
+        "lastUpdated": "2026-02-14T21:03:17.008Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "sunnypatel-site@local": [
+      {
+        "scope": "project",
+        "projectPath": "G:\\",
+        "installPath": "C:\\Users\\sunny\\.claude\\plugins\\cache\\local\\sunnypatel-site\\1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-02-22T12:00:00.000Z",
+        "lastUpdated": "2026-02-22T12:00:00.000Z"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\sunny\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\5.1.0",
+        "version": "5.1.0",
+        "installedAt": "2026-03-12T14:39:26.365Z",
+        "lastUpdated": "2026-05-05T15:48:44.178Z",
+        "gitCommitSha": "363923f74aa9cd7b470c0aaa73dee629a8bfdc90"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\sunny\\.claude\\plugins\\cache\\claude-plugins-official\\frontend-design\\unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-28T21:20:56.420Z",
+        "lastUpdated": "2026-04-28T21:20:56.420Z"
+      }
+    ],
+    "vercel@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\sunny\\.claude\\plugins\\cache\\claude-plugins-official\\vercel\\0.40.1",
+        "version": "0.40.1",
+        "installedAt": "2026-04-29T22:09:30.436Z",
+        "lastUpdated": "2026-04-30T18:36:18.170Z",
+        "gitCommitSha": "ccfbc7c584f15c0fc925957c86bafaca9444d24a"
+      }
+    ]
+  }
+}
