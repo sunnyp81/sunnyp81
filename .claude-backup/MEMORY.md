@@ -99,6 +99,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [paperclip-vps-dev-team-may6.md](paperclip-vps-dev-team-may6.md) â€” **May 6** VPS Dev Team company: ClaudeWorker (Sonnet, 15min) + ClaudeReviewer (Haiku, hourly). Codex blocked pending OpenAI support reply. Tasks via /home/paperclip-agents/tasks/current_task.md.
 - [chip-meeting-may5.md](chip-meeting-may5.md) â€” **May 5 discovery call** Chip (UK wealth app, Â£5-6bn AUA, 300-400k customers, FCA/ClearBank/Seccl). Pitched orchestrator + Muhammad Abdullah as AI lead (89â†’50 CRO automation case, 5Ã— funnel speed, NDA). 12-question playbook + Geto/CustomerBot Looms. Muhammad agreed to sign contract. Outcome of AAA Inbound Leads Paperclip critical issue.
 - [hummingbird-may4-gdocs.md](hummingbird-may4-gdocs.md) â€” Drive IDs + correct canonical URLs for all 14 Hummingbird May 2026 Google Docs (+ HTML WITH LINKS versions). Hotel UGC URL corrected to /health-wellness-marketing/user-generated-content-seo/.
 - [feedback_hummingbird_drafts_in_gdocs.md](feedback_hummingbird_drafts_in_gdocs.md) â€” **HARD RULE per Mike WhatsApp 08/04/2026**: all Hummingbird content deliverables (new pages, refreshes, rewrites) go in Google Docs, never WP staging. Hummingbird's in-house Elementor designer builds from the doc. Avoids live/staging drift Mike worries about. Pre-existing March WP-staged pages can stay; no new WP drafts.
