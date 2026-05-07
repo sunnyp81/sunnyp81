@@ -99,6 +99,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [feedback_sales_dont_discount_after_no.md](feedback_sales_dont_discount_after_no.md) â€” **May 7** Express Medicals lost (Â£9.5k Option 2, Copilot inbound). Loss email cited "3x market average"; Sunny offered to "sharpen pencil to match" â€” they didn't counter, closed with "proceeding with another agency." Lesson: never discount after a loss email; qualify budget on call 1.
 - [sunnypatel-website-design-cluster-may6.md](sunnypatel-website-design-cluster-may6.md) â€” **May 6-7** sunnypatel.co.uk /website-design/ Phase 1 (14 pages) + 28 inline SVG visuals shipped live. Â£1,500 floor. New Keystatic collection + catch-all Next.js route + visuals data file. Outstanding: spot-check, GSC/Bing submit, homepage+Aatma linking, llms.txt, Phase 2.
 - [paperclip-vps-dev-team-may6.md](paperclip-vps-dev-team-may6.md) â€” **May 6** VPS Dev Team company: ClaudeWorker (Sonnet, 15min) + ClaudeReviewer (Haiku, hourly). Codex blocked pending OpenAI support reply. Tasks via /home/paperclip-agents/tasks/current_task.md.
 - [chip-meeting-may5.md](chip-meeting-may5.md) â€” **May 5 discovery call** Chip (UK wealth app, Â£5-6bn AUA, 300-400k customers, FCA/ClearBank/Seccl). Pitched orchestrator + Muhammad Abdullah as AI lead (89â†’50 CRO automation case, 5Ã— funnel speed, NDA). 12-question playbook + Geto/CustomerBot Looms. Muhammad agreed to sign contract. Outcome of AAA Inbound Leads Paperclip critical issue.
