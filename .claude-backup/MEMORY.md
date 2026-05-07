@@ -101,6 +101,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [portfolio-audit-may8.md](portfolio-audit-may8.md) â€” **May 8** Paperclip company for 54-site winner-audit. Audit-Claude (Sonnet, 4h heartbeat) scores sites 0-14 against 7 ranking rules. Audit-Codex cross-checks. 5 done (bookkeepingflow/selflandlord/deadhangs WINNER, agenticai PIVOT, sunnypatel WINNER). `/winner-audit` skill at `G:\My Drive\_SHARED\skills\winner-audit\SKILL.md`.
 - [feedback_sales_step_in_the_door_offer.md](feedback_sales_step_in_the_door_offer.md) â€” **May 7** For trust-cold leads, default to a low-friction "show me the money" entry offer that proves value fast and creates the path into a retainer. Do not open with the full premium scope unless trust, urgency, and budget are already qualified.
 - [feedback_sales_dont_discount_after_no.md](feedback_sales_dont_discount_after_no.md) â€” **May 7** Express Medicals lost (Â£9.5k Option 2, Copilot inbound). Loss email cited "3x market average"; Sunny offered to "sharpen pencil to match" â€” they didn't counter, closed with "proceeding with another agency." Lesson: never discount after a loss email; qualify budget on call 1.
 - [project_trafft_integration_may7.md](project_trafft_integration_may7.md) â€” **May 7** Trafft API (v2) wired into aaa-intake worker. Every SP contact form lead auto-books a Trafft slot. API IDs, secrets, test bookings to delete, and 15-min service TODO inside.
