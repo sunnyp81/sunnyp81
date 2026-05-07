@@ -1,5 +1,7 @@
 ﻿# Revenue Command Center
 
+Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
+
 > Claude: Every session, check this file first. Push the highest-ROI action. Hold Sunny accountable.
 > If Sunny starts a session without a task, propose the top item from the action queue below.
 
