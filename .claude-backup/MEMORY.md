@@ -61,7 +61,7 @@
 
 **When Sunny opens Claude Code:** Check urgent items â†’ propose top action â†’ execute â†’ log progress.
 
-**Revenue rules:** Every action must have a clear Â£ path. Ship over plan. Fix existing sites before building new ones. Content must pass `/semantic-audit`. Validate with Ahrefs + GSC data first.
+**Revenue rules:** Every action must have a clear Â£ path. Ship over plan. Fix existing sites before building new ones. Content must pass `/semantic-audit`. Validate with Ahrefs + GSC data first. For trust-cold client leads, default to a step-in-the-door "show me the money" offer before the larger retainer ask.
 
 ---
 
@@ -99,6 +99,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [feedback_sales_step_in_the_door_offer.md](feedback_sales_step_in_the_door_offer.md) â€” **May 7** For trust-cold leads, default to a low-friction "show me the money" entry offer that proves value fast and creates the path into a retainer. Do not open with the full premium scope unless trust, urgency, and budget are already qualified.
 - [feedback_sales_dont_discount_after_no.md](feedback_sales_dont_discount_after_no.md) â€” **May 7** Express Medicals lost (Â£9.5k Option 2, Copilot inbound). Loss email cited "3x market average"; Sunny offered to "sharpen pencil to match" â€” they didn't counter, closed with "proceeding with another agency." Lesson: never discount after a loss email; qualify budget on call 1.
 - [sunnypatel-website-design-cluster-may6.md](sunnypatel-website-design-cluster-may6.md) â€” **May 6-7** sunnypatel.co.uk /website-design/ Phase 1 (14 pages) + 28 inline SVG visuals shipped live. Â£1,500 floor. New Keystatic collection + catch-all Next.js route + visuals data file. Outstanding: spot-check, GSC/Bing submit, homepage+Aatma linking, llms.txt, Phase 2.
 - [paperclip-vps-dev-team-may6.md](paperclip-vps-dev-team-may6.md) â€” **May 6** VPS Dev Team company: ClaudeWorker (Sonnet, 15min) + ClaudeReviewer (Haiku, hourly). Codex blocked pending OpenAI support reply. Tasks via /home/paperclip-agents/tasks/current_task.md.
