@@ -197,7 +197,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 - [project_brand-consensus-skill-may7.md](project_brand-consensus-skill-may7.md) â€” May 7: brand-consensus skill created; TheTutorLink Phase 1 audit; fabricated claims fixed (commit 789027c, unpushed)
 - [reference_google_sheets.md](reference_google_sheets.md) â€” Google Sheets API: project `sunny-seo-tools`, SA key path, share sheet to write
 - [sunnypatel-seo-mar26.md](sunnypatel-seo-mar26.md) â€” Mar 26: trailing-slash fix (872 links), berkshire rewrite, CTR fixes, noindex tags, lead gen strategy
-- [theseshbars-seo.md](theseshbars-seo.md) â€” Semantic SEO rules, content framework, rewrite log. Homepage done, remaining: corporate/party/dry hire/area/blog
+- [theseshbars-may8.md](theseshbars-may8.md) â€” May 8: full Astro 5 rebuild LIVE on CF Pages (theseshbars.pages.dev). 30 pages, semantic audit passed. Blocked: DNS cutover needs Hostinger registrar access to change NS to CF.
 - [signforge-org.md](signforge-org.md) â€” email signature site, GSC early data, CTR fix rewrites (written, not applied), content roadmap
 - [redlighttherapy-expert.md](redlighttherapy-expert.md) â€” 210 pages LIVE Mar 22, daily auto-publish active (06:00 UTC), iHome mask pos 3-12. Next: StaticForms + affiliate links
 - [redlighttherapy-supplier-outreach.md](redlighttherapy-supplier-outreach.md) â€” Lemlist/Mailshake outreach strategy to RLT suppliers (iHome, Joovv, Mela, etc.) for free review samples
