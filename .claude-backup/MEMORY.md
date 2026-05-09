@@ -253,6 +253,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 - [sunnypatel-seo-mar28.md](sunnypatel-seo-mar28.md) â€” Mar 28: crawl fixes (30 trailing-slash links), CTR rewrites (6 pages), canonical consolidation, CTA cleanup
 - [sunnypatel-cannibalization-apr4.md](sunnypatel-cannibalization-apr4.md) â€” Apr 4: /contact/ cannibalization fix for 'seo consultant reading', sitemap cleanup. Re-check GSC Apr 18.
 - [programmatic-sites-domains.md](programmatic-sites-domains.md) â€” 14 programmatic sites: confirmed domains, repo names, page counts, deploy status (Mar 28)
+- [deadhangs-com-may9.md](deadhangs-com-may9.md) â€” May 9: full Astro 5 rebuild, Brevo 12-week drip campaign live, claims sourced, CF Pages `deadhangs-com-bew`
 - [deadhangs-apr1.md](deadhangs-apr1.md) â€” Apr 1: full design overhaul done, CTR fixes deployed (world record corrected 16:03â†’80:41), GSC data pulled, 35 old-design stub pages remain
 - [deadhangs-css-bugs.md](deadhangs-css-bugs.md) â€” deadhangs.com CSS bug log: inline SVG sizing, dark cloud fix, author-box/sources centering (Mar 28)
 - [seo-bargains.md](seo-bargains.md) â€” seo.bargains: SEO tool deals/comparisons, Astro 5 + CF Pages, ~160 pages, affiliate monetisation (Mar 28)
