@@ -55,7 +55,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 
 ### BACKLOG
 11. redlighttherapy.skin â†’ aifor.tech (directory template first) â†’ portfolio Google ranking push
-12. ~~shecookssheeats monetisation~~ âœ… DONE Apr 27 â€” Amazon affiliate, OG image, Pinterest Save, Recipe schema shipped. 373 pages. See [shecookssheeats-apr27.md](shecookssheeats-apr27.md).
+12. **shecookssheeats.co.uk â€” May 9 GSC audit shipped** (`84d11db`). 635 missing redirects (60k impr/mo were 404), CTR titles with syn range, Bing WMT added. **Sunny:** Bing CNAME `30b2cc4cb787efa3e5333d5a07e33ac2` â†’ `verify.bing.com`. Monitor GSC 14d (May 23). Next: content refresh top 3 striking-distance pages. See [shecookssheeats-may9-gsc-audit.md](shecookssheeats-may9-gsc-audit.md).
 
 ---
 
@@ -101,6 +101,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [shecookssheeats-may9-gsc-audit.md](shecookssheeats-may9-gsc-audit.md) â€” **May 9** GSC audit: 635 redirects shipped (60k impr/mo were 404), CTR titles optimised (syn range in title), Bing added. Sunny: verify Bing CNAME. Monitor 14d.
 - [hermes-vps-setup-may9.md](hermes-vps-setup-may9.md) â€” **May 9** Hermes Agent v0.13.0 LIVE on VPS. Paperclip retired. 7 cron jobs (evening schedule), lead webhook, email delivery to 2012.infinite. Dashboard at hermes.aifor.tech. WhatsApp NOT paired (rate-limited, retry tomorrow). aaa-intake worker rewired from Paperclip to Hermes webhook.
 - [portfolio-audit-may8.md](portfolio-audit-may8.md) â€” **May 8** 23/54 sites audited (42.6%). Process hardened: 15-turn cap, 1-site/heartbeat, zombie recovery guardrails, CF token out of plaintext. Auto-Fixer paused until audit done. ETA ~5 days.
 - [feedback_sales_step_in_the_door_offer.md](feedback_sales_step_in_the_door_offer.md) â€” **May 7** For trust-cold leads, default to a low-friction "show me the money" entry offer that proves value fast and creates the path into a retainer. Do not open with the full premium scope unless trust, urgency, and budget are already qualified.
