@@ -233,6 +233,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 - [epc-report.md](epc-report.md) â€” epc.report: Astro 5 EPC data site, build status, deploy steps, data pipeline
 - [postcode-page.md](postcode-page.md) â€” Postcode.Page: architecture, deploy process, SEO status, what's built
 - [catchment-school.md](catchment-school.md) â€” catchment.school: 27,795 pages, full audit Apr 10, UX fixes deployed (map, filters, mobile nav), AdSense pending
+- [catchment-school-may9.md](catchment-school-may9.md) â€” May 9: 4.4K clicks/mo (from 0), CTR+trailing-slash fix shipped (`6258c5f`), Bing 1,422 indexed, desktop CTR 1.4% problem
 - [bing-google-analysis.md](bing-google-analysis.md) â€” Feb 2026 platform gap analysis
 - [project_drinks_by_kingpin.md](project_drinks_by_kingpin.md) â€” Drinks by Kingpin: all deliverables done Mar 2026, Â£500 invoice 2 to raise
 - [feedback_bestreviews_ugc.md](feedback_bestreviews_ugc.md) â€” bestreviews.co.uk must use real UGC data (Reddit, MSE, AVForums) â€” not generic specs
