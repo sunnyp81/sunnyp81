@@ -101,6 +101,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [hermes-vps-setup-may9.md](hermes-vps-setup-may9.md) â€” **May 9** Hermes Agent v0.13.0 LIVE on VPS. Paperclip retired. 7 cron jobs (evening schedule), lead webhook, email delivery to 2012.infinite. Dashboard at hermes.aifor.tech. WhatsApp NOT paired (rate-limited, retry tomorrow). aaa-intake worker rewired from Paperclip to Hermes webhook.
 - [portfolio-audit-may8.md](portfolio-audit-may8.md) â€” **May 8** 23/54 sites audited (42.6%). Process hardened: 15-turn cap, 1-site/heartbeat, zombie recovery guardrails, CF token out of plaintext. Auto-Fixer paused until audit done. ETA ~5 days.
 - [feedback_sales_step_in_the_door_offer.md](feedback_sales_step_in_the_door_offer.md) â€” **May 7** For trust-cold leads, default to a low-friction "show me the money" entry offer that proves value fast and creates the path into a retainer. Do not open with the full premium scope unless trust, urgency, and budget are already qualified.
 - [feedback_sales_dont_discount_after_no.md](feedback_sales_dont_discount_after_no.md) â€” **May 7** Express Medicals lost (Â£9.5k Option 2, Copilot inbound). Loss email cited "3x market average"; Sunny offered to "sharpen pencil to match" â€” they didn't counter, closed with "proceeding with another agency." Lesson: never discount after a loss email; qualify budget on call 1.
