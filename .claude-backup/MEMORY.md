@@ -101,6 +101,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [heatpumpchecker-seo-may9.md](heatpumpchecker-seo-may9.md) â€” **May 9** heatpumpchecker.co.uk SEO overhaul: robots.txt domain fix, 22 title rewrites <55ch, new /heat-pump-tariffs/ page, BUS Â£9k update, brand consistency. Deployed CF Pages (`heatpumpchecker`). 10.5k impr/52 clicks baseline.
 - [drugnote-seo-audit-may9.md](drugnote-seo-audit-may9.md) â€” **May 9** drugnote.com full audit+fix: canonical URLs, schema fixes (baseUrl was localhost), unique comparison prose, related comparisons, AI crawler rules, llms.txt. 7,417 pages. Deployed+sitemaps submitted. GSC baseline: 1 click/223 impr.
 - [solarhq-optimization-may9.md](solarhq-optimization-may9.md) â€” **May 9** solarhq.uk SEO overhaul: brand SolarCheckâ†’SolarHQ, titles <60ch, FAQ schema, ECO4 fix, content enrichment, deployed CF Pages, 25 URLs Bing.
 - [shecookssheeats-may9-gsc-audit.md](shecookssheeats-may9-gsc-audit.md) â€” **May 9** GSC audit: 635 redirects shipped (60k impr/mo were 404), CTR titles optimised (syn range in title), Bing added. Sunny: verify Bing CNAME. Monitor 14d.
