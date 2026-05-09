@@ -101,6 +101,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [solarhq-optimization-may9.md](solarhq-optimization-may9.md) â€” **May 9** solarhq.uk SEO overhaul: brand SolarCheckâ†’SolarHQ, titles <60ch, FAQ schema, ECO4 fix, content enrichment, deployed CF Pages, 25 URLs Bing.
 - [shecookssheeats-may9-gsc-audit.md](shecookssheeats-may9-gsc-audit.md) â€” **May 9** GSC audit: 635 redirects shipped (60k impr/mo were 404), CTR titles optimised (syn range in title), Bing added. Sunny: verify Bing CNAME. Monitor 14d.
 - [hermes-vps-setup-may9.md](hermes-vps-setup-may9.md) â€” **May 9** Hermes Agent v0.13.0 LIVE on VPS. Paperclip retired. 7 cron jobs (evening schedule), lead webhook, email delivery to 2012.infinite. Dashboard at hermes.aifor.tech. WhatsApp NOT paired (rate-limited, retry tomorrow). aaa-intake worker rewired from Paperclip to Hermes webhook.
 - [portfolio-audit-may8.md](portfolio-audit-may8.md) â€” **May 8** 23/54 sites audited (42.6%). Process hardened: 15-turn cap, 1-site/heartbeat, zombie recovery guardrails, CF token out of plaintext. Auto-Fixer paused until audit done. ETA ~5 days.
