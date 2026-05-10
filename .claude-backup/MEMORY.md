@@ -193,6 +193,9 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 - [agenticai-restructure-apr16.md](agenticai-restructure-apr16.md) â€” Apr 16: Full restructure deployed â€” services+solutionsâ†’what-we-do, 69 pages, authentic messaging
 - [agenticai-apr20.md](agenticai-apr20.md) â€” Apr 20: Signal polish (sticky nav, btn-outline, packets follow-line, mobile jitter), all 19 thin pages rewritten (industries 280â†’880avg, services 280â†’760avg). Sitemap auto-gen verified.
 
+## Topic Files â€” current (newest first)
+- [selflandlord-may10.md](selflandlord-may10.md) â€” **May 10** noIndex removed from 15 guides (was blocking Google), 3 new template pages, CTR rewrites, 18 URLs Bing-submitted. 58 pages. Sunny: manually Request Indexing in GSC.
+
 ## Topic Files (detailed reference)
 - [email-tool-apr22.md](email-tool-apr22.md) â€” Apr 22 IN PROGRESS: Listmonk (self-hosted on Oracle) + Brevo SMTP chosen for free-forever site email tool. Plunk rejected (needs SES). SSH key recovered from `G:\My Drive\--temp\.ssh\`. Blocked on subdomain + sending-domain choice.
 - [salarydata-apr22.md](salarydata-apr22.md) â€” SalaryData.co.uk Apr 22: 666 pages, wave publishing (30 indexable + 570 noindex), editorial redesign (Fraunces+Inter, navy/amber), GSC+Bing properties added on both accounts awaiting DNS-TXT verify, /directory/ A-Z hub, `/404`, OG image, AI-crawler robots, portfolio backlink committed unpushed at `sunnyp81/sunnypatel-nextjs:master:b159c64`.
