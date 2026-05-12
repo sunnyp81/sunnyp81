@@ -103,6 +103,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [job-search-routine-may12.md](job-search-routine-may12.md) â€” **May 12** Job search routine LIVE (`trig_01FbND68AU9dVGV48jehLpqB`). 3x/day Haiku, 10-phase pipeline: search+dedup+verify+company intel+urgency+cover letters+Gmail drafts+Drive log. SEO+AI roles Â£60k-100k+, remote/hybrid Reading/London.
 - [bestvibrationplates-migration-may10.md](bestvibrationplates-migration-may10.md) â€” **May 10** WPâ†’Astro 5/Tailwind 4/CF Pages migration complete. 135 pages, 100% schema, mobile menu (glassmorphism), BuyBox on 6 reviews, Related internal-link component, 8 CTR rewrites, 6 comparison pages. Sitemap+IndexNow. Monitor GSC May 24. Personas fictional â€” no real headshots.
 - [thebestmowers-rebuild-may10.md](thebestmowers-rebuild-may10.md) â€” **May 10** Astro 5 + Tailwind 4 rebuild Phase 1 scaffolded at `C:/Users/sunny/repos/thebestmowers/`. Homepage + canonical cordless hub (~2,200 words, 5 picks, ItemList+FAQ+Article+Breadcrumb schema). Targets head terms legacy WP misses. 5 power-type hubs + 16 brand hubs + sub-hubs pending.
 - [sunnypatel-reading-cannibalization-may10.md](sunnypatel-reading-cannibalization-may10.md) â€” **May 10** Reading cannibalization fix + CTR rewrites for Reading/Berkshire service pages + homepage local links. Monitor GSC by May 24.
