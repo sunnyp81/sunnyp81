@@ -104,6 +104,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [hermes-telegram-ops-may13.md](hermes-telegram-ops-may13.md) â€” **May 13-14** Hermes migrated to Telegram (@HeyyyHermesbot), 12 cron jobs fixed, 3 business automations + feedback loop, 5 sites optimised. WhatsApp disabled.
 - [project_kingpin-drinks-may12.md](project_kingpin-drinks-may12.md) â€” **May 12** Drinks by Kingpin SEO client. Â£1k package (Â£500 paid). Foundation done (audit, schema, meta, 3 blogs, GBP). 3 SEO tasks queued May 13: GSC submissions, PageSpeed, internal links. 5 service pages blocked on Nico's copy. Check-in call June 12.
 - [aaa-training-lead-may12.md](aaa-training-lead-may12.md) â€” **May 12** Inbound lead: 3 AI Development Programmes. License+Facilitate model, Â£42k bundle build + Â£20k/yr. Pricing set, curriculum/proposal/call prep still needed.
 - [job-search-routine-may12.md](job-search-routine-may12.md) â€” **May 12** Job search routine LIVE (`trig_01FbND68AU9dVGV48jehLpqB`). 3x/day Haiku, 10-phase pipeline: search+dedup+verify+company intel+urgency+cover letters+Gmail drafts+Drive log. SEO+AI roles Â£60k-100k+, remote/hybrid Reading/London.
