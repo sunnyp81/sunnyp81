@@ -34,6 +34,12 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 
 ---
 
+## Job Search â€” Active
+
+**5 applications sent May 14.** Routine `trig_01FbND68AU9dVGV48jehLpqB` runs 3x/day. See [project_job-applications-may14.md](project_job-applications-may14.md). Apply same-day to new matches â€” don't queue.
+
+---
+
 ## ACTION QUEUE (ranked by revenue impact)
 
 ### URGENT â€” Do This Week
