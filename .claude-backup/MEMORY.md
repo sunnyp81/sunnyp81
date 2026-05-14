@@ -37,6 +37,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 ## Job Search â€” Active
 
 **5 applications sent May 14.** Routine `trig_01FbND68AU9dVGV48jehLpqB` runs 3x/day. See [project_job-applications-may14.md](project_job-applications-may14.md). Apply same-day to new matches â€” don't queue.
+- [Discovered Labs â€” Sr SEO Manager Pod Lead](job-discovered-labs-may14.md) â€” $85k, AI-native agency, Loom video needed. Strong fit.
 
 ---
 
