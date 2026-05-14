@@ -111,6 +111,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [hermes-revenue-optimization-may14.md](hermes-revenue-optimization-may14.md) â€” **May 14** Hermes overhauled: 3 broken crons fixed, dead model replaced, revenue-weighted scoring, 14 crons (was 12), opportunity-finder + evening executor added.
 - [shecookssheeats-may14-content-enrichment.md](shecookssheeats-may14-content-enrichment.md) â€” **May 14** Core update recovery: 8 stubs enriched, 6 redirect fixes, Hermes cron enriching remaining 222 stubs. SOUL.md + Telegram pairing wired.
 - [hermes-telegram-ops-may13.md](hermes-telegram-ops-may13.md) â€” **May 13-14** Hermes migrated to Telegram (@HeyyyHermesbot), 12 cron jobs fixed, 3 business automations + feedback loop, 5 sites optimised. WhatsApp disabled.
 - [project_kingpin-drinks-may12.md](project_kingpin-drinks-may12.md) â€” **May 12** Drinks by Kingpin SEO client. Â£1k package (Â£500 paid). Foundation done (audit, schema, meta, 3 blogs, GBP). 3 SEO tasks queued May 13: GSC submissions, PageSpeed, internal links. 5 service pages blocked on Nico's copy. Check-in call June 12.
