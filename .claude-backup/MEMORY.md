@@ -111,6 +111,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [knotweedcheck-seo-loop-may16.md](knotweedcheck-seo-loop-may16.md) â€” **May 16** knotweedcheck.com SEO loop: 4 iters, 13 pages optimised (county enrichment + CTR titles + identification-guide + homepage). 4 commits pushed. Monitor GSC May 23+.
 - [rentalyield-seo-loop-may16.md](rentalyield-seo-loop-may16.md) â€” **May 16** rentalyield.uk SEO loop started. Bing 3x growth. CTR title rewrites shipped (`87ac555`). 10 URLs IndexNow. Monitor May 30.
 - [portfolio-ctr-optimization-may15.md](portfolio-ctr-optimization-may15.md) â€” **May 15** CTR rewrites pushed to 7 repos (~2,400 pages). Hermes conflicts resolved. Monitor GSC May 28.
 - [hermes-revenue-optimization-may14.md](hermes-revenue-optimization-may14.md) â€” **May 14** Hermes overhauled: 3 broken crons fixed, dead model replaced, revenue-weighted scoring, 14 crons (was 12), opportunity-finder + evening executor added.
