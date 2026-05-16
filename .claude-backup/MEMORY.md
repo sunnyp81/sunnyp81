@@ -111,6 +111,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [rentalyield-seo-loop-may16.md](rentalyield-seo-loop-may16.md) â€” **May 16** rentalyield.uk SEO loop started. Bing 3x growth. CTR title rewrites shipped (`87ac555`). 10 URLs IndexNow. Monitor May 30.
 - [portfolio-ctr-optimization-may15.md](portfolio-ctr-optimization-may15.md) â€” **May 15** CTR rewrites pushed to 7 repos (~2,400 pages). Hermes conflicts resolved. Monitor GSC May 28.
 - [hermes-revenue-optimization-may14.md](hermes-revenue-optimization-may14.md) â€” **May 14** Hermes overhauled: 3 broken crons fixed, dead model replaced, revenue-weighted scoring, 14 crons (was 12), opportunity-finder + evening executor added.
 - [shecookssheeats-may14-content-enrichment.md](shecookssheeats-may14-content-enrichment.md) â€” **May 14** Core update recovery: 8 stubs enriched, 6 redirect fixes, Hermes cron enriching remaining 222 stubs. SOUL.md + Telegram pairing wired.
