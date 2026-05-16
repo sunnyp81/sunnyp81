@@ -261,6 +261,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 - [ninepeaks-opportunity.md](ninepeaks-opportunity.md) â€” Nine Peaks Media: Senior SEO/AI Visibility Manager, $4K+/mo remote, video submitted Mar 23
 - [scheduled-rebuilds.md](scheduled-rebuilds.md) â€” Weekly GH Actions rebuild (Mon 06:00 UTC) LIVE on 12 CF Pages sites. 4 not yet wired.
 - [content-humanisation-mar20.md](content-humanisation-mar20.md) â€” 12-site humanisation sprint: 100+ SVGs, 55 guide pages. All deployed Mar 20.
+- [reference_cloudflare-api-token.md](reference_cloudflare-api-token.md) â€” Active CF API token (cfut_1crb...) with all-zone write access. Sunny chose to keep it live.
 - [shecookssheeats-seo.md](shecookssheeats-seo.md) â€” GSC data, CTR rewrites, content refresh log, non-SW pivot strategy
 - [shecookssheeats-apr16.md](shecookssheeats-apr16.md) â€” Apr 16 monetisation audit. Mediavine live, but 20+ brand pages missing Amazon affiliate, no article email capture. Â£30-80/mo leak quantified.
 - [pinterest-shecookssheeats.md](pinterest-shecookssheeats.md) â€” Pinterest creds, board IDs, pin design rules
