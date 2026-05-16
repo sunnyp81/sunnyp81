@@ -111,6 +111,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [shecookssheeats-may16-session.md](shecookssheeats-may16-session.md) â€” **May 16** Newsletter CTAs 100%, 65 redirect fixes, pineapple CTR title, CF AI bot blocking removed all 63 zones, robots.txt pushed 7 repos.
 - [knotweedcheck-seo-loop-may16.md](knotweedcheck-seo-loop-may16.md) â€” **May 16** knotweedcheck.com SEO loop: 5 iters, 17 pages optimised, 5 commits pushed. Early signals positive (id-guide pos 59â†’52.7). Cooldown until May 23. Next: cornwall, gwynedd, camden, wandsworth.
 - [rentalyield-seo-loop-may16.md](rentalyield-seo-loop-may16.md) â€” **May 16** rentalyield.uk SEO loop started. Bing 3x growth. CTR title rewrites shipped (`87ac555`). 10 URLs IndexNow. Monitor May 30.
 - [portfolio-ctr-optimization-may15.md](portfolio-ctr-optimization-may15.md) â€” **May 15** CTR rewrites pushed to 7 repos (~2,400 pages). Hermes conflicts resolved. Monitor GSC May 28.
