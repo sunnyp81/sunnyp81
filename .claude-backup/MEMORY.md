@@ -112,6 +112,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [hermes-discovery-snapshot-may18.md](hermes-discovery-snapshot-may18.md) â€” **May 18** Hermes discovery v2 (registry as source of truth, auto-creates `state:discovered` entries for unmatched GA4/GSC/Bing, alias map, root-domain matching, GA4 dedupe, delta JSON). New `promote-discovered-sites.py` gates promotion on analytics+repo+HTTP. New `hermes-snapshot-cron.sh` rclones daily snapshot to `gdrive:_SHARED/hermes-snapshots/` + Telegram delta. Files in `C:\Users\sunny\hermes-upload\` â€” Sunny TODO: scp to VPS + add cron.
 - [session-may17-evening.md](session-may17-evening.md) â€” **May 17 PM** 41 CTR rewrites pushed (rentalyield/bestvibrationplates/waterhard), calculator.place deploy fixed+Bing verified, best-seo-companies-uk optimised+deployed, 6 CF Pages deployed, 3 outreach drafts in Gmail, Hermes scripts ready.
 - [selflandlord-funnel-fix-may17.md](selflandlord-funnel-fix-may17.md) â€” **May 17** Full funnel flip: pack (Â£9) is primary CTA everywhere, free demoted. Hero/header/templates/drip all lead with buy. Brevo API key removed. Bing 498 impr/wk (accelerating), Google 0 pages indexed. Sitemap submitted, 15 URLs Bing'd. Sunny: Request Indexing on 7 GSC URLs.
 - [hermes-dashboard-may17.md](hermes-dashboard-may17.md) â€” **May 17** Dashboard LIVE at `https://hermes.aifor.tech:8443/`. 70 sites, auto-refresh 60s, systemd service, CF DNS-only. API at `/api/status`.
