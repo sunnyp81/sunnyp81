@@ -9,7 +9,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 
 | Stream | Monthly | Status | Next Action |
 |--------|---------|--------|-------------|
-| SEO portfolio (44 sites) | ~Â£200 | Active | Fix Google penalties, improve CTR |
+| SEO portfolio (70 sites) | ~Â£200 | Active | Fix Google penalties, improve CTR. Dashboard: hermes.aifor.tech:8443 |
 | thebestmowers.co.uk | Â£TBD | **May 11 â€” 73 pages pushed to GitHub** (`03ab981`). Mobile nav, skip-to-content, focus styles, legal pages, responsive tables. Build clean. See [thebestmowers-rebuild-may10.md](thebestmowers-rebuild-may10.md). | **Sunny:** CF Pages connect `sunnyp81/thebestmowers` (build `npm run build`, output `dist`, NODE_VERSION=22), custom domain `thebestmowers.co.uk` + DNS, GSC + Bing verify + submit sitemap-index.xml. |
 | MerchByAmazon (363 ASINs) | ~Â£150 | Passive | Use Merch.Observer to generate + upload new niches |
 | Hummingbird retainer | Â£TBD | Active | **May 10 â€” GTM schema LIVE on production** (GTM-PZZ6Z7K). 25 schemas (16 Service + 3 FAQPage + 6 Article) via single GTM tag. Yoast owns Org/WebSite/BreadcrumbList. 4 leaking-clicks pages on staging as drafts (24524/24526/24527/24528). Inline schemas stripped. Sunny replied May 17. 10 pages queued. Pushed back on Elementor build scope. See [hummingbird-may9-session.md](hummingbird-may9-session.md). |
@@ -112,7 +112,8 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
-- [hermes-3loop-verification-may17.md](hermes-3loop-verification-may17.md) â€” **May 17** 3-loop verification gate LIVE on all 27 SEO loop sites + shecooks cron. Per-site custom rules, auto-revert on fail, learning loop. Action scripts fixed (Haiku, robust JSON extraction). Sunny: add GSC SA to 5 properties, push 3 repos.
+- [hermes-dashboard-may17.md](hermes-dashboard-may17.md) â€” **May 17** Dashboard LIVE at `https://hermes.aifor.tech:8443/`. 70 sites, auto-refresh 60s, systemd service, CF DNS-only. API at `/api/status`.
+- [hermes-3loop-verification-may17.md](hermes-3loop-verification-may17.md) â€” **May 17** 3-loop verification gate LIVE on all 70 SEO loop sites + shecooks cron. Per-site custom rules, auto-revert on fail, learning loop. Registry expanded from 27â†’70 sites.
 - [shecookssheeats-may16-session.md](shecookssheeats-may16-session.md) â€” **May 16** Newsletter CTAs 100%, 65 redirect fixes, pineapple CTR title, CF AI bot blocking removed all 63 zones, robots.txt pushed 7 repos.
 - [knotweedcheck-seo-loop-may16.md](knotweedcheck-seo-loop-may16.md) â€” **May 16** knotweedcheck.com SEO loop: 5 iters, 17 pages optimised, 5 commits pushed. Early signals positive (id-guide pos 59â†’52.7). Cooldown until May 23. Next: cornwall, gwynedd, camden, wandsworth.
 - [rentalyield-seo-loop-may16.md](rentalyield-seo-loop-may16.md) â€” **May 16** rentalyield.uk SEO loop started. Bing 3x growth. CTR title rewrites shipped (`87ac555`). 10 URLs IndexNow. Monitor May 30.
