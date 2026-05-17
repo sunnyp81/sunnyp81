@@ -112,6 +112,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [session-may17-evening.md](session-may17-evening.md) â€” **May 17 PM** 41 CTR rewrites pushed (rentalyield/bestvibrationplates/waterhard), calculator.place deploy fixed+Bing verified, best-seo-companies-uk optimised+deployed, 6 CF Pages deployed, 3 outreach drafts in Gmail, Hermes scripts ready.
 - [selflandlord-funnel-fix-may17.md](selflandlord-funnel-fix-may17.md) â€” **May 17** Full funnel flip: pack (Â£9) is primary CTA everywhere, free demoted. Hero/header/templates/drip all lead with buy. Brevo API key removed. Bing 498 impr/wk (accelerating), Google 0 pages indexed. Sitemap submitted, 15 URLs Bing'd. Sunny: Request Indexing on 7 GSC URLs.
 - [hermes-dashboard-may17.md](hermes-dashboard-may17.md) â€” **May 17** Dashboard LIVE at `https://hermes.aifor.tech:8443/`. 70 sites, auto-refresh 60s, systemd service, CF DNS-only. API at `/api/status`.
 - [hermes-3loop-verification-may17.md](hermes-3loop-verification-may17.md) â€” **May 17** 3-loop verification gate LIVE on all 70 SEO loop sites + shecooks cron. Per-site custom rules, auto-revert on fail, learning loop. Registry expanded from 27â†’70 sites.
