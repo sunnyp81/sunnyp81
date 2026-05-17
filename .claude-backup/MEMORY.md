@@ -18,7 +18,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 | SunnyPatel.co.uk | Â£0 | **May 14 â€” Figment client count updated to 13 active** (`6174d74`). May 10: Reading cannibalization fix + CTR rewrites (`d814409`). See [sunnypatel-reading-cannibalization-may10.md](sunnypatel-reading-cannibalization-may10.md). | Monitor GSC by May 24 for Reading service page position climb. Tier 2: CTR fix ai-search-statistics + best-seo-companies-uk rewrite. Internal linking pass on all >200 impr blog posts. |
 | ClearNote.app | Â£0 | Built | Deploy â†’ LemonSqueezy â†’ launch |
 | ReportBolt.com | Â£0 | Phase 0-2 built | Neon DB setup â†’ deploy Vercel â†’ Google OAuth |
-| calculator.place | Â£0 | **May 9 â€” core update recovery shipped** (`e9dcf61`). Domain still live as of May 17. See [calculator-place-optimization-may9.md](calculator-place-optimization-may9.md). | Fix deploy (PAT needs `workflow` scope OR rename masterâ†’main). After deploy: `node scripts/indexnow-ping.mjs`, verify Bing, submit GSC sitemap, apply AdSense. |
+| calculator.place | Â£0 | **May 9 â€” core update recovery shipped** (`e9dcf61`). Domain **RENEWED May 17**. See [calculator-place-optimization-may9.md](calculator-place-optimization-may9.md). | Fix deploy (PAT needs `workflow` scope OR rename masterâ†’main). After deploy: `node scripts/indexnow-ping.mjs`, verify Bing, submit GSC sitemap, apply AdSense. |
 | BritishNest.co.uk | Â£0 | Domain live, WP installed | Configure WooCommerce â†’ list products â†’ launch |
 | LuxuryTrex.com | Â£0 | **Apr 25** â€” culled 1,063 bulk-generated products (placeholder image/title mismatches were visible on /shop/). Catalog now 26 products with real matching photos. Commit `9a4fd04` pushed + Wrangler deployed live on luxurytrex.com. | Next: source real photos before re-introducing bulk catalog, GSC verification, GA4 setup |
 | AgenticAI Associates | Â£0 | **May 9 â€” SEO audit + optimisation shipped** (`0212d59`). 95 pages (was 88). Bing 62 indexed, /learn/ pos 1-4. Google lagging (5 pages visible). Titles rewritten with "agentic AI", 7 new location pages, Bing URLs submitted. See [agenticai-associates-seo-audit-may9.md](agenticai-associates-seo-audit-may9.md). | Submit sitemap to GSC (critical â€” only 5/95 pages showing). Verify CF Pages deploy. Monitor CTR in 14-21 days. Add portfolio backlinks. |
@@ -105,7 +105,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 
 ## Key Dates & Domain Expiry
 - ~~**May 8:** seo.associates~~ expired, dead
-- **May 11:** calculator.place expires
+- ~~**May 11:** calculator.place expires~~ â€” **RENEWED May 17**
 - **Aug 29:** aifor.* domains expire
 - **Sep 2:** RLT domains expire
 
