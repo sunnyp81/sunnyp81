@@ -87,6 +87,9 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 
 ---
 
+## Sunny's Day Job
+- [Figment Agency](user_figment-agency.md) â€” Full-time, 2 years, managing 13 clients. Primary time constraint. All side work fits around this.
+
 ## Quick Reference
 
 | Resource | Location |
