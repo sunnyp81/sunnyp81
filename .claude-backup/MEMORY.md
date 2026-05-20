@@ -115,6 +115,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [hermes-telegram-fix-may20.md](hermes-telegram-fix-may20.md) â€” **May 20** Fixed Hermes Telegram: systemd EnvironmentFile, killed competing seo-loop-commands service, cleared stale lock. LIVE.
 - [session-may18-hermes-blitz.md](session-may18-hermes-blitz.md) â€” **May 18** 16-agent blitz: 4 repos pushed (sunnypatel CTR, shecookssheeats CTR+redirects, waterhard London cannibal fix, bestvibrationplates hip replacement). 4 GSC sitemaps submitted. 94 agenticai IndexNow URLs. Bing 4 sites blocked on DNS CNAME.
 - [hermes-discovery-snapshot-may18.md](hermes-discovery-snapshot-may18.md) â€” **May 18** Hermes discovery v2 + snapshot cron. Files in `C:\Users\sunny\hermes-upload\` â€” Sunny TODO: scp to VPS + add cron.
 - [session-may17-evening.md](session-may17-evening.md) â€” **May 17 PM** 41 CTR rewrites pushed (rentalyield/bestvibrationplates/waterhard), calculator.place deploy fixed+Bing verified, best-seo-companies-uk optimised+deployed, 6 CF Pages deployed, 3 outreach drafts in Gmail, Hermes scripts ready.
