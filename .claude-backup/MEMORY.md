@@ -115,9 +115,11 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [ai-search-readiness-campaign-may21.md](ai-search-readiness-campaign-may21.md) â€” **May 21** Hermes-owned AI-search sweep runner built (llms.txt + Clarity/button). Audit works. BLOCKER: 0 sites have clarity_id/preferred_source_url. Deploy + VPS audit + config next.
+- [hermes-hardening-may21.md](hermes-hardening-may21.md) â€” **May 21** Hermes hardened: global/site/repo locks, repo preflight, structured action records, snapshot cron deployed to Drive, shared-memory secrets redacted. Manual rotation still needed for previously exposed credentials.
 - [hermes-telegram-fix-may20.md](hermes-telegram-fix-may20.md) â€” **May 20** Fixed Hermes Telegram: systemd EnvironmentFile, killed competing seo-loop-commands service, cleared stale lock. LIVE.
 - [session-may18-hermes-blitz.md](session-may18-hermes-blitz.md) â€” **May 18** 16-agent blitz: 4 repos pushed (sunnypatel CTR, shecookssheeats CTR+redirects, waterhard London cannibal fix, bestvibrationplates hip replacement). 4 GSC sitemaps submitted. 94 agenticai IndexNow URLs. Bing 4 sites blocked on DNS CNAME.
-- [hermes-discovery-snapshot-may18.md](hermes-discovery-snapshot-may18.md) â€” **May 18** Hermes discovery v2 + snapshot cron. Files in `C:\Users\sunny\hermes-upload\` â€” Sunny TODO: scp to VPS + add cron.
+- [hermes-discovery-snapshot-may18.md](hermes-discovery-snapshot-may18.md) â€” **May 18** Hermes discovery v2 + snapshot cron. **Deployed May 21**; latest snapshot syncs to `G:\My Drive\_SHARED\hermes-snapshots\latest\`.
 - [session-may17-evening.md](session-may17-evening.md) â€” **May 17 PM** 41 CTR rewrites pushed (rentalyield/bestvibrationplates/waterhard), calculator.place deploy fixed+Bing verified, best-seo-companies-uk optimised+deployed, 6 CF Pages deployed, 3 outreach drafts in Gmail, Hermes scripts ready.
 - [selflandlord-funnel-fix-may17.md](selflandlord-funnel-fix-may17.md) â€” **May 17** Full funnel flip: pack (Â£9) is primary CTA everywhere, free demoted. Hero/header/templates/drip all lead with buy. Brevo API key removed. Bing 498 impr/wk (accelerating), Google 0 pages indexed. Sitemap submitted, 15 URLs Bing'd. Sunny: Request Indexing on 7 GSC URLs.
 - [hermes-dashboard-may17.md](hermes-dashboard-may17.md) â€” **May 17** Dashboard LIVE at `https://hermes.aifor.tech:8443/`. 70 sites, auto-refresh 60s, systemd service, CF DNS-only. API at `/api/status`.
