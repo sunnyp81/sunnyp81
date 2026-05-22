@@ -115,6 +115,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [optimisedwebsite-infographics-may21.md](optimisedwebsite-infographics-may21.md) â€” **May 21** 6 interactive infographics shipped (`5b5078b`). Counters, timeline, speed race, score comparison, page anatomy, growth charts. All vanilla JS.
 - [hermes-shecooks-drop-alert-may21.md](hermes-shecooks-drop-alert-may21.md) â€” **May 21** Fixed Hermes miss on shecookssheeats.co.uk drop: fresh daily GSC data, site-wide 3-day-vs-7-day drop detection, de-duped `site_alerts`, Telegram `traffic_drop_alert`, ranking-drop triage patched. Verified CRITICAL alert fires.
 - [ai-search-readiness-campaign-may21.md](ai-search-readiness-campaign-may21.md) â€” **May 21** Hermes-owned AI-search sweep runner built (llms.txt + Clarity/button). Audit works. BLOCKER: 0 sites have clarity_id/preferred_source_url. Deploy + VPS audit + config next.
 - [hermes-hardening-may21.md](hermes-hardening-may21.md) â€” **May 21** Hermes hardened: global/site/repo locks, repo preflight, structured action records, snapshot cron deployed to Drive, shared-memory secrets redacted. Manual rotation still needed for previously exposed credentials.
