@@ -30,6 +30,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 | plentii.food | Â£0 | **May 13 â€” Phase 1 BUILT** (`ba61871`). 21 pages, Astro 5 + Tailwind 4. NOT a standalone deploy â€” pivoting to app offering via shecookssheeats. See [plentii-food-build.md](plentii-food-build.md). | Integrate nutrition data/calculators into shecookssheeats as premium app feature. YMYL: hire HCPC Dietitian (Â£100-200/mo). |
 | claimwatt.com | Â£0 | **May 16 â€” on GitHub** (`sunnyp81/claimwatt`, branch `main`). Astro 5 + Tailwind 4, 176 pages. See [claimwatt-apr27](claimwatt-apr27.md). | **Sunny:** CF Pages connect (build `npm run build`, output `dist`, NODE_VERSION=22), custom domain `claimwatt.com` + DNS, then GSC + Bing verify + IndexNow. |
 | seo.furniture | Â£0 | **May 16 â€” pushed to GitHub** (`sunnyp81/seo-furniture`, branch `master`). Astro 5, 11 pages. | **Sunny:** CF Pages connect (build `npm run build`, output `dist`, NODE_VERSION=22), custom domain `seo.furniture` + DNS, GSC + Bing verify. |
+| seoswansea.uk | Â£0 | **May 24 â€” BUILT + visual redesign** (`99abb3e`). 12 pages, Astro 5 + Tailwind 4. Glass cards, growth chart, aurora blobs. De-footprinted. `sunnyp81/seoswansea`. See [seoswansea-build-may24.md](seoswansea-build-may24.md). | **Sunny:** CF Pages connect (build `npm run build`, output `dist`, NODE_VERSION=22), custom domain `seoswansea.uk` + DNS, GSC + Bing verify + submit sitemap. |
 
 **Current total: ~Â£350/mo | Target: Â£2,000/mo by Dec 2026**
 
