@@ -115,6 +115,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [hermes-guardrails-may24.md](hermes-guardrails-may24.md) â€” **May 24** Hermes guardrails locked. Shecooks enrichment cron PAUSED. Waterhard /water-company/* PERMANENT EXCLUSION. catchment.school -93% is bot-stop (not emergency). thebestmowers DOWN = false-positive (require 2 consecutive fails). towrating.net = DNS issue not SEO. Disable generic auto-drafted "2026 paragraph" fixes. Fix broken crons: daily-accountability, weekend-sprint-plan (15-turn cap), auto-executor-evening (600s timeout â€” highest risk, consider full disable).
 - [session-may23-hermes-blitz.md](session-may23-hermes-blitz.md) â€” **May 23** Full portfolio GSC audit (30+ sites). Only 5 have traffic. 4 CTR rewrites pushed (waterhard `6e2f06a`, bestvibrationplates `62273bc`, deadhangs `3914ab1`, bestturbotrainers TBD). shecookssheeats recovery FAILING â€” second collapse, Hermes cron making it worse.
 - [optimisedwebsite-infographics-may21.md](optimisedwebsite-infographics-may21.md) â€” **May 21** 6 interactive infographics shipped (`5b5078b`). Counters, timeline, speed race, score comparison, page anatomy, growth charts. All vanilla JS.
 - [hermes-shecooks-drop-alert-may21.md](hermes-shecooks-drop-alert-may21.md) â€” **May 21** Fixed Hermes miss on shecookssheeats.co.uk drop: fresh daily GSC data, site-wide 3-day-vs-7-day drop detection, de-duped `site_alerts`, Telegram `traffic_drop_alert`, ranking-drop triage patched. Verified CRITICAL alert fires.
