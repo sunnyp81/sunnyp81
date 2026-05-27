@@ -374,3 +374,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 - [catchment-school-apr19.md](catchment-school-apr19.md) â€” Apr 19: trust-signal deploy LIVE (758e9f9 + e339182) â€” AuthorByline, editorial policy, Organization schema, per-council intros (20), schoolâ†”hub link mesh. Honeymoon bounce arrest. Daily RemoteTrigger `trig_01SDjbTDnnqimFyMgAu1DBcM` 07:30 UTC, NOT shadow.
 - [radon-tips-apr21.md](radon-tips-apr21.md) â€” Apr 21: Core Update diagnosis. County pages "Crawled - not indexed". COAST decision. Monthly trigger can stay but no manual work.
 
+## Mobile Captures
+
+- [2026-05-27T21:37:46Z] **hermes**: May 27 2026: Hermes bridge now supports Claude and Codex routing from Telegram, with /agent, /claude, /codex, /remember, /recall, and VPS reverse memory sync.
+
