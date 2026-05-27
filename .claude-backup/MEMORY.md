@@ -122,6 +122,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [hermes-mobile-safety-may27.md](hermes-mobile-safety-may27.md) â€” **May 27** Hermes mobile-safety layer LIVE: `/kill` switch gates all 12 crons + bridge writes, approvals table with TTL tokens (`/approve <id>`), `mode` column on `loop_action_records`, per-chat sequential queue in bridge.mjs. Foundation for the Pocket/Assistant/Operator router spec.
 - [project_visible-ads-may27.md](project_visible-ads-may27.md) â€” **May 27** Visible Ads LAUNCHED on visible-ads.com. CF Pages + 2 Workers (www redirect, forms). Full rebrand, domain migration from Wix, CF Email Routing for form delivery.
 - [seo-local-sites-audit-may26.md](seo-local-sites-audit-may26.md) â€” **May 26** 5 local SEO sites audited+fixed (design, favicons, StaticForms, a11y). index-pusher tool deployed to VPS (daily 07:00 cron). 87 URLs GSC+IndexNow.
 - [redlighttherapy-expert-redesign-may26.md](redlighttherapy-expert-redesign-may26.md) â€” **May 26** RLT.expert full visual+schema overhaul (`e1108d2`â†’`d98a72c`â†’`bf68667`â†’`21854d1`). Source Serif 4 + DM Sans, white bg, Preact islands (WavelengthExplorer/DoseCalculator/ConditionFilter), 3-col Article layout, /llms.txt, FAQPage+Review+Product+BreadcrumbList JSON-LD, inline waitlist form (name+email). GSC + Bing sitemap resubmitted, 15 priority URLs Bing-batched. **Hermes promoted T4â†’T1** (registry patched on VPS, repo cloned, full action set incl. faq_schema + internal_link). **Sunny:** watch GSC pickup 48-72h.
