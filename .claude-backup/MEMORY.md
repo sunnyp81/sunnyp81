@@ -122,6 +122,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 ---
 
 ## Topic Files â€” current (newest first)
+- [project_visible-ads-may27-mobile-fix.md](project_visible-ads-may27-mobile-fix.md) â€” **May 27** Mobile contact form fix on visible-ads.com (data-astro-reload, sticky-CTA hide, honeypot offscreen, bare-domain URL input) + CF Pages auto-deploy migrated to GitHub Actions (`.github/workflows/deploy.yml` + `.npmrc` legacy-peer-deps). Old CF Pages built-in GH integration had silently stalled 6h.
 - [hermes-mobile-safety-may27.md](hermes-mobile-safety-may27.md) â€” **May 27** Hermes mobile-safety layer LIVE: `/kill` switch gates all 12 crons + bridge writes, approvals table with TTL tokens (`/approve <id>`), `mode` column on `loop_action_records`, per-chat sequential queue in bridge.mjs. Foundation for the Pocket/Assistant/Operator router spec.
 - [project_visible-ads-may27.md](project_visible-ads-may27.md) â€” **May 27** Visible Ads LAUNCHED on visible-ads.com. CF Pages + 2 Workers (www redirect, forms). Full rebrand, domain migration from Wix, CF Email Routing for form delivery.
 - [seo-local-sites-audit-may26.md](seo-local-sites-audit-may26.md) â€” **May 26** 5 local SEO sites audited+fixed (design, favicons, StaticForms, a11y). index-pusher tool deployed to VPS (daily 07:00 cron). 87 URLs GSC+IndexNow.
