@@ -77,7 +77,42 @@ Technical only: redirects, sitemap, schema, IndexNow, CWV. No title/meta/content
 ### Stable-no-action
 Skip to Step 6. Log reason: *"no action — [specific stable signals]"*.
 
+## Step 3.5 — Approval Gate (protected sites)
+
+Before dispatching, classify the selected action and read the site's `PROTECTED` flag (`sites-registry.json`; default `true` for any site with non-zero monthly revenue or known organic traffic).
+
+**Action classes:**
+
+| Class | Actions | On a PROTECTED site |
+|-------|---------|---------------------|
+| **Safe** (reversible, low quality-risk) | redirects, 404 fixes, schema, IndexNow, internal links, CWV, noindex-thin, sitemap | Dispatch normally → Step 4 |
+| **Content-mutating** (Google re-evaluates quality) | CTR/title/meta rewrite, `content_enrich`, content refresh, new-content generation | **Requires an `/approve` token — do NOT dispatch without one** |
+
+If the action is **Safe**, or the site is **not** `PROTECTED` → skip this step, go to Step 4.
+
+If the action is **content-mutating AND the site is `PROTECTED`** → do NOT dispatch. Instead:
+
+1. Build a proposal card:
+   ```
+   PROPOSE [SITE] — [action] on [N] pages
+   Why:      [state, signal, target URLs driving this]
+   Expected: [metric this should move, e.g. CTR on /x/ 0.4%→>1%]
+   Risk:     [recovery/cliff? template size? prior delta of this action on this site]
+   Token:    [TTL token, default 24h] — reply  /approve <token>  to ship
+   ```
+2. Send the card **once** via the existing `/approve` channel (Telegram). Append it to `pending-approvals.json` in memory.
+3. Log the iteration as `pending-approval: [action]` (Step 6) and reschedule (Step 8). Do **not** `ScheduleWakeup` the action — it fires only when the token is redeemed.
+4. On a later wake carrying `/approve <token>`: verify the token is unexpired and unconsumed, consume it (log token id + approver + ISO time to the action record), then run Step 4 for that approved action only. An expired/absent token → proposal lapses; re-propose next iteration only if the signal still holds.
+
+**Hard blocks (a token cannot override these):**
+- `content_enrich` / content rewrite while the site is in **Recovery** state or within **14d of a cliff**. This is the shecookssheeats failure mode — enrichment during a quality dip deepened the collapse (5-6k→1.5k impr/day, May 23). Technical (Safe) actions only; diagnose-and-wait on content.
+- A **second** content-mutating cycle on the same PROTECTED site requires a **fresh** token even if the first was approved — approval is per-action, never standing authority. Before re-proposing, the prior same-class action's signal delta must be non-negative after cooldown (else it's blacklisted per Step 0.5 / auto-rollback).
+
+This gate is the propose→approve→log contract (agent-core CONSTRAINTS) applied to live-site content — not just to the agent editing itself.
+
 ## Step 4 — Dispatch Improvement Agent
+
+Reached only for **Safe** actions, **non-PROTECTED** sites, or a content-mutating action whose `/approve` token was redeemed in Step 3.5.
 
 Use `Agent` with `subagent_type=general-purpose`, foreground (block until done). Brief:
 

@@ -1,7 +1,7 @@
 ---
 name: seo-monitor-loop
-description: Use when running a scheduled SEO monitoring iteration. Two modes — **triage** (no site arg, picks the one portfolio site most deserving attention today) and **per-site** (site arg, runs the full loop on it). Pulls GSC + Bing, classifies state (recovery/growth/maintenance/monetize/stable), selects one high-ROI action mapped to a skill, dispatches an agent, validates + deploys with auto-rollback, writes to a daily digest, and reschedules with cadence based on state. Triggered by RemoteTrigger, ScheduleWakeup, or /seo-monitor-loop.
-version: 1.0.0
+description: Use when running a scheduled SEO monitoring iteration. Two modes — **triage** (no site arg, picks the one portfolio site most deserving attention today) and **per-site** (site arg, runs the full loop on it). Pulls GSC + Bing, classifies state (recovery/growth/maintenance/monetize/stable), selects one high-ROI action mapped to a skill, gates content edits on protected revenue sites behind an /approve token (Step 3.5), dispatches an agent, validates + deploys with auto-rollback, writes to a daily digest, and reschedules with cadence based on state. Triggered by RemoteTrigger, ScheduleWakeup, or /seo-monitor-loop.
+version: 1.1.0
 ---
 
 # SEO Monitor Loop
@@ -55,6 +55,7 @@ CF_PROJECT:         example-site
 GSC_MCP:            gsc-sunnypat81 | gsc-2012infinite | gsc | gsc-figment
 EMAIL:              2012.infinite@gmail.com
 WEEKLY_CTR_BUDGET:  20   # max pages rewritten across iterations in rolling 7d
+PROTECTED:          true # live revenue site — content-mutating actions need an /approve token (Step 3.5). Default true for any site with non-zero monthly revenue or known organic traffic.
 SHADOW_MODE:        true # see Shadow Mode section; flip to false after calibration window ends
 SHADOW_UNTIL:       2026-05-02 # ISO date; after this, loop can deploy autonomously
 ```
@@ -76,8 +77,11 @@ digraph seo_loop {
   "Pull data" -> "Diagnose" [label="full data"];
   "Pull data" -> "Diagnose (partial, flag)" [label="partial"];
   "Diagnose" -> "Classify state";
-  "Classify state" -> "Dispatch agent" [label="actionable signal"];
+  "Classify state" -> "Approval gate" [label="actionable signal"];
   "Classify state" -> "Log 'no action'" [label="stable"];
+  "Approval gate" -> "Dispatch agent" [label="safe action OR valid /approve token"];
+  "Approval gate" -> "Queue proposal + /approve card" [label="content edit on PROTECTED site, no token"];
+  "Queue proposal + /approve card" -> "Log + email";
   "Dispatch agent" -> "Deploy + validate";
   "Deploy + validate" -> "Log + email";
   "Log 'no action'" -> "Log + email";
@@ -157,6 +161,9 @@ After Step 0.5 decided to proceed, that file is your execution guide.
 | Deploy via GitHub → wrangler, never direct upload | feedback_autonomous_deploy |
 | StaticForms key always `sf_9e906eb6c00416b9d3354749` | feedback_staticforms_key |
 | No ads/monetisation until traffic stable | feedback_no_premature_adsense |
+| Content-mutating actions (CTR/title/meta rewrite, content_enrich, refresh, new content) on a `PROTECTED` site require an `/approve` TTL token before dispatch — never auto-shipped (Step 3.5) | shecookssheeats enrichment collapse, May 23 |
+| `content_enrich` / content rewrite is blocked entirely while a PROTECTED site is in **Recovery** state or within **14d of a cliff** — token cannot override | Same + Quick Diagnosis cliff rule |
+| A second content-mutating cycle on the same PROTECTED site needs a **fresh** token even if the first was approved — approval is per-action, never standing | Step 3.5 |
 | `/pre-completion-validation` mandatory before claiming done | feedback_pre_completion_validation |
 | Absolute ISO dates in every log entry | auto-memory rule |
 
