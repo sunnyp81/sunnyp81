@@ -36,7 +36,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 | seo-guildford.uk | Â£0 | **May 26 â€” audited+fixed+indexed.** Same session. | Monitor GSC June 9. |
 | seo-leeds.uk | Â£0 | **May 26 â€” audited+fixed+indexed.** Same session. | Monitor GSC June 9. |
 | geooptimised.com | Â£0 | **May 26 â€” GSC added (sunnypat81), sitemap submitted, Bing site added, Hermes T4 registered** (`dbad5af`). Astro 5. Repo `sunnyp81/geooptimised`, local `C:\Users\sunny\repos\geooptimised`. VPS clone exists. | Bing CNAME verify + submit sitemap. Monitor GSC June 9. |
-| theseshbars.com | Â£TBD | **May 25 â€” Hermes T1 autonomous loop live**. 54 pages, 17 new + 45 internal links + GSC verified + IndexNow live. Hermes runs daily 10:00 UTC (ctr_rewrite/faq_schema/content_enrich/indexnow, 5d cooldown). Target: pos 1 for "bar hire london" (currently 65.9). See [theseshbars-rank-goal.md](theseshbars-rank-goal.md). | **Passive â€” Hermes owns loop**. Telegram alerts on action ship. Dashboard: hermes.aifor.tech:8443. |
+| theseshbars.com | Â£TBD | **Jun 2 â€” MAJOR SESSION.** Migration fixes (404 page, GA4 `G-JEM2V4FTSW`, 80 redirects, homepage loop fixed). 6 case studies + 19 Instagram images. AI SEO audit (38/100): entity fixed (Reading not London, founder Hemal Patel named, Org+Person schema). 9 CTR title rewrites. Sticky WhatsApp + InlineQuote CTAs on 9 blog pages. `/mobile-bar-hire-reading/` page. 63 pages total. See [theseshbars-jun2-session.md](theseshbars-jun2-session.md). | **Monitor:** GA4 Jun 9, Bing CTR Jun 16, GSC positions Jun 23. **Hemal TODO:** list on Hitched/Bridebook/Bark/Poptop, get Google reviews. |
 
 **Current total: ~Â£350/mo | Target: Â£2,000/mo by Dec 2026**
 
