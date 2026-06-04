@@ -6,6 +6,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 > If Sunny starts a session without a task, propose the top item from the action queue below.
 
 - [No em dashes in content](feedback_no-em-dashes-in-content.md) â€” never use â€” or â€“ in anything I write; commas/colons/hyphens only (AI tell + Ã¢â‚¬ mojibake).
+- [thebestmowers makeover Jun 4](thebestmowers-makeover-jun4.md) â€” Phase 1 cordless makeover pushed (d54f626), flagship hub built, tag fixed to thebestmowers-21. **OPEN: CF deploy not live (check prod branch=main), then DNS cutover.**
 
 ## Revenue Streams â€” Current Monthly
 
