@@ -5,6 +5,8 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 > Claude: Every session, check this file first. Push the highest-ROI action. Hold Sunny accountable.
 > If Sunny starts a session without a task, propose the top item from the action queue below.
 
+- [No em dashes in content](feedback_no-em-dashes-in-content.md) â€” never use â€” or â€“ in anything I write; commas/colons/hyphens only (AI tell + Ã¢â‚¬ mojibake).
+
 ## Revenue Streams â€” Current Monthly
 
 | Stream | Monthly | Status | Next Action |
