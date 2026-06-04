@@ -1,0 +1,102 @@
+diff --git a/src/components/Nav.astro b/src/components/Nav.astro
+index 1297ee2..b70a84d 100644
+--- a/src/components/Nav.astro
++++ b/src/components/Nav.astro
+@@ -2,7 +2,7 @@
+ import { site } from '../data/site';
+ import { mainNav } from '../data/navigation';
+ ---
+-<header id="siteNav" class="fixed top-0 left-0 right-0 z-[100] h-[64px] transition-all duration-300" style="background: rgba(255,251,235,0.92); backdrop-filter: blur(16px) saturate(180%); -webkit-backdrop-filter: blur(16px) saturate(180%); border-bottom: 1px solid rgba(212,200,150,0.5);">
++<header id="siteNav" class="fixed top-0 left-0 right-0 z-[100] h-[64px] transition-all duration-300" style="background: var(--nav-bg); backdrop-filter: blur(16px) saturate(180%); -webkit-backdrop-filter: blur(16px) saturate(180%); border-bottom: 1px solid var(--nav-border);">
+   <div class="wrap h-full flex items-center justify-between">
+     <a href="/" class="flex items-center gap-2.5 no-underline flex-shrink-0 group">
+       <svg width="32" height="32" viewBox="0 0 28 28" fill="none" aria-hidden="true" class="transition-transform duration-200 group-hover:scale-105">
+@@ -56,7 +56,7 @@ import { mainNav } from '../data/navigation';
+   </div>
+ </header>
+ 
+-<nav id="mobile-menu" class="hidden md:hidden fixed top-[64px] left-0 right-0 bottom-0 z-[99] overflow-y-auto" style="background: rgba(255,251,235,0.98); backdrop-filter: blur(20px);" aria-label="Mobile">
++<nav id="mobile-menu" class="hidden md:hidden fixed top-[64px] left-0 right-0 bottom-0 z-[99] overflow-y-auto" style="background: var(--menu-bg); backdrop-filter: blur(20px);" aria-label="Mobile">
+   <div class="px-6 py-6 space-y-1">
+     {mainNav.map((item) => (
+       <a href={item.href} class="mobile-nav-link block py-3 px-4 rounded-xl text-[15px] font-medium no-underline transition-all duration-200" style="color: var(--color-ink);" onmouseover="this.style.background='rgba(212,200,150,0.2)';" onmouseout="this.style.background='transparent';">
+@@ -84,20 +84,20 @@ import { mainNav } from '../data/navigation';
+   const iconOpen = document.getElementById('menu-icon-open');
+   const iconClose = document.getElementById('menu-icon-close');
+ 
+-  const isDark = () => document.documentElement.classList.contains('dark');
+-
++  // Backgrounds are theme-aware CSS variables (--nav-bg / --menu-bg), so the
++  // header and menu render correctly on first paint in either theme. The JS
++  // below only swaps to the scrolled variant; it never hardcodes a light colour.
+   const updateNavBg = () => {
+     if (!nav) return;
+     const scrolled = window.scrollY > 10;
+-    if (isDark()) {
+-      nav.style.background = scrolled ? 'rgba(11,18,32,0.96)' : 'rgba(11,18,32,0.92)';
+-      nav.style.borderBottomColor = scrolled ? 'rgba(31,42,68,0.8)' : 'rgba(31,42,68,0.4)';
+-      nav.style.boxShadow = scrolled ? '0 1px 20px rgba(0,0,0,0.3)' : 'none';
+-    } else {
+-      nav.style.background = scrolled ? 'rgba(255,251,235,0.96)' : 'rgba(255,251,235,0.92)';
+-      nav.style.borderBottomColor = scrolled ? 'rgba(212,200,150,0.7)' : 'rgba(212,200,150,0.5)';
+-      nav.style.boxShadow = scrolled ? '0 1px 16px rgba(30,41,59,0.06)' : 'none';
+-    }
++    nav.style.background = scrolled ? 'var(--nav-bg-scrolled)' : 'var(--nav-bg)';
++    nav.style.borderBottomColor = scrolled ? 'var(--nav-border-scrolled)' : 'var(--nav-border)';
++    nav.style.boxShadow = scrolled ? 'var(--nav-shadow-scrolled)' : 'none';
++  };
++
++  const updateMobileBg = () => {
++    if (!menu) return;
++    menu.style.background = 'var(--menu-bg)';
+   };
+ 
+   window.addEventListener('scroll', updateNavBg, { passive: true });
+@@ -105,14 +105,10 @@ import { mainNav } from '../data/navigation';
+   const mo = new MutationObserver(() => { updateNavBg(); updateMobileBg(); });
+   mo.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+ 
+-  const updateMobileBg = () => {
+-    if (!menu) return;
+-    if (isDark()) {
+-      menu.style.background = 'rgba(11,18,32,0.98)';
+-    } else {
+-      menu.style.background = 'rgba(255,251,235,0.98)';
+-    }
+-  };
++  // Sync state on load so the scrolled variant is applied if the page is
++  // restored mid-scroll (the default state already matches the CSS variables).
++  updateNavBg();
++  updateMobileBg();
+ 
+   const toggleMenu = () => {
+     const expanded = toggle?.getAttribute('aria-expanded') === 'true';
+diff --git a/src/styles/global.css b/src/styles/global.css
+index d0130c1..85c3762 100644
+--- a/src/styles/global.css
++++ b/src/styles/global.css
+@@ -50,8 +50,24 @@
+   --shadow-violet: 0 4px 20px rgba(124,58,237,0.25);
+ }
+ 
++/* Nav + mobile menu backgrounds — theme-aware so first paint is correct in dark mode */
++:root {
++  --nav-bg: rgba(255,251,235,0.92);
++  --nav-bg-scrolled: rgba(255,251,235,0.96);
++  --nav-border: rgba(212,200,150,0.5);
++  --nav-border-scrolled: rgba(212,200,150,0.7);
++  --nav-shadow-scrolled: 0 1px 16px rgba(30,41,59,0.06);
++  --menu-bg: rgba(255,251,235,0.98);
++}
++
+ /* Dark mode */
+ html.dark {
++  --nav-bg: rgba(11,18,32,0.92);
++  --nav-bg-scrolled: rgba(11,18,32,0.96);
++  --nav-border: rgba(31,42,68,0.4);
++  --nav-border-scrolled: rgba(31,42,68,0.8);
++  --nav-shadow-scrolled: 0 1px 20px rgba(0,0,0,0.3);
++  --menu-bg: rgba(11,18,32,0.98);
+   --color-bg: #0b1220;
+   --color-bg-2: #111a2e;
+   --color-ink: #f8fafc;
