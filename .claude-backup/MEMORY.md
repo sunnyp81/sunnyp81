@@ -100,6 +100,7 @@ See [master-builds.md](master-builds.md) â€” full table with CF/Vercel acco
 
 ## Sunny's Day Job
 - [Figment Agency](user_figment-agency.md) â€” Full-time, 2 years, managing 13 clients. Primary time constraint. All side work fits around this.
+- [Figment pod-lead experience](figment-pod-lead-experience.md) â€” has run an SEO pod (team + clients) at Figment; lead with this in leadership interviews, not solo-only framing.
 
 ## Quick Reference
 
