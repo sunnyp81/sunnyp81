@@ -6,6 +6,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 > If Sunny starts a session without a task, propose the top item from the action queue below.
 
 - [No em dashes in content](feedback_no-em-dashes-in-content.md) â€” never use â€” or â€“ in anything I write; commas/colons/hyphens only (AI tell + Ã¢â‚¬ mojibake).
+- [Hummingbird Jun5 unblock](hummingbird-jun5-unblock.md) â€” **Jun 5.** 8 staging pages mojibake-fixed; GA4 90d analysis (no conversion tracking, AEO ~230 sessions) + 3 AEO/GTM deliverables; Mike UNBLOCK â€” template found (page 24625 /social-media-marketing-services-peterborough/, Elementor master to clone), Cloudways access incoming. Next: prod WP/SFTP login â†’ clone template + publish drafts + deploy llms.txt.
 - [Email opt-out standard](feedback_email-optout-standard.md) â€” every email-sending site needs one-click unsubscribe + suppression; run email-compliance skill before writing/deploying email code (built Jun 5 after selflandlord/Gary STOP breach).
 - [thebestmowers makeover Jun 4](thebestmowers-makeover-jun4.md) â€” Phase 1 cordless makeover pushed (d54f626), flagship hub built, tag fixed to thebestmowers-21. **OPEN: CF deploy not live (check prod branch=main), then DNS cutover.**
 - [EmailIt â†’ StaticForms replacement](emailit-staticforms-replacement.md) â€” EmailIt AppSumo Tier 1 LTD (buying Jun 5). Worker-fronted form delivery + app transactional. **NEXT: after purchase + domain verify, build reusable Worker, pilot one site.**
