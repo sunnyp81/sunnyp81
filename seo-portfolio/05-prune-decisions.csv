@@ -1,0 +1,28 @@
+site,tier,visibility_score,clicks_28d,impressions_28d,query_count,page_count,gsc_property,decision,reason
+techloved.com,T2,21.1,0,93,14,41,sc-domain:techloved.com,CUT,Zero clicks and impressions collapsing (93 imp, down from a higher base with -14 position delta); 41 pages but no query traction after launch. Tech-review niche is brutally competitive; not strategic.
+aifor.tech,T3,16.2,0,15,2,2,sc-domain:aifor.tech,CUT,Effectively empty: 2 pages, 2 queries, 15 impressions, 0 clicks. No content depth and no signal. Let expire.
+towrating.net,T3,0,0,0,0,0,sc-domain:towrating.org,CONSOLIDATE,Duplicate domain pointing at the SAME GSC property (sc-domain:towrating.org) as towrating.org. Redirect 301 to towrating.org and drop this domain.
+towrating.org,T3,0,0,0,0,0,sc-domain:towrating.org,CUT,Canonical of the towrating pair but still completely dead: 0 pages, 0 impressions, 0 queries. No content shipped. Cut unless content is imminent; if kept, host all content here and redirect .net.
+aifor.property,T4,17.2,0,52,14,2,sc-domain:aifor.property,CUT,Only 2 pages, 0 clicks, 52 impressions; thin AI-property tool with no traction. Not strategic. Let expire.
+areaiq.uk,T4,15.1,0,11,1,1,sc-domain:areaiq.uk,CUT,Single page, 1 query, 11 impressions, 0 clicks. No content base. Let expire.
+auditweb.site,T4,7.8,0,59,2,1,sc-domain:auditweb.site,CUT,One page, 2 queries, impressions falling (-58%), 0 clicks, position ~68. No traction. Cut.
+bookkeepingflow.com,T4,27.1,1,254,10,92,sc-domain:bookkeepingflow.com,KEEP,Early signal: 92 pages indexed-scale content with impressions GROWING +694% (254 vs 32 prior) and 10 queries forming. Re-evaluate in 90 days.
+breedhealth.org,T4,33.8,1,1205,59,448,sc-domain:breedhealth.org,KEEP,Sizeable footprint (448 pages, 59 queries, 1205 impressions, +73% imp growth). Indexing/ranking is maturing; 1 click but real impression base. Re-evaluate in 90 days.
+carrecallhq.com,T4,11.8,0,14,4,6,sc-domain:carrecallhq.com,CUT,6 pages, 14 impressions, 0 clicks, impressions declining. Recall-data niche dominated by OEM/gov sites. Not strategic. Cut.
+checkamover.com,T4,29.8,1,475,9,20,sc-domain:checkamover.com,KEEP,Impressions rising +85% (475 vs 257), 9 queries across 20 pages. Early but trending up. Re-evaluate in 90 days.
+claimwatt.com,T4,22.0,0,1,0,1,sc-domain:claimwatt.com,CUT,1 page, 1 impression, 0 queries, 0 clicks. No content. Let expire.
+clinicaltrialhub.org,T4,24.3,1,133,10,34,sc-domain:clinicaltrialhub.org,CUT,34 pages but impressions falling -52%, 1 click, low query depth. YMYL medical niche needs E-E-A-T it lacks. Cut or noindex.
+complain.report,T4,23.2,0,209,12,8,sc-domain:complain.report,KEEP,Impressions growing +30% (209 vs 161), 12 queries on only 8 pages. Small but trending up. Re-evaluate in 90 days.
+fixerror.dev,T4,15.8,0,6,1,1,sc-domain:fixerror.dev,CUT,Single page, 1 query, 6 impressions, 0 clicks. No content base. Let expire.
+formhq.org,T4,26.6,0,177,2,24,sc-domain:formhq.org,CUT,24 pages but only 2 queries and 0 clicks; position delta -57.9 shows ranking deteriorating. Weak signal. Cut or noindex.
+generator.express,T4,22.0,0,1,0,4,sc-domain:generator.express,CUT,4 pages, 0 queries, impressions collapsed -97% (1 vs 29), 0 clicks. Dead. Let expire.
+merch.observer,T4,0,0,0,0,0,sc-domain:merch.observer,CUT,Completely empty: 0 pages, 0 impressions, 0 queries, no sitemap submitted. Never launched. Let expire.
+mobileautomechanic.uk,T4,12.6,0,17,5,1,sc-domain:mobileautomechanic.uk,CUT,Single page, 17 impressions, 0 clicks. No content depth for a local-service play. Cut.
+postcode.page,T4,6.3,0,42,3,39,sc-domain:postcode.page,CUT,39 pages but impressions collapsed -97% (42 vs 1315) and position delta -28.8; ranking lost. Postcode/data niche owned by giants. Cut or noindex.
+punchfoods.com,T4,19.2,0,83,28,21,sc-domain:punchfoods.com,CUT,21 pages, 28 queries but impressions falling -78%, 0 clicks. Calorie/food niche saturated. Declining, not strategic. Cut.
+radon.tips,T4,8.5,0,69,26,23,sc-domain:radon.tips,CUT,Impressions collapsed -98% (69 vs 3912), 0 clicks now. Lost prior ranking; no recovery signal. Cut.
+scopepitch.com,T4,10.8,0,11,1,4,sc-domain:scopepitch.com,CUT,4 pages, 1 query, impressions down -81%, 0 clicks. No traction. Let expire.
+template.how,T4,25.0,0,3,0,1,sc-domain:template.how,CUT,1 page, 0 queries, 3 impressions, 0 clicks. No content. Let expire.
+text.taxi,T4,6.0,0,3,1,2,sc-domain:text.taxi,CUT,2 pages, 1 query, impressions down -90%, 0 clicks. Dead. Let expire.
+wagearea.com,T4,18.6,0,263,159,18,sc-domain:wagearea.com,CUT,Despite 159 queries, impressions collapsed -99% (263 vs 25368) and position delta -19; severe ranking loss. Likely deindexed/penalized. Cut or investigate then noindex.
+zoningbase.com,T4,27.5,0,8,0,1,sc-domain:zoningbase.com,CUT,1 page, 0 queries, 8 impressions, 0 clicks. No content. Let expire.
