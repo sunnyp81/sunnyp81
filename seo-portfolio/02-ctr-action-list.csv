@@ -1,0 +1,282 @@
+rank,site,page,position,impressions,clicks,expected_ctr,potential_clicks,click_gap,priority,notes
+1,deadhangs.com,https://deadhangs.com/dead-hang-time-by-age/,6.94,21641,330,0.03,319.23,-10.77,P1,
+2,deadhangs.com,https://deadhangs.com/dead-hang-world-record/,8.23,11491,77,0.03,267.73,190.73,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+3,nomadranker.com,https://nomadranker.com/cities/cusco/cost-of-living/,7.9,5799,0,0.03,173.97,173.97,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+4,rentalyield.uk,https://rentalyield.uk/council/bromsgrove/,6.73,5106,0,0.03,153.18,153.18,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+5,waterhard.uk,https://waterhard.uk/water-company/thames-water/,6.16,5060,19,0.03,132.8,113.8,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+6,waterhard.uk,https://waterhard.uk/region/london/,7.5,3497,28,0.03,76.91,48.91,P1,
+7,waterhard.uk,https://waterhard.uk/water-company/affinity-water/,6.94,1694,4,0.03,46.82,42.82,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+8,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/local-seo-statistics/,9.73,1625,3,0.03,45.75,42.75,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+9,deadhangs.com,https://deadhangs.com/dead-hang-time-by-age/#percentile-chart,7.48,1327,0,0.03,39.81,39.81,P1,"anchor-fragment (consolidate, not own title)"
+10,deadhangs.com,https://deadhangs.com/dead-hang-time-by-age/#average-times,7.5,1274,0,0.03,38.22,38.22,P1,"anchor-fragment (consolidate, not own title)"
+11,waterhard.uk,https://waterhard.uk/water-company/severn-trent/,7.43,1538,8,0.03,38.14,30.14,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+12,deadhangs.com,https://deadhangs.com/dead-hang-time-by-age/#male-standards,7.55,1226,0,0.03,36.78,36.78,P1,"anchor-fragment (consolidate, not own title)"
+13,waterhard.uk,https://waterhard.uk/water-company/united-utilities/,7.83,1383,6,0.03,35.49,29.49,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+14,waterhard.uk,https://waterhard.uk/water-company/yorkshire-water/,7.9,1399,9,0.03,32.97,23.97,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+15,waterhard.uk,https://waterhard.uk/water-company/welsh-water/,6.15,1251,9,0.03,28.53,19.53,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+16,waterhard.uk,https://waterhard.uk/region/wales/,6.71,983,2,0.03,27.49,25.49,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+17,deadhangs.com,https://deadhangs.com/dead-hang-time-by-age/#female-standards,7.84,909,0,0.03,27.27,27.27,P1,"anchor-fragment (consolidate, not own title)"
+18,rentalyield.uk,https://rentalyield.uk/buy-to-let/sunderland/,4.48,387,0,0.07,27.09,27.09,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+19,rentalyield.uk,https://rentalyield.uk/buy-to-let/manchester/,7.37,864,0,0.03,25.92,25.92,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+20,bestvibrationplates.co.uk,https://bestvibrationplates.co.uk/can-cause-diarrhea/,7.93,1312,14,0.03,25.36,11.36,P1,
+21,rentalyield.uk,https://rentalyield.uk/buy-to-let/liverpool/,7.02,839,0,0.03,25.17,25.17,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+22,deadhangs.com,https://deadhangs.com/dead-hang-time-by-age/#age-decline,8.28,835,0,0.03,25.05,25.05,P1,"anchor-fragment (consolidate, not own title)"
+23,calculator.place,https://calculator.place/math/average-calculator/,11.74,2338,0,0.01,23.38,23.38,P2,
+24,waterhard.uk,https://waterhard.uk/water-company/south-west-water/,6.86,972,6,0.03,23.16,17.16,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+25,redlighttherapy.expert,https://redlighttherapy.expert/platinumled-review/,15.55,2156,0,0.01,21.56,21.56,P2,
+26,rentalyield.uk,https://rentalyield.uk/buy-to-let/nottingham/,4.22,313,2,0.07,19.91,17.91,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+27,waterhard.uk,https://waterhard.uk/water-company/south-east-water/,6.55,968,10,0.03,19.04,9.04,P1,
+28,redlighttherapy.expert,https://redlighttherapy.expert/omnilux-review/,7.27,628,0,0.03,18.84,18.84,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+29,bestvibrationplates.co.uk,https://bestvibrationplates.co.uk/vibration-plate-after-hip-replacement-guide/,8.18,627,2,0.03,16.81,14.81,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+30,rentalyield.uk,https://rentalyield.uk/buy-to-let/luton/,7.55,550,0,0.03,16.5,16.5,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+31,nomadranker.com,https://nomadranker.com/cities/cebu/cost-of-living/,6.04,521,0,0.03,15.63,15.63,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+32,waterhard.uk,https://waterhard.uk/area/oxford/,4.27,285,5,0.07,14.95,9.95,P1,
+33,waterhard.uk,https://waterhard.uk/region/east-midlands/,3.95,242,2,0.07,14.94,12.94,P1,
+34,waterhard.uk,https://waterhard.uk/region/yorkshire/,9.34,583,3,0.03,14.49,11.49,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+35,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/butter/,8.18,612,4,0.03,14.36,10.36,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+36,waterhard.uk,https://waterhard.uk/water-company/wessex-water/,6.19,540,2,0.03,14.2,12.2,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+37,waterhard.uk,https://waterhard.uk/region/east-of-england/,6.44,527,2,0.03,13.81,11.81,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+38,rentalyield.uk,https://rentalyield.uk/buy-to-let/london,6.93,445,0,0.03,13.35,13.35,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+39,redlighttherapy.expert,https://redlighttherapy.expert/conditions/eye-research/,6.61,437,0,0.03,13.11,13.11,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+40,epc.report,https://epc.report/council/ashford/,9.48,425,0,0.03,12.75,12.75,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+41,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/ai-search-statistics/,10.27,1374,1,0.01,12.74,11.74,P2,
+42,nomadranker.com,https://nomadranker.com/cities/santa-teresa/,6.19,457,1,0.03,12.71,11.71,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+43,colourlabelprinter.com,https://colourlabelprinter.com/best-printer-for-infrequent-use/,12.65,2354,11,0.01,12.54,1.54,P2,
+44,waterhard.uk,https://waterhard.uk/ox29/,3.05,133,1,0.1,12.3,11.3,P1,
+45,waterhard.uk,https://waterhard.uk/region/south-east/,9.61,473,2,0.03,12.19,10.19,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+46,redlighttherapy.expert,https://redlighttherapy.expert/hooga-hg200-review/,7.76,606,6,0.03,12.18,6.18,P1,
+47,shecookssheeats.co.uk,https://shecookssheeats.co.uk/guides/speed-foods/,11.44,1212,0,0.01,12.12,12.12,P2,
+48,redlighttherapy.expert,https://redlighttherapy.expert/protocols/,6.91,394,0,0.03,11.82,11.82,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+49,waterhard.uk,https://waterhard.uk/county/west-midlands/,9.71,422,1,0.03,11.66,10.66,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+50,waterhard.uk,https://waterhard.uk/region/north-east/,4.76,253,1,0.05,11.65,10.65,P1,
+51,waterhard.uk,https://waterhard.uk/water-company/southern-water/,6.53,688,9,0.03,11.64,2.64,P1,
+52,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/nuts/,8.56,519,4,0.03,11.57,7.57,P1,
+53,deadhangs.com,https://deadhangs.com/dead-hang-world-record/#current-record,7.22,385,0,0.03,11.55,11.55,P1,"anchor-fragment (consolidate, not own title)"
+54,deadhangs.com,https://deadhangs.com/dead-hang-world-record/#male-records,7.21,379,0,0.03,11.37,11.37,P1,"anchor-fragment (consolidate, not own title)"
+55,waterhard.uk,https://waterhard.uk/area/newport/,2.78,123,1,0.1,11.3,10.3,P1,
+56,waterhard.uk,https://waterhard.uk/se1/,3.93,175,1,0.07,11.25,10.25,P1,
+57,waterhard.uk,https://waterhard.uk/water-company/northumbrian-water/,5.92,667,9,0.03,11.01,2.01,P1,
+58,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/honey/,8.38,398,1,0.03,10.94,9.94,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+59,waterhard.uk,https://waterhard.uk/water-company/ses-water/,8.15,430,2,0.03,10.9,8.9,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+60,waterhard.uk,https://waterhard.uk/area/newcastle-upon-tyne/,5.21,292,4,0.05,10.6,6.6,P1,
+61,nomadranker.com,https://nomadranker.com/cities/bariloche/cost-of-living/,6.75,347,0,0.03,10.41,10.41,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+62,rentalyield.uk,https://rentalyield.uk/council/east-suffolk/,2.65,104,0,0.1,10.4,10.4,P1,
+63,redlighttherapy.expert,https://redlighttherapy.expert/aura-mask-review/,8.08,343,0,0.03,10.29,10.29,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+64,rentalyield.uk,https://rentalyield.uk/buy-to-let/oxford/,4.98,197,0,0.05,9.85,9.85,P1,
+65,salarydata.co.uk,https://salarydata.co.uk/location/aberdeen/,9.28,359,1,0.03,9.77,8.77,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+66,redlighttherapy.expert,https://redlighttherapy.expert/novaalab-review/,9.86,422,3,0.03,9.66,6.66,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+67,rentalyield.uk,https://rentalyield.uk/buy-to-let/liverpool,7.71,321,0,0.03,9.63,9.63,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+68,redlighttherapy.expert,https://redlighttherapy.expert/newkey-mask-review/,7.89,384,2,0.03,9.52,7.52,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+69,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/pineapple/,7.0,378,2,0.03,9.34,7.34,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+70,rentalyield.uk,https://rentalyield.uk/buy-to-let/derby/,4.77,180,0,0.05,9.0,9.0,P1,
+71,redlighttherapy.expert,https://redlighttherapy.expert/mito-red-light-review/,14.75,882,0,0.01,8.82,8.82,P2,
+72,nomadranker.com,https://nomadranker.com/cities/abidjan/cost-of-living/,8.28,292,0,0.03,8.76,8.76,P1,
+73,nomadranker.com,https://nomadranker.com/cities/brno/cost-of-living/,7.35,290,0,0.03,8.7,8.7,P1,
+74,redlighttherapy.expert,https://redlighttherapy.expert/ihome-mask-review/#red-mode-630640nm,5.45,194,1,0.05,8.7,7.7,P1,"anchor-fragment (consolidate, not own title)"
+75,deadhangs.com,https://deadhangs.com/dead-hang-world-record/#record-history,7.22,281,0,0.03,8.43,8.43,P1,"anchor-fragment (consolidate, not own title)"
+76,colourlabelprinter.com,https://colourlabelprinter.com/printer-required-royal-mail-services/#what-does-printer-required-mean,3.85,120,0,0.07,8.4,8.4,P1,"anchor-fragment (consolidate, not own title)"
+77,waterhard.uk,https://waterhard.uk/area/manchester/,5.59,575,9,0.03,8.25,-0.75,P1,
+78,deadhangs.com,https://deadhangs.com/dead-hang-world-record/#female-records,7.21,275,0,0.03,8.25,8.25,P1,"anchor-fragment (consolidate, not own title)"
+79,rentalyield.uk,https://rentalyield.uk/buy-to-let/blackpool/,4.21,117,0,0.07,8.19,8.19,P1,
+80,colourlabelprinter.com,https://colourlabelprinter.com/printer-required-royal-mail-services/#which-royal-mail-services-require-a-printer,3.81,116,0,0.07,8.12,8.12,P1,"anchor-fragment (consolidate, not own title)"
+81,colourlabelprinter.com,https://colourlabelprinter.com/printer-required-royal-mail-services/#the-qr-code-alternative-no-printer-needed,3.62,115,0,0.07,8.05,8.05,P1,"anchor-fragment (consolidate, not own title)"
+82,waterhard.uk,https://waterhard.uk/region/south-west/,7.56,300,1,0.03,8.0,7.0,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+83,colourlabelprinter.com,https://colourlabelprinter.com/printer-required-royal-mail-services/#other-ways-to-post-without-a-printer,3.57,114,0,0.07,7.98,7.98,P1,"anchor-fragment (consolidate, not own title)"
+84,waterhard.uk,https://waterhard.uk/water-company/portsmouth-water/,7.09,399,4,0.03,7.97,3.97,P1,
+85,colourlabelprinter.com,https://colourlabelprinter.com/printer-required-royal-mail-services/#what-type-of-printer-do-you-need,3.5,113,0,0.07,7.91,7.91,P1,"anchor-fragment (consolidate, not own title)"
+86,shecookssheeats.co.uk,https://shecookssheeats.co.uk/weetabix-syns/,14.64,888,1,0.01,7.88,6.88,P2,
+87,bestvibrationplates.co.uk,https://bestvibrationplates.co.uk/vibration-plate-problems-troubleshooting-fixes/,8.09,628,11,0.03,7.84,-3.16,P1,
+88,redlighttherapy.expert,https://redlighttherapy.expert/best-amazon-red-light-therapy/,7.83,259,0,0.03,7.77,7.77,P1,
+89,catchment.school,https://catchment.school/area/swansea/,6.96,324,2,0.03,7.72,5.72,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+90,shecookssheeats.co.uk,https://shecookssheeats.co.uk/mango-syns/,7.43,290,1,0.03,7.7,6.7,P1,
+91,redlighttherapy.expert,https://redlighttherapy.expert/theralight-review/,9.17,322,2,0.03,7.66,5.66,P1,SERP-feature suspicion (AIO/PAA/snippet eating clicks)
+92,waterhard.uk,https://waterhard.uk/county/cheshire/,4.96,192,2,0.05,7.6,5.6,P1,
+93,waterhard.uk,https://waterhard.uk/region/north-west/,9.91,281,1,0.03,7.43,6.43,P1,
+94,waterhard.uk,https://waterhard.uk/region/west-midlands/,9.25,281,1,0.03,7.43,6.43,P1,
+95,redlighttherapy.expert,https://redlighttherapy.expert/best-red-light-therapy-devices/,14.62,839,1,0.01,7.39,6.39,P2,
+96,waterhard.uk,https://waterhard.uk/county/hampshire/,5.34,186,2,0.05,7.3,5.3,P1,
+97,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/brand-not-appearing-in-chatgpt/,7.29,237,0,0.03,7.11,7.11,P1,
+98,rentalyield.uk,https://rentalyield.uk/buy-to-let/southampton/,3.66,115,1,0.07,7.05,6.05,P1,
+99,rentalyield.uk,https://rentalyield.uk/buy-to-let/plymouth/,4.44,100,0,0.07,7.0,7.0,P1,
+100,waterhard.uk,https://waterhard.uk/county/essex/,6.0,298,2,0.03,6.94,4.94,P1,
+101,waterhard.uk,https://waterhard.uk/area/liverpool/,5.03,318,9,0.05,6.9,-2.1,P1,
+102,redlighttherapy.expert,https://redlighttherapy.expert/biomax-series/,9.84,229,0,0.03,6.87,6.87,P1,
+103,waterhard.uk,https://waterhard.uk/area/cambridge/,6.25,259,1,0.03,6.77,5.77,P1,
+104,salarydata.co.uk,https://salarydata.co.uk/salary/barrister/,18.58,874,2,0.01,6.74,4.74,P2,
+105,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-14-gram-raisins/,6.0,253,1,0.03,6.59,5.59,P1,
+106,deadhangs.com,https://deadhangs.com/deadhang-guide/,13.1,955,3,0.01,6.55,3.55,P2,
+107,nomadranker.com,https://nomadranker.com/cities/cebu/,5.21,131,0,0.05,6.55,6.55,P1,
+108,waterhard.uk,https://waterhard.uk/county/kent/,5.78,279,2,0.03,6.37,4.37,P1,
+109,waterhard.uk,https://waterhard.uk/area/warrington/,3.92,133,3,0.07,6.31,3.31,P1,
+110,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/value-website-organic-traffic/,6.78,209,0,0.03,6.27,6.27,P1,
+111,redlighttherapy.expert,https://redlighttherapy.expert/best-medical-grade-red-light-therapy/,19.73,625,0,0.01,6.25,6.25,P2,
+112,nomadranker.com,https://nomadranker.com/cities/koh-phangan/cost-of-living/,7.38,235,1,0.03,6.05,5.05,P1,
+113,waterhard.uk,https://waterhard.uk/county/cornwall/,5.13,137,1,0.05,5.85,4.85,P1,
+114,waterhard.uk,https://waterhard.uk/county/greater-manchester/,5.18,137,1,0.05,5.85,4.85,P1,
+115,redlighttherapy.expert,https://redlighttherapy.expert/panel-wattage-guide/,7.47,221,1,0.03,5.63,4.63,P1,
+116,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/weetabix/,13.78,742,2,0.01,5.42,3.42,P2,
+117,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-parmesan/,5.82,211,1,0.03,5.33,4.33,P1,
+118,colourlabelprinter.com,https://colourlabelprinter.com/epson-vs-hp-printers/,19.24,532,0,0.01,5.32,5.32,P2,
+119,calculator.place,https://calculator.place/health/ideal-weight-calculator/,9.62,177,0,0.03,5.31,5.31,P1,
+120,shecookssheeats.co.uk,https://shecookssheeats.co.uk/low-syn-crisps/,17.48,617,1,0.01,5.17,4.17,P2,
+121,redlighttherapy.expert,https://redlighttherapy.expert/novothor-review/,10.22,616,1,0.01,5.16,4.16,P2,
+122,waterhard.uk,https://waterhard.uk/area/preston/,3.96,159,6,0.07,5.13,-0.87,P1,
+123,shecookssheeats.co.uk,https://shecookssheeats.co.uk/bachelors-pasta-sauce-syns/,15.36,502,0,0.01,5.02,5.02,P2,
+124,redlighttherapy.expert,https://redlighttherapy.expert/conditions/floaters/,8.55,166,0,0.03,4.98,4.98,P1,
+125,catchment.school,https://catchment.school/school/manor-church-of-england-academy-136544/,3.56,113,3,0.07,4.91,1.91,P1,
+126,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-almonds/,9.62,195,1,0.03,4.85,3.85,P1,
+127,catchment.school,https://catchment.school/guides/school-admissions-timeline/,9.81,227,2,0.03,4.81,2.81,P1,
+128,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-magnum/,8.69,225,2,0.03,4.75,2.75,P1,
+129,salarydata.co.uk,https://salarydata.co.uk/location/nottingham/,9.85,158,0,0.03,4.74,4.74,P1,
+130,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/content-marketing-statistics,7.2,156,0,0.03,4.68,4.68,P1,
+131,nomadranker.com,https://nomadranker.com/cities/dumaguete/cost-of-living/,8.59,156,0,0.03,4.68,4.68,P1,
+132,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/walkers-crisps/,12.41,561,1,0.01,4.61,3.61,P2,
+133,bestvibrationplates.co.uk,https://bestvibrationplates.co.uk/can-use-period/,10.97,457,0,0.01,4.57,4.57,P2,
+134,redlighttherapy.expert,https://redlighttherapy.expert/best-red-light-therapy-panels/,19.08,556,1,0.01,4.56,3.56,P2,
+135,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/fridge-raiders/,9.25,182,1,0.03,4.46,3.46,P1,
+136,nomadranker.com,https://nomadranker.com/cities/busan/cost-of-living/,8.88,182,1,0.03,4.46,3.46,P1,
+137,rentalyield.uk,https://rentalyield.uk/buy-to-let/newcastle/,6.04,148,0,0.03,4.44,4.44,P1,
+138,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-jacobs-crackers/,7.8,179,1,0.03,4.37,3.37,P1,
+139,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/ai-search-statistics,5.67,145,0,0.03,4.35,4.35,P1,
+140,redlighttherapy.expert,https://redlighttherapy.expert/celluma-review/,12.96,432,0,0.01,4.32,4.32,P2,
+141,waterhard.uk,https://waterhard.uk/area/nottingham/,6.16,177,1,0.03,4.31,3.31,P1,
+142,catchment.school,https://catchment.school/council/swansea/,6.75,377,7,0.03,4.31,-2.69,P1,
+143,supplementcheck.org,https://supplementcheck.org/,8.51,241,3,0.03,4.23,1.23,P1,
+144,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/local-seo-berkshire-guide/,9.55,140,0,0.03,4.2,4.2,P1,
+145,colourlabelprinter.com,https://colourlabelprinter.com/printer-required-royal-mail-services/,8.56,340,6,0.03,4.2,-1.8,P1,
+146,aiagentic.news,https://aiagentic.news/,17.93,514,1,0.01,4.14,3.14,P2,
+147,waterhard.uk,https://waterhard.uk/county/bedfordshire/,5.28,102,1,0.05,4.1,3.1,P1,
+148,waterhard.uk,https://waterhard.uk/area/bristol/,7.7,203,2,0.03,4.09,2.09,P1,
+149,nomadranker.com,https://nomadranker.com/cities/crete/cost-of-living/,8.11,166,1,0.03,3.98,2.98,P1,
+150,waterhard.uk,https://waterhard.uk/water-company/scottish-water/,10.39,895,5,0.01,3.95,-1.05,P2,
+151,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/seo-statistics-uk/,10.81,586,2,0.01,3.86,1.86,P2,
+152,waterhard.uk,https://waterhard.uk/cb23/,7.49,228,3,0.03,3.84,0.84,P1,
+153,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-malted-milk/,9.94,161,1,0.03,3.83,2.83,P1,
+154,redlighttherapy.expert,https://redlighttherapy.expert/best-red-light-therapy-brands/,19.23,383,0,0.01,3.83,3.83,P2,
+155,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/how-much-does-an-seo-consultant-charge-uk/,15.48,482,1,0.01,3.82,2.82,P2,
+156,waterhard.uk,https://waterhard.uk/area/lincoln/,4.46,111,4,0.07,3.77,-0.23,P1,
+157,redlighttherapy.expert,https://redlighttherapy.expert/beauty-angel-review/,10.35,769,4,0.01,3.69,-0.31,P2,
+158,waterhard.uk,https://waterhard.uk/area/bournemouth/,6.61,155,1,0.03,3.65,2.65,P1,
+159,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/chia-seeds/,9.17,154,1,0.03,3.62,2.62,P1,
+160,shecookssheeats.co.uk,https://shecookssheeats.co.uk/are-energy-drinks-syn-free/,6.9,187,2,0.03,3.61,1.61,P1,
+161,rentalyield.uk,https://rentalyield.uk/buy-to-let/hull,10.93,358,0,0.01,3.58,3.58,P2,
+162,redlighttherapy.expert,https://redlighttherapy.expert/best-anti-aging-masks/,8.15,119,0,0.03,3.57,3.57,P1,
+163,rentalyield.uk,https://rentalyield.uk/buy-to-let/bristol/,6.16,152,1,0.03,3.56,2.56,P1,
+164,waterhard.uk,https://waterhard.uk/county/cumbria/,4.74,151,4,0.05,3.55,-0.45,P1,
+165,waterhard.uk,https://waterhard.uk/nw5/,7.2,151,1,0.03,3.53,2.53,P1,
+166,redlighttherapy.expert,https://redlighttherapy.expert/currentbody-mask-review/,11.47,451,1,0.01,3.51,2.51,P2,
+167,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/bread/,16.9,449,1,0.01,3.49,2.49,P2,
+168,waterhard.uk,https://waterhard.uk/area/southampton/,7.9,183,2,0.03,3.49,1.49,P1,
+169,waterhard.uk,https://waterhard.uk/county/staffordshire/,6.19,149,1,0.03,3.47,2.47,P1,
+170,nomadranker.com,https://nomadranker.com/cities/abidjan/internet/,6.81,115,0,0.03,3.45,3.45,P1,
+171,nomadranker.com,https://nomadranker.com/cities/dakar/internet/,5.57,115,0,0.03,3.45,3.45,P1,
+172,redlighttherapy.expert,https://redlighttherapy.expert/omnilux-mask-review/,18.82,342,0,0.01,3.42,3.42,P2,
+173,shecookssheeats.co.uk,https://shecookssheeats.co.uk/ham-syns/,9.71,113,0,0.03,3.39,3.39,P1,
+174,nomadranker.com,https://nomadranker.com/cities/boracay/cost-of-living/,7.88,112,0,0.03,3.36,3.36,P1,
+175,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/yogurts/,18.7,735,4,0.01,3.35,-0.65,P2,
+176,salarydata.co.uk,https://salarydata.co.uk/salary/risk-manager/,15.1,334,0,0.01,3.34,3.34,P2,
+177,redlighttherapy.expert,https://redlighttherapy.expert/conditions/under-eye/,9.8,111,0,0.03,3.33,3.33,P1,
+178,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-muller-corner/,13.03,432,1,0.01,3.32,2.32,P2,
+179,salarydata.co.uk,https://salarydata.co.uk/location/reading/,7.78,109,0,0.03,3.27,3.27,P1,
+180,nomadranker.com,https://nomadranker.com/cities/baku/cost-of-living/,8.39,107,0,0.03,3.21,3.21,P1,
+181,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-walnuts/,7.06,173,2,0.03,3.19,1.19,P1,
+182,nomadranker.com,https://nomadranker.com/cities/da-nang/internet/,7.21,106,0,0.03,3.18,3.18,P1,
+183,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/inhouse-seo-vs-agency-vs-consultant/,9.22,139,1,0.03,3.17,2.17,P1,
+184,shecookssheeats.co.uk,https://shecookssheeats.co.uk/guides/speed-food-guide/,5.84,105,0,0.03,3.15,3.15,P1,
+185,shecookssheeats.co.uk,https://shecookssheeats.co.uk/how-many-syns-in-a-slice-of-black-pudding/,7.66,104,0,0.03,3.12,3.12,P1,
+186,nomadranker.com,https://nomadranker.com/cities/asuncion/cost-of-living/,8.14,104,0,0.03,3.12,3.12,P1,
+187,nomadranker.com,https://nomadranker.com/cities/davao/internet/,5.8,104,0,0.03,3.12,3.12,P1,
+188,salarydata.co.uk,https://salarydata.co.uk/salary/gp/london/,9.29,103,0,0.03,3.09,3.09,P1,
+189,redlighttherapy.expert,https://redlighttherapy.expert/bontanny-review/,9.04,301,6,0.03,3.03,-2.97,P1,
+190,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/hot-dog/,8.86,134,1,0.03,3.02,2.02,P1,
+191,sunnypatel.co.uk,https://sunnypatel.co.uk/services/seo-wokingham/,13.94,301,0,0.01,3.01,3.01,P2,
+192,heatpumpchecker.co.uk,https://heatpumpchecker.co.uk/b64/,6.25,100,0,0.03,3.0,3.0,P1,
+193,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/raisins/,6.27,133,1,0.03,2.99,1.99,P1,
+194,redlighttherapy.expert,https://redlighttherapy.expert/hooga-hg300-review/,10.72,281,0,0.01,2.81,2.81,P2,
+195,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/mini-cheddars/,7.74,160,2,0.03,2.8,0.8,P1,
+196,waterhard.uk,https://waterhard.uk/county/nottinghamshire/,5.29,116,3,0.05,2.8,-0.2,P1,
+197,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-flaxseed/,5.55,258,5,0.03,2.74,-2.26,P1,
+198,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-walkers-crisps/,12.32,370,1,0.01,2.7,1.7,P2,
+199,waterhard.uk,https://waterhard.uk/ex2/,6.31,156,2,0.03,2.68,0.68,P1,
+200,catchment.school,https://catchment.school/area/cardiff/,7.15,221,4,0.03,2.63,-1.37,P1,
+201,rentalyield.uk,https://rentalyield.uk/ox1/,5.8,119,1,0.03,2.57,1.57,P1,
+202,catchment.school,https://catchment.school/council/wokingham/,9.3,151,2,0.03,2.53,0.53,P1,
+203,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-skips/,16.77,352,1,0.01,2.52,1.52,P2,
+204,bestvibrationplates.co.uk,https://bestvibrationplates.co.uk/linear-oscillating-dual-vibration-plates-comparison/,13.38,248,0,0.01,2.48,2.48,P2,
+205,colourlabelprinter.com,https://colourlabelprinter.com/is-asa-food-safe/,7.98,249,5,0.03,2.47,-2.53,P1,
+206,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-peaches/,6.87,115,1,0.03,2.45,1.45,P1,
+207,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/peaches/,7.21,248,5,0.03,2.44,-2.56,P1,
+208,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-philadelphia-light/,15.64,342,1,0.01,2.42,1.42,P2,
+209,sunnypatel.co.uk,https://sunnypatel.co.uk/services/amazon-seo-consultant/,15.85,242,0,0.01,2.42,2.42,P2,
+210,shecookssheeats.co.uk,https://shecookssheeats.co.uk/how-many-syns-butter/,10.92,240,0,0.01,2.4,2.4,P2,
+211,redlighttherapy.expert,https://redlighttherapy.expert/conditions/hair-growth-studies/,13.63,239,0,0.01,2.39,2.39,P2,
+212,catchment.school,https://catchment.school/council/solihull/,9.79,146,2,0.03,2.38,0.38,P1,
+213,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/prunes/,6.61,179,3,0.03,2.37,-0.63,P1,
+214,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/medjool-dates/,7.32,178,3,0.03,2.34,-0.66,P1,
+215,redlighttherapy.expert,https://redlighttherapy.expert/lumebox-review/,12.19,632,4,0.01,2.32,-1.68,P2,
+216,redlighttherapy.expert,https://redlighttherapy.expert/conditions/hair-growth/,14.78,230,0,0.01,2.3,2.3,P2,
+217,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-chicken-goujons/,6.7,108,1,0.03,2.24,1.24,P1,
+218,waterhard.uk,https://waterhard.uk/county/norfolk/,5.82,141,2,0.03,2.23,0.23,P1,
+219,drugnote.com,https://drugnote.com/compare/cyclobenzaprine-vs-diclofenac/,6.5,107,1,0.03,2.21,1.21,P1,
+220,redlighttherapy.expert,https://redlighttherapy.expert/hooga-review/,19.1,216,0,0.01,2.16,2.16,P2,
+221,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/nature-valley-bar/,8.69,171,3,0.03,2.13,-0.87,P1,
+222,redlighttherapy.expert,https://redlighttherapy.expert/dennis-gross-mask-review/,19.7,211,0,0.01,2.11,2.11,P2,
+223,nomadranker.com,https://nomadranker.com/cities/chiang-mai/cost-of-living/,10.43,210,0,0.01,2.1,2.1,P2,
+224,redlighttherapy.expert,https://redlighttherapy.expert/dpl-review/,10.61,208,0,0.01,2.08,2.08,P2,
+225,nomadranker.com,https://nomadranker.com/cities/da-nang/cost-of-living/,10.35,199,0,0.01,1.99,1.99,P2,
+226,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-rice-cakes/,12.94,495,3,0.01,1.95,-1.05,P2,
+227,redlighttherapy.expert,https://redlighttherapy.expert/bestqool-review/,19.15,294,1,0.01,1.94,0.94,P2,
+228,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-gordons-pink-gin/,17.95,291,1,0.01,1.91,0.91,P2,
+229,sunnypatel.co.uk,https://sunnypatel.co.uk/services/seo-wokingham,11.85,191,0,0.01,1.91,1.91,P2,
+230,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/how-long-does-seo-take/,13.77,187,0,0.01,1.87,1.87,P2,
+231,colourlabelprinter.com,https://colourlabelprinter.com/best-printer-for-infrequent-use/#top-5-printers-for-infrequent-use,10.23,185,0,0.01,1.85,1.85,P2,"anchor-fragment (consolidate, not own title)"
+232,shecookssheeats.co.uk,https://shecookssheeats.co.uk/how-many-syns-in-a-slice-of-white-bread/,18.49,180,0,0.01,1.8,1.8,P2,
+233,sunnypatel.co.uk,https://sunnypatel.co.uk/services/google-algorithm-update-recovery/,19.93,178,0,0.01,1.78,1.78,P2,
+234,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/milk/,11.76,376,2,0.01,1.76,-0.24,P2,
+235,waterhard.uk,https://waterhard.uk/area/york/,9.81,125,2,0.03,1.75,-0.25,P1,
+236,sunnypatel.co.uk,https://sunnypatel.co.uk/blog/how-many-keywords,19.64,173,0,0.01,1.73,1.73,P2,
+237,rentalyield.uk,https://rentalyield.uk/buy-to-let/bradford/,10.16,172,0,0.01,1.72,1.72,P2,
+238,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-chips/,13.38,269,1,0.01,1.69,0.69,P2,
+239,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/rice-cakes/,11.88,267,1,0.01,1.67,0.67,P2,
+240,formhq.org,https://formhq.org/insurance/cleaning-business/california/,16.67,167,0,0.01,1.67,1.67,P2,
+241,shecookssheeats.co.uk,https://shecookssheeats.co.uk/how-many-syns-artificial-sweetener/,11.5,266,1,0.01,1.66,0.66,P2,
+242,catchment.school,https://catchment.school/area/milton-keynes/,8.7,121,2,0.03,1.63,-0.37,P1,
+243,shecookssheeats.co.uk,https://shecookssheeats.co.uk/cuppa-soups-syn-free/,12.14,162,0,0.01,1.62,1.62,P2,
+244,shecookssheeats.co.uk,https://shecookssheeats.co.uk/light-coconut-milk-syns/,13.49,162,0,0.01,1.62,1.62,P2,
+245,catchment.school,https://catchment.school/council/cheshire-west-and-chester/,8.76,119,2,0.03,1.57,-0.43,P1,
+246,salarydata.co.uk,https://salarydata.co.uk/salary/content-manager/,16.26,156,0,0.01,1.56,1.56,P2,
+247,waterhard.uk,https://waterhard.uk/bn1/,5.67,118,2,0.03,1.54,-0.46,P1,
+248,redlighttherapy.expert,https://redlighttherapy.expert/clearlight-review/,15.22,153,0,0.01,1.53,1.53,P2,
+249,shecookssheeats.co.uk,https://shecookssheeats.co.uk/how-many-syns-quavers/,11.87,147,0,0.01,1.47,1.47,P2,
+250,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-snack-jacks/,10.63,246,1,0.01,1.46,0.46,P2,
+251,colourlabelprinter.com,https://colourlabelprinter.com/best-printer-for-infrequent-use/#laser-vs-inkjet-for-occasional-use,10.33,144,0,0.01,1.44,1.44,P2,"anchor-fragment (consolidate, not own title)"
+252,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-savoury-rice/,18.6,242,1,0.01,1.42,0.42,P2,
+253,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-bourbon-biscuit/,11.15,238,1,0.01,1.38,0.38,P2,
+254,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/philadelphia/,10.52,335,2,0.01,1.35,-0.65,P2,
+255,redlighttherapy.expert,https://redlighttherapy.expert/conditions/eyebrow-growth/,10.97,134,0,0.01,1.34,1.34,P2,
+256,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-canderel-sweetener/,9.7,110,2,0.03,1.3,-0.7,P1,
+257,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns/crackers/,11.51,227,1,0.01,1.27,0.27,P2,
+258,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-porridge-pots/,16.06,225,1,0.01,1.25,0.25,P2,
+259,redlighttherapy.expert,https://redlighttherapy.expert/deluxeskin-mask-review/,12.66,125,0,0.01,1.25,1.25,P2,
+260,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-blueberries/,10.02,224,1,0.01,1.24,0.24,P2,
+261,colourlabelprinter.com,https://colourlabelprinter.com/best-3d-printer-for-kids/,15.48,123,0,0.01,1.23,1.23,P2,
+262,rentalyield.uk,https://rentalyield.uk/buy-to-let/stoke-on-trent,16.14,121,0,0.01,1.21,1.21,P2,
+263,sunnypatel.co.uk,https://sunnypatel.co.uk/services/woocommerce-seo-consultant,15.65,117,0,0.01,1.17,1.17,P2,
+264,waterhard.uk,https://waterhard.uk/ox2/,6.63,105,2,0.03,1.15,-0.85,P1,
+265,rentalyield.uk,https://rentalyield.uk/buy-to-let/nottingham,18.0,112,0,0.01,1.12,1.12,P2,
+266,shecookssheeats.co.uk,https://shecookssheeats.co.uk/bananas-syn/,18.86,110,0,0.01,1.1,1.1,P2,
+267,salarydata.co.uk,https://salarydata.co.uk/location/cardiff/,19.04,210,1,0.01,1.1,0.1,P2,
+268,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-pataks-curry-paste/,7.47,103,2,0.03,1.09,-0.91,P1,
+269,shecookssheeats.co.uk,https://shecookssheeats.co.uk/best/walkers-crisps-slimming-world/,14.38,108,0,0.01,1.08,1.08,P2,
+270,salarydata.co.uk,https://salarydata.co.uk/company/astrazeneca/salaries/,8.99,102,2,0.03,1.06,-0.94,P1,
+271,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-popcorn-kernels/,17.37,204,1,0.01,1.04,0.04,P2,
+272,bestvibrationplates.co.uk,https://bestvibrationplates.co.uk/vibration-plate-g-force-explained-guide/,13.23,103,0,0.01,1.03,1.03,P2,
+273,nomadranker.com,https://nomadranker.com/cities/abidjan/,14.27,102,0,0.01,1.02,1.02,P2,
+274,colourlabelprinter.com,https://colourlabelprinter.com/best-printer-for-infrequent-use/#why-infrequent-printing-kills-inkjets,10.4,101,0,0.01,1.01,1.01,P2,"anchor-fragment (consolidate, not own title)"
+275,waterhard.uk,https://waterhard.uk/ng80/,5.83,100,2,0.03,1.0,-1.0,P1,
+276,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-oat-so-simple-sachets/,14.9,194,1,0.01,0.94,-0.06,P2,
+277,shecookssheeats.co.uk,https://shecookssheeats.co.uk/how-many-syns-in-tesco-rice-cakes/,18.86,188,1,0.01,0.88,-0.12,P2,
+278,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-tilda-basmati-rice/,11.69,170,1,0.01,0.7,-0.3,P2,
+279,deadhangs.com,https://deadhangs.com/,11.79,167,1,0.01,0.67,-0.33,P2,
+280,shecookssheeats.co.uk,https://shecookssheeats.co.uk/syns-hellmans-light-mayonnaise/,12.96,166,1,0.01,0.66,-0.34,P2,
+281,planningleads.org,https://planningleads.org/planning/reading/,15.43,161,1,0.01,0.61,-0.39,P2,
