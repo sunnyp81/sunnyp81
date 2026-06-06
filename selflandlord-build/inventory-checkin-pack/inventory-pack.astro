@@ -1,0 +1,150 @@
+---
+// Drop into the SelfLandlord repo at: src/pages/templates/inventory-pack.astro
+// Route: /templates/inventory-pack/
+//
+// WIRING (do in selflandlord repo, mirrors the tenancy-agreement page):
+//   1. Import the real site Layout (path below is a placeholder).
+//   2. Add a paid-pack / LemonSqueezy product for this pack and set BUY_URL.
+//   3. Zip the three documents in documents/ into the private paid-pack and
+//      add an entry to the ASSETS map in src/pages/api/subscribe.ts so the
+//      free single-doc (inventory) can also be drip-delivered as a lead magnet.
+//   4. Add this page to the nav + sitemap + internal links from
+//      /templates/tenancy-agreement/ (cross-sell: "next, protect the deposit").
+import Layout from "../../layouts/Layout.astro"; // TODO: confirm real Layout path
+
+const TITLE = "Landlord Inventory & Check-In / Check-Out Pack (UK 2026)";
+const DESCRIPTION =
+  "Renters' Rights Act 2025 compliant inventory, check-in and check-out templates for UK self-managing landlords. Win deposit disputes with dated, signed evidence. Instant download.";
+const PRICE = "9";          // single pack
+const BUNDLE_URL = "/pack/"; // existing Complete Landlord Pack upsell
+const BUY_URL = "#";         // TODO: LemonSqueezy Share/Buy URL
+
+const whatsInside = [
+  "Property Inventory & Schedule of Condition — full room-by-room record with condition + cleanliness keys, meters, keys and alarm-test log.",
+  "Check-In Report — meter readings, key handover and the tenant's signed acceptance (with a 7-day amendment window).",
+  "Check-Out Report — side-by-side condition comparison, fair-wear-and-tear vs damage, and an itemised deposit-deduction sheet.",
+];
+
+const faqs = [
+  {
+    q: "Is this compliant with the Renters' Rights Act 2025?",
+    a: "Yes. These templates were updated for the Renters' Rights Act 2025 — periodic tenancies are the default and the alarm-testing and deposit rules are reflected throughout. We update them when the law changes.",
+  },
+  {
+    q: "What format are the templates?",
+    a: "Print-ready documents you can complete on screen or print to fill in by hand, then save as PDF. No special software needed — they open in any browser or word processor.",
+  },
+  {
+    q: "Why do I need an inventory?",
+    a: "It is your primary evidence in a deposit dispute. Without a signed, dated inventory and photos, deposit schemes routinely rule in the tenant's favour. This pack covers the full start-to-end-of-tenancy paper trail.",
+  },
+  {
+    q: "Does this cover Scotland, Wales or Northern Ireland?",
+    a: "These are written for England. Tenancy law differs elsewhere in the UK, so check your local rules. The templates are general guidance, not legal advice.",
+  },
+];
+
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: TITLE,
+  description: DESCRIPTION,
+  brand: { "@type": "Brand", name: "SelfLandlord" },
+  offers: {
+    "@type": "Offer",
+    price: PRICE,
+    priceCurrency: "GBP",
+    availability: "https://schema.org/InStock",
+    url: Astro.url.href,
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+---
+
+<Layout title={TITLE} description={DESCRIPTION}>
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <section class="mx-auto max-w-3xl px-5 py-12">
+    <span class="inline-block rounded-full bg-emerald-700 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+      Renters' Rights Act 2025 compliant
+    </span>
+
+    <h1 class="mt-4 text-3xl font-bold leading-tight sm:text-4xl">
+      Landlord Inventory &amp; Check-In / Check-Out Pack
+    </h1>
+    <p class="mt-3 text-lg text-gray-600">
+      The three documents that win deposit disputes. Record the property's
+      condition at the start, get it signed, and prove what changed at the end —
+      with dated, itemised evidence the deposit schemes accept.
+    </p>
+
+    <div class="mt-6 flex flex-wrap items-center gap-4">
+      <a
+        href={BUY_URL}
+        class="rounded-lg bg-emerald-700 px-6 py-3 text-base font-semibold text-white shadow hover:bg-emerald-800"
+      >
+        Buy the pack — £{PRICE}
+      </a>
+      <span class="text-sm text-gray-500">Instant download · England · Updated 2026</span>
+    </div>
+
+    <h2 class="mt-12 text-2xl font-bold">What's inside</h2>
+    <ul class="mt-4 space-y-3">
+      {whatsInside.map((item) => (
+        <li class="flex gap-3">
+          <span class="mt-1 text-emerald-700">✓</span>
+          <span class="text-gray-700">{item}</span>
+        </li>
+      ))}
+    </ul>
+
+    <div class="mt-10 rounded-xl border border-emerald-200 bg-emerald-50 p-6">
+      <h3 class="text-lg font-semibold text-emerald-900">Why landlords lose deposit disputes</h3>
+      <p class="mt-2 text-gray-700">
+        Deposit schemes rule on evidence, not memory. No signed inventory means
+        no proof of the property's original condition — and the deposit goes
+        back to the tenant by default. This pack gives you the signed, dated
+        paper trail from move-in to move-out, plus a check-out sheet that keeps
+        deductions itemised and defensible.
+      </p>
+    </div>
+
+    <!-- Bundle upsell — mirror the MoneyCTA used elsewhere on the site -->
+    <div class="mt-10 rounded-xl border border-gray-200 bg-gray-50 p-6">
+      <h3 class="text-lg font-semibold">Need the full set of landlord paperwork?</h3>
+      <p class="mt-2 text-gray-700">
+        Get this pack plus the tenancy agreement, rent-increase notice, deposit
+        prescribed information and more in the Complete UK Landlord Pack 2026.
+      </p>
+      <a href={BUNDLE_URL} class="mt-4 inline-block font-semibold text-emerald-700 underline">
+        See the Complete Landlord Pack →
+      </a>
+    </div>
+
+    <h2 class="mt-12 text-2xl font-bold">Questions</h2>
+    <dl class="mt-4 space-y-5">
+      {faqs.map((f) => (
+        <div>
+          <dt class="font-semibold text-gray-900">{f.q}</dt>
+          <dd class="mt-1 text-gray-700">{f.a}</dd>
+        </div>
+      ))}
+    </dl>
+
+    <p class="mt-10 text-xs text-gray-400">
+      Provided for general use by self-managing landlords in England under the
+      Renters' Rights Act 2025. Not legal advice. Tenancy law differs in
+      Scotland, Wales and Northern Ireland.
+    </p>
+  </section>
+</Layout>

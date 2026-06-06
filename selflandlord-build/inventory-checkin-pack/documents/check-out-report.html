@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tenancy Check-Out Report</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#555; --line:#d8d8d8; --accent:#0b6b5b; --fill:#fafafa; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, Helvetica, sans-serif; color: var(--ink); margin: 0; line-height: 1.45; font-size: 12px; }
+  .page { max-width: 900px; margin: 0 auto; padding: 28px 32px; }
+  h1 { font-size: 22px; margin: 0 0 2px; }
+  h2 { font-size: 14px; margin: 22px 0 8px; padding-bottom: 4px; border-bottom: 2px solid var(--accent); color: var(--accent); text-transform: uppercase; letter-spacing: .04em; }
+  .sub { color: var(--muted); font-size: 12px; margin: 0 0 14px; }
+  .brand { display:flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid var(--accent); padding-bottom: 8px; }
+  .brand .name { font-weight: 700; color: var(--accent); letter-spacing: .03em; }
+  .pill { display:inline-block; background:var(--accent); color:#fff; font-size:10px; padding:2px 8px; border-radius:10px; letter-spacing:.04em; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0; }
+  th, td { border: 1px solid var(--line); padding: 5px 7px; text-align: left; vertical-align: top; }
+  th { background: #eef4f3; font-weight: 600; font-size: 11px; }
+  .meta th { width: 32%; }
+  .fill td { height: 26px; background: var(--fill); }
+  .cmp th:nth-child(1){width:18%;} .cmp th:nth-child(2){width:30%;} .cmp th:nth-child(3){width:30%;} .cmp th:nth-child(4){width:22%;}
+  .ded th:nth-child(1){width:30%;} .ded th:nth-child(2){width:46%;} .ded th:nth-child(3){width:24%;}
+  .sigrow { display:flex; gap:24px; margin-top:10px; }
+  .sigbox { flex:1; border:1px solid var(--line); padding:10px; min-height:70px; }
+  .sigbox .lbl { font-size:11px; color:var(--muted); }
+  .sigline { border-bottom:1px solid #888; height:26px; margin-top:14px; }
+  .note { background:#fff8e6; border:1px solid #f0d68a; padding:8px 10px; font-size:11px; border-radius:4px; margin:10px 0; }
+  .warn { background:#fdecec; border:1px solid #e7a3a3; }
+  .disclaimer { margin-top:26px; padding-top:10px; border-top:1px solid var(--line); color:var(--muted); font-size:10px; line-height:1.4; }
+  @media print { body{ font-size:11px;} .page{ padding:0; max-width:none;} table{ page-break-inside: avoid;} }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="brand">
+    <span class="name">SELFLANDLORD</span>
+    <span class="pill">Renters' Rights Act 2025 compliant</span>
+  </div>
+
+  <h1>Tenancy Check-Out Report</h1>
+  <p class="sub">Completed at the end of the tenancy. Compares the property against the check-in inventory, separates fair wear and tear from damage, and records any proposed deposit deductions.</p>
+
+  <h2>Details</h2>
+  <table class="meta">
+    <tr><th>Property address</th><td>&nbsp;</td></tr>
+    <tr><th>Tenant name(s)</th><td>&nbsp;</td></tr>
+    <tr><th>Tenancy end date</th><td>&nbsp;</td></tr>
+    <tr><th>Check-out date &amp; time</th><td>&nbsp;</td></tr>
+    <tr><th>Conducted by</th><td>&nbsp;</td></tr>
+    <tr><th>Deposit scheme &amp; reference</th><td>&nbsp;</td></tr>
+  </table>
+
+  <h2>Meters &amp; Keys at Check-Out</h2>
+  <table class="meta fill">
+    <tr><th>Electricity reading + serial</th><td></td></tr>
+    <tr><th>Gas reading + serial</th><td></td></tr>
+    <tr><th>Water reading (if metered)</th><td></td></tr>
+    <tr><th>Keys / fobs returned (sets &amp; type)</th><td></td></tr>
+    <tr><th>Forwarding address for deposit return</th><td></td></tr>
+  </table>
+
+  <h2>Condition Comparison (Check-In vs Check-Out)</h2>
+  <table class="cmp fill">
+    <tr><th>Room / item</th><th>Condition at check-in</th><th>Condition at check-out</th><th>Wear &amp; tear / Damage</th></tr>
+    <tr><td></td><td></td><td></td><td>W&amp;T / Damage</td></tr>
+    <tr><td></td><td></td><td></td><td>W&amp;T / Damage</td></tr>
+    <tr><td></td><td></td><td></td><td>W&amp;T / Damage</td></tr>
+    <tr><td></td><td></td><td></td><td>W&amp;T / Damage</td></tr>
+    <tr><td></td><td></td><td></td><td>W&amp;T / Damage</td></tr>
+    <tr><td></td><td></td><td></td><td>W&amp;T / Damage</td></tr>
+  </table>
+  <div class="note"><strong>Fair wear and tear cannot be charged for.</strong> This is the deterioration expected from reasonable use over the length of the tenancy (e.g. light carpet wear, minor scuffs). Deductions must reflect the property's age and condition at check-in, not a "betterment" upgrade. Support every deduction with the check-in inventory and dated photos.</div>
+
+  <h2>Proposed Deposit Deductions</h2>
+  <table class="ded fill">
+    <tr><th>Item / reason</th><th>Evidence reference (photo / inventory line)</th><th>Amount (£)</th></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td><strong>Total proposed deduction</strong></td><td></td><td></td></tr>
+  </table>
+  <table class="meta fill">
+    <tr><th>Deposit held (£)</th><td></td></tr>
+    <tr><th>Total deductions (£)</th><td></td></tr>
+    <tr><th>Balance to return to tenant (£)</th><td></td></tr>
+  </table>
+
+  <div class="note warn"><strong>Time limit:</strong> Send this report to the tenant promptly (within 7 days of check-out is best practice). Deposit deductions must be agreed with the tenant; unresolved disputes go to the deposit scheme's free adjudication. Do not deduct without itemised evidence.</div>
+
+  <h2>Signatures</h2>
+  <div class="sigrow">
+    <div class="sigbox"><span class="lbl">Tenant signature</span><div class="sigline"></div><span class="lbl">Name &amp; date</span><div class="sigline"></div></div>
+    <div class="sigbox"><span class="lbl">Landlord / agent signature</span><div class="sigline"></div><span class="lbl">Name &amp; date</span><div class="sigline"></div></div>
+  </div>
+
+  <div class="disclaimer">
+    <strong>Important:</strong> For general use by self-managing landlords in England under the Renters' Rights Act 2025. Not legal advice; tenancy law differs in Scotland, Wales and Northern Ireland. Deposit deductions are subject to the rules of your government-approved deposit scheme and must be evidenced. If in doubt, use the scheme's free dispute resolution service. &copy; SelfLandlord.
+  </div>
+
+</div>
+</body>
+</html>

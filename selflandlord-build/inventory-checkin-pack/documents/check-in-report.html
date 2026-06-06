@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tenancy Check-In Report</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#555; --line:#d8d8d8; --accent:#0b6b5b; --fill:#fafafa; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, Helvetica, sans-serif; color: var(--ink); margin: 0; line-height: 1.45; font-size: 12px; }
+  .page { max-width: 900px; margin: 0 auto; padding: 28px 32px; }
+  h1 { font-size: 22px; margin: 0 0 2px; }
+  h2 { font-size: 14px; margin: 22px 0 8px; padding-bottom: 4px; border-bottom: 2px solid var(--accent); color: var(--accent); text-transform: uppercase; letter-spacing: .04em; }
+  .sub { color: var(--muted); font-size: 12px; margin: 0 0 14px; }
+  .brand { display:flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid var(--accent); padding-bottom: 8px; }
+  .brand .name { font-weight: 700; color: var(--accent); letter-spacing: .03em; }
+  .pill { display:inline-block; background:var(--accent); color:#fff; font-size:10px; padding:2px 8px; border-radius:10px; letter-spacing:.04em; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0; }
+  th, td { border: 1px solid var(--line); padding: 5px 7px; text-align: left; vertical-align: top; }
+  th { background: #eef4f3; font-weight: 600; font-size: 11px; }
+  .meta th { width: 32%; }
+  .fill td { height: 26px; background: var(--fill); }
+  .sigrow { display:flex; gap:24px; margin-top:10px; }
+  .sigbox { flex:1; border:1px solid var(--line); padding:10px; min-height:70px; }
+  .sigbox .lbl { font-size:11px; color:var(--muted); }
+  .sigline { border-bottom:1px solid #888; height:26px; margin-top:14px; }
+  .note { background:#fff8e6; border:1px solid #f0d68a; padding:8px 10px; font-size:11px; border-radius:4px; margin:10px 0; }
+  .disclaimer { margin-top:26px; padding-top:10px; border-top:1px solid var(--line); color:var(--muted); font-size:10px; line-height:1.4; }
+  @media print { body{ font-size:11px;} .page{ padding:0; max-width:none;} table{ page-break-inside: avoid;} }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="brand">
+    <span class="name">SELFLANDLORD</span>
+    <span class="pill">Renters' Rights Act 2025 compliant</span>
+  </div>
+
+  <h1>Tenancy Check-In Report</h1>
+  <p class="sub">Completed at the start of the tenancy alongside the signed inventory. Records meter readings, keys, and the tenant's agreement (or noted amendments) to the property's condition.</p>
+
+  <h2>Details</h2>
+  <table class="meta">
+    <tr><th>Property address</th><td>&nbsp;</td></tr>
+    <tr><th>Tenant name(s)</th><td>&nbsp;</td></tr>
+    <tr><th>Tenancy start date</th><td>&nbsp;</td></tr>
+    <tr><th>Check-in date &amp; time</th><td>&nbsp;</td></tr>
+    <tr><th>Conducted by</th><td>&nbsp;</td></tr>
+  </table>
+
+  <h2>Meters &amp; Keys at Check-In</h2>
+  <table class="meta fill">
+    <tr><th>Electricity reading + serial</th><td></td></tr>
+    <tr><th>Gas reading + serial</th><td></td></tr>
+    <tr><th>Water reading (if metered)</th><td></td></tr>
+    <tr><th>Keys / fobs handed over</th><td></td></tr>
+    <tr><th>Smoke &amp; CO alarms tested working with tenant</th><td>Yes / No</td></tr>
+  </table>
+
+  <h2>Inventory Acceptance</h2>
+  <table>
+    <tr><th style="width:60%">Statement</th><th>Tenant response</th></tr>
+    <tr><td>The inventory &amp; schedule of condition is an accurate record of the property as handed over.</td><td>Agree / Amend (see below)</td></tr>
+    <tr><td>Dated photographs have been taken and shared.</td><td>Yes / No</td></tr>
+  </table>
+
+  <h2>Amendments Noted by Tenant</h2>
+  <table class="fill">
+    <tr><th style="width:25%">Room / item</th><th>Discrepancy or condition the tenant wishes to record</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+  <div class="note">The tenant has 7 days from check-in to return any amendments. If none are received, the inventory is treated as agreed.</div>
+
+  <h2>Signatures</h2>
+  <div class="sigrow">
+    <div class="sigbox"><span class="lbl">Tenant signature</span><div class="sigline"></div><span class="lbl">Name &amp; date</span><div class="sigline"></div></div>
+    <div class="sigbox"><span class="lbl">Landlord / agent signature</span><div class="sigline"></div><span class="lbl">Name &amp; date</span><div class="sigline"></div></div>
+  </div>
+
+  <div class="disclaimer">
+    <strong>Important:</strong> For general use by self-managing landlords in England under the Renters' Rights Act 2025. Not legal advice; tenancy law differs in Scotland, Wales and Northern Ireland. Protect the deposit in a government-approved scheme and serve the prescribed information within 30 days. &copy; SelfLandlord.
+  </div>
+
+</div>
+</body>
+</html>

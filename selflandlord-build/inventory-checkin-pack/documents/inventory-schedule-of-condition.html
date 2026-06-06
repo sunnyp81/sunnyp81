@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Property Inventory &amp; Schedule of Condition</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#555; --line:#d8d8d8; --accent:#0b6b5b; --fill:#fafafa; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, Helvetica, sans-serif; color: var(--ink); margin: 0; line-height: 1.45; font-size: 12px; }
+  .page { max-width: 900px; margin: 0 auto; padding: 28px 32px; }
+  h1 { font-size: 22px; margin: 0 0 2px; }
+  h2 { font-size: 14px; margin: 22px 0 8px; padding-bottom: 4px; border-bottom: 2px solid var(--accent); color: var(--accent); text-transform: uppercase; letter-spacing: .04em; }
+  .sub { color: var(--muted); font-size: 12px; margin: 0 0 14px; }
+  .brand { display:flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid var(--accent); padding-bottom: 8px; }
+  .brand .name { font-weight: 700; color: var(--accent); letter-spacing: .03em; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0 4px; }
+  th, td { border: 1px solid var(--line); padding: 5px 7px; text-align: left; vertical-align: top; }
+  th { background: #eef4f3; font-weight: 600; font-size: 11px; }
+  .fill td { height: 26px; background: var(--fill); }
+  .meta th { width: 32%; background:#eef4f3; }
+  .key { font-size: 11px; color: var(--muted); margin: 4px 0 0; }
+  .room th:nth-child(1){ width: 22%; } .room th:nth-child(2){ width:14%; } .room th:nth-child(3){ width:14%; } .room th:nth-child(4){ width:38%; } .room th:nth-child(5){ width:12%; }
+  .sigrow { display:flex; gap:24px; margin-top:10px; }
+  .sigbox { flex:1; border:1px solid var(--line); padding:10px; min-height:70px; }
+  .sigbox .lbl { font-size:11px; color:var(--muted); }
+  .sigline { border-bottom:1px solid #888; height:26px; margin-top:14px; }
+  .note { background:#fff8e6; border:1px solid #f0d68a; padding:8px 10px; font-size:11px; border-radius:4px; margin:10px 0; }
+  .disclaimer { margin-top:26px; padding-top:10px; border-top:1px solid var(--line); color:var(--muted); font-size:10px; line-height:1.4; }
+  .pill { display:inline-block; background:var(--accent); color:#fff; font-size:10px; padding:2px 8px; border-radius:10px; letter-spacing:.04em; }
+  @media print { body{ font-size:11px;} .page{ padding:0; max-width:none;} h2{ page-break-after: avoid;} table{ page-break-inside: avoid;} .room{ page-break-inside: avoid;} a[href]:after{ content:""; } }
+  .pagebreak { page-break-before: always; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="brand">
+    <span class="name">SELFLANDLORD</span>
+    <span class="pill">Renters' Rights Act 2025 compliant</span>
+  </div>
+
+  <h1>Property Inventory &amp; Schedule of Condition</h1>
+  <p class="sub">A dated record of the property's contents and condition at the start of the tenancy. Keep a signed copy and dated photographs. This is your primary evidence in any deposit dispute.</p>
+
+  <h2>Property &amp; Tenancy Details</h2>
+  <table class="meta">
+    <tr><th>Property address</th><td>&nbsp;</td></tr>
+    <tr><th>Tenancy start date</th><td>&nbsp;</td></tr>
+    <tr><th>Landlord / agent name</th><td>&nbsp;</td></tr>
+    <tr><th>Tenant name(s)</th><td>&nbsp;</td></tr>
+    <tr><th>Furnished / unfurnished / part-furnished</th><td>&nbsp;</td></tr>
+    <tr><th>Date inventory prepared</th><td>&nbsp;</td></tr>
+    <tr><th>Prepared by</th><td>&nbsp;</td></tr>
+  </table>
+
+  <h2>Meters, Keys &amp; Safety</h2>
+  <table class="meta">
+    <tr><th>Electricity meter reading + serial</th><td>&nbsp;</td></tr>
+    <tr><th>Gas meter reading + serial</th><td>&nbsp;</td></tr>
+    <tr><th>Water meter reading (if metered)</th><td>&nbsp;</td></tr>
+    <tr><th>Keys / fobs issued (sets &amp; type)</th><td>&nbsp;</td></tr>
+    <tr><th>Smoke alarms present &amp; tested working</th><td>Yes / No &nbsp;&nbsp; No. of alarms: ____</td></tr>
+    <tr><th>Carbon monoxide alarm(s) present &amp; tested</th><td>Yes / No / N/A &nbsp;&nbsp; No.: ____</td></tr>
+  </table>
+  <div class="note"><strong>Legal note:</strong> Working smoke alarms on every storey and a CO alarm in any room with a fixed combustion appliance must be tested on the first day of the tenancy. Record the test here.</div>
+
+  <h2>Condition &amp; Cleanliness Key</h2>
+  <p class="key"><strong>Condition:</strong> N = New &nbsp;|&nbsp; G = Good &nbsp;|&nbsp; F = Fair &nbsp;|&nbsp; P = Poor &nbsp;|&nbsp; D = Damaged &nbsp;&nbsp;&nbsp; <strong>Cleanliness:</strong> PC = Professionally cleaned &nbsp;|&nbsp; C = Clean &nbsp;|&nbsp; M = Marked &nbsp;|&nbsp; U = Unclean</p>
+
+  <!-- Repeat this block per room -->
+  <h2>Room: Entrance / Hallway</h2>
+  <table class="room fill">
+    <tr><th>Item</th><th>Condition</th><th>Cleanliness</th><th>Description / notes</th><th>Photo ref</th></tr>
+    <tr><td>Walls / paintwork</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Ceiling</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Flooring / carpet</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Doors &amp; handles</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Light fittings / switches</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Other</td><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <h2>Room: Living Room</h2>
+  <table class="room fill">
+    <tr><th>Item</th><th>Condition</th><th>Cleanliness</th><th>Description / notes</th><th>Photo ref</th></tr>
+    <tr><td>Walls / paintwork</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Ceiling</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Flooring / carpet</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Windows / blinds / curtains</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Doors &amp; handles</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Radiator / heating</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Furniture (list each item)</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Other</td><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <div class="pagebreak"></div>
+
+  <h2>Room: Kitchen</h2>
+  <table class="room fill">
+    <tr><th>Item</th><th>Condition</th><th>Cleanliness</th><th>Description / notes</th><th>Photo ref</th></tr>
+    <tr><td>Walls / ceiling / flooring</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Worktops &amp; units</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Sink &amp; taps</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Oven / hob / extractor</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Fridge / freezer</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Washing machine / dishwasher</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Other appliances</td><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <h2>Room: Bathroom / WC</h2>
+  <table class="room fill">
+    <tr><th>Item</th><th>Condition</th><th>Cleanliness</th><th>Description / notes</th><th>Photo ref</th></tr>
+    <tr><td>Walls / ceiling / flooring / tiling</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Bath / shower &amp; screen</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Basin &amp; taps</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>WC</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Extractor / sealant</td><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <h2>Room: Bedroom 1</h2>
+  <table class="room fill">
+    <tr><th>Item</th><th>Condition</th><th>Cleanliness</th><th>Description / notes</th><th>Photo ref</th></tr>
+    <tr><td>Walls / ceiling / flooring</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Windows / blinds / curtains</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Doors / wardrobes</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Radiator / heating</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Furniture (list each item)</td><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <div class="note">Duplicate the room blocks above for each additional bedroom, garden, garage, loft, or outbuilding. Delete any rooms that do not apply.</div>
+
+  <h2>Tenant Acknowledgement</h2>
+  <p class="sub">I/we confirm I have received this inventory and that it is an accurate record of the property and its contents at the start of the tenancy, subject to any amendments noted and returned within 7 days.</p>
+  <div class="sigrow">
+    <div class="sigbox"><span class="lbl">Tenant signature</span><div class="sigline"></div><span class="lbl">Name &amp; date</span><div class="sigline"></div></div>
+    <div class="sigbox"><span class="lbl">Landlord / agent signature</span><div class="sigline"></div><span class="lbl">Name &amp; date</span><div class="sigline"></div></div>
+  </div>
+
+  <div class="disclaimer">
+    <strong>Important:</strong> This template is provided for general use by self-managing landlords in England and reflects the law as at the Renters' Rights Act 2025. It is not legal advice. Tenancy law differs in Scotland, Wales and Northern Ireland. Always take dated photographs to accompany this inventory and protect any deposit in a government-approved scheme. If in doubt, seek advice from a qualified solicitor or your local authority. &copy; SelfLandlord.
+  </div>
+
+</div>
+</body>
+</html>
