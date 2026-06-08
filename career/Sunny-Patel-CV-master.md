@@ -26,7 +26,7 @@ SEO strategist with 15 years building, ranking, and monetising websites, now lea
 
 ## Core Skills
 
-**SEO & AI Visibility:** Semantic SEO & Topical Authority · Programmatic SEO (1,000–14,000+ page builds) · AEO/GEO (AI Overviews, ChatGPT, Perplexity, Copilot) · Brand-Consensus Framework · Technical Audits & Site Architecture · Schema Markup (JSON-LD, 25+ via GTM) · Core Update Recovery · Google Search Console · Bing Webmaster Tools · GA4 · Ahrefs · Screaming Frog
+**SEO & AI Visibility:** Semantic SEO & Topical Authority · Programmatic SEO (1,000-14,000+ page builds) · AEO/GEO (AI Overviews, ChatGPT, Perplexity, Copilot) · Brand-Consensus Framework · Technical Audits & Site Architecture · Schema Markup (JSON-LD, 25+ via GTM) · Core Update Recovery · Google Search Console · Bing Webmaster Tools · GA4 · Ahrefs · Screaming Frog
 
 **AI & Engineering:** Claude Code (daily production use) · Autonomous Agent Development · Multi-Agent Orchestration · Astro 5 / Next.js / Cloudflare Workers · Vercel & Cloudflare Pages · GitHub Actions CI/CD · Node.js · Programmatic Data Pipelines
 
@@ -36,8 +36,8 @@ SEO strategist with 15 years building, ranking, and monetising websites, now lea
 
 ## Experience
 
-### SEO Growth Manager — Figment Agency (Remote)
-*March 2024 – Present*
+### SEO Growth Manager, Figment Agency (Remote)
+*March 2024 to Present*
 
 Lead SEO and AI-visibility strategy across 13 concurrent client campaigns; run an SEO pod (team plus client book).
 
@@ -47,36 +47,36 @@ Lead SEO and AI-visibility strategy across 13 concurrent client campaigns; run a
 - Launched YouTube SEO as a new agency revenue line.
 - Lead monthly strategy presentations and own retention across the account book.
 
-### SEO Consultant — Hummingbird, Hospitality Group (Remote, retainer via M&B Marketing)
-*2024 – Present*
+### SEO Consultant, Hummingbird, Hospitality Group (Remote, retainer via M&B Marketing)
+*2024 to Present*
 
 - Deployed 25 structured-data schemas (Service, FAQPage, Article) via a single GTM tag across the production site.
 - Own research, technical SEO, and content strategy; deliverables flow through Google Docs to the in-house build team.
 - Built the strategy-to-implementation handoff so delivery runs without me in every meeting.
 
-### SEO Executive — Totalsurf (Reading)
-*October 2023 – March 2024*
+### SEO Executive, Totalsurf (Reading)
+*October 2023 to March 2024*
 
 - Managed end-to-end SEO for 6 concurrent clients: technical audits, content strategy, link acquisition, digital PR.
 - Built a systematic reporting framework adopted as the agency standard.
 - Achieved page-1 rankings in competitive industries through data-driven keyword targeting.
 
-### Independent SEO Practitioner — Self-Employed
-*2011 – Present*
+### Independent SEO Practitioner, Self-Employed
+*2011 to Present*
 
 15 years building and monetising my own websites: the foundation of everything I do in SEO.
 
 - **44-site portfolio** across multiple niches, monetised via affiliate, display ads, and lead generation, generating consistent monthly revenue from organic traffic.
 - **Programmatic SEO at scale:** architect and deploy large sites (14,400 / 12,600 / 4,700 pages) on Astro 5 + Cloudflare Pages with per-page JSON-LD schema.
-- **Hermes — autonomous SEO agent:** built a production agent on a VPS (Claude AI brain, 14 cron jobs, integrations with Cloudflare, GSC, Bing, Telegram) that monitors performance, detects content decay, executes enrichment, and reports outcomes autonomously.
+- **Hermes, autonomous SEO agent:** built a production agent on a VPS (Claude AI brain, 14 cron jobs, integrations with Cloudflare, GSC, Bing, Telegram) that monitors performance, detects content decay, executes enrichment, and reports outcomes autonomously.
 - **Core update recovery:** diagnosed and shipped targeted recoveries after Google's March 2026 core update, including 200+ thin-page enrichments and 635 redirect fixes recovering 60k impressions/month.
-- **Algorithm resilience:** 15 years surviving every major Google update — Panda, Penguin, Medic, Helpful Content, March 2024 and March 2026 core.
+- **Algorithm resilience:** 15 years surviving every major Google update, Panda, Penguin, Medic, Helpful Content, March 2024 and March 2026 core.
 
 ---
 
 ## Agentic Tooling & Engineering
 
-- **Hermes Agent (production):** autonomous SEO operations — Claude brain, 14 cron jobs, Telegram command interface. Executes content enrichment, CTR rewrites, IndexNow submissions, and portfolio monitoring across 44 sites.
+- **Hermes Agent (production):** autonomous SEO operations, Claude brain, 14 cron jobs, Telegram command interface. Executes content enrichment, CTR rewrites, IndexNow submissions, and portfolio monitoring across 44 sites.
 - **Multi-Agent Orchestration:** deployed a Paperclip-style framework coordinating Claude and Codex workers on concurrent dev tasks with heartbeats, ticket tracking, and budget controls.
 - **Programmatic Pipelines:** GitHub Actions CI/CD for 12+ sites, automated sitemap generation, IndexNow pings, OG image generation via Satori, WordPress REST API content deployment.
 
@@ -84,25 +84,25 @@ Lead SEO and AI-visibility strategy across 13 concurrent client campaigns; run a
 
 ## Earlier Commercial Career (Summary)
 
-15 years in B2B sales and account management before full-time SEO — the reason I think in revenue, not just rankings.
+15 years in B2B sales and account management before full-time SEO, the reason I think in revenue, not just rankings.
 
-- **Internal Sales Specialist — Astro-Med Inc, Slough (2010–2022, 12 years):** promoted within first year; assumed full UK hardware sales responsibility (QuickLabel Systems); consistently exceeded targets across a 12-year tenure.
-- **Earlier (1999–2009):** Team Leader, Mobilink Telecom (promoted in 6 months) · Employee of the Month in first month at Mobile Phones Direct (closed a 52-handset corporate deal) · Office Manager, Kee Photographics · Account Manager, Welcome Financial Services.
+- **Internal Sales Specialist, Astro-Med Inc, Slough (2010-2022, 12 years):** promoted within first year; assumed full UK hardware sales responsibility (QuickLabel Systems); consistently exceeded targets across a 12-year tenure.
+- **Earlier (1999-2009):** Team Leader, Mobilink Telecom (promoted in 6 months) · Employee of the Month in first month at Mobile Phones Direct (closed a 52-handset corporate deal) · Office Manager, Kee Photographics · Account Manager, Welcome Financial Services.
 
 ---
 
 ## Education & Certifications
 
-- **Semantic SEO for Topical Authority** — Holistic SEO & Digital, Micro Semantics Cohort: advanced algorithmic authorship and content optimisation.
-- **Advanced GNVQ in Information Technology** — Greenhill College, 1998–1999.
-- **Intermediate GNVQ in Information Technology** — East Berkshire College, 1997–1998.
+- **Semantic SEO for Topical Authority**, Holistic SEO & Digital, Micro Semantics Cohort: advanced algorithmic authorship and content optimisation.
+- **Advanced GNVQ in Information Technology**, Greenhill College, 1998-1999.
+- **Intermediate GNVQ in Information Technology**, East Berkshire College, 1997-1998.
 
 ---
 
 <!--
 CHANGES vs CV v1.2 (decoded from your PDF), and why:
 1. Removed mentor name-drop ("Koray Tugberk Gubur") from the experience section per your feedback_cv_preferences.md. Kept the genuine credential under Education with its issuing body (Holistic SEO & Digital) only.
-2. Merged the redundant "Freelance SEO Consultant (May 2022–Oct 2023)" entry into "Independent SEO Practitioner (2011–Present)". Two overlapping self-employed entries read as padding and risk a job-hopping flag (52% of recruiters flag frequent changes). The continuous 2011–Present spine neutralises the short Totalsurf stint.
+2. Merged the redundant "Freelance SEO Consultant (May 2022-Oct 2023)" entry into "Independent SEO Practitioner (2011-Present)". Two overlapping self-employed entries read as padding and risk a job-hopping flag (52% of recruiters flag frequent changes). The continuous 2011-Present spine neutralises the short Totalsurf stint.
 3. Added a "Selected Achievements" band up top. Resumes with 5+ quantified achievements get interview requests at ~4.2x the rate of qualitative ones; recruiters eye-track to numbers first.
 4. Added "SEO Pod Leadership" to skills + the Figment role (true per your figment-pod-lead memory) to support Lead/Head-of titles.
 5. Dropped the hobbies/interests line (cooking, Kung Fu, gym) for the master. Recruiters spend ~7s; lead with proof. Add a one-line human note back only for culture-led employers if you want.
