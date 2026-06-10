@@ -4,89 +4,145 @@
 <meta charset="utf-8">
 <title>Sunny Patel - SEO &amp; AI Visibility Strategist</title>
 <style>
-  @page { size: A4; margin: 12mm 14mm; }
+  @page { size: A4; margin: 15mm 18mm 14mm 18mm; }
   * { box-sizing: border-box; }
-  body { font-family:"Calibri","Carlito","Helvetica Neue",Arial,sans-serif; color:#1c1c1c; font-size:10pt; line-height:1.32; margin:0; }
-  .wrap { max-width:760px; margin:0 auto; padding:20px 24px; }
-  h1 { font-size:21pt; margin:0 0 2px; color:#0b2545; letter-spacing:.3px; }
-  .tagline { font-size:10.5pt; color:#134074; font-weight:600; margin:0 0 5px; }
-  .contact { font-size:9pt; color:#555; margin:0; }
-  .contact a { color:#134074; text-decoration:none; }
-  hr.top { border:0; border-top:2px solid #0b2545; margin:8px 0 3px; }
-  h2 { font-size:10pt; text-transform:uppercase; letter-spacing:1px; color:#0b2545; border-bottom:1px solid #b9c6d8; padding-bottom:3px; margin:13px 0 7px; }
-  p { margin:0 0 6px; }
-  ul { list-style:none; margin:0 0 4px; padding:0; }
-  li { margin:0 0 4px; padding-left:15px; position:relative; }
-  li::before { content:"\203A"; position:absolute; left:0; color:#134074; font-weight:700; }
-  .role { margin:9px 0 1px; }
-  .role .title { font-weight:700; color:#0b2545; font-size:10.5pt; }
-  .role .meta { display:block; color:#666; font-size:9pt; margin-top:1px; }
-  .skills p { margin:0 0 5px; }
-  .skills b, .ec b { color:#0b2545; }
-  .small { font-size:9.4pt; }
-  @media print { .wrap { padding:0; } a { color:#134074; } }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Liberation Sans", Arial, "DejaVu Sans", sans-serif;
+    color: #24292e; font-size: 10.5pt; line-height: 1.48;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .name { font-size: 26pt; font-weight: 700; color: #0b2545; letter-spacing: .2px; margin: 0; }
+  .title { font-size: 12pt; font-weight: 600; color: #1f5f8b; margin: 4px 0 0; letter-spacing: .2px; }
+  .contact { font-size: 9.4pt; color: #555; margin: 9px 0 0; }
+  .contact a { color: #1f5f8b; text-decoration: none; }
+  .contact span { color: #c0c0c0; margin: 0 6px; }
+  .headrule { height: 3px; background: #0b2545; margin: 13px 0 0; border: 0; }
+
+  h2 {
+    font-size: 10.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 1.4px;
+    color: #0b2545; margin: 17px 0 9px; padding-bottom: 5px;
+    border-bottom: 1px solid #d4dbe4;
+  }
+  p { margin: 0 0 9px; }
+  .lead { margin: 0 0 2px; }
+
+  .skills { font-size: 10pt; }
+  .skills div { margin: 0 0 9px; padding-left: 96px; position: relative; }
+  .skills div b {
+    position: absolute; left: 0; top: 0; width: 88px;
+    color: #0b2545; font-weight: 700;
+  }
+
+  .role { display: flex; justify-content: space-between; align-items: baseline; margin: 12px 0 3px; }
+  .role:first-of-type { margin-top: 3px; }
+  .role .rt { font-size: 11pt; }
+  .role .rt b { color: #0b2545; font-weight: 700; }
+  .role .rt .co { color: #444; font-weight: 400; }
+  .role .dates { font-size: 9.2pt; color: #6a737d; white-space: nowrap; padding-left: 14px; font-weight: 600; }
+  .sub { font-size: 9.9pt; color: #555; font-style: italic; margin: 0 0 7px; }
+
+  ul { list-style: none; margin: 0 0 8px; padding: 0; }
+  li { position: relative; padding-left: 16px; margin: 0 0 5px; }
+  li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 4px; height: 4px; background: #1f5f8b; border-radius: 50%; }
+  b.k { color: #0b2545; }
+
+  .builds li { padding-left: 16px; }
+  .builds .m { color: #6a737d; }
+  .twoline { font-size: 9.9pt; margin: 0 0 8px; line-height: 1.55; }
+  .twoline b { color: #0b2545; }
 </style>
 </head>
 <body>
-<div class="wrap">
 
-  <h1>Sunny Patel</h1>
-  <div class="tagline">SEO &amp; AI Visibility Strategist · AEO / GEO · Programmatic SEO at Scale</div>
-  <div class="contact">Reading, Berkshire · 07305 523333 · <a href="mailto:Hello@SunnyPatel.co.uk">Hello@SunnyPatel.co.uk</a> · <a href="https://linkedin.com/in/sunnypatel">linkedin.com/in/sunnypatel</a> · <a href="https://SunnyPatel.co.uk">SunnyPatel.co.uk</a></div>
-  <hr class="top">
+  <div class="name">Sunny Patel</div>
+  <div class="title">SEO &amp; AI Visibility Strategist &nbsp;·&nbsp; AEO / GEO &nbsp;·&nbsp; Programmatic SEO at Scale</div>
+  <div class="contact">
+    Reading, Berkshire <span>|</span> 07305 523333 <span>|</span>
+    <a href="mailto:Hello@SunnyPatel.co.uk">Hello@SunnyPatel.co.uk</a> <span>|</span>
+    <a href="https://linkedin.com/in/sunnypatel">linkedin.com/in/sunnypatel</a> <span>|</span>
+    <a href="https://SunnyPatel.co.uk">SunnyPatel.co.uk</a>
+  </div>
+  <hr class="headrule">
 
   <h2>Profile</h2>
-  <p>SEO strategist, 15 years. I get brands cited in AI search (Google AI Overviews, ChatGPT, Perplexity) and build the automation that does it at scale. I lead AI-visibility across a 13-client agency book while running a 44-site portfolio and Hermes, my autonomous SEO agent. Came up through 12 years of B2B sales, so I think in revenue, not rankings.</p>
-
-  <h2>Impact</h2>
-  <ul>
-    <li>Recovered <b>60,000 impressions/month</b> from a single redirect audit.</li>
-    <li>Built an agency AEO offering from zero: cited in AI Overviews, ChatGPT and Perplexity on <b>13 accounts</b>.</li>
-    <li>Architected programmatic sites at <b>14,400 / 12,600 / 4,700 pages</b> on Astro 5 and Cloudflare.</li>
-    <li>Built <b>Hermes</b>, an autonomous SEO agent (14 crons) running a 44-site portfolio hands-off.</li>
-  </ul>
+  <p>SEO strategist with 15 years building, ranking, and monetising websites, now leading AI-search visibility (AEO/GEO) for a 13-client agency book. I pair deep technical SEO with hands-on AI engineering: I build autonomous SEO agents, automate content pipelines, and win citations in Google AI Overviews, ChatGPT, Perplexity, and Copilot. I came into SEO from a 12-year B2B sales career, so I think in revenue and pipeline, not vanity rankings.</p>
 
   <h2>Core Skills</h2>
-  <div class="skills small">
-    <p><b>SEO &amp; AI:</b> Semantic SEO · Topical Authority · Programmatic SEO · AEO / GEO · Brand-Consensus Framework · Technical Audits · Schema (JSON-LD via GTM) · Core Update Recovery</p>
-    <p><b>Tools &amp; Eng:</b> Search Console · Bing WMT · GA4 · Ahrefs · Screaming Frog · Claude Code · Astro 5 · Next.js · Cloudflare Workers · GitHub Actions CI/CD · Node.js</p>
-    <p><b>Commercial:</b> SEO Pod Leadership · 13-client account management · Consultative Sales · Strategy Presentations · Retention &amp; Upsell</p>
+  <div class="skills">
+    <div><b>SEO &amp; AI</b>Semantic SEO &amp; Topical Authority · Programmatic SEO · AEO / GEO · Brand-Consensus Framework · Technical Audits &amp; Site Architecture · Schema Markup (JSON-LD via GTM) · Core Update Recovery</div>
+    <div><b>Tools</b>Google Search Console · Bing Webmaster Tools · GA4 · Ahrefs · Screaming Frog</div>
+    <div><b>Engineering</b>Claude Code · Autonomous Agents · Multi-Agent Orchestration · Astro 5 · Next.js · Cloudflare Workers · GitHub Actions CI/CD · Node.js</div>
+    <div><b>Commercial</b>SEO Pod Leadership · 13-client Account Management · Consultative Sales · Strategy Presentations · Retention &amp; Upsell</div>
   </div>
 
   <h2>Experience</h2>
 
-  <div class="role"><span class="title">SEO Growth Manager</span><span class="meta">Figment Agency (Remote) · Mar 2024 to Present</span></div>
+  <div class="role">
+    <div class="rt"><b>SEO Growth Manager</b> <span class="co">· Figment Agency (Remote)</span></div>
+    <div class="dates">Mar 2024 to Present</div>
+  </div>
+  <div class="sub">Lead AI-visibility and AEO strategy, and an SEO pod (team plus client book), across 13 client campaigns.</div>
   <ul>
-    <li>Lead AI-visibility and AEO strategy, and an SEO pod (team plus client book), across 13 client campaigns.</li>
-    <li>Built the agency's AEO offering and a proprietary brand-consensus methodology from scratch.</li>
-    <li>Launched YouTube SEO as a new revenue line; own monthly strategy presentations and retention.</li>
+    <li>Built the agency's AEO offering <b class="k">from zero</b>; clients now appear in Google AI Overviews, ChatGPT, and Perplexity citations across all 13 accounts.</li>
+    <li>Developed a proprietary brand-consensus methodology: mapping co-occurrence signals, citation gaps, and UGC-seeding opportunities across AI answer engines.</li>
+    <li>Drove measurable ranking lifts through portfolio-wide topical-authority mapping, including <b class="k">60,000 impressions/month</b> recovered from a single redirect audit.</li>
+    <li>Launched YouTube SEO as a new agency revenue line; own monthly strategy presentations and account retention.</li>
   </ul>
 
-  <div class="role"><span class="title">SEO Consultant</span><span class="meta">Hummingbird, Hospitality Group (retainer via M&amp;B) · 2024 to Present</span></div>
+  <div class="role">
+    <div class="rt"><b>SEO Consultant</b> <span class="co">· Hummingbird, Hospitality Group (retainer via M&amp;B Marketing)</span></div>
+    <div class="dates">2024 to Present</div>
+  </div>
   <ul>
-    <li>Deployed 25 structured-data schemas (Service, FAQPage, Article) through a single GTM tag.</li>
-    <li>Own research, technical SEO and content; built the strategy-to-build handoff with the in-house team.</li>
+    <li>Deployed <b class="k">25 structured-data schemas</b> (Service, FAQPage, Article) via a single GTM tag across the production site.</li>
+    <li>Own research, technical SEO, and content strategy; deliverables flow through Google Docs to the in-house build team.</li>
+    <li>Built the strategy-to-implementation handoff so delivery runs without me in every meeting.</li>
   </ul>
 
-  <div class="role"><span class="title">SEO Executive</span><span class="meta">Totalsurf, Reading · Oct 2023 to Mar 2024</span></div>
+  <div class="role">
+    <div class="rt"><b>SEO Executive</b> <span class="co">· Totalsurf (Reading)</span></div>
+    <div class="dates">Oct 2023 to Mar 2024</div>
+  </div>
   <ul>
-    <li>Ran end-to-end SEO for 6 clients; built the reporting framework adopted agency-wide.</li>
-    <li>Won page-1 rankings in competitive niches through data-led keyword targeting.</li>
+    <li>Managed end-to-end SEO for 6 concurrent clients: technical audits, content strategy, link acquisition, digital PR.</li>
+    <li>Built a systematic reporting framework adopted as the agency standard.</li>
+    <li>Achieved page-1 rankings in competitive industries through data-driven keyword targeting.</li>
   </ul>
 
-  <div class="role"><span class="title">Independent SEO Practitioner</span><span class="meta">Self-Employed · 2011 to Present</span></div>
+  <div class="role">
+    <div class="rt"><b>Independent SEO Practitioner</b> <span class="co">· Self-Employed</span></div>
+    <div class="dates">2011 to Present</div>
+  </div>
+  <div class="sub">15 years building and monetising my own websites: the foundation of everything I do in SEO.</div>
   <ul>
-    <li>44-site content portfolio monetised via affiliate, display ads and lead generation.</li>
-    <li>Built Hermes, a Claude-brained autonomous SEO agent, plus GitHub Actions content pipelines.</li>
-    <li>Shipped March 2026 core-update recoveries; 15 years surviving every major Google update.</li>
+    <li><b class="k">44-site portfolio</b> across multiple niches, monetised via affiliate, display ads, and lead generation.</li>
+    <li>Architect and deploy programmatic sites at scale (<b class="k">14,400 / 12,600 / 4,700 pages</b>) on Astro 5 and Cloudflare Pages with per-page JSON-LD schema.</li>
+    <li>Diagnosed and shipped March 2026 core-update recoveries: 200+ thin pages enriched, 635 redirect fixes.</li>
+    <li>15 years surviving every major Google update, from Panda and Penguin to Helpful Content.</li>
+  </ul>
+
+  <h2>Agentic Tooling &amp; Engineering</h2>
+  <ul>
+    <li><b class="k">Hermes (production):</b> autonomous SEO agent (Claude AI brain, 14 cron jobs, Telegram control) that monitors a 44-site portfolio and executes enrichment hands-off.</li>
+    <li><b class="k">Multi-Agent Orchestration:</b> a Paperclip-style framework coordinating Claude and Codex workers across concurrent dev tasks, with ticket tracking and budget controls.</li>
+    <li><b class="k">Programmatic Pipelines:</b> GitHub Actions CI/CD for 12+ sites, automated sitemaps, IndexNow pings, OG image generation via Satori, and WordPress REST API deployment.</li>
+  </ul>
+
+  <h2>Selected Programmatic Builds</h2>
+  <ul class="builds">
+    <li>UK school-catchment data platform <span class="m">· 27,000+ pages; grown from 0 to 4,400 organic clicks/month.</span></li>
+    <li>UK trade-pricing database <span class="m">· 14,400 pages on Astro 5 + Cloudflare, full schema coverage.</span></li>
+    <li>Drug-comparison platform <span class="m">· 7,400 pages generated from structured medical data.</span></li>
   </ul>
 
   <h2>Earlier Commercial Career</h2>
-  <p class="ec small"><b>Internal Sales Specialist, Astro-Med Inc, Slough</b> (2010 to 2022): full UK hardware sales, promoted in year one, exceeded targets across 12 years. <b>Earlier</b> (1999 to 2009): Team Leader at Mobilink Telecom; Employee of the Month at Mobile Phones Direct (52-handset deal); Office and Account Manager roles.</p>
+  <p class="twoline"><b>Internal Sales Specialist, Astro-Med Inc, Slough</b> (2010 to 2022): full UK hardware sales (QuickLabel Systems); promoted in year one; exceeded targets across a 12-year tenure.<br>
+  <b>Earlier roles</b> (1999 to 2009): Team Leader at Mobilink Telecom; Employee of the Month at Mobile Phones Direct (closed a 52-handset deal); Office and Account Manager roles.</p>
 
   <h2>Education &amp; Certifications</h2>
-  <p class="small">Semantic SEO for Topical Authority, Holistic SEO &amp; Digital (Micro Semantics Cohort). Advanced &amp; Intermediate GNVQ in Information Technology, Greenhill &amp; East Berkshire College (1997 to 1999).</p>
+  <p class="twoline"><b>Semantic SEO for Topical Authority</b> · Holistic SEO &amp; Digital (Micro Semantics Cohort).<br>
+  <b>Advanced &amp; Intermediate GNVQ in Information Technology</b> · Greenhill College &amp; East Berkshire College (1997 to 1999).</p>
 
-</div>
 </body>
 </html>
