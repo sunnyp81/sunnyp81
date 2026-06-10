@@ -1,5 +1,5 @@
 # Sunny Patel
-**SEO & AI Visibility Strategist | AEO/GEO | Programmatic SEO at Scale**
+**SEO & GEO Growth Leader | AI Search Visibility | Technical & Programmatic SEO**
 
 Reading, Berkshire · 07305 523333 · Hello@SunnyPatel.co.uk · linkedin.com/in/sunnypatel · SunnyPatel.co.uk
 
@@ -9,7 +9,7 @@ Reading, Berkshire · 07305 523333 · Hello@SunnyPatel.co.uk · linkedin.com/in/
 
 ## Professional Profile
 
-SEO strategist with 15 years building, ranking, and monetising websites, now leading AI-search visibility (AEO/GEO) for a 13-client agency book. I pair deep technical SEO with hands-on AI engineering: I build autonomous SEO agents, automate content pipelines, and win citations in Google AI Overviews, ChatGPT, Perplexity, and Copilot. Recent work includes a proprietary brand-consensus AEO framework deployed across 13 accounts and Hermes, a production autonomous SEO agent running 14 cron jobs against a 44-site portfolio. I came into SEO from a 12-year B2B sales career, so I think in revenue and pipeline, not vanity rankings.
+SEO and GEO growth strategist with 15 years building, ranking, and monetising websites across agency, consulting, and owned-portfolio environments. I lead AI-search visibility and AEO/GEO strategy across a 13-client agency book, combining technical SEO, entity-led content architecture, structured data, and programmatic SEO to improve organic discovery across Google Search, AI Overviews, ChatGPT, Perplexity, and Copilot. I have built and monetised a 44-site portfolio, shipped programmatic platforms up to 27,000+ pages, and developed supervised agentic SEO workflows across Astro, Cloudflare, GitHub Actions, WordPress, and Claude. A 12-year B2B sales background means I run SEO against revenue, retention, and pipeline, not vanity rankings.
 
 ---
 
@@ -18,7 +18,7 @@ SEO strategist with 15 years building, ranking, and monetising websites, now lea
 - Recovered **60,000 impressions/month** from a single redirect audit; shipped 635 redirect fixes and enriched 200+ thin pages for post-core-update recovery.
 - Built an agency AEO/AI-visibility offering **from zero**; clients now cited across Google AI Overviews, ChatGPT, and Perplexity on **13 concurrent accounts**.
 - Architected and deployed programmatic sites at scale: **14,400-page**, **12,600-page**, and **4,700-page** builds on Astro 5 + Cloudflare Pages with per-page JSON-LD schema.
-- Designed and shipped **Hermes**, a production autonomous SEO agent (Claude AI brain, 14 cron jobs) that monitors a 44-site portfolio, detects content decay, and executes enrichment without manual intervention.
+- Designed and shipped **Hermes**, a supervised autonomous SEO agent (Claude AI brain, scheduled jobs) that monitors a 44-site portfolio, detects content decay, and recommends enrichment and technical actions for human review.
 - Deployed **25 structured-data schemas via a single GTM tag** for a retained hospitality client, with a strategy-to-build handoff that runs without me in the room.
 - **15 years surviving every major Google update** (Panda, Penguin, Medic, Helpful Content, March 2024 and March 2026 core updates) across an owned portfolio.
 
@@ -42,7 +42,7 @@ SEO strategist with 15 years building, ranking, and monetising websites, now lea
 Lead SEO and AI-visibility strategy across 13 concurrent client campaigns; run an SEO pod (team plus client book).
 
 - Built the agency's AEO offering from zero; clients now appear in Google AI Overviews, ChatGPT responses, and Perplexity citations across all 13 accounts.
-- Developed and deployed a proprietary brand-consensus methodology for auditing and engineering brand consistency across AI answer engines: mapping co-occurrence signals, citation gaps, and UGC-seeding opportunities.
+- Developed and deployed a proprietary brand-consensus methodology for auditing and engineering brand consistency across AI answer engines: surfacing citation gaps, entity ambiguity, and earned-authority opportunities.
 - Implemented topical-authority mapping across the full portfolio, driving measurable ranking lifts (e.g. 60k impressions/month recovered from a single redirect audit).
 - Launched YouTube SEO as a new agency revenue line.
 - Lead monthly strategy presentations and own retention across the account book.
@@ -68,7 +68,7 @@ Lead SEO and AI-visibility strategy across 13 concurrent client campaigns; run a
 
 - **44-site portfolio** across multiple niches, monetised via affiliate, display ads, and lead generation, generating consistent monthly revenue from organic traffic.
 - **Programmatic SEO at scale:** architect and deploy large sites (14,400 / 12,600 / 4,700 pages) on Astro 5 + Cloudflare Pages with per-page JSON-LD schema.
-- **Hermes, autonomous SEO agent:** built a production agent on a VPS (Claude AI brain, 14 cron jobs, integrations with Cloudflare, GSC, Bing, Telegram) that monitors performance, detects content decay, executes enrichment, and reports outcomes autonomously.
+- **Hermes, supervised autonomous SEO agent:** built a production agent on a VPS (Claude AI brain, scheduled jobs, integrations with Cloudflare, GSC, Bing, Telegram) that monitors performance, detects content decay, and recommends enrichment and technical actions for human review.
 - **Core update recovery:** diagnosed and shipped targeted recoveries after Google's March 2026 core update, including 200+ thin-page enrichments and 635 redirect fixes recovering 60k impressions/month.
 - **Algorithm resilience:** 15 years surviving every major Google update, Panda, Penguin, Medic, Helpful Content, March 2024 and March 2026 core.
 
@@ -76,8 +76,8 @@ Lead SEO and AI-visibility strategy across 13 concurrent client campaigns; run a
 
 ## Agentic Tooling & Engineering
 
-- **Hermes Agent (production):** autonomous SEO operations, Claude brain, 14 cron jobs, Telegram command interface. Executes content enrichment, CTR rewrites, IndexNow submissions, and portfolio monitoring across 44 sites.
-- **Multi-Agent Orchestration:** deployed a Paperclip-style framework coordinating Claude and Codex workers on concurrent dev tasks with heartbeats, ticket tracking, and budget controls.
+- **Supervised agentic SEO workflows:** Claude brain, scheduled jobs, Telegram command interface. Portfolio monitoring, enrichment recommendations, CTR rewrites, and IndexNow submissions across 44 sites, with human-review checkpoints.
+- **Multi-agent orchestration:** coordinating Claude and Codex workers across concurrent dev tasks, with ticket tracking, budget controls, and human-review checkpoints.
 - **Programmatic Pipelines:** GitHub Actions CI/CD for 12+ sites, automated sitemap generation, IndexNow pings, OG image generation via Satori, WordPress REST API content deployment.
 
 ---
@@ -106,6 +106,7 @@ CHANGES vs CV v1.2 (decoded from your PDF), and why:
 3. Added a "Selected Achievements" band up top. Resumes with 5+ quantified achievements get interview requests at ~4.2x the rate of qualitative ones; recruiters eye-track to numbers first.
 4. Added "SEO Pod Leadership" to skills + the Figment role (true per your figment-pod-lead memory) to support Lead/Head-of titles.
 5. Dropped the hobbies/interests line (cooking, Kung Fu, gym) for the master. Recruiters spend ~7s; lead with proof. Add a one-line human note back only for culture-led employers if you want.
-6. Kept your authentic proper nouns (Hermes, Paperclip, exact page counts) deliberately: 62% of employers reject CVs that feel generic/AI-written; specificity is your moat.
+6. Kept authentic specifics (Hermes, exact page counts) deliberately: 62% of employers reject CVs that feel generic/AI-written; specificity is your moat.
 7. Kept portfolio at your conservative public figure of 44 sites (your Hermes loop monitors ~70; do not inflate on the CV).
+8. Repositioned title to "SEO & GEO Growth Leader" and reframed per ChatGPT review: "UGC-seeding" -> "earned-authority/citation-gap"; "Paperclip-style" -> "multi-agent orchestration"; "hands-off/autonomous" -> "supervised / human-review"; medical build -> "controlled data sources + QA". Added Selected Impact band. NUMBERS TO ADD (Sunny only, no fabrication): retainer/revenue from YouTube line, pod headcount, client retention %, pipeline/£ influenced.
 -->

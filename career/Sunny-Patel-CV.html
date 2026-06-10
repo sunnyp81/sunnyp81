@@ -21,7 +21,7 @@
 
   h2 {
     font-size: 10.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 1.4px;
-    color: #0b2545; margin: 17px 0 9px; padding-bottom: 5px;
+    color: #0b2545; margin: 13px 0 8px; padding-bottom: 5px;
     border-bottom: 1px solid #d4dbe4;
   }
   p { margin: 0 0 9px; }
@@ -34,7 +34,7 @@
     color: #0b2545; font-weight: 700;
   }
 
-  .role { display: flex; justify-content: space-between; align-items: baseline; margin: 12px 0 3px; }
+  .role { display: flex; justify-content: space-between; align-items: baseline; margin: 9px 0 3px; }
   .role:first-of-type { margin-top: 3px; }
   .role .rt { font-size: 11pt; }
   .role .rt b { color: #0b2545; font-weight: 700; }
@@ -43,9 +43,14 @@
   .sub { font-size: 9.9pt; color: #555; font-style: italic; margin: 0 0 7px; }
 
   ul { list-style: none; margin: 0 0 8px; padding: 0; }
-  li { position: relative; padding-left: 16px; margin: 0 0 5px; }
+  li { position: relative; padding-left: 16px; margin: 0 0 4px; }
   li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 4px; height: 4px; background: #1f5f8b; border-radius: 50%; }
   b.k { color: #0b2545; }
+
+  .impact { display: grid; grid-template-columns: 1fr 1fr; column-gap: 26px; row-gap: 5px; font-size: 9.9pt; margin: 2px 0 2px; }
+  .impact div { position: relative; padding-left: 16px; }
+  .impact div::before { content: ""; position: absolute; left: 2px; top: 7px; width: 4px; height: 4px; background: #1f5f8b; border-radius: 50%; }
+  .impact b { color: #0b2545; }
 
   .builds li { padding-left: 16px; }
   .builds .m { color: #6a737d; }
@@ -56,7 +61,7 @@
 <body>
 
   <div class="name">Sunny Patel</div>
-  <div class="title">SEO &amp; AI Visibility Strategist &nbsp;·&nbsp; AEO / GEO &nbsp;·&nbsp; Programmatic SEO at Scale</div>
+  <div class="title">SEO &amp; GEO Growth Leader &nbsp;·&nbsp; AI Search Visibility &nbsp;·&nbsp; Technical &amp; Programmatic SEO</div>
   <div class="contact">
     Reading, Berkshire <span>|</span> 07305 523333 <span>|</span>
     <a href="mailto:Hello@SunnyPatel.co.uk">Hello@SunnyPatel.co.uk</a> <span>|</span>
@@ -66,14 +71,24 @@
   <hr class="headrule">
 
   <h2>Profile</h2>
-  <p>SEO strategist with 15 years building, ranking, and monetising websites, now leading AI-search visibility (AEO/GEO) for a 13-client agency book. I pair deep technical SEO with hands-on AI engineering: I build autonomous SEO agents, automate content pipelines, and win citations in Google AI Overviews, ChatGPT, Perplexity, and Copilot. I came into SEO from a 12-year B2B sales career, so I think in revenue and pipeline, not vanity rankings.</p>
+  <p>SEO and GEO growth strategist with 15 years building, ranking, and monetising websites across agency, consulting, and owned-portfolio environments. I lead AI-search visibility and AEO/GEO strategy across a 13-client agency book, combining technical SEO, entity-led content architecture, structured data, and programmatic SEO to improve organic discovery across Google Search, AI Overviews, ChatGPT, Perplexity, and Copilot. I have built and monetised a 44-site portfolio, shipped programmatic platforms up to 27,000+ pages, and developed supervised agentic SEO workflows across Astro, Cloudflare, GitHub Actions, WordPress, and Claude. A 12-year B2B sales background means I run SEO against revenue, retention, and pipeline, not vanity rankings.</p>
 
-  <h2>Core Skills</h2>
+  <h2>Selected Impact</h2>
+  <div class="impact">
+    <div><b>13-client</b> AEO/GEO agency portfolio</div>
+    <div><b>44-site</b> owned, monetised SEO portfolio</div>
+    <div><b>27,000+ page</b> build: 0 to 4,400 clicks/month</div>
+    <div><b>60,000 impressions/month</b> recovered from one audit</div>
+    <div><b>25 JSON-LD schemas</b> deployed via a single GTM tag</div>
+    <div><b>635 redirects</b> fixed, 200+ thin pages enriched</div>
+  </div>
+
+  <h2>Core Capabilities</h2>
   <div class="skills">
     <div><b>SEO &amp; AI</b>Semantic SEO &amp; Topical Authority · Programmatic SEO · AEO / GEO · Brand-Consensus Framework · Technical Audits &amp; Site Architecture · Schema Markup (JSON-LD via GTM) · Core Update Recovery</div>
     <div><b>Tools</b>Google Search Console · Bing Webmaster Tools · GA4 · Ahrefs · Screaming Frog</div>
     <div><b>Engineering</b>Claude Code · Autonomous Agents · Multi-Agent Orchestration · Astro 5 · Next.js · Cloudflare Workers · GitHub Actions CI/CD · Node.js</div>
-    <div><b>Commercial</b>SEO Pod Leadership · 13-client Account Management · Consultative Sales · Strategy Presentations · Retention &amp; Upsell</div>
+    <div><b>Leadership</b>SEO Pod Leadership · Roadmap Ownership · Cross-functional Delivery · Stakeholder Reporting · 13-client Account Management · Consultative Sales · Retention &amp; Upsell</div>
   </div>
 
   <h2>Experience</h2>
@@ -82,12 +97,13 @@
     <div class="rt"><b>SEO Growth Manager</b> <span class="co">· Figment Agency (Remote)</span></div>
     <div class="dates">Mar 2024 to Present</div>
   </div>
-  <div class="sub">Lead AI-visibility and AEO strategy, and an SEO pod (team plus client book), across 13 client campaigns.</div>
+  <div class="sub">Lead an SEO pod (team plus client book) and own AI-visibility and AEO/GEO strategy across 13 client campaigns.</div>
   <ul>
-    <li>Built the agency's AEO offering <b class="k">from zero</b>; clients now appear in Google AI Overviews, ChatGPT, and Perplexity citations across all 13 accounts.</li>
-    <li>Developed a proprietary brand-consensus methodology: mapping co-occurrence signals, citation gaps, and UGC-seeding opportunities across AI answer engines.</li>
-    <li>Drove measurable ranking lifts through portfolio-wide topical-authority mapping, including <b class="k">60,000 impressions/month</b> recovered from a single redirect audit.</li>
-    <li>Launched YouTube SEO as a new agency revenue line; own monthly strategy presentations and account retention.</li>
+    <li>Built the agency's AEO/GEO service line <b class="k">from zero</b> across 13 accounts: a repeatable framework for visibility audits, citation-gap tracking, entity mapping, and technical implementation.</li>
+    <li>Own strategy, technical SEO, content direction, reporting, client presentations, and implementation handoff to build teams across the account book.</li>
+    <li>Recovered <b class="k">60,000 impressions/month</b> from a single redirect audit and rolled the learnings into a portfolio-wide technical QA process.</li>
+    <li>Developed a brand-consensus methodology surfacing citation gaps, entity ambiguity, and earned-authority opportunities across Google AI Overviews, ChatGPT, Perplexity, and Copilot.</li>
+    <li>Launched YouTube SEO as a new agency revenue line, owning strategy, client education, and retention/upsell recommendations.</li>
   </ul>
 
   <div class="role">
@@ -116,24 +132,17 @@
   </div>
   <div class="sub">15 years building and monetising my own websites: the foundation of everything I do in SEO.</div>
   <ul>
-    <li><b class="k">44-site portfolio</b> across multiple niches, monetised via affiliate, display ads, and lead generation.</li>
-    <li>Architect and deploy programmatic sites at scale (<b class="k">14,400 / 12,600 / 4,700 pages</b>) on Astro 5 and Cloudflare Pages with per-page JSON-LD schema.</li>
-    <li>Diagnosed and shipped March 2026 core-update recoveries: 200+ thin pages enriched, 635 redirect fixes.</li>
-    <li>15 years surviving every major Google update, from Panda and Penguin to Helpful Content.</li>
-  </ul>
-
-  <h2>Agentic Tooling &amp; Engineering</h2>
-  <ul>
-    <li><b class="k">Hermes (production):</b> autonomous SEO agent (Claude AI brain, 14 cron jobs, Telegram control) that monitors a 44-site portfolio and executes enrichment hands-off.</li>
-    <li><b class="k">Multi-Agent Orchestration:</b> a Paperclip-style framework coordinating Claude and Codex workers across concurrent dev tasks, with ticket tracking and budget controls.</li>
-    <li><b class="k">Programmatic Pipelines:</b> GitHub Actions CI/CD for 12+ sites, automated sitemaps, IndexNow pings, OG image generation via Satori, and WordPress REST API deployment.</li>
+    <li>Built and monetised a <b class="k">44-site organic portfolio</b> across affiliate, display, and lead-generation models.</li>
+    <li>Architected programmatic SEO builds at <b class="k">14,400+, 12,600+, and 4,700+ page</b> scale on Astro 5 and Cloudflare, with structured datasets, automated sitemaps, and per-page JSON-LD.</li>
+    <li>Built Hermes, a supervised autonomous SEO operations agent (Claude, scheduled jobs, Telegram controls) that monitors a 44-site portfolio and recommends enrichment, indexing, and technical actions for human review.</li>
+    <li>Maintained performance through major Google updates from Panda and Penguin to Helpful Content and recent core updates; shipped a March 2026 recovery enriching 200+ thin pages and fixing 635 redirects.</li>
   </ul>
 
   <h2>Selected Programmatic Builds</h2>
   <ul class="builds">
     <li>UK school-catchment data platform <span class="m">· 27,000+ pages; grown from 0 to 4,400 organic clicks/month.</span></li>
     <li>UK trade-pricing database <span class="m">· 14,400 pages on Astro 5 + Cloudflare, full schema coverage.</span></li>
-    <li>Drug-comparison platform <span class="m">· 7,400 pages generated from structured medical data.</span></li>
+    <li>Structured health-comparison platform <span class="m">· 7,400 pages from controlled data sources, with schema and QA workflows.</span></li>
   </ul>
 
   <h2>Earlier Commercial Career</h2>
