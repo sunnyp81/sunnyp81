@@ -45,9 +45,8 @@ Lead an SEO pod (team plus client book) and own AI-visibility and AEO/GEO strate
 
 - Built the agency's AEO/GEO service line from zero across 13 accounts: a repeatable framework for visibility audits, citation-gap tracking, entity mapping, and technical implementation.
 - Own strategy, technical SEO, content direction, reporting, client presentations, and implementation handoff to build teams across the account book.
-- Recovered 60,000 impressions/month from a single redirect audit and rolled the learnings into a portfolio-wide technical QA process.
 - Developed a brand-consensus methodology surfacing citation gaps, entity ambiguity, and earned-authority opportunities across Google AI Overviews, ChatGPT, Perplexity, and Copilot.
-- Launched YouTube SEO as a new agency revenue line, owning strategy, client education, and retention/upsell recommendations.
+- Developed and launched YouTube SEO as a new agency service line, owning the strategy and client rollout.
 
 ### SEO Consultant, Hummingbird, Hospitality Group (retainer via M&B Marketing)
 *2024 to Present*
@@ -106,5 +105,5 @@ Key build decisions (and why):
 3. Title repositioned to "SEO & GEO Growth Leader" for Head/Director-of-SEO/GEO roles.
 4. Enterprise-safe wording: "earned-authority/citation-gap" (not UGC-seeding), "multi-agent orchestration" (not Paperclip), "supervised / human-review" (not hands-off/autonomous), "controlled data sources + QA" for the health build.
 5. Portfolio kept at the conservative public figure of 44 sites (Hermes monitors ~70; do not inflate).
-6. NUMBERS STILL TO ADD (Sunny only, never fabricate): YouTube-line revenue, pod headcount, client retention %, pipeline/revenue influenced. Slot these in to move from ~7.5 to ~9/10.
+6. NUMBERS STILL TO ADD (Sunny only, never fabricate): pod headcount, client retention %, pipeline/revenue influenced. (Do not quantify the YouTube line - strategy framing only.) Slot these in to move from ~7.5 to ~9/10.
 -->
