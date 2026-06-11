@@ -5,6 +5,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 > Claude: Every session, check this file first. Push the highest-ROI action. Hold Sunny accountable.
 > If Sunny starts a session without a task, propose the top item from the action queue below.
 
+- [sunnypatel.co.uk/cv live](sunnypatel-cv-page-jun11.md) â€” **Jun 11.** CV PDF served at /cv via public/cv.pdf + next.config rewrite. Update = overwrite public/cv.pdf, push master, `npx vercel --prod`.
 - [catchment.school core-update collapse](catchment-school-core-update-collapse-jun11.md) â€” **Jun 11.** May 2026 core update (May 21-Jun 2) demoted catchment -99.7% clicks (break Jun 2, indexing intact = quality demotion, all template types). Sitemap-index fix patched locally NOT deployed. Recovery = de-programmatic templates (polygons, last-distance-admitted, council rules, prune thin /area/). Other pSEO sites survived â€” hit-vs-survived comparison = immunity playbook. AdSense OFF until recovery.
 - [Pivot: business-first Jun11](pivot-business-first-jun11.md) â€” **Jun 11.** Discovered Labs REJECTED (wanted commercial Â£-outcome reporting over data/stat reporting â€” build Â£-attributed case studies). PIVOT: businesses/systems over job + freelance income. Two-terminal model: Sonnet kick-start batch (trickling sites) + Fable/Opus business-brain (funnels on high performers).
 - [No em dashes in content](feedback_no-em-dashes-in-content.md) â€” never use â€” or â€“ in anything I write; commas/colons/hyphens only (AI tell + Ã¢â‚¬ mojibake).
