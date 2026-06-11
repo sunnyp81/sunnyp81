@@ -5,6 +5,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 > Claude: Every session, check this file first. Push the highest-ROI action. Hold Sunny accountable.
 > If Sunny starts a session without a task, propose the top item from the action queue below.
 
+- [Pivot: business-first Jun11](pivot-business-first-jun11.md) â€” **Jun 11.** Discovered Labs REJECTED (wanted commercial Â£-outcome reporting over data/stat reporting â€” build Â£-attributed case studies). PIVOT: businesses/systems over job + freelance income. Two-terminal model: Sonnet kick-start batch (trickling sites) + Fable/Opus business-brain (funnels on high performers).
 - [No em dashes in content](feedback_no-em-dashes-in-content.md) â€” never use â€” or â€“ in anything I write; commas/colons/hyphens only (AI tell + Ã¢â‚¬ mojibake).
 - [Slug rules: no dupes, no year](feedback_slug-no-dupes-no-year.md) â€” slugs omit words already in domain/TLD (uk on .co.uk) and never include a year; keep year in title/H1 only. In meta-generate skill.
 - [sunnypatel AEO lead + page Jun9](sunnypatel-aeo-lead-jun9.md) â€” **Jun 9-10.** Trafft Free SEO Audit lead (details in Trafft dashboard, not email). Built/GEO-optimised `/blog/best-aeo-agencies/` (92/100, ItemList+Speakable+FAQ, 4 inbound links, live `b88ee02`). OPEN (Sunny): Trafft template fields, mark GA4 `generate_lead` key event, paste GA4 `G-SJRTDNRZG6` into Trafft. AEO ceiling now off-page.
@@ -57,7 +58,7 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 ## Job Search â€” Active
 
 **5 applications sent May 14.** Routine `trig_01FbND68AU9dVGV48jehLpqB` runs 3x/day. See [project_job-applications-may14.md](project_job-applications-may14.md). Apply same-day to new matches â€” don't queue.
-- [Discovered Labs â€” Sr SEO Manager Pod Lead](job-discovered-labs-may14.md) â€” $85k, AI-native agency, Loom video needed. Strong fit.
+- ~~[Discovered Labs â€” Sr SEO Manager Pod Lead](job-discovered-labs-may14.md)~~ â€” **REJECTED Jun 11**: wanted more commercial (Â£-outcome) reporting vs data/stat reporting. Lesson in [pivot-business-first-jun11.md](pivot-business-first-jun11.md).
 
 ---
 
