@@ -6,7 +6,11 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 > If Sunny starts a session without a task, propose the top item from the action queue below.
 
 - ðŸ”´ **[ACTIVE HANDOFF, GLP-1 tracker launch Jun14](handoff_glp1-launch-jun14.md)** â€” **Jun 14, top of queue.** v1 product BUILT + audited at `G:\My Drive\products\glp1-mounjaro-tracker\` (PDF + listing copy ready, the one validated GO). Hermes/next session: finalise Pinterest pins + KDP autonomously; ONLY blocker is Sunny doing the Etsy/Pinterest publish (account login). First sale = the Â£-test.
+<<<<<<< Updated upstream
+- [Hummingbird access-block + GSC dip Jun14](../../clients/mike-lovatt/hummingbird-agency/comms/2026-06-14-whatsapp-mike-access-block.md) â€” **Jun 14.** Â£1k retainer at risk. GSC sliding every month (pos 12.7â†’18.9, impr -25% off April) because delivered content isn't published live; we have STAGING admin only, live creds TBC. Sunny WhatsApp'd Mike re access + invoice. NEXT: pin Mike to a live-site app password (publish ourselves = ends blocker). No-Mike needle-movers: backlinks to 3 live pos-5/6 pages + AI/entity citations.
+=======
 - [Hummingbird LIVE access + publish/redesign Jun16](../../clients/mike-lovatt/hummingbird-agency/comms/2026-06-16-live-publish-redesign-audit.md) â€” **Jun 16 â€” ACCESS BLOCK RESOLVED.** Live REST admin works (staging app password authenticates on live as admin@mandbmarketing.com user 18; creds in `wordpress-config.md`, now centralised to `wp_credentials.py`). **Published 6 pages 404â†’200** (restored supplement leaks: paid-ads-for-supplements 52k impr, supplement-marketing 18.8k, social-media-for-supplement-brands 17.2k, travel-marketing-companies 7.6k, + wellness-content-ideas, restaurant-social-media) AND visually rebuilt them (scoped `.hb-page` shell via `hb_rebuild.py`, brand navy/teal+Poppins, FAQ accordion+FAQPage schema). Pages are NOT Elementor-built â†’ body is REST-writable `content`. Codex-audited all green. **NEXT:** reindex-ping the 6; build 3 stubs (24143/44/45) + 6 unpushed May pages from `content/may-2026/`; resolve 24567 ppc slug collision; update shared tracker; invoice still outstanding.
+>>>>>>> Stashed changes
 - [StaticForms source attribution Jun14](staticforms-source-attribution-jun14.md) â€” **Jun 14.** Shared StaticForms key meant lead emails couldn't be traced to a site; standardized 37 forms across ~30 repos (`_site` + domain-in-subject). âš ï¸ EDIT-ONLY, NOT pushed â€” awaiting Sunny's deploy decision. Also tightened the Stop validation hook to skip mechanical edits.
 - [sunnypatel gap pages + Lemlist outreach Jun14](project_sunnypatel-content-gap-outreach-jun14.md) â€” **Jun 14.** 6 gap pages LIVE+indexed (seo-roi-calculator tool, best-local-seo-agencies + top-geo-agencies listicles w/ ItemList schema, seo-for-plumbers/roofers, white-label-seo). Cold-outreach play: sunny@sunnypatelseo.com warming (lemwarm+Mailshake), Lemlist [[reference_lemlist_api_credentials]]; START ~Jun21 â€” cloud routine `trig_017QC5dN4PZPRNJC3bp2aQZ9` + Hermes ledger nag (live on VPS).
 - [Doc-pack niche hunt Jun14](doc-pack-niche-hunt-jun14.md) â€” **Jun 14.** 14 selflandlord-clone niches validated across 4 Manus rounds, ALL NO-GO. Lesson: constraint is distribution/authority, not niche â€” a cold DR-0 domain can't rank a doc pack vs free+SaaS+incumbents. Only viable path = extend selflandlord with post-Renters'-Rights-Act landlord packs. BLOCKING: verify selflandlord ranks/sells (1 sale logged) before any build. Do NOT run a 5th niche round.
@@ -23,8 +27,15 @@ Shared vault canonical path: `G:\My Drive\_SHARED\ai-memory\`
 - [No em dashes in content](feedback_no-em-dashes-in-content.md) â€” never use â€” or â€“ in anything I write; commas/colons/hyphens only (AI tell + Ã¢â‚¬ mojibake).
 - [No unverified site claims](feedback_no-unverified-site-claims.md) â€” never state a site's faults/rankings/specifics as fact without a real browser view, source inspection, or GSC/Sunny confirmation; bot fetches are not ground truth (KCW broken-form error Jun14).
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 - [Invoicing system](reference_invoicing-system.md) â€” **Jun 15.** ND Media LTD, Mettle bank details, NDMedia0XX numbering, brand invoice template, register at `clients\_invoices\invoice-register.csv`â†’Sheet. âš ï¸ Invoices split across accounts: home=2012.infinite (has 001-021) but G:\+MCP=sunnypatel.co.uk (has 022-024). Account bridge + 024-clash check PENDING Sunny.
+>>>>>>> Stashed changes
+=======
+<<<<<<< Updated upstream
+=======
+- [Invoicing system](reference_invoicing-system.md) â€” **Jun 15.** ND Media LTD, Mettle bank details, NDMedia0XX numbering, brand invoice template, register at `clients\_invoices\invoice-register.csv`â†’Sheet. âš ï¸ Invoices split across accounts: home=2012.infinite (has 001-021) but G:\+MCP=sunnypatel.co.uk (has 022-024). Account bridge + 024-clash check PENDING Sunny.
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 - [Brand guidelines on ALL client docs](feedback_brand-guidelines-client-docs.md) â€” apply `brand-guidelines.md` (light mode, Bricolage/Hanken, blue accents, SP monogram, no em dashes) to every proposal/invoice/email/report; read it fresh each time. HTML email signature built at `_SHARED/templates/email-signature.html`.
 - [Slug rules: no dupes, no year](feedback_slug-no-dupes-no-year.md) â€” slugs omit words already in domain/TLD (uk on .co.uk) and never include a year; keep year in title/H1 only. In meta-generate skill.
