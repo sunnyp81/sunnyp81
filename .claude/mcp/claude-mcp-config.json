@@ -42,6 +42,33 @@
       },
       "description": "Bing Webmaster Tools (custom Python server)",
       "status": "✅ Active"
+    },
+    "gsc-remote": {
+      "type": "http",
+      "url": "https://sunny-gsc-mcp.fly.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer REPLACE_WITH_MCP_API_KEY"
+      },
+      "description": "Google Search Console — remote HTTP MCP (works from mobile/cloud)",
+      "status": "⏳ Pending deploy — see /mcp-remote/DEPLOY.md"
+    },
+    "ga4-remote": {
+      "type": "http",
+      "url": "https://sunny-ga4-mcp.fly.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer REPLACE_WITH_MCP_API_KEY"
+      },
+      "description": "Google Analytics 4 — remote HTTP MCP (works from mobile/cloud)",
+      "status": "⏳ Pending deploy — see /mcp-remote/DEPLOY.md"
+    },
+    "bing-remote": {
+      "type": "http",
+      "url": "https://sunny-bing-mcp.fly.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer REPLACE_WITH_MCP_API_KEY"
+      },
+      "description": "Bing Webmaster Tools — remote HTTP MCP (works from mobile/cloud)",
+      "status": "⏳ Pending deploy — see /mcp-remote/DEPLOY.md"
     }
   },
   "metadata": {

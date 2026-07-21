@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+.venv
+.env
+fly.toml
+seed_oauth.py
+client_secrets*.json
+token.json

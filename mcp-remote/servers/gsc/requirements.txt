@@ -1,0 +1,6 @@
+mcp[cli]>=1.9.0
+google-api-python-client>=2.140
+google-auth>=2.30
+google-auth-oauthlib>=1.2
+starlette>=0.37
+uvicorn[standard]>=0.30

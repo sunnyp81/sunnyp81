@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "ahrefs": {
+      "type": "http",
+      "url": "https://api.ahrefs.com/mcp/mcp",
+      "description": "Ahrefs SEO data API"
+    },
+    "gsc": {
+      "type": "http",
+      "url": "https://sunny-gsc-mcp.fly.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer REPLACE_WITH_MCP_API_KEY"
+      },
+      "description": "Google Search Console (remote HTTP MCP on Fly)"
+    },
+    "ga4": {
+      "type": "http",
+      "url": "https://sunny-ga4-mcp.fly.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer REPLACE_WITH_MCP_API_KEY"
+      },
+      "description": "Google Analytics 4 (remote HTTP MCP on Fly)"
+    },
+    "bing": {
+      "type": "http",
+      "url": "https://sunny-bing-mcp.fly.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer REPLACE_WITH_MCP_API_KEY"
+      },
+      "description": "Bing Webmaster Tools (remote HTTP MCP on Fly)"
+    }
+  }
+}
