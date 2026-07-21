@@ -74,9 +74,10 @@
       "type": "http",
       "url": "https://app.seogets.com/mcp",
       "headers": {
-        "Authorization": "Bearer REPLACE_WITH_SEOGETS_API_KEY"
+        "Authorization": "Bearer sg_mcp_uApsq1N81vGt72ecRTU7shMPZF390qdMzxC10eFU8k4FWZbNQeRXk"
       },
-      "description": "SEO Gets — GSC + GA4 unified (Core/Pro plan). Works everywhere the MCP host has network access to app.seogets.com."
+      "description": "SEO Gets — GSC + GA4 unified (Core/Pro plan). Works from any Claude Code client with outbound access to app.seogets.com.",
+      "status": "✅ Active"
     }
   },
   "metadata": {
