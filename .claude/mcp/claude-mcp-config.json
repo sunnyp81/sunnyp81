@@ -69,6 +69,14 @@
       },
       "description": "Bing Webmaster Tools — remote HTTP MCP (works from mobile/cloud)",
       "status": "⏳ Pending deploy — see /mcp-remote/DEPLOY.md"
+    },
+    "seogets": {
+      "type": "http",
+      "url": "https://app.seogets.com/mcp",
+      "headers": {
+        "Authorization": "Bearer REPLACE_WITH_SEOGETS_API_KEY"
+      },
+      "description": "SEO Gets — GSC + GA4 unified (Core/Pro plan). Works everywhere the MCP host has network access to app.seogets.com."
     }
   },
   "metadata": {
