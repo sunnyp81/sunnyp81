@@ -1,43 +1,45 @@
 # hermes — GSC / GA4 / Bing data pullers
 
-Daily cron-driven snapshots of every property across both Google
-accounts (`2012.infinite@gmail.com`, `sunnypat81@gmail.com`) plus the
-single Bing Webmaster account. Output lands as day-partitioned JSON
-under `data/`, ready for downstream analysis, dashboards, or feeding
-into the SEO agents.
+Daily GitHub-Actions-driven snapshots of every property across both
+Google accounts (`2012.infinite@gmail.com`, `sunnypat81@gmail.com`)
+plus the single Bing Webmaster account. Snapshots commit to the
+`hermes-snapshots` branch as day-partitioned JSON — a growing corpus
+you can point downstream agents at.
 
-> **Staging note:** these files currently live in `sunnyp81/sunnyp81`
-> under `hermes/`. Move to `sunnyp81/hermes-swarm` with:
->
-> ```bash
-> cd hermes-swarm
-> git checkout -b add-data-pullers
-> cp -R ../sunnyp81/hermes/* .
-> git add . && git commit -m "add gsc/ga4/bing pullers"
-> git push -u origin add-data-pullers
-> ```
+**Runs on GitHub Actions, credentials in GitHub Secrets. Setup and
+manual triggers all work from a phone browser.**
+
+## Getting started (mobile)
+
+See [`deploy/PHONE_SETUP.md`](deploy/PHONE_SETUP.md). Five minutes end
+to end, no desktop needed. Summary:
+
+1. Seed four Google refresh tokens via OAuth Playground on your phone.
+2. Paste seven secrets into
+   `github.com/sunnyp81/sunnyp81/settings/secrets/actions`.
+3. Trigger `.github/workflows/hermes.yml` from the Actions tab.
 
 ## Layout
 
 ```
 hermes/
-├── config.py                    # accounts list + paths
+├── config.py                    # accounts + env-var naming
 ├── shared/
-│   ├── google_auth.py           # OAuth refresh -> service handle
+│   ├── google_auth.py           # env-var refresh -> service handle (cached)
 │   ├── paths.py                 # day-partitioned output paths
 │   └── logging.py               # JSON stdout logger
 ├── pullers/
 │   ├── gsc_pull.py              # sitemaps + search analytics
 │   ├── ga4_pull.py              # traffic/country/source/date/conversions
 │   └── bing_pull.py             # page/query/crawl stats
-├── credentials/                 # GITIGNORED — see credentials/README.md
-├── data/                        # GITIGNORED — snapshot output
+├── data/                        # snapshot output — committed to hermes-snapshots branch
 ├── deploy/
-│   ├── seed_oauth.py            # one-shot OAuth flow, per account
-│   ├── hermes-crontab.txt       # cron entries
-│   └── setup.sh                 # VPS bootstrap
+│   └── PHONE_SETUP.md           # mobile-only setup guide
 └── requirements.txt
 ```
+
+The workflow itself lives at
+[`.github/workflows/hermes.yml`](../.github/workflows/hermes.yml).
 
 ## Accounts
 
@@ -47,77 +49,59 @@ hermes/
 | `sunnypat81`   | `sunnypat81@gmail.com`       | GSC + GA4 |
 | `bing`         | (single Bing account)        | Bing WMT  |
 
-Bing has one API key, no per-account OAuth. Set `BING_API_KEY` in the
-cron env (see `deploy/hermes-crontab.txt`).
+Bing has one API key, no per-account OAuth.
 
-## One-shot bootstrap
+## Env-var conventions
 
-From your desktop:
+| Var                                 | What                                          |
+| ----------------------------------- | --------------------------------------------- |
+| `GOOGLE_CLIENT_ID`                  | OAuth Web-app client id (shared)              |
+| `GOOGLE_CLIENT_SECRET`              | OAuth Web-app client secret (shared)          |
+| `GSC_REFRESH_TOKEN_2012INFINITE`    | GSC refresh token, 2012.infinite@gmail.com    |
+| `GSC_REFRESH_TOKEN_SUNNYPAT81`      | GSC refresh token, sunnypat81@gmail.com       |
+| `GA4_REFRESH_TOKEN_2012INFINITE`    | GA4 refresh token, 2012.infinite@gmail.com    |
+| `GA4_REFRESH_TOKEN_SUNNYPAT81`      | GA4 refresh token, sunnypat81@gmail.com       |
+| `BING_API_KEY`                      | Bing Webmaster Tools API key                  |
 
-```bash
-cd hermes
-python -m pip install -r requirements.txt
+## Manual trigger from the Actions tab
 
-# Seed all four Google refresh tokens (one browser session each,
-# picking a different Google account per run)
-python deploy/seed_oauth.py --service gsc --account 2012infinite --client-secrets ~/client_secrets.json
-python deploy/seed_oauth.py --service gsc --account sunnypat81   --client-secrets ~/client_secrets.json
-python deploy/seed_oauth.py --service ga4 --account 2012infinite --client-secrets ~/client_secrets.json
-python deploy/seed_oauth.py --service ga4 --account sunnypat81   --client-secrets ~/client_secrets.json
-
-# Test locally
-python pullers/gsc_pull.py --days 28
-python pullers/ga4_pull.py --days 28
-python pullers/bing_pull.py
-```
-
-Then push to the VPS:
-
-```bash
-scp -r hermes root@VPS:/root/.hermes
-ssh root@VPS 'bash -s' < hermes/deploy/setup.sh
-```
+- **puller**: `all`, `gsc`, `ga4`, or `bing`
+- **days**: history window for GSC + GA4 (default 28)
 
 ## Output shape
 
 ```
+hermes-snapshots branch:
 data/
 ├── gsc/
 │   └── 2026-07-22/
 │       ├── _summary.json
 │       ├── 2012infinite__sc-domain_bestvibrationplates.co.uk__sitemaps.json
 │       ├── 2012infinite__sc-domain_bestvibrationplates.co.uk__searchanalytics_query.json
-│       ├── 2012infinite__sc-domain_bestvibrationplates.co.uk__searchanalytics_page.json
 │       └── ...
-├── ga4/
-│   └── 2026-07-22/
-│       └── ...
-└── bing/
-    └── 2026-07-22/
-        └── ...
+├── ga4/2026-07-22/…
+└── bing/2026-07-22/…
 ```
 
 Each `_summary.json` is a top-down view — site counts, sitemap error
-totals, per-site row counts — for quick "did today's pull find anything
-weird?" checks.
-
-## Running just one account
-
-```bash
-python pullers/gsc_pull.py --account sunnypat81
-python pullers/ga4_pull.py --account 2012infinite --days 7
-```
+totals, per-site row counts — for a quick "did today's pull find
+anything weird?" check.
 
 ## Design notes
 
-- **Idempotent by day.** Re-running overwrites the day's files. Cron
-  hitting the same day twice is a no-op-ish.
-- **One HttpError doesn't kill the run.** Per-site errors are captured
-  in the summary and logged, then the puller moves on.
-- **Access-token cache** in `shared/google_auth.py` refreshes every
-  ~50 min so a long GA4 sweep across dozens of properties doesn't
-  re-auth per call.
-- **Bing has no per-account concept** — its API is keyed and returns
-  every verified site on the single account.
-- **Storage** is currently plain files. SQLite/DuckDB come next if
-  you want cross-day joins.
+- **Idempotent by day** — re-running overwrites the day's files.
+- **One HttpError doesn't kill the run** — captured in the summary,
+  the puller moves on to the next site/property.
+- **Access-token cache** — refreshes every ~50 min so long sweeps
+  don't re-auth per call.
+- **Storage** — currently plain JSON committed to a git branch. Fine
+  for a corpus of daily snapshots you'll query with tools/agents.
+  If it gets huge, switch to Actions artifacts + a data bucket.
+
+## Where this code lives
+
+Staged in `sunnyp81/sunnyp81` because `sunnyp81/hermes-swarm` wasn't in
+the session's scope when this was written. The GitHub Actions workflow
+runs from wherever this code lives — you can either keep it here or
+move it into `hermes-swarm` later (and copy `.github/workflows/hermes.yml`
+too).

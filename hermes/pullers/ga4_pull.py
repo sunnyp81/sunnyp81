@@ -39,10 +39,11 @@ REPORTS = [
 
 
 def _services(account: Account):
-    if not account.ga4_creds.exists():
-        die("missing_creds", account=account.key, path=str(account.ga4_creds))
-    data = build_service(account.ga4_creds, "analyticsdata", "v1beta", GA4_SCOPES)
-    admin = build_service(account.ga4_creds, "analyticsadmin", "v1beta", GA4_SCOPES)
+    try:
+        data = build_service(account, "ga4", "analyticsdata", "v1beta", GA4_SCOPES)
+        admin = build_service(account, "ga4", "analyticsadmin", "v1beta", GA4_SCOPES)
+    except RuntimeError as e:
+        die("missing_creds", account=account.key, error=str(e))
     return data, admin
 
 

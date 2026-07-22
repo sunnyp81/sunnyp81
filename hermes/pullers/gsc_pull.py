@@ -31,9 +31,10 @@ from shared.paths import snapshot_path, summary_path, today_utc
 
 
 def _svc(account: Account):
-    if not account.gsc_creds.exists():
-        die("missing_creds", account=account.key, path=str(account.gsc_creds))
-    return build_service(account.gsc_creds, "searchconsole", "v1", GSC_SCOPES)
+    try:
+        return build_service(account, "gsc", "searchconsole", "v1", GSC_SCOPES)
+    except RuntimeError as e:
+        die("missing_creds", account=account.key, error=str(e))
 
 
 def _write(path: Path, payload: dict) -> None:
