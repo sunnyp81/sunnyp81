@@ -1,135 +1,137 @@
 {
-  "mcpServers": {
-    "ahrefs": {
-      "type": "http",
-      "url": "https://api.ahrefs.com/mcp/mcp",
-      "description": "Ahrefs SEO data API",
-      "status": "✅ Active"
-    },
-    "gsc": {
-      "type": "stdio",
-      "command": "C:\\Users\\sunny\\.gsc-mcp\\venv\\Scripts\\python.exe",
-      "args": [
-        "G:\\My Drive\\_SHARED\\mcp-servers\\gsc\\gsc_server.py"
-      ],
-      "env": {},
-      "description": "Google Search Console (custom Python server)",
-      "status": "✅ Active"
-    },
-    "ga4": {
-      "type": "stdio",
-      "command": "pipx",
-      "args": [
-        "run",
-        "analytics-mcp"
-      ],
-      "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "C:\\Users\\sunny\\AppData\\Roaming\\gcloud\\application_default_credentials.json",
-        "GOOGLE_PROJECT_ID": "ga4-mcp-488300"
-      },
-      "description": "Google Analytics 4 (official Google MCP)",
-      "status": "✅ Active"
-    },
-    "bing": {
-      "type": "stdio",
-      "command": "G:\\My Drive\\_SHARED\\mcp-servers\\bing\\.venv\\Scripts\\python.exe",
-      "args": [
-        "-m",
-        "mcp_server_bwt"
-      ],
-      "env": {
-        "BING_WEBMASTER_API_KEY": "fd0147cf4f4446f4984568ee673533e6"
-      },
-      "description": "Bing Webmaster Tools (custom Python server)",
-      "status": "✅ Active"
-    },
-    "gsc-remote": {
-      "type": "http",
-      "url": "https://sunny-gsc-mcp.fly.dev/mcp",
-      "headers": {
-        "Authorization": "Bearer REPLACE_WITH_MCP_API_KEY"
-      },
-      "description": "Google Search Console — remote HTTP MCP (works from mobile/cloud)",
-      "status": "⏳ Pending deploy — see /mcp-remote/DEPLOY.md"
-    },
-    "ga4-remote": {
-      "type": "http",
-      "url": "https://sunny-ga4-mcp.fly.dev/mcp",
-      "headers": {
-        "Authorization": "Bearer REPLACE_WITH_MCP_API_KEY"
-      },
-      "description": "Google Analytics 4 — remote HTTP MCP (works from mobile/cloud)",
-      "status": "⏳ Pending deploy — see /mcp-remote/DEPLOY.md"
-    },
-    "bing-remote": {
-      "type": "http",
-      "url": "https://sunny-bing-mcp.fly.dev/mcp",
-      "headers": {
-        "Authorization": "Bearer REPLACE_WITH_MCP_API_KEY"
-      },
-      "description": "Bing Webmaster Tools — remote HTTP MCP (works from mobile/cloud)",
-      "status": "⏳ Pending deploy — see /mcp-remote/DEPLOY.md"
-    },
-    "seogets": {
-      "type": "http",
-      "url": "https://app.seogets.com/mcp",
-      "headers": {
-        "Authorization": "Bearer sg_mcp_uApsq1N81vGt72ecRTU7shMPZF390qdMzxC10eFU8k4FWZbNQeRXk"
-      },
-      "description": "SEO Gets — GSC + GA4 unified (Core/Pro plan). Works from any Claude Code client with outbound access to app.seogets.com.",
-      "status": "✅ Active"
-    }
-  },
-  "metadata": {
-    "lastUpdated": "2026-03-01",
-    "claudeCodeVersion": "2.1.63",
-    "totalServers": 4,
-    "allConnected": true
-  },
-  "setupGuide": {
-    "gsc": {
-      "type": "Custom Python Server",
-      "path": "G:\\My Drive\\_SHARED\\mcp-servers\\gsc\\gsc_server.py",
-      "venv": "C:\\Users\\sunny\\.gsc-mcp\\venv\\Scripts\\python.exe",
-      "auth": "OAuth2 via client_secrets_oauth.json",
-      "credentials": "C:\\Users\\sunny\\.gsc-mcp\\token.json"
-    },
-    "ga4": {
-      "type": "Official Google Analytics MCP (pipx)",
-      "package": "analytics-mcp",
-      "installation": "pipx install analytics-mcp",
-      "gcp_project": "ga4-mcp-488300",
-      "gcp_apis": [
-        "Google Analytics Admin API",
-        "Google Analytics Data API"
-      ],
-      "auth": "Google Cloud Application Default Credentials",
-      "credentials": "C:\\Users\\sunny\\AppData\\Roaming\\gcloud\\application_default_credentials.json",
-      "setup_commands": [
-        "gcloud auth application-default login --scopes https://www.googleapis.com/auth/analytics.readonly,https://www.googleapis.com/auth/cloud-platform",
-        "pipx install analytics-mcp"
-      ]
-    },
-    "bing": {
-      "type": "Custom Python Server",
-      "path": "G:\\My Drive\\_SHARED\\mcp-servers\\bing\\",
-      "venv": "G:\\My Drive\\_SHARED\\mcp-servers\\bing\\.venv\\Scripts\\python.exe",
-      "entry_point": "mcp_server_bwt",
-      "auth": "API Key (environment variable)",
-      "api_key_location": "Bing Webmaster Tools → Settings → API Access"
-    },
-    "ahrefs": {
-      "type": "HTTP (Remote)",
-      "url": "https://api.ahrefs.com/mcp/mcp",
-      "auth": "OAuth (browser popup)",
-      "no_config_needed": "Uses built-in OAuth flow"
-    }
-  },
-  "restoreInstructions": {
-    "step1": "Copy mcp-config-backup.json to ~/.claude/projects/G--/mcp-backup/",
-    "step2": "Update C:\\Users\\sunny\\.claude.json with mcpServers section from this file",
-    "step3": "For GA4: Ensure gcloud auth is set up and pipx has analytics-mcp installed",
-    "step4": "For Bing: Verify BING_WEBMASTER_API_KEY environment variable is set",
-    "step5": "Restart Claude Code"
-  }
+    "mcpServers":  {
+                       "ahrefs":  {
+                                      "type":  "http",
+                                      "url":  "https://api.ahrefs.com/mcp/mcp",
+                                      "description":  "Ahrefs SEO data API",
+                                      "status":  "✅ Active"
+                                  },
+                       "gsc":  {
+                                   "type":  "stdio",
+                                   "command":  "C:\\Users\\sunny\\.gsc-mcp\\venv\\Scripts\\python.exe",
+                                   "args":  [
+                                                "G:\\My Drive\\_SHARED\\mcp-servers\\gsc\\gsc_server.py"
+                                            ],
+                                   "env":  {
+
+                                           },
+                                   "description":  "Google Search Console (custom Python server)",
+                                   "status":  "✅ Active"
+                               },
+                       "ga4":  {
+                                   "type":  "stdio",
+                                   "command":  "pipx",
+                                   "args":  [
+                                                "run",
+                                                "analytics-mcp"
+                                            ],
+                                   "env":  {
+                                               "GOOGLE_APPLICATION_CREDENTIALS":  "C:\\Users\\sunny\\AppData\\Roaming\\gcloud\\application_default_credentials.json",
+                                               "GOOGLE_PROJECT_ID":  "ga4-mcp-488300"
+                                           },
+                                   "description":  "Google Analytics 4 (official Google MCP)",
+                                   "status":  "✅ Active"
+                               },
+                       "bing":  {
+                                    "type":  "stdio",
+                                    "command":  "G:\\My Drive\\_SHARED\\mcp-servers\\bing\\.venv\\Scripts\\python.exe",
+                                    "args":  [
+                                                 "-m",
+                                                 "mcp_server_bwt"
+                                             ],
+                                    "env":  {
+                                                "BING_WEBMASTER_API_KEY":  "fd0147cf4f4446f4984568ee673533e6"
+                                            },
+                                    "description":  "Bing Webmaster Tools (custom Python server)",
+                                    "status":  "✅ Active"
+                                },
+                       "gsc-remote":  {
+                                          "type":  "http",
+                                          "url":  "https://sunny-gsc-mcp.fly.dev/mcp",
+                                          "headers":  {
+                                                          "Authorization":  "Bearer REPLACE_WITH_MCP_API_KEY"
+                                                      },
+                                          "description":  "Google Search Console — remote HTTP MCP (works from mobile/cloud)",
+                                          "status":  "⏳ Pending deploy — see /mcp-remote/DEPLOY.md"
+                                      },
+                       "ga4-remote":  {
+                                          "type":  "http",
+                                          "url":  "https://sunny-ga4-mcp.fly.dev/mcp",
+                                          "headers":  {
+                                                          "Authorization":  "Bearer REPLACE_WITH_MCP_API_KEY"
+                                                      },
+                                          "description":  "Google Analytics 4 — remote HTTP MCP (works from mobile/cloud)",
+                                          "status":  "⏳ Pending deploy — see /mcp-remote/DEPLOY.md"
+                                      },
+                       "bing-remote":  {
+                                           "type":  "http",
+                                           "url":  "https://sunny-bing-mcp.fly.dev/mcp",
+                                           "headers":  {
+                                                           "Authorization":  "Bearer *[P0_YF4fW\u003cCr[\u0027vA_7ZGfs`G@UqB`Lek7h20N6(3PN\u003eW/[\u003c"
+                                                       },
+                                           "description":  "Bing Webmaster Tools — remote HTTP MCP (works from mobile/cloud)",
+                                           "status":  "? Active"
+                                       },
+                       "seogets":  {
+                                       "type":  "http",
+                                       "url":  "https://app.seogets.com/mcp",
+                                       "headers":  {
+                                                       "Authorization":  "Bearer sg_mcp_uApsq1N81vGt72ecRTU7shMPZF390qdMzxC10eFU8k4FWZbNQeRXk"
+                                                   },
+                                       "description":  "SEO Gets — GSC + GA4 unified (Core/Pro plan). Works from any Claude Code client with outbound access to app.seogets.com.",
+                                       "status":  "✅ Active"
+                                   }
+                   },
+    "metadata":  {
+                     "lastUpdated":  "2026-03-01",
+                     "claudeCodeVersion":  "2.1.63",
+                     "totalServers":  4,
+                     "allConnected":  true
+                 },
+    "setupGuide":  {
+                       "gsc":  {
+                                   "type":  "Custom Python Server",
+                                   "path":  "G:\\My Drive\\_SHARED\\mcp-servers\\gsc\\gsc_server.py",
+                                   "venv":  "C:\\Users\\sunny\\.gsc-mcp\\venv\\Scripts\\python.exe",
+                                   "auth":  "OAuth2 via client_secrets_oauth.json",
+                                   "credentials":  "C:\\Users\\sunny\\.gsc-mcp\\token.json"
+                               },
+                       "ga4":  {
+                                   "type":  "Official Google Analytics MCP (pipx)",
+                                   "package":  "analytics-mcp",
+                                   "installation":  "pipx install analytics-mcp",
+                                   "gcp_project":  "ga4-mcp-488300",
+                                   "gcp_apis":  [
+                                                    "Google Analytics Admin API",
+                                                    "Google Analytics Data API"
+                                                ],
+                                   "auth":  "Google Cloud Application Default Credentials",
+                                   "credentials":  "C:\\Users\\sunny\\AppData\\Roaming\\gcloud\\application_default_credentials.json",
+                                   "setup_commands":  [
+                                                          "gcloud auth application-default login --scopes https://www.googleapis.com/auth/analytics.readonly,https://www.googleapis.com/auth/cloud-platform",
+                                                          "pipx install analytics-mcp"
+                                                      ]
+                               },
+                       "bing":  {
+                                    "type":  "Custom Python Server",
+                                    "path":  "G:\\My Drive\\_SHARED\\mcp-servers\\bing\\",
+                                    "venv":  "G:\\My Drive\\_SHARED\\mcp-servers\\bing\\.venv\\Scripts\\python.exe",
+                                    "entry_point":  "mcp_server_bwt",
+                                    "auth":  "API Key (environment variable)",
+                                    "api_key_location":  "Bing Webmaster Tools → Settings → API Access"
+                                },
+                       "ahrefs":  {
+                                      "type":  "HTTP (Remote)",
+                                      "url":  "https://api.ahrefs.com/mcp/mcp",
+                                      "auth":  "OAuth (browser popup)",
+                                      "no_config_needed":  "Uses built-in OAuth flow"
+                                  }
+                   },
+    "restoreInstructions":  {
+                                "step1":  "Copy mcp-config-backup.json to ~/.claude/projects/G--/mcp-backup/",
+                                "step2":  "Update C:\\Users\\sunny\\.claude.json with mcpServers section from this file",
+                                "step3":  "For GA4: Ensure gcloud auth is set up and pipx has analytics-mcp installed",
+                                "step4":  "For Bing: Verify BING_WEBMASTER_API_KEY environment variable is set",
+                                "step5":  "Restart Claude Code"
+                            }
 }
