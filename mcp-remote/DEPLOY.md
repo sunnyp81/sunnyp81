@@ -37,7 +37,7 @@ cd G:\...\mcp-remote\servers\bing
 fly launch --no-deploy --copy-config --name sunny-bing-mcp --region lhr
 fly secrets set `
   MCP_API_KEY=$env:MCP_API_KEY `
-  BING_API_KEY=fd0147cf4f4446f4984568ee673533e6
+  BING_API_KEY=$env:BING_API_KEY   # from Bing Webmaster Tools -> Settings -> API Access
 fly deploy
 ```
 

@@ -75,7 +75,7 @@ Same GitHub Secrets page, add three more:
 | ----------------------- | ---------------------------------------------- |
 | `GOOGLE_CLIENT_ID`      | the OAuth client_id you used in Playground     |
 | `GOOGLE_CLIENT_SECRET`  | the OAuth client_secret you used in Playground |
-| `BING_API_KEY`          | `fd0147cf4f4446f4984568ee673533e6`             |
+| `BING_API_KEY`          | Bing Webmaster Tools → Settings → API Access   |
 
 You end up with **7 secrets** total.
 

@@ -13,3 +13,21 @@
 .claude-backup/**/*.exe
 .claude-backup/**/.credentials.json
 .claude-backup/**/*.jsonl
+
+# Secrets — this repo is PUBLIC. Never commit live credentials.
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/*.credentials.json
+**/client_secret*.json
+**/client_secrets*.json
+**/token.json
+**/*_token.json
+**/service-account*.json
+**/wp-credentials.md
+**/wp_credentials.py
+**/wordpress-config.md
+**/reference_*credentials*.md
+.claude/**/*.local.json

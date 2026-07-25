@@ -147,7 +147,7 @@ pm2 delete tutor-server && cd /root/tutor/server && pm2 start index.js --name tu
 | Item | Value |
 |------|-------|
 | Base URL | `https://thetutor.link/wp-json/wp/v2` |
-| Auth | `Buffer.from('Kelly:nSOZ PpMT UvpV 4qst HD3I 8EVN').toString('base64')` |
+| Auth | `Buffer.from('Kelly:[REDACTED-WP-APP-PASSWORD]').toString('base64')` |
 | SEO plugin | Slim SEO (`meta.slim_seo.title`, `.description`, `.noindex`) |
 | Featured image ID | 2373 |
 | Homepage ID | 2256 |

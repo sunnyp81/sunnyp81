@@ -20,8 +20,8 @@
 
 **WP credentials:**
 - Host: `shecookssheeats.co.uk`
-- User: `sunny` | App password: `yuFd G7FS BarV AvUS W6ss 8KrQ`
-- Auth header: `Basic ` + `Buffer.from('sunny:yuFd G7FS BarV AvUS W6ss 8KrQ').toString('base64')`
+- User: `sunny` | App password: `[REDACTED-WP-APP-PASSWORD]`
+- Auth header: `Basic ` + `Buffer.from('sunny:[REDACTED-WP-APP-PASSWORD]').toString('base64')`
 
 ---
 
@@ -91,7 +91,7 @@ import puppeteer from 'puppeteer';
 import { writeFileSync, readFileSync, existsSync } from 'fs';
 
 const WP_HOST = 'https://shecookssheeats.co.uk';
-const WP_AUTH = 'Basic ' + Buffer.from('sunny:yuFd G7FS BarV AvUS W6ss 8KrQ').toString('base64');
+const WP_AUTH = 'Basic ' + Buffer.from('sunny:[REDACTED-WP-APP-PASSWORD]').toString('base64');
 const QUEUE_PATH = 'C:/Users/sunny/Downloads/scse_june_queue.json';
 
 async function fetchPostImages(slug) {
