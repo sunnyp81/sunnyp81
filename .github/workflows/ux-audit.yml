@@ -178,3 +178,181 @@ jobs:
             --title "UX-audit guardrail fixes (review before merge)" \
             --body "Automated proposal from ux-audit-rollout. Branch only, not merged. Review each change against the guardrail report before merging." \
             --draft || echo "PR may already exist; left branch pushed."
+
+  # ---------------------------------------------------------------------------
+  # Layer 1b: Codex proposes fixes on its own branch, same rules as the Claude
+  # job. Cross-vendor on purpose: layer 2 has each vendor verify the other's
+  # work, which breaks correlated errors. Requires OPENAI_API_KEY.
+  # NOTE: the Codex CLI is young; pin/adjust the exec invocation if the
+  # installed version's flags differ.
+  # ---------------------------------------------------------------------------
+  propose_fixes_codex:
+    if: ${{ inputs.open_fix_prs }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    needs: report
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        repo:
+          - sunnyp81/thebestmowers
+          - sunnyp81/towrating
+          - sunnyp81/bestvibrationplates
+          - sunnyp81/redlighttherapy-expert
+          - sunnyp81/mugscafe-site
+          - sunnyp81/towerfanreviews
+    env:
+      BRANCH: codex/ux-audit-fixes
+    steps:
+      - name: Checkout target site repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo }}
+          token: ${{ secrets.PORTFOLIO_PAT }}
+          fetch-depth: 0
+
+      - name: Fetch the guardrail script
+        uses: actions/checkout@v4
+        with:
+          repository: sunnyp81/sunnyp81
+          sparse-checkout: hermes/guardrail
+          sparse-checkout-cone-mode: false
+          path: _guardrail
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Codex CLI
+        run: npm install -g @openai/codex
+
+      - name: Create working branch
+        run: |
+          git config user.name  "ux-audit-codex-bot"
+          git config user.email "ux-audit-codex-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+
+      - name: Propose fixes (branch only, never merges)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          REPORT="$(python3 _guardrail/hermes/guardrail/check_content.py --root . --warn-only || true)"
+          codex exec --full-auto "You are fixing UX-audit defects in this affiliate site. Rules:
+          British English on .co.uk sites. NEVER use em or en dashes.
+          Never state a fault as fact without file:line evidence.
+          Do NOT invent product photos, reviews, testing, statistics, or personas.
+          Apply only the fixes below and only where the guardrail report cites them.
+          Then run the site build if package.json has a build script and stop if it fails.
+
+          Guardrail report:
+          ${REPORT}
+
+          Fixes to apply where the report flags them:
+          1. Remove em/en dashes from flagged content (comma, colon, or hyphen).
+          2. Delete any Person JSON-LD node and persona byline the report names;
+             set schema author/publisher to the Organization. Do not reword to keep it.
+          3. Remove any first-person we-tested / we-measured / our-lab claim that is
+             not backed by data in the repo; reframe as research-led.
+          4. Resolve any git conflict marker.
+          Leave everything else untouched."
+
+      - name: Push branch and open PR (no auto-merge)
+        env:
+          GH_TOKEN: ${{ secrets.PORTFOLIO_PAT }}
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes proposed for ${{ matrix.repo }}."
+            exit 0
+          fi
+          git add -A
+          git commit -m "UX-audit guardrail fixes via Codex (proposed, review before merge)"
+          git push -u origin "$BRANCH" --force-with-lease
+          gh pr create --repo "${{ matrix.repo }}" --head "$BRANCH" \
+            --title "UX-audit guardrail fixes via Codex (review before merge)" \
+            --body "Automated proposal from ux-audit-rollout (Codex lane). Branch only, not merged. A cross-vendor verify pass reviews this PR; check its comment before merging." \
+            --draft || echo "PR may already exist; left branch pushed."
+
+  # ---------------------------------------------------------------------------
+  # Layer 2: adversarial cross-vendor verify. Claude verifies the Codex branch,
+  # Codex verifies the Claude branch. Read-only: it edits nothing, it posts a
+  # claim-by-claim verdict comment on each proposal PR. A claim with no
+  # file:line + source does not survive. Humans still merge.
+  # ---------------------------------------------------------------------------
+  verify_proposals:
+    if: ${{ always() && inputs.open_fix_prs }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    needs: [propose_fixes, propose_fixes_codex]
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        repo:
+          - sunnyp81/thebestmowers
+          - sunnyp81/towrating
+          - sunnyp81/bestvibrationplates
+          - sunnyp81/redlighttherapy-expert
+          - sunnyp81/mugscafe-site
+          - sunnyp81/towerfanreviews
+    steps:
+      - name: Checkout target site repo (all branches)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo }}
+          token: ${{ secrets.PORTFOLIO_PAT }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install both CLIs
+        run: npm install -g @anthropic-ai/claude-code @openai/codex
+
+      - name: Cross-verify each proposal branch
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GH_TOKEN: ${{ secrets.PORTFOLIO_PAT }}
+        run: |
+          set +e
+          default_branch=$(git remote show origin | sed -n 's/.*HEAD branch: //p')
+          verify_one () {
+            branch="$1"; verifier="$2"
+            git rev-parse --verify "origin/$branch" >/dev/null 2>&1 || { echo "no $branch branch"; return 0; }
+            git checkout -q "origin/$branch"
+            git diff "origin/${default_branch}...HEAD" > /tmp/proposal.diff
+            [ -s /tmp/proposal.diff ] || { echo "$branch: empty diff"; return 0; }
+            PROMPT="Adversarially verify this proposed diff for an affiliate site.
+          For EVERY factual claim the diff introduces or rewords, output one line:
+          file:line | claim | verdict KEEP or DROP | reason. DROP anything not
+          backed by evidence in the repo. Also flag any new em/en dash, persona,
+          or invented testing language the diff adds. Do not edit any file.
+          Diff follows:
+          $(cat /tmp/proposal.diff | head -c 60000)"
+            if [ "$verifier" = "claude" ]; then
+              claude -p --model claude-fable-5 --permission-mode plan "$PROMPT" > /tmp/verdict.txt
+            else
+              codex exec --full-auto --read-only "$PROMPT" > /tmp/verdict.txt 2>&1 || codex exec --full-auto "$PROMPT" > /tmp/verdict.txt
+            fi
+            pr=$(gh pr list --repo "${{ matrix.repo }}" --head "$branch" --json number --jq '.[0].number')
+            if [ -n "$pr" ] && [ "$pr" != "null" ]; then
+              {
+                echo "## Cross-vendor verify (${verifier} reviewing ${branch})"
+                echo
+                echo '```'
+                head -c 20000 /tmp/verdict.txt
+                echo '```'
+                echo
+                echo "---"
+                echo "_Generated by [Claude Code](https://claude.ai/code)_"
+              } > /tmp/comment.md
+              gh pr comment "$pr" --repo "${{ matrix.repo }}" --body-file /tmp/comment.md
+            fi
+            git checkout -q "origin/${default_branch}"
+          }
+          verify_one "codex/ux-audit-fixes" "claude"
+          verify_one "claude/ux-audit-guardrail-fixes" "codex"
