@@ -97,3 +97,11 @@ jobs:
             git commit -m "hermes snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push origin hermes-snapshots
           fi
+
+      - name: Telegram on failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 hermes/notify/telegram.py "hermes data pull FAILED (run ${{ github.run_id }}). Open github.com/sunnyp81/sunnyp81/actions to see the log. The portfolio-status digest will also flag this as STALE if it stays broken past 26h."

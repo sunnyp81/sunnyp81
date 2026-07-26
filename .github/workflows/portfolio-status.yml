@@ -1,0 +1,160 @@
+name: portfolio-status
+
+# The watchdog. Runs daily, checks that everything else actually ran, sweeps
+# the content guardrail across every site repo, writes STATUS.md to the
+# portfolio-status branch, and sends a Telegram digest to Sunny's phone.
+#
+# Reliability contract (see hermes/RUNBOOK.md):
+#  - This digest arrives EVERY day. Its absence means the monitor itself is
+#    down, which is the one thing a monitor cannot report, so the daily
+#    message doubles as the heartbeat.
+#  - Dead-man's switch: if the hermes data pull has not succeeded in 26h,
+#    the digest says STALE loudly instead of failing silently.
+#  - The job never needs a laptop: triggers, logs, and STATUS.md are all
+#    phone-readable on github.com; alerts arrive on Telegram.
+
+on:
+  schedule:
+    - cron: '5 7 * * *'   # daily 07:05 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: portfolio-status
+  cancel-in-progress: false
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dead-man check on hermes data pull
+        id: deadman
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh run list --workflow=hermes.yml --status=success --limit=1 \
+                 --json updatedAt --jq '.[0].updatedAt' 2>/dev/null || echo "")
+          if [ -z "$last" ] || [ "$last" = "null" ]; then
+            echo "state=NEVER-SUCCEEDED" >> "$GITHUB_OUTPUT"
+            echo "age_hours=n/a" >> "$GITHUB_OUTPUT"
+          else
+            age=$(python3 -c "from datetime import datetime,timezone;print(round((datetime.now(timezone.utc)-datetime.fromisoformat('$last'.replace('Z','+00:00'))).total_seconds()/3600,1))")
+            echo "age_hours=$age" >> "$GITHUB_OUTPUT"
+            if python3 -c "import sys;sys.exit(0 if float('$age')>26 else 1)"; then
+              echo "state=STALE" >> "$GITHUB_OUTPUT"
+            else
+              echo "state=OK" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Guardrail sweep across site repos
+        id: sweep
+        env:
+          PAT: ${{ secrets.PORTFOLIO_PAT }}
+        run: |
+          set +e
+          repos="sunnyp81/thebestmowers sunnyp81/towrating sunnyp81/bestvibrationplates \
+                 sunnyp81/redlighttherapy-expert sunnyp81/mugscafe-site \
+                 sunnyp81/techloved-rebuild sunnyp81/towerfanreviews"
+          mkdir -p /tmp/sweep
+          {
+            echo "| site | blockers | warnings | note |"
+            echo "|------|----------|----------|------|"
+          } > /tmp/sweep/table.md
+          for r in $repos; do
+            name="${r#*/}"
+            if [ -n "$PAT" ]; then
+              url="https://x-access-token:${PAT}@github.com/${r}"
+            else
+              url="https://github.com/${r}"
+            fi
+            if git clone --depth 1 --quiet "$url" "/tmp/sweep/$name" 2>/dev/null; then
+              out=$(python3 hermes/guardrail/check_content.py --root "/tmp/sweep/$name" --warn-only | tail -1)
+              b=$(echo "$out" | grep -oE '[0-9]+ blocker' | grep -oE '[0-9]+' || echo '?')
+              w=$(echo "$out" | grep -oE '[0-9]+ warning' | grep -oE '[0-9]+' || echo '?')
+              echo "| $name | $b | $w | |" >> /tmp/sweep/table.md
+            else
+              echo "| $name | - | - | no access (private repo, PORTFOLIO_PAT unset or lacks scope) |" >> /tmp/sweep/table.md
+            fi
+          done
+          cat /tmp/sweep/table.md
+
+      - name: Recent workflow failures
+        id: failures
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          fails=$(gh run list --limit 20 --json name,conclusion,updatedAt \
+            --jq '[.[] | select(.conclusion=="failure")] | .[0:5] | map("\(.name) failed \(.updatedAt)") | join("; ")' 2>/dev/null || echo "")
+          echo "list=${fails:-none}" >> "$GITHUB_OUTPUT"
+
+      - name: Write STATUS.md to portfolio-status branch
+        run: |
+          set -e
+          {
+            echo "# Portfolio status"
+            echo
+            echo "Generated: $(date -u +'%Y-%m-%d %H:%M UTC') by portfolio-status.yml"
+            echo
+            echo "## Data pipeline"
+            echo
+            echo "- hermes data pull: ${{ steps.deadman.outputs.state }} (last success ${{ steps.deadman.outputs.age_hours }}h ago)"
+            echo "- recent workflow failures: ${{ steps.failures.outputs.list }}"
+            echo
+            echo "## Content guardrail (blockers = dashes, conflict markers, persona schema)"
+            echo
+            cat /tmp/sweep/table.md
+            echo
+            echo "Read the per-line detail by running the guardrail locally or via the"
+            echo "ux-audit workflow report job. See hermes/RUNBOOK.md for phone ops."
+          } > /tmp/STATUS.md
+          git config user.name  "portfolio-status-bot"
+          git config user.email "portfolio-status-bot@users.noreply.github.com"
+          git fetch origin portfolio-status || true
+          if git rev-parse --verify origin/portfolio-status >/dev/null 2>&1; then
+            git checkout -B portfolio-status origin/portfolio-status
+          else
+            git checkout --orphan portfolio-status
+            git rm -rf --cached . >/dev/null 2>&1 || true
+            find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} + 2>/dev/null || true
+          fi
+          cp /tmp/STATUS.md STATUS.md
+          git add STATUS.md
+          if git diff --cached --quiet; then
+            echo "No status change."
+          else
+            git commit -m "status $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push origin portfolio-status
+          fi
+
+      - name: Telegram daily digest (the heartbeat)
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          git checkout ${{ github.sha }} -- hermes/notify/telegram.py 2>/dev/null || true
+          summary=$(python3 - <<'EOF'
+          rows = []
+          try:
+              with open('/tmp/sweep/table.md') as fh:
+                  for line in fh.read().splitlines()[2:]:
+                      parts = [p.strip() for p in line.strip('|').split('|')]
+                      if len(parts) >= 3:
+                          rows.append(f"{parts[0]}: {parts[1]}B/{parts[2]}W")
+          except FileNotFoundError:
+              rows.append("sweep did not run")
+          print(", ".join(rows))
+          EOF
+          )
+          python3 hermes/notify/telegram.py "Portfolio daily: hermes pull ${{ steps.deadman.outputs.state }} (${{ steps.deadman.outputs.age_hours }}h). Guardrail: ${summary}. Failures: ${{ steps.failures.outputs.list }}. Detail: github.com/sunnyp81/sunnyp81/blob/portfolio-status/STATUS.md"
