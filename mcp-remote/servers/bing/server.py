@@ -12,6 +12,7 @@ from typing import Any
 
 import httpx
 from mcp.server.fastmcp import FastMCP
+from mcp.server.transport_security import TransportSecuritySettings
 from starlette.responses import JSONResponse
 from starlette.routing import Route
 
@@ -20,7 +21,12 @@ from auth import BearerAuth
 BING_BASE = "https://ssl.bing.com/webmaster/api.svc/json"
 BING_API_KEY = os.environ.get("BING_API_KEY", "")
 
-mcp = FastMCP("bing-webmaster")
+# DNS-rebinding protection off — we front with a bearer token, and
+# blocking the Fly hostname prevents any remote client from connecting.
+mcp = FastMCP(
+    "bing-webmaster",
+    transport_security=TransportSecuritySettings(enable_dns_rebinding_protection=False),
+)
 
 
 def _client() -> httpx.Client:

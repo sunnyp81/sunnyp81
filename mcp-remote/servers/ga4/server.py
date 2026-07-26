@@ -19,6 +19,7 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from mcp.server.fastmcp import FastMCP
+from mcp.server.transport_security import TransportSecuritySettings
 from starlette.responses import JSONResponse
 from starlette.routing import Route
 
@@ -70,7 +71,10 @@ def _services():
         return _data_service, _admin_service
 
 
-mcp = FastMCP("ga4")
+mcp = FastMCP(
+    "ga4",
+    transport_security=TransportSecuritySettings(enable_dns_rebinding_protection=False),
+)
 
 
 def _property_id(property_id: str | int) -> str:
