@@ -182,7 +182,12 @@ jobs:
   # ---------------------------------------------------------------------------
   # Layer 1b: Codex proposes fixes on its own branch, same rules as the Claude
   # job. Cross-vendor on purpose: layer 2 has each vendor verify the other's
-  # work, which breaks correlated errors. Requires OPENAI_API_KEY.
+  # work, which breaks correlated errors. Auth: CODEX_AUTH_JSON secret
+  # (ChatGPT subscription, preferred; mint by running 'codex login' once on
+  # any machine and pasting ~/.codex/auth.json into the secret) or
+  # OPENAI_API_KEY as fallback. Subscription tokens refresh themselves via the
+  # stored refresh token but can eventually expire; re-mint the secret if the
+  # lane starts failing auth.
   # NOTE: the Codex CLI is young; pin/adjust the exec invocation if the
   # installed version's flags differ.
   # ---------------------------------------------------------------------------
@@ -229,6 +234,25 @@ jobs:
 
       - name: Install Codex CLI
         run: npm install -g @openai/codex
+
+      - name: Authenticate Codex (ChatGPT subscription preferred)
+        env:
+          CODEX_AUTH_JSON: ${{ secrets.CODEX_AUTH_JSON }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          mkdir -p ~/.codex
+          if [ -n "$CODEX_AUTH_JSON" ]; then
+            printf '%s' "$CODEX_AUTH_JSON" > ~/.codex/auth.json
+            chmod 600 ~/.codex/auth.json
+            echo "codex: using ChatGPT subscription auth (CODEX_AUTH_JSON)"
+          elif [ -n "$OPENAI_API_KEY" ]; then
+            echo "codex: falling back to OPENAI_API_KEY"
+          else
+            echo "codex: no auth configured. Set CODEX_AUTH_JSON (preferred: run"
+            echo "'codex login' once on any machine, then paste ~/.codex/auth.json"
+            echo "into the secret) or OPENAI_API_KEY."
+            exit 1
+          fi
 
       - name: Create working branch
         run: |
@@ -311,6 +335,22 @@ jobs:
           node-version: '22'
       - name: Install both CLIs
         run: npm install -g @anthropic-ai/claude-code @openai/codex
+
+      - name: Authenticate Codex (ChatGPT subscription preferred)
+        env:
+          CODEX_AUTH_JSON: ${{ secrets.CODEX_AUTH_JSON }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          mkdir -p ~/.codex
+          if [ -n "$CODEX_AUTH_JSON" ]; then
+            printf '%s' "$CODEX_AUTH_JSON" > ~/.codex/auth.json
+            chmod 600 ~/.codex/auth.json
+            echo "codex: using ChatGPT subscription auth (CODEX_AUTH_JSON)"
+          elif [ -n "$OPENAI_API_KEY" ]; then
+            echo "codex: falling back to OPENAI_API_KEY"
+          else
+            echo "codex: no auth; the codex verify lane will be skipped."
+          fi
 
       - name: Cross-verify each proposal branch
         env:

@@ -63,6 +63,11 @@ github.com/sunnyp81/sunnyp81/settings/secrets/actions (same flow as
   watchdog sweep private repos; add contents:write + pull_requests:write only
   when you enable fix PRs in `ux-audit.yml`).
 - `ANTHROPIC_API_KEY`: only needed for the `ux-audit.yml` fix-PR job.
+- `CODEX_AUTH_JSON`: only needed for the Codex lane in `ux-audit.yml`. Uses
+  your ChatGPT subscription, not metered API billing: run `codex login` once
+  on any machine, then paste the contents of `~/.codex/auth.json` into this
+  secret. Re-mint it if the lane ever starts failing auth. (`OPENAI_API_KEY`
+  works as a fallback if you ever prefer API billing.)
 
 Missing secrets degrade politely: without Telegram secrets the digest prints
 to the run log; without the PAT the sweep marks private repos "no access".

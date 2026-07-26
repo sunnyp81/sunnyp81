@@ -76,7 +76,8 @@ only, I merge".
 
 ## Infrastructure
 
-- Secrets (GitHub Actions): `ANTHROPIC_API_KEY`, `OPENAI_API_KEY` (Codex),
+- Secrets (GitHub Actions): `ANTHROPIC_API_KEY`, `CODEX_AUTH_JSON` (Codex via
+  ChatGPT subscription; `OPENAI_API_KEY` as API-billing fallback),
   `PORTFOLIO_PAT` (fine-grained, contents:write + pull_requests:write on the
   site repos; `GITHUB_TOKEN` cannot reach other repos).
 - Workflows in this repo: `content-guardrail.yml` (layer 3, reusable) and
