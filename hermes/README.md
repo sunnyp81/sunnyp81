@@ -1,4 +1,4 @@
-# hermes — GSC / GA4 / Bing data pullers
+# hermes — SEO Gets / GSC / GA4 / Bing data pullers
 
 Daily GitHub-Actions-driven snapshots of every property across both
 Google accounts (`2012.infinite@gmail.com`, `sunnypat81@gmail.com`)
@@ -11,13 +11,17 @@ manual triggers all work from a phone browser.**
 
 ## Getting started (mobile)
 
-See [`deploy/PHONE_SETUP.md`](deploy/PHONE_SETUP.md). Five minutes end
-to end, no desktop needed. Summary:
+See [`deploy/PHONE_SETUP.md`](deploy/PHONE_SETUP.md). Two minutes,
+no Google OAuth needed:
 
-1. Seed four Google refresh tokens via OAuth Playground on your phone.
-2. Paste seven secrets into
+1. Add two secrets (`SEOGETS_API_KEY`, `BING_API_KEY`) at
    `github.com/sunnyp81/sunnyp81/settings/secrets/actions`.
-3. Trigger `.github/workflows/hermes.yml` from the Actions tab.
+2. Trigger `.github/workflows/hermes.yml` from the Actions tab.
+
+The SEO Gets puller covers GSC + GA4 data via SEO Gets Pro. Raw
+Google-API pulls are optional extras — the `all` run auto-skips any
+puller whose secrets aren't set. Seed the Google tokens later by
+harvesting them off the desktop MCP installs (see PHONE_SETUP Path 2).
 
 ## Layout
 
@@ -29,8 +33,9 @@ hermes/
 │   ├── paths.py                 # day-partitioned output paths
 │   └── logging.py               # JSON stdout logger
 ├── pullers/
-│   ├── gsc_pull.py              # sitemaps + search analytics
-│   ├── ga4_pull.py              # traffic/country/source/date/conversions
+│   ├── seogets_pull.py          # GSC+GA4 via SEO Gets MCP (no Google OAuth)
+│   ├── gsc_pull.py              # sitemaps + search analytics (raw API)
+│   ├── ga4_pull.py              # traffic/country/source/date/conversions (raw API)
 │   └── bing_pull.py             # page/query/crawl stats
 ├── data/                        # snapshot output — committed to hermes-snapshots branch
 ├── deploy/
@@ -53,15 +58,21 @@ Bing has one API key, no per-account OAuth.
 
 ## Env-var conventions
 
-| Var                                 | What                                          |
-| ----------------------------------- | --------------------------------------------- |
-| `GOOGLE_CLIENT_ID`                  | OAuth Web-app client id (shared)              |
-| `GOOGLE_CLIENT_SECRET`              | OAuth Web-app client secret (shared)          |
-| `GSC_REFRESH_TOKEN_2012INFINITE`    | GSC refresh token, 2012.infinite@gmail.com    |
-| `GSC_REFRESH_TOKEN_SUNNYPAT81`      | GSC refresh token, sunnypat81@gmail.com       |
-| `GA4_REFRESH_TOKEN_2012INFINITE`    | GA4 refresh token, 2012.infinite@gmail.com    |
-| `GA4_REFRESH_TOKEN_SUNNYPAT81`      | GA4 refresh token, sunnypat81@gmail.com       |
-| `BING_API_KEY`                      | Bing Webmaster Tools API key                  |
+| Var                                 | What                                              |
+| ----------------------------------- | ------------------------------------------------- |
+| `SEOGETS_API_KEY`                   | SEO Gets MCP key — GSC+GA4 data, no Google OAuth  |
+| `BING_API_KEY`                      | Bing Webmaster Tools API key                      |
+| `GOOGLE_CLIENT_ID`                  | (optional) shared OAuth client id                 |
+| `GOOGLE_CLIENT_SECRET`              | (optional) shared OAuth client secret             |
+| `GSC_CLIENT_ID` / `GSC_CLIENT_SECRET` | (optional) per-service client, beats `GOOGLE_*` |
+| `GA4_CLIENT_ID` / `GA4_CLIENT_SECRET` | (optional) per-service client, beats `GOOGLE_*` |
+| `GSC_REFRESH_TOKEN_2012INFINITE`    | (optional) GSC refresh token, 2012.infinite       |
+| `GSC_REFRESH_TOKEN_SUNNYPAT81`      | (optional) GSC refresh token, sunnypat81          |
+| `GA4_REFRESH_TOKEN_2012INFINITE`    | (optional) GA4 refresh token, 2012.infinite       |
+| `GA4_REFRESH_TOKEN_SUNNYPAT81`      | (optional) GA4 refresh token, sunnypat81          |
+
+Only the first two are required — the `all` run auto-skips pullers
+whose secrets are missing.
 
 ## Manual trigger from the Actions tab
 

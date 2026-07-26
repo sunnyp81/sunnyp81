@@ -2,7 +2,7 @@ name: hermes
 
 on:
   schedule:
-    # 04:30 UTC daily. Sequential run: GSC -> GA4 -> Bing.
+    # 04:30 UTC daily. Sequential run: SEO Gets -> GSC -> GA4 -> Bing.
     - cron: '30 4 * * *'
   workflow_dispatch:
     inputs:
@@ -12,11 +12,12 @@ on:
         type: choice
         options:
           - all
+          - seogets
           - gsc
           - ga4
           - bing
       days:
-        description: 'How many days of history to pull (for GSC + GA4)'
+        description: 'How many days of history to pull (SEO Gets, GSC, GA4)'
         default: '28'
         type: string
 
@@ -31,6 +32,15 @@ jobs:
   pull:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    # 'all' runs whatever has credentials and skips the rest, so the
+    # workflow is green from day one with just SEOGETS_API_KEY + BING_API_KEY.
+    # Naming a puller explicitly always runs it (and fails loudly if
+    # its secrets are missing).
+    env:
+      HAS_SEOGETS: ${{ secrets.SEOGETS_API_KEY != '' }}
+      HAS_GSC: ${{ secrets.GSC_REFRESH_TOKEN_2012INFINITE != '' || secrets.GSC_REFRESH_TOKEN_SUNNYPAT81 != '' }}
+      HAS_GA4: ${{ secrets.GA4_REFRESH_TOKEN_2012INFINITE != '' || secrets.GA4_REFRESH_TOKEN_SUNNYPAT81 != '' }}
+      HAS_BING: ${{ secrets.BING_API_KEY != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -49,28 +59,39 @@ jobs:
           echo "puller=${{ github.event.inputs.puller || 'all' }}" >> $GITHUB_OUTPUT
           echo "days=${{ github.event.inputs.days || '28' }}" >> $GITHUB_OUTPUT
 
-      - name: Pull GSC
-        if: steps.inputs.outputs.puller == 'all' || steps.inputs.outputs.puller == 'gsc'
+      - name: Pull SEO Gets (GSC + GA4 data, no Google OAuth)
+        if: steps.inputs.outputs.puller == 'seogets' || (steps.inputs.outputs.puller == 'all' && env.HAS_SEOGETS == 'true')
+        env:
+          SEOGETS_API_KEY: ${{ secrets.SEOGETS_API_KEY }}
+        working-directory: hermes
+        run: python pullers/seogets_pull.py --days ${{ steps.inputs.outputs.days }}
+
+      - name: Pull GSC (raw API, optional)
+        if: steps.inputs.outputs.puller == 'gsc' || (steps.inputs.outputs.puller == 'all' && env.HAS_GSC == 'true')
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
           GSC_REFRESH_TOKEN_2012INFINITE: ${{ secrets.GSC_REFRESH_TOKEN_2012INFINITE }}
           GSC_REFRESH_TOKEN_SUNNYPAT81: ${{ secrets.GSC_REFRESH_TOKEN_SUNNYPAT81 }}
         working-directory: hermes
         run: python pullers/gsc_pull.py --days ${{ steps.inputs.outputs.days }}
 
-      - name: Pull GA4
-        if: steps.inputs.outputs.puller == 'all' || steps.inputs.outputs.puller == 'ga4'
+      - name: Pull GA4 (raw API, optional)
+        if: steps.inputs.outputs.puller == 'ga4' || (steps.inputs.outputs.puller == 'all' && env.HAS_GA4 == 'true')
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GA4_CLIENT_ID: ${{ secrets.GA4_CLIENT_ID }}
+          GA4_CLIENT_SECRET: ${{ secrets.GA4_CLIENT_SECRET }}
           GA4_REFRESH_TOKEN_2012INFINITE: ${{ secrets.GA4_REFRESH_TOKEN_2012INFINITE }}
           GA4_REFRESH_TOKEN_SUNNYPAT81: ${{ secrets.GA4_REFRESH_TOKEN_SUNNYPAT81 }}
         working-directory: hermes
         run: python pullers/ga4_pull.py --days ${{ steps.inputs.outputs.days }}
 
       - name: Pull Bing
-        if: steps.inputs.outputs.puller == 'all' || steps.inputs.outputs.puller == 'bing'
+        if: steps.inputs.outputs.puller == 'bing' || (steps.inputs.outputs.puller == 'all' && env.HAS_BING == 'true')
         env:
           BING_API_KEY: ${{ secrets.BING_API_KEY }}
         working-directory: hermes
@@ -88,7 +109,7 @@ jobs:
             git checkout --orphan hermes-snapshots
             git rm -rf --cached . >/dev/null 2>&1 || true
             echo "# hermes-snapshots" > README.md
-            echo "Daily GSC + GA4 + Bing snapshots from .github/workflows/hermes.yml." >> README.md
+            echo "Daily SEO Gets + GSC + GA4 + Bing snapshots from .github/workflows/hermes.yml." >> README.md
           fi
           git add -f hermes/data
           if git diff --cached --quiet; then

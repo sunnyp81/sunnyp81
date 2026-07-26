@@ -41,7 +41,16 @@ def refresh_token_env_name(service: str, account: Account) -> str:
     return f"{service.upper()}_REFRESH_TOKEN_{account.key.upper()}"
 
 
-def google_client_env() -> tuple[str, str]:
+def google_client_env(service: str = "") -> tuple[str, str]:
+    """OAuth client for a service. `GSC_CLIENT_ID`/`GA4_CLIENT_ID` (etc.)
+    win over the shared `GOOGLE_CLIENT_ID` — tokens harvested from two
+    different desktop MCP installs came from two different OAuth clients.
+    """
+    if service:
+        cid = os.environ.get(f"{service.upper()}_CLIENT_ID", "")
+        csec = os.environ.get(f"{service.upper()}_CLIENT_SECRET", "")
+        if cid and csec:
+            return cid, csec
     cid = os.environ.get("GOOGLE_CLIENT_ID", "")
     csec = os.environ.get("GOOGLE_CLIENT_SECRET", "")
     return cid, csec
