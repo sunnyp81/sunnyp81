@@ -1,0 +1,4 @@
+{
+  "personas": ["Maya Hollander"],
+  "severities": { "no_fabricated_test": "BLOCKER" }
+}

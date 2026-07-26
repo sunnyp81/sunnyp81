@@ -1,0 +1,180 @@
+name: ux-audit-rollout
+
+# Portfolio UX-audit rollout. Manual trigger only (no schedule), so it can
+# never fire an unreviewed change.
+#
+# Job 1 (report): deterministic. Runs the offline content guardrail across a
+#   matrix of site repos and writes a report to the run summary + artifacts.
+#   Needs no API key and opens nothing. Safe to run any time.
+#
+# Job 2 (propose_fixes): gated behind the `open_fix_prs` input. Runs Claude
+#   Code headless per repo to open ONE branch + PR of proposed fixes. It never
+#   merges and never pushes to a default branch. Requires two secrets:
+#     ANTHROPIC_API_KEY  - model access
+#     PORTFOLIO_PAT      - a fine-grained PAT with contents:write + pull_requests:write
+#                          on the target site repos (GITHUB_TOKEN cannot reach
+#                          other repos).
+#
+# Model split mirrors the manual audit: Sonnet scans/edits, a stronger model
+# verifies. Override per run via the `fix_model` input.
+
+on:
+  workflow_dispatch:
+    inputs:
+      repos:
+        description: 'Comma-separated owner/repo list (blank = all in matrix default)'
+        type: string
+        default: ''
+      open_fix_prs:
+        description: 'Also open fix PRs (needs ANTHROPIC_API_KEY + PORTFOLIO_PAT)'
+        type: boolean
+        default: false
+      fix_model:
+        description: 'Model for the fix pass'
+        type: choice
+        default: claude-sonnet-5
+        options:
+          - claude-sonnet-5
+          - claude-fable-5
+          - claude-opus-5
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        repo:
+          - sunnyp81/thebestmowers
+          - sunnyp81/towrating
+          - sunnyp81/bestvibrationplates
+          - sunnyp81/redlighttherapy-expert
+          - sunnyp81/mugscafe-site
+          - sunnyp81/towerfanreviews
+    steps:
+      - name: Checkout target site repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo }}
+          token: ${{ secrets.PORTFOLIO_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Fetch the guardrail script
+        uses: actions/checkout@v4
+        with:
+          repository: sunnyp81/sunnyp81
+          sparse-checkout: hermes/guardrail
+          sparse-checkout-cone-mode: false
+          path: _guardrail
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Guardrail report (never fails)
+        run: |
+          python _guardrail/hermes/guardrail/check_content.py --root . --warn-only \
+            | tee guardrail-report.txt
+          echo "### ${{ matrix.repo }}" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 30 guardrail-report.txt >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: guardrail-${{ strategy.job-index }}
+          path: guardrail-report.txt
+
+  propose_fixes:
+    if: ${{ inputs.open_fix_prs }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    needs: report
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        repo:
+          - sunnyp81/thebestmowers
+          - sunnyp81/towrating
+          - sunnyp81/bestvibrationplates
+          - sunnyp81/redlighttherapy-expert
+          - sunnyp81/mugscafe-site
+          - sunnyp81/towerfanreviews
+    env:
+      BRANCH: claude/ux-audit-guardrail-fixes
+    steps:
+      - name: Checkout target site repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo }}
+          token: ${{ secrets.PORTFOLIO_PAT }}
+          fetch-depth: 0
+
+      - name: Fetch the guardrail script
+        uses: actions/checkout@v4
+        with:
+          repository: sunnyp81/sunnyp81
+          sparse-checkout: hermes/guardrail
+          sparse-checkout-cone-mode: false
+          path: _guardrail
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Create working branch
+        run: |
+          git config user.name  "ux-audit-bot"
+          git config user.email "ux-audit-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+
+      - name: Propose fixes (branch only, never merges)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          REPORT="$(python _guardrail/hermes/guardrail/check_content.py --root . --warn-only || true)"
+          claude -p --model "${{ inputs.fix_model }}" --permission-mode acceptEdits "
+          You are fixing UX-audit defects in this affiliate site. Rules:
+          British English on .co.uk sites. NEVER use em or en dashes.
+          Never state a fault as fact without file:line evidence.
+          Do NOT invent product photos, reviews, testing, statistics, or personas.
+          Apply only the fixes below and only where the guardrail report cites them.
+          Then run the site build if package.json has a build script and stop if it fails.
+
+          Guardrail report:
+          ${REPORT}
+
+          Fixes to apply where the report flags them:
+          1. Remove em/en dashes from flagged content (comma, colon, or hyphen).
+          2. Delete any Person JSON-LD node and persona byline the report names;
+             set schema author/publisher to the Organization. Do not reword to keep it.
+          3. Remove any first-person we-tested / we-measured / our-lab claim that is
+             not backed by data in the repo; reframe as research-led.
+          4. Resolve any git conflict marker.
+          Leave everything else untouched."
+
+      - name: Push branch and open PR (no auto-merge)
+        env:
+          GH_TOKEN: ${{ secrets.PORTFOLIO_PAT }}
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes proposed for ${{ matrix.repo }}."
+            exit 0
+          fi
+          git add -A
+          git commit -m "UX-audit guardrail fixes (proposed, review before merge)"
+          git push -u origin "$BRANCH" --force-with-lease
+          gh pr create --repo "${{ matrix.repo }}" --head "$BRANCH" \
+            --title "UX-audit guardrail fixes (review before merge)" \
+            --body "Automated proposal from ux-audit-rollout. Branch only, not merged. Review each change against the guardrail report before merging." \
+            --draft || echo "PR may already exist; left branch pushed."

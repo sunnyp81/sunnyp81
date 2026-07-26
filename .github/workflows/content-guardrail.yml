@@ -1,0 +1,70 @@
+name: content-guardrail
+
+# Reusable fabrication/hygiene gate for the affiliate-site portfolio.
+#
+# Two ways to use it:
+#  1. On PRs to this repo (sunnyp81/sunnyp81) directly, via the pull_request
+#     trigger below.
+#  2. From any site repo, by adding a tiny caller workflow (see
+#     hermes/guardrail/README.md). The site repo calls this file with
+#     `uses: sunnyp81/sunnyp81/.github/workflows/content-guardrail.yml@main`.
+#
+# It never edits code. It only reports, and fails the check when a BLOCKER-level
+# rule matches (em/en dashes, git conflict markers, persona/Person JSON-LD).
+# Fuzzy rules (fabricated-test language, PMID shape) are WARN by default and do
+# not fail the build.
+
+on:
+  workflow_call:
+    inputs:
+      warn_only:
+        description: 'Report only, never fail the build'
+        type: boolean
+        default: false
+  pull_request:
+    paths:
+      - 'src/content/**'
+      - 'src/pages/**'
+      - 'src/components/**'
+      - 'src/data/**'
+      - 'public/*.txt'
+
+permissions:
+  contents: read
+
+jobs:
+  guardrail:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout the repo being checked
+        uses: actions/checkout@v4
+
+      - name: Fetch the guardrail script
+        uses: actions/checkout@v4
+        with:
+          repository: sunnyp81/sunnyp81
+          sparse-checkout: hermes/guardrail
+          sparse-checkout-cone-mode: false
+          path: _guardrail
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run content guardrail
+        run: |
+          python _guardrail/hermes/guardrail/check_content.py \
+            --root . ${{ (inputs.warn_only && '--warn-only') || '' }} \
+            | tee guardrail-report.txt
+          echo '### Content guardrail' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 40 guardrail-report.txt >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload full report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: guardrail-report
+          path: guardrail-report.txt

@@ -1,0 +1,4 @@
+{
+  "personas": ["Jasmine Sinclair", "David Okonkwo", "Ruth Pemberton"],
+  "severities": { "no_fabricated_test": "BLOCKER" }
+}
