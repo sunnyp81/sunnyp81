@@ -58,6 +58,7 @@
           "/state/arizona/",
           "/state/arizona/solar/",
           "/state/arkansas/",
+          "/state/california/",
           "/state/california/battery/",
           "/state/california/ev/",
           "/state/california/heat-pump/",
@@ -91,12 +92,13 @@
           "/state/texas/solar/",
           "/state/utah/",
           "/state/vermont/",
+          "/state/washington/",
           "/technology/",
           "/technology/ev/"
         ]
       }
     ],
-    "note": "Returned 77 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
+    "note": "Returned 79 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
     "page": 1,
     "page_size": 1000
   }

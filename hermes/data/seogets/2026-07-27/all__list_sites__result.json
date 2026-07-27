@@ -5,20 +5,74 @@
     "note": "Use one of these sites when using other SEO Gets Tools",
     "sites": [
       {
-        "id": "sc-domain:aifor.tech",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:auditweb.site",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:chargefinder.uk",
+        "id": "sc-domain:bestturbotrainers.uk",
         "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:eco-drycleaners.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "Client"
+        ]
+      },
+      {
+        "id": "https://laundryhome.co.uk/",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "Client"
+        ]
+      },
+      {
+        "id": "sc-domain:seo.archi",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:visible-ads.com",
+        "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:knotweedcheck.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://aatma-aesthetics.com/",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "Client"
+        ]
+      },
+      {
+        "id": "sc-domain:noisecheck.uk",
+        "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:petsnerd.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:planningleads.org",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:stackswitch.co",
+        "priority": false,
         "superSite": false,
         "tags": []
       },
@@ -29,8 +83,14 @@
         "tags": []
       },
       {
-        "id": "sc-domain:lockyourbike.org.uk",
+        "id": "sc-domain:geooptimised.com",
         "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:aifor.property",
+        "priority": true,
         "superSite": false,
         "tags": []
       },
@@ -41,43 +101,93 @@
         "tags": []
       },
       {
-        "id": "sc-domain:carrecallhq.com",
+        "id": "https://bestcordlessdrills.uk/",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:checkamover.com",
+        "id": "sc-domain:ideeeas.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "https://areaiq.uk/",
+        "id": "sc-domain:seo-guildford.uk",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:towrating.org",
+        "id": "sc-domain:snaptaken.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:claimwatt.com",
+        "id": "sc-domain:scopepitch.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:luxurytrex.com",
+        "id": "sc-domain:wellifepsychology.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:mobilebarhirelondon.uk",
+        "id": "sc-domain:bestchainsaw.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:lockyourbike.org.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:ownedwork.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:piyadesigns.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:radon.tips",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:thebestmowers.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "ExWPX"
+        ]
+      },
+      {
+        "id": "sc-domain:implementai.today",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:complain.report",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:onlybbguns.co.uk",
         "priority": false,
         "superSite": false,
         "tags": []
@@ -91,7 +201,299 @@
         ]
       },
       {
+        "id": "sc-domain:calculator.place",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:claimwatt.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:crosstrainerhome.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "ExWPX"
+        ]
+      },
+      {
+        "id": "sc-domain:hummingbird.agency",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:kingpin.design",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "Client"
+        ]
+      },
+      {
+        "id": "sc-domain:reportbolt.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:epc.report",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:salarycareer.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:salarydata.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:seo-leeds.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:iwholesales.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:topsewingmachines.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:bestcordlessdrills.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:carehome.page",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:readingschoolofmartialarts.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "Client"
+        ]
+      },
+      {
+        "id": "sc-domain:sitemap.digital",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
         "id": "sc-domain:tradecost.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:bookkeepingflow.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:smmcnj.org",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "Directory"
+        ]
+      },
+      {
+        "id": "sc-domain:mobilebarhirelondon.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:punchfoods.com",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "ExWPX"
+        ]
+      },
+      {
+        "id": "sc-domain:checkamover.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:agenticaisecured.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:formhq.org",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:merch.observer",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:waterhard.uk",
+        "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://www.visible-ads.com/",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:colourlabelprinter.com",
+        "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:gathrd.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:generator.express",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://areaiq.uk/",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:100percentvegan.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:clinicaltrialhub.org",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:fixerror.dev",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:postcode.page",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:thetutor.link",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:aiautomation.build",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:aifor.fitness",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:openknowledgeformat.academy",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:openknowledgeformat.agency",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://www.mugscafe.org/",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:aifor.tech",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:catchment.school",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:dashboardcamreviews.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://mugscafe.org/",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://sunnypatel.co.uk/",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:mobileautomechanic.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:nomadranker.com",
         "priority": false,
         "superSite": false,
         "tags": []
@@ -105,13 +507,67 @@
         ]
       },
       {
-        "id": "sc-domain:agenticaisecured.com",
+        "id": "sc-domain:365androidapp.uk.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "https://paragondrycleaners.co.uk/",
+        "id": "https://mydigitalpiano.com/",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:rentalyield.uk",
+        "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:towerfanreviews.uk",
+        "priority": true,
+        "superSite": false,
+        "tags": [
+          "ExWPX"
+        ]
+      },
+      {
+        "id": "sc-domain:wagearea.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:bestvibrationplates.co.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": [
+          "To Focus"
+        ]
+      },
+      {
+        "id": "sc-domain:e-bikereview.uk",
+        "priority": true,
+        "superSite": false,
+        "tags": [
+          "ExWPX"
+        ]
+      },
+      {
+        "id": "sc-domain:mugscafe.org",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://myknifeguide.com/",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://theseshbars.com/",
         "priority": false,
         "superSite": false,
         "tags": [
@@ -119,35 +575,17 @@
         ]
       },
       {
-        "id": "sc-domain:seo-guildford.uk",
+        "id": "sc-domain:carrecallhq.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:topsewingmachines.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:gathrd.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:londonwebdesign.site",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:punchfoods.com",
+        "id": "sc-domain:drinksbykingpin.com",
         "priority": false,
         "superSite": false,
         "tags": [
-          "ExWPX"
+          "Client"
         ]
       },
       {
@@ -163,177 +601,19 @@
         "tags": []
       },
       {
-        "id": "sc-domain:theseshbars.com",
-        "priority": true,
-        "superSite": false,
-        "tags": [
-          "Client"
-        ]
-      },
-      {
-        "id": "sc-domain:drugnote.com",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:stackswitch.co",
+        "id": "sc-domain:selflandlord.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:visible-ads.com",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "https://app.thetutor.link/",
+        "id": "sc-domain:seoreading.uk",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:bestvibrationplates.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": [
-          "To Focus"
-        ]
-      },
-      {
-        "id": "sc-domain:fixerror.dev",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:geooptimised.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:ideeeas.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:implementai.today",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:piyadesigns.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:collinspress.ie",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:salarydata.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:calculator.place",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:citationgenerator.store",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:noisecheck.uk",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:thebestmowers.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": [
-          "ExWPX"
-        ]
-      },
-      {
-        "id": "sc-domain:thetutor.link",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "https://www.mugscafe.org/",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "https://www.visible-ads.com/",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:smmcnj.org",
-        "priority": false,
-        "superSite": false,
-        "tags": [
-          "Directory"
-        ]
-      },
-      {
-        "id": "sc-domain:snaptaken.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:aifor.property",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:knotweedcheck.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:londonweb.design",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:mobileautomechanic.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:mugscafe.org",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:zoningbase.com",
+        "id": "sc-domain:towrating.org",
         "priority": false,
         "superSite": false,
         "tags": []
@@ -345,43 +625,25 @@
         "tags": []
       },
       {
-        "id": "sc-domain:onlybbguns.co.uk",
+        "id": "sc-domain:huntsmansports.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:aifor.fitness",
+        "id": "sc-domain:londonweb.design",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:carehome.page",
+        "id": "sc-domain:text.taxi",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:365androidapp.uk.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:agenticai.associates",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:bestchainsaw.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "https://mugscafe.org/",
+        "id": "sc-domain:breedhealth.org",
         "priority": false,
         "superSite": false,
         "tags": []
@@ -393,67 +655,75 @@
         "tags": []
       },
       {
-        "id": "https://aatma-aesthetics.com/",
+        "id": "sc-domain:zoningbase.com",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:agenticai.associates",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:auditweb.site",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:seo.bargains",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:sunnypatel.co.uk",
+        "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:chargefinder.uk",
+        "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://app.thetutor.link/",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:bestreviews.co.uk",
         "priority": false,
         "superSite": false,
         "tags": [
-          "Client"
+          "ExWPX"
         ]
       },
       {
-        "id": "sc-domain:text.taxi",
+        "id": "sc-domain:citationgenerator.store",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "https://theseshbars.com/",
-        "priority": false,
-        "superSite": false,
-        "tags": [
-          "Client"
-        ]
-      },
-      {
-        "id": "https://bestcordlessdrills.uk/",
+        "id": "sc-domain:leadscaffold.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:complain.report",
+        "id": "sc-domain:luxurytrex.com",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:huntsmansports.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "https://laundryhome.co.uk/",
-        "priority": false,
-        "superSite": false,
-        "tags": [
-          "Client"
-        ]
-      },
-      {
-        "id": "sc-domain:postcode.page",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:scopepitch.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:seoswansea.uk",
+        "id": "sc-domain:seo-birmingham.uk",
         "priority": false,
         "superSite": false,
         "tags": []
@@ -467,317 +737,7 @@
         ]
       },
       {
-        "id": "sc-domain:merch.observer",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:planningleads.org",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:redlighttherapy.expert",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:seo-leeds.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:sunnypatel.co.uk",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:100percentvegan.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:iwholesales.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:e-bikereview.uk",
-        "priority": true,
-        "superSite": false,
-        "tags": [
-          "ExWPX"
-        ]
-      },
-      {
-        "id": "sc-domain:openknowledgeformat.academy",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:salarycareer.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:wellifepsychology.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:eco-drycleaners.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": [
-          "Client"
-        ]
-      },
-      {
-        "id": "sc-domain:formhq.org",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:optimisedwebsite.com",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:seo.archi",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:colourlabelprinter.com",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:seo-birmingham.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:areaiq.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:rentalyield.uk",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "https://sunnypatel.co.uk/",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:bestturbotrainers.uk",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:catchment.school",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:drivingtestpass.org",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:radon.tips",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:reportbolt.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:seoreading.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:bestcordlessdrills.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:epc.report",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:selflandlord.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:seo.bargains",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:wagearea.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:petsnerd.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:bookkeepingflow.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:generator.express",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:openknowledgeformat.agency",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:aiagentic.news",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:dashboardcamreviews.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:hummingbird.agency",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:nomadranker.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
         "id": "sc-domain:solarhq.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:towerfanreviews.uk",
-        "priority": true,
-        "superSite": false,
-        "tags": [
-          "ExWPX"
-        ]
-      },
-      {
-        "id": "sc-domain:waterhard.uk",
-        "priority": true,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:bestreviews.co.uk",
-        "priority": false,
-        "superSite": false,
-        "tags": [
-          "ExWPX"
-        ]
-      },
-      {
-        "id": "sc-domain:clinicaltrialhub.org",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "https://mydigitalpiano.com/",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:sitemap.digital",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:aiautomation.build",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:kingpin.design",
-        "priority": false,
-        "superSite": false,
-        "tags": [
-          "Client"
-        ]
-      },
-      {
-        "id": "https://myknifeguide.com/",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:ownedwork.com",
-        "priority": false,
-        "superSite": false,
-        "tags": []
-      },
-      {
-        "id": "sc-domain:signforge.org",
         "priority": false,
         "superSite": false,
         "tags": []
@@ -789,21 +749,31 @@
         "tags": []
       },
       {
-        "id": "sc-domain:breedhealth.org",
+        "id": "sc-domain:aiagentic.news",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:crosstrainerhome.co.uk",
+        "id": "sc-domain:collinspress.ie",
         "priority": false,
         "superSite": false,
-        "tags": [
-          "ExWPX"
-        ]
+        "tags": []
       },
       {
-        "id": "sc-domain:drinksbykingpin.com",
+        "id": "sc-domain:drivingtestpass.org",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:drugnote.com",
+        "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "https://paragondrycleaners.co.uk/",
         "priority": false,
         "superSite": false,
         "tags": [
@@ -811,18 +781,48 @@
         ]
       },
       {
-        "id": "sc-domain:leadscaffold.com",
+        "id": "sc-domain:redlighttherapy.expert",
+        "priority": true,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:seoswansea.uk",
         "priority": false,
         "superSite": false,
         "tags": []
       },
       {
-        "id": "sc-domain:readingschoolofmartialarts.co.uk",
-        "priority": false,
+        "id": "sc-domain:theseshbars.com",
+        "priority": true,
         "superSite": false,
         "tags": [
           "Client"
         ]
+      },
+      {
+        "id": "sc-domain:londonwebdesign.site",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:signforge.org",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:areaiq.uk",
+        "priority": false,
+        "superSite": false,
+        "tags": []
+      },
+      {
+        "id": "sc-domain:optimisedwebsite.com",
+        "priority": true,
+        "superSite": false,
+        "tags": []
       }
     ]
   }

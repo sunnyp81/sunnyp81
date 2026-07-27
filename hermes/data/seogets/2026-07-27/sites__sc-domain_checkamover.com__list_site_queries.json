@@ -7,7 +7,7 @@
   },
   "data": {
     "has_more": false,
-    "note": "Returned 242 queries from 2025-03-27 to 2026-07-26.",
+    "note": "Returned 244 queries from 2025-03-27 to 2026-07-26.",
     "page": 1,
     "page_size": 1000,
     "queries": [
@@ -24,6 +24,7 @@
       "binding estimate moving",
       "binding fee",
       "binding moving estimate",
+      "binding not to exceed estimate",
       "binding quote",
       "binding vs non binding",
       "binding vs non binding estimates",
@@ -236,6 +237,7 @@
       "what is fmcsa",
       "what is fmcsa regulated",
       "what is fmcsa stand for",
+      "what is fmsca",
       "what is moving insurance",
       "what is safeload coverage",
       "what is the dot number",

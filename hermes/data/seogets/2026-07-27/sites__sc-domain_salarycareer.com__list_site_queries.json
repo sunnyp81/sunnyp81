@@ -524,6 +524,7 @@
       "average class size uc berkeley",
       "average college professor salary",
       "average college professor salary by state",
+      "average college professor salary in us",
       "average colorado teacher salary",
       "average cop salary",
       "average cop salary in california",
@@ -1009,8 +1010,7 @@
       "average salary for a physical therapist in california",
       "average salary for a physician assistant",
       "average salary for a police officer",
-      "average salary for a policeman",
-      "average salary for a professor"
+      "average salary for a policeman"
     ]
   }
 }

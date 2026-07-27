@@ -451,6 +451,7 @@
           "/conditions/benign-prostatic-hyperplasia/",
           "/conditions/brachycephalic-obstructive-airway-syndrome/",
           "/conditions/canine-distemper/",
+          "/conditions/cerebellar-ataxia/",
           "/conditions/collie-eye-anomaly/",
           "/conditions/colour-dilution-alopecia/",
           "/conditions/congenital-deafness/",
@@ -537,7 +538,7 @@
         ]
       }
     ],
-    "note": "Returned 518 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
+    "note": "Returned 519 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
     "page": 1,
     "page_size": 1000
   }

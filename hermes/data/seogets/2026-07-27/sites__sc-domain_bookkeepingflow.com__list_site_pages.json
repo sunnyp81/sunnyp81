@@ -13,6 +13,7 @@
         "paths": [
           "/",
           "/blog/bookkeeping/expense-categories-small-business/",
+          "/blog/",
           "/blog/bookkeeping/bank-reconciliation-guide/",
           "/blog/bookkeeping/bookkeeper-cost/",
           "/blog/bookkeeping/cash-vs-accrual-accounting/",
@@ -39,7 +40,7 @@
         ]
       }
     ],
-    "note": "Returned 25 unique paths across 1 hosts from 2025-03-27 to 2026-07-26.",
+    "note": "Returned 26 unique paths across 1 hosts from 2025-03-27 to 2026-07-26.",
     "page": 1,
     "page_size": 1000
   }
