@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:physiotherapists.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:physiotherapists.london\". Available sites: shecookssheeats.co.uk, ideeeas.com, iwholesales.co.uk, aiagentic.news, checkamover.com, heatpumpchecker.co.uk, www.mugscafe.org, generator.express, planningleads.org, thebestmowers.co.uk, aatma-aesthetics.com, aifor.fitness, seo-guildford.uk, solarhq.uk, chargefinder.uk, crosstrainerhome.co.uk, londonweb.design, 100percentvegan.co.uk, agenticaisecured.com, areaiq.uk, signalcheck.org, visible-ads.com, 365androidapp.uk.com, app.thetutor.link, calculator.place, colourlabelprinter.com, piyadesigns.co.uk, towerfanreviews.uk, kingpin.design, paragondrycleaners.co.uk, bestcordlessdrills.uk, dashboardcamreviews.co.uk, drugnote.com, londonwebdesign.site, petsnerd.com, selflandlord.com, areaiq.uk, fixerror.dev, leadscaffold.com, reportbolt.com, seo.bargains, gathrd.co.uk, laundryhome.co.uk, mugscafe.org, noisecheck.uk, salarycareer.com, techloved.com, wellifepsychology.com, carehome.page, clinicaltrialhub.org, readingschoolofmartialarts.co.uk, breedhealth.org, lockyourbike.org.uk, complain.report, sunnypatel.co.uk, zoningbase.com, drinksbykingpin.com, implementai.today, luxurytrex.com, mydigitalpiano.com, ownedwork.com, tradecost.uk, huntsmansports.com, radon.tips, rentalyield.uk, waterhard.uk, aifor.property, claimwatt.com, e-bikereview.uk, redlighttherapy.expert, seo-leeds.uk, seo.archi, snaptaken.com, drivingtestpass.org, mugscafe.org, openknowledgeformat.academy, bookkeepingflow.com, deadhangs.com, knotweedcheck.com, punchfoods.com, theseshbars.com, towrating.org, auditweb.site, bestchainsaw.uk, mobileautomechanic.uk, mobilebarhirelondon.uk, nomadranker.com, redlighttherapy.tech, aifor.tech, bestreviews.co.uk, eco-drycleaners.co.uk, template.how, text.taxi, collinspress.ie, hummingbird.agency, epc.report, formhq.org, www.laundryhome.co.uk, bestvibrationplates.co.uk, merch.observer, myknifeguide.com, theseshbars.com, aiautomation.build, bestturbotrainers.uk, geooptimised.com, seo-birmingham.uk, seoswansea.uk, openknowledgeformat.agency, salarydata.co.uk, postcode.page, onlybbguns.co.uk, scopepitch.com, www.visible-ads.com, agenticai.associates, signforge.org, smmcnj.org, thetutor.link, topsewingmachines.uk, catchment.school, qrcode.ink, sitemap.digital, bestcordlessdrills.uk, carrecallhq.com, stackswitch.co, wagearea.com, optimisedwebsite.com, seoreading.uk, sunnypatel.co.uk, supplementcheck.org, citationgenerator.store",
+    "page": 0,
+    "page_size": 0
+  }
+}

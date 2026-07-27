@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:sephra.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:sephra.com\". Available sites: bestchainsaw.uk, www.laundryhome.co.uk, aatma-aesthetics.com, lockyourbike.org.uk, planningleads.org, supplementcheck.org, topsewingmachines.uk, heatpumpchecker.co.uk, bestcordlessdrills.uk, bookkeepingflow.com, calculator.place, carehome.page, londonweb.design, radon.tips, signalcheck.org, 100percentvegan.co.uk, generator.express, onlybbguns.co.uk, seoreading.uk, smmcnj.org, sunnypatel.co.uk, template.how, visible-ads.com, laundryhome.co.uk, sunnypatel.co.uk, 365androidapp.uk.com, app.thetutor.link, scopepitch.com, aifor.tech, carrecallhq.com, mugscafe.org, redlighttherapy.tech, wagearea.com, bestcordlessdrills.uk, citationgenerator.store, gathrd.co.uk, luxurytrex.com, qrcode.ink, piyadesigns.co.uk, readingschoolofmartialarts.co.uk, seoswansea.uk, stackswitch.co, complain.report, merch.observer, seo-guildford.uk, waterhard.uk, www.visible-ads.com, eco-drycleaners.co.uk, iwholesales.co.uk, claimwatt.com, mugscafe.org, mydigitalpiano.com, optimisedwebsite.com, rentalyield.uk, salarydata.co.uk, catchment.school, drivingtestpass.org, techloved.com, shecookssheeats.co.uk, theseshbars.com, www.mugscafe.org, seo.archi, sitemap.digital, geooptimised.com, implementai.today, chargefinder.uk, bestturbotrainers.uk, deadhangs.com, drinksbykingpin.com, mobilebarhirelondon.uk, noisecheck.uk, towerfanreviews.uk, fixerror.dev, thetutor.link, e-bikereview.uk, checkamover.com, redlighttherapy.expert, seo.bargains, signforge.org, text.taxi, agenticaisecured.com, aiagentic.news, breedhealth.org, collinspress.ie, londonwebdesign.site, wellifepsychology.com, drugnote.com, openknowledgeformat.agency, ownedwork.com, knotweedcheck.com, openknowledgeformat.academy, snaptaken.com, huntsmansports.com, auditweb.site, bestreviews.co.uk, selflandlord.com, kingpin.design, solarhq.uk, towrating.org, aifor.property, leadscaffold.com, myknifeguide.com, seo-leeds.uk, areaiq.uk, paragondrycleaners.co.uk, epc.report, colourlabelprinter.com, areaiq.uk, dashboardcamreviews.co.uk, petsnerd.com, punchfoods.com, ideeeas.com, postcode.page, zoningbase.com, agenticai.associates, aifor.fitness, clinicaltrialhub.org, thebestmowers.co.uk, theseshbars.com, bestvibrationplates.co.uk, nomadranker.com, reportbolt.com, salarycareer.com, seo-birmingham.uk, aiautomation.build, crosstrainerhome.co.uk, formhq.org, hummingbird.agency, mobileautomechanic.uk, tradecost.uk",
+    "page": 0,
+    "page_size": 0
+  }
+}

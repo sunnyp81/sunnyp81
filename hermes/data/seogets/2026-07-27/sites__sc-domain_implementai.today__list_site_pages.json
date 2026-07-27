@@ -1,0 +1,30 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:implementai.today",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://implementai.today",
+        "paths": [
+          "/",
+          "/ai-adoption-statistics",
+          "/ai-adoption-statistics/",
+          "/ai-implementation-checklist",
+          "/ai-project-failure-rate",
+          "/ai-project-failure-rate/",
+          "/ai-project-risk-diagnostic",
+          "/why-ai-projects-fail",
+          "/why-ai-projects-fail/"
+        ]
+      }
+    ],
+    "note": "Returned 9 unique paths across 1 hosts from 2025-03-27 to 2026-07-26.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:wellifepsychology.com",
+  "args": {},
+  "data": {
+    "site": "sc-domain:wellifepsychology.com",
+    "topic_clusters": []
+  }
+}

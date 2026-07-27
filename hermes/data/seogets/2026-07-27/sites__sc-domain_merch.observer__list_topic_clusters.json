@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:merch.observer",
+  "args": {},
+  "data": {
+    "site": "sc-domain:merch.observer",
+    "topic_clusters": []
+  }
+}

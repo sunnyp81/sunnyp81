@@ -1,0 +1,184 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:chargefinder.uk",
+  "args": {},
+  "data": {
+    "site": "sc-domain:chargefinder.uk",
+    "topic_clusters": [
+      {
+        "filters": [
+          {
+            "expression": "chargefinder|chargefinde|chargedinder|chargfinder|chargefiner|charrecharge",
+            "operator": "contains"
+          },
+          {
+            "expression": "charge finder|charge finder.com|charger finder|charging station finder|ev charge finder|ev charger finder|charge station app|app for ev charging|app for finding ev charging stations|app to find ev chargers|app to find ev charging stations|app to find charging stations|app to find electric car charging stations|app for electric car charging|app for electric car charging points|app for electric car charging stations|app for electric charging stations|app for electric vehicle charging stations|app for car charging stations|app for charging stations|apps for electric car charging|apps for electric cars|apps for ev charging|apps for ev charging stations|car charging app|car charging apps|car charging points app|charging app|charging apps|charging station finder|domestic charging app|electric car charge app|electric car charger app|electric charging app|electric charging point app|electric vehicle charging apps|ev apps|ev charge app|ev charge app uk|ev charging app|ev charging app uk|ev charging apps|ev charging apps uk|ev charging application|ev charging payment app|ev charging point app|ev charging point apps|ev charging station apps for iphone|ev charging stations app|ev charging stations app uk|best app for ev charging|best app for ev charging uk|best app for ev charging stations|best app for ev charging stations uk|best app for electric car charging|best app for electric car charging uk|best app for finding electric car charging stations|best app to pay for ev charging|best apps for ev charging stations uk|best car charging app uk|best charging station app|best electric car charging apps uk|best electric car charging station app|best electric charging station app|best ev charger app|best ev charger app uk|best ev charging app|best ev charging app europe|best ev charging app uk|best ev charging apps|best ev charging apps in the uk|best ev charging apps uk|best ev charging station app|best ev route planner uk|best ev home charger|must have apps for ev cars|most popular ev app|what ev charging apps do i need|what is the best ev charging app uk|what is the best ev charging app uk free|charger apps|charging station app|ev charger app|apps for electric car charging",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "ChargeFinder Brand & App Discovery"
+      },
+      {
+        "filters": [
+          {
+            "expression": "near me|nearest|closest|find ev|find electric|find charging|find charger|find tesla|search for ev|nearby recharging|chargers near london|chargers near manchester",
+            "operator": "contains"
+          },
+          {
+            "expression": "install|installation|home charger|workplace|grant|scheme|supercharger near me",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Find EV Chargers Near Me & By Location"
+      },
+      {
+        "filters": [
+          {
+            "expression": "ev chargers birmingham|ev chargers bristol|ev chargers cardiff|ev chargers edinburgh|ev chargers glasgow|ev chargers leeds|ev chargers leicester|ev chargers liverpool|ev chargers london|ev chargers manchester|ev chargers nottingham|ev chargers sheffield|ev chargers southampton|ev chargers exeter|ev chargers brighton|ev chargers coventry|ev chargers hull|ev chargers newcastle|ev chargers oxford|ev chargers portsmouth|ev chargers reading|ev chargers swansea|ev chargers swindon|ev chargers plymouth|ev chargers derby|ev chargers dundee|ev chargers belfast|ev chargers northern ireland|ev chargers wales|ev chargers scotland|ev chargers south wales|ev chargers west midlands|electric car charging points birmingham|electric car charging points edinburgh|electric car charging points glasgow|electric car charging points london|electric car charging points manchester|electric car charging points sheffield|electric car charging points bristol|electric car charging points cardiff|electric car charging points leeds|electric car charging points leicester|electric car charging points liverpool|electric car charging points nottingham|electric car charging points oxford|electric car charging points norwich|electric car charging points plymouth|electric car charging points peterborough|electric car charging points southampton|electric car charging points stockport|electric car charging points york|electric charging points aberdeen|electric charging points belfast|electric charging points birmingham|electric charging points bournemouth|electric charging points brighton|electric charging points bristol|electric charging points cambridge|electric charging points cardiff|electric charging points chelmsford|electric charging points chester|electric charging points coventry|electric charging points derby|electric charging points devon|electric charging points dundee|electric charging points edinburgh|electric charging points exeter|electric charging points glasgow|electric charging points hull|electric charging points inverness|electric charging points leeds|electric charging points leicester|electric charging points liverpool|electric charging points london|electric charging points manchester|electric charging points newcastle|electric charging points norwich|electric charging points nottingham|electric charging points oxford|electric charging points perth|electric charging points peterborough|electric charging points plymouth|electric charging points portsmouth|electric charging points reading|electric charging points sheffield|electric charging points shrewsbury|electric charging points southampton|electric charging points swansea|electric charging points worcester|electric charging points york|ev charging aberdeen|ev charging bath|ev charging birmingham|ev charging blackpool|ev charging bournemouth|ev charging brighton|ev charging bristol|ev charging cardiff|ev charging derby|ev charging dundee|ev charging edinburgh|ev charging kent|ev charging leeds|ev charging leicester|ev charging london|ev charging manchester|ev charging newcastle|ev charging ni|ev charging northern ireland|ev charging norwich|ev charging nottingham|ev charging oxford|ev charging perth|ev charging peterborough|ev charging sheffield|ev charging southampton|ev charging stockport|ev charging sunderland|ev charging sussex|ev charging wigan|ev charging york|ev charging llandudno|ev charging salisbury",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "EV Charging by UK City & Region"
+      },
+      {
+        "filters": [
+          {
+            "expression": "motorway|services m|service station m|m1 |m4 |m5 |m6 |m11 |m20 |m25 |m40 |m56 |m62 |m74 |m90 |a1 charge|a74 services|a1m|a74m|services on m|services in m|services a|northbound services|southbound services|toll services|toll road services|keele services|cherwell valley|magor services|reading services|fleet services|fosse park|meadowhall|cheshire oaks|cobham services|motorway charging|motorway ev charging|motorway electric|motorway services electric|motorway services ev|motorway services with ev",
+            "operator": "contains"
+          },
+          {
+            "expression": "tesla supercharger cobham|install|installation|home",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Motorway Services & Route EV Charging"
+      },
+      {
+        "filters": [
+          {
+            "expression": "tesla supercharger|tesla supercharging|supercharger tesla|superchargers tesla|tesla super charger|tesla super charge|tesla super charging|tesla suoercharger|supercharger map uk|supercharger locations|supercharger network|supercharger uk|supercharger cost|supercharger station|supercharger near me|supercharger ev|supercharging stations|tesla charging station|tesla charging stations|tesla charging network|tesla charging points|tesla charging map|tesla charger locations|tesla charger map|tesla charger near me|tesla chargers uk|tesla chargers near me|tesla chargers scotland|tesla chargers wales|tesla chargers blackpool|tesla chargers preston|tesla chargers wigan|tesla destination charger|tesla destination charging|tesla v3 supercharger|tesla v4 supercharger|tesla v5 supercharger|uk supercharger map|uk tesla supercharger|map of tesla superchargers|how many tesla superchargers|new tesla superchargers uk|upcoming tesla superchargers|tesla model 3 supercharger|peterborough tesla supercharger|durham tesla supercharger|heathrow supercharger|thetford supercharger|oxford supercharger|link supercharger|cobham services tesla|supercharger v2|v2 supercharger|find tesla supercharger|find tesla charger|nearest tesla supercharger|nearest tesla charging station|nearest supercharger",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tesla Supercharger Network"
+      },
+      {
+        "filters": [
+          {
+            "expression": "bp pulse|bppulse|gridserve|instavolt|shell recharge|shell ev charg|shell electric charg|connected kerb|connectedkerb|geniepoint|osprey charg|char.gy|chargy|pod point|polar charg|polar network|we charge|weev|energyforce|evolt|ox charge|powerhubb|project ev|yes dc|mfg ev|mfg charger",
+            "operator": "contains"
+          },
+          {
+            "expression": "install|installation|home charger|workplace",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "EV Charging Networks & Providers"
+      },
+      {
+        "filters": [
+          {
+            "expression": "charging price|charging prices|charging cost|charging costs|charging rate|charging rates|charging tariff|charge cost|charge price|ev charging price|ev charging prices|ev charging cost|ev charging costs|ev charging rates|ev charging tariff|ev charging tariffs|ev station cost|ev rate|ev rates|ev rapid charger cost|electric car charging prices|electric car charging costs|electric car charge costs|electric car charging price|electric car charging station price|electric car charging tariff|electric car charging charges|electric charging station cost|ev charging price comparison|ev charging prices uk|ev charging prices near me|ev charging costs uk|compare ev charging prices|cheapest ev charging|cheapest ev charging stations|cheapest charging networks|cheapest destination ev charging|cheapest supermarket ev charging|public ev charging prices uk|ev charging calculator|ev charging cost calculator|ev charging cost uk|tesla supercharger cost uk|tesla supercharger price uk|tesla supercharger prices uk|tesla supercharger rates uk|tesla charging cost|tesla charging prices|supercharger cost uk|instavolt charging cost|instavolt prices|instavolt pricing|instavolt charging rates|osprey charging cost|osprey charging price|osprey charging price per kwh|connected kerb cost|connected kerb price|connected kerb prices|connected kerb pricing|connected kerb price per kwh|gridserve charging prices|gridserve pricing|shell recharge cost|shell recharge price|shell recharge prices|shell recharge pricing|shell ev charging cost|shell ev charging price|shell ev charging prices|char.gy prices|bp pulse charging price|bp pulse costs|bp pulse charger cost|evolt charging cost|mfg ev power price|how much does ev charging cost|how much does it cost to charge at|how much do ev charging stations charge|how much do electric car charging stations charge|how much do electric charging stations charge|what is the average cost of rapid|what s the price of charging an electric car|cost of charging electric car|cost of electric car charging|cost of dc fast charger|cost for electric car charging|electric car charging comparison|car charging points cost|car charging station price|charge point cost|charge prices|charge pricing|charger pricing|electric charge points cost|electric charging station cost|cost of tesla supercharger uk|electric vehicle charging cost|electric vehicle charging costs|electric vehicle charging station price|ev charger price|ev charger price comparison|ev charger prices|ev charger prices near me|charger cost|charging station cost|charging point price|car charger cost|car charging station cost|how much are electric car chargers|how much are electric car charging points|how much are electric car charging stations|how much are electric charging stations|how much are ev charging stations|price of charging electric car|car charging prices near me|charging electric cars cost|electric cars charging cost|electric charge costs|cost of electric charging points|ev charging for tesla|rapid charge cost|rapid charging cost|ultra rapid charger cost|how much does rapid charging cost|uk public rapid charger price|how much to charge electric car at motorway services|cost of charging electric car at motorway services|are aldi ev chargers free|are tesco car charging points free|are tesco charging points free|are tesco ev chargers free|aldi free ev charging|tesco free ev charging|tesco free charging|is tesco ev charging free|is electric car charging free at tesco|is it free to charge an electric car at tesco|free electric car charging tesco|tesco car charging cost|lidl ev charging cost|which supermarkets offer free ev charging|supermarkets with free ev charging|hotels with free ev charging|which bp pulse chargers are free|how does chargy compare|how does gridserve compare|how does instavolt compare|how much does instavolt charge|how much does instavolt cost|how much does it cost to charge at gridserve|how much does it cost to charge at instavolt|how much does it cost to charge at osprey",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "EV Charging Network Costs & Price Comparison"
+      },
+      {
+        "filters": [
+          {
+            "expression": "free ev charg|free electric car charg|free electric charg|free car charg|free charging point|free charging station|free public charging|free fast charger|where can i charge my car for free|where can i charge my electric car for free|how to charge electric car for free|how to charge your electric car for free|are there free electric car charging stations|electric car charging free",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Free EV Charging Points"
+      },
+      {
+        "filters": [
+          {
+            "expression": "home ev charger|home charger ev|home car charger|home electric car charger|home electric charger|home charger for electric|home charger for ev|home charging station|home charging point|home electric vehicle charging|home wall charger|home evse|home vehicle charging station|ev home charger|ev home charging|ev charger at home|ev charger for home|ev fast charger for home|ev home car charger|fast charger at home|fast home ev charger|fast ev charger for home|solar ev home charger|smart home charger|smart home charging|smart ev charger|at home ev charger|at home car charger|buy ev charger for home|electric car charger for home|electric car home charger|electric charger for home|electric charging station for home|electric home car charger|electric home charger|electric vehicle home charger|electric vehicle home chargers|domestic ev charger|cheap home ev charger|cheapest home ev charger|cheapest ev home charger|best home ev charger|best ev home charger|best home charger|best home car charger|best home electric car charger|top 10 home ev chargers|compare home ev chargers|compare ev home chargers|home ev charger deals|best smart ev charger|best budget ev charger|best domestic ev charger|ev charger installation|ev charger installers|car charger installation|home car charging point|ev home charge|ev charger installation aberdeen|ev charger installation blackburn|ev charger installation blackpool|ev charger installation bolton|ev charger installation canterbury|ev charger installation croydon|ev charger installation dundee|ev charger installation enfield|ev charger installation falkirk|ev charger installation fife|ev charger installation kilmarnock|ev charger installation kirkcaldy|ev charger installation lanarkshire|ev charger installation medway|ev charger installation newport|ev charger installation paisley|ev charger installation preston|ev charger installation sutton|ev charger installation tunbridge wells|ev charger installation wandsworth|ev charger installers dartford|ev charger installers dundee|ev charger installers falkirk|ev charger installers fife|ev charger installers kirkcaldy|ev charger installers lanarkshire|ev charger installers medway|ev charger installers newport|ev charger installers paisley|ev charger installers tunbridge wells|car charger installation dundee|car charger installation lanarkshire|electric car charger installation|electric vehicle charger installation|electric vehicle charge point installations|ev home charger installation|ev home charger lanarkshire|ev home charger motherwell|ev home charger dundee|ev home charger torquay|kerbside ev charging|residential ev charging",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Home EV Charger Installation & Costs"
+      },
+      {
+        "filters": [
+          {
+            "expression": "workplace ev charg|workplace charg|workplace electric vehicle|work ev charg|employee ev charg|business ev charg|commercial ev charg|fleet ev charg|olev workplace|ozev workplace|workplace charging scheme|install ev charger at work|ev charging at work|ev charging at workplace|ev charging for staff|ev charging for workplace|ev charging workplace|charging electric car at work|benefits of workplace ev charging|future proof workplace ev charging|ev workplace charging grant|workplace charging grant|workplace grants|workplace charging grants|workplace charging installation|workplace charging installer|is the workplace charging scheme still available|the workplace charging scheme|what is workplace charging scheme|workplace charging best practices|workplace charging ev tax|workplace charging scheme application|workplace charging scheme authorised installers|workplace charging scheme eligibility|workplace charging scheme guide|workplace charging scheme uk|workplace ev charging advice|workplace ev charging derbyshire|workplace ev charging essex|workplace ev charging guildford|workplace ev charging norfolk|workplace ev charging policy|workplace ev charging policy local authority|workplace ev charging scheme|workplace scheme ev charging|ev workplace charging|ozev workplace grant",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Workplace EV Charging & Grants"
+      },
+      {
+        "filters": [
+          {
+            "expression": "route planner|journey planner|trip planner|trip planning|road trip|route planning|route optimization|plan electric car|plan ev|plan journey electric|plan my electric car|ev road trip|how to plan an ev road trip|how to charge an electric car on a road trip|electric car journey planner|electric car route planner|electric vehicle route planner|ev journey planner|ev journey planning|ev route planner|ev route planning|ev trip planner|ev trip planning|ev route optimization|tourenplanung",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "EV Trip Planning & Route Planner"
+      },
+      {
+        "filters": [
+          {
+            "expression": "rapid charg|ultra rapid charg|rapid ev charg|fast ev charg|fast charge|50kw rapid|rapid charger|rapid charging|level 3 charging|dc fast charger|express charger|super charge|supercharge|supercharging",
+            "operator": "contains"
+          },
+          {
+            "expression": "tesla supercharger|home|install|workplace|rapid home charging|rapid charging solutions",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Rapid & Ultra-Rapid EV Charging"
+      },
+      {
+        "filters": [
+          {
+            "expression": "charging network|charging networks|ev charging network|ev charging networks|public charging network|uk charging network|uk charging networks|main ev charging networks|most reliable ev charging network|cheapest charging network|best ev charging network|compare ev charger|charging points in the uk|number of en-route chargers|which area has most charge points|which areas have the most charge points|how many home chargers are there|how many are there|public charging stations|public ev charging|electric charging points uk|charging points uk|charge points uk|chargers in england|ev charging hubs uk|ev charging guide|guide to ev charging|uk ev charging networks",
+            "operator": "contains"
+          },
+          {
+            "expression": "install|installation|home charger|workplace|near me|app",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "EV Charging Network Coverage & Statistics"
+      },
+      {
+        "filters": [
+          {
+            "expression": "bp pulse|bppulse|bp polar|bp charger|bp charging|gridserve|grid serve|gridservce|shell recharge|shell recahrge|shell ev charge|shell ev charger|shell ev charging|shell electric charging|shell electric car charging|shell charging|shell chargers|shell charge points|shell fast charging|shell rapid charger|shell street charger|shell recharge advanced|shell recharge card|shell recharge home charger|shell recharge locations|shell recharge network|shell recharge partners|shell recharge points|shell recharge price|shell recharge uk|gridserve blyth|gridserve ferrybridge|gridserve charging network|gridserve electric highway|gridserve ev charging|gridserve charging station|gridserve charging prices|gridserve pricing|gridserve uk|where can i find gridserve chargers",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Specific EV Charging Network Pages \u2013 BP Pulse, Shell Recharge & GridServe"
+      },
+      {
+        "filters": [
+          {
+            "expression": "aldi ev charg|aldi electric car charg|aldi free ev|aldi charging|tesco ev charg|tesco car charg|tesco electric charg|tesco charging|tesco free|lidl ev charg|lidl charging|sainsbury|retail park ev charg|supermarket ev charg|supermarket free ev|bicester village|cheshire oaks ev|fosse park ev|swindon designer outlet|meadowhall ev|rushden lakes|cribbs causeway",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "EV Charging at Supermarkets & Retail Parks"
+      }
+    ]
+  }
+}

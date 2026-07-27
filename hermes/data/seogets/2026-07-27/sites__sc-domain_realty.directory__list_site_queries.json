@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:realty.directory",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:realty.directory\". Available sites: reportbolt.com, sunnypatel.co.uk, template.how, drugnote.com, smmcnj.org, towrating.org, zoningbase.com, bestcordlessdrills.uk, dashboardcamreviews.co.uk, epc.report, planningleads.org, signforge.org, bestcordlessdrills.uk, heatpumpchecker.co.uk, seo-birmingham.uk, agenticai.associates, checkamover.com, mobilebarhirelondon.uk, seo.archi, sitemap.digital, topsewingmachines.uk, 100percentvegan.co.uk, aiagentic.news, chargefinder.uk, aifor.property, geooptimised.com, postcode.page, aifor.fitness, auditweb.site, openknowledgeformat.agency, qrcode.ink, stackswitch.co, supplementcheck.org, complain.report, solarhq.uk, bestturbotrainers.uk, generator.express, paragondrycleaners.co.uk, clinicaltrialhub.org, redlighttherapy.tech, seo.bargains, bestchainsaw.uk, bookkeepingflow.com, carehome.page, formhq.org, laundryhome.co.uk, mobileautomechanic.uk, optimisedwebsite.com, agenticaisecured.com, crosstrainerhome.co.uk, salarydata.co.uk, shecookssheeats.co.uk, claimwatt.com, visible-ads.com, www.visible-ads.com, aifor.tech, breedhealth.org, salarycareer.com, selflandlord.com, londonweb.design, sunnypatel.co.uk, www.laundryhome.co.uk, deadhangs.com, gathrd.co.uk, redlighttherapy.expert, seoreading.uk, www.mugscafe.org, app.thetutor.link, scopepitch.com, luxurytrex.com, mugscafe.org, petsnerd.com, radon.tips, iwholesales.co.uk, citationgenerator.store, merch.observer, seo-leeds.uk, noisecheck.uk, seo-guildford.uk, signalcheck.org, wagearea.com, wellifepsychology.com, ownedwork.com, 365androidapp.uk.com, areaiq.uk, catchment.school, huntsmansports.com, ideeeas.com, implementai.today, theseshbars.com, calculator.place, eco-drycleaners.co.uk, punchfoods.com, thebestmowers.co.uk, towerfanreviews.uk, carrecallhq.com, kingpin.design, readingschoolofmartialarts.co.uk, areaiq.uk, myknifeguide.com, rentalyield.uk, seoswansea.uk, waterhard.uk, mydigitalpiano.com, snaptaken.com, thetutor.link, aiautomation.build, openknowledgeformat.academy, text.taxi, leadscaffold.com, aatma-aesthetics.com, bestvibrationplates.co.uk, fixerror.dev, knotweedcheck.com, nomadranker.com, techloved.com, bestreviews.co.uk, colourlabelprinter.com, drinksbykingpin.com, hummingbird.agency, mugscafe.org, londonwebdesign.site, piyadesigns.co.uk, theseshbars.com, tradecost.uk, collinspress.ie, drivingtestpass.org, e-bikereview.uk, lockyourbike.org.uk, onlybbguns.co.uk",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

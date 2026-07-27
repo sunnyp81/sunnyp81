@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:buckinghamshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:buckinghamshiretimes.co.uk\". Available sites: redlighttherapy.tech, sitemap.digital, 365androidapp.uk.com, aifor.tech, thebestmowers.co.uk, epc.report, londonwebdesign.site, luxurytrex.com, mobilebarhirelondon.uk, agenticaisecured.com, drivingtestpass.org, laundryhome.co.uk, seoreading.uk, app.thetutor.link, iwholesales.co.uk, nomadranker.com, signforge.org, snaptaken.com, salarydata.co.uk, seo-birmingham.uk, techloved.com, areaiq.uk, bestchainsaw.uk, checkamover.com, fixerror.dev, punchfoods.com, seo-guildford.uk, visible-ads.com, aifor.fitness, deadhangs.com, planningleads.org, topsewingmachines.uk, www.laundryhome.co.uk, kingpin.design, readingschoolofmartialarts.co.uk, scopepitch.com, smmcnj.org, londonweb.design, noisecheck.uk, ownedwork.com, citationgenerator.store, seo.bargains, aifor.property, areaiq.uk, bestcordlessdrills.uk, solarhq.uk, thetutor.link, wagearea.com, aatma-aesthetics.com, complain.report, crosstrainerhome.co.uk, 100percentvegan.co.uk, generator.express, hummingbird.agency, optimisedwebsite.com, signalcheck.org, bestturbotrainers.uk, calculator.place, leadscaffold.com, petsnerd.com, qrcode.ink, www.mugscafe.org, rentalyield.uk, drinksbykingpin.com, onlybbguns.co.uk, openknowledgeformat.agency, breedhealth.org, carrecallhq.com, seo.archi, tradecost.uk, drugnote.com, e-bikereview.uk, bestcordlessdrills.uk, implementai.today, waterhard.uk, chargefinder.uk, bestvibrationplates.co.uk, collinspress.ie, radon.tips, reportbolt.com, seo-leeds.uk, theseshbars.com, theseshbars.com, agenticai.associates, shecookssheeats.co.uk, template.how, text.taxi, towerfanreviews.uk, mugscafe.org, mugscafe.org, paragondrycleaners.co.uk, auditweb.site, eco-drycleaners.co.uk, piyadesigns.co.uk, sunnypatel.co.uk, mobileautomechanic.uk, aiagentic.news, catchment.school, dashboardcamreviews.co.uk, selflandlord.com, claimwatt.com, knotweedcheck.com, myknifeguide.com, salarycareer.com, zoningbase.com, aiautomation.build, gathrd.co.uk, supplementcheck.org, wellifepsychology.com, www.visible-ads.com, heatpumpchecker.co.uk, redlighttherapy.expert, towrating.org, bestreviews.co.uk, clinicaltrialhub.org, lockyourbike.org.uk, sunnypatel.co.uk, bookkeepingflow.com, huntsmansports.com, stackswitch.co, seoswansea.uk, carehome.page, formhq.org, geooptimised.com, mydigitalpiano.com, postcode.page, colourlabelprinter.com, ideeeas.com, merch.observer, openknowledgeformat.academy",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

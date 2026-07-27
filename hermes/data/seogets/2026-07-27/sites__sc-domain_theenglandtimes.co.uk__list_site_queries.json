@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:theenglandtimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:theenglandtimes.co.uk\". Available sites: openknowledgeformat.agency, collinspress.ie, selflandlord.com, snaptaken.com, zoningbase.com, 100percentvegan.co.uk, paragondrycleaners.co.uk, theseshbars.com, checkamover.com, areaiq.uk, reportbolt.com, wellifepsychology.com, bestvibrationplates.co.uk, claimwatt.com, colourlabelprinter.com, complain.report, mobilebarhirelondon.uk, seo-birmingham.uk, agenticai.associates, bestturbotrainers.uk, thetutor.link, topsewingmachines.uk, visible-ads.com, mobileautomechanic.uk, postcode.page, sunnypatel.co.uk, supplementcheck.org, epc.report, carrecallhq.com, catchment.school, bestcordlessdrills.uk, readingschoolofmartialarts.co.uk, salarydata.co.uk, theseshbars.com, towrating.org, waterhard.uk, drivingtestpass.org, ideeeas.com, merch.observer, mydigitalpiano.com, nomadranker.com, onlybbguns.co.uk, calculator.place, fixerror.dev, gathrd.co.uk, redlighttherapy.tech, bestreviews.co.uk, app.thetutor.link, e-bikereview.uk, ownedwork.com, auditweb.site, laundryhome.co.uk, sitemap.digital, drinksbykingpin.com, qrcode.ink, seo-leeds.uk, seo.archi, generator.express, template.how, www.visible-ads.com, scopepitch.com, signforge.org, aifor.property, noisecheck.uk, punchfoods.com, salarycareer.com, eco-drycleaners.co.uk, text.taxi, londonweb.design, redlighttherapy.expert, www.laundryhome.co.uk, aatma-aesthetics.com, citationgenerator.store, seo-guildford.uk, bookkeepingflow.com, chargefinder.uk, formhq.org, seo.bargains, aifor.tech, heatpumpchecker.co.uk, lockyourbike.org.uk, mugscafe.org, planningleads.org, tradecost.uk, openknowledgeformat.academy, sunnypatel.co.uk, myknifeguide.com, towerfanreviews.uk, kingpin.design, areaiq.uk, petsnerd.com, 365androidapp.uk.com, dashboardcamreviews.co.uk, drugnote.com, geooptimised.com, hummingbird.agency, leadscaffold.com, optimisedwebsite.com, wagearea.com, huntsmansports.com, implementai.today, seoreading.uk, signalcheck.org, techloved.com, thebestmowers.co.uk, seoswansea.uk, shecookssheeats.co.uk, bestchainsaw.uk, bestcordlessdrills.uk, mugscafe.org, radon.tips, iwholesales.co.uk, agenticaisecured.com, breedhealth.org, carehome.page, knotweedcheck.com, luxurytrex.com, piyadesigns.co.uk, smmcnj.org, solarhq.uk, crosstrainerhome.co.uk, londonwebdesign.site, stackswitch.co, aifor.fitness, clinicaltrialhub.org, deadhangs.com, rentalyield.uk, www.mugscafe.org, aiagentic.news, aiautomation.build",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

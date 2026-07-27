@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:mobileautomechanic.uk",
+  "args": {},
+  "data": {
+    "site": "sc-domain:mobileautomechanic.uk",
+    "topic_clusters": []
+  }
+}

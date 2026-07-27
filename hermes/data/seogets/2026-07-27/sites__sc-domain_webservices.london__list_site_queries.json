@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:webservices.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:webservices.london\". Available sites: seoswansea.uk, mobileautomechanic.uk, radon.tips, techloved.com, drivingtestpass.org, piyadesigns.co.uk, signforge.org, zoningbase.com, bestturbotrainers.uk, calculator.place, sunnypatel.co.uk, auditweb.site, lockyourbike.org.uk, petsnerd.com, seo-guildford.uk, seo.bargains, topsewingmachines.uk, agenticaisecured.com, aiautomation.build, areaiq.uk, bestcordlessdrills.uk, fixerror.dev, salarycareer.com, www.laundryhome.co.uk, bestreviews.co.uk, bestvibrationplates.co.uk, drinksbykingpin.com, ideeeas.com, solarhq.uk, geooptimised.com, openknowledgeformat.agency, citationgenerator.store, theseshbars.com, hummingbird.agency, sitemap.digital, smmcnj.org, epc.report, kingpin.design, myknifeguide.com, redlighttherapy.expert, salarydata.co.uk, www.visible-ads.com, aatma-aesthetics.com, iwholesales.co.uk, ownedwork.com, redlighttherapy.tech, shecookssheeats.co.uk, 100percentvegan.co.uk, e-bikereview.uk, luxurytrex.com, seoreading.uk, clinicaltrialhub.org, colourlabelprinter.com, openknowledgeformat.academy, scopepitch.com, towrating.org, visible-ads.com, catchment.school, formhq.org, laundryhome.co.uk, planningleads.org, snaptaken.com, bestcordlessdrills.uk, collinspress.ie, londonwebdesign.site, mugscafe.org, rentalyield.uk, complain.report, drugnote.com, mydigitalpiano.com, onlybbguns.co.uk, breedhealth.org, reportbolt.com, signalcheck.org, stackswitch.co, wellifepsychology.com, mugscafe.org, seo.archi, thebestmowers.co.uk, aifor.fitness, huntsmansports.com, leadscaffold.com, www.mugscafe.org, 365androidapp.uk.com, nomadranker.com, postcode.page, readingschoolofmartialarts.co.uk, seo-birmingham.uk, supplementcheck.org, tradecost.uk, dashboardcamreviews.co.uk, seo-leeds.uk, app.thetutor.link, claimwatt.com, mobilebarhirelondon.uk, aifor.property, noisecheck.uk, sunnypatel.co.uk, carehome.page, carrecallhq.com, generator.express, checkamover.com, gathrd.co.uk, merch.observer, selflandlord.com, text.taxi, waterhard.uk, crosstrainerhome.co.uk, implementai.today, londonweb.design, optimisedwebsite.com, qrcode.ink, chargefinder.uk, deadhangs.com, knotweedcheck.com, punchfoods.com, wagearea.com, template.how, agenticai.associates, aiagentic.news, areaiq.uk, bookkeepingflow.com, paragondrycleaners.co.uk, thetutor.link, towerfanreviews.uk, aifor.tech, bestchainsaw.uk, eco-drycleaners.co.uk, heatpumpchecker.co.uk, theseshbars.com",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

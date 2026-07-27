@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:hertfordshiretimes.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:hertfordshiretimes.uk\". Available sites: aatma-aesthetics.com, checkamover.com, londonwebdesign.site, seo-leeds.uk, supplementcheck.org, tradecost.uk, crosstrainerhome.co.uk, drugnote.com, laundryhome.co.uk, colourlabelprinter.com, drivingtestpass.org, sunnypatel.co.uk, wellifepsychology.com, salarydata.co.uk, seo-birmingham.uk, snaptaken.com, bestreviews.co.uk, bestturbotrainers.uk, complain.report, gathrd.co.uk, generator.express, merch.observer, qrcode.ink, areaiq.uk, catchment.school, londonweb.design, geooptimised.com, huntsmansports.com, thebestmowers.co.uk, clinicaltrialhub.org, optimisedwebsite.com, ownedwork.com, piyadesigns.co.uk, aifor.property, epc.report, reportbolt.com, seo-guildford.uk, theseshbars.com, visible-ads.com, www.mugscafe.org, hummingbird.agency, kingpin.design, seo.bargains, wagearea.com, auditweb.site, bestcordlessdrills.uk, eco-drycleaners.co.uk, fixerror.dev, formhq.org, luxurytrex.com, sitemap.digital, towrating.org, bookkeepingflow.com, implementai.today, mugscafe.org, signalcheck.org, heatpumpchecker.co.uk, knotweedcheck.com, radon.tips, lockyourbike.org.uk, postcode.page, iwholesales.co.uk, leadscaffold.com, mydigitalpiano.com, theseshbars.com, drinksbykingpin.com, noisecheck.uk, petsnerd.com, scopepitch.com, seo.archi, www.visible-ads.com, agenticaisecured.com, paragondrycleaners.co.uk, sunnypatel.co.uk, template.how, claimwatt.com, e-bikereview.uk, readingschoolofmartialarts.co.uk, salarycareer.com, mobileautomechanic.uk, punchfoods.com, signforge.org, thetutor.link, mugscafe.org, techloved.com, www.laundryhome.co.uk, redlighttherapy.tech, waterhard.uk, solarhq.uk, stackswitch.co, agenticai.associates, aifor.fitness, bestchainsaw.uk, calculator.place, openknowledgeformat.academy, zoningbase.com, breedhealth.org, nomadranker.com, 100percentvegan.co.uk, carrecallhq.com, dashboardcamreviews.co.uk, mobilebarhirelondon.uk, shecookssheeats.co.uk, citationgenerator.store, openknowledgeformat.agency, rentalyield.uk, onlybbguns.co.uk, selflandlord.com, areaiq.uk, deadhangs.com, ideeeas.com, planningleads.org, aiautomation.build, aifor.tech, bestvibrationplates.co.uk, redlighttherapy.expert, seoswansea.uk, towerfanreviews.uk, 365androidapp.uk.com, aiagentic.news, carehome.page, myknifeguide.com, seoreading.uk, topsewingmachines.uk, collinspress.ie, app.thetutor.link, bestcordlessdrills.uk, smmcnj.org, text.taxi, chargefinder.uk",
+    "page": 0,
+    "page_size": 0
+  }
+}

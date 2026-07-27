@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:tradecost.uk",
+  "args": {},
+  "data": {
+    "site": "sc-domain:tradecost.uk",
+    "topic_clusters": []
+  }
+}

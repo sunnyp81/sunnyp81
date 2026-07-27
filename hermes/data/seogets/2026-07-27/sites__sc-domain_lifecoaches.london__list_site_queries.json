@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:lifecoaches.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:lifecoaches.london\". Available sites: wellifepsychology.com, selflandlord.com, www.mugscafe.org, zoningbase.com, aifor.property, drugnote.com, seo.bargains, techloved.com, aiautomation.build, bestcordlessdrills.uk, scopepitch.com, wagearea.com, bestreviews.co.uk, laundryhome.co.uk, waterhard.uk, kingpin.design, areaiq.uk, citationgenerator.store, gathrd.co.uk, merch.observer, openknowledgeformat.agency, seo-birmingham.uk, aifor.fitness, dashboardcamreviews.co.uk, nomadranker.com, agenticai.associates, colourlabelprinter.com, deadhangs.com, punchfoods.com, checkamover.com, drivingtestpass.org, generator.express, heatpumpchecker.co.uk, implementai.today, signforge.org, solarhq.uk, knotweedcheck.com, 100percentvegan.co.uk, aatma-aesthetics.com, aiagentic.news, noisecheck.uk, redlighttherapy.expert, template.how, crosstrainerhome.co.uk, theseshbars.com, visible-ads.com, supplementcheck.org, planningleads.org, qrcode.ink, rentalyield.uk, formhq.org, londonwebdesign.site, signalcheck.org, areaiq.uk, breedhealth.org, londonweb.design, chargefinder.uk, huntsmansports.com, ideeeas.com, mobileautomechanic.uk, readingschoolofmartialarts.co.uk, towerfanreviews.uk, www.visible-ads.com, reportbolt.com, catchment.school, 365androidapp.uk.com, bestchainsaw.uk, claimwatt.com, optimisedwebsite.com, salarydata.co.uk, sunnypatel.co.uk, topsewingmachines.uk, carrecallhq.com, auditweb.site, e-bikereview.uk, piyadesigns.co.uk, aifor.tech, clinicaltrialhub.org, petsnerd.com, postcode.page, sunnypatel.co.uk, seoswansea.uk, stackswitch.co, drinksbykingpin.com, mydigitalpiano.com, thetutor.link, snaptaken.com, tradecost.uk, luxurytrex.com, mobilebarhirelondon.uk, radon.tips, redlighttherapy.tech, seo-guildford.uk, shecookssheeats.co.uk, thebestmowers.co.uk, seo-leeds.uk, bestturbotrainers.uk, collinspress.ie, lockyourbike.org.uk, mugscafe.org, myknifeguide.com, smmcnj.org, carehome.page, bookkeepingflow.com, theseshbars.com, sitemap.digital, agenticaisecured.com, bestcordlessdrills.uk, bestvibrationplates.co.uk, fixerror.dev, openknowledgeformat.academy, hummingbird.agency, iwholesales.co.uk, mugscafe.org, ownedwork.com, paragondrycleaners.co.uk, towrating.org, app.thetutor.link, calculator.place, salarycareer.com, seoreading.uk, www.laundryhome.co.uk, eco-drycleaners.co.uk, epc.report, geooptimised.com, seo.archi, text.taxi, complain.report, leadscaffold.com, onlybbguns.co.uk",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

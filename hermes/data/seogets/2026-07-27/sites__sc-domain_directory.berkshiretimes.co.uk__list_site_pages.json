@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:directory.berkshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:directory.berkshiretimes.co.uk\". Available sites: aifor.tech, calculator.place, colourlabelprinter.com, geooptimised.com, paragondrycleaners.co.uk, www.laundryhome.co.uk, londonwebdesign.site, signforge.org, noisecheck.uk, bestturbotrainers.uk, openknowledgeformat.agency, text.taxi, bestchainsaw.uk, 100percentvegan.co.uk, app.thetutor.link, catchment.school, implementai.today, areaiq.uk, ideeeas.com, techloved.com, bookkeepingflow.com, carrecallhq.com, piyadesigns.co.uk, salarycareer.com, areaiq.uk, aifor.fitness, knotweedcheck.com, wagearea.com, wellifepsychology.com, deadhangs.com, ownedwork.com, sunnypatel.co.uk, theseshbars.com, e-bikereview.uk, iwholesales.co.uk, lockyourbike.org.uk, mobilebarhirelondon.uk, qrcode.ink, chargefinder.uk, aatma-aesthetics.com, citationgenerator.store, reportbolt.com, auditweb.site, bestcordlessdrills.uk, bestvibrationplates.co.uk, drinksbykingpin.com, mugscafe.org, rentalyield.uk, stackswitch.co, zoningbase.com, agenticai.associates, luxurytrex.com, redlighttherapy.expert, scopepitch.com, gathrd.co.uk, optimisedwebsite.com, seo-birmingham.uk, supplementcheck.org, theseshbars.com, thetutor.link, breedhealth.org, fixerror.dev, londonweb.design, merch.observer, seo-leeds.uk, solarhq.uk, thebestmowers.co.uk, visible-ads.com, generator.express, huntsmansports.com, onlybbguns.co.uk, waterhard.uk, checkamover.com, drivingtestpass.org, drugnote.com, kingpin.design, seo-guildford.uk, seoswansea.uk, signalcheck.org, towrating.org, 365androidapp.uk.com, mugscafe.org, openknowledgeformat.academy, clinicaltrialhub.org, epc.report, myknifeguide.com, petsnerd.com, sitemap.digital, tradecost.uk, aifor.property, carehome.page, hummingbird.agency, laundryhome.co.uk, planningleads.org, shecookssheeats.co.uk, towerfanreviews.uk, aiagentic.news, bestcordlessdrills.uk, heatpumpchecker.co.uk, redlighttherapy.tech, postcode.page, seo.archi, seo.bargains, agenticaisecured.com, complain.report, nomadranker.com, readingschoolofmartialarts.co.uk, snaptaken.com, bestreviews.co.uk, mobileautomechanic.uk, seoreading.uk, www.mugscafe.org, collinspress.ie, dashboardcamreviews.co.uk, eco-drycleaners.co.uk, mydigitalpiano.com, radon.tips, sunnypatel.co.uk, topsewingmachines.uk, claimwatt.com, template.how, selflandlord.com, smmcnj.org, crosstrainerhome.co.uk, punchfoods.com, salarydata.co.uk, aiautomation.build, formhq.org, leadscaffold.com, www.visible-ads.com",
+    "page": 0,
+    "page_size": 0
+  }
+}

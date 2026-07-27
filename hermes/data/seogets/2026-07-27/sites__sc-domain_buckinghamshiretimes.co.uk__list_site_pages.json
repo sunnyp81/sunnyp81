@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:buckinghamshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:buckinghamshiretimes.co.uk\". Available sites: bestchainsaw.uk, calculator.place, ideeeas.com, shecookssheeats.co.uk, aiagentic.news, bestreviews.co.uk, bookkeepingflow.com, zoningbase.com, aifor.tech, seoswansea.uk, dashboardcamreviews.co.uk, mugscafe.org, theseshbars.com, clinicaltrialhub.org, selflandlord.com, signforge.org, drugnote.com, readingschoolofmartialarts.co.uk, sitemap.digital, wellifepsychology.com, scopepitch.com, agenticai.associates, aifor.property, bestcordlessdrills.uk, luxurytrex.com, noisecheck.uk, ownedwork.com, rentalyield.uk, aatma-aesthetics.com, bestvibrationplates.co.uk, catchment.school, mugscafe.org, stackswitch.co, aifor.fitness, deadhangs.com, implementai.today, openknowledgeformat.academy, postcode.page, smmcnj.org, kingpin.design, areaiq.uk, carehome.page, petsnerd.com, solarhq.uk, thetutor.link, crosstrainerhome.co.uk, e-bikereview.uk, formhq.org, geooptimised.com, redlighttherapy.expert, techloved.com, 365androidapp.uk.com, gathrd.co.uk, optimisedwebsite.com, qrcode.ink, claimwatt.com, leadscaffold.com, salarydata.co.uk, knotweedcheck.com, app.thetutor.link, bestcordlessdrills.uk, drinksbykingpin.com, hummingbird.agency, huntsmansports.com, nomadranker.com, punchfoods.com, 100percentvegan.co.uk, lockyourbike.org.uk, sunnypatel.co.uk, topsewingmachines.uk, towrating.org, areaiq.uk, breedhealth.org, collinspress.ie, generator.express, seo-guildford.uk, seo.archi, www.mugscafe.org, complain.report, londonweb.design, seo-leeds.uk, carrecallhq.com, heatpumpchecker.co.uk, aiautomation.build, snaptaken.com, text.taxi, auditweb.site, mydigitalpiano.com, signalcheck.org, openknowledgeformat.agency, paragondrycleaners.co.uk, supplementcheck.org, drivingtestpass.org, fixerror.dev, londonwebdesign.site, seo.bargains, sunnypatel.co.uk, thebestmowers.co.uk, waterhard.uk, citationgenerator.store, redlighttherapy.tech, iwholesales.co.uk, bestturbotrainers.uk, laundryhome.co.uk, onlybbguns.co.uk, salarycareer.com, visible-ads.com, wagearea.com, merch.observer, chargefinder.uk, mobileautomechanic.uk, myknifeguide.com, radon.tips, tradecost.uk, checkamover.com, mobilebarhirelondon.uk, seoreading.uk, template.how, colourlabelprinter.com, eco-drycleaners.co.uk, epc.report, planningleads.org, seo-birmingham.uk, www.laundryhome.co.uk, piyadesigns.co.uk, reportbolt.com, towerfanreviews.uk, theseshbars.com, www.visible-ads.com, agenticaisecured.com",
+    "page": 0,
+    "page_size": 0
+  }
+}

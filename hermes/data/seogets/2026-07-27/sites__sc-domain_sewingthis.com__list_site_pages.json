@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:sewingthis.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:sewingthis.com\". Available sites: leadscaffold.com, myknifeguide.com, openknowledgeformat.academy, techloved.com, aiagentic.news, carrecallhq.com, drinksbykingpin.com, e-bikereview.uk, seo.bargains, merch.observer, mobileautomechanic.uk, salarydata.co.uk, seo.archi, smmcnj.org, checkamover.com, complain.report, dashboardcamreviews.co.uk, implementai.today, piyadesigns.co.uk, fixerror.dev, mobilebarhirelondon.uk, mugscafe.org, mugscafe.org, optimisedwebsite.com, readingschoolofmartialarts.co.uk, www.laundryhome.co.uk, londonweb.design, wellifepsychology.com, bestcordlessdrills.uk, catchment.school, punchfoods.com, rentalyield.uk, seo-guildford.uk, aatma-aesthetics.com, bestvibrationplates.co.uk, breedhealth.org, calculator.place, thebestmowers.co.uk, app.thetutor.link, chargefinder.uk, onlybbguns.co.uk, redlighttherapy.tech, seo-birmingham.uk, snaptaken.com, drugnote.com, openknowledgeformat.agency, seoswansea.uk, zoningbase.com, lockyourbike.org.uk, nomadranker.com, text.taxi, qrcode.ink, solarhq.uk, areaiq.uk, bestturbotrainers.uk, clinicaltrialhub.org, knotweedcheck.com, noisecheck.uk, theseshbars.com, aifor.tech, colourlabelprinter.com, formhq.org, radon.tips, seoreading.uk, heatpumpchecker.co.uk, aiautomation.build, visible-ads.com, 365androidapp.uk.com, geooptimised.com, iwholesales.co.uk, luxurytrex.com, tradecost.uk, aifor.property, bestcordlessdrills.uk, sitemap.digital, generator.express, hummingbird.agency, reportbolt.com, shecookssheeats.co.uk, waterhard.uk, citationgenerator.store, paragondrycleaners.co.uk, planningleads.org, seo-leeds.uk, sunnypatel.co.uk, ideeeas.com, postcode.page, selflandlord.com, sunnypatel.co.uk, drivingtestpass.org, aifor.fitness, claimwatt.com, ownedwork.com, bestchainsaw.uk, collinspress.ie, gathrd.co.uk, towrating.org, www.mugscafe.org, bestreviews.co.uk, crosstrainerhome.co.uk, eco-drycleaners.co.uk, carehome.page, kingpin.design, redlighttherapy.expert, salarycareer.com, topsewingmachines.uk, 100percentvegan.co.uk, agenticaisecured.com, huntsmansports.com, mydigitalpiano.com, supplementcheck.org, template.how, thetutor.link, towerfanreviews.uk, agenticai.associates, bookkeepingflow.com, epc.report, londonwebdesign.site, wagearea.com, www.visible-ads.com, deadhangs.com, signalcheck.org, stackswitch.co, areaiq.uk, petsnerd.com, scopepitch.com, signforge.org, theseshbars.com, auditweb.site, laundryhome.co.uk",
+    "page": 0,
+    "page_size": 0
+  }
+}

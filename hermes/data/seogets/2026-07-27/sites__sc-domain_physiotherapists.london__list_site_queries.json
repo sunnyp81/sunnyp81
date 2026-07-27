@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:physiotherapists.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:physiotherapists.london\". Available sites: piyadesigns.co.uk, radon.tips, deadhangs.com, heatpumpchecker.co.uk, redlighttherapy.expert, seo.bargains, thetutor.link, towerfanreviews.uk, calculator.place, checkamover.com, collinspress.ie, theseshbars.com, areaiq.uk, catchment.school, drivingtestpass.org, eco-drycleaners.co.uk, snaptaken.com, text.taxi, bestvibrationplates.co.uk, zoningbase.com, crosstrainerhome.co.uk, knotweedcheck.com, bookkeepingflow.com, bestchainsaw.uk, noisecheck.uk, petsnerd.com, topsewingmachines.uk, aiautomation.build, ideeeas.com, onlybbguns.co.uk, openknowledgeformat.academy, signalcheck.org, solarhq.uk, wagearea.com, sitemap.digital, template.how, waterhard.uk, generator.express, iwholesales.co.uk, seoreading.uk, complain.report, mobileautomechanic.uk, mugscafe.org, optimisedwebsite.com, readingschoolofmartialarts.co.uk, smmcnj.org, sunnypatel.co.uk, wellifepsychology.com, mobilebarhirelondon.uk, postcode.page, shecookssheeats.co.uk, citationgenerator.store, clinicaltrialhub.org, seo-birmingham.uk, stackswitch.co, lockyourbike.org.uk, seo-guildford.uk, sunnypatel.co.uk, bestreviews.co.uk, colourlabelprinter.com, aatma-aesthetics.com, carehome.page, fixerror.dev, londonwebdesign.site, leadscaffold.com, londonweb.design, chargefinder.uk, mugscafe.org, mydigitalpiano.com, salarydata.co.uk, breedhealth.org, e-bikereview.uk, thebestmowers.co.uk, theseshbars.com, gathrd.co.uk, hummingbird.agency, implementai.today, 100percentvegan.co.uk, agenticaisecured.com, aifor.tech, punchfoods.com, areaiq.uk, bestcordlessdrills.uk, kingpin.design, redlighttherapy.tech, reportbolt.com, visible-ads.com, www.visible-ads.com, myknifeguide.com, www.laundryhome.co.uk, 365androidapp.uk.com, agenticai.associates, ownedwork.com, seoswansea.uk, epc.report, rentalyield.uk, auditweb.site, laundryhome.co.uk, aifor.fitness, carrecallhq.com, openknowledgeformat.agency, planningleads.org, scopepitch.com, seo.archi, techloved.com, supplementcheck.org, bestcordlessdrills.uk, merch.observer, signforge.org, aiagentic.news, drinksbykingpin.com, salarycareer.com, selflandlord.com, drugnote.com, claimwatt.com, dashboardcamreviews.co.uk, paragondrycleaners.co.uk, qrcode.ink, towrating.org, tradecost.uk, formhq.org, bestturbotrainers.uk, aifor.property, app.thetutor.link, www.mugscafe.org, geooptimised.com, huntsmansports.com, nomadranker.com, seo-leeds.uk, luxurytrex.com",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://areaiq.uk/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "site": "sc-domain:areaiq.uk"
+  }
+}

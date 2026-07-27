@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:complain.report",
+  "args": {},
+  "data": {
+    "site": "sc-domain:complain.report",
+    "topic_clusters": []
+  }
+}

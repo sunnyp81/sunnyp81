@@ -1,0 +1,26 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:auditweb.site",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://auditweb.site",
+        "paths": [
+          "/",
+          "/free-website-audit/",
+          "/website-audit-services/",
+          "/website-audit-tools/",
+          "/website-audit/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 1 hosts from 2025-03-27 to 2026-07-26.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

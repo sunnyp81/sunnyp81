@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:best-binoculars.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:best-binoculars.uk\". Available sites: heatpumpchecker.co.uk, hummingbird.agency, luxurytrex.com, merch.observer, petsnerd.com, punchfoods.com, carehome.page, dashboardcamreviews.co.uk, deadhangs.com, drugnote.com, smmcnj.org, aiautomation.build, tradecost.uk, colourlabelprinter.com, scopepitch.com, sunnypatel.co.uk, 365androidapp.uk.com, aifor.property, catchment.school, citationgenerator.store, crosstrainerhome.co.uk, gathrd.co.uk, noisecheck.uk, openknowledgeformat.agency, redlighttherapy.tech, seo.archi, solarhq.uk, mydigitalpiano.com, onlybbguns.co.uk, radon.tips, rentalyield.uk, shecookssheeats.co.uk, thebestmowers.co.uk, mobilebarhirelondon.uk, checkamover.com, complain.report, huntsmansports.com, londonweb.design, paragondrycleaners.co.uk, techloved.com, bestchainsaw.uk, eco-drycleaners.co.uk, fixerror.dev, lockyourbike.org.uk, selflandlord.com, snaptaken.com, aifor.tech, e-bikereview.uk, generator.express, geooptimised.com, signalcheck.org, aiagentic.news, drivingtestpass.org, iwholesales.co.uk, kingpin.design, wagearea.com, 100percentvegan.co.uk, aifor.fitness, clinicaltrialhub.org, myknifeguide.com, bestvibrationplates.co.uk, chargefinder.uk, planningleads.org, sunnypatel.co.uk, text.taxi, wellifepsychology.com, bestcordlessdrills.uk, mugscafe.org, mugscafe.org, openknowledgeformat.academy, seoswansea.uk, claimwatt.com, laundryhome.co.uk, salarycareer.com, www.laundryhome.co.uk, app.thetutor.link, epc.report, londonwebdesign.site, ownedwork.com, thetutor.link, topsewingmachines.uk, aatma-aesthetics.com, formhq.org, qrcode.ink, implementai.today, supplementcheck.org, theseshbars.com, www.mugscafe.org, bestcordlessdrills.uk, calculator.place, ideeeas.com, visible-ads.com, postcode.page, areaiq.uk, bookkeepingflow.com, drinksbykingpin.com, seoreading.uk, waterhard.uk, signforge.org, sitemap.digital, bestreviews.co.uk, knotweedcheck.com, nomadranker.com, piyadesigns.co.uk, towrating.org, towerfanreviews.uk, carrecallhq.com, seo-guildford.uk, agenticaisecured.com, seo-leeds.uk, seo.bargains, zoningbase.com, readingschoolofmartialarts.co.uk, reportbolt.com, salarydata.co.uk, bestturbotrainers.uk, mobileautomechanic.uk, www.visible-ads.com, agenticai.associates, collinspress.ie, areaiq.uk, leadscaffold.com, template.how, theseshbars.com, auditweb.site, breedhealth.org, optimisedwebsite.com, redlighttherapy.expert, seo-birmingham.uk, stackswitch.co",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

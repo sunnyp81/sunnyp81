@@ -22,14 +22,374 @@
     "update_topic_cluster"
   ],
   "sites": [
-    "http://www.laundryhome.co.uk/",
-    "https://aatma-aesthetics.com/",
+    "sc-domain:colourlabelprinter.com",
+    "sc-domain:rentalyield.uk",
+    "sc-domain:solarhq.uk",
+    "sc-domain:fixerror.dev",
+    "sc-domain:ideeeas.com",
     "https://laundryhome.co.uk/",
+    "sc-domain:lockyourbike.org.uk",
+    "sc-domain:petsnerd.com",
+    "sc-domain:seoreading.uk",
+    "https://mugscafe.org/",
+    "sc-domain:postcode.page",
+    "sc-domain:redlighttherapy.tech",
+    "sc-domain:seo-guildford.uk",
+    "https://aatma-aesthetics.com/",
+    "sc-domain:noisecheck.uk",
+    "sc-domain:qrcode.ink",
+    "https://www.visible-ads.com/",
+    "sc-domain:clinicaltrialhub.org",
+    "sc-domain:mobileautomechanic.uk",
+    "sc-domain:reportbolt.com",
+    "https://bestcordlessdrills.uk/",
+    "sc-domain:calculator.place",
+    "sc-domain:collinspress.ie",
+    "sc-domain:dashboardcamreviews.co.uk",
+    "sc-domain:mobilebarhirelondon.uk",
+    "sc-domain:selflandlord.com",
+    "sc-domain:seo-leeds.uk",
+    "https://areaiq.uk/",
+    "sc-domain:heatpumpchecker.co.uk",
+    "sc-domain:seo.bargains",
+    "sc-domain:snaptaken.com",
+    "sc-domain:topsewingmachines.uk",
+    "sc-domain:waterhard.uk",
+    "sc-domain:aifor.property",
+    "sc-domain:breedhealth.org",
+    "sc-domain:citationgenerator.store",
+    "sc-domain:crosstrainerhome.co.uk",
+    "sc-domain:merch.observer",
+    "sc-domain:punchfoods.com",
+    "sc-domain:shecookssheeats.co.uk",
+    "https://sunnypatel.co.uk/",
+    "sc-domain:mugscafe.org",
+    "sc-domain:techloved.com",
+    "https://theseshbars.com/",
+    "sc-domain:thetutor.link",
+    "sc-domain:chargefinder.uk",
+    "sc-domain:eco-drycleaners.co.uk",
+    "sc-domain:signalcheck.org",
+    "sc-domain:sunnypatel.co.uk",
+    "sc-domain:theseshbars.com",
+    "sc-domain:areaiq.uk",
+    "sc-domain:bestturbotrainers.uk",
+    "sc-domain:drivingtestpass.org",
+    "sc-domain:e-bikereview.uk",
+    "sc-domain:salarydata.co.uk",
+    "sc-domain:bestcordlessdrills.uk",
+    "sc-domain:londonweb.design",
+    "sc-domain:wellifepsychology.com",
+    "sc-domain:aiagentic.news",
+    "sc-domain:drugnote.com",
+    "https://mydigitalpiano.com/",
+    "sc-domain:wagearea.com",
+    "sc-domain:365androidapp.uk.com",
+    "sc-domain:aiautomation.build",
+    "sc-domain:template.how",
+    "sc-domain:bestchainsaw.uk",
+    "sc-domain:gathrd.co.uk",
+    "sc-domain:generator.express",
+    "sc-domain:piyadesigns.co.uk",
+    "sc-domain:readingschoolofmartialarts.co.uk",
+    "sc-domain:redlighttherapy.expert",
+    "sc-domain:tradecost.uk",
+    "sc-domain:bestreviews.co.uk",
+    "sc-domain:leadscaffold.com",
+    "https://myknifeguide.com/",
+    "sc-domain:openknowledgeformat.agency",
+    "sc-domain:radon.tips",
+    "sc-domain:seo-birmingham.uk",
+    "sc-domain:carehome.page",
+    "sc-domain:claimwatt.com",
+    "sc-domain:salarycareer.com",
+    "sc-domain:text.taxi",
+    "sc-domain:agenticaisecured.com",
+    "sc-domain:epc.report",
+    "sc-domain:geooptimised.com",
+    "sc-domain:hummingbird.agency",
+    "sc-domain:onlybbguns.co.uk",
+    "sc-domain:ownedwork.com",
     "https://paragondrycleaners.co.uk/",
-    "https://theseshbars.com/"
+    "sc-domain:planningleads.org",
+    "sc-domain:catchment.school",
+    "sc-domain:complain.report",
+    "sc-domain:deadhangs.com",
+    "sc-domain:formhq.org",
+    "sc-domain:implementai.today",
+    "sc-domain:aifor.fitness",
+    "sc-domain:iwholesales.co.uk",
+    "sc-domain:optimisedwebsite.com",
+    "sc-domain:smmcnj.org",
+    "sc-domain:supplementcheck.org",
+    "http://www.laundryhome.co.uk/",
+    "sc-domain:sitemap.digital",
+    "sc-domain:towerfanreviews.uk",
+    "sc-domain:100percentvegan.co.uk",
+    "sc-domain:nomadranker.com",
+    "https://app.thetutor.link/",
+    "sc-domain:luxurytrex.com",
+    "sc-domain:stackswitch.co",
+    "sc-domain:zoningbase.com",
+    "sc-domain:aifor.tech",
+    "sc-domain:auditweb.site",
+    "sc-domain:kingpin.design",
+    "sc-domain:seo.archi",
+    "sc-domain:bookkeepingflow.com",
+    "sc-domain:checkamover.com",
+    "sc-domain:huntsmansports.com",
+    "sc-domain:knotweedcheck.com",
+    "sc-domain:openknowledgeformat.academy",
+    "sc-domain:scopepitch.com",
+    "sc-domain:towrating.org",
+    "sc-domain:visible-ads.com",
+    "sc-domain:agenticai.associates",
+    "sc-domain:drinksbykingpin.com",
+    "sc-domain:thebestmowers.co.uk",
+    "https://www.mugscafe.org/",
+    "sc-domain:seoswansea.uk",
+    "sc-domain:bestvibrationplates.co.uk",
+    "sc-domain:carrecallhq.com",
+    "sc-domain:londonwebdesign.site",
+    "sc-domain:signforge.org",
+    "sc-domain:aatma-aesthetics.com",
+    "sc-domain:bespokeairsoft.co.uk",
+    "sc-domain:cfw.co.uk",
+    "sc-domain:sephra.com",
+    "sc-domain:sephrausa.com",
+    "sc-domain:bedfordshiretimes.co.uk",
+    "sc-domain:berkshiretimes.co.uk",
+    "sc-domain:buckinghamshiretimes.co.uk",
+    "sc-domain:cheshiretimes.co.uk",
+    "sc-domain:directory.berkshiretimes.co.uk",
+    "sc-domain:dorsettimes.co.uk",
+    "sc-domain:hertfordshiretimes.uk",
+    "sc-domain:oxfordshiretimes.co.uk",
+    "sc-domain:theenglandtimes.co.uk",
+    "sc-domain:thesurreytimes.co.uk",
+    "sc-domain:best-binoculars.uk",
+    "sc-domain:homegardenhq.co.uk",
+    "sc-domain:lightweightluggagereviews.com",
+    "sc-domain:neocandle.com",
+    "sc-domain:sewingthis.com",
+    "sc-domain:sustainabletag.com",
+    "sc-domain:teachmediy.co.uk",
+    "sc-domain:thefryerguide.com",
+    "sc-domain:dermatologists.london",
+    "sc-domain:directory.faceartfun.com",
+    "sc-domain:dubai.realty.directory",
+    "sc-domain:influencermarketing.directory",
+    "sc-domain:jewellers.london",
+    "sc-domain:lifecoaches.london",
+    "sc-domain:london.realty.directory",
+    "sc-domain:nyc.realty.directory",
+    "sc-domain:physiotherapists.london",
+    "sc-domain:plumbersden.com",
+    "sc-domain:realty.directory",
+    "sc-domain:slopes.directory",
+    "sc-domain:solarenergy.london",
+    "sc-domain:vegantab.com",
+    "sc-domain:webservices.london",
+    "sc-domain:faithfulsage.com"
   ],
-  "errors": [],
+  "errors": [
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:bespokeairsoft.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:cfw.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:sephra.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:sephrausa.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:bedfordshiretimes.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:berkshiretimes.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:buckinghamshiretimes.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:cheshiretimes.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:directory.berkshiretimes.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:dorsettimes.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:hertfordshiretimes.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:oxfordshiretimes.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:theenglandtimes.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:thesurreytimes.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:best-binoculars.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:homegardenhq.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:lightweightluggagereviews.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:neocandle.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:sewingthis.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:sustainabletag.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:teachmediy.co.uk",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:thefryerguide.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:dermatologists.london",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:directory.faceartfun.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:dubai.realty.directory",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:influencermarketing.directory",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:jewellers.london",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:lifecoaches.london",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:london.realty.directory",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:nyc.realty.directory",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:physiotherapists.london",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:plumbersden.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:realty.directory",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:slopes.directory",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:solarenergy.london",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:vegantab.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:webservices.london",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "get_indexing_status",
+      "site": "sc-domain:faithfulsage.com",
+      "error": "tool get_indexing_status errored: error in tool get_indexing_status"
+    },
+    {
+      "tool": "list_site_pages",
+      "site": "sc-domain:sustainabletag.com",
+      "error": "The read operation timed out"
+    }
+  ],
   "tool_count": 19,
-  "call_count": 42,
-  "error_count": 0
+  "call_count": 1354,
+  "error_count": 39
 }

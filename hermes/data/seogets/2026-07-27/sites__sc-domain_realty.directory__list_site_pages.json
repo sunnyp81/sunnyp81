@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:realty.directory",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:realty.directory\". Available sites: catchment.school, generator.express, waterhard.uk, areaiq.uk, dashboardcamreviews.co.uk, seo-guildford.uk, drugnote.com, fixerror.dev, londonwebdesign.site, mobileautomechanic.uk, bestcordlessdrills.uk, colourlabelprinter.com, e-bikereview.uk, geooptimised.com, auditweb.site, piyadesigns.co.uk, scopepitch.com, topsewingmachines.uk, aiagentic.news, tradecost.uk, www.visible-ads.com, radon.tips, redlighttherapy.expert, signalcheck.org, text.taxi, clinicaltrialhub.org, openknowledgeformat.agency, selflandlord.com, sitemap.digital, bestvibrationplates.co.uk, aiautomation.build, citationgenerator.store, hummingbird.agency, nomadranker.com, optimisedwebsite.com, salarydata.co.uk, theseshbars.com, aatma-aesthetics.com, aifor.tech, app.thetutor.link, ideeeas.com, lockyourbike.org.uk, mobilebarhirelondon.uk, myknifeguide.com, visible-ads.com, seo-birmingham.uk, aifor.property, carrecallhq.com, gathrd.co.uk, paragondrycleaners.co.uk, www.mugscafe.org, calculator.place, complain.report, noisecheck.uk, salarycareer.com, wagearea.com, www.laundryhome.co.uk, 365androidapp.uk.com, planningleads.org, reportbolt.com, seo.archi, solarhq.uk, wellifepsychology.com, areaiq.uk, formhq.org, huntsmansports.com, iwholesales.co.uk, knotweedcheck.com, luxurytrex.com, redlighttherapy.tech, shecookssheeats.co.uk, breedhealth.org, claimwatt.com, techloved.com, zoningbase.com, crosstrainerhome.co.uk, heatpumpchecker.co.uk, kingpin.design, carehome.page, agenticai.associates, bestcordlessdrills.uk, implementai.today, punchfoods.com, seo-leeds.uk, deadhangs.com, laundryhome.co.uk, ownedwork.com, 100percentvegan.co.uk, bestreviews.co.uk, chargefinder.uk, drinksbykingpin.com, qrcode.ink, readingschoolofmartialarts.co.uk, rentalyield.uk, smmcnj.org, epc.report, onlybbguns.co.uk, openknowledgeformat.academy, signforge.org, towerfanreviews.uk, bestturbotrainers.uk, seoreading.uk, template.how, bestchainsaw.uk, mydigitalpiano.com, stackswitch.co, mugscafe.org, supplementcheck.org, towrating.org, bookkeepingflow.com, seo.bargains, seoswansea.uk, thebestmowers.co.uk, thetutor.link, agenticaisecured.com, checkamover.com, petsnerd.com, sunnypatel.co.uk, theseshbars.com, collinspress.ie, eco-drycleaners.co.uk, merch.observer, snaptaken.com, aifor.fitness, londonweb.design, sunnypatel.co.uk, mugscafe.org, postcode.page, drivingtestpass.org, leadscaffold.com",
+    "page": 0,
+    "page_size": 0
+  }
+}

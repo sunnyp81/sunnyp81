@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:thesurreytimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:thesurreytimes.co.uk\". Available sites: agenticaisecured.com, colourlabelprinter.com, deadhangs.com, leadscaffold.com, luxurytrex.com, qrcode.ink, bestchainsaw.uk, fixerror.dev, ideeeas.com, londonweb.design, topsewingmachines.uk, towerfanreviews.uk, areaiq.uk, bestvibrationplates.co.uk, collinspress.ie, gathrd.co.uk, mugscafe.org, redlighttherapy.expert, salarycareer.com, text.taxi, hummingbird.agency, merch.observer, noisecheck.uk, smmcnj.org, snaptaken.com, kingpin.design, salarydata.co.uk, 365androidapp.uk.com, bestturbotrainers.uk, formhq.org, lockyourbike.org.uk, redlighttherapy.tech, areaiq.uk, dashboardcamreviews.co.uk, londonwebdesign.site, selflandlord.com, seo-leeds.uk, seoswansea.uk, sunnypatel.co.uk, aifor.tech, mobilebarhirelondon.uk, complain.report, drivingtestpass.org, reportbolt.com, shecookssheeats.co.uk, thebestmowers.co.uk, theseshbars.com, geooptimised.com, laundryhome.co.uk, myknifeguide.com, paragondrycleaners.co.uk, piyadesigns.co.uk, seo.bargains, seoreading.uk, stackswitch.co, carrecallhq.com, planningleads.org, sitemap.digital, supplementcheck.org, techloved.com, visible-ads.com, chargefinder.uk, implementai.today, theseshbars.com, bestreviews.co.uk, drugnote.com, radon.tips, waterhard.uk, www.mugscafe.org, iwholesales.co.uk, bookkeepingflow.com, generator.express, mugscafe.org, sunnypatel.co.uk, zoningbase.com, aatma-aesthetics.com, breedhealth.org, calculator.place, checkamover.com, eco-drycleaners.co.uk, huntsmansports.com, openknowledgeformat.academy, carehome.page, clinicaltrialhub.org, drinksbykingpin.com, punchfoods.com, wellifepsychology.com, e-bikereview.uk, signalcheck.org, template.how, mydigitalpiano.com, seo.archi, wagearea.com, claimwatt.com, onlybbguns.co.uk, thetutor.link, www.laundryhome.co.uk, www.visible-ads.com, aiagentic.news, auditweb.site, epc.report, rentalyield.uk, aifor.fitness, catchment.school, seo-guildford.uk, aifor.property, optimisedwebsite.com, bestcordlessdrills.uk, petsnerd.com, signforge.org, agenticai.associates, app.thetutor.link, citationgenerator.store, mobileautomechanic.uk, openknowledgeformat.agency, ownedwork.com, readingschoolofmartialarts.co.uk, crosstrainerhome.co.uk, knotweedcheck.com, nomadranker.com, tradecost.uk, heatpumpchecker.co.uk, postcode.page, scopepitch.com, 100percentvegan.co.uk, bestcordlessdrills.uk, seo-birmingham.uk, towrating.org, aiautomation.build, solarhq.uk",
+    "page": 0,
+    "page_size": 0
+  }
+}

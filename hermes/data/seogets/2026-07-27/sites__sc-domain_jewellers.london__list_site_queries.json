@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:jewellers.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:jewellers.london\". Available sites: catchment.school, collinspress.ie, text.taxi, heatpumpchecker.co.uk, mobilebarhirelondon.uk, seoreading.uk, radon.tips, drugnote.com, generator.express, ownedwork.com, paragondrycleaners.co.uk, theseshbars.com, towerfanreviews.uk, aifor.property, checkamover.com, huntsmansports.com, mydigitalpiano.com, signalcheck.org, 100percentvegan.co.uk, citationgenerator.store, drinksbykingpin.com, eco-drycleaners.co.uk, hummingbird.agency, londonweb.design, openknowledgeformat.academy, towrating.org, aatma-aesthetics.com, ideeeas.com, leadscaffold.com, optimisedwebsite.com, visible-ads.com, www.laundryhome.co.uk, seo-birmingham.uk, redlighttherapy.expert, salarycareer.com, salarydata.co.uk, signforge.org, smmcnj.org, merch.observer, seo.archi, agenticaisecured.com, crosstrainerhome.co.uk, laundryhome.co.uk, bestreviews.co.uk, geooptimised.com, lockyourbike.org.uk, rentalyield.uk, thebestmowers.co.uk, topsewingmachines.uk, aifor.tech, seo-leeds.uk, waterhard.uk, bestcordlessdrills.uk, bookkeepingflow.com, iwholesales.co.uk, onlybbguns.co.uk, app.thetutor.link, areaiq.uk, colourlabelprinter.com, seo-guildford.uk, tradecost.uk, aiautomation.build, epc.report, openknowledgeformat.agency, template.how, e-bikereview.uk, postcode.page, shecookssheeats.co.uk, www.visible-ads.com, auditweb.site, complain.report, kingpin.design, londonwebdesign.site, noisecheck.uk, thetutor.link, planningleads.org, breedhealth.org, fixerror.dev, bestturbotrainers.uk, claimwatt.com, carrecallhq.com, knotweedcheck.com, myknifeguide.com, www.mugscafe.org, mobileautomechanic.uk, mugscafe.org, mugscafe.org, petsnerd.com, reportbolt.com, calculator.place, gathrd.co.uk, qrcode.ink, techloved.com, clinicaltrialhub.org, seo.bargains, chargefinder.uk, drivingtestpass.org, implementai.today, readingschoolofmartialarts.co.uk, redlighttherapy.tech, stackswitch.co, wagearea.com, aifor.fitness, areaiq.uk, piyadesigns.co.uk, snaptaken.com, zoningbase.com, aiagentic.news, deadhangs.com, seoswansea.uk, sitemap.digital, wellifepsychology.com, agenticai.associates, carehome.page, formhq.org, nomadranker.com, punchfoods.com, scopepitch.com, solarhq.uk, theseshbars.com, 365androidapp.uk.com, bestchainsaw.uk, dashboardcamreviews.co.uk, luxurytrex.com, selflandlord.com, sunnypatel.co.uk, sunnypatel.co.uk, supplementcheck.org, bestcordlessdrills.uk, bestvibrationplates.co.uk",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

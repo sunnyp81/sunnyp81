@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:cfw.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:cfw.co.uk\". Available sites: auditweb.site, aiautomation.build, complain.report, heatpumpchecker.co.uk, onlybbguns.co.uk, readingschoolofmartialarts.co.uk, www.visible-ads.com, agenticaisecured.com, aiagentic.news, bestreviews.co.uk, openknowledgeformat.agency, bookkeepingflow.com, citationgenerator.store, claimwatt.com, generator.express, mydigitalpiano.com, qrcode.ink, signalcheck.org, sunnypatel.co.uk, areaiq.uk, selflandlord.com, areaiq.uk, clinicaltrialhub.org, mugscafe.org, radon.tips, crosstrainerhome.co.uk, mobileautomechanic.uk, techloved.com, deadhangs.com, geooptimised.com, knotweedcheck.com, calculator.place, carehome.page, 100percentvegan.co.uk, fixerror.dev, londonweb.design, mobilebarhirelondon.uk, 365androidapp.uk.com, aifor.fitness, app.thetutor.link, formhq.org, nomadranker.com, aifor.property, salarycareer.com, seoreading.uk, agenticai.associates, breedhealth.org, iwholesales.co.uk, scopepitch.com, signforge.org, wagearea.com, seo.bargains, template.how, hummingbird.agency, snaptaken.com, www.mugscafe.org, aifor.tech, colourlabelprinter.com, redlighttherapy.expert, theseshbars.com, visible-ads.com, bestcordlessdrills.uk, eco-drycleaners.co.uk, huntsmansports.com, lockyourbike.org.uk, aatma-aesthetics.com, myknifeguide.com, sunnypatel.co.uk, tradecost.uk, waterhard.uk, gathrd.co.uk, laundryhome.co.uk, openknowledgeformat.academy, sitemap.digital, theseshbars.com, towerfanreviews.uk, dashboardcamreviews.co.uk, e-bikereview.uk, merch.observer, seoswansea.uk, solarhq.uk, www.laundryhome.co.uk, bestchainsaw.uk, catchment.school, implementai.today, mugscafe.org, salarydata.co.uk, smmcnj.org, checkamover.com, seo-leeds.uk, shecookssheeats.co.uk, seo-guildford.uk, bestturbotrainers.uk, chargefinder.uk, ideeeas.com, leadscaffold.com, bestvibrationplates.co.uk, bestcordlessdrills.uk, carrecallhq.com, drivingtestpass.org, epc.report, postcode.page, zoningbase.com, drinksbykingpin.com, reportbolt.com, thetutor.link, wellifepsychology.com, luxurytrex.com, ownedwork.com, stackswitch.co, redlighttherapy.tech, seo.archi, piyadesigns.co.uk, thebestmowers.co.uk, towrating.org, noisecheck.uk, planningleads.org, supplementcheck.org, drugnote.com, londonwebdesign.site, punchfoods.com, optimisedwebsite.com, petsnerd.com, seo-birmingham.uk, text.taxi, topsewingmachines.uk, collinspress.ie, kingpin.design, paragondrycleaners.co.uk, rentalyield.uk",
+    "page": 0,
+    "page_size": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://myknifeguide.com/",
+  "args": {},
+  "data": {
+    "site": "https://myknifeguide.com/",
+    "topic_clusters": []
+  }
+}

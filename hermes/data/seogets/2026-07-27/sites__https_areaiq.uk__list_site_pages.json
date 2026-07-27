@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://areaiq.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://areaiq.uk",
+        "paths": [
+          "/",
+          "/mortgage-calculator/"
+        ]
+      }
+    ],
+    "note": "Returned 2 unique paths across 1 hosts from 2025-03-27 to 2026-07-26.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

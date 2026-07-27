@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:sephra.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:sephra.com\". Available sites: planningleads.org, radon.tips, readingschoolofmartialarts.co.uk, towrating.org, aifor.tech, punchfoods.com, scopepitch.com, dashboardcamreviews.co.uk, ideeeas.com, selflandlord.com, stackswitch.co, formhq.org, qrcode.ink, towerfanreviews.uk, seo-guildford.uk, 100percentvegan.co.uk, app.thetutor.link, e-bikereview.uk, epc.report, mobilebarhirelondon.uk, openknowledgeformat.academy, optimisedwebsite.com, areaiq.uk, bookkeepingflow.com, crosstrainerhome.co.uk, heatpumpchecker.co.uk, mobileautomechanic.uk, postcode.page, checkamover.com, hummingbird.agency, rentalyield.uk, seo.archi, aiautomation.build, auditweb.site, bestreviews.co.uk, bestvibrationplates.co.uk, mydigitalpiano.com, clinicaltrialhub.org, shecookssheeats.co.uk, supplementcheck.org, iwholesales.co.uk, redlighttherapy.tech, mugscafe.org, seo-leeds.uk, techloved.com, wellifepsychology.com, deadhangs.com, seo.bargains, waterhard.uk, mugscafe.org, openknowledgeformat.agency, piyadesigns.co.uk, complain.report, londonweb.design, redlighttherapy.expert, topsewingmachines.uk, areaiq.uk, bestcordlessdrills.uk, breedhealth.org, carehome.page, knotweedcheck.com, catchment.school, signalcheck.org, sitemap.digital, paragondrycleaners.co.uk, www.laundryhome.co.uk, aatma-aesthetics.com, template.how, thebestmowers.co.uk, wagearea.com, kingpin.design, lockyourbike.org.uk, tradecost.uk, seoswansea.uk, implementai.today, 365androidapp.uk.com, fixerror.dev, thetutor.link, www.visible-ads.com, reportbolt.com, solarhq.uk, aifor.property, bestturbotrainers.uk, citationgenerator.store, colourlabelprinter.com, laundryhome.co.uk, chargefinder.uk, geooptimised.com, seoreading.uk, agenticaisecured.com, calculator.place, ownedwork.com, snaptaken.com, zoningbase.com, gathrd.co.uk, huntsmansports.com, smmcnj.org, sunnypatel.co.uk, visible-ads.com, aifor.fitness, generator.express, myknifeguide.com, petsnerd.com, seo-birmingham.uk, salarydata.co.uk, text.taxi, theseshbars.com, claimwatt.com, leadscaffold.com, londonwebdesign.site, www.mugscafe.org, agenticai.associates, carrecallhq.com, drivingtestpass.org, noisecheck.uk, onlybbguns.co.uk, salarycareer.com, sunnypatel.co.uk, aiagentic.news, bestchainsaw.uk, drinksbykingpin.com, luxurytrex.com, nomadranker.com, signforge.org, theseshbars.com, collinspress.ie, eco-drycleaners.co.uk, bestcordlessdrills.uk, drugnote.com, merch.observer",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

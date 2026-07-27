@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:homegardenhq.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:homegardenhq.co.uk\". Available sites: areaiq.uk, chargefinder.uk, clinicaltrialhub.org, optimisedwebsite.com, readingschoolofmartialarts.co.uk, redlighttherapy.tech, rentalyield.uk, colourlabelprinter.com, scopepitch.com, wellifepsychology.com, auditweb.site, knotweedcheck.com, mugscafe.org, petsnerd.com, signforge.org, sitemap.digital, sunnypatel.co.uk, punchfoods.com, shecookssheeats.co.uk, bestchainsaw.uk, implementai.today, lockyourbike.org.uk, reportbolt.com, seo.bargains, catchment.school, merch.observer, signalcheck.org, sunnypatel.co.uk, zoningbase.com, calculator.place, carrecallhq.com, complain.report, fixerror.dev, openknowledgeformat.academy, text.taxi, www.visible-ads.com, agenticai.associates, bookkeepingflow.com, onlybbguns.co.uk, planningleads.org, seo-guildford.uk, waterhard.uk, bestreviews.co.uk, deadhangs.com, gathrd.co.uk, londonweb.design, postcode.page, salarydata.co.uk, aiagentic.news, mobilebarhirelondon.uk, seoreading.uk, theseshbars.com, towerfanreviews.uk, nomadranker.com, bestcordlessdrills.uk, iwholesales.co.uk, snaptaken.com, collinspress.ie, ideeeas.com, noisecheck.uk, carehome.page, geooptimised.com, seo.archi, agenticaisecured.com, dashboardcamreviews.co.uk, drinksbykingpin.com, drugnote.com, piyadesigns.co.uk, qrcode.ink, seo-leeds.uk, supplementcheck.org, aifor.fitness, laundryhome.co.uk, myknifeguide.com, salarycareer.com, selflandlord.com, topsewingmachines.uk, bestturbotrainers.uk, epc.report, seo-birmingham.uk, 100percentvegan.co.uk, formhq.org, heatpumpchecker.co.uk, luxurytrex.com, openknowledgeformat.agency, smmcnj.org, citationgenerator.store, solarhq.uk, thetutor.link, towrating.org, www.mugscafe.org, techloved.com, seoswansea.uk, tradecost.uk, breedhealth.org, hummingbird.agency, londonwebdesign.site, eco-drycleaners.co.uk, aatma-aesthetics.com, e-bikereview.uk, mydigitalpiano.com, app.thetutor.link, 365androidapp.uk.com, bestcordlessdrills.uk, checkamover.com, drivingtestpass.org, mugscafe.org, thebestmowers.co.uk, aifor.property, crosstrainerhome.co.uk, template.how, claimwatt.com, mobileautomechanic.uk, paragondrycleaners.co.uk, stackswitch.co, visible-ads.com, wagearea.com, bestvibrationplates.co.uk, generator.express, huntsmansports.com, kingpin.design, leadscaffold.com, aiautomation.build, areaiq.uk, ownedwork.com, aifor.tech, radon.tips, redlighttherapy.expert, theseshbars.com, www.laundryhome.co.uk",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

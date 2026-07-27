@@ -1,0 +1,15 @@
+{
+  "tool": "get_gsc_performance",
+  "site": "sc-domain:salarycareer.com",
+  "args": {
+    "start_date": "2026-06-29",
+    "end_date": "2026-07-27"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t4\t6792\t0.06\t27.54",
+    "end_date": "2026-07-27",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:salarycareer.com",
+    "start_date": "2026-06-29"
+  }
+}

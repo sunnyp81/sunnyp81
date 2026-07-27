@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:seoreading.uk",
+  "args": {},
+  "data": {
+    "site": "sc-domain:seoreading.uk",
+    "topic_clusters": []
+  }
+}

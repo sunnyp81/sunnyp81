@@ -1,0 +1,120 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:theseshbars.com",
+  "args": {},
+  "data": {
+    "content_groups": [
+      {
+        "filters": [
+          {
+            "expression": "theseshbars.com",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Homepage"
+      },
+      {
+        "filters": [
+          {
+            "expression": "mobile-bar-hire",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Mobile Bar Hire London"
+      },
+      {
+        "filters": [
+          {
+            "expression": "wedding-bar",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Wedding Bar Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "corporate-event-bar|private-event-bar",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Corporate Event Bar Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "choosing-|diy-mobile-bar|dry-hire-mobile-bar|essential-questions|mobile-bar-checklist|maximising-space-mobile-bar|mobile-bar-safety",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Mobile Bar Guide & Tips"
+      },
+      {
+        "filters": [
+          {
+            "expression": "mixologist-|professional-bartender-hire|mobile-bartending",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Bartender & Mixologist Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "chinola-mojito|cinnamon-toast-crunch-shot|gin-and-coke|porn-star-martini|pornstar-martini-mocktail|scooby-snack-shot|slippery-nipple-recipe|the-queens-tipple|tom-hanks-drink|what-is-in-a-purple-rain",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Cocktail Recipes"
+      },
+      {
+        "filters": [
+          {
+            "expression": "chardonnay-taste|gin-vs-vodka|non-alcoholic-spirits|what-is-a-country-club-pour",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Alcohol & Spirits Knowledge"
+      },
+      {
+        "filters": [
+          {
+            "expression": "bar-equipment-list|led-mobile-bar|pop-up-bar-meaning",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Bar Equipment & Setup"
+      },
+      {
+        "filters": [
+          {
+            "expression": "bartenders-uniform|cool-bartender-tricks|mixologist-certification|how-to-make-edible-cocktail-toppers|hold-wine-glass",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Bartending Education"
+      },
+      {
+        "filters": [
+          {
+            "expression": "how-it-works|packages-pricing|book-now|my-account",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Service Information"
+      }
+    ],
+    "site": "sc-domain:theseshbars.com"
+  }
+}

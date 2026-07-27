@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:punchfoods.com",
+  "args": {},
+  "data": {
+    "site": "sc-domain:punchfoods.com",
+    "topic_clusters": []
+  }
+}

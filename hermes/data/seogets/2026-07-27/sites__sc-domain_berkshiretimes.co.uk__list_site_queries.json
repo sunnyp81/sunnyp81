@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:berkshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:berkshiretimes.co.uk\". Available sites: drivingtestpass.org, knotweedcheck.com, mobileautomechanic.uk, seoswansea.uk, clinicaltrialhub.org, fixerror.dev, redlighttherapy.tech, smmcnj.org, areaiq.uk, carrecallhq.com, drugnote.com, aiautomation.build, areaiq.uk, bestvibrationplates.co.uk, hummingbird.agency, solarhq.uk, tradecost.uk, bestchainsaw.uk, bestcordlessdrills.uk, deadhangs.com, sitemap.digital, visible-ads.com, chargefinder.uk, epc.report, myknifeguide.com, petsnerd.com, catchment.school, ideeeas.com, citationgenerator.store, gathrd.co.uk, shecookssheeats.co.uk, www.mugscafe.org, laundryhome.co.uk, mydigitalpiano.com, ownedwork.com, bookkeepingflow.com, breedhealth.org, huntsmansports.com, implementai.today, salarycareer.com, sunnypatel.co.uk, thetutor.link, topsewingmachines.uk, iwholesales.co.uk, leadscaffold.com, reportbolt.com, techloved.com, towerfanreviews.uk, towrating.org, aifor.tech, openknowledgeformat.academy, postcode.page, redlighttherapy.expert, noisecheck.uk, radon.tips, londonweb.design, optimisedwebsite.com, paragondrycleaners.co.uk, punchfoods.com, readingschoolofmartialarts.co.uk, signforge.org, aifor.property, bestreviews.co.uk, e-bikereview.uk, londonwebdesign.site, template.how, aatma-aesthetics.com, text.taxi, 100percentvegan.co.uk, seo.bargains, waterhard.uk, colourlabelprinter.com, mugscafe.org, onlybbguns.co.uk, bestturbotrainers.uk, eco-drycleaners.co.uk, qrcode.ink, seo-guildford.uk, stackswitch.co, app.thetutor.link, carehome.page, drinksbykingpin.com, heatpumpchecker.co.uk, wellifepsychology.com, aiagentic.news, aifor.fitness, mugscafe.org, selflandlord.com, seo.archi, thebestmowers.co.uk, theseshbars.com, nomadranker.com, rentalyield.uk, signalcheck.org, wagearea.com, www.laundryhome.co.uk, auditweb.site, calculator.place, claimwatt.com, snaptaken.com, www.visible-ads.com, complain.report, formhq.org, generator.express, luxurytrex.com, seo-birmingham.uk, 365androidapp.uk.com, agenticai.associates, geooptimised.com, scopepitch.com, supplementcheck.org, agenticaisecured.com, dashboardcamreviews.co.uk, mobilebarhirelondon.uk, piyadesigns.co.uk, planningleads.org, sunnypatel.co.uk, zoningbase.com, bestcordlessdrills.uk, checkamover.com, merch.observer, crosstrainerhome.co.uk, lockyourbike.org.uk, openknowledgeformat.agency, salarydata.co.uk, seoreading.uk, collinspress.ie, seo-leeds.uk, kingpin.design, theseshbars.com",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

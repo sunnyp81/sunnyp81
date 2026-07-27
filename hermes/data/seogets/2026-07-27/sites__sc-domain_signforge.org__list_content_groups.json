@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:signforge.org",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "site": "sc-domain:signforge.org"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:kingpin.design",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "site": "sc-domain:kingpin.design"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:aifor.tech",
+  "args": {},
+  "data": {
+    "site": "sc-domain:aifor.tech",
+    "topic_clusters": []
+  }
+}

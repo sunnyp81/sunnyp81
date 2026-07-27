@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://myknifeguide.com/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "site": "https://myknifeguide.com/"
+  }
+}

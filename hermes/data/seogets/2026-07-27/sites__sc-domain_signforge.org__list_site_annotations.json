@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:signforge.org",
+  "args": {
+    "start_date": "2026-06-29",
+    "end_date": "2026-07-27"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-07-27",
+    "property_id": "sc-domain:signforge.org",
+    "start_date": "2026-06-29"
+  }
+}

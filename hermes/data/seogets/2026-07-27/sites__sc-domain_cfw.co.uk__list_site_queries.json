@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:cfw.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:cfw.co.uk\". Available sites: auditweb.site, bookkeepingflow.com, planningleads.org, stackswitch.co, 100percentvegan.co.uk, postcode.page, thebestmowers.co.uk, huntsmansports.com, seo.archi, sitemap.digital, aifor.property, heatpumpchecker.co.uk, towrating.org, waterhard.uk, selflandlord.com, sunnypatel.co.uk, bestreviews.co.uk, iwholesales.co.uk, leadscaffold.com, bestvibrationplates.co.uk, carrecallhq.com, fixerror.dev, petsnerd.com, e-bikereview.uk, towerfanreviews.uk, agenticai.associates, seo.bargains, shecookssheeats.co.uk, signalcheck.org, collinspress.ie, formhq.org, paragondrycleaners.co.uk, thetutor.link, catchment.school, openknowledgeformat.agency, redlighttherapy.expert, seoswansea.uk, signforge.org, theseshbars.com, chargefinder.uk, checkamover.com, geooptimised.com, nomadranker.com, eco-drycleaners.co.uk, onlybbguns.co.uk, supplementcheck.org, ideeeas.com, knotweedcheck.com, agenticaisecured.com, areaiq.uk, bestcordlessdrills.uk, optimisedwebsite.com, radon.tips, aifor.tech, bestchainsaw.uk, mobilebarhirelondon.uk, areaiq.uk, bestturbotrainers.uk, citationgenerator.store, dashboardcamreviews.co.uk, tradecost.uk, www.mugscafe.org, aifor.fitness, myknifeguide.com, ownedwork.com, qrcode.ink, sunnypatel.co.uk, text.taxi, londonwebdesign.site, openknowledgeformat.academy, punchfoods.com, complain.report, reportbolt.com, snaptaken.com, template.how, calculator.place, drugnote.com, epc.report, salarydata.co.uk, seo-guildford.uk, solarhq.uk, rentalyield.uk, 365androidapp.uk.com, crosstrainerhome.co.uk, deadhangs.com, luxurytrex.com, mydigitalpiano.com, aatma-aesthetics.com, aiautomation.build, generator.express, laundryhome.co.uk, lockyourbike.org.uk, seo-birmingham.uk, smmcnj.org, bestcordlessdrills.uk, drivingtestpass.org, merch.observer, mugscafe.org, noisecheck.uk, theseshbars.com, claimwatt.com, mugscafe.org, salarycareer.com, seo-leeds.uk, techloved.com, wagearea.com, gathrd.co.uk, mobileautomechanic.uk, readingschoolofmartialarts.co.uk, topsewingmachines.uk, implementai.today, londonweb.design, drinksbykingpin.com, hummingbird.agency, visible-ads.com, breedhealth.org, clinicaltrialhub.org, scopepitch.com, wellifepsychology.com, piyadesigns.co.uk, www.visible-ads.com, kingpin.design, seoreading.uk, www.laundryhome.co.uk, aiagentic.news, colourlabelprinter.com, redlighttherapy.tech, zoningbase.com, app.thetutor.link, carehome.page",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

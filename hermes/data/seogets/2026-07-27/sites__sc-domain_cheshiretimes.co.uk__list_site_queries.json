@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:cheshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:cheshiretimes.co.uk\". Available sites: sitemap.digital, theseshbars.com, waterhard.uk, auditweb.site, londonwebdesign.site, mugscafe.org, ownedwork.com, sunnypatel.co.uk, towerfanreviews.uk, checkamover.com, bestturbotrainers.uk, colourlabelprinter.com, postcode.page, aifor.fitness, mobileautomechanic.uk, nomadranker.com, generator.express, huntsmansports.com, onlybbguns.co.uk, seo.bargains, topsewingmachines.uk, bestreviews.co.uk, complain.report, lockyourbike.org.uk, mugscafe.org, selflandlord.com, areaiq.uk, drinksbykingpin.com, smmcnj.org, aatma-aesthetics.com, app.thetutor.link, formhq.org, knotweedcheck.com, towrating.org, www.laundryhome.co.uk, dashboardcamreviews.co.uk, fixerror.dev, planningleads.org, scopepitch.com, shecookssheeats.co.uk, signforge.org, kingpin.design, bestvibrationplates.co.uk, bookkeepingflow.com, merch.observer, mobilebarhirelondon.uk, radon.tips, theseshbars.com, catchment.school, qrcode.ink, wellifepsychology.com, redlighttherapy.tech, stackswitch.co, thebestmowers.co.uk, thetutor.link, chargefinder.uk, openknowledgeformat.academy, bestcordlessdrills.uk, drugnote.com, ideeeas.com, paragondrycleaners.co.uk, aifor.tech, carrecallhq.com, seoswansea.uk, techloved.com, agenticaisecured.com, bestchainsaw.uk, optimisedwebsite.com, signalcheck.org, supplementcheck.org, tradecost.uk, eco-drycleaners.co.uk, aifor.property, text.taxi, wagearea.com, collinspress.ie, petsnerd.com, punchfoods.com, seoreading.uk, deadhangs.com, drivingtestpass.org, implementai.today, laundryhome.co.uk, piyadesigns.co.uk, zoningbase.com, agenticai.associates, citationgenerator.store, e-bikereview.uk, luxurytrex.com, seo-leeds.uk, aiagentic.news, seo-guildford.uk, solarhq.uk, www.mugscafe.org, epc.report, geooptimised.com, rentalyield.uk, visible-ads.com, claimwatt.com, 100percentvegan.co.uk, bestcordlessdrills.uk, londonweb.design, readingschoolofmartialarts.co.uk, breedhealth.org, carehome.page, leadscaffold.com, salarydata.co.uk, aiautomation.build, clinicaltrialhub.org, openknowledgeformat.agency, salarycareer.com, www.visible-ads.com, areaiq.uk, calculator.place, gathrd.co.uk, hummingbird.agency, iwholesales.co.uk, seo-birmingham.uk, snaptaken.com, template.how, mydigitalpiano.com, myknifeguide.com, noisecheck.uk, redlighttherapy.expert, reportbolt.com, seo.archi, sunnypatel.co.uk, 365androidapp.uk.com, heatpumpchecker.co.uk, crosstrainerhome.co.uk",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

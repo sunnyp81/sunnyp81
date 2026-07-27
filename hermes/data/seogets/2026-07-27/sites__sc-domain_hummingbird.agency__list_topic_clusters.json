@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:hummingbird.agency",
+  "args": {},
+  "data": {
+    "site": "sc-domain:hummingbird.agency",
+    "topic_clusters": []
+  }
+}

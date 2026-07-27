@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:dermatologists.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:dermatologists.london\". Available sites: bookkeepingflow.com, shecookssheeats.co.uk, heatpumpchecker.co.uk, radon.tips, towerfanreviews.uk, waterhard.uk, crosstrainerhome.co.uk, hummingbird.agency, mobileautomechanic.uk, optimisedwebsite.com, towrating.org, knotweedcheck.com, 100percentvegan.co.uk, carrecallhq.com, collinspress.ie, londonweb.design, mobilebarhirelondon.uk, mugscafe.org, planningleads.org, agenticaisecured.com, lockyourbike.org.uk, reportbolt.com, signalcheck.org, thebestmowers.co.uk, chargefinder.uk, aifor.tech, bestchainsaw.uk, breedhealth.org, carehome.page, claimwatt.com, formhq.org, template.how, areaiq.uk, punchfoods.com, topsewingmachines.uk, zoningbase.com, clinicaltrialhub.org, iwholesales.co.uk, theseshbars.com, readingschoolofmartialarts.co.uk, scopepitch.com, signforge.org, wagearea.com, aiagentic.news, bestcordlessdrills.uk, checkamover.com, citationgenerator.store, complain.report, redlighttherapy.tech, salarycareer.com, www.mugscafe.org, bestvibrationplates.co.uk, dashboardcamreviews.co.uk, areaiq.uk, e-bikereview.uk, openknowledgeformat.academy, qrcode.ink, solarhq.uk, leadscaffold.com, londonwebdesign.site, www.visible-ads.com, calculator.place, huntsmansports.com, mugscafe.org, rentalyield.uk, drugnote.com, mydigitalpiano.com, redlighttherapy.expert, seoreading.uk, sitemap.digital, sunnypatel.co.uk, aifor.fitness, generator.express, openknowledgeformat.agency, selflandlord.com, agenticai.associates, bestturbotrainers.uk, deadhangs.com, drinksbykingpin.com, implementai.today, paragondrycleaners.co.uk, epc.report, petsnerd.com, gathrd.co.uk, tradecost.uk, wellifepsychology.com, catchment.school, 365androidapp.uk.com, laundryhome.co.uk, noisecheck.uk, supplementcheck.org, drivingtestpass.org, kingpin.design, text.taxi, theseshbars.com, aatma-aesthetics.com, aiautomation.build, geooptimised.com, nomadranker.com, salarydata.co.uk, techloved.com, www.laundryhome.co.uk, app.thetutor.link, eco-drycleaners.co.uk, postcode.page, seo.bargains, visible-ads.com, bestreviews.co.uk, onlybbguns.co.uk, piyadesigns.co.uk, seo.archi, bestcordlessdrills.uk, seo-guildford.uk, aifor.property, luxurytrex.com, merch.observer, smmcnj.org, stackswitch.co, seo-leeds.uk, sunnypatel.co.uk, auditweb.site, seo-birmingham.uk, snaptaken.com, colourlabelprinter.com, fixerror.dev, ideeeas.com, myknifeguide.com, ownedwork.com, seoswansea.uk, thetutor.link",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:faithfulsage.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:faithfulsage.com\". Available sites: agenticaisecured.com, bestcordlessdrills.uk, claimwatt.com, generator.express, knotweedcheck.com, mugscafe.org, sitemap.digital, visible-ads.com, formhq.org, implementai.today, reportbolt.com, thebestmowers.co.uk, aiautomation.build, clinicaltrialhub.org, seo.archi, zoningbase.com, breedhealth.org, carehome.page, crosstrainerhome.co.uk, dashboardcamreviews.co.uk, aifor.fitness, aifor.tech, bestvibrationplates.co.uk, geooptimised.com, nomadranker.com, smmcnj.org, areaiq.uk, bestturbotrainers.uk, bookkeepingflow.com, openknowledgeformat.academy, qrcode.ink, rentalyield.uk, scopepitch.com, seo-leeds.uk, aiagentic.news, bestreviews.co.uk, mydigitalpiano.com, snaptaken.com, techloved.com, citationgenerator.store, huntsmansports.com, openknowledgeformat.agency, 100percentvegan.co.uk, app.thetutor.link, calculator.place, ideeeas.com, paragondrycleaners.co.uk, www.laundryhome.co.uk, areaiq.uk, carrecallhq.com, catchment.school, collinspress.ie, merch.observer, salarydata.co.uk, sunnypatel.co.uk, seo-guildford.uk, wagearea.com, gathrd.co.uk, petsnerd.com, postcode.page, shecookssheeats.co.uk, drinksbykingpin.com, heatpumpchecker.co.uk, lockyourbike.org.uk, londonweb.design, piyadesigns.co.uk, topsewingmachines.uk, www.mugscafe.org, redlighttherapy.tech, signforge.org, seo-birmingham.uk, sunnypatel.co.uk, thetutor.link, bestcordlessdrills.uk, complain.report, londonwebdesign.site, mugscafe.org, epc.report, planningleads.org, supplementcheck.org, tradecost.uk, chargefinder.uk, colourlabelprinter.com, readingschoolofmartialarts.co.uk, stackswitch.co, selflandlord.com, waterhard.uk, aifor.property, leadscaffold.com, redlighttherapy.expert, salarycareer.com, seo.bargains, fixerror.dev, noisecheck.uk, punchfoods.com, radon.tips, bestchainsaw.uk, optimisedwebsite.com, seoreading.uk, signalcheck.org, theseshbars.com, theseshbars.com, drivingtestpass.org, seoswansea.uk, text.taxi, www.visible-ads.com, laundryhome.co.uk, mobilebarhirelondon.uk, template.how, towerfanreviews.uk, towrating.org, hummingbird.agency, 365androidapp.uk.com, aatma-aesthetics.com, deadhangs.com, drugnote.com, luxurytrex.com, mobileautomechanic.uk, myknifeguide.com, iwholesales.co.uk, kingpin.design, checkamover.com, e-bikereview.uk, agenticai.associates, auditweb.site, onlybbguns.co.uk, eco-drycleaners.co.uk, ownedwork.com, solarhq.uk, wellifepsychology.com",
+    "page": 0,
+    "page_size": 0
+  }
+}

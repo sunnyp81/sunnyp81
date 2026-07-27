@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:bestreviews.co.uk",
+  "args": {},
+  "data": {
+    "site": "sc-domain:bestreviews.co.uk",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:snaptaken.com",
+  "args": {},
+  "data": {
+    "site": "sc-domain:snaptaken.com",
+    "topic_clusters": []
+  }
+}

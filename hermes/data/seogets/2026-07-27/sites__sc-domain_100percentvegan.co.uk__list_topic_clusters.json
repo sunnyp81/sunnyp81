@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:100percentvegan.co.uk",
+  "args": {},
+  "data": {
+    "site": "sc-domain:100percentvegan.co.uk",
+    "topic_clusters": []
+  }
+}

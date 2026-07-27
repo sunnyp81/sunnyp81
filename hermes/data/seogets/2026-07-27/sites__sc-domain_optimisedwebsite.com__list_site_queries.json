@@ -1,0 +1,32 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:optimisedwebsite.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 16 queries from 2025-03-27 to 2026-07-26.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "best seo small business website",
+      "best seo website for small business",
+      "best seo websites for small business",
+      "best site builder for seo",
+      "best website builder for seo",
+      "best website builder seo",
+      "best website platform for seo",
+      "optimised webpage",
+      "optimised website",
+      "optimised websites",
+      "pre built website",
+      "seo for small business websites",
+      "seo optimised website builder",
+      "seo small business website",
+      "seo website builder",
+      "website builder seo"
+    ]
+  }
+}

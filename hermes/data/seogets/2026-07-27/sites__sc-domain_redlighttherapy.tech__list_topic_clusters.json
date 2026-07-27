@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:redlighttherapy.tech",
+  "args": {},
+  "data": {
+    "site": "sc-domain:redlighttherapy.tech",
+    "topic_clusters": []
+  }
+}

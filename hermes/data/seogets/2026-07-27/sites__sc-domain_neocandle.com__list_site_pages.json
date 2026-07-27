@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:neocandle.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:neocandle.com\". Available sites: deadhangs.com, seo-birmingham.uk, seo.archi, signalcheck.org, app.thetutor.link, areaiq.uk, seoreading.uk, www.laundryhome.co.uk, agenticai.associates, areaiq.uk, bestturbotrainers.uk, geooptimised.com, leadscaffold.com, rentalyield.uk, catchment.school, heatpumpchecker.co.uk, iwholesales.co.uk, luxurytrex.com, sunnypatel.co.uk, bestchainsaw.uk, salarycareer.com, tradecost.uk, smmcnj.org, sunnypatel.co.uk, 100percentvegan.co.uk, breedhealth.org, colourlabelprinter.com, redlighttherapy.tech, signforge.org, 365androidapp.uk.com, huntsmansports.com, mydigitalpiano.com, nomadranker.com, wagearea.com, carrecallhq.com, e-bikereview.uk, eco-drycleaners.co.uk, kingpin.design, agenticaisecured.com, crosstrainerhome.co.uk, epc.report, optimisedwebsite.com, stackswitch.co, aiautomation.build, bestreviews.co.uk, collinspress.ie, readingschoolofmartialarts.co.uk, redlighttherapy.expert, seo-leeds.uk, thebestmowers.co.uk, claimwatt.com, implementai.today, knotweedcheck.com, mobileautomechanic.uk, mugscafe.org, myknifeguide.com, checkamover.com, dashboardcamreviews.co.uk, petsnerd.com, bestcordlessdrills.uk, complain.report, noisecheck.uk, aiagentic.news, aifor.tech, gathrd.co.uk, laundryhome.co.uk, aifor.fitness, generator.express, seo-guildford.uk, topsewingmachines.uk, visible-ads.com, drivingtestpass.org, snaptaken.com, www.visible-ads.com, techloved.com, carehome.page, ideeeas.com, reportbolt.com, waterhard.uk, wellifepsychology.com, zoningbase.com, openknowledgeformat.agency, postcode.page, salarydata.co.uk, theseshbars.com, onlybbguns.co.uk, planningleads.org, seo.bargains, towrating.org, calculator.place, radon.tips, scopepitch.com, aatma-aesthetics.com, formhq.org, londonweb.design, selflandlord.com, solarhq.uk, template.how, bookkeepingflow.com, drinksbykingpin.com, thetutor.link, auditweb.site, chargefinder.uk, londonwebdesign.site, punchfoods.com, lockyourbike.org.uk, mobilebarhirelondon.uk, openknowledgeformat.academy, paragondrycleaners.co.uk, citationgenerator.store, hummingbird.agency, piyadesigns.co.uk, ownedwork.com, qrcode.ink, seoswansea.uk, aifor.property, bestvibrationplates.co.uk, mugscafe.org, merch.observer, shecookssheeats.co.uk, supplementcheck.org, text.taxi, bestcordlessdrills.uk, clinicaltrialhub.org, drugnote.com, fixerror.dev, sitemap.digital, theseshbars.com, towerfanreviews.uk, www.mugscafe.org",
+    "page": 0,
+    "page_size": 0
+  }
+}

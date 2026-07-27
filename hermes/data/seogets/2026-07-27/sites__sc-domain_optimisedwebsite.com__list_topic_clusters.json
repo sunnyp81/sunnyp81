@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:optimisedwebsite.com",
+  "args": {},
+  "data": {
+    "site": "sc-domain:optimisedwebsite.com",
+    "topic_clusters": []
+  }
+}
