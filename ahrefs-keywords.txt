@@ -1,0 +1,292 @@
+# Block 1: head terms (Keywords Explorer, UK)
+blocked drains
+drain unblocking
+cctv drain survey
+drain lining
+emergency plumber
+boiler installation
+new boiler cost
+boiler replacement
+boiler repair
+emergency locksmith
+locksmith near me
+emergency electrician
+pest control
+wasp nest removal
+rat control
+emergency glazier
+boarding up service
+roof repairs
+emergency roof repair
+water leak detection
+leak detection
+water damage restoration
+flood damage repair
+car recovery
+resin driveway
+resin driveway cost
+block paving
+driveway installation
+loft conversion
+loft conversion cost
+house extension
+garden room
+garden office
+double glazing
+new windows cost
+bathroom fitters
+bathroom installation
+kitchen fitters
+kitchen respray
+landscaping
+landscape gardeners
+garden design
+artificial grass installation
+tree surgeon
+tree removal
+tree felling
+stump grinding
+driveway cleaning
+patio cleaning
+swimming pool installation
+swimming pool maintenance
+ev charger installation
+air source heat pump
+heat pump installation
+solar panel installation
+solar panels cost
+battery storage installation
+air conditioning installation
+home air conditioning
+underfloor heating installation
+house rendering
+external wall insulation
+flat roof replacement
+grp roofing
+roof replacement cost
+roof lantern
+skylight installation
+damp proofing
+damp survey
+woodworm treatment
+basement tanking
+basement conversion
+electric gates
+driveway gates
+gate automation
+cctv installation
+burglar alarm installation
+chimney repair
+chimney repointing
+chimney sweep
+gutter repair
+fascias and soffits
+skip hire
+skip hire prices
+waste removal
+rubbish removal
+house clearance
+probate house clearance
+scaffolding hire
+asbestos removal
+asbestos survey
+japanese knotweed removal
+epc certificate
+gas safety certificate
+eicr certificate
+end of tenancy cleaning
+carpet cleaning
+gutter cleaning
+pressure washing
+roof cleaning
+roof moss removal
+removals
+man and van
+septic tank emptying
+septic tank installation
+sewage treatment plant installation
+oil tank replacement
+water softener installation
+bird proofing
+solar panel bird proofing
+pigeon proofing
+mobile tyre fitting
+windscreen replacement
+windscreen repair
+alloy wheel refurbishment
+mobile dent repair
+scrap my car
+sell my car
+clutch replacement
+gearbox repair
+mobile mechanic
+mobile car valeting
+ceramic coating
+motorhome repairs
+commercial cleaning
+office cleaning services
+commercial waste collection
+business waste collection
+washroom services
+sanitary bin collection
+grounds maintenance
+gritting services
+snow clearance
+commercial window cleaning
+kitchen extract cleaning
+tr19 cleaning
+duct cleaning
+legionella risk assessment
+water hygiene services
+fire risk assessment
+fire door inspection
+fire extinguisher servicing
+emergency lighting testing
+pat testing
+fixed wire testing
+tm44 inspection
+lev testing
+loler inspection
+racking inspection
+pallet racking installation
+lightning protection testing
+dry riser testing
+sprinkler system servicing
+commercial epc
+asbestos management survey
+roller shutter repair
+shop shutter repair
+dock leveller repair
+commercial roofing
+industrial roofing contractors
+resin flooring
+epoxy floor coating
+industrial flooring
+mezzanine floor
+automatic door repair
+suspended ceilings
+office partitioning
+security fencing
+palisade fencing
+steel fabrication
+demolition contractors
+strip out contractors
+commercial solar panels
+solar panels for business
+generator installation
+generator maintenance
+ups maintenance
+commercial boiler service
+commercial refrigeration repair
+catering equipment repair
+commercial kitchen installation
+walk in fridge repair
+led lighting installation
+workplace ev charging
+data cabling
+network cabling
+commercial air conditioning
+air conditioning maintenance
+grab hire
+grab lorry hire
+muck away
+ready mix concrete
+volumetric concrete
+concrete delivery
+portable toilet hire
+toilet hire
+plant hire
+digger hire
+mini digger hire
+cherry picker hire
+scissor lift hire
+access platform hire
+crane hire
+forklift hire
+forklift servicing
+welfare unit hire
+storage container hire
+same day courier
+machinery moving
+hgv repairs
+trailer repair
+tail lift repair
+fleet maintenance
+fuel delivery service
+red diesel delivery
+aggregates delivery
+topsoil delivery
+business water rates
+compare business water
+business broadband
+leased line
+voip phone system
+business phone systems
+it support
+managed it services
+it support for small business
+photocopier lease
+card machine for small business
+merchant services
+office fit out
+office refurbishment
+office removals
+it recycling
+weee disposal
+confidential shredding
+key holding services
+vacant property security
+graffiti removal
+render cleaning
+bird netting installation
+office plant hire
+grease trap cleaning
+beer line cleaning
+
+# Block 2: geo sample (shortlist x top towns)
+blocked drains reading
+blocked drains guildford
+blocked drains slough
+blocked drains woking
+boiler installation reading
+boiler installation guildford
+boiler installation camberley
+tree surgeon guildford
+tree surgeon woking
+tree surgeon farnham
+tree surgeon reading
+resin driveway surrey
+resin driveway berkshire
+skip hire reading
+skip hire guildford
+skip hire bracknell
+skip hire woking
+air conditioning installation reading
+air conditioning installation guildford
+electric gates surrey
+japanese knotweed removal surrey
+leak detection surrey
+leak detection berkshire
+septic tank emptying surrey
+commercial waste collection slough
+commercial waste collection reading
+kitchen extract cleaning london
+legionella risk assessment reading
+legionella risk assessment slough
+fire door inspection london
+roller shutter repair slough
+roller shutter repair reading
+commercial refrigeration repair reading
+it support reading
+it support guildford
+it support woking
+commercial solar panels uk
+grab hire surrey
+grab hire berkshire
+concrete delivery reading
+business water switching
+water softener installation surrey
+water softener installation berkshire
+
+# Matching-terms Include filter (comma list):
+# reading, slough, guildford, woking, camberley, farnham, bracknell, maidenhead, windsor, newbury, wokingham, epsom, staines, weybridge, esher, leatherhead, redhill, reigate, dorking, godalming, ascot, egham, surrey, berkshire
