@@ -1,1 +1,1 @@
-triggered 2026-07-27T07:48:05Z (full run: GSC+GA4 both accounts, custom client)
+triggered 2026-07-27T08:16:27Z (fix: GSC scope mismatch + step isolation)

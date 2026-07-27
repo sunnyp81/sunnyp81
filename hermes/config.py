@@ -33,7 +33,13 @@ ACCOUNTS: list[Account] = [
     Account(key="sunnypat81", email="sunnypat81@gmail.com"),
 ]
 
-GSC_SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
+# Must match what the refresh tokens were actually granted, exactly —
+# Google's token endpoint rejects a refresh request whose "scope" isn't
+# what that token was issued for, even a narrower one (e.g. requesting
+# .readonly against a token minted with the broader, unsuffixed scope
+# fails with invalid_scope). Both harvested GSC tokens were minted via
+# seed_oauth.py / the desktop MCP with the full (non-readonly) scope.
+GSC_SCOPES = ["https://www.googleapis.com/auth/webmasters"]
 GA4_SCOPES = ["https://www.googleapis.com/auth/analytics.readonly"]
 
 
