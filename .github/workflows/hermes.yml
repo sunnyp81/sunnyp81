@@ -4,6 +4,11 @@ on:
   schedule:
     # 04:30 UTC daily. Sequential run: SEO Gets -> GSC -> GA4 -> Bing.
     - cron: '30 4 * * *'
+  push:
+    # Touch hermes/.trigger to fire a run from environments that can
+    # push but can't call the workflow-dispatch API.
+    paths:
+      - 'hermes/.trigger'
   workflow_dispatch:
     inputs:
       puller:
