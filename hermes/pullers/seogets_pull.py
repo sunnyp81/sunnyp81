@@ -83,6 +83,21 @@ def _date_fill(name: str, prop: dict[str, Any], days: int) -> Any | None:
     return None
 
 
+def _misc_fill(name: str, prop: dict[str, Any]) -> Any | None:
+    """Safe default for pagination/filter params some servers mark required."""
+    n = name.lower()
+    t = prop.get("type")
+    if n == "page" and t in ("integer", "number"):
+        return 1
+    if n in ("page_size", "pagesize", "per_page", "page_limit"):
+        return 1000
+    if n in ("crawled_days_ago",):
+        return 0
+    if t == "array":
+        return []
+    return None
+
+
 def _plan_args(tool: dict[str, Any], days: int) -> tuple[str | None, dict[str, Any], bool]:
     """(site_param_name, prefilled_args, fully_fillable) for one tool."""
     required, props = _required_params(tool)
@@ -92,7 +107,10 @@ def _plan_args(tool: dict[str, Any], days: int) -> tuple[str | None, dict[str, A
         if site_param is None and SITE_PARAM_RE.match(name):
             site_param = name
             continue
-        val = _date_fill(name, props.get(name) or {}, days)
+        prop = props.get(name) or {}
+        val = _date_fill(name, prop, days)
+        if val is None:
+            val = _misc_fill(name, prop)
         if val is None:
             return site_param, args, False
         args[name] = val
