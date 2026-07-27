@@ -41,13 +41,20 @@ def build_service(account: Account, service: str, api_name: str, api_version: st
         if not refresh_token:
             raise RuntimeError(f"{env_name} env var not set")
 
+        # No `scopes` on purpose: declaring them makes Google's token
+        # endpoint reject the refresh with invalid_scope unless they
+        # exactly match what the token was granted — and these tokens
+        # are harvested from desktop MCPs / gcloud ADC / seed runs with
+        # granular consent, so grants vary. Omitting scope refreshes
+        # with whatever the token actually holds; a genuinely missing
+        # permission then surfaces as a per-call 403 instead of killing
+        # the whole account up front.
         creds = Credentials(
             token=None,
             refresh_token=refresh_token,
             client_id=client_id,
             client_secret=client_secret,
             token_uri="https://oauth2.googleapis.com/token",
-            scopes=scopes,
         )
         creds.refresh(GoogleRequest())
         svc = build(api_name, api_version, credentials=creds, cache_discovery=False)

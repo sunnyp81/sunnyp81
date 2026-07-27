@@ -98,7 +98,7 @@ def main() -> None:
         try:
             svc = _svc(account)
             sites = svc.sites().list().execute().get("siteEntry", [])
-        except HttpError as e:
+        except Exception as e:  # bad/expired token must not kill other accounts
             log("gsc_list_sites_error", account=account.key, error=str(e))
             summary["accounts"][account.key] = {"error": str(e)}
             continue

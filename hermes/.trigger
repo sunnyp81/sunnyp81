@@ -1,1 +1,1 @@
-triggered 2026-07-27T08:16:27Z (fix: GSC scope mismatch + step isolation)
+triggered 2026-07-27T13:49:45Z (fix: scope-free refresh + per-account isolation)

@@ -95,7 +95,7 @@ def main() -> None:
             summaries = (
                 admin.accountSummaries().list().execute().get("accountSummaries", [])
             )
-        except HttpError as e:
+        except Exception as e:  # bad/expired token must not kill other accounts
             log("ga4_list_accounts_error", account=account.key, error=str(e))
             summary["accounts"][account.key] = {"error": str(e)}
             continue
