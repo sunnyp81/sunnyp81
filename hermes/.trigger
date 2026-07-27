@@ -1,1 +1,1 @@
-triggered 2026-07-27T07:45:31Z (per-account Google OAuth client override)
+triggered 2026-07-27T07:48:05Z (full run: GSC+GA4 both accounts, custom client)
