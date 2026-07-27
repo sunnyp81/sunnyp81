@@ -416,15 +416,6 @@
       "rows_quota": 1
     },
     {
-      "site": "https://londonorthotics.co.uk/",
-      "rows_page_stats": 692,
-      "rows_query_stats": 2132,
-      "rows_crawl_issues": 450,
-      "rows_crawl_stats": 155,
-      "rows_rank_traffic": 155,
-      "rows_quota": 1
-    },
-    {
       "site": "https://londonweb.design/",
       "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flondonweb.design%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
       "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flondonweb.design%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
@@ -848,6 +839,6 @@
       "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwww.chessforjuniors.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
     }
   ],
-  "site_count": 94,
-  "total_crawl_issues": 2238
+  "site_count": 93,
+  "total_crawl_issues": 1788
 }
