@@ -33,6 +33,7 @@ import httpx
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from config import is_blacklisted
 from shared.logging import die, log
 from shared.mcp_client import McpError, McpHttpClient
 from shared.paths import snapshot_path, summary_path, today_utc
@@ -192,9 +193,12 @@ def main() -> None:
         _harvest_sites(data, sites)
         log("seogets_global_tool", tool=name)
 
-    site_list = list(sites)[:MAX_SITES]
-    if len(sites) > MAX_SITES:
-        log("seogets_sites_capped", found=len(sites), kept=MAX_SITES)
+    skipped = [s for s in sites if is_blacklisted(s)]
+    for s in skipped:
+        log("seogets_skip_blacklisted", site=s)
+    site_list = [s for s in sites if not is_blacklisted(s)][:MAX_SITES]
+    if len(sites) - len(skipped) > MAX_SITES:
+        log("seogets_sites_capped", found=len(sites) - len(skipped), kept=MAX_SITES)
     summary["sites"] = site_list
     log("seogets_sites", count=len(site_list))
 

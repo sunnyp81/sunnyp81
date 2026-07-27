@@ -105,6 +105,9 @@ jobs:
       - name: Commit snapshots
         run: |
           set -e
+          # Move fresh pulls aside first: checkout would refuse to overwrite
+          # untracked hermes/data files that already exist on the branch.
+          mv hermes/data /tmp/hermes-data-new
           git config user.name  "hermes-bot"
           git config user.email "hermes-bot@users.noreply.github.com"
           git fetch origin hermes-snapshots || true
@@ -116,6 +119,8 @@ jobs:
             echo "# hermes-snapshots" > README.md
             echo "Daily SEO Gets + GSC + GA4 + Bing snapshots from .github/workflows/hermes.yml." >> README.md
           fi
+          mkdir -p hermes/data
+          cp -a /tmp/hermes-data-new/. hermes/data/
           git add -f hermes/data
           if git diff --cached --quiet; then
             echo "No new data — nothing to commit."

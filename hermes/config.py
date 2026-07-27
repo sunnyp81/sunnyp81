@@ -14,6 +14,7 @@ Naming convention:
 from __future__ import annotations
 
 import os
+import re
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -57,3 +58,18 @@ def google_client_env(service: str = "") -> tuple[str, str]:
 
 
 BING_API_KEY = os.environ.get("BING_API_KEY", "")
+
+# Sites every puller must skip — client properties that appear in shared
+# accounts but aren't part of the portfolio (e.g. Figment clients).
+BLACKLIST = {
+    "londonorthotics.co.uk",
+}
+
+
+def is_blacklisted(site: str) -> bool:
+    """Match a site against BLACKLIST regardless of scheme/www/sc-domain form."""
+    s = re.sub(r"^(sc-domain:|https?://)", "", site.strip().lower())
+    s = s.split("/")[0]
+    if s.startswith("www."):
+        s = s[4:]
+    return s in BLACKLIST
