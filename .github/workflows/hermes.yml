@@ -28,6 +28,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: hermes-${{ github.event.inputs.puller || 'all' }}
@@ -118,6 +119,9 @@ jobs:
         if: always()
         run: |
           set -e
+          # digest.py must survive the branch switch below (the snapshots
+          # branch carries data only, no code) — stash a copy first.
+          cp hermes/digest.py /tmp/hermes-digest.py
           # Move fresh pulls aside first: checkout would refuse to overwrite
           # untracked hermes/data files that already exist on the branch.
           # A puller can die before writing anything (e.g. bad creds on
@@ -136,12 +140,35 @@ jobs:
           fi
           mkdir -p hermes/data
           cp -a /tmp/hermes-data-new/. hermes/data/
+          # Now the tree has full history + today's pulls: build the
+          # digest + trend rollups so they ride in the same commit.
+          python3 /tmp/hermes-digest.py --data hermes/data || echo "::warning::digest failed, committing raw data anyway"
           git add -f hermes/data
           if git diff --cached --quiet; then
             echo "No new data — nothing to commit."
           else
             git commit -m "hermes snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push origin hermes-snapshots
+          fi
+
+      - name: Open alert issue if digest tripped
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          latest=$(ls hermes/data/digest/*.json 2>/dev/null | sort | tail -1)
+          if [ -z "$latest" ]; then echo "no digest yet"; exit 0; fi
+          day=$(basename "$latest" .json)
+          count=$(python3 -c "import json; print(len(json.load(open('$latest'))['alerts']))")
+          if [ "$count" -eq 0 ]; then echo "no alerts for $day"; exit 0; fi
+          title="hermes alerts $day"
+          existing=$(gh issue list --repo "${{ github.repository }}" --state open --search "\"$title\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            echo "issue #$existing already open for $day, skipping"
+          else
+            gh issue create --repo "${{ github.repository }}" \
+              --title "$title ($count alert$([ "$count" -gt 1 ] && echo s))" \
+              --body-file "hermes/data/digest/$day.md"
           fi
 
       - name: Fail job if any puller errored

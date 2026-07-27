@@ -1,1 +1,1 @@
-triggered 2026-07-27T13:49:45Z (fix: scope-free refresh + per-account isolation)
+triggered 2026-07-27T13:54:56Z (digest + trends + alert issues)
