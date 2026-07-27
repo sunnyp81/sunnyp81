@@ -1,1 +1,1 @@
-triggered 2026-07-27T06:12:19Z (rerun: blacklist + commit-step fix)
+triggered 2026-07-27T06:20:37Z (fix: harvest all 130 SEO Gets sites)

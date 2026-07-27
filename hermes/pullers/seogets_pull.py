@@ -41,11 +41,13 @@ from shared.paths import snapshot_path, summary_path, today_utc
 DEFAULT_URL = "https://app.seogets.com/mcp"
 
 SITE_PARAM_RE = re.compile(r"^(site|domain|property|website|host)(_?url|_?id|name)?$", re.I)
-SITE_KEY_RE = re.compile(r"^(site|domain|property|website|host|siteUrl|url)$", re.I)
-DOMAIN_RE = re.compile(r"^(?:https?://)?[a-z0-9][a-z0-9.-]*\.[a-z]{2,}(?:/.*)?$", re.I)
+# SEO Gets' own list_sites keys each entry's identifier as plain "id".
+SITE_KEY_RE = re.compile(r"^(site|domain|property|website|host|siteUrl|url|id)$", re.I)
+# GSC domain-properties come back as "sc-domain:example.com", not a URL shape.
+DOMAIN_RE = re.compile(r"^(?:https?://|sc-domain:)?[a-z0-9][a-z0-9.-]*\.[a-z]{2,}(?:/.*)?$", re.I)
 
-MAX_SITES = 100
-MAX_CALLS = 400
+MAX_SITES = 250
+MAX_CALLS = 2000
 
 
 def _write(service_args: tuple[str, str, str, str], day: str, payload: Any) -> Path:

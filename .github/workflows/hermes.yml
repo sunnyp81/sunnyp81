@@ -36,7 +36,7 @@ concurrency:
 jobs:
   pull:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     # 'all' runs whatever has credentials and skips the rest, so the
     # workflow is green from day one with just SEOGETS_API_KEY + BING_API_KEY.
     # Naming a puller explicitly always runs it (and fails loudly if
