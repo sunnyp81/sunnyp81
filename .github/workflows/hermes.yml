@@ -78,6 +78,8 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
           GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_CLIENT_ID_SUNNYPAT81: ${{ secrets.GSC_CLIENT_ID_SUNNYPAT81 }}
+          GSC_CLIENT_SECRET_SUNNYPAT81: ${{ secrets.GSC_CLIENT_SECRET_SUNNYPAT81 }}
           GSC_REFRESH_TOKEN_2012INFINITE: ${{ secrets.GSC_REFRESH_TOKEN_2012INFINITE }}
           GSC_REFRESH_TOKEN_SUNNYPAT81: ${{ secrets.GSC_REFRESH_TOKEN_SUNNYPAT81 }}
         working-directory: hermes
@@ -90,6 +92,8 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GA4_CLIENT_ID: ${{ secrets.GA4_CLIENT_ID }}
           GA4_CLIENT_SECRET: ${{ secrets.GA4_CLIENT_SECRET }}
+          GA4_CLIENT_ID_SUNNYPAT81: ${{ secrets.GA4_CLIENT_ID_SUNNYPAT81 }}
+          GA4_CLIENT_SECRET_SUNNYPAT81: ${{ secrets.GA4_CLIENT_SECRET_SUNNYPAT81 }}
           GA4_REFRESH_TOKEN_2012INFINITE: ${{ secrets.GA4_REFRESH_TOKEN_2012INFINITE }}
           GA4_REFRESH_TOKEN_SUNNYPAT81: ${{ secrets.GA4_REFRESH_TOKEN_SUNNYPAT81 }}
         working-directory: hermes

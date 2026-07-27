@@ -29,10 +29,11 @@ def build_service(account: Account, service: str, api_name: str, api_version: st
         if cached and cached[1] > now:
             return cached[0]
 
-        client_id, client_secret = google_client_env(service)
+        client_id, client_secret = google_client_env(service, account.key)
         if not (client_id and client_secret):
             raise RuntimeError(
-                f"{service.upper()}_CLIENT_ID/SECRET or GOOGLE_CLIENT_ID/SECRET must be set"
+                f"{service.upper()}_CLIENT_ID/SECRET (optionally _{account.key.upper()}) "
+                "or GOOGLE_CLIENT_ID/SECRET must be set"
             )
 
         env_name = refresh_token_env_name(service, account)

@@ -42,11 +42,24 @@ def refresh_token_env_name(service: str, account: Account) -> str:
     return f"{service.upper()}_REFRESH_TOKEN_{account.key.upper()}"
 
 
-def google_client_env(service: str = "") -> tuple[str, str]:
-    """OAuth client for a service. `GSC_CLIENT_ID`/`GA4_CLIENT_ID` (etc.)
-    win over the shared `GOOGLE_CLIENT_ID` — tokens harvested from two
-    different desktop MCP installs came from two different OAuth clients.
+def google_client_env(service: str = "", account_key: str = "") -> tuple[str, str]:
+    """OAuth client for a (service, account) pair, most specific wins:
+
+      1. `{SERVICE}_CLIENT_ID_{ACCOUNT}` / `..._SECRET_{ACCOUNT}` — a refresh
+         token minted by a client unique to that one account+service.
+      2. `{SERVICE}_CLIENT_ID` / `..._SECRET` — shared across accounts for
+         one service.
+      3. `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` — shared across everything.
+
+    A refresh token can only be redeemed by the exact client that minted
+    it, and desktop MCP installs + ad-hoc seed runs hand out tokens from
+    different clients per account — hence three fallback tiers instead of one.
     """
+    if service and account_key:
+        cid = os.environ.get(f"{service.upper()}_CLIENT_ID_{account_key.upper()}", "")
+        csec = os.environ.get(f"{service.upper()}_CLIENT_SECRET_{account_key.upper()}", "")
+        if cid and csec:
+            return cid, csec
     if service:
         cid = os.environ.get(f"{service.upper()}_CLIENT_ID", "")
         csec = os.environ.get(f"{service.upper()}_CLIENT_SECRET", "")
