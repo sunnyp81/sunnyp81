@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from googleapiclient.errors import HttpError
 
-from config import ACCOUNTS, GSC_SCOPES, Account
+from config import ACCOUNTS, GSC_SCOPES, Account, is_blacklisted
 from shared.google_auth import build_service
 from shared.logging import die, log
 from shared.paths import snapshot_path, summary_path, today_utc
@@ -98,7 +98,7 @@ def main() -> None:
         try:
             svc = _svc(account)
             sites = svc.sites().list().execute().get("siteEntry", [])
-        except HttpError as e:
+        except Exception as e:  # bad/expired token must not kill other accounts
             log("gsc_list_sites_error", account=account.key, error=str(e))
             summary["accounts"][account.key] = {"error": str(e)}
             continue
@@ -109,6 +109,9 @@ def main() -> None:
             if not site_url:
                 continue
             if entry.get("permissionLevel") == "siteUnverifiedUser":
+                continue
+            if is_blacklisted(site_url):
+                log("gsc_skip_blacklisted", account=account.key, site=site_url)
                 continue
             log("gsc_pull_site", account=account.key, site=site_url)
             per_site.append(_pull_site(svc, account, site_url, args.days, day))

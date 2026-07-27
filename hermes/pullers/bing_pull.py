@@ -21,7 +21,7 @@ import httpx
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from config import BING_API_KEY
+from config import BING_API_KEY, is_blacklisted
 from shared.logging import die, log
 from shared.paths import snapshot_path, summary_path, today_utc
 
@@ -61,6 +61,9 @@ def main() -> None:
         for s in sites:
             site_url = s.get("Url") or s.get("SiteUrl")
             if not site_url:
+                continue
+            if is_blacklisted(site_url):
+                log("bing_skip_blacklisted", site=site_url)
                 continue
             log("bing_pull_site", site=site_url)
             per_site: dict = {"site": site_url}

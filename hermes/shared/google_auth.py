@@ -29,22 +29,32 @@ def build_service(account: Account, service: str, api_name: str, api_version: st
         if cached and cached[1] > now:
             return cached[0]
 
-        client_id, client_secret = google_client_env()
+        client_id, client_secret = google_client_env(service, account.key)
         if not (client_id and client_secret):
-            raise RuntimeError("GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET must be set")
+            raise RuntimeError(
+                f"{service.upper()}_CLIENT_ID/SECRET (optionally _{account.key.upper()}) "
+                "or GOOGLE_CLIENT_ID/SECRET must be set"
+            )
 
         env_name = refresh_token_env_name(service, account)
         refresh_token = os.environ.get(env_name)
         if not refresh_token:
             raise RuntimeError(f"{env_name} env var not set")
 
+        # No `scopes` on purpose: declaring them makes Google's token
+        # endpoint reject the refresh with invalid_scope unless they
+        # exactly match what the token was granted — and these tokens
+        # are harvested from desktop MCPs / gcloud ADC / seed runs with
+        # granular consent, so grants vary. Omitting scope refreshes
+        # with whatever the token actually holds; a genuinely missing
+        # permission then surfaces as a per-call 403 instead of killing
+        # the whole account up front.
         creds = Credentials(
             token=None,
             refresh_token=refresh_token,
             client_id=client_id,
             client_secret=client_secret,
             token_uri="https://oauth2.googleapis.com/token",
-            scopes=scopes,
         )
         creds.refresh(GoogleRequest())
         svc = build(api_name, api_version, credentials=creds, cache_discovery=False)

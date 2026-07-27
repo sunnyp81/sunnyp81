@@ -2,8 +2,13 @@ name: hermes
 
 on:
   schedule:
-    # 04:30 UTC daily. Sequential run: GSC -> GA4 -> Bing.
+    # 04:30 UTC daily. Sequential run: SEO Gets -> GSC -> GA4 -> Bing.
     - cron: '30 4 * * *'
+  push:
+    # Touch hermes/.trigger to fire a run from environments that can
+    # push but can't call the workflow-dispatch API.
+    paths:
+      - 'hermes/.trigger'
   workflow_dispatch:
     inputs:
       puller:
@@ -12,16 +17,18 @@ on:
         type: choice
         options:
           - all
+          - seogets
           - gsc
           - ga4
           - bing
       days:
-        description: 'How many days of history to pull (for GSC + GA4)'
+        description: 'How many days of history to pull (SEO Gets, GSC, GA4)'
         default: '28'
         type: string
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: hermes-${{ github.event.inputs.puller || 'all' }}
@@ -30,7 +37,16 @@ concurrency:
 jobs:
   pull:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
+    # 'all' runs whatever has credentials and skips the rest, so the
+    # workflow is green from day one with just SEOGETS_API_KEY + BING_API_KEY.
+    # Naming a puller explicitly always runs it (and fails loudly if
+    # its secrets are missing).
+    env:
+      HAS_SEOGETS: ${{ secrets.SEOGETS_API_KEY != '' }}
+      HAS_GSC: ${{ secrets.GSC_REFRESH_TOKEN_2012INFINITE != '' || secrets.GSC_REFRESH_TOKEN_SUNNYPAT81 != '' }}
+      HAS_GA4: ${{ secrets.GA4_REFRESH_TOKEN_2012INFINITE != '' || secrets.GA4_REFRESH_TOKEN_SUNNYPAT81 != '' }}
+      HAS_BING: ${{ secrets.BING_API_KEY != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -49,36 +65,68 @@ jobs:
           echo "puller=${{ github.event.inputs.puller || 'all' }}" >> $GITHUB_OUTPUT
           echo "days=${{ github.event.inputs.days || '28' }}" >> $GITHUB_OUTPUT
 
-      - name: Pull GSC
-        if: steps.inputs.outputs.puller == 'all' || steps.inputs.outputs.puller == 'gsc'
+      - name: Pull SEO Gets (GSC + GA4 data, no Google OAuth)
+        id: pull_seogets
+        if: steps.inputs.outputs.puller == 'seogets' || (steps.inputs.outputs.puller == 'all' && env.HAS_SEOGETS == 'true')
+        continue-on-error: true
+        env:
+          SEOGETS_API_KEY: ${{ secrets.SEOGETS_API_KEY }}
+        working-directory: hermes
+        run: python pullers/seogets_pull.py --days ${{ steps.inputs.outputs.days }}
+
+      - name: Pull GSC (raw API, optional)
+        id: pull_gsc
+        if: steps.inputs.outputs.puller == 'gsc' || (steps.inputs.outputs.puller == 'all' && env.HAS_GSC == 'true')
+        continue-on-error: true
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_CLIENT_ID_SUNNYPAT81: ${{ secrets.GSC_CLIENT_ID_SUNNYPAT81 }}
+          GSC_CLIENT_SECRET_SUNNYPAT81: ${{ secrets.GSC_CLIENT_SECRET_SUNNYPAT81 }}
           GSC_REFRESH_TOKEN_2012INFINITE: ${{ secrets.GSC_REFRESH_TOKEN_2012INFINITE }}
           GSC_REFRESH_TOKEN_SUNNYPAT81: ${{ secrets.GSC_REFRESH_TOKEN_SUNNYPAT81 }}
         working-directory: hermes
         run: python pullers/gsc_pull.py --days ${{ steps.inputs.outputs.days }}
 
-      - name: Pull GA4
-        if: steps.inputs.outputs.puller == 'all' || steps.inputs.outputs.puller == 'ga4'
+      - name: Pull GA4 (raw API, optional)
+        id: pull_ga4
+        if: steps.inputs.outputs.puller == 'ga4' || (steps.inputs.outputs.puller == 'all' && env.HAS_GA4 == 'true')
+        continue-on-error: true
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GA4_CLIENT_ID: ${{ secrets.GA4_CLIENT_ID }}
+          GA4_CLIENT_SECRET: ${{ secrets.GA4_CLIENT_SECRET }}
+          GA4_CLIENT_ID_SUNNYPAT81: ${{ secrets.GA4_CLIENT_ID_SUNNYPAT81 }}
+          GA4_CLIENT_SECRET_SUNNYPAT81: ${{ secrets.GA4_CLIENT_SECRET_SUNNYPAT81 }}
           GA4_REFRESH_TOKEN_2012INFINITE: ${{ secrets.GA4_REFRESH_TOKEN_2012INFINITE }}
           GA4_REFRESH_TOKEN_SUNNYPAT81: ${{ secrets.GA4_REFRESH_TOKEN_SUNNYPAT81 }}
         working-directory: hermes
         run: python pullers/ga4_pull.py --days ${{ steps.inputs.outputs.days }}
 
       - name: Pull Bing
-        if: steps.inputs.outputs.puller == 'all' || steps.inputs.outputs.puller == 'bing'
+        id: pull_bing
+        if: steps.inputs.outputs.puller == 'bing' || (steps.inputs.outputs.puller == 'all' && env.HAS_BING == 'true')
+        continue-on-error: true
         env:
           BING_API_KEY: ${{ secrets.BING_API_KEY }}
         working-directory: hermes
         run: python pullers/bing_pull.py
 
       - name: Commit snapshots
+        if: always()
         run: |
           set -e
+          # digest.py must survive the branch switch below (the snapshots
+          # branch carries data only, no code) — stash a copy first.
+          cp hermes/digest.py /tmp/hermes-digest.py
+          # Move fresh pulls aside first: checkout would refuse to overwrite
+          # untracked hermes/data files that already exist on the branch.
+          # A puller can die before writing anything (e.g. bad creds on
+          # the very first step), so hermes/data may not exist at all.
+          mv hermes/data /tmp/hermes-data-new 2>/dev/null || mkdir -p /tmp/hermes-data-new
           git config user.name  "hermes-bot"
           git config user.email "hermes-bot@users.noreply.github.com"
           git fetch origin hermes-snapshots || true
@@ -88,12 +136,51 @@ jobs:
             git checkout --orphan hermes-snapshots
             git rm -rf --cached . >/dev/null 2>&1 || true
             echo "# hermes-snapshots" > README.md
-            echo "Daily GSC + GA4 + Bing snapshots from .github/workflows/hermes.yml." >> README.md
+            echo "Daily SEO Gets + GSC + GA4 + Bing snapshots from .github/workflows/hermes.yml." >> README.md
           fi
+          mkdir -p hermes/data
+          cp -a /tmp/hermes-data-new/. hermes/data/
+          # Now the tree has full history + today's pulls: build the
+          # digest + trend rollups so they ride in the same commit.
+          python3 /tmp/hermes-digest.py --data hermes/data || echo "::warning::digest failed, committing raw data anyway"
           git add -f hermes/data
           if git diff --cached --quiet; then
             echo "No new data — nothing to commit."
           else
             git commit -m "hermes snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push origin hermes-snapshots
+          fi
+
+      - name: Open alert issue if digest tripped
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          latest=$(ls hermes/data/digest/*.json 2>/dev/null | sort | tail -1)
+          if [ -z "$latest" ]; then echo "no digest yet"; exit 0; fi
+          day=$(basename "$latest" .json)
+          count=$(python3 -c "import json; print(len(json.load(open('$latest'))['alerts']))")
+          if [ "$count" -eq 0 ]; then echo "no alerts for $day"; exit 0; fi
+          title="hermes alerts $day"
+          existing=$(gh issue list --repo "${{ github.repository }}" --state open --search "\"$title\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            echo "issue #$existing already open for $day, skipping"
+          else
+            gh issue create --repo "${{ github.repository }}" \
+              --title "$title ($count alert$([ "$count" -gt 1 ] && echo s))" \
+              --body-file "hermes/data/digest/$day.md"
+          fi
+
+      - name: Fail job if any puller errored
+        if: always()
+        run: |
+          failed=""
+          for pair in "seogets:${{ steps.pull_seogets.outcome }}" "gsc:${{ steps.pull_gsc.outcome }}" "ga4:${{ steps.pull_ga4.outcome }}" "bing:${{ steps.pull_bing.outcome }}"; do
+            case "$pair" in
+              *:failure) failed="$failed ${pair%%:*}" ;;
+            esac
+          done
+          if [ -n "$failed" ]; then
+            echo "::error::Puller(s) failed:$failed — see their step logs above. Whatever succeeded was still committed."
+            exit 1
           fi
