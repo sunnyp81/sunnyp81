@@ -26,15 +26,14 @@ from googleapiclient.errors import HttpError
 
 from config import ACCOUNTS, GSC_SCOPES, Account, is_blacklisted
 from shared.google_auth import build_service
-from shared.logging import die, log
+from shared.logging import log
 from shared.paths import snapshot_path, summary_path, today_utc
 
 
 def _svc(account: Account):
-    try:
-        return build_service(account, "gsc", "searchconsole", "v1", GSC_SCOPES)
-    except RuntimeError as e:
-        die("missing_creds", account=account.key, error=str(e))
+    # Raise, don't die(): sys.exit skips the caller's per-account
+    # isolation and takes the other account (and _summary.json) with it.
+    return build_service(account, "gsc", "searchconsole", "v1", GSC_SCOPES)
 
 
 def _write(path: Path, payload: dict) -> None:

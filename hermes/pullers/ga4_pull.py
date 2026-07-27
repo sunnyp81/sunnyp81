@@ -25,7 +25,7 @@ from googleapiclient.errors import HttpError
 
 from config import ACCOUNTS, GA4_SCOPES, Account
 from shared.google_auth import build_service
-from shared.logging import die, log
+from shared.logging import log
 from shared.paths import snapshot_path, summary_path, today_utc
 
 
@@ -39,11 +39,10 @@ REPORTS = [
 
 
 def _services(account: Account):
-    try:
-        data = build_service(account, "ga4", "analyticsdata", "v1beta", GA4_SCOPES)
-        admin = build_service(account, "ga4", "analyticsadmin", "v1beta", GA4_SCOPES)
-    except RuntimeError as e:
-        die("missing_creds", account=account.key, error=str(e))
+    # Raise, don't die(): sys.exit skips the caller's per-account
+    # isolation and takes the other account (and _summary.json) with it.
+    data = build_service(account, "ga4", "analyticsdata", "v1beta", GA4_SCOPES)
+    admin = build_service(account, "ga4", "analyticsadmin", "v1beta", GA4_SCOPES)
     return data, admin
 
 

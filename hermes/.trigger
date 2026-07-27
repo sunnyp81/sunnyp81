@@ -1,1 +1,1 @@
-triggered 2026-07-27T13:54:56Z (digest + trends + alert issues)
+triggered 2026-07-27T14:01:48Z (fix: missing-creds no longer kills puller)
