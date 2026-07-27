@@ -12,17 +12,18 @@
         "host": "https://piyadesigns.co.uk",
         "paths": [
           "/",
+          "/about/",
           "/face-painting-cost",
           "/henna-artist-reading",
           "/henna-artist-reading/",
           "/prices/",
           "/about",
-          "/about/",
           "/bridal-mehndi",
           "/bridal-mehndi-cost/",
           "/bridal-mehndi/",
           "/brows-and-threading",
           "/brows-and-threading/",
+          "/contact",
           "/face-painting-cost/",
           "/face-painting/",
           "/henna-artist-slough",
@@ -40,7 +41,7 @@
         ]
       }
     ],
-    "note": "Returned 21 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
+    "note": "Returned 22 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
     "page": 1,
     "page_size": 1000
   }

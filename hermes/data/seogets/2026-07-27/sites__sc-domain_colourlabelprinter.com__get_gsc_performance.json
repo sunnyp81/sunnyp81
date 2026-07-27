@@ -6,7 +6,7 @@
     "end_date": "2026-07-27"
   },
   "data": {
-    "data": "clicks\timpressions\tctr\tposition\n\t131\t16864\t0.78\t19.26",
+    "data": "clicks\timpressions\tctr\tposition\n\t131\t16920\t0.77\t19.28",
     "end_date": "2026-07-27",
     "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
     "property": "sc-domain:colourlabelprinter.com",

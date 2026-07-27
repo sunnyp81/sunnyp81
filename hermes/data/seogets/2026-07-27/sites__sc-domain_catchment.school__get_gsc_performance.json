@@ -6,7 +6,7 @@
     "end_date": "2026-07-27"
   },
   "data": {
-    "data": "clicks\timpressions\tctr\tposition\n\t7\t2736\t0.26\t41.87",
+    "data": "clicks\timpressions\tctr\tposition\n\t7\t2746\t0.25\t41.85",
     "end_date": "2026-07-27",
     "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
     "property": "sc-domain:catchment.school",

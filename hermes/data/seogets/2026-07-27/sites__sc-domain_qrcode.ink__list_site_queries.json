@@ -394,6 +394,7 @@
       "create qr code for a url",
       "create qr code for all social media",
       "create qr code for business card",
+      "create qr code for email",
       "create qr code for free",
       "create qr code for google map",
       "create qr code for google maps",
@@ -1009,8 +1010,7 @@
       "how can i make a qr code",
       "how can i make a qr code from a link",
       "how can i turn a link into a qr code",
-      "how create a qr code",
-      "how create qr code"
+      "how create a qr code"
     ]
   }
 }

@@ -145,6 +145,7 @@
           "/pedal-assist-vs-throttle/",
           "/reaction/",
           "/reviews/carrera-vulcan/",
+          "/reviews/sur-ron-light-bee/",
           "/rich-bit/",
           "/ride-with-a-dui/",
           "/scott-electric-bicycle/",
@@ -177,7 +178,7 @@
         ]
       }
     ],
-    "note": "Returned 158 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
+    "note": "Returned 159 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
     "page": 1,
     "page_size": 1000
   }

@@ -102,6 +102,7 @@
           "/category/reviews/pets/",
           "/category/reviews/tech/",
           "/central-heating-cost",
+          "/central-heating-cost/",
           "/central-heating-cost/city-of-bristol",
           "/central-heating-cost/city-of-bristol/bristol",
           "/central-heating-cost/city-of-bristol/bristol/",
@@ -208,6 +209,7 @@
           "/underfloor-heating-cost/west-midlands/birmingham",
           "/underfloor-heating-cost/west-midlands/solihull/",
           "/underfloor-heating-cost/west-yorkshire/bradford",
+          "/water-softener-cost",
           "/water-softener-cost/",
           "/water-softener-cost/berkshire/reading",
           "/water-softener-cost/city-of-bristol/bristol",
@@ -242,7 +244,7 @@
         ]
       }
     ],
-    "note": "Returned 223 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
+    "note": "Returned 225 unique paths across 2 hosts from 2025-03-27 to 2026-07-26.",
     "page": 1,
     "page_size": 1000
   }
