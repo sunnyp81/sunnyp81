@@ -1,0 +1,35 @@
+{
+  "day": "2026-07-27",
+  "tools": [
+    "create_content_group",
+    "create_topic_cluster",
+    "create_user_tag",
+    "delete_content_group",
+    "delete_topic_cluster",
+    "delete_user_tag",
+    "get_gsc_performance",
+    "get_indexing_overview",
+    "get_indexing_status",
+    "list_content_groups",
+    "list_site_annotations",
+    "list_site_pages",
+    "list_site_queries",
+    "list_sites",
+    "list_topic_clusters",
+    "list_user_tags",
+    "manage_site_tags",
+    "update_content_group",
+    "update_topic_cluster"
+  ],
+  "sites": [
+    "http://www.laundryhome.co.uk/",
+    "https://aatma-aesthetics.com/",
+    "https://laundryhome.co.uk/",
+    "https://paragondrycleaners.co.uk/",
+    "https://theseshbars.com/"
+  ],
+  "errors": [],
+  "tool_count": 19,
+  "call_count": 27,
+  "error_count": 0
+}
