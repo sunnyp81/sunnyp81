@@ -1,15 +1,24 @@
 {
   "day": "2026-07-27",
   "previous_day": null,
-  "alerts": [],
+  "alerts": [
+    "GSC sitemap errors on sc-domain:iwholesales.co.uk: 0 -> 9 (2012infinite)",
+    "GSC sitemap errors on sc-domain:luxurytrex.com: 0 -> 4 (2012infinite)",
+    "GSC sitemap errors on sc-domain:onlybbguns.co.uk: 0 -> 3 (2012infinite)",
+    "GSC sitemap errors on https://theseshbars.com/: 0 -> 8 (2012infinite)",
+    "GSC sitemap errors on sc-domain:eco-drycleaners.co.uk: 0 -> 1 (2012infinite)",
+    "GSC sitemap errors on sc-domain:thebestmowers.co.uk: 0 -> 2 (2012infinite)",
+    "GSC sitemap errors on sc-domain:aatma-aesthetics.com: 0 -> 1 (2012infinite)",
+    "GSC sitemap errors on sc-domain:theseshbars.com: 0 -> 8 (2012infinite)"
+  ],
   "notes": [],
   "totals": {
     "bing_sites": 93,
     "bing_crawl_issues": 1788,
     "seogets_sites": 131,
-    "seogets_clicks_28d": 31483,
-    "gsc_sites": 0,
-    "gsc_sitemap_errors": 0
+    "seogets_clicks_28d": 31485,
+    "gsc_sites": 30,
+    "gsc_sitemap_errors": 36
   },
   "previous_totals": {
     "bing_crawl_issues": null,

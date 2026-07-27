@@ -293,7 +293,7 @@
           "property": "properties/530384916",
           "rows_traffic": 69,
           "rows_country": 43,
-          "rows_source_medium": 29,
+          "rows_source_medium": 30,
           "rows_date": 29,
           "rows_conversions": 11,
           "displayName": "selflandlord.com"
@@ -661,7 +661,7 @@
         {
           "account": "sunnypat81",
           "property": "properties/545151117",
-          "rows_traffic": 268,
+          "rows_traffic": 269,
           "rows_country": 88,
           "rows_source_medium": 21,
           "rows_date": 17,
