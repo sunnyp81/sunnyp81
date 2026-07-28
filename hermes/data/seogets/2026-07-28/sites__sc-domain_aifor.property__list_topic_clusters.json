@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:aifor.property",
+  "args": {},
+  "data": {
+    "site": "sc-domain:aifor.property",
+    "topic_clusters": []
+  }
+}

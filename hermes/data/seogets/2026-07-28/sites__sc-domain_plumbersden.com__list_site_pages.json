@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:plumbersden.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:plumbersden.com\". Available sites: aiautomation.build, bestvibrationplates.co.uk, seoreading.uk, bestcordlessdrills.uk, londonwebdesign.site, redlighttherapy.expert, theseshbars.com, aatma-aesthetics.com, petsnerd.com, sitemap.digital, aifor.fitness, londonweb.design, onlybbguns.co.uk, wellifepsychology.com, openknowledgeformat.agency, piyadesigns.co.uk, sunnypatel.co.uk, bookkeepingflow.com, citationgenerator.store, laundryhome.co.uk, optimisedwebsite.com, supplementcheck.org, areaiq.uk, huntsmansports.com, ownedwork.com, seoswansea.uk, smmcnj.org, areaiq.uk, breedhealth.org, catchment.school, mydigitalpiano.com, seo.bargains, agenticaisecured.com, drivingtestpass.org, formhq.org, hummingbird.agency, planningleads.org, signalcheck.org, collinspress.ie, deadhangs.com, eco-drycleaners.co.uk, gathrd.co.uk, generator.express, heatpumpchecker.co.uk, salarydata.co.uk, calculator.place, drinksbykingpin.com, seo-leeds.uk, theseshbars.com, 365androidapp.uk.com, clinicaltrialhub.org, thebestmowers.co.uk, www.laundryhome.co.uk, bestreviews.co.uk, claimwatt.com, noisecheck.uk, seo-birmingham.uk, shecookssheeats.co.uk, snaptaken.com, tradecost.uk, nomadranker.com, thetutor.link, www.mugscafe.org, app.thetutor.link, e-bikereview.uk, lockyourbike.org.uk, seo.archi, www.visible-ads.com, epc.report, mugscafe.org, postcode.page, aifor.property, carehome.page, carrecallhq.com, mobilebarhirelondon.uk, qrcode.ink, auditweb.site, fixerror.dev, paragondrycleaners.co.uk, luxurytrex.com, techloved.com, template.how, zoningbase.com, leadscaffold.com, openknowledgeformat.academy, dashboardcamreviews.co.uk, reportbolt.com, towerfanreviews.uk, punchfoods.com, salarycareer.com, stackswitch.co, 100percentvegan.co.uk, bestchainsaw.uk, radon.tips, aiagentic.news, chargefinder.uk, drugnote.com, merch.observer, scopepitch.com, visible-ads.com, wagearea.com, bestcordlessdrills.uk, myknifeguide.com, readingschoolofmartialarts.co.uk, topsewingmachines.uk, aifor.tech, implementai.today, mugscafe.org, rentalyield.uk, checkamover.com, colourlabelprinter.com, ideeeas.com, iwholesales.co.uk, mobileautomechanic.uk, signforge.org, text.taxi, geooptimised.com, kingpin.design, waterhard.uk, selflandlord.com, seo-guildford.uk, solarhq.uk, bestturbotrainers.uk, complain.report, crosstrainerhome.co.uk, knotweedcheck.com, redlighttherapy.tech, towrating.org, agenticai.associates, sunnypatel.co.uk",
+    "page": 0,
+    "page_size": 0
+  }
+}

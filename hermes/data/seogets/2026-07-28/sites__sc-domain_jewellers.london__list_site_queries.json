@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:jewellers.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:jewellers.london\". Available sites: reportbolt.com, wagearea.com, fixerror.dev, lockyourbike.org.uk, mugscafe.org, techloved.com, theseshbars.com, www.mugscafe.org, bookkeepingflow.com, epc.report, rentalyield.uk, snaptaken.com, luxurytrex.com, qrcode.ink, seo-guildford.uk, waterhard.uk, aifor.property, bestturbotrainers.uk, chargefinder.uk, seo-leeds.uk, salarycareer.com, supplementcheck.org, selflandlord.com, seoswansea.uk, drugnote.com, checkamover.com, 100percentvegan.co.uk, areaiq.uk, areaiq.uk, auditweb.site, claimwatt.com, mobilebarhirelondon.uk, carrecallhq.com, deadhangs.com, gathrd.co.uk, punchfoods.com, visible-ads.com, catchment.school, onlybbguns.co.uk, implementai.today, iwholesales.co.uk, signforge.org, aatma-aesthetics.com, calculator.place, huntsmansports.com, noisecheck.uk, piyadesigns.co.uk, dashboardcamreviews.co.uk, 365androidapp.uk.com, aiagentic.news, carehome.page, eco-drycleaners.co.uk, optimisedwebsite.com, drinksbykingpin.com, radon.tips, app.thetutor.link, laundryhome.co.uk, planningleads.org, shecookssheeats.co.uk, topsewingmachines.uk, towrating.org, bestchainsaw.uk, redlighttherapy.expert, thebestmowers.co.uk, towerfanreviews.uk, bestcordlessdrills.uk, bestvibrationplates.co.uk, kingpin.design, readingschoolofmartialarts.co.uk, crosstrainerhome.co.uk, template.how, smmcnj.org, sunnypatel.co.uk, sunnypatel.co.uk, bestreviews.co.uk, geooptimised.com, nomadranker.com, ownedwork.com, seoreading.uk, clinicaltrialhub.org, drivingtestpass.org, mobileautomechanic.uk, mydigitalpiano.com, seo.bargains, wellifepsychology.com, agenticai.associates, solarhq.uk, www.visible-ads.com, citationgenerator.store, leadscaffold.com, e-bikereview.uk, ideeeas.com, breedhealth.org, openknowledgeformat.academy, openknowledgeformat.agency, petsnerd.com, postcode.page, seo-birmingham.uk, theseshbars.com, aiautomation.build, sitemap.digital, knotweedcheck.com, scopepitch.com, stackswitch.co, agenticaisecured.com, formhq.org, salarydata.co.uk, tradecost.uk, aifor.tech, colourlabelprinter.com, mugscafe.org, myknifeguide.com, text.taxi, zoningbase.com, complain.report, hummingbird.agency, signalcheck.org, thetutor.link, heatpumpchecker.co.uk, merch.observer, seo.archi, generator.express, aifor.fitness, bestcordlessdrills.uk, londonwebdesign.site, paragondrycleaners.co.uk, www.laundryhome.co.uk, collinspress.ie, londonweb.design, redlighttherapy.tech",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

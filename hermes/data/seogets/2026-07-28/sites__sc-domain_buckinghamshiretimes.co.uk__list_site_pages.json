@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:buckinghamshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:buckinghamshiretimes.co.uk\". Available sites: crosstrainerhome.co.uk, myknifeguide.com, seo-birmingham.uk, snaptaken.com, londonwebdesign.site, mobileautomechanic.uk, ownedwork.com, seo-leeds.uk, smmcnj.org, chargefinder.uk, checkamover.com, bestturbotrainers.uk, catchment.school, claimwatt.com, e-bikereview.uk, mugscafe.org, postcode.page, areaiq.uk, citationgenerator.store, huntsmansports.com, laundryhome.co.uk, optimisedwebsite.com, solarhq.uk, formhq.org, seo.bargains, supplementcheck.org, iwholesales.co.uk, nomadranker.com, paragondrycleaners.co.uk, wellifepsychology.com, zoningbase.com, auditweb.site, ideeeas.com, petsnerd.com, towrating.org, calculator.place, carehome.page, signforge.org, aiagentic.news, bookkeepingflow.com, deadhangs.com, kingpin.design, drivingtestpass.org, seoreading.uk, openknowledgeformat.academy, readingschoolofmartialarts.co.uk, redlighttherapy.expert, seo.archi, techloved.com, scopepitch.com, stackswitch.co, aifor.tech, eco-drycleaners.co.uk, implementai.today, sitemap.digital, agenticai.associates, collinspress.ie, drinksbykingpin.com, luxurytrex.com, mobilebarhirelondon.uk, qrcode.ink, aatma-aesthetics.com, agenticaisecured.com, areaiq.uk, template.how, thetutor.link, aifor.fitness, bestcordlessdrills.uk, clinicaltrialhub.org, signalcheck.org, towerfanreviews.uk, visible-ads.com, aiautomation.build, londonweb.design, mydigitalpiano.com, planningleads.org, radon.tips, onlybbguns.co.uk, salarycareer.com, selflandlord.com, seo-guildford.uk, sunnypatel.co.uk, theseshbars.com, theseshbars.com, bestvibrationplates.co.uk, complain.report, dashboardcamreviews.co.uk, epc.report, gathrd.co.uk, waterhard.uk, www.mugscafe.org, fixerror.dev, noisecheck.uk, mugscafe.org, bestreviews.co.uk, colourlabelprinter.com, piyadesigns.co.uk, app.thetutor.link, heatpumpchecker.co.uk, wagearea.com, generator.express, lockyourbike.org.uk, salarydata.co.uk, shecookssheeats.co.uk, thebestmowers.co.uk, topsewingmachines.uk, tradecost.uk, www.laundryhome.co.uk, breedhealth.org, carrecallhq.com, leadscaffold.com, openknowledgeformat.agency, punchfoods.com, www.visible-ads.com, 365androidapp.uk.com, aifor.property, bestchainsaw.uk, drugnote.com, hummingbird.agency, rentalyield.uk, merch.observer, sunnypatel.co.uk, 100percentvegan.co.uk, bestcordlessdrills.uk, redlighttherapy.tech, reportbolt.com, seoswansea.uk, geooptimised.com, knotweedcheck.com, text.taxi",
+    "page": 0,
+    "page_size": 0
+  }
+}

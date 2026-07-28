@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:solarenergy.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:solarenergy.london\". Available sites: colourlabelprinter.com, deadhangs.com, optimisedwebsite.com, salarydata.co.uk, sunnypatel.co.uk, www.visible-ads.com, aatma-aesthetics.com, bestturbotrainers.uk, catchment.school, citationgenerator.store, scopepitch.com, towerfanreviews.uk, zoningbase.com, implementai.today, seo-guildford.uk, drinksbykingpin.com, eco-drycleaners.co.uk, merch.observer, myknifeguide.com, seoreading.uk, theseshbars.com, wellifepsychology.com, agenticai.associates, kingpin.design, shecookssheeats.co.uk, aiautomation.build, aifor.tech, complain.report, nomadranker.com, seo-leeds.uk, bestchainsaw.uk, geooptimised.com, heatpumpchecker.co.uk, knotweedcheck.com, postcode.page, salarycareer.com, huntsmansports.com, qrcode.ink, selflandlord.com, agenticaisecured.com, clinicaltrialhub.org, signforge.org, carrecallhq.com, calculator.place, paragondrycleaners.co.uk, wagearea.com, 100percentvegan.co.uk, thetutor.link, mugscafe.org, ownedwork.com, seo-birmingham.uk, stackswitch.co, bestreviews.co.uk, mobileautomechanic.uk, mugscafe.org, mydigitalpiano.com, radon.tips, readingschoolofmartialarts.co.uk, drugnote.com, ideeeas.com, hummingbird.agency, onlybbguns.co.uk, openknowledgeformat.agency, techloved.com, bestcordlessdrills.uk, openknowledgeformat.academy, petsnerd.com, seo.archi, sunnypatel.co.uk, checkamover.com, piyadesigns.co.uk, bestvibrationplates.co.uk, laundryhome.co.uk, leadscaffold.com, rentalyield.uk, seo.bargains, thebestmowers.co.uk, aifor.fitness, breedhealth.org, dashboardcamreviews.co.uk, e-bikereview.uk, formhq.org, gathrd.co.uk, redlighttherapy.tech, waterhard.uk, aifor.property, mobilebarhirelondon.uk, noisecheck.uk, text.taxi, www.laundryhome.co.uk, drivingtestpass.org, epc.report, fixerror.dev, seoswansea.uk, crosstrainerhome.co.uk, generator.express, claimwatt.com, lockyourbike.org.uk, reportbolt.com, theseshbars.com, areaiq.uk, londonwebdesign.site, towrating.org, 365androidapp.uk.com, aiagentic.news, app.thetutor.link, carehome.page, chargefinder.uk, planningleads.org, redlighttherapy.expert, sitemap.digital, bookkeepingflow.com, luxurytrex.com, snaptaken.com, supplementcheck.org, template.how, areaiq.uk, londonweb.design, www.mugscafe.org, auditweb.site, bestcordlessdrills.uk, collinspress.ie, iwholesales.co.uk, signalcheck.org, topsewingmachines.uk, visible-ads.com, punchfoods.com, smmcnj.org, solarhq.uk, tradecost.uk",
+    "page": 0,
+    "page_size": 0
+  }
+}

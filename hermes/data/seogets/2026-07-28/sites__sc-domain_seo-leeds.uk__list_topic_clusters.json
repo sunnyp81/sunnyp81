@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:seo-leeds.uk",
+  "args": {},
+  "data": {
+    "site": "sc-domain:seo-leeds.uk",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:neocandle.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:neocandle.com\". Available sites: paragondrycleaners.co.uk, seoreading.uk, snaptaken.com, sitemap.digital, smmcnj.org, epc.report, laundryhome.co.uk, myknifeguide.com, nomadranker.com, selflandlord.com, app.thetutor.link, bestturbotrainers.uk, knotweedcheck.com, londonwebdesign.site, towerfanreviews.uk, waterhard.uk, bestreviews.co.uk, noisecheck.uk, postcode.page, seo-birmingham.uk, collinspress.ie, luxurytrex.com, salarydata.co.uk, aifor.property, chargefinder.uk, citationgenerator.store, claimwatt.com, colourlabelprinter.com, mugscafe.org, readingschoolofmartialarts.co.uk, salarycareer.com, zoningbase.com, aifor.fitness, dashboardcamreviews.co.uk, agenticaisecured.com, auditweb.site, catchment.school, complain.report, deadhangs.com, ownedwork.com, bestchainsaw.uk, aifor.tech, ideeeas.com, openknowledgeformat.academy, piyadesigns.co.uk, openknowledgeformat.agency, petsnerd.com, rentalyield.uk, scopepitch.com, supplementcheck.org, www.laundryhome.co.uk, reportbolt.com, 100percentvegan.co.uk, areaiq.uk, thetutor.link, 365androidapp.uk.com, aiagentic.news, drivingtestpass.org, theseshbars.com, formhq.org, seo-leeds.uk, geooptimised.com, implementai.today, londonweb.design, mobileautomechanic.uk, wellifepsychology.com, shecookssheeats.co.uk, crosstrainerhome.co.uk, generator.express, punchfoods.com, wagearea.com, www.visible-ads.com, iwholesales.co.uk, mobilebarhirelondon.uk, mydigitalpiano.com, optimisedwebsite.com, towrating.org, www.mugscafe.org, aiautomation.build, bestcordlessdrills.uk, fixerror.dev, theseshbars.com, topsewingmachines.uk, drugnote.com, planningleads.org, seo-guildford.uk, seoswansea.uk, breedhealth.org, drinksbykingpin.com, e-bikereview.uk, lockyourbike.org.uk, sunnypatel.co.uk, techloved.com, visible-ads.com, qrcode.ink, signforge.org, stackswitch.co, bestvibrationplates.co.uk, carehome.page, eco-drycleaners.co.uk, onlybbguns.co.uk, signalcheck.org, text.taxi, areaiq.uk, kingpin.design, redlighttherapy.expert, template.how, calculator.place, hummingbird.agency, mugscafe.org, sunnypatel.co.uk, bestcordlessdrills.uk, seo.archi, thebestmowers.co.uk, bookkeepingflow.com, clinicaltrialhub.org, gathrd.co.uk, huntsmansports.com, radon.tips, redlighttherapy.tech, agenticai.associates, checkamover.com, heatpumpchecker.co.uk, leadscaffold.com, seo.bargains, tradecost.uk, solarhq.uk, aatma-aesthetics.com, carrecallhq.com, merch.observer",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:buckinghamshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:buckinghamshiretimes.co.uk\". Available sites: e-bikereview.uk, selflandlord.com, topsewingmachines.uk, knotweedcheck.com, supplementcheck.org, clinicaltrialhub.org, geooptimised.com, iwholesales.co.uk, salarycareer.com, seo-birmingham.uk, sunnypatel.co.uk, 100percentvegan.co.uk, bestchainsaw.uk, seo.archi, aiagentic.news, hummingbird.agency, nomadranker.com, optimisedwebsite.com, smmcnj.org, aifor.tech, redlighttherapy.tech, waterhard.uk, breedhealth.org, eco-drycleaners.co.uk, leadscaffold.com, towrating.org, seo.bargains, fixerror.dev, formhq.org, mugscafe.org, openknowledgeformat.agency, www.visible-ads.com, sitemap.digital, bestvibrationplates.co.uk, signforge.org, auditweb.site, bestcordlessdrills.uk, drugnote.com, mobilebarhirelondon.uk, visible-ads.com, chargefinder.uk, generator.express, mugscafe.org, rentalyield.uk, salarydata.co.uk, heatpumpchecker.co.uk, implementai.today, londonweb.design, londonwebdesign.site, myknifeguide.com, punchfoods.com, radon.tips, www.mugscafe.org, bestreviews.co.uk, dashboardcamreviews.co.uk, huntsmansports.com, kingpin.design, shecookssheeats.co.uk, aatma-aesthetics.com, agenticai.associates, bestcordlessdrills.uk, collinspress.ie, thetutor.link, wagearea.com, app.thetutor.link, complain.report, noisecheck.uk, postcode.page, towerfanreviews.uk, www.laundryhome.co.uk, colourlabelprinter.com, gathrd.co.uk, calculator.place, wellifepsychology.com, bestturbotrainers.uk, carehome.page, stackswitch.co, seoreading.uk, sunnypatel.co.uk, aiautomation.build, epc.report, theseshbars.com, zoningbase.com, carrecallhq.com, redlighttherapy.expert, reportbolt.com, seoswansea.uk, theseshbars.com, agenticaisecured.com, areaiq.uk, claimwatt.com, merch.observer, seo-leeds.uk, aifor.fitness, deadhangs.com, drivingtestpass.org, luxurytrex.com, mobileautomechanic.uk, petsnerd.com, piyadesigns.co.uk, signalcheck.org, text.taxi, thebestmowers.co.uk, techloved.com, areaiq.uk, laundryhome.co.uk, lockyourbike.org.uk, onlybbguns.co.uk, ownedwork.com, scopepitch.com, crosstrainerhome.co.uk, mydigitalpiano.com, openknowledgeformat.academy, seo-guildford.uk, tradecost.uk, aifor.property, paragondrycleaners.co.uk, planningleads.org, checkamover.com, 365androidapp.uk.com, bookkeepingflow.com, qrcode.ink, readingschoolofmartialarts.co.uk, catchment.school, drinksbykingpin.com, ideeeas.com, snaptaken.com, solarhq.uk, citationgenerator.store, template.how",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

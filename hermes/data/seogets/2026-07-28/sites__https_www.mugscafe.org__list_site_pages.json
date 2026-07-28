@@ -1,0 +1,29 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://www.mugscafe.org/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://www.mugscafe.org",
+        "paths": [
+          "/",
+          "/caffeine-starbucks-frappuccino/",
+          "/can-put-coffee-mug-in-oven/",
+          "/cinnamon-simple-syrup/",
+          "/coffee-laxative/",
+          "/french-vanilla-coffee/",
+          "/starbucks-acai/",
+          "/sweet-starbucks-drinks/"
+        ]
+      }
+    ],
+    "note": "Returned 8 unique paths across 1 hosts from 2025-03-28 to 2026-07-27.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

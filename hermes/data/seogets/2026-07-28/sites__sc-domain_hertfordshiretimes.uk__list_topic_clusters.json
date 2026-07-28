@@ -1,0 +1,10 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:hertfordshiretimes.uk",
+  "args": {},
+  "data": {
+    "note": "No accessible site matched the request.",
+    "site": "sc-domain:hertfordshiretimes.uk",
+    "topic_clusters": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:berkshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:berkshiretimes.co.uk\". Available sites: calculator.place, ownedwork.com, salarydata.co.uk, bestreviews.co.uk, e-bikereview.uk, postcode.page, readingschoolofmartialarts.co.uk, salarycareer.com, tradecost.uk, petsnerd.com, carehome.page, auditweb.site, bestchainsaw.uk, bestcordlessdrills.uk, redlighttherapy.tech, theseshbars.com, aiagentic.news, iwholesales.co.uk, openknowledgeformat.agency, visible-ads.com, mugscafe.org, www.mugscafe.org, bestvibrationplates.co.uk, eco-drycleaners.co.uk, optimisedwebsite.com, smmcnj.org, sunnypatel.co.uk, supplementcheck.org, www.laundryhome.co.uk, catchment.school, 365androidapp.uk.com, drinksbykingpin.com, knotweedcheck.com, theseshbars.com, bestturbotrainers.uk, collinspress.ie, formhq.org, hummingbird.agency, www.visible-ads.com, chargefinder.uk, crosstrainerhome.co.uk, geooptimised.com, radon.tips, seo.archi, template.how, text.taxi, aifor.tech, colourlabelprinter.com, drugnote.com, lockyourbike.org.uk, londonweb.design, thetutor.link, 100percentvegan.co.uk, agenticaisecured.com, areaiq.uk, kingpin.design, towerfanreviews.uk, carrecallhq.com, claimwatt.com, generator.express, mobileautomechanic.uk, solarhq.uk, gathrd.co.uk, mydigitalpiano.com, punchfoods.com, sunnypatel.co.uk, wagearea.com, bestcordlessdrills.uk, clinicaltrialhub.org, epc.report, onlybbguns.co.uk, mobilebarhirelondon.uk, scopepitch.com, seo-birmingham.uk, ideeeas.com, checkamover.com, areaiq.uk, bookkeepingflow.com, mugscafe.org, seoreading.uk, signforge.org, stackswitch.co, wellifepsychology.com, implementai.today, rentalyield.uk, seo-leeds.uk, thebestmowers.co.uk, aifor.fitness, deadhangs.com, luxurytrex.com, breedhealth.org, dashboardcamreviews.co.uk, myknifeguide.com, planningleads.org, agenticai.associates, citationgenerator.store, reportbolt.com, sitemap.digital, complain.report, drivingtestpass.org, huntsmansports.com, piyadesigns.co.uk, waterhard.uk, fixerror.dev, leadscaffold.com, noisecheck.uk, paragondrycleaners.co.uk, techloved.com, app.thetutor.link, heatpumpchecker.co.uk, seo.bargains, topsewingmachines.uk, laundryhome.co.uk, londonwebdesign.site, openknowledgeformat.academy, selflandlord.com, seoswansea.uk, towrating.org, zoningbase.com, aiautomation.build, aifor.property, shecookssheeats.co.uk, signalcheck.org, aatma-aesthetics.com, seo-guildford.uk, snaptaken.com, merch.observer, nomadranker.com, qrcode.ink, redlighttherapy.expert",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

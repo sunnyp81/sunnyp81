@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://paragondrycleaners.co.uk/",
+  "args": {
+    "start_date": "2026-06-30",
+    "end_date": "2026-07-28"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-07-28",
+    "property_id": "https://paragondrycleaners.co.uk/",
+    "start_date": "2026-06-30"
+  }
+}

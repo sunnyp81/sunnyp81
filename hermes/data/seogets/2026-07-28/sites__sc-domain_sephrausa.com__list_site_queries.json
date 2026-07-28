@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:sephrausa.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:sephrausa.com\". Available sites: seo.archi, seoswansea.uk, aifor.property, generator.express, iwholesales.co.uk, myknifeguide.com, readingschoolofmartialarts.co.uk, seoreading.uk, seo-guildford.uk, sitemap.digital, wellifepsychology.com, www.laundryhome.co.uk, areaiq.uk, redlighttherapy.expert, smmcnj.org, topsewingmachines.uk, towerfanreviews.uk, aifor.fitness, claimwatt.com, drugnote.com, londonweb.design, techloved.com, www.visible-ads.com, aifor.tech, bestcordlessdrills.uk, bestturbotrainers.uk, breedhealth.org, carehome.page, geooptimised.com, redlighttherapy.tech, bestreviews.co.uk, merch.observer, app.thetutor.link, formhq.org, leadscaffold.com, lockyourbike.org.uk, optimisedwebsite.com, postcode.page, radon.tips, salarydata.co.uk, onlybbguns.co.uk, seo.bargains, snaptaken.com, visible-ads.com, agenticai.associates, deadhangs.com, noisecheck.uk, signalcheck.org, signforge.org, template.how, fixerror.dev, ideeeas.com, laundryhome.co.uk, luxurytrex.com, mugscafe.org, qrcode.ink, areaiq.uk, aiagentic.news, calculator.place, bestcordlessdrills.uk, colourlabelprinter.com, paragondrycleaners.co.uk, towrating.org, tradecost.uk, zoningbase.com, 365androidapp.uk.com, rentalyield.uk, reportbolt.com, petsnerd.com, salarycareer.com, dashboardcamreviews.co.uk, mobileautomechanic.uk, stackswitch.co, aatma-aesthetics.com, chargefinder.uk, drinksbykingpin.com, londonwebdesign.site, mobilebarhirelondon.uk, sunnypatel.co.uk, agenticaisecured.com, crosstrainerhome.co.uk, e-bikereview.uk, collinspress.ie, complain.report, implementai.today, mydigitalpiano.com, theseshbars.com, epc.report, planningleads.org, text.taxi, thetutor.link, wagearea.com, aiautomation.build, citationgenerator.store, hummingbird.agency, kingpin.design, mugscafe.org, punchfoods.com, seo-leeds.uk, catchment.school, openknowledgeformat.academy, selflandlord.com, seo-birmingham.uk, bookkeepingflow.com, heatpumpchecker.co.uk, supplementcheck.org, thebestmowers.co.uk, checkamover.com, auditweb.site, ownedwork.com, scopepitch.com, waterhard.uk, shecookssheeats.co.uk, theseshbars.com, 100percentvegan.co.uk, bestchainsaw.uk, clinicaltrialhub.org, openknowledgeformat.agency, piyadesigns.co.uk, solarhq.uk, bestvibrationplates.co.uk, drivingtestpass.org, eco-drycleaners.co.uk, gathrd.co.uk, huntsmansports.com, knotweedcheck.com, nomadranker.com, sunnypatel.co.uk, carrecallhq.com, www.mugscafe.org",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

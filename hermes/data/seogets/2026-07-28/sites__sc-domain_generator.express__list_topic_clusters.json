@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:generator.express",
+  "args": {},
+  "data": {
+    "site": "sc-domain:generator.express",
+    "topic_clusters": []
+  }
+}

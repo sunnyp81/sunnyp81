@@ -1,0 +1,10 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:directory.faceartfun.com",
+  "args": {},
+  "data": {
+    "note": "No accessible site matched the request.",
+    "site": "sc-domain:directory.faceartfun.com",
+    "topic_clusters": null
+  }
+}

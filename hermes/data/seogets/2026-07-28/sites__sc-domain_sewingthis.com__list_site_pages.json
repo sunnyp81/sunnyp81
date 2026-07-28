@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:sewingthis.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:sewingthis.com\". Available sites: bestvibrationplates.co.uk, formhq.org, luxurytrex.com, theseshbars.com, aatma-aesthetics.com, bookkeepingflow.com, chargefinder.uk, eco-drycleaners.co.uk, myknifeguide.com, paragondrycleaners.co.uk, thebestmowers.co.uk, www.mugscafe.org, app.thetutor.link, epc.report, openknowledgeformat.agency, carrecallhq.com, huntsmansports.com, mobileautomechanic.uk, ideeeas.com, solarhq.uk, auditweb.site, readingschoolofmartialarts.co.uk, seo.bargains, heatpumpchecker.co.uk, redlighttherapy.tech, thetutor.link, www.visible-ads.com, aiautomation.build, bestcordlessdrills.uk, lockyourbike.org.uk, openknowledgeformat.academy, optimisedwebsite.com, snaptaken.com, techloved.com, towrating.org, collinspress.ie, londonwebdesign.site, petsnerd.com, seoreading.uk, sitemap.digital, drinksbykingpin.com, drivingtestpass.org, knotweedcheck.com, qrcode.ink, aifor.tech, crosstrainerhome.co.uk, laundryhome.co.uk, leadscaffold.com, mobilebarhirelondon.uk, seo-birmingham.uk, topsewingmachines.uk, 100percentvegan.co.uk, areaiq.uk, noisecheck.uk, theseshbars.com, aifor.fitness, deadhangs.com, towerfanreviews.uk, citationgenerator.store, planningleads.org, signforge.org, www.laundryhome.co.uk, 365androidapp.uk.com, carehome.page, geooptimised.com, postcode.page, seo-guildford.uk, supplementcheck.org, template.how, bestchainsaw.uk, hummingbird.agency, radon.tips, selflandlord.com, smmcnj.org, wellifepsychology.com, merch.observer, mugscafe.org, rentalyield.uk, bestturbotrainers.uk, e-bikereview.uk, generator.express, piyadesigns.co.uk, seo.archi, sunnypatel.co.uk, wagearea.com, zoningbase.com, aifor.property, bestreviews.co.uk, breedhealth.org, dashboardcamreviews.co.uk, drugnote.com, fixerror.dev, salarydata.co.uk, text.taxi, colourlabelprinter.com, tradecost.uk, iwholesales.co.uk, mydigitalpiano.com, seoswansea.uk, complain.report, onlybbguns.co.uk, salarycareer.com, stackswitch.co, visible-ads.com, checkamover.com, areaiq.uk, londonweb.design, reportbolt.com, sunnypatel.co.uk, agenticaisecured.com, bestcordlessdrills.uk, gathrd.co.uk, scopepitch.com, implementai.today, shecookssheeats.co.uk, waterhard.uk, clinicaltrialhub.org, ownedwork.com, redlighttherapy.expert, catchment.school, claimwatt.com, kingpin.design, nomadranker.com, agenticai.associates, calculator.place, mugscafe.org, punchfoods.com, seo-leeds.uk, signalcheck.org, aiagentic.news",
+    "page": 0,
+    "page_size": 0
+  }
+}

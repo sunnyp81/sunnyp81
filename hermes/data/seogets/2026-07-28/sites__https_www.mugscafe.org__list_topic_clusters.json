@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://www.mugscafe.org/",
+  "args": {},
+  "data": {
+    "site": "https://www.mugscafe.org/",
+    "topic_clusters": []
+  }
+}

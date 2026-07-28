@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:sephrausa.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:sephrausa.com\". Available sites: smmcnj.org, wagearea.com, hummingbird.agency, iwholesales.co.uk, reportbolt.com, seo.archi, bookkeepingflow.com, catchment.school, mugscafe.org, seo-guildford.uk, 100percentvegan.co.uk, salarydata.co.uk, www.laundryhome.co.uk, aiautomation.build, deadhangs.com, citationgenerator.store, kingpin.design, seo-birmingham.uk, shecookssheeats.co.uk, towrating.org, tradecost.uk, qrcode.ink, seoreading.uk, supplementcheck.org, techloved.com, towerfanreviews.uk, huntsmansports.com, salarycareer.com, lockyourbike.org.uk, piyadesigns.co.uk, sunnypatel.co.uk, template.how, theseshbars.com, wellifepsychology.com, areaiq.uk, bestreviews.co.uk, visible-ads.com, knotweedcheck.com, mydigitalpiano.com, aiagentic.news, app.thetutor.link, areaiq.uk, nomadranker.com, aifor.tech, bestcordlessdrills.uk, snaptaken.com, agenticaisecured.com, bestvibrationplates.co.uk, carrecallhq.com, epc.report, formhq.org, londonwebdesign.site, www.mugscafe.org, checkamover.com, claimwatt.com, clinicaltrialhub.org, luxurytrex.com, onlybbguns.co.uk, waterhard.uk, bestcordlessdrills.uk, mobileautomechanic.uk, seo-leeds.uk, signalcheck.org, signforge.org, thetutor.link, aifor.property, colourlabelprinter.com, selflandlord.com, theseshbars.com, geooptimised.com, ideeeas.com, openknowledgeformat.academy, optimisedwebsite.com, aatma-aesthetics.com, postcode.page, sitemap.digital, stackswitch.co, chargefinder.uk, complain.report, drivingtestpass.org, eco-drycleaners.co.uk, laundryhome.co.uk, merch.observer, mobilebarhirelondon.uk, openknowledgeformat.agency, ownedwork.com, punchfoods.com, agenticai.associates, londonweb.design, text.taxi, 365androidapp.uk.com, generator.express, mugscafe.org, petsnerd.com, readingschoolofmartialarts.co.uk, seo.bargains, solarhq.uk, www.visible-ads.com, auditweb.site, implementai.today, leadscaffold.com, planningleads.org, topsewingmachines.uk, calculator.place, crosstrainerhome.co.uk, fixerror.dev, drinksbykingpin.com, myknifeguide.com, carehome.page, drugnote.com, e-bikereview.uk, heatpumpchecker.co.uk, paragondrycleaners.co.uk, redlighttherapy.expert, redlighttherapy.tech, seoswansea.uk, collinspress.ie, noisecheck.uk, thebestmowers.co.uk, aifor.fitness, gathrd.co.uk, scopepitch.com, bestturbotrainers.uk, rentalyield.uk, sunnypatel.co.uk, zoningbase.com, bestchainsaw.uk, breedhealth.org, dashboardcamreviews.co.uk, radon.tips",
+    "page": 0,
+    "page_size": 0
+  }
+}

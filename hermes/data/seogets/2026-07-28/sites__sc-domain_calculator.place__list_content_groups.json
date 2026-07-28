@@ -1,0 +1,104 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:calculator.place",
+  "args": {},
+  "data": {
+    "content_groups": [
+      {
+        "filters": [
+          {
+            "expression": "https://calculator.place/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Homepage"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/finance/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Finance Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/health/",
+            "operator": "contains"
+          },
+          {
+            "expression": "https://calculator.place/health/",
+            "operator": "notEquals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Health Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/math/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Math Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/blog/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Blog"
+      },
+      {
+        "filters": [
+          {
+            "expression": "https://calculator.place/calculators/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Calculator Hub"
+      },
+      {
+        "filters": [
+          {
+            "expression": "https://calculator.place/health/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Health Hub"
+      },
+      {
+        "filters": [
+          {
+            "expression": "https://calculator.place/resources/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Resources"
+      },
+      {
+        "filters": [
+          {
+            "expression": "https://calculator.place/tools/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tools"
+      }
+    ],
+    "site": "sc-domain:calculator.place"
+  }
+}

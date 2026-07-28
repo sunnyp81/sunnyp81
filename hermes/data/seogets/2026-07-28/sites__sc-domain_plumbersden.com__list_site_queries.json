@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:plumbersden.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:plumbersden.com\". Available sites: www.mugscafe.org, 365androidapp.uk.com, theseshbars.com, visible-ads.com, aiautomation.build, bestreviews.co.uk, huntsmansports.com, knotweedcheck.com, piyadesigns.co.uk, eco-drycleaners.co.uk, nomadranker.com, redlighttherapy.tech, bestcordlessdrills.uk, heatpumpchecker.co.uk, openknowledgeformat.agency, sitemap.digital, bestvibrationplates.co.uk, fixerror.dev, generator.express, tradecost.uk, aiagentic.news, catchment.school, geooptimised.com, luxurytrex.com, noisecheck.uk, ownedwork.com, seo-birmingham.uk, seo.bargains, mugscafe.org, petsnerd.com, text.taxi, bestchainsaw.uk, carrecallhq.com, clinicaltrialhub.org, mydigitalpiano.com, reportbolt.com, wellifepsychology.com, aifor.tech, mobileautomechanic.uk, qrcode.ink, salarydata.co.uk, seo-guildford.uk, seoswansea.uk, shecookssheeats.co.uk, zoningbase.com, radon.tips, seoreading.uk, stackswitch.co, areaiq.uk, citationgenerator.store, laundryhome.co.uk, mobilebarhirelondon.uk, techloved.com, www.laundryhome.co.uk, bestturbotrainers.uk, solarhq.uk, wagearea.com, aatma-aesthetics.com, chargefinder.uk, collinspress.ie, onlybbguns.co.uk, postcode.page, sunnypatel.co.uk, topsewingmachines.uk, bookkeepingflow.com, ideeeas.com, implementai.today, londonwebdesign.site, merch.observer, www.visible-ads.com, aifor.fitness, redlighttherapy.expert, dashboardcamreviews.co.uk, epc.report, formhq.org, openknowledgeformat.academy, bestcordlessdrills.uk, breedhealth.org, auditweb.site, drugnote.com, hummingbird.agency, iwholesales.co.uk, londonweb.design, seo-leeds.uk, supplementcheck.org, theseshbars.com, claimwatt.com, scopepitch.com, 100percentvegan.co.uk, calculator.place, signalcheck.org, drivingtestpass.org, kingpin.design, app.thetutor.link, selflandlord.com, signforge.org, areaiq.uk, lockyourbike.org.uk, mugscafe.org, optimisedwebsite.com, rentalyield.uk, salarycareer.com, checkamover.com, crosstrainerhome.co.uk, seo.archi, e-bikereview.uk, planningleads.org, readingschoolofmartialarts.co.uk, thetutor.link, towerfanreviews.uk, towrating.org, waterhard.uk, agenticaisecured.com, carehome.page, complain.report, punchfoods.com, snaptaken.com, sunnypatel.co.uk, template.how, aifor.property, deadhangs.com, myknifeguide.com, colourlabelprinter.com, thebestmowers.co.uk, agenticai.associates, drinksbykingpin.com, gathrd.co.uk, leadscaffold.com, paragondrycleaners.co.uk, smmcnj.org",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

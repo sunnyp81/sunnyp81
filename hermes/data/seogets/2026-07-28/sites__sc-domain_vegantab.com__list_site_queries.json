@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:vegantab.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:vegantab.com\". Available sites: deadhangs.com, rentalyield.uk, signalcheck.org, visible-ads.com, aatma-aesthetics.com, knotweedcheck.com, mugscafe.org, seo-guildford.uk, seoswansea.uk, waterhard.uk, geooptimised.com, punchfoods.com, salarydata.co.uk, www.visible-ads.com, catchment.school, complain.report, seoreading.uk, agenticai.associates, implementai.today, londonwebdesign.site, tradecost.uk, bestcordlessdrills.uk, drivingtestpass.org, formhq.org, iwholesales.co.uk, mugscafe.org, nomadranker.com, planningleads.org, wagearea.com, aifor.tech, bestcordlessdrills.uk, bookkeepingflow.com, citationgenerator.store, sunnypatel.co.uk, carrecallhq.com, colourlabelprinter.com, dashboardcamreviews.co.uk, openknowledgeformat.academy, topsewingmachines.uk, clinicaltrialhub.org, theseshbars.com, towerfanreviews.uk, chargefinder.uk, aifor.property, signforge.org, redlighttherapy.tech, towrating.org, readingschoolofmartialarts.co.uk, carehome.page, ownedwork.com, petsnerd.com, sitemap.digital, stackswitch.co, sunnypatel.co.uk, aifor.fitness, crosstrainerhome.co.uk, agenticaisecured.com, laundryhome.co.uk, reportbolt.com, snaptaken.com, thebestmowers.co.uk, auditweb.site, leadscaffold.com, seo.archi, bestturbotrainers.uk, calculator.place, generator.express, optimisedwebsite.com, 100percentvegan.co.uk, openknowledgeformat.agency, seo.bargains, text.taxi, qrcode.ink, 365androidapp.uk.com, areaiq.uk, collinspress.ie, drugnote.com, huntsmansports.com, mydigitalpiano.com, postcode.page, heatpumpchecker.co.uk, myknifeguide.com, paragondrycleaners.co.uk, piyadesigns.co.uk, claimwatt.com, drinksbykingpin.com, template.how, www.laundryhome.co.uk, bestchainsaw.uk, checkamover.com, onlybbguns.co.uk, seo-birmingham.uk, theseshbars.com, epc.report, solarhq.uk, wellifepsychology.com, eco-drycleaners.co.uk, fixerror.dev, radon.tips, smmcnj.org, aiautomation.build, ideeeas.com, lockyourbike.org.uk, aiagentic.news, bestreviews.co.uk, e-bikereview.uk, londonweb.design, thetutor.link, gathrd.co.uk, noisecheck.uk, salarycareer.com, scopepitch.com, selflandlord.com, shecookssheeats.co.uk, www.mugscafe.org, zoningbase.com, hummingbird.agency, seo-leeds.uk, supplementcheck.org, techloved.com, areaiq.uk, app.thetutor.link, kingpin.design, redlighttherapy.expert, mobilebarhirelondon.uk, bestvibrationplates.co.uk, luxurytrex.com, merch.observer, mobileautomechanic.uk, breedhealth.org",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

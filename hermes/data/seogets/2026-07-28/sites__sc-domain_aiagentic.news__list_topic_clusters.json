@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:aiagentic.news",
+  "args": {},
+  "data": {
+    "site": "sc-domain:aiagentic.news",
+    "topic_clusters": []
+  }
+}

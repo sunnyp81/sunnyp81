@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:lifecoaches.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:lifecoaches.london\". Available sites: text.taxi, drinksbykingpin.com, punchfoods.com, aifor.tech, calculator.place, citationgenerator.store, drugnote.com, reportbolt.com, salarydata.co.uk, seoswansea.uk, wagearea.com, leadscaffold.com, shecookssheeats.co.uk, stackswitch.co, qrcode.ink, bestcordlessdrills.uk, bookkeepingflow.com, openknowledgeformat.agency, seo.archi, signforge.org, visible-ads.com, aifor.fitness, aifor.property, claimwatt.com, mydigitalpiano.com, openknowledgeformat.academy, paragondrycleaners.co.uk, drivingtestpass.org, wellifepsychology.com, bestcordlessdrills.uk, carrecallhq.com, selflandlord.com, smmcnj.org, thetutor.link, luxurytrex.com, sunnypatel.co.uk, aiagentic.news, fixerror.dev, optimisedwebsite.com, petsnerd.com, tradecost.uk, catchment.school, ownedwork.com, radon.tips, snaptaken.com, supplementcheck.org, www.mugscafe.org, crosstrainerhome.co.uk, mugscafe.org, planningleads.org, topsewingmachines.uk, towrating.org, scopepitch.com, waterhard.uk, zoningbase.com, bestchainsaw.uk, mugscafe.org, collinspress.ie, areaiq.uk, bestreviews.co.uk, bestturbotrainers.uk, carehome.page, clinicaltrialhub.org, implementai.today, londonweb.design, londonwebdesign.site, agenticai.associates, generator.express, geooptimised.com, hummingbird.agency, noisecheck.uk, postcode.page, seo.bargains, theseshbars.com, agenticaisecured.com, huntsmansports.com, kingpin.design, redlighttherapy.tech, formhq.org, seo-leeds.uk, sunnypatel.co.uk, theseshbars.com, towerfanreviews.uk, solarhq.uk, iwholesales.co.uk, chargefinder.uk, bestvibrationplates.co.uk, heatpumpchecker.co.uk, mobileautomechanic.uk, readingschoolofmartialarts.co.uk, app.thetutor.link, auditweb.site, e-bikereview.uk, nomadranker.com, piyadesigns.co.uk, salarycareer.com, seo-birmingham.uk, thebestmowers.co.uk, aatma-aesthetics.com, deadhangs.com, eco-drycleaners.co.uk, epc.report, knotweedcheck.com, seoreading.uk, sitemap.digital, www.laundryhome.co.uk, merch.observer, www.visible-ads.com, checkamover.com, redlighttherapy.expert, template.how, areaiq.uk, breedhealth.org, lockyourbike.org.uk, onlybbguns.co.uk, signalcheck.org, 365androidapp.uk.com, mobilebarhirelondon.uk, 100percentvegan.co.uk, colourlabelprinter.com, complain.report, dashboardcamreviews.co.uk, myknifeguide.com, rentalyield.uk, techloved.com, aiautomation.build, gathrd.co.uk, ideeeas.com, laundryhome.co.uk, seo-guildford.uk",
+    "page": 0,
+    "page_size": 0
+  }
+}

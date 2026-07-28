@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:lifecoaches.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:lifecoaches.london\". Available sites: paragondrycleaners.co.uk, salarycareer.com, supplementcheck.org, signforge.org, aiagentic.news, areaiq.uk, heatpumpchecker.co.uk, piyadesigns.co.uk, readingschoolofmartialarts.co.uk, seo-guildford.uk, template.how, knotweedcheck.com, sunnypatel.co.uk, techloved.com, waterhard.uk, kingpin.design, bestcordlessdrills.uk, bestturbotrainers.uk, collinspress.ie, geooptimised.com, noisecheck.uk, seo.bargains, claimwatt.com, drivingtestpass.org, londonweb.design, merch.observer, openknowledgeformat.agency, qrcode.ink, areaiq.uk, bookkeepingflow.com, hummingbird.agency, postcode.page, seo-birmingham.uk, text.taxi, bestvibrationplates.co.uk, catchment.school, signalcheck.org, checkamover.com, complain.report, eco-drycleaners.co.uk, ideeeas.com, theseshbars.com, bestcordlessdrills.uk, drugnote.com, londonwebdesign.site, salarydata.co.uk, huntsmansports.com, radon.tips, seo.archi, dashboardcamreviews.co.uk, iwholesales.co.uk, mydigitalpiano.com, sitemap.digital, snaptaken.com, mugscafe.org, scopepitch.com, towerfanreviews.uk, wellifepsychology.com, www.mugscafe.org, aifor.property, bestreviews.co.uk, lockyourbike.org.uk, mugscafe.org, nomadranker.com, tradecost.uk, onlybbguns.co.uk, reportbolt.com, mobileautomechanic.uk, ownedwork.com, petsnerd.com, seoreading.uk, thetutor.link, 365androidapp.uk.com, drinksbykingpin.com, fixerror.dev, optimisedwebsite.com, selflandlord.com, solarhq.uk, towrating.org, shecookssheeats.co.uk, wagearea.com, agenticai.associates, breedhealth.org, e-bikereview.uk, epc.report, leadscaffold.com, punchfoods.com, seo-leeds.uk, thebestmowers.co.uk, stackswitch.co, agenticaisecured.com, implementai.today, mobilebarhirelondon.uk, theseshbars.com, www.visible-ads.com, carehome.page, deadhangs.com, visible-ads.com, aifor.tech, gathrd.co.uk, generator.express, luxurytrex.com, openknowledgeformat.academy, crosstrainerhome.co.uk, seoswansea.uk, aiautomation.build, bestchainsaw.uk, citationgenerator.store, rentalyield.uk, myknifeguide.com, auditweb.site, redlighttherapy.expert, smmcnj.org, laundryhome.co.uk, redlighttherapy.tech, www.laundryhome.co.uk, calculator.place, chargefinder.uk, aifor.fitness, carrecallhq.com, aatma-aesthetics.com, app.thetutor.link, clinicaltrialhub.org, planningleads.org, sunnypatel.co.uk, topsewingmachines.uk, zoningbase.com, 100percentvegan.co.uk, colourlabelprinter.com, formhq.org",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

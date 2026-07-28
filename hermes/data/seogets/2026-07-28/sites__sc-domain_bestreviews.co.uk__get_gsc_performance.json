@@ -1,0 +1,15 @@
+{
+  "tool": "get_gsc_performance",
+  "site": "sc-domain:bestreviews.co.uk",
+  "args": {
+    "start_date": "2026-06-30",
+    "end_date": "2026-07-28"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t1\t6921\t0.01\t83.27",
+    "end_date": "2026-07-28",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:bestreviews.co.uk",
+    "start_date": "2026-06-30"
+  }
+}

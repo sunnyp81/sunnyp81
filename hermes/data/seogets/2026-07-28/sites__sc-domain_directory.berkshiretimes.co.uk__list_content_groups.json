@@ -1,0 +1,10 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:directory.berkshiretimes.co.uk",
+  "args": {},
+  "data": {
+    "content_groups": null,
+    "note": "No accessible site matched the request.",
+    "site": "sc-domain:directory.berkshiretimes.co.uk"
+  }
+}

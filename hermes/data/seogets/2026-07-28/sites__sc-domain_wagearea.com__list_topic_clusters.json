@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:wagearea.com",
+  "args": {},
+  "data": {
+    "site": "sc-domain:wagearea.com",
+    "topic_clusters": []
+  }
+}

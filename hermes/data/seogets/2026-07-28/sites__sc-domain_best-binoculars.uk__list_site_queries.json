@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:best-binoculars.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:best-binoculars.uk\". Available sites: aifor.property, selflandlord.com, petsnerd.com, techloved.com, agenticai.associates, drivingtestpass.org, mobilebarhirelondon.uk, mydigitalpiano.com, bestturbotrainers.uk, colourlabelprinter.com, leadscaffold.com, luxurytrex.com, areaiq.uk, knotweedcheck.com, merch.observer, thebestmowers.co.uk, topsewingmachines.uk, towerfanreviews.uk, areaiq.uk, bookkeepingflow.com, citationgenerator.store, noisecheck.uk, towrating.org, www.laundryhome.co.uk, stackswitch.co, complain.report, fixerror.dev, ideeeas.com, laundryhome.co.uk, optimisedwebsite.com, qrcode.ink, redlighttherapy.expert, calculator.place, bestchainsaw.uk, bestvibrationplates.co.uk, rentalyield.uk, seo-birmingham.uk, seo-leeds.uk, salarycareer.com, sitemap.digital, 100percentvegan.co.uk, mugscafe.org, piyadesigns.co.uk, postcode.page, www.mugscafe.org, carrecallhq.com, catchment.school, e-bikereview.uk, huntsmansports.com, londonweb.design, readingschoolofmartialarts.co.uk, tradecost.uk, agenticaisecured.com, heatpumpchecker.co.uk, seo.bargains, checkamover.com, smmcnj.org, crosstrainerhome.co.uk, ownedwork.com, punchfoods.com, scopepitch.com, shecookssheeats.co.uk, visible-ads.com, wellifepsychology.com, drinksbykingpin.com, londonwebdesign.site, nomadranker.com, sunnypatel.co.uk, 365androidapp.uk.com, bestcordlessdrills.uk, myknifeguide.com, onlybbguns.co.uk, snaptaken.com, aifor.tech, claimwatt.com, drugnote.com, waterhard.uk, geooptimised.com, radon.tips, salarydata.co.uk, collinspress.ie, paragondrycleaners.co.uk, aiagentic.news, dashboardcamreviews.co.uk, deadhangs.com, epc.report, iwholesales.co.uk, theseshbars.com, seo.archi, seoswansea.uk, auditweb.site, bestcordlessdrills.uk, mugscafe.org, planningleads.org, aatma-aesthetics.com, breedhealth.org, implementai.today, mobileautomechanic.uk, www.visible-ads.com, aiautomation.build, kingpin.design, lockyourbike.org.uk, solarhq.uk, carehome.page, gathrd.co.uk, template.how, eco-drycleaners.co.uk, formhq.org, sunnypatel.co.uk, text.taxi, thetutor.link, zoningbase.com, aifor.fitness, supplementcheck.org, bestreviews.co.uk, openknowledgeformat.agency, app.thetutor.link, clinicaltrialhub.org, generator.express, hummingbird.agency, redlighttherapy.tech, seo-guildford.uk, seoreading.uk, signalcheck.org, theseshbars.com, chargefinder.uk, openknowledgeformat.academy, reportbolt.com, signforge.org, wagearea.com",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

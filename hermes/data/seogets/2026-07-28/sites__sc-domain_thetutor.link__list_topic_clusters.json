@@ -1,0 +1,164 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:thetutor.link",
+  "args": {},
+  "data": {
+    "site": "sc-domain:thetutor.link",
+    "topic_clusters": [
+      {
+        "filters": [
+          {
+            "expression": "529",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "529 College Savings Plans"
+      },
+      {
+        "filters": [
+          {
+            "expression": "franchise",
+            "operator": "contains"
+          },
+          {
+            "expression": "apprenticeship",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tutoring Franchises"
+      },
+      {
+        "filters": [
+          {
+            "expression": "tutoring job|tutor job|online tutoring job",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tutoring Job Opportunities"
+      },
+      {
+        "filters": [
+          {
+            "expression": "become a tutor|how to be a tutor|start tutoring",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Becoming a Tutor"
+      },
+      {
+        "filters": [
+          {
+            "expression": "chemistry tutor|maths tutor|english tutor|biology tutor|physics tutor|computer science tutor|writing tutor",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Subject-Specific Tutoring"
+      },
+      {
+        "filters": [
+          {
+            "expression": "glasgow|birmingham|bristol|manchester|london",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Location-Based Tutoring"
+      },
+      {
+        "filters": [
+          {
+            "expression": "full time student|college student work|hours a week|study hours",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "College Student Work Hours"
+      },
+      {
+        "filters": [
+          {
+            "expression": "advertise tutoring|market yourself|promote tutoring",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tutoring Business Marketing"
+      },
+      {
+        "filters": [
+          {
+            "expression": "gcse",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "GCSE Exam Information"
+      },
+      {
+        "filters": [
+          {
+            "expression": "varsity tutors cost|sylvan cost|tutor.com cost|tutoring cost",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tutoring Costs and Pricing"
+      },
+      {
+        "filters": [
+          {
+            "expression": "apprenticeship|international student",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "International Student Apprenticeships"
+      },
+      {
+        "filters": [
+          {
+            "expression": "tutor vs teacher|difference between|teacher and tutor",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tutor vs Teacher Differences"
+      },
+      {
+        "filters": [
+          {
+            "expression": "sat tutor|sat instructor",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SAT Tutoring"
+      },
+      {
+        "filters": [
+          {
+            "expression": "tutor.com|varsity tutors|chegg|tutorpeers",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Online Tutoring Platforms"
+      },
+      {
+        "filters": [
+          {
+            "expression": "tutoring on resume|tutor resume|tutoring experience",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tutoring Resume and Experience"
+      }
+    ]
+  }
+}

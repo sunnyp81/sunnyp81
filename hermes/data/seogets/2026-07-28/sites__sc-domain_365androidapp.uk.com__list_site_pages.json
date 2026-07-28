@@ -1,0 +1,22 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:365androidapp.uk.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://365androidapp.uk.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 1 unique paths across 1 hosts from 2025-03-28 to 2026-07-27.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

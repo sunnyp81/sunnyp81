@@ -1,0 +1,48 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:piyadesigns.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://piyadesigns.co.uk",
+        "paths": [
+          "/",
+          "/about/",
+          "/face-painting-cost",
+          "/henna-artist-reading",
+          "/henna-artist-reading/",
+          "/prices/",
+          "/about",
+          "/bridal-mehndi",
+          "/bridal-mehndi-cost/",
+          "/bridal-mehndi/",
+          "/brows-and-threading",
+          "/brows-and-threading/",
+          "/contact",
+          "/face-painting-cost/",
+          "/face-painting/",
+          "/henna-artist-slough",
+          "/henna-artist-slough/",
+          "/is-black-henna-dangerous",
+          "/is-black-henna-dangerous/",
+          "/party-henna/",
+          "/prices"
+        ]
+      },
+      {
+        "host": "http://piyadesigns.co.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 22 unique paths across 2 hosts from 2025-03-28 to 2026-07-27.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

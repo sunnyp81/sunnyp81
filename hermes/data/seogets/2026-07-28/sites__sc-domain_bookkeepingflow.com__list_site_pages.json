@@ -1,0 +1,48 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:bookkeepingflow.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://bookkeepingflow.com",
+        "paths": [
+          "/",
+          "/blog/bookkeeping/expense-categories-small-business/",
+          "/blog/",
+          "/blog/bookkeeping/bank-reconciliation-guide/",
+          "/blog/bookkeeping/bookkeeper-cost/",
+          "/blog/bookkeeping/cash-vs-accrual-accounting/",
+          "/blog/cash-flow/",
+          "/blog/cash-flow/improving-cash-flow/",
+          "/blog/invoicing/",
+          "/blog/taxes/home-office-deduction/",
+          "/blog/taxes/states/illinois/",
+          "/compare/",
+          "/compare/quickbooks-alternative/",
+          "/industries/ecommerce/",
+          "/industries/real-estate/",
+          "/industries/restaurants/",
+          "/resources/calculators/",
+          "/resources/calculators/bookkeeper-cost/",
+          "/resources/calculators/freelance-rate/",
+          "/resources/calculators/home-office-deduction/",
+          "/resources/calculators/quarterly-estimated-tax/",
+          "/resources/calculators/quickbooks-migration-checklist/",
+          "/resources/templates/",
+          "/resources/templates/cash-flow-forecast/",
+          "/resources/templates/chart-of-accounts/",
+          "/resources/templates/expense-tracking/",
+          "/resources/templates/invoice-templates/"
+        ]
+      }
+    ],
+    "note": "Returned 27 unique paths across 1 hosts from 2025-03-28 to 2026-07-27.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

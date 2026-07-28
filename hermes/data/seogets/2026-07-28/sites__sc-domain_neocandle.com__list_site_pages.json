@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:neocandle.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:neocandle.com\". Available sites: collinspress.ie, drinksbykingpin.com, lockyourbike.org.uk, merch.observer, www.mugscafe.org, eco-drycleaners.co.uk, londonwebdesign.site, optimisedwebsite.com, scopepitch.com, thebestmowers.co.uk, sitemap.digital, gathrd.co.uk, catchment.school, petsnerd.com, redlighttherapy.tech, aiagentic.news, carehome.page, laundryhome.co.uk, agenticaisecured.com, luxurytrex.com, bestturbotrainers.uk, calculator.place, salarydata.co.uk, template.how, bestcordlessdrills.uk, geooptimised.com, waterhard.uk, drugnote.com, e-bikereview.uk, bestvibrationplates.co.uk, dashboardcamreviews.co.uk, implementai.today, reportbolt.com, visible-ads.com, aiautomation.build, wellifepsychology.com, chargefinder.uk, seo-leeds.uk, seoreading.uk, 365androidapp.uk.com, aifor.fitness, paragondrycleaners.co.uk, qrcode.ink, radon.tips, bestreviews.co.uk, kingpin.design, mobileautomechanic.uk, onlybbguns.co.uk, www.visible-ads.com, auditweb.site, citationgenerator.store, colourlabelprinter.com, myknifeguide.com, noisecheck.uk, sunnypatel.co.uk, bookkeepingflow.com, londonweb.design, rentalyield.uk, seo.archi, solarhq.uk, app.thetutor.link, crosstrainerhome.co.uk, piyadesigns.co.uk, seoswansea.uk, techloved.com, signalcheck.org, 100percentvegan.co.uk, openknowledgeformat.agency, salarycareer.com, seo-birmingham.uk, stackswitch.co, huntsmansports.com, agenticai.associates, aifor.property, aifor.tech, bestchainsaw.uk, breedhealth.org, carrecallhq.com, complain.report, redlighttherapy.expert, claimwatt.com, heatpumpchecker.co.uk, hummingbird.agency, mydigitalpiano.com, seo.bargains, checkamover.com, shecookssheeats.co.uk, signforge.org, sunnypatel.co.uk, zoningbase.com, postcode.page, thetutor.link, deadhangs.com, iwholesales.co.uk, mugscafe.org, openknowledgeformat.academy, selflandlord.com, smmcnj.org, text.taxi, tradecost.uk, areaiq.uk, bestcordlessdrills.uk, snaptaken.com, supplementcheck.org, mugscafe.org, theseshbars.com, towrating.org, www.laundryhome.co.uk, ideeeas.com, clinicaltrialhub.org, epc.report, leadscaffold.com, generator.express, formhq.org, mobilebarhirelondon.uk, punchfoods.com, seo-guildford.uk, knotweedcheck.com, planningleads.org, towerfanreviews.uk, ownedwork.com, topsewingmachines.uk, wagearea.com, aatma-aesthetics.com, areaiq.uk, drivingtestpass.org, fixerror.dev, nomadranker.com, readingschoolofmartialarts.co.uk, theseshbars.com",
+    "page": 0,
+    "page_size": 0
+  }
+}

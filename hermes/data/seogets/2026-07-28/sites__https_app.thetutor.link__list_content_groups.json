@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://app.thetutor.link/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "site": "https://app.thetutor.link/"
+  }
+}

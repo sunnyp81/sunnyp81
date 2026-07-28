@@ -1,0 +1,126 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:deadhangs.com",
+  "args": {},
+  "data": {
+    "site": "sc-domain:deadhangs.com",
+    "topic_clusters": [
+      {
+        "filters": [
+          {
+            "expression": "world record|guinness|longest|record|wr|weltrekord",
+            "operator": "contains"
+          },
+          {
+            "expression": "average|good|how long should",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "World Records & Records"
+      },
+      {
+        "filters": [
+          {
+            "expression": "average|normal|typical|standard|norm",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Average Times & Benchmarks"
+      },
+      {
+        "filters": [
+          {
+            "expression": "by age|age chart|13 year old|14 year old|15 year old|16 year old|over 50|50 year old|teenagers|adults|beginner",
+            "operator": "contains"
+          },
+          {
+            "expression": "world record|guinness",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Age-Specific Standards"
+      },
+      {
+        "filters": [
+          {
+            "expression": "female|women|male|men|gender",
+            "operator": "contains"
+          },
+          {
+            "expression": "world record|guinness|longest",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Gender-Specific Performance"
+      },
+      {
+        "filters": [
+          {
+            "expression": "how to|how long should|how often|how many|train|get better",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "How-To & Training Guides"
+      },
+      {
+        "filters": [
+          {
+            "expression": "exercise|workout|benefits|muscles worked|what are|what do|build|for grip strength|for posture|for back pain",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Exercise Information & Benefits"
+      },
+      {
+        "filters": [
+          {
+            "expression": "for gamers|for healthcare|for truck drivers|for writers|for people with disabilities|for teens|for beginners|at home|everyday",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Specific Use Cases & Applications"
+      },
+      {
+        "filters": [
+          {
+            "expression": "grip|hand position|form|properly|technique|weighted|flexed arm",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Technique & Form"
+      },
+      {
+        "filters": [
+          {
+            "expression": "harald riise|peter attia|16 minutes",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Notable Athletes & Achievements"
+      },
+      {
+        "filters": [
+          {
+            "expression": "what is dead hang|dead hang|deadhang|static hang",
+            "operator": "contains"
+          },
+          {
+            "expression": "world record|average|by age|record|how|train|exercise|benefits|for|guinness|longest|time|grip|weighted|form|riise|attia",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "General Dead Hang Information"
+      }
+    ]
+  }
+}

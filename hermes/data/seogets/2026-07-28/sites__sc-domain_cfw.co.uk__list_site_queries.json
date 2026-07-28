@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:cfw.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:cfw.co.uk\". Available sites: geooptimised.com, knotweedcheck.com, openknowledgeformat.academy, sunnypatel.co.uk, thebestmowers.co.uk, carehome.page, colourlabelprinter.com, generator.express, ownedwork.com, redlighttherapy.tech, rentalyield.uk, signforge.org, towrating.org, agenticaisecured.com, heatpumpchecker.co.uk, postcode.page, topsewingmachines.uk, towerfanreviews.uk, wellifepsychology.com, 100percentvegan.co.uk, seo.bargains, agenticai.associates, fixerror.dev, londonwebdesign.site, planningleads.org, seoswansea.uk, sitemap.digital, zoningbase.com, clinicaltrialhub.org, laundryhome.co.uk, punchfoods.com, seo-birmingham.uk, catchment.school, drivingtestpass.org, epc.report, iwholesales.co.uk, kingpin.design, onlybbguns.co.uk, template.how, breedhealth.org, aatma-aesthetics.com, bestreviews.co.uk, bestturbotrainers.uk, bookkeepingflow.com, leadscaffold.com, myknifeguide.com, theseshbars.com, aifor.fitness, app.thetutor.link, drugnote.com, eco-drycleaners.co.uk, seo-leeds.uk, seoreading.uk, text.taxi, checkamover.com, dashboardcamreviews.co.uk, mugscafe.org, scopepitch.com, supplementcheck.org, aifor.tech, carrecallhq.com, shecookssheeats.co.uk, theseshbars.com, tradecost.uk, waterhard.uk, aiautomation.build, implementai.today, noisecheck.uk, thetutor.link, aifor.property, chargefinder.uk, www.visible-ads.com, crosstrainerhome.co.uk, qrcode.ink, snaptaken.com, ideeeas.com, claimwatt.com, luxurytrex.com, seo.archi, bestchainsaw.uk, mydigitalpiano.com, e-bikereview.uk, huntsmansports.com, readingschoolofmartialarts.co.uk, petsnerd.com, solarhq.uk, calculator.place, areaiq.uk, formhq.org, openknowledgeformat.agency, optimisedwebsite.com, techloved.com, visible-ads.com, signalcheck.org, sunnypatel.co.uk, lockyourbike.org.uk, aiagentic.news, mobilebarhirelondon.uk, piyadesigns.co.uk, gathrd.co.uk, stackswitch.co, auditweb.site, drinksbykingpin.com, salarycareer.com, bestcordlessdrills.uk, citationgenerator.store, mobileautomechanic.uk, mugscafe.org, redlighttherapy.expert, smmcnj.org, bestcordlessdrills.uk, collinspress.ie, hummingbird.agency, seo-guildford.uk, www.laundryhome.co.uk, 365androidapp.uk.com, areaiq.uk, radon.tips, reportbolt.com, merch.observer, deadhangs.com, londonweb.design, paragondrycleaners.co.uk, salarydata.co.uk, selflandlord.com, wagearea.com, bestvibrationplates.co.uk, www.mugscafe.org, complain.report, nomadranker.com",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

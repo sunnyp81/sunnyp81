@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:solarenergy.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:solarenergy.london\". Available sites: aifor.property, claimwatt.com, kingpin.design, seo.bargains, snaptaken.com, auditweb.site, breedhealth.org, knotweedcheck.com, openknowledgeformat.academy, optimisedwebsite.com, thetutor.link, aiautomation.build, dashboardcamreviews.co.uk, noisecheck.uk, ownedwork.com, seoreading.uk, aifor.fitness, crosstrainerhome.co.uk, drivingtestpass.org, drugnote.com, gathrd.co.uk, postcode.page, towrating.org, bestcordlessdrills.uk, e-bikereview.uk, paragondrycleaners.co.uk, salarydata.co.uk, selflandlord.com, template.how, thebestmowers.co.uk, aiagentic.news, checkamover.com, ideeeas.com, redlighttherapy.expert, rentalyield.uk, www.mugscafe.org, calculator.place, epc.report, huntsmansports.com, seo-guildford.uk, bestcordlessdrills.uk, bestvibrationplates.co.uk, zoningbase.com, agenticai.associates, aifor.tech, areaiq.uk, bestreviews.co.uk, signalcheck.org, 100percentvegan.co.uk, areaiq.uk, complain.report, iwholesales.co.uk, luxurytrex.com, text.taxi, merch.observer, myknifeguide.com, tradecost.uk, fixerror.dev, punchfoods.com, shecookssheeats.co.uk, chargefinder.uk, leadscaffold.com, mugscafe.org, seo.archi, towerfanreviews.uk, mobilebarhirelondon.uk, scopepitch.com, visible-ads.com, waterhard.uk, aatma-aesthetics.com, bestturbotrainers.uk, formhq.org, implementai.today, colourlabelprinter.com, mobileautomechanic.uk, radon.tips, stackswitch.co, bookkeepingflow.com, carehome.page, geooptimised.com, mydigitalpiano.com, sitemap.digital, sunnypatel.co.uk, wagearea.com, www.visible-ads.com, clinicaltrialhub.org, heatpumpchecker.co.uk, londonweb.design, smmcnj.org, sunnypatel.co.uk, techloved.com, carrecallhq.com, citationgenerator.store, deadhangs.com, openknowledgeformat.agency, readingschoolofmartialarts.co.uk, theseshbars.com, theseshbars.com, londonwebdesign.site, redlighttherapy.tech, reportbolt.com, solarhq.uk, planningleads.org, seo-birmingham.uk, seoswansea.uk, app.thetutor.link, eco-drycleaners.co.uk, laundryhome.co.uk, mugscafe.org, onlybbguns.co.uk, www.laundryhome.co.uk, catchment.school, seo-leeds.uk, agenticaisecured.com, bestchainsaw.uk, drinksbykingpin.com, hummingbird.agency, wellifepsychology.com, petsnerd.com, salarycareer.com, 365androidapp.uk.com, lockyourbike.org.uk, topsewingmachines.uk, generator.express, collinspress.ie, piyadesigns.co.uk, signforge.org, supplementcheck.org, nomadranker.com, qrcode.ink",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

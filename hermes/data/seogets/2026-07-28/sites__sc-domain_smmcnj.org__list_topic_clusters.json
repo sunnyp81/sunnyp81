@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:smmcnj.org",
+  "args": {},
+  "data": {
+    "site": "sc-domain:smmcnj.org",
+    "topic_clusters": []
+  }
+}

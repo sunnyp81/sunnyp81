@@ -1,0 +1,124 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:calculator.place",
+  "args": {},
+  "data": {
+    "site": "sc-domain:calculator.place",
+    "topic_clusters": [
+      {
+        "filters": [
+          {
+            "expression": "mortgage|mortgage calculator",
+            "operator": "contains"
+          },
+          {
+            "expression": "20 year mortgage calculator|25 year mortgage calculator|25 years mortgage calculator|30 fixed mortgage calculator|calculate 30 year mortgage",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Mortgage Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "weight|calorie|calories|metabolic|tdee|hamwi",
+            "operator": "contains"
+          },
+          {
+            "expression": "175 cm height ideal weight|calorie needs 62 kg 178 cm male maintenance|kg to calorie conversion",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Health & Fitness Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "credit card|payoff|return calculator|investment|p/l",
+            "operator": "contains"
+          },
+          {
+            "expression": "mortgage",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Financial Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "pregnancy|due date|menstrual|lmp",
+            "operator": "contains"
+          },
+          {
+            "expression": "figure out pregnancy due date|last menstrual period calculator",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Pregnancy & Due Date Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "kalkulator|hitung|menghitung",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Indonesian Language Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hindi|\u0915\u0948\u0932\u0915\u0941\u0932\u0947\u091f\u0930",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Hindi Language Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "calculator|calculator online|online calculator|free calculator|calculator.net|calculator net|calculator place",
+            "operator": "equals"
+          },
+          {
+            "expression": "calculator website|calculator site|free online calculator",
+            "operator": "contains"
+          },
+          {
+            "expression": "mortgage|weight|calorie|pregnancy|credit card|kalkulator|hindi|\u0915\u0948\u0932\u0915\u0941\u0932\u0947\u091f\u0930",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "General Calculator Searches"
+      },
+      {
+        "filters": [
+          {
+            "expression": "average|averaging|omni calculator average",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Average & Statistical Calculators"
+      },
+      {
+        "filters": [
+          {
+            "expression": "place value|place calculator|decimal places",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Place Value & Math Calculators"
+      }
+    ]
+  }
+}

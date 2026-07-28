@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:london.realty.directory",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:london.realty.directory\". Available sites: epc.report, generator.express, heatpumpchecker.co.uk, aifor.fitness, catchment.school, clinicaltrialhub.org, collinspress.ie, complain.report, ideeeas.com, auditweb.site, bestcordlessdrills.uk, sunnypatel.co.uk, knotweedcheck.com, petsnerd.com, crosstrainerhome.co.uk, drinksbykingpin.com, drugnote.com, kingpin.design, nomadranker.com, selflandlord.com, visible-ads.com, calculator.place, claimwatt.com, laundryhome.co.uk, leadscaffold.com, implementai.today, lockyourbike.org.uk, reportbolt.com, salarydata.co.uk, 100percentvegan.co.uk, noisecheck.uk, radon.tips, aiagentic.news, bestturbotrainers.uk, londonwebdesign.site, thebestmowers.co.uk, chargefinder.uk, colourlabelprinter.com, 365androidapp.uk.com, bestreviews.co.uk, mobileautomechanic.uk, template.how, seo-leeds.uk, www.mugscafe.org, carrecallhq.com, shecookssheeats.co.uk, formhq.org, londonweb.design, punchfoods.com, qrcode.ink, stackswitch.co, breedhealth.org, redlighttherapy.tech, towerfanreviews.uk, www.laundryhome.co.uk, iwholesales.co.uk, geooptimised.com, salarycareer.com, smmcnj.org, snaptaken.com, solarhq.uk, sunnypatel.co.uk, wellifepsychology.com, hummingbird.agency, bestcordlessdrills.uk, checkamover.com, openknowledgeformat.academy, seo.archi, seoswansea.uk, sitemap.digital, text.taxi, bestvibrationplates.co.uk, carehome.page, mobilebarhirelondon.uk, scopepitch.com, thetutor.link, topsewingmachines.uk, areaiq.uk, agenticai.associates, app.thetutor.link, rentalyield.uk, towrating.org, aiautomation.build, agenticaisecured.com, aifor.property, bookkeepingflow.com, deadhangs.com, drivingtestpass.org, paragondrycleaners.co.uk, huntsmansports.com, postcode.page, seo-birmingham.uk, seoreading.uk, aatma-aesthetics.com, mydigitalpiano.com, seo.bargains, areaiq.uk, citationgenerator.store, supplementcheck.org, bestchainsaw.uk, dashboardcamreviews.co.uk, e-bikereview.uk, ownedwork.com, theseshbars.com, wagearea.com, waterhard.uk, www.visible-ads.com, gathrd.co.uk, onlybbguns.co.uk, planningleads.org, signalcheck.org, merch.observer, openknowledgeformat.agency, piyadesigns.co.uk, seo-guildford.uk, mugscafe.org, myknifeguide.com, optimisedwebsite.com, redlighttherapy.expert, eco-drycleaners.co.uk, luxurytrex.com, theseshbars.com, zoningbase.com, fixerror.dev, mugscafe.org, techloved.com, signforge.org, aifor.tech, readingschoolofmartialarts.co.uk, tradecost.uk",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

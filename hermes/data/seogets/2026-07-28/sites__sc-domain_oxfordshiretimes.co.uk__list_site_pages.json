@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:oxfordshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:oxfordshiretimes.co.uk\". Available sites: agenticai.associates, bestchainsaw.uk, chargefinder.uk, epc.report, seo-birmingham.uk, leadscaffold.com, text.taxi, bestreviews.co.uk, www.laundryhome.co.uk, www.visible-ads.com, crosstrainerhome.co.uk, mugscafe.org, qrcode.ink, smmcnj.org, complain.report, e-bikereview.uk, seo.archi, towerfanreviews.uk, implementai.today, towrating.org, 100percentvegan.co.uk, luxurytrex.com, mugscafe.org, solarhq.uk, theseshbars.com, ideeeas.com, snaptaken.com, deadhangs.com, generator.express, huntsmansports.com, waterhard.uk, techloved.com, checkamover.com, carrecallhq.com, myknifeguide.com, readingschoolofmartialarts.co.uk, seo.bargains, sitemap.digital, zoningbase.com, agenticaisecured.com, clinicaltrialhub.org, mobileautomechanic.uk, piyadesigns.co.uk, seoreading.uk, colourlabelprinter.com, signforge.org, dashboardcamreviews.co.uk, ownedwork.com, areaiq.uk, postcode.page, salarydata.co.uk, template.how, claimwatt.com, laundryhome.co.uk, onlybbguns.co.uk, optimisedwebsite.com, selflandlord.com, wagearea.com, www.mugscafe.org, breedhealth.org, londonwebdesign.site, punchfoods.com, seoswansea.uk, paragondrycleaners.co.uk, radon.tips, seo-leeds.uk, visible-ads.com, aifor.property, auditweb.site, mydigitalpiano.com, openknowledgeformat.agency, supplementcheck.org, thebestmowers.co.uk, bestcordlessdrills.uk, calculator.place, mobilebarhirelondon.uk, wellifepsychology.com, 365androidapp.uk.com, redlighttherapy.expert, reportbolt.com, aifor.fitness, heatpumpchecker.co.uk, merch.observer, scopepitch.com, aifor.tech, catchment.school, eco-drycleaners.co.uk, formhq.org, geooptimised.com, theseshbars.com, thetutor.link, aatma-aesthetics.com, bestcordlessdrills.uk, redlighttherapy.tech, stackswitch.co, sunnypatel.co.uk, areaiq.uk, citationgenerator.store, collinspress.ie, gathrd.co.uk, petsnerd.com, iwholesales.co.uk, salarycareer.com, tradecost.uk, app.thetutor.link, bestturbotrainers.uk, bookkeepingflow.com, drugnote.com, knotweedcheck.com, topsewingmachines.uk, aiautomation.build, drivingtestpass.org, kingpin.design, lockyourbike.org.uk, noisecheck.uk, nomadranker.com, openknowledgeformat.academy, planningleads.org, fixerror.dev, rentalyield.uk, seo-guildford.uk, signalcheck.org, aiagentic.news, bestvibrationplates.co.uk, carehome.page, drinksbykingpin.com, hummingbird.agency, shecookssheeats.co.uk, sunnypatel.co.uk, londonweb.design",
+    "page": 0,
+    "page_size": 0
+  }
+}

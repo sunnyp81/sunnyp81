@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:teachmediy.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:teachmediy.co.uk\". Available sites: areaiq.uk, clinicaltrialhub.org, generator.express, openknowledgeformat.academy, seoreading.uk, implementai.today, piyadesigns.co.uk, readingschoolofmartialarts.co.uk, checkamover.com, snaptaken.com, 100percentvegan.co.uk, catchment.school, mydigitalpiano.com, salarydata.co.uk, selflandlord.com, seo-leeds.uk, seoswansea.uk, visible-ads.com, carrecallhq.com, mobilebarhirelondon.uk, fixerror.dev, heatpumpchecker.co.uk, mobileautomechanic.uk, redlighttherapy.tech, scopepitch.com, template.how, theseshbars.com, www.mugscafe.org, 365androidapp.uk.com, breedhealth.org, noisecheck.uk, onlybbguns.co.uk, collinspress.ie, topsewingmachines.uk, app.thetutor.link, deadhangs.com, seo-guildford.uk, towrating.org, hummingbird.agency, openknowledgeformat.agency, thetutor.link, reportbolt.com, techloved.com, tradecost.uk, www.visible-ads.com, bestturbotrainers.uk, gathrd.co.uk, nomadranker.com, petsnerd.com, punchfoods.com, smmcnj.org, supplementcheck.org, waterhard.uk, agenticaisecured.com, aifor.property, complain.report, drinksbykingpin.com, signforge.org, aifor.tech, bestcordlessdrills.uk, carehome.page, lockyourbike.org.uk, sunnypatel.co.uk, towerfanreviews.uk, zoningbase.com, kingpin.design, ownedwork.com, wagearea.com, bestvibrationplates.co.uk, e-bikereview.uk, epc.report, planningleads.org, crosstrainerhome.co.uk, londonwebdesign.site, shecookssheeats.co.uk, agenticai.associates, claimwatt.com, formhq.org, luxurytrex.com, thebestmowers.co.uk, bestchainsaw.uk, paragondrycleaners.co.uk, postcode.page, qrcode.ink, solarhq.uk, chargefinder.uk, knotweedcheck.com, seo.bargains, ideeeas.com, laundryhome.co.uk, mugscafe.org, seo-birmingham.uk, auditweb.site, dashboardcamreviews.co.uk, drugnote.com, geooptimised.com, aatma-aesthetics.com, bestreviews.co.uk, citationgenerator.store, eco-drycleaners.co.uk, bestcordlessdrills.uk, colourlabelprinter.com, myknifeguide.com, seo.archi, sunnypatel.co.uk, londonweb.design, mugscafe.org, text.taxi, sitemap.digital, stackswitch.co, theseshbars.com, www.laundryhome.co.uk, salarycareer.com, aiautomation.build, calculator.place, radon.tips, redlighttherapy.expert, signalcheck.org, drivingtestpass.org, merch.observer, wellifepsychology.com, huntsmansports.com, optimisedwebsite.com, rentalyield.uk, areaiq.uk, bookkeepingflow.com, leadscaffold.com, iwholesales.co.uk, aiagentic.news, aifor.fitness",
+    "page": 0,
+    "page_size": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:solarhq.uk",
+  "args": {},
+  "data": {
+    "site": "sc-domain:solarhq.uk",
+    "topic_clusters": []
+  }
+}

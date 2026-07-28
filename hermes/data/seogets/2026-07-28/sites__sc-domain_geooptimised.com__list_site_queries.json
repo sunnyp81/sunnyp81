@@ -1,0 +1,47 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:geooptimised.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 31 queries from 2025-03-28 to 2026-07-27.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "\"ai visibility toolkit\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "\"brand radar\" ahrefs",
+      "\"brightonseo\"",
+      "\"freeths\"",
+      "\"gumshoe ai\"",
+      "\"gumshoe.ai\"",
+      "\"jason barnard\" -podcast -circus -zipzap -lithium -brew -president -hydratight -township -football -stock -game -match",
+      "\"kevin indig\"",
+      "\"lily ray\" -sex -porn -xxx",
+      "\"otterly.ai\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "\"peec ai\"",
+      "\"peec\" visibility or aeo or geo or search or citation or seo or generative or answer or engine or optimization",
+      "\"rand fishkin\"",
+      "\"rankability\"",
+      "\"scrunch ai\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "\"searchengineland\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "\"searchengineland.com\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "\"semrush.com\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "\"sparktoro\"",
+      "\"weightmans\"",
+      "-site:facebook.com -site:fb.me -site:youtube.com -site:youtu.be -site:youtube.be -site:twitter.com -site:instagram.com -site:tiktok.com -site:vm.tiktok.com -site:t.co -site:x.com -site:reddit.com \"peec ai\"",
+      "aeo ai brand mentions coverage",
+      "aeo search visibility",
+      "aeo visibility",
+      "ai geo agency",
+      "geo visibility",
+      "geo visibilty",
+      "geoop review",
+      "ipullrank",
+      "optimised technical geo",
+      "where can i find a geo agency experienced with chatgpt optimization?"
+    ]
+  }
+}

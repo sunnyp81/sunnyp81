@@ -1,0 +1,10 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:solarenergy.london",
+  "args": {},
+  "data": {
+    "note": "No accessible site matched the request.",
+    "site": "sc-domain:solarenergy.london",
+    "topic_clusters": null
+  }
+}

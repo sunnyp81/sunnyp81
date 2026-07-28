@@ -1,0 +1,10 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:sephrausa.com",
+  "args": {},
+  "data": {
+    "note": "No accessible site matched the request.",
+    "site": "sc-domain:sephrausa.com",
+    "topic_clusters": null
+  }
+}

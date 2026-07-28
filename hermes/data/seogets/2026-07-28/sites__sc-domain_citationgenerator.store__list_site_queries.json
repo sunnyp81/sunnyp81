@@ -1,0 +1,30 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:citationgenerator.store",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 14 queries from 2025-03-28 to 2026-07-27.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "acs citation generator",
+      "acs citation machine",
+      "acs citation maker",
+      "acs format generator",
+      "acs reference generator",
+      "acs style citation generator",
+      "american chemical society citation generator.",
+      "apsa citation generator",
+      "asce reference generator",
+      "asme citation generator",
+      "citation machine acs",
+      "cite machine acs",
+      "cse article citation generator",
+      "cse magazine article citation generator"
+    ]
+  }
+}

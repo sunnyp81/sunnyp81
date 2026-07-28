@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:jewellers.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:jewellers.london\". Available sites: huntsmansports.com, implementai.today, laundryhome.co.uk, mobilebarhirelondon.uk, tradecost.uk, 100percentvegan.co.uk, aatma-aesthetics.com, aifor.property, claimwatt.com, knotweedcheck.com, leadscaffold.com, seoreading.uk, wellifepsychology.com, aiautomation.build, bestturbotrainers.uk, selflandlord.com, signforge.org, bestreviews.co.uk, breedhealth.org, checkamover.com, epc.report, hummingbird.agency, postcode.page, waterhard.uk, bestcordlessdrills.uk, catchment.school, nomadranker.com, onlybbguns.co.uk, topsewingmachines.uk, heatpumpchecker.co.uk, mydigitalpiano.com, sunnypatel.co.uk, towerfanreviews.uk, areaiq.uk, bestcordlessdrills.uk, citationgenerator.store, readingschoolofmartialarts.co.uk, scopepitch.com, towrating.org, text.taxi, theseshbars.com, www.laundryhome.co.uk, colourlabelprinter.com, qrcode.ink, rentalyield.uk, thetutor.link, areaiq.uk, crosstrainerhome.co.uk, luxurytrex.com, mugscafe.org, template.how, theseshbars.com, seo-guildford.uk, drivingtestpass.org, merch.observer, sitemap.digital, www.visible-ads.com, signalcheck.org, clinicaltrialhub.org, generator.express, myknifeguide.com, openknowledgeformat.academy, app.thetutor.link, bestvibrationplates.co.uk, kingpin.design, redlighttherapy.expert, seoswansea.uk, complain.report, geooptimised.com, lockyourbike.org.uk, punchfoods.com, reportbolt.com, seo-birmingham.uk, shecookssheeats.co.uk, visible-ads.com, collinspress.ie, deadhangs.com, agenticai.associates, agenticaisecured.com, fixerror.dev, openknowledgeformat.agency, seo.bargains, www.mugscafe.org, londonwebdesign.site, zoningbase.com, mugscafe.org, piyadesigns.co.uk, e-bikereview.uk, radon.tips, carehome.page, drugnote.com, planningleads.org, seo-leeds.uk, supplementcheck.org, carrecallhq.com, chargefinder.uk, londonweb.design, aifor.fitness, auditweb.site, dashboardcamreviews.co.uk, eco-drycleaners.co.uk, 365androidapp.uk.com, aifor.tech, ownedwork.com, petsnerd.com, snaptaken.com, bookkeepingflow.com, gathrd.co.uk, mobileautomechanic.uk, optimisedwebsite.com, redlighttherapy.tech, techloved.com, paragondrycleaners.co.uk, seo.archi, smmcnj.org, bestchainsaw.uk, drinksbykingpin.com, iwholesales.co.uk, noisecheck.uk, salarycareer.com, salarydata.co.uk, calculator.place, ideeeas.com, solarhq.uk, stackswitch.co, wagearea.com, formhq.org, sunnypatel.co.uk, thebestmowers.co.uk, aiagentic.news",
+    "page": 0,
+    "page_size": 0
+  }
+}

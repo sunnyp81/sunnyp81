@@ -1,0 +1,152 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://sunnypatel.co.uk/",
+  "args": {},
+  "data": {
+    "site": "sc-domain:sunnypatel.co.uk",
+    "topic_clusters": [
+      {
+        "filters": [
+          {
+            "expression": "cost|price|pricing|fee|charge|rates|retainer",
+            "operator": "contains"
+          },
+          {
+            "expression": "migration|webflow",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Pricing & Costs"
+      },
+      {
+        "filters": [
+          {
+            "expression": "berkshire|reading|bracknell|maidenhead|slough|wokingham|basingstoke|patel estate|thames valley|hook|bourne end|camberley|yateley|blackwater",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Local SEO Services - Berkshire & Thames Valley"
+      },
+      {
+        "filters": [
+          {
+            "expression": "law firm|legal|lawyer|barrister|chambers|magic circle",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Legal & Law Firm SEO"
+      },
+      {
+        "filters": [
+          {
+            "expression": "technical seo audit|technical audit|site health audit|seo audit service",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Technical SEO Audits"
+      },
+      {
+        "filters": [
+          {
+            "expression": "seo consultant|seo consulting|become seo|how to be seo",
+            "operator": "contains"
+          },
+          {
+            "expression": "cost|price|fee|rates|legal|law",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Consultant Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "how many keywords|keyword research|keywords per page|keywords should|semantic keywords|organic keywords",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Keyword Research & Strategy"
+      },
+      {
+        "filters": [
+          {
+            "expression": "how long does seo|seo timeline|seo timeframe|seo timing|time to seo|3-6 months",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Timeline & Results"
+      },
+      {
+        "filters": [
+          {
+            "expression": "enterprise seo|b2b seo|b2b content marketing|enterprise ai|website migration",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Enterprise & B2B SEO"
+      },
+      {
+        "filters": [
+          {
+            "expression": "wealth manager|real estate seo|architectural|banking|government contractor",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Specialist Sector SEO"
+      },
+      {
+        "filters": [
+          {
+            "expression": "ai consulting|ai integration|ai innovation|chatgpt|ai seo",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "AI & ChatGPT Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "webflow|wordpress vs webflow",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Webflow vs WordPress"
+      },
+      {
+        "filters": [
+          {
+            "expression": "seo strategy|seo training|seo sessions|topical authority|semantic seo",
+            "operator": "contains"
+          },
+          {
+            "expression": "consultant|consulting",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Strategy & Training"
+      },
+      {
+        "filters": [
+          {
+            "expression": "organic traffic|organic search|organic ranking|improve organic|increase organic",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Organic Traffic & Rankings"
+      }
+    ]
+  }
+}

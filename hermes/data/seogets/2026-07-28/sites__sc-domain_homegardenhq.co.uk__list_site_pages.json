@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:homegardenhq.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:homegardenhq.co.uk\". Available sites: aifor.property, bestreviews.co.uk, bestturbotrainers.uk, paragondrycleaners.co.uk, seo-leeds.uk, theseshbars.com, citationgenerator.store, drinksbykingpin.com, rentalyield.uk, sitemap.digital, gathrd.co.uk, huntsmansports.com, aifor.fitness, colourlabelprinter.com, mobileautomechanic.uk, sunnypatel.co.uk, theseshbars.com, bestchainsaw.uk, crosstrainerhome.co.uk, towerfanreviews.uk, auditweb.site, catchment.school, leadscaffold.com, openknowledgeformat.agency, postcode.page, punchfoods.com, shecookssheeats.co.uk, bestvibrationplates.co.uk, onlybbguns.co.uk, thetutor.link, waterhard.uk, drivingtestpass.org, myknifeguide.com, noisecheck.uk, zoningbase.com, iwholesales.co.uk, luxurytrex.com, wagearea.com, eco-drycleaners.co.uk, bookkeepingflow.com, salarycareer.com, areaiq.uk, checkamover.com, seo-guildford.uk, radon.tips, readingschoolofmartialarts.co.uk, areaiq.uk, merch.observer, ownedwork.com, www.mugscafe.org, fixerror.dev, calculator.place, redlighttherapy.tech, stackswitch.co, 100percentvegan.co.uk, visible-ads.com, www.visible-ads.com, chargefinder.uk, aiautomation.build, mugscafe.org, mydigitalpiano.com, snaptaken.com, text.taxi, geooptimised.com, aiagentic.news, bestcordlessdrills.uk, carrecallhq.com, laundryhome.co.uk, seo-birmingham.uk, seo.bargains, techloved.com, complain.report, scopepitch.com, app.thetutor.link, openknowledgeformat.academy, reportbolt.com, selflandlord.com, seoreading.uk, solarhq.uk, www.laundryhome.co.uk, clinicaltrialhub.org, ideeeas.com, signforge.org, tradecost.uk, hummingbird.agency, lockyourbike.org.uk, planningleads.org, breedhealth.org, epc.report, knotweedcheck.com, redlighttherapy.expert, template.how, seoswansea.uk, formhq.org, 365androidapp.uk.com, aatma-aesthetics.com, agenticaisecured.com, carehome.page, petsnerd.com, smmcnj.org, sunnypatel.co.uk, kingpin.design, claimwatt.com, collinspress.ie, towrating.org, seo.archi, signalcheck.org, deadhangs.com, e-bikereview.uk, londonweb.design, piyadesigns.co.uk, qrcode.ink, wellifepsychology.com, londonwebdesign.site, mobilebarhirelondon.uk, dashboardcamreviews.co.uk, heatpumpchecker.co.uk, optimisedwebsite.com, thebestmowers.co.uk, drugnote.com, salarydata.co.uk, supplementcheck.org, aifor.tech, implementai.today, nomadranker.com, agenticai.associates, bestcordlessdrills.uk, generator.express, mugscafe.org, topsewingmachines.uk",
+    "page": 0,
+    "page_size": 0
+  }
+}

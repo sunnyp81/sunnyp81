@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://bestcordlessdrills.uk/",
+  "args": {},
+  "data": {
+    "site": "sc-domain:bestcordlessdrills.uk",
+    "topic_clusters": []
+  }
+}

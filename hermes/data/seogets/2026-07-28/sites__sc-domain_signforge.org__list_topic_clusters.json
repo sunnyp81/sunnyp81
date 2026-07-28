@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:signforge.org",
+  "args": {},
+  "data": {
+    "site": "sc-domain:signforge.org",
+    "topic_clusters": []
+  }
+}

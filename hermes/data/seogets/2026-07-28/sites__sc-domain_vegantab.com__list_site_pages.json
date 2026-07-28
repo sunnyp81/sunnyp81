@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:vegantab.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": null,
+    "note": "Your account does not have access to site \"sc-domain:vegantab.com\". Available sites: iwholesales.co.uk, laundryhome.co.uk, www.laundryhome.co.uk, carrecallhq.com, lockyourbike.org.uk, mydigitalpiano.com, seo-guildford.uk, shecookssheeats.co.uk, aifor.tech, bestreviews.co.uk, chargefinder.uk, mobileautomechanic.uk, theseshbars.com, aatma-aesthetics.com, merch.observer, thebestmowers.co.uk, aifor.property, drivingtestpass.org, wagearea.com, app.thetutor.link, seo-birmingham.uk, signforge.org, generator.express, ownedwork.com, petsnerd.com, reportbolt.com, salarydata.co.uk, template.how, onlybbguns.co.uk, openknowledgeformat.academy, rentalyield.uk, sitemap.digital, smmcnj.org, tradecost.uk, supplementcheck.org, agenticai.associates, areaiq.uk, bestturbotrainers.uk, drugnote.com, formhq.org, leadscaffold.com, redlighttherapy.tech, calculator.place, hummingbird.agency, colourlabelprinter.com, mugscafe.org, selflandlord.com, stackswitch.co, topsewingmachines.uk, bestcordlessdrills.uk, catchment.school, dashboardcamreviews.co.uk, geooptimised.com, openknowledgeformat.agency, redlighttherapy.expert, signalcheck.org, 100percentvegan.co.uk, londonweb.design, 365androidapp.uk.com, mugscafe.org, seo.archi, zoningbase.com, deadhangs.com, optimisedwebsite.com, seoswansea.uk, londonwebdesign.site, noisecheck.uk, radon.tips, towerfanreviews.uk, huntsmansports.com, agenticaisecured.com, fixerror.dev, scopepitch.com, solarhq.uk, aiagentic.news, areaiq.uk, qrcode.ink, sunnypatel.co.uk, www.mugscafe.org, aiautomation.build, citationgenerator.store, gathrd.co.uk, nomadranker.com, carehome.page, clinicaltrialhub.org, bestcordlessdrills.uk, drinksbykingpin.com, e-bikereview.uk, piyadesigns.co.uk, punchfoods.com, complain.report, crosstrainerhome.co.uk, eco-drycleaners.co.uk, epc.report, postcode.page, sunnypatel.co.uk, visible-ads.com, waterhard.uk, www.visible-ads.com, aifor.fitness, bestvibrationplates.co.uk, claimwatt.com, luxurytrex.com, readingschoolofmartialarts.co.uk, ideeeas.com, kingpin.design, collinspress.ie, salarycareer.com, theseshbars.com, bestchainsaw.uk, mobilebarhirelondon.uk, planningleads.org, text.taxi, auditweb.site, implementai.today, knotweedcheck.com, seo-leeds.uk, towrating.org, snaptaken.com, bookkeepingflow.com, breedhealth.org, heatpumpchecker.co.uk, seo.bargains, checkamover.com, paragondrycleaners.co.uk, seoreading.uk, techloved.com, wellifepsychology.com, myknifeguide.com, thetutor.link",
+    "page": 0,
+    "page_size": 0
+  }
+}

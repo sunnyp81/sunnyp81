@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:directory.berkshiretimes.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:directory.berkshiretimes.co.uk\". Available sites: aiagentic.news, bookkeepingflow.com, selflandlord.com, seo.bargains, stackswitch.co, chargefinder.uk, huntsmansports.com, mobilebarhirelondon.uk, mydigitalpiano.com, thetutor.link, tradecost.uk, punchfoods.com, seoswansea.uk, www.mugscafe.org, aifor.fitness, reportbolt.com, signalcheck.org, ideeeas.com, myknifeguide.com, noisecheck.uk, planningleads.org, qrcode.ink, readingschoolofmartialarts.co.uk, towrating.org, aatma-aesthetics.com, carrecallhq.com, catchment.school, bestreviews.co.uk, epc.report, luxurytrex.com, londonweb.design, mobileautomechanic.uk, mugscafe.org, nomadranker.com, openknowledgeformat.academy, techloved.com, theseshbars.com, app.thetutor.link, deadhangs.com, leadscaffold.com, aifor.tech, colourlabelprinter.com, crosstrainerhome.co.uk, salarycareer.com, seo-leeds.uk, signforge.org, dashboardcamreviews.co.uk, piyadesigns.co.uk, visible-ads.com, fixerror.dev, formhq.org, iwholesales.co.uk, www.visible-ads.com, zoningbase.com, bestchainsaw.uk, breedhealth.org, openknowledgeformat.agency, gathrd.co.uk, salarydata.co.uk, scopepitch.com, seo-birmingham.uk, smmcnj.org, topsewingmachines.uk, snaptaken.com, template.how, drugnote.com, knotweedcheck.com, eco-drycleaners.co.uk, geooptimised.com, 365androidapp.uk.com, agenticai.associates, bestcordlessdrills.uk, checkamover.com, collinspress.ie, e-bikereview.uk, bestvibrationplates.co.uk, complain.report, implementai.today, laundryhome.co.uk, optimisedwebsite.com, supplementcheck.org, thebestmowers.co.uk, theseshbars.com, areaiq.uk, mugscafe.org, postcode.page, seo-guildford.uk, sunnypatel.co.uk, aifor.property, bestcordlessdrills.uk, citationgenerator.store, claimwatt.com, paragondrycleaners.co.uk, radon.tips, wagearea.com, wellifepsychology.com, calculator.place, seo.archi, sitemap.digital, aiautomation.build, heatpumpchecker.co.uk, seoreading.uk, sunnypatel.co.uk, waterhard.uk, drivingtestpass.org, redlighttherapy.expert, clinicaltrialhub.org, hummingbird.agency, merch.observer, rentalyield.uk, towerfanreviews.uk, agenticaisecured.com, drinksbykingpin.com, onlybbguns.co.uk, kingpin.design, auditweb.site, shecookssheeats.co.uk, www.laundryhome.co.uk, bestturbotrainers.uk, ownedwork.com, redlighttherapy.tech, solarhq.uk, carehome.page, lockyourbike.org.uk, petsnerd.com, generator.express, londonwebdesign.site, text.taxi, 100percentvegan.co.uk, areaiq.uk",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

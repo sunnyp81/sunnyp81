@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:hertfordshiretimes.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:hertfordshiretimes.uk\". Available sites: aiagentic.news, carrecallhq.com, geooptimised.com, huntsmansports.com, seo.archi, agenticai.associates, postcode.page, scopepitch.com, shecookssheeats.co.uk, bestcordlessdrills.uk, carehome.page, aatma-aesthetics.com, drinksbykingpin.com, mobileautomechanic.uk, myknifeguide.com, seoreading.uk, kingpin.design, londonweb.design, signforge.org, thetutor.link, bestvibrationplates.co.uk, breedhealth.org, crosstrainerhome.co.uk, seo-guildford.uk, stackswitch.co, theseshbars.com, sunnypatel.co.uk, drivingtestpass.org, iwholesales.co.uk, signalcheck.org, snaptaken.com, auditweb.site, drugnote.com, mobilebarhirelondon.uk, mugscafe.org, redlighttherapy.expert, rentalyield.uk, seo-leeds.uk, visible-ads.com, chargefinder.uk, mydigitalpiano.com, seo-birmingham.uk, bestcordlessdrills.uk, checkamover.com, deadhangs.com, nomadranker.com, onlybbguns.co.uk, piyadesigns.co.uk, complain.report, epc.report, noisecheck.uk, paragondrycleaners.co.uk, text.taxi, towrating.org, wagearea.com, waterhard.uk, aifor.fitness, claimwatt.com, wellifepsychology.com, zoningbase.com, catchment.school, merch.observer, fixerror.dev, redlighttherapy.tech, seoswansea.uk, solarhq.uk, topsewingmachines.uk, 365androidapp.uk.com, dashboardcamreviews.co.uk, qrcode.ink, seo.bargains, implementai.today, lockyourbike.org.uk, openknowledgeformat.agency, calculator.place, radon.tips, salarycareer.com, smmcnj.org, supplementcheck.org, bestturbotrainers.uk, salarydata.co.uk, sunnypatel.co.uk, citationgenerator.store, collinspress.ie, eco-drycleaners.co.uk, ideeeas.com, areaiq.uk, clinicaltrialhub.org, tradecost.uk, www.mugscafe.org, www.visible-ads.com, aifor.property, aifor.tech, formhq.org, readingschoolofmartialarts.co.uk, selflandlord.com, planningleads.org, www.laundryhome.co.uk, agenticaisecured.com, petsnerd.com, sitemap.digital, template.how, app.thetutor.link, thebestmowers.co.uk, 100percentvegan.co.uk, leadscaffold.com, mugscafe.org, ownedwork.com, theseshbars.com, gathrd.co.uk, openknowledgeformat.academy, towerfanreviews.uk, bestchainsaw.uk, colourlabelprinter.com, heatpumpchecker.co.uk, luxurytrex.com, hummingbird.agency, e-bikereview.uk, knotweedcheck.com, punchfoods.com, reportbolt.com, techloved.com, aiautomation.build, areaiq.uk, bookkeepingflow.com, generator.express, laundryhome.co.uk, londonwebdesign.site, optimisedwebsite.com, bestreviews.co.uk",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}

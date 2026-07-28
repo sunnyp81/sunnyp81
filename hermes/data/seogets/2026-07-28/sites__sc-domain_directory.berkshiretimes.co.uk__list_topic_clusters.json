@@ -1,0 +1,10 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:directory.berkshiretimes.co.uk",
+  "args": {},
+  "data": {
+    "note": "No accessible site matched the request.",
+    "site": "sc-domain:directory.berkshiretimes.co.uk",
+    "topic_clusters": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:dubai.realty.directory",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Your account does not have access to site \"sc-domain:dubai.realty.directory\". Available sites: breedhealth.org, areaiq.uk, areaiq.uk, merch.observer, bestcordlessdrills.uk, dashboardcamreviews.co.uk, londonweb.design, scopepitch.com, bestchainsaw.uk, claimwatt.com, clinicaltrialhub.org, seo.archi, signalcheck.org, aifor.property, shecookssheeats.co.uk, auditweb.site, aifor.tech, complain.report, laundryhome.co.uk, ownedwork.com, visible-ads.com, 100percentvegan.co.uk, salarycareer.com, seo.bargains, seoreading.uk, sunnypatel.co.uk, heatpumpchecker.co.uk, salarydata.co.uk, checkamover.com, colourlabelprinter.com, openknowledgeformat.academy, sunnypatel.co.uk, crosstrainerhome.co.uk, noisecheck.uk, chargefinder.uk, openknowledgeformat.agency, app.thetutor.link, epc.report, formhq.org, www.mugscafe.org, calculator.place, drinksbykingpin.com, www.laundryhome.co.uk, agenticai.associates, hummingbird.agency, ideeeas.com, optimisedwebsite.com, planningleads.org, readingschoolofmartialarts.co.uk, seo-leeds.uk, iwholesales.co.uk, petsnerd.com, seo-birmingham.uk, towerfanreviews.uk, bestcordlessdrills.uk, nomadranker.com, rentalyield.uk, reportbolt.com, template.how, wellifepsychology.com, zoningbase.com, knotweedcheck.com, mobilebarhirelondon.uk, punchfoods.com, supplementcheck.org, topsewingmachines.uk, carehome.page, aatma-aesthetics.com, bestreviews.co.uk, bookkeepingflow.com, deadhangs.com, e-bikereview.uk, geooptimised.com, paragondrycleaners.co.uk, techloved.com, carrecallhq.com, lockyourbike.org.uk, seoswansea.uk, sitemap.digital, thebestmowers.co.uk, wagearea.com, drugnote.com, generator.express, selflandlord.com, tradecost.uk, eco-drycleaners.co.uk, mugscafe.org, onlybbguns.co.uk, snaptaken.com, waterhard.uk, qrcode.ink, towrating.org, www.visible-ads.com, 365androidapp.uk.com, implementai.today, mobileautomechanic.uk, catchment.school, luxurytrex.com, redlighttherapy.tech, stackswitch.co, thetutor.link, mugscafe.org, mydigitalpiano.com, signforge.org, aiautomation.build, londonwebdesign.site, piyadesigns.co.uk, aifor.fitness, drivingtestpass.org, gathrd.co.uk, myknifeguide.com, bestvibrationplates.co.uk, kingpin.design, postcode.page, radon.tips, solarhq.uk, citationgenerator.store, leadscaffold.com, text.taxi, theseshbars.com, agenticaisecured.com, fixerror.dev, aiagentic.news, huntsmansports.com, redlighttherapy.expert, seo-guildford.uk, smmcnj.org, theseshbars.com, bestturbotrainers.uk, collinspress.ie",
+    "page": 0,
+    "page_size": 0,
+    "queries": null
+  }
+}
