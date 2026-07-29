@@ -1,0 +1,170 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:sunnypatel.co.uk",
+  "args": {},
+  "data": {
+    "content_groups": [
+      {
+        "filters": [
+          {
+            "expression": "https://sunnypatel.co.uk/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Homepage"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/services/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/seo-berkshire/|/seo-bracknell/|/seo-consultant-reading/|/seo-maidenhead/|/seo-slough/|/seo-wokingham/",
+            "operator": "contains"
+          },
+          {
+            "expression": "/services/",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Consulting - Location-Based"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/investment-banking-seo|/legal-seo-magic-circle|/wealth-management-seo|/canary-wharf-fintech|/city-of-london-financial|/harley-street-medical|/private-healthcare-seo",
+            "operator": "contains"
+          },
+          {
+            "expression": "/services/",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Consulting - Industry-Specific"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/activist-investor-defence|/crisis-management-seo|/distressed-asset-turnaround|/enterprise-seo-migration|/ipo-readiness-seo|/management-buyout-seo|/multi-brand-seo|/pre-acquisition-seo|/seo-consulting-for-private-equity|/ceo-personal-brand|/board-level-seo-reporting|/westminster-government-contractor",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Consulting - Corporate & Enterprise"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/mayfair-luxury-brand|/commercial-real-estate-seo",
+            "operator": "contains"
+          },
+          {
+            "expression": "/services/",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Consulting - Luxury & Premium"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/ai-automation/|/ai-consulting/|/enterprise-ai-integration/|/chatgpt-ads/|/how-ai-transforms-consulting/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "AI Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/technical-seo-audit/|/on-page-seo/|/internal-linking/|/local-seo/|/google-penalty-recovery/",
+            "operator": "contains"
+          },
+          {
+            "expression": "/services/",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Technical Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/what-is-seo|/how-long-does-seo-take|/how-much-does-seo-cost|/how-many-keywords|/how-to-be-an-seo|/increase-organic-traffic|/keyword-research|/what-is-topical-authority|/seo-mistakes|/wordpress-vs-webflow",
+            "operator": "contains"
+          },
+          {
+            "expression": "/services/",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO Educational Content"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/blogs/|/category/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Blog Articles"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/b2b-content-marketing-services/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Marketing Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/about",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "About"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/contact",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Contact"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/projects/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Projects"
+      }
+    ],
+    "property": "sc-domain:sunnypatel.co.uk"
+  }
+}

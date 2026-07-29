@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:fixerror.dev",
+  "args": {
+    "start_date": "2026-07-01",
+    "end_date": "2026-07-29"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-07-29",
+    "property_id": "sc-domain:fixerror.dev",
+    "start_date": "2026-07-01"
+  }
+}

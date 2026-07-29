@@ -1,0 +1,31 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:fixerror.dev",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 15 queries from 2025-03-29 to 2026-07-28.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "fixerror",
+      "api error connection closed mid-response. the response above may be incomplete.",
+      "api error overloaded",
+      "api error: unable to connect to api (connectionrefused)",
+      "api error: unable to connect to api (econnrefused)",
+      "api is overloaded. retrying now",
+      "api is overloaded. retrying now (attempt 1 of 10)",
+      "api_error",
+      "clearerrorafterdelay is not defined",
+      "closedresourceerror",
+      "neither apikey nor config.authenticator provided",
+      "scanner_yyerror",
+      "unable to connect to api (connectionrefused)",
+      "what is an upstream request timeout",
+      "\u273b unable to connect to api (connectionrefused)"
+    ]
+  }
+}

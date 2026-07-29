@@ -1,0 +1,28 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://app.thetutor.link/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://app.thetutor.link",
+        "paths": [
+          "/",
+          "/about",
+          "/faq",
+          "/contact",
+          "/login",
+          "/privacy",
+          "/register"
+        ]
+      }
+    ],
+    "note": "Returned 7 unique paths across 1 hosts from 2025-03-29 to 2026-07-28.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

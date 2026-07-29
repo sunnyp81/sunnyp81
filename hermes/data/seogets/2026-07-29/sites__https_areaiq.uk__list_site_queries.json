@@ -1,0 +1,40 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://areaiq.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 24 queries from 2025-03-29 to 2026-07-28.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "age of houses by postcode",
+      "age of properties by postcode",
+      "area checker uk",
+      "area rating",
+      "area ratings",
+      "average iq by city uk",
+      "how much a month is a 50000 mortgage",
+      "how much does a mortgage cost",
+      "how much does a mortgage cost a month",
+      "how much is a 70000 mortgage",
+      "how much is a 75000 mortgage per month",
+      "how much is mortgage for a house",
+      "how much per month mortgage",
+      "how much would a 40000 mortgage cost",
+      "how much would a 40000 mortgage cost a month",
+      "how much would a 70000 mortgage cost",
+      "how much would a mortgage be",
+      "how much would mortgage be",
+      "is m20 6bq a good place to live",
+      "mortgage calculator l&c",
+      "mortgage cost",
+      "ratsit england",
+      "streetcheck uk",
+      "zoopla area stats"
+    ]
+  }
+}
