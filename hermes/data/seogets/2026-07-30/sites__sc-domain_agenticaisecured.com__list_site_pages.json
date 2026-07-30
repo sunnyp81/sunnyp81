@@ -1,0 +1,41 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:agenticaisecured.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://agenticaisecured.com",
+        "paths": [
+          "/trufflehog-tutorial/",
+          "/",
+          "/checklists/",
+          "/committed-a-secret-to-github/",
+          "/detect-a-compromised-ai-agent/",
+          "/github-actions-oidc-without-secrets/",
+          "/gitleaks-tutorial/",
+          "/guides/",
+          "/least-privilege-for-ai-agents/",
+          "/mcp-gateway-tools-compared/",
+          "/prompt-injection-explained/",
+          "/secret-scanning-in-pre-commit-hooks/",
+          "/secrets-in-ci-cd-for-ai-workloads/",
+          "/tools/"
+        ]
+      },
+      {
+        "host": "https://www.agenticaisecured.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 15 unique paths across 2 hosts from 2025-03-30 to 2026-07-29.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

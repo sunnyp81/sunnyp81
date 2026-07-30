@@ -1,0 +1,47 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:deadhangs.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://deadhangs.com",
+        "paths": [
+          "/dead-hang-time-by-age/",
+          "/dead-hang-world-record/",
+          "/deadhang-guide/",
+          "/",
+          "/grip-strength/",
+          "/equipment-guide/",
+          "/deadhang-progressions/",
+          "/dead-hang-calculator/",
+          "/deadhang-benefits/",
+          "/deadhang-variations/",
+          "/weighted-hang-guide/",
+          "/12-week-program/",
+          "/8-week-program/",
+          "/complementary-exercises/wrist-curls/",
+          "/deadhang-form/",
+          "/grip-strength/grip-types/",
+          "/images/dead-hang-time-by-age_banner.png",
+          "/images/deadhang-guide_banner.png",
+          "/images/grip-strength_banner.png",
+          "/mobility/wrist-flexibility/"
+        ]
+      },
+      {
+        "host": "http://deadhangs.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 21 unique paths across 2 hosts from 2025-03-30 to 2026-07-29.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

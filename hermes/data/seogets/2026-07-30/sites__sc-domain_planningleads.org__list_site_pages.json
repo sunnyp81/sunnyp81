@@ -1,0 +1,36 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:planningleads.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://planningleads.org",
+        "paths": [
+          "/planning/reading/",
+          "/planning/reading/app/reading-26-00007-cou/",
+          "/planning/exeter/",
+          "/",
+          "/planning/birmingham/app/birmingham-26-00012-adv/",
+          "/planning/birmingham/app/birmingham-26-00021-pra/",
+          "/planning/birmingham/other/",
+          "/planning/bristol/app/bristol-26-00008-cou/",
+          "/planning/dorset/app/dorset-26-00001-adv/",
+          "/planning/leeds/app/leeds-26-00005-tpo/",
+          "/planning/near/rg2-0/",
+          "/planning/near/s3-7/",
+          "/planning/nottingham/app/nottingham-26-00005-ful/",
+          "/planning/reading/app/reading-26-00018-dis/",
+          "/planning/south-yorkshire/"
+        ]
+      }
+    ],
+    "note": "Returned 15 unique paths across 1 hosts from 2025-03-30 to 2026-07-29.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:fixerror.dev",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 26 queries from 2025-03-30 to 2026-07-29.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "fixerror",
+      "401 http error",
+      "408 code http",
+      "408 error",
+      "408 error code",
+      "408 status code",
+      "422 error",
+      "anthropic overloaded_error",
+      "api error connection closed mid-response. the response above may be incomplete.",
+      "api error overloaded",
+      "api error: connection closed mid-response. the response above may be incomplete.",
+      "api error: unable to connect to api (connectionrefused)",
+      "api error: unable to connect to api (econnrefused)",
+      "api is overloaded. retrying now",
+      "api is overloaded. retrying now (attempt 1 of 10)",
+      "api_error",
+      "clearerrorafterdelay is not defined",
+      "closedresourceerror",
+      "how to overcome rate",
+      "neither apikey nor config.authenticator provided",
+      "request failed with status code 422",
+      "scanner_yyerror",
+      "status code 405",
+      "unable to connect to api (connectionrefused)",
+      "what is an upstream request timeout",
+      "\u273b unable to connect to api (connectionrefused)"
+    ]
+  }
+}

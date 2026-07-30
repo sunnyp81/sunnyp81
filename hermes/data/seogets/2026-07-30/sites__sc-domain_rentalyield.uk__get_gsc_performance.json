@@ -1,0 +1,15 @@
+{
+  "tool": "get_gsc_performance",
+  "site": "sc-domain:rentalyield.uk",
+  "args": {
+    "start_date": "2026-07-02",
+    "end_date": "2026-07-30"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t89\t11914\t0.75\t22.25",
+    "end_date": "2026-07-30",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:rentalyield.uk",
+    "start_date": "2026-07-02"
+  }
+}

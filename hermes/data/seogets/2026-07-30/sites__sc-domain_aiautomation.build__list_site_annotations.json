@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:aiautomation.build",
+  "args": {
+    "start_date": "2026-07-02",
+    "end_date": "2026-07-30"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-07-30",
+    "property_id": "sc-domain:aiautomation.build",
+    "start_date": "2026-07-02"
+  }
+}

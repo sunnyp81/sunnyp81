@@ -1,0 +1,51 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:fixerror.dev",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://fixerror.dev",
+        "paths": [
+          "/",
+          "/anthropic/",
+          "/aws/access-denied-exception/",
+          "/gcp/",
+          "/github/",
+          "/guide/handling-rate-limits/",
+          "/http/401/",
+          "/http/402/",
+          "/http/405/",
+          "/http/408/",
+          "/http/413/",
+          "/http/422/",
+          "/nextjs/",
+          "/nextjs/function-invocation-timeout/",
+          "/nextjs/module-not-found/",
+          "/nodejs/",
+          "/nodejs/err-require-esm/",
+          "/openai/",
+          "/openai/insufficient-quota/",
+          "/paypal/",
+          "/redis/",
+          "/stripe/",
+          "/stripe/api-key-invalid/",
+          "/stripe/card-declined/"
+        ]
+      },
+      {
+        "host": "http://fixerror.dev",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 25 unique paths across 2 hosts from 2025-03-30 to 2026-07-29.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
