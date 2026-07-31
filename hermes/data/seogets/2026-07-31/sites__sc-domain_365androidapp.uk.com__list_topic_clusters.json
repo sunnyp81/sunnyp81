@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:365androidapp.uk.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:365androidapp.uk.com",
+    "topic_clusters": []
+  }
+}

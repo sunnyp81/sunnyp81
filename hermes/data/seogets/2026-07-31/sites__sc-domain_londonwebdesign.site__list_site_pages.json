@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:londonwebdesign.site",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://londonwebdesign.site",
+        "paths": [
+          "/",
+          "/blog/"
+        ]
+      }
+    ],
+    "note": "Returned 2 unique paths across 1 hosts from 2025-03-31 to 2026-07-30.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

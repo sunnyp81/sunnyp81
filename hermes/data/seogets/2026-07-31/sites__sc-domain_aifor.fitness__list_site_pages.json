@@ -1,0 +1,22 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:aifor.fitness",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://aifor.fitness",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 1 unique paths across 1 hosts from 2025-03-31 to 2026-07-30.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

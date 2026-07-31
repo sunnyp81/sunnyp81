@@ -1,0 +1,65 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:fixerror.dev",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://fixerror.dev",
+        "paths": [
+          "/",
+          "/anthropic/",
+          "/anthropic/rate-limit-error/",
+          "/aws/access-denied-exception/",
+          "/cloudflare/",
+          "/firebase/",
+          "/gcp/",
+          "/github/",
+          "/guide/handling-rate-limits/",
+          "/http/401/",
+          "/http/402/",
+          "/http/405/",
+          "/http/408/",
+          "/http/413/",
+          "/http/422/",
+          "/http/429/",
+          "/http/500/",
+          "/http/504/",
+          "/nextjs/",
+          "/nextjs/function-invocation-timeout/",
+          "/nextjs/hydration-failed/",
+          "/nextjs/module-not-found/",
+          "/nginx/",
+          "/nodejs/",
+          "/nodejs/err-require-esm/",
+          "/openai/",
+          "/openai/context-length-exceeded/",
+          "/openai/insufficient-quota/",
+          "/paypal/",
+          "/postgres/23505-unique-violation/",
+          "/redis/",
+          "/rust/",
+          "/stripe/",
+          "/stripe/api-key-invalid/",
+          "/stripe/authentication-required/",
+          "/stripe/card-declined/",
+          "/stripe/signature-verification-failed/",
+          "/vercel/"
+        ]
+      },
+      {
+        "host": "http://fixerror.dev",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 39 unique paths across 2 hosts from 2025-03-31 to 2026-07-30.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

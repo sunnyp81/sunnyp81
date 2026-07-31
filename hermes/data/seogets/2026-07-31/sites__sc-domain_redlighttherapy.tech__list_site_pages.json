@@ -1,0 +1,30 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:redlighttherapy.tech",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://redlighttherapy.tech",
+        "paths": [
+          "/",
+          "/ai-seo-strategy/",
+          "/buying-guide/",
+          "/compare/",
+          "/d09c8-contact/",
+          "/product/dog-yellow-sweater/",
+          "/seo-consulting-london/",
+          "/technical-seo-audit/",
+          "/testimonials/"
+        ]
+      }
+    ],
+    "note": "Returned 9 unique paths across 1 hosts from 2025-03-31 to 2026-07-30.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
