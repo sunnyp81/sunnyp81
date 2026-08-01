@@ -1,0 +1,22 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:reportbolt.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://reportbolt.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 1 unique paths across 1 hosts from 2025-04-01 to 2026-07-31.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:seo.bargains",
+  "args": {
+    "start_date": "2026-07-04",
+    "end_date": "2026-08-01"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-01",
+    "property_id": "sc-domain:seo.bargains",
+    "start_date": "2026-07-04"
+  }
+}
