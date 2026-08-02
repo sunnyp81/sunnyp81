@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:ownedwork.com",
+  "args": {
+    "start_date": "2026-07-05",
+    "end_date": "2026-08-02"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-02",
+    "property_id": "sc-domain:ownedwork.com",
+    "start_date": "2026-07-05"
+  }
+}
