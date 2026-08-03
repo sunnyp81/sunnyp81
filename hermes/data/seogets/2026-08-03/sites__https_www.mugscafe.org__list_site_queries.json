@@ -1,0 +1,47 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://www.mugscafe.org/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 31 queries from 2025-04-03 to 2026-08-02.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "acai drinks starbucks",
+      "cafe frappuccino",
+      "frappuccino caffeine",
+      "little rock coffee shops",
+      "little rock the heights",
+      "mug cafe",
+      "mug cafeteria",
+      "mug caf\u00e9",
+      "muggs coffee",
+      "mugs cafe",
+      "mugs cafe argenta",
+      "mugs cafe heights",
+      "mugs cafe heights photos",
+      "mugs cafe little rock",
+      "mugs coffee little rock",
+      "mugs coffee shop",
+      "recommend running routes with a 5 mile loop",
+      "starbucks drinks sweet",
+      "starbucks drinks that are sweet",
+      "starbucks ginger coffee",
+      "starbucks sweet",
+      "starbucks sweet drinks",
+      "sweet coffee drinks from starbucks",
+      "sweet drinks at starbucks",
+      "sweet drinks from starbucks",
+      "sweet drinks starbucks",
+      "sweet starbucks",
+      "sweet starbucks coffee drinks",
+      "sweet starbucks drinks",
+      "sweetest drinks at starbucks",
+      "\u30de\u30b0\u30ab\u30c3\u30d7 \u30aa\u30fc\u30d6\u30f3 \u5272\u308c\u308b"
+    ]
+  }
+}

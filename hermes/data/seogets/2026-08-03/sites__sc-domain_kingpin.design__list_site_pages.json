@@ -1,0 +1,48 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:kingpin.design",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://kingpin.design",
+        "paths": [
+          "/",
+          "/portfolio/buoy-atlantic-sea-gin/",
+          "/portfolio/halvorsen-vodka/",
+          "/portfolio/dragonstone-superior-liqueur/",
+          "/portfolio/mavens-gin/",
+          "/portfolio/aegon-volcanic-spirit/",
+          "/portfolio/drago-wildfire-bourbon/",
+          "/portfolio/maison-leroux-champagne/",
+          "/portfolio/mr-knight-vodka/",
+          "/portfolio/brethren-black-rum/",
+          "/about/",
+          "/contact/",
+          "/portfolio/balla-black-rum/",
+          "/portfolio/cobra-kai-opuntia/",
+          "/portfolio/kopperkin-vodka/"
+        ]
+      },
+      {
+        "host": "http://www.kingpin.design",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://www.kingpin.design",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 17 unique paths across 3 hosts from 2025-04-03 to 2026-08-02.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

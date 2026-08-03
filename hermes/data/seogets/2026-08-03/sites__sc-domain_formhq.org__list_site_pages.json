@@ -1,0 +1,34 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:formhq.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://formhq.org",
+        "paths": [
+          "/",
+          "/insurance/",
+          "/insurance/cleaning-business/california/",
+          "/insurance/cleaning-business/florida/",
+          "/insurance/cleaning-business/texas/",
+          "/insurance/landscaping-business/california/",
+          "/insurance/landscaping-business/texas/",
+          "/llc/florida/",
+          "/llc/texas/",
+          "/start/cleaning-business/california/",
+          "/start/cleaning-business/florida/",
+          "/start/landscaping-business/",
+          "/start/landscaping-business/california/"
+        ]
+      }
+    ],
+    "note": "Returned 13 unique paths across 1 hosts from 2025-04-03 to 2026-08-02.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
