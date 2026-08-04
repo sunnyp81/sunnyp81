@@ -1,0 +1,25 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:openknowledgeformat.academy",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://openknowledgeformat.academy",
+        "paths": [
+          "/",
+          "/okf-starter-template/",
+          "/open-knowledge-format-examples/",
+          "/what-is-open-knowledge-format/"
+        ]
+      }
+    ],
+    "note": "Returned 4 unique paths across 1 hosts from 2025-04-04 to 2026-08-03.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

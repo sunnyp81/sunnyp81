@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://seo-middlesbrough.com/",
+  "args": {
+    "start_date": "2026-07-07",
+    "end_date": "2026-08-04"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-04",
+    "property_id": "https://seo-middlesbrough.com/",
+    "start_date": "2026-07-07"
+  }
+}

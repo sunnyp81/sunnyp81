@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://aatma-aesthetics.com/",
+  "args": {
+    "start_date": "2026-07-07",
+    "end_date": "2026-08-04"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-04",
+    "property_id": "https://aatma-aesthetics.com/",
+    "start_date": "2026-07-07"
+  }
+}

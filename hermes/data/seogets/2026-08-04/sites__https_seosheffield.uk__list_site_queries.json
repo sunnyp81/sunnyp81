@@ -1,0 +1,52 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://seosheffield.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 36 queries from 2025-04-04 to 2026-08-03.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "local seo sheffield",
+      "marketing review sheffield",
+      "rotherham seo",
+      "search engine optimisation sheffield",
+      "search engine optimization sheffield",
+      "seo agencies sheffield",
+      "seo agency in sheffield",
+      "seo agency sheffield",
+      "seo agency south yorkshire",
+      "seo bramley",
+      "seo companies sheffield",
+      "seo company in sheffield",
+      "seo company sheffield",
+      "seo consultant sheffield",
+      "seo consultants sheffield",
+      "seo expert sheffield",
+      "seo in sheffield",
+      "seo jobs sheffield",
+      "seo matlock",
+      "seo service sheffield",
+      "seo services sheffield",
+      "seo sheffield",
+      "seo sheffield company",
+      "seo skip hire",
+      "seo south yorkshire",
+      "seo training sheffield",
+      "seo works sheffield",
+      "seo worthing",
+      "sheffield seo",
+      "sheffield seo agency",
+      "sheffield seo companies",
+      "sheffield seo company",
+      "sheffield seo services",
+      "social media services sheffield",
+      "south yorkshire seo",
+      "top seo agency sheffield"
+    ]
+  }
+}

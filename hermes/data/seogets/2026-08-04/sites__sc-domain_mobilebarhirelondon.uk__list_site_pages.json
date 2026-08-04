@@ -1,0 +1,27 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:mobilebarhirelondon.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://mobilebarhirelondon.uk",
+        "paths": [
+          "/",
+          "/about/",
+          "/corporate-bar-hire/",
+          "/mobile-bar-vs-venue-bar/",
+          "/private-party-bar-hire/",
+          "/wedding-bar-hire/"
+        ]
+      }
+    ],
+    "note": "Returned 6 unique paths across 1 hosts from 2025-04-04 to 2026-08-03.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

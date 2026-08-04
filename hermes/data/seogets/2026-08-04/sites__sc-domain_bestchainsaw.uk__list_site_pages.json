@@ -1,0 +1,34 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:bestchainsaw.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://bestchainsaw.uk",
+        "paths": [
+          "/",
+          "/best-petrol-chainsaws-top-3/",
+          "/cordless-chainsaw-reviews-top-3/",
+          "/cordless-chainsaws/",
+          "/efco-reviews/",
+          "/einhell-reviews/",
+          "/electric-chainsaws/",
+          "/electric-sharpener-reviews-top-3/",
+          "/hyundai-reviews/",
+          "/oregon-reviews/",
+          "/petrol-chainsaws/",
+          "/qualcast-reviews/",
+          "/replace-bar/"
+        ]
+      }
+    ],
+    "note": "Returned 13 unique paths across 1 hosts from 2025-04-04 to 2026-08-03.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
