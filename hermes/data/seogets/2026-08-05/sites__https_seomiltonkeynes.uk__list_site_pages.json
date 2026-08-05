@@ -1,0 +1,29 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seomiltonkeynes.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seomiltonkeynes.uk",
+        "paths": [
+          "/",
+          "/about/",
+          "/ai-visibility-milton-keynes/",
+          "/ai-visibility-sprint/",
+          "/pricing-for-a-logistics-firm/",
+          "/privacy/",
+          "/seo-milton-keynes-market-report/",
+          "/seo-services-milton-keynes/"
+        ]
+      }
+    ],
+    "note": "Returned 8 unique paths across 1 hosts from 2025-04-05 to 2026-08-04.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

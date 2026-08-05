@@ -1,0 +1,21 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://seowigan.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 5 queries from 2025-04-05 to 2026-08-04.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "seo consultancy wigan",
+      "seo consultants wigan",
+      "seo services wigan",
+      "seo wigan",
+      "wigan seo"
+    ]
+  }
+}

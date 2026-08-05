@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://seowigan.uk/",
+  "args": {
+    "start_date": "2026-07-08",
+    "end_date": "2026-08-05"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-05",
+    "property_id": "https://seowigan.uk/",
+    "start_date": "2026-07-08"
+  }
+}

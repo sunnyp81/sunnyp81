@@ -1,0 +1,30 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://seoandover.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 14 queries from 2025-04-05 to 2026-08-04.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "andover seo",
+      "business website andover",
+      "digital marketing companies andover",
+      "local web design andover",
+      "mayfair seo",
+      "mayfair seo company",
+      "paid search andover",
+      "seo agency dover",
+      "seo andover",
+      "seo dover",
+      "seo kinver",
+      "seo services andover",
+      "seo services in dover",
+      "seo services in waterlooville"
+    ]
+  }
+}

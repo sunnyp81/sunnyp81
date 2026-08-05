@@ -1,0 +1,27 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seoandover.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seoandover.uk",
+        "paths": [
+          "/",
+          "/about/",
+          "/andover-seo-market-report/",
+          "/local-seo-andover/",
+          "/privacy/",
+          "/seo-services-andover/"
+        ]
+      }
+    ],
+    "note": "Returned 6 unique paths across 1 hosts from 2025-04-05 to 2026-08-04.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
