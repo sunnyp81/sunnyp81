@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:seo-guildford.uk",
+  "args": {
+    "start_date": "2026-07-09",
+    "end_date": "2026-08-06"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-06",
+    "property_id": "sc-domain:seo-guildford.uk",
+    "start_date": "2026-07-09"
+  }
+}

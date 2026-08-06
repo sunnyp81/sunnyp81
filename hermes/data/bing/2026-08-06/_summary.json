@@ -1,0 +1,844 @@
+{
+  "day": "2026-08-06",
+  "sites": [
+    {
+      "site": "https://100percentvegan.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2F100percentvegan.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2F100percentvegan.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2F100percentvegan.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2F100percentvegan.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2F100percentvegan.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2F100percentvegan.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://aatma-aesthetics.com/",
+      "rows_page_stats": 497,
+      "rows_query_stats": 1648,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 251,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://app.thetutor.link/",
+      "rows_page_stats": 131,
+      "rows_query_stats": 381,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://bakerie.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbakerie.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbakerie.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbakerie.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbakerie.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbakerie.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbakerie.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://bespokeairsoft.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbespokeairsoft.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbespokeairsoft.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbespokeairsoft.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbespokeairsoft.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbespokeairsoft.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbespokeairsoft.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://bestairpurifiers.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestairpurifiers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestairpurifiers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestairpurifiers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestairpurifiers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestairpurifiers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestairpurifiers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://best-binoculars.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-binoculars.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-binoculars.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-binoculars.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-binoculars.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-binoculars.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-binoculars.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://best-blender.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-blender.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-blender.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-blender.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-blender.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-blender.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbest-blender.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://bestchainsaw.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestchainsaw.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestchainsaw.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestchainsaw.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestchainsaw.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestchainsaw.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestchainsaw.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://bestcordlessdrills.uk/",
+      "rows_page_stats": 12,
+      "rows_query_stats": 11,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://bestreviews.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://bestreviews.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://bestturbotrainers.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestturbotrainers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestturbotrainers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestturbotrainers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestturbotrainers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestturbotrainers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbestturbotrainers.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://bestvibrationplates.co.uk/",
+      "rows_page_stats": 1828,
+      "rows_query_stats": 6509,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://bikegecko.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbikegecko.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbikegecko.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbikegecko.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbikegecko.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbikegecko.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fbikegecko.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://calculator.place/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcalculator.place%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcalculator.place%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcalculator.place%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcalculator.place%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcalculator.place%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcalculator.place%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://carehome.page/",
+      "rows_page_stats": 189,
+      "rows_query_stats": 202,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://cfw.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcfw.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcfw.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcfw.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcfw.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcfw.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcfw.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://complain.report/",
+      "rows_page_stats": 581,
+      "rows_query_stats": 972,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://copyexcel.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcopyexcel.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcopyexcel.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcopyexcel.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcopyexcel.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcopyexcel.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcopyexcel.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://crosstrainerhome.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcrosstrainerhome.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcrosstrainerhome.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcrosstrainerhome.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcrosstrainerhome.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcrosstrainerhome.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcrosstrainerhome.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://cycletechuk.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcycletechuk.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcycletechuk.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcycletechuk.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcycletechuk.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcycletechuk.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcycletechuk.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://cyclistblog.net/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcyclistblog.net%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcyclistblog.net%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcyclistblog.net%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcyclistblog.net%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcyclistblog.net%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fcyclistblog.net%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://dashboardcamreviews.co.uk/",
+      "rows_page_stats": 2239,
+      "rows_query_stats": 5641,
+      "rows_crawl_issues": 77,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://deadhangs.com/",
+      "rows_page_stats": 358,
+      "rows_query_stats": 1898,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 135,
+      "rows_rank_traffic": 136,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://digitalpianoreviews.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fdigitalpianoreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fdigitalpianoreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fdigitalpianoreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fdigitalpianoreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fdigitalpianoreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fdigitalpianoreviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://drinksbykingpin.com/",
+      "rows_page_stats": 96,
+      "rows_query_stats": 236,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 101,
+      "rows_rank_traffic": 146,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://e-bikereview.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fe-bikereview.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fe-bikereview.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fe-bikereview.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fe-bikereview.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fe-bikereview.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fe-bikereview.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://eco-drycleaners.co.uk/",
+      "rows_page_stats": 655,
+      "rows_query_stats": 1863,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://epc.report/",
+      "rows_page_stats": 81,
+      "rows_query_stats": 111,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://figmentagency.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffigmentagency.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffigmentagency.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffigmentagency.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffigmentagency.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffigmentagency.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffigmentagency.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://fitnesshomehq.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffitnesshomehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffitnesshomehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffitnesshomehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffitnesshomehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffitnesshomehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ffitnesshomehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://gadgetfive.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://gadgetfive.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgadgetfive.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://gathrd.co.uk/",
+      "rows_page_stats": 152,
+      "rows_query_stats": 224,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://golfboxy.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgolfboxy.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgolfboxy.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgolfboxy.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgolfboxy.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgolfboxy.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fgolfboxy.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://hairdryerhq.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhairdryerhq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhairdryerhq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhairdryerhq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhairdryerhq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhairdryerhq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhairdryerhq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://handytoolshome.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhandytoolshome.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhandytoolshome.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhandytoolshome.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhandytoolshome.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhandytoolshome.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhandytoolshome.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://homegardenhq.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomegardenhq.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomegardenhq.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomegardenhq.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomegardenhq.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomegardenhq.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomegardenhq.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://homestylearts.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomestylearts.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomestylearts.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomestylearts.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomestylearts.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomestylearts.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fhomestylearts.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://ideeeas.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fideeeas.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fideeeas.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fideeeas.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fideeeas.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fideeeas.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fideeeas.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://kingpin.design/",
+      "rows_page_stats": 1,
+      "rows_query_stats": 1,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 101,
+      "rows_rank_traffic": 101,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://laundryhome.co.uk/",
+      "rows_page_stats": 153,
+      "rows_query_stats": 490,
+      "rows_crawl_issues": 5,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://ledapex.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fledapex.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fledapex.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fledapex.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fledapex.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fledapex.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fledapex.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://lightweightluggagereviews.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flightweightluggagereviews.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flightweightluggagereviews.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flightweightluggagereviews.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flightweightluggagereviews.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flightweightluggagereviews.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flightweightluggagereviews.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://lockyourbike.org.uk/",
+      "rows_page_stats": 1378,
+      "rows_query_stats": 2840,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://londonweb.design/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flondonweb.design%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flondonweb.design%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flondonweb.design%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flondonweb.design%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flondonweb.design%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Flondonweb.design%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://luxurytrex.com/",
+      "rows_page_stats": 58,
+      "rows_query_stats": 75,
+      "rows_crawl_issues": 5,
+      "rows_crawl_stats": 149,
+      "rows_rank_traffic": 150,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://merchality.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmerchality.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmerchality.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmerchality.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmerchality.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmerchality.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmerchality.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://metaldetectorhunt.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmetaldetectorhunt.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmetaldetectorhunt.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmetaldetectorhunt.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmetaldetectorhunt.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmetaldetectorhunt.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmetaldetectorhunt.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://mycoffeehq.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmycoffeehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmycoffeehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmycoffeehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmycoffeehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmycoffeehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmycoffeehq.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://mydigitalpiano.com/",
+      "rows_page_stats": 0,
+      "rows_query_stats": 0,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://mydryherb.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmydryherb.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmydryherb.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmydryherb.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmydryherb.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmydryherb.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmydryherb.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://myknifeguide.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyknifeguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyknifeguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyknifeguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyknifeguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyknifeguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyknifeguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://myleathertravelbag.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyleathertravelbag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyleathertravelbag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyleathertravelbag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyleathertravelbag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyleathertravelbag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmyleathertravelbag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://mypetproducts.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmypetproducts.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmypetproducts.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmypetproducts.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmypetproducts.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmypetproducts.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fmypetproducts.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://neobread.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneobread.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneobread.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneobread.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneobread.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneobread.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneobread.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://neocandle.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneocandle.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneocandle.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneocandle.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneocandle.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneocandle.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fneocandle.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://ownedwork.com/",
+      "rows_page_stats": 344,
+      "rows_query_stats": 1215,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://paragondrycleaners.co.uk/",
+      "rows_page_stats": 302,
+      "rows_query_stats": 1652,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://postcode.page/",
+      "rows_page_stats": 1701,
+      "rows_query_stats": 1770,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://punchfoods.com/",
+      "rows_page_stats": 426,
+      "rows_query_stats": 1582,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://radon.tips/",
+      "rows_page_stats": 114,
+      "rows_query_stats": 435,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://ratedluggage.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fratedluggage.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fratedluggage.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fratedluggage.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fratedluggage.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fratedluggage.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fratedluggage.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://readingschoolofmartialarts.co.uk/",
+      "rows_page_stats": 247,
+      "rows_query_stats": 1088,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 251,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://rentalyield.uk/",
+      "rows_page_stats": 246,
+      "rows_query_stats": 739,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://selflandlord.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fselflandlord.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fselflandlord.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fselflandlord.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fselflandlord.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fselflandlord.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fselflandlord.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://sephra.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephra.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephra.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephra.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephra.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephra.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephra.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://sephrausa.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephrausa.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephrausa.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephrausa.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephrausa.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephrausa.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsephrausa.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://sewingthis.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsewingthis.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsewingthis.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsewingthis.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsewingthis.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsewingthis.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsewingthis.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://shecookssheeats.co.uk/",
+      "rows_page_stats": 2250,
+      "rows_query_stats": 2801,
+      "rows_crawl_issues": 1377,
+      "rows_crawl_stats": 169,
+      "rows_rank_traffic": 349,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://signforge.org/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsignforge.org%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsignforge.org%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsignforge.org%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsignforge.org%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsignforge.org%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsignforge.org%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://snaptaken.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsnaptaken.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsnaptaken.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsnaptaken.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsnaptaken.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsnaptaken.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsnaptaken.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://socialconcierge.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsocialconcierge.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsocialconcierge.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsocialconcierge.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsocialconcierge.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsocialconcierge.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsocialconcierge.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://stackswitch.co/",
+      "rows_page_stats": 58,
+      "rows_query_stats": 131,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 142,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://sunnypatel.co.uk/",
+      "rows_page_stats": 412,
+      "rows_query_stats": 862,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://sunnyshares.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsunnyshares.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsunnyshares.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsunnyshares.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsunnyshares.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsunnyshares.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsunnyshares.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://sustainabletag.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsustainabletag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsustainabletag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsustainabletag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsustainabletag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsustainabletag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fsustainabletag.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://teachmediy.co.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fteachmediy.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fteachmediy.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fteachmediy.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fteachmediy.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fteachmediy.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fteachmediy.co.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://techloved.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftechloved.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftechloved.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftechloved.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftechloved.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftechloved.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftechloved.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://thebestmowers.co.uk/",
+      "rows_page_stats": 2075,
+      "rows_query_stats": 4275,
+      "rows_crawl_issues": 308,
+      "rows_crawl_stats": 169,
+      "rows_rank_traffic": 416,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://thefryerguide.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fthefryerguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fthefryerguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fthefryerguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fthefryerguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fthefryerguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fthefryerguide.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://theseshbars.com/",
+      "rows_page_stats": 456,
+      "rows_query_stats": 1425,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://thetutor.link/",
+      "rows_page_stats": 1709,
+      "rows_query_stats": 4886,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 486,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://toprevs.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftoprevs.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftoprevs.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftoprevs.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftoprevs.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftoprevs.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftoprevs.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://topsewingmachines.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftopsewingmachines.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftopsewingmachines.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftopsewingmachines.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftopsewingmachines.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftopsewingmachines.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftopsewingmachines.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://towerfanreviews.uk/",
+      "rows_page_stats": 270,
+      "rows_query_stats": 807,
+      "rows_crawl_issues": 16,
+      "rows_crawl_stats": 180,
+      "rows_rank_traffic": 485,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://trampolinereviews.uk/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftrampolinereviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftrampolinereviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftrampolinereviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftrampolinereviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftrampolinereviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Ftrampolinereviews.uk%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://vegantab.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fvegantab.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fvegantab.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fvegantab.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fvegantab.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fvegantab.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fvegantab.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://wagearea.com/",
+      "rows_page_stats": 77,
+      "rows_query_stats": 134,
+      "rows_crawl_issues": 0,
+      "rows_crawl_stats": 141,
+      "rows_rank_traffic": 143,
+      "rows_quota": 1
+    },
+    {
+      "site": "https://webwizrd.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwebwizrd.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwebwizrd.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwebwizrd.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwebwizrd.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwebwizrd.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwebwizrd.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://whattoeatwith.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwhattoeatwith.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwhattoeatwith.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwhattoeatwith.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwhattoeatwith.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwhattoeatwith.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwhattoeatwith.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    {
+      "site": "https://www.chessforjuniors.com/",
+      "page_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwww.chessforjuniors.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "query_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetQueryStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwww.chessforjuniors.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_issues_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlIssues?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwww.chessforjuniors.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "crawl_stats_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwww.chessforjuniors.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "rank_traffic_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetRankAndTrafficStats?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwww.chessforjuniors.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "quota_error": "Client error '400 Bad Request' for url 'https://ssl.bing.com/webmaster/api.svc/json/GetUrlSubmissionQuota?apikey=fd0147cf4f4446f4984568ee673533e6&siteUrl=https%3A%2F%2Fwww.chessforjuniors.com%2F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    }
+  ],
+  "site_count": 93,
+  "total_crawl_issues": 1788
+}

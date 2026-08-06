@@ -1,0 +1,33 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seoleicester.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seoleicester.uk",
+        "paths": [
+          "/",
+          "/about/",
+          "/ai-visibility-leicester/",
+          "/ai-visibility-sprint/",
+          "/contact/",
+          "/garment-buyers-search/",
+          "/independent-shop-pricing/",
+          "/local-seo-leicester/",
+          "/pricing/",
+          "/privacy/",
+          "/seo-leicester-market-report/",
+          "/seo-services-leicester/"
+        ]
+      }
+    ],
+    "note": "Returned 12 unique paths across 1 hosts from 2025-04-06 to 2026-08-05.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

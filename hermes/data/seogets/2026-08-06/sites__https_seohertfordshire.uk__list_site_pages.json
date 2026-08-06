@@ -1,0 +1,30 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seohertfordshire.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seohertfordshire.uk",
+        "paths": [
+          "/",
+          "/about/",
+          "/contact/",
+          "/hemel-hempstead/",
+          "/hertfordshire-seo-market-report/",
+          "/local-seo-hertfordshire/",
+          "/seo-services-hertfordshire/",
+          "/st-albans/",
+          "/stevenage/"
+        ]
+      }
+    ],
+    "note": "Returned 9 unique paths across 1 hosts from 2025-04-06 to 2026-08-05.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

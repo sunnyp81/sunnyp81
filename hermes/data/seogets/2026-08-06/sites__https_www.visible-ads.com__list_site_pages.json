@@ -1,0 +1,47 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://www.visible-ads.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://www.visible-ads.com",
+        "paths": [
+          "/",
+          "/about",
+          "/post/cfw-amazon-google-ad-strategy-from-stagnation-to-success",
+          "/ai-policy",
+          "/contact",
+          "/post/skyrocketing-airsoft-sales-how-visible-ads-supercharged-iwholesales-online-presence",
+          "/free-ads-audit",
+          "/news",
+          "/seo",
+          "/amazon",
+          "/blog",
+          "/blueprint",
+          "/news/categories/artificial-intelligence",
+          "/news/categories/awards",
+          "/news/categories/case-studies",
+          "/paid-social",
+          "/post/ads-in-the-age-of-ai-summaries-navigating-the-new-frontier-with-chatgpt-gemini-beyond",
+          "/post/chatgpt-ads",
+          "/post/deepseek-the-ai-disruptor-shaking-up-the-industry-and-reshaping-digital-marketing",
+          "/post/google-ads-a-strategic-approach-for-business-growth",
+          "/post/meta-ads-vs-google-ads-for-e-commerce-which-reigns-supreme",
+          "/post/performance-max-for-lead-generation-a-reactivation-guide",
+          "/post/stop-throwing-money-away-why-conversion-rate-optimisation-is-crucial-for-google-ads",
+          "/post/the-huge-problem-of-click-fraud-and-13-strategies-to-combat-click-fraud",
+          "/post/the-indispensable-duo-how-google-ads-and-cro-work-in-harmony-for-conversion-rate-excellence",
+          "/ppc"
+        ]
+      }
+    ],
+    "note": "Returned 26 unique paths across 1 hosts from 2025-04-06 to 2026-08-05.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

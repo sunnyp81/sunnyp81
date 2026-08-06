@@ -1,0 +1,27 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seowigan.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seowigan.uk",
+        "paths": [
+          "/",
+          "/business-profile-for-trades/",
+          "/local-seo-wigan/",
+          "/privacy/",
+          "/seo-services-wigan/",
+          "/sleeve-notes/"
+        ]
+      }
+    ],
+    "note": "Returned 6 unique paths across 1 hosts from 2025-04-06 to 2026-08-05.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seotelford.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seotelford.uk",
+        "paths": [
+          "/",
+          "/ai-visibility-sprint/",
+          "/ai-visibility-telford/",
+          "/business-park-guide/",
+          "/business-park-pricing/",
+          "/contact/",
+          "/local-seo-telford/",
+          "/pricing/",
+          "/privacy/",
+          "/seo-services-telford/",
+          "/telford-seo-market-report/"
+        ]
+      }
+    ],
+    "note": "Returned 11 unique paths across 1 hosts from 2025-04-06 to 2026-08-05.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

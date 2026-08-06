@@ -1,0 +1,50 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://seotelford.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 34 queries from 2025-04-06 to 2026-08-05.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "ai first seo shropshire",
+      "ai seo agency shropshire",
+      "ai seo shropshire",
+      "best seo service company in shropshire",
+      "google ads shropshire",
+      "google adwords telford",
+      "rankbrain shropshire",
+      "search engine optimisation shropshire",
+      "seo agency shropshire",
+      "seo agency telford",
+      "seo audit shropshire",
+      "seo chandlers ford",
+      "seo company shropshire",
+      "seo company telford",
+      "seo consultancy telford",
+      "seo ford",
+      "seo market drayton",
+      "seo reporting telford",
+      "seo rochford",
+      "seo services shropshire",
+      "seo shrewsbury",
+      "seo shropshire",
+      "seo south newport",
+      "seo telford",
+      "seo thetford",
+      "seo watford",
+      "seo wrexham",
+      "sure",
+      "telford seo agency",
+      "telford seo company",
+      "telford seo services",
+      "tf33bj",
+      "thetford seo",
+      "website repair telford"
+    ]
+  }
+}
