@@ -1,0 +1,22 @@
+{
+  "tool": "list_site_pages",
+  "site": "http://www.laundryhome.co.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://www.laundryhome.co.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 1 unique paths across 1 hosts from 2025-04-07 to 2026-08-06.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

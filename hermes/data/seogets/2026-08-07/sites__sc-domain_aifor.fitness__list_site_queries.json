@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:aifor.fitness",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 0 queries from 2025-04-07 to 2026-08-06.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": []
+  }
+}
