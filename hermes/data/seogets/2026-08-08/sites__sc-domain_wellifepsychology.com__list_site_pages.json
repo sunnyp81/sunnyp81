@@ -1,0 +1,39 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:wellifepsychology.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://www.wellifepsychology.com",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://wellifepsychology.com",
+        "paths": [
+          "/",
+          "/contact/",
+          "/services/",
+          "/about/",
+          "/blog/",
+          "/gallery/",
+          "/service/adjustment-disorders/",
+          "/service/attention-deficit-hyperactivity-disorder-adhd/",
+          "/service/fear-and-phobias/",
+          "/service/gender-identity-disorder/",
+          "/service/language-communication-disorders/",
+          "/service/post-traumatic-stress-disorder/"
+        ]
+      }
+    ],
+    "note": "Returned 13 unique paths across 2 hosts from 2025-04-08 to 2026-08-07.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

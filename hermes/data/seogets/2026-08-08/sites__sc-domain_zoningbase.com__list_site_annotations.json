@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:zoningbase.com",
+  "args": {
+    "start_date": "2026-07-11",
+    "end_date": "2026-08-08"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-08",
+    "property_id": "sc-domain:zoningbase.com",
+    "start_date": "2026-07-11"
+  }
+}

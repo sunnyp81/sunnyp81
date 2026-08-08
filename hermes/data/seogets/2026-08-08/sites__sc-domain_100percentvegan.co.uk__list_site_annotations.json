@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:100percentvegan.co.uk",
+  "args": {
+    "start_date": "2026-07-11",
+    "end_date": "2026-08-08"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-08",
+    "property_id": "sc-domain:100percentvegan.co.uk",
+    "start_date": "2026-07-11"
+  }
+}

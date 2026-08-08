@@ -1,0 +1,15 @@
+{
+  "tool": "get_gsc_performance",
+  "site": "sc-domain:leadscaffold.com",
+  "args": {
+    "start_date": "2026-07-11",
+    "end_date": "2026-08-08"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t7\t1378\t0.51\t45.84",
+    "end_date": "2026-08-08",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:leadscaffold.com",
+    "start_date": "2026-07-11"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:generator.express",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 1 queries from 2025-04-08 to 2026-08-07.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "generate now"
+    ]
+  }
+}
