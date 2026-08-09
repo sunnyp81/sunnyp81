@@ -1,0 +1,19 @@
+{
+  "day": "2026-08-09",
+  "previous_day": "2026-08-08",
+  "alerts": [],
+  "notes": [],
+  "totals": {
+    "bing_sites": 93,
+    "bing_crawl_issues": 1788,
+    "seogets_sites": 146,
+    "seogets_clicks_28d": 36560,
+    "gsc_sites": 30,
+    "gsc_sitemap_errors": 36
+  },
+  "previous_totals": {
+    "bing_crawl_issues": 1788,
+    "seogets_clicks_28d": 36294,
+    "gsc_sitemap_errors": 36
+  }
+}

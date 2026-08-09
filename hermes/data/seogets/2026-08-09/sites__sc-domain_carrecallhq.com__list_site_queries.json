@@ -1,0 +1,39 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:carrecallhq.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 23 queries from 2025-04-09 to 2026-08-08.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "2015 honda civic recall",
+      "2015 honda civic recalls",
+      "2018 cr v recall",
+      "2018 crv recall",
+      "2018 crv recalls",
+      "2018 honda cr v issues",
+      "2018 honda cr v problems",
+      "2018 honda cr v recall",
+      "2018 honda cr v recalls",
+      "2018 honda cr-v issues",
+      "2018 honda cr-v problems",
+      "2018 honda crv problems",
+      "2018 honda crv recall",
+      "2018 honda crv recalls",
+      "honda 2018 crv recalls",
+      "honda civic 2015 recall",
+      "honda civic 2015 recalls",
+      "honda cr v recall 2018",
+      "honda crv 2018 recall",
+      "honda crv 2018 recalls",
+      "recall honda civic 2015",
+      "recall-hq.com",
+      "worst cars 2019"
+    ]
+  }
+}

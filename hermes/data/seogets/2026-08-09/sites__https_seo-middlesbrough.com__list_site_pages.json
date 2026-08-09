@@ -1,0 +1,28 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seo-middlesbrough.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seo-middlesbrough.com",
+        "paths": [
+          "/",
+          "/about/",
+          "/ai-visibility-middlesbrough/",
+          "/local-seo-middlesbrough/",
+          "/middlesbrough-seo-market-report/",
+          "/pricing/",
+          "/seo-services-middlesbrough/"
+        ]
+      }
+    ],
+    "note": "Returned 7 unique paths across 1 hosts from 2025-04-09 to 2026-08-08.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

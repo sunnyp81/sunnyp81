@@ -1,0 +1,38 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://seowigan.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 22 queries from 2025-04-09 to 2026-08-08.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "ai visibility sprint",
+      "ecommerce websites wigan",
+      "freelance seo consultant wigan",
+      "freelance seo specialist wigan",
+      "freelance seo wigan",
+      "search engine optimisation agency wigan",
+      "search engine optimisation in wigan",
+      "search engine optimisation wigan",
+      "seo agencies wigan",
+      "seo agency leigh",
+      "seo agency wigan",
+      "seo company wigan",
+      "seo consultancy wigan",
+      "seo consultant wigan",
+      "seo consultants wigan",
+      "seo services wigan",
+      "seo skip hire",
+      "seo specialist wigan",
+      "seo specialists wigan",
+      "seo wigan",
+      "wigan seo",
+      "wigan seo agency"
+    ]
+  }
+}

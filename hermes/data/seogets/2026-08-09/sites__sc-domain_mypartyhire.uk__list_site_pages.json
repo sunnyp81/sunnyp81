@@ -1,0 +1,15 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:mypartyhire.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [],
+    "note": "Returned 0 unique paths across 0 hosts from 2025-04-09 to 2026-08-08.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

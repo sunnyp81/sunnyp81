@@ -1,0 +1,32 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:optimisedwebsite.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://optimisedwebsite.com",
+        "paths": [
+          "/",
+          "/compare/pre-built-seo-websites/",
+          "/compare/",
+          "/compare/best-website-builder-for-seo/",
+          "/compare/diy-vs-professional-seo-website/",
+          "/compare/seo-website-for-small-business/",
+          "/compare/turnkey-seo-website-options/",
+          "/contact/",
+          "/industry/",
+          "/pricing/",
+          "/services/schema-markup/"
+        ]
+      }
+    ],
+    "note": "Returned 11 unique paths across 1 hosts from 2025-04-09 to 2026-08-08.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
