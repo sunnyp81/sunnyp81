@@ -1,0 +1,19 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:openknowledgeformat.academy",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 3 queries from 2025-04-10 to 2026-08-09.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "okf format",
+      "open knowledge format",
+      "open knowledge format generator"
+    ]
+  }
+}

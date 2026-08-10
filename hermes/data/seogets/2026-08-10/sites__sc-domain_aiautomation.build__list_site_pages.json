@@ -1,0 +1,55 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:aiautomation.build",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://aiautomation.build",
+        "paths": [
+          "/",
+          "/compare/attended-vs-unattended-rpa/",
+          "/hyperautomation/",
+          "/business-process-automation/process-mining/",
+          "/marketing-automation/",
+          "/retail-ecommerce/",
+          "/rpa-services/uipath-consulting/",
+          "/ai-automation-strategy/",
+          "/business-process-automation/",
+          "/compare/",
+          "/compare/hubspot-vs-marketo/",
+          "/compare/low-code-vs-traditional-development/",
+          "/compare/rpa-vs-bpa/",
+          "/compare/salesforce-vs-hubspot/",
+          "/compare/uipath-vs-automation-anywhere/",
+          "/industries/",
+          "/industries/financial-services/",
+          "/industries/healthcare/",
+          "/industries/insurance/",
+          "/industries/legal/",
+          "/industries/logistics-supply-chain/",
+          "/industries/manufacturing/",
+          "/industries/professional-services/",
+          "/intelligent-document-processing/",
+          "/rpa-services/",
+          "/rpa-services/consulting/",
+          "/sales-automation/",
+          "/workflow-automation/"
+        ]
+      },
+      {
+        "host": "http://aiautomation.build",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 29 unique paths across 2 hosts from 2025-04-10 to 2026-08-09.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seo-middlesbrough.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seo-middlesbrough.com",
+        "paths": [
+          "/",
+          "/about/",
+          "/ai-visibility-middlesbrough/",
+          "/capability-statement-to-web-pages/",
+          "/how-ai-assistants-choose-a-fabricator/",
+          "/local-seo-middlesbrough/",
+          "/middlesbrough-seo-market-report/",
+          "/pricing/",
+          "/seo-services-middlesbrough/",
+          "/why-a-fabrication-site-ranks-nowhere/"
+        ]
+      }
+    ],
+    "note": "Returned 10 unique paths across 1 hosts from 2025-04-10 to 2026-08-09.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

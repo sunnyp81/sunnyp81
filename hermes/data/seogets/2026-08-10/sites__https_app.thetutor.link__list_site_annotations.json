@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://app.thetutor.link/",
+  "args": {
+    "start_date": "2026-07-13",
+    "end_date": "2026-08-10"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-10",
+    "property_id": "https://app.thetutor.link/",
+    "start_date": "2026-07-13"
+  }
+}
