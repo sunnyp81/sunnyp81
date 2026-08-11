@@ -1,0 +1,30 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seo-cambridge.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seo-cambridge.uk",
+        "paths": [
+          "/",
+          "/about/",
+          "/ai-visibility-cambridge/",
+          "/ai-visibility-sprint/",
+          "/cambridge-seo-market-report/",
+          "/google-business-profile-lab-cambridge/",
+          "/local-seo-cambridge/",
+          "/privacy/",
+          "/seo-agency-cambridge/"
+        ]
+      }
+    ],
+    "note": "Returned 9 unique paths across 1 hosts from 2025-04-11 to 2026-08-10.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

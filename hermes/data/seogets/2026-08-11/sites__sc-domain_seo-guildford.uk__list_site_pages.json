@@ -1,0 +1,31 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:seo-guildford.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seo-guildford.uk",
+        "paths": [
+          "/",
+          "/technical-seo-guildford/",
+          "/tools/ai-search-readiness-checker/",
+          "/tools/local-seo-checklist/"
+        ]
+      },
+      {
+        "host": "http://seo-guildford.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 2 hosts from 2025-04-11 to 2026-08-10.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

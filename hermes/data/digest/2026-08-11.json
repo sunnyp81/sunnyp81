@@ -1,0 +1,22 @@
+{
+  "day": "2026-08-11",
+  "previous_day": "2026-08-10",
+  "alerts": [],
+  "notes": [
+    "SEO Gets: https://bestcordlessdrills.uk/ missing from today's pull",
+    "SEO Gets: sc-domain:snaptaken.com missing from today's pull"
+  ],
+  "totals": {
+    "bing_sites": 93,
+    "bing_crawl_issues": 1788,
+    "seogets_sites": 145,
+    "seogets_clicks_28d": 36940,
+    "gsc_sites": 29,
+    "gsc_sitemap_errors": 34
+  },
+  "previous_totals": {
+    "bing_crawl_issues": 1788,
+    "seogets_clicks_28d": 36898,
+    "gsc_sitemap_errors": 36
+  }
+}

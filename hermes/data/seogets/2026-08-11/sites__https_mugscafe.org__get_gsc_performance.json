@@ -1,0 +1,15 @@
+{
+  "tool": "get_gsc_performance",
+  "site": "https://mugscafe.org/",
+  "args": {
+    "start_date": "2026-07-14",
+    "end_date": "2026-08-11"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t0\t376\t0.00\t54.83",
+    "end_date": "2026-08-11",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:mugscafe.org",
+    "start_date": "2026-07-14"
+  }
+}
