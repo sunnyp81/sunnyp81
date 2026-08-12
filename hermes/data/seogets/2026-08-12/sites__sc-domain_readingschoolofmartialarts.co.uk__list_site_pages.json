@@ -1,0 +1,68 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:readingschoolofmartialarts.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://readingschoolofmartialarts.co.uk",
+        "paths": [
+          "/",
+          "/best-to-learn/",
+          "/about-us/",
+          "/services/womens-kung-fu/",
+          "/services/children-kung-fu-class/",
+          "/services/adult-kung-fu-class/",
+          "/family/",
+          "/contact/",
+          "/whats-martial-arts/",
+          "/services/",
+          "/kung-fu-vs-karate/",
+          "/page/2/",
+          "/about/",
+          "/blog/",
+          "/gallery/",
+          "/kung-fu-classes-caversham/",
+          "/product/fresh-orange-juice/",
+          "/about-2/",
+          "/category/martial-arts/",
+          "/category/uncategorized/",
+          "/martial-arts-for-women/",
+          "/organic-store-checkout/",
+          "/privacy-policy",
+          "/privacy-policy/",
+          "/product-category/juice/",
+          "/product/assorted-coffee/",
+          "/product/diabetic-cookies/",
+          "/product/farm-fresh-eggs/",
+          "/product/fresh-organic-honey/",
+          "/product/handpicked-red-chillies/",
+          "/product/natural-extracted-olive-oil/",
+          "/product/organic-face-scrub/",
+          "/product/pulses-from-organic-farm/",
+          "/services/private-kung-fu-class/",
+          "/terms-and-conditions/",
+          "/what-are-martial-arts/",
+          "/what-is-kung-fu/",
+          "/white-tiger-fist-techniques/jin-foh-choy/",
+          "/white-tiger-fist-techniques/ping-choy/",
+          "/wp-content/uploads/2025/06/Self-Defence.png",
+          "/wp-content/uploads/2025/06/cropped-LOGO-6.png"
+        ]
+      },
+      {
+        "host": "http://www.readingschoolofmartialarts.co.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 42 unique paths across 2 hosts from 2025-04-12 to 2026-08-11.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

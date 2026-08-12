@@ -1,0 +1,39 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:petsnerd.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 23 queries from 2025-04-12 to 2026-08-11.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "petsnerd.com",
+      "cat cost per year",
+      "cat owner statistics",
+      "cat yearly cost",
+      "cheap pets",
+      "cheapest pets",
+      "exotic pet ownership statistics",
+      "how much does cat food cost per year",
+      "most owned pets",
+      "pet owner statistics",
+      "pet ownership statistics",
+      "pet ownership stats",
+      "pet price dataset",
+      "pet rarity",
+      "pet rates",
+      "pet statistics",
+      "pet stats",
+      "site:petsnerd.com",
+      "statistics of pet ownership",
+      "statistics on pet ownership",
+      "statistics on pets",
+      "statistics pet ownership",
+      "statpets"
+    ]
+  }
+}

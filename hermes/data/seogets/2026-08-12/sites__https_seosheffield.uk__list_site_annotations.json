@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://seosheffield.uk/",
+  "args": {
+    "start_date": "2026-07-15",
+    "end_date": "2026-08-12"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-12",
+    "property_id": "https://seosheffield.uk/",
+    "start_date": "2026-07-15"
+  }
+}

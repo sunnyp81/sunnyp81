@@ -1,0 +1,40 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:clinicaltrialhub.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://clinicaltrialhub.org",
+        "paths": [
+          "/glossary/healthy-volunteer/",
+          "/guides/caregiver-guide-to-clinical-trials/",
+          "/",
+          "/about/",
+          "/drug/novel-medication/",
+          "/glossary/adaptive-design/",
+          "/glossary/informed-consent/",
+          "/glossary/irb/",
+          "/glossary/observational-study/",
+          "/glossary/response-rate/",
+          "/glossary/sample-size/",
+          "/guides/",
+          "/guides/what-are-trial-phases/"
+        ]
+      },
+      {
+        "host": "http://clinicaltrialhub.org",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 14 unique paths across 2 hosts from 2025-04-12 to 2026-08-11.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

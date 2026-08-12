@@ -1,0 +1,68 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:planningleads.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://planningleads.org",
+        "paths": [
+          "/planning/reading/",
+          "/planning/reading/app/reading-26-00007-cou/",
+          "/planning/exeter/",
+          "/planning/bath/",
+          "/planning/birmingham/",
+          "/planning/bristol/",
+          "/planning/leeds/",
+          "/planning/manchester/",
+          "/planning/manchester/app/manchester-26-00024-tpo/",
+          "/",
+          "/planning/",
+          "/planning/basingstoke/",
+          "/planning/basingstoke/app/basingstoke-26-00001-ldc/",
+          "/planning/birmingham/app/birmingham-26-00012-adv/",
+          "/planning/birmingham/app/birmingham-26-00021-pra/",
+          "/planning/birmingham/other/",
+          "/planning/bristol/app/bristol-26-00008-cou/",
+          "/planning/bristol/change-of-use/",
+          "/planning/camden/",
+          "/planning/camden/app/camden-26-00015-out/",
+          "/planning/cornwall/",
+          "/planning/cornwall/app/cornwall-26-00010-hou/",
+          "/planning/cornwall/new-builds/",
+          "/planning/devon/",
+          "/planning/dorset/",
+          "/planning/dorset/app/dorset-26-00001-adv/",
+          "/planning/east-midlands/",
+          "/planning/guildford/app/guildford-26-00008-pra/",
+          "/planning/guildford/app/guildford-26-00010-out/",
+          "/planning/guildford/app/guildford-26-00015-out/",
+          "/planning/hampshire/",
+          "/planning/leeds/app/leeds-26-00005-tpo/",
+          "/planning/london/",
+          "/planning/near/ng8-1/",
+          "/planning/near/rg2-0/",
+          "/planning/near/rg21-3/",
+          "/planning/near/s3-7/",
+          "/planning/north-west/",
+          "/planning/nottingham/",
+          "/planning/nottingham/app/nottingham-26-00005-ful/",
+          "/planning/reading/app/reading-26-00018-dis/",
+          "/planning/south-west/",
+          "/planning/south-yorkshire/",
+          "/planning/west-midlands/",
+          "/planning/wiltshire/",
+          "/planning/wiltshire/app/wiltshire-26-00020-pra/",
+          "/planning/wiltshire/app/wiltshire-26-00030-ful/"
+        ]
+      }
+    ],
+    "note": "Returned 47 unique paths across 1 hosts from 2025-04-12 to 2026-08-11.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
