@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:scaled.co.uk",
+  "args": {
+    "start_date": "2026-07-16",
+    "end_date": "2026-08-13"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-13",
+    "property_id": "sc-domain:scaled.co.uk",
+    "start_date": "2026-07-16"
+  }
+}

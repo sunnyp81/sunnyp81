@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:drugnote.com",
+  "args": {
+    "start_date": "2026-07-16",
+    "end_date": "2026-08-13"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-13",
+    "property_id": "sc-domain:drugnote.com",
+    "start_date": "2026-07-16"
+  }
+}

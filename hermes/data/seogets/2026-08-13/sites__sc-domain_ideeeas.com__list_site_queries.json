@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:ideeeas.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 7 queries from 2025-04-13 to 2026-08-12.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "ar ux design",
+      "augmented reality experience design",
+      "augmented reality ux",
+      "dark appearance",
+      "dark layout",
+      "dark mode design",
+      "dark mode profile"
+    ]
+  }
+}

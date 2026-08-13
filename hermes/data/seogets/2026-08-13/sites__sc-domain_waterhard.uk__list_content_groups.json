@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:waterhard.uk",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:waterhard.uk"
+  }
+}
