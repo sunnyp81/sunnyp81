@@ -1,0 +1,44 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:100percentvegan.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 28 queries from 2025-04-14 to 2026-08-13.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "100 percent vegan",
+      "100 plant based",
+      "100 vegan",
+      "100% vegan",
+      "check vegan",
+      "check vegan ingredients",
+      "is this vegan",
+      "online vegan shop",
+      "online vegan store",
+      "online vegan store uk",
+      "product vegan",
+      "the vegan shop",
+      "vegan 100",
+      "vegan check",
+      "vegan checker",
+      "vegan food checker",
+      "vegan ingredient",
+      "vegan ingredient checker",
+      "vegan ingredients checker",
+      "vegan online shop",
+      "vegan product",
+      "vegan product checker",
+      "vegan shop",
+      "vegan shops online",
+      "vegan store",
+      "vegetarian checker",
+      "vegetarian ingredient checker",
+      "vegetarian ingredients checker"
+    ]
+  }
+}

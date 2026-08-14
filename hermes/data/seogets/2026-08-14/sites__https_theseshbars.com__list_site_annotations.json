@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://theseshbars.com/",
+  "args": {
+    "start_date": "2026-07-17",
+    "end_date": "2026-08-14"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-14",
+    "property_id": "sc-domain:theseshbars.com",
+    "start_date": "2026-07-17"
+  }
+}

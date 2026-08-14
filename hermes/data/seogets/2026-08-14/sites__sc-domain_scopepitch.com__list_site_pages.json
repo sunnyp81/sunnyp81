@@ -1,0 +1,26 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:scopepitch.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://scopepitch.com",
+        "paths": [
+          "/",
+          "/graphic-design-invoice-template/",
+          "/invoice/",
+          "/scope-of-work-software-development/",
+          "/what-is-an-invoice/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 1 hosts from 2025-04-14 to 2026-08-13.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

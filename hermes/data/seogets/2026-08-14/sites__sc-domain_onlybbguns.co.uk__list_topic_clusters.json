@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:onlybbguns.co.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:onlybbguns.co.uk",
+    "topic_clusters": []
+  }
+}

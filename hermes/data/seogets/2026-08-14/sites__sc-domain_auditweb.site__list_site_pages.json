@@ -1,0 +1,50 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:auditweb.site",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://auditweb.site",
+        "paths": [
+          "/",
+          "/website-audit-services/report-example/",
+          "/free-website-audit/",
+          "/free-website-audit/ai/",
+          "/privacy/",
+          "/seo-website-audit/",
+          "/seo-website-audit/how-often/",
+          "/seo-website-audit/how-to/",
+          "/seo-website-audit/template/",
+          "/seo-website-audit/wordpress/",
+          "/technical-website-audit/",
+          "/technical-website-audit/checklist/",
+          "/terms/",
+          "/website-accessibility-audit/",
+          "/website-accessibility-audit/checklist/",
+          "/website-audit-checklist/",
+          "/website-audit-checklist/ecommerce/",
+          "/website-audit-checklist/seo/",
+          "/website-audit-checklist/wordpress/",
+          "/website-audit-services/",
+          "/website-audit-services/comprehensive/",
+          "/website-audit-services/cost/",
+          "/website-audit-tools/",
+          "/website-audit/",
+          "/website-content-audit/",
+          "/website-content-audit/how-to/",
+          "/website-security-audit/",
+          "/website-ux-audit/",
+          "/what-is-a-website-audit/"
+        ]
+      }
+    ],
+    "note": "Returned 29 unique paths across 1 hosts from 2025-04-14 to 2026-08-13.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
