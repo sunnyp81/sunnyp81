@@ -1,0 +1,26 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:text.taxi",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 10 queries from 2025-04-15 to 2026-08-14.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "17 font style copy and paste",
+      "cursive discord font",
+      "cursive font for twitter",
+      "cursive font twitter",
+      "cursive twitter font",
+      "discord category copy and paste",
+      "fake taxi font generator",
+      "textric",
+      "texttrick",
+      "tiktok cursive font"
+    ]
+  }
+}
