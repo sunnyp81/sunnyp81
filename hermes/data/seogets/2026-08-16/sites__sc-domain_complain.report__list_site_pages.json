@@ -1,0 +1,54 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:complain.report",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://complain.report",
+        "paths": [
+          "/worst-banks-2026/",
+          "/bank/moneybox/",
+          "/insurance/vitality/",
+          "/bank/james-hay/",
+          "/bank/janus-henderson/",
+          "/bank/leeds-building-society/",
+          "/",
+          "/bank/bank-of-ireland-uk/",
+          "/bank/capital-one/",
+          "/bank/clearbank/",
+          "/bank/co-operative-bank/",
+          "/bank/countrywide-assured/",
+          "/bank/coventry-building-society/",
+          "/bank/kensington-mortgages/",
+          "/bank/loans-2-go/",
+          "/bank/metro-bank/",
+          "/bank/nutmeg/",
+          "/bank/pepper-money/",
+          "/bank/uk-mortgage-lending/",
+          "/bank/vanquis-bank/",
+          "/broadband/",
+          "/broadband/utility-warehouse/",
+          "/guides/",
+          "/guides/broadband/",
+          "/insurance/adrian-flux/",
+          "/insurance/affinity-insurance/",
+          "/insurance/allianz/",
+          "/insurance/domestic-general/",
+          "/insurance/hastings-direct/",
+          "/insurance/qmetric/",
+          "/insurance/reassured/",
+          "/insurance/sabre-insurance/",
+          "/regulators/fca/"
+        ]
+      }
+    ],
+    "note": "Returned 33 unique paths across 1 hosts from 2025-04-16 to 2026-08-15.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

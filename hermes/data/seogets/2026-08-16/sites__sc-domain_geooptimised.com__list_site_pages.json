@@ -1,0 +1,48 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:geooptimised.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://geooptimised.com",
+        "paths": [
+          "/uk-law-firms-ai-crawler-index/",
+          "/is-geo-a-scam/",
+          "/the-grounding-clause/",
+          "/",
+          "/about/",
+          "/ai-optimisation-agency/",
+          "/ai-visibility-explained/",
+          "/contact/",
+          "/corrections/",
+          "/evidence/",
+          "/how-to-be-found-in-ai-search/",
+          "/methodology/",
+          "/otterly-vs-peec-vs-scrunch/",
+          "/peec-ai-alternatives/",
+          "/privacy/",
+          "/reproduction/",
+          "/tools/",
+          "/uk-accountancy-firms-ai-crawler-index/",
+          "/uk-fintechs-ai-crawler-index/",
+          "/uk-private-healthcare-ai-crawler-index/",
+          "/who-pays-us/"
+        ]
+      },
+      {
+        "host": "http://geooptimised.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 22 unique paths across 2 hosts from 2025-04-16 to 2026-08-15.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
