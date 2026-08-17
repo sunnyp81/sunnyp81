@@ -1,0 +1,21 @@
+{
+  "day": "2026-08-17",
+  "previous_day": "2026-08-16",
+  "alerts": [
+    "Clicks down 49% on sc-domain:redlighttherapy.expert: 51 -> 26 (28d window)"
+  ],
+  "notes": [],
+  "totals": {
+    "bing_sites": 93,
+    "bing_crawl_issues": 1788,
+    "seogets_sites": 145,
+    "seogets_clicks_28d": 37598,
+    "gsc_sites": 29,
+    "gsc_sitemap_errors": 34
+  },
+  "previous_totals": {
+    "bing_crawl_issues": 1788,
+    "seogets_clicks_28d": 37355,
+    "gsc_sitemap_errors": 34
+  }
+}

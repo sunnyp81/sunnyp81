@@ -1,0 +1,32 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:seo-guildford.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seo-guildford.uk",
+        "paths": [
+          "/",
+          "/case-studies/guildford-property-firm-local-seo/",
+          "/technical-seo-guildford/",
+          "/tools/ai-search-readiness-checker/",
+          "/tools/local-seo-checklist/"
+        ]
+      },
+      {
+        "host": "http://seo-guildford.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 6 unique paths across 2 hosts from 2025-04-17 to 2026-08-16.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

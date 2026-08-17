@@ -1,0 +1,1 @@
+{"rows": [{"keys": ["DESKTOP"], "clicks": 3, "impressions": 3804, "ctr": 0.0007886435331230284, "position": 72.11356466876971}, {"keys": ["MOBILE"], "clicks": 3, "impressions": 570, "ctr": 0.005263157894736842, "position": 62.64385964912281}, {"keys": ["TABLET"], "clicks": 0, "impressions": 27, "ctr": 0, "position": 75.77777777777777}], "responseAggregationType": "byProperty"}

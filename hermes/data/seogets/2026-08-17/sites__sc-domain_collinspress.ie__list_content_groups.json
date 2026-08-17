@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:collinspress.ie",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:collinspress.ie"
+  }
+}
