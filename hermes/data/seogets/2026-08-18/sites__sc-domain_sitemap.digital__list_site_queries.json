@@ -1,0 +1,48 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:sitemap.digital",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 32 queries from 2025-04-18 to 2026-08-17.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "ai trust readiness score",
+      "click depth",
+      "co to s\u0105 orphan pages?",
+      "crawl depth",
+      "how to find and resolve orphan site pages?",
+      "how to find orphan pages on a website",
+      "orphan page checker",
+      "orphan page redirects",
+      "orphan page seo",
+      "orphan pages",
+      "orphan pages checker",
+      "orphan pages screaming frog",
+      "orphan pages seo",
+      "orphan web page",
+      "orphaned apis",
+      "orphaned content",
+      "orphaned pages in sitemaps",
+      "orphaned pages meaning",
+      "orphaned pages seo",
+      "orphaned sitemap pages",
+      "page depth",
+      "pages need more than 3 clicks to be reached",
+      "screaming frog orphan pages",
+      "semrush orphaned pages",
+      "seo orphan pages",
+      "sitemap crawl",
+      "website page depth",
+      "what is an orphan page",
+      "what is orphaned content",
+      "wordpress find orphaned pages",
+      "wordpress orphaned content",
+      "wordpress orphaned pages"
+    ]
+  }
+}

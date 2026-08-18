@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:lockyourbike.org.uk",
+  "args": {
+    "start_date": "2026-07-21",
+    "end_date": "2026-08-18"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-18",
+    "property_id": "sc-domain:lockyourbike.org.uk",
+    "start_date": "2026-07-21"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:openknowledgeformat.agency",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://openknowledgeformat.agency",
+        "paths": [
+          "/",
+          "/okf-knowledge-base-migration/",
+          "/about/",
+          "/case-study-template/",
+          "/okf-for-ai-agents/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 1 hosts from 2025-04-18 to 2026-08-17.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

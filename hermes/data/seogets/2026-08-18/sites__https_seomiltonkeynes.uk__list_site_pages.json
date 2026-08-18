@@ -1,0 +1,32 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seomiltonkeynes.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seomiltonkeynes.uk",
+        "paths": [
+          "/",
+          "/seo-services-milton-keynes/",
+          "/about/",
+          "/ai-visibility-milton-keynes/",
+          "/ai-visibility-sprint/",
+          "/logistics-and-b2b-search/",
+          "/national-reach-local-base/",
+          "/pricing-for-a-logistics-firm/",
+          "/privacy/",
+          "/seo-milton-keynes-market-report/",
+          "/why-your-depot-ranks-nowhere/"
+        ]
+      }
+    ],
+    "note": "Returned 11 unique paths across 1 hosts from 2025-04-18 to 2026-08-17.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:seo-birmingham.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 7 queries from 2025-04-18 to 2026-08-17.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "birmingham local seo",
+      "birmingham seo",
+      "birmingham seo jobs",
+      "local seo birmingham",
+      "seo birmingham",
+      "seo jobs birmingham",
+      "seo south birmingham"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:mobileautomechanic.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 36 queries from 2025-04-18 to 2026-08-17.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "mobile mechanic in reading",
+      "24 hour mobile mechanic reading",
+      "abs light is on",
+      "affordable mobile mechanic reading",
+      "car mechanic that comes to you reading",
+      "car service at home reading",
+      "car wont start mobile mechanic basingstoke",
+      "car wont start mobile mechanic reading",
+      "cheap mobile mechanic reading",
+      "local mobile mechanics near me",
+      "mechanic at home reading",
+      "mobile auto electrician reading",
+      "mobile car mechanic reading",
+      "mobile car repair basingstoke",
+      "mobile car repair reading",
+      "mobile diagnostic mechanic near me",
+      "mobile mechanic basingstoke",
+      "mobile mechanic call out fee",
+      "mobile mechanic cost reading",
+      "mobile mechanic near me",
+      "mobile mechanic near tilehurst reading",
+      "mobile mechanic newbury",
+      "mobile mechanic prices",
+      "mobile mechanic prices reading",
+      "mobile mechanic prices uk",
+      "mobile mechanic reading",
+      "mobile mechanic reading berkshire",
+      "mobile mechanic tilehurst",
+      "mobile mechanics in reading",
+      "mobile mechanics reading",
+      "mobile vehicle repair reading",
+      "reading auto mobile mechanic",
+      "reading mobile mechanic",
+      "recommended mobile mechanic reading",
+      "sunday mobile mechanic reading",
+      "vehicle diagnostics in wokingham"
+    ]
+  }
+}

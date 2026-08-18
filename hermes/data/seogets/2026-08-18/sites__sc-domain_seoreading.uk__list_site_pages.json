@@ -1,0 +1,31 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:seoreading.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seoreading.uk",
+        "paths": [
+          "/",
+          "/technical-seo-reading/",
+          "/services/",
+          "/tools/local-seo-checklist/"
+        ]
+      },
+      {
+        "host": "http://seoreading.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 2 hosts from 2025-04-18 to 2026-08-17.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
