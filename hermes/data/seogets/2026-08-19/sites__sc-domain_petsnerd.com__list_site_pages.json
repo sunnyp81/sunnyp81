@@ -1,0 +1,40 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:petsnerd.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://petsnerd.com",
+        "paths": [
+          "/",
+          "/costs/cheapest-pets-to-own",
+          "/costs/cheapest-pets-to-own/",
+          "/costs/cost-of-owning-a-cat/",
+          "/costs/most-expensive-pets-to-own",
+          "/costs/most-expensive-pets-to-own/",
+          "/exotic/hedgehog-ownership-statistics",
+          "/exotic/hedgehog-ownership-statistics/",
+          "/exotic/rarest-cat-breeds-statistics/",
+          "/exotic/rarest-dog-breeds-statistics",
+          "/exotic/rarest-dog-breeds-statistics/",
+          "/statistics/small-mammal-statistics/"
+        ]
+      },
+      {
+        "host": "https://www.petsnerd.com",
+        "paths": [
+          "/costs/cheapest-pets-to-own/",
+          "/costs/most-expensive-pets-to-own/"
+        ]
+      }
+    ],
+    "note": "Returned 14 unique paths across 2 hosts from 2025-04-19 to 2026-08-18.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
