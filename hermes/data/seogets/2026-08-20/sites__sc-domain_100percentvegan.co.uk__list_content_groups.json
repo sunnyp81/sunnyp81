@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:100percentvegan.co.uk",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:100percentvegan.co.uk"
+  }
+}

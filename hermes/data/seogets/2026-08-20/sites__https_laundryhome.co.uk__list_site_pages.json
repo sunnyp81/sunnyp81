@@ -1,0 +1,28 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://laundryhome.co.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://laundryhome.co.uk",
+        "paths": [
+          "/",
+          "/price-list/",
+          "/contact-us/",
+          "/AboutUs.html",
+          "/ContactUs.html",
+          "/about-us/",
+          "/services/"
+        ]
+      }
+    ],
+    "note": "Returned 7 unique paths across 1 hosts from 2025-04-20 to 2026-08-19.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

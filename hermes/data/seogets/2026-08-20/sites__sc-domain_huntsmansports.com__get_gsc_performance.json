@@ -1,0 +1,15 @@
+{
+  "tool": "get_gsc_performance",
+  "site": "sc-domain:huntsmansports.com",
+  "args": {
+    "start_date": "2026-07-23",
+    "end_date": "2026-08-20"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t4002\t155641\t2.57\t8.66",
+    "end_date": "2026-08-20",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:huntsmansports.com",
+    "start_date": "2026-07-23"
+  }
+}

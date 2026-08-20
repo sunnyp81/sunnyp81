@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:londonwebdesign.site",
+  "args": {
+    "start_date": "2026-07-23",
+    "end_date": "2026-08-20"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-20",
+    "property_id": "sc-domain:londonwebdesign.site",
+    "start_date": "2026-07-23"
+  }
+}
