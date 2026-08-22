@@ -1,0 +1,44 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:optimisedwebsite.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 28 queries from 2025-04-22 to 2026-08-21.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "best seo small business website",
+      "best seo website builder",
+      "best seo website for small business",
+      "best seo websites for small business",
+      "best site builder for seo",
+      "best web builder for seo",
+      "best website builder for seo",
+      "best website builder for seo optimization",
+      "best website builder seo",
+      "best website platform for seo",
+      "best website seo for small business",
+      "create entities with schema markup",
+      "diy seo vs professional seo",
+      "how to connect entities with schema markup",
+      "how to create entities with schema markup",
+      "optimised webpage",
+      "optimised website",
+      "optimised websites",
+      "pre built website",
+      "ready made websites with seo",
+      "seo for small business websites",
+      "seo optimised website builder",
+      "seo optimized website builder",
+      "seo small business website",
+      "seo web builder",
+      "seo website builder",
+      "website builder seo",
+      "website builder with seo optimization"
+    ]
+  }
+}

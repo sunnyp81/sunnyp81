@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:smmcnj.org",
+  "args": {
+    "start_date": "2026-07-25",
+    "end_date": "2026-08-22"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-22",
+    "property_id": "sc-domain:smmcnj.org",
+    "start_date": "2026-07-25"
+  }
+}
