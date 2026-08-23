@@ -1,0 +1,88 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:fixerror.dev",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://fixerror.dev",
+        "paths": [
+          "/",
+          "/github/",
+          "/openai/insufficient-quota/",
+          "/stripe/card-declined/",
+          "/anthropic/",
+          "/anthropic/overloaded-error/",
+          "/anthropic/rate-limit-error/",
+          "/aws/access-denied-exception/",
+          "/aws/no-such-bucket/",
+          "/aws/throttling-exception/",
+          "/cloudflare/",
+          "/compare/stripe-vs-paypal-errors/",
+          "/firebase/",
+          "/gcp/",
+          "/glossary/",
+          "/guide/handling-rate-limits/",
+          "/http/",
+          "/http/202/",
+          "/http/308/",
+          "/http/401/",
+          "/http/402/",
+          "/http/403/",
+          "/http/405/",
+          "/http/408/",
+          "/http/409/",
+          "/http/413/",
+          "/http/422/",
+          "/http/429/",
+          "/http/431/",
+          "/http/500/",
+          "/http/502/",
+          "/http/504/",
+          "/http/520/",
+          "/http/526/",
+          "/kubernetes/",
+          "/kubernetes/imagepullbackoff/",
+          "/mongodb/",
+          "/nextjs/",
+          "/nextjs/function-invocation-timeout/",
+          "/nextjs/hydration-failed/",
+          "/nextjs/module-not-found/",
+          "/nginx/",
+          "/nodejs/",
+          "/nodejs/err-require-esm/",
+          "/openai/",
+          "/openai/context-length-exceeded/",
+          "/openai/model-not-found/",
+          "/paypal/",
+          "/postgres/23505-unique-violation/",
+          "/postgres/40p01-deadlock-detected/",
+          "/redis/",
+          "/rust/",
+          "/shopify/",
+          "/stripe/",
+          "/stripe/api-key-invalid/",
+          "/stripe/authentication-required/",
+          "/stripe/insufficient-funds/",
+          "/stripe/signature-verification-failed/",
+          "/supabase/",
+          "/twilio/",
+          "/vercel/"
+        ]
+      },
+      {
+        "host": "http://fixerror.dev",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 62 unique paths across 2 hosts from 2025-04-23 to 2026-08-22.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

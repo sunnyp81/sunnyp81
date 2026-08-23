@@ -1,0 +1,30 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:seo.archi",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seo.archi",
+        "paths": [
+          "/tools/crawl-depth-checker/",
+          "/",
+          "/about/",
+          "/guides/",
+          "/guides/ecommerce-site-architecture/",
+          "/guides/flat-vs-deep-site-architecture/",
+          "/guides/saas-website-architecture/",
+          "/guides/site-architecture-audit-checklist/",
+          "/guides/what-is-site-architecture-seo/"
+        ]
+      }
+    ],
+    "note": "Returned 9 unique paths across 1 hosts from 2025-04-23 to 2026-08-22.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

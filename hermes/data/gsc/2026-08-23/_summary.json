@@ -1,0 +1,11 @@
+{
+  "day": "2026-08-23",
+  "accounts": {
+    "2012infinite": {
+      "error": "('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})"
+    },
+    "sunnypat81": {
+      "error": "GSC_REFRESH_TOKEN_SUNNYPAT81 env var not set"
+    }
+  }
+}

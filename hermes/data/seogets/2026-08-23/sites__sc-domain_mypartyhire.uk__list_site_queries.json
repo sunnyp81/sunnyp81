@@ -1,0 +1,33 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:mypartyhire.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 17 queries from 2025-04-23 to 2026-08-22.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "bouncy castle age limit",
+      "bouncy castle dimensions",
+      "bouncy castle for small garden",
+      "bouncy castle health safety rules",
+      "bouncy castle height",
+      "bouncy castle hire earley",
+      "bouncy castle hire reading",
+      "bouncy castle hire reading berkshire",
+      "bouncy castle regulations uk",
+      "bouncy castle rules and regulations",
+      "bouncy castle safety",
+      "bouncy castle safety rules",
+      "bouncy castle safety signs",
+      "bouncy castle size",
+      "bouncy castle sizes",
+      "do i need insurance for a bouncy castle",
+      "indoor bouncy castle hire"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:sitemap.digital",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://sitemap.digital",
+        "paths": [
+          "/",
+          "/learn/ai-readiness-score",
+          "/learn/crawlable-but-invisible",
+          "/learn/internal-links-for-ai"
+        ]
+      },
+      {
+        "host": "https://sitemap.digital",
+        "paths": [
+          "/",
+          "/learn/click-depth",
+          "/learn/llms-txt",
+          "/learn/orphan-pages",
+          "/terms",
+          "/tools/ai-crawler-access"
+        ]
+      }
+    ],
+    "note": "Returned 10 unique paths across 2 hosts from 2025-04-23 to 2026-08-22.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
