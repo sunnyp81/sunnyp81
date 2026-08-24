@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://seoandover.uk/",
+  "args": {
+    "start_date": "2026-07-27",
+    "end_date": "2026-08-24"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-08-24",
+    "property_id": "https://seoandover.uk/",
+    "start_date": "2026-07-27"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "get_site_performance",
+  "site": "sc-domain:seo-leeds.uk",
+  "args": {
+    "start_date": "2026-07-27",
+    "end_date": "2026-08-24"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t0\t122\t0.00\t80.95",
+    "end_date": "2026-08-24",
+    "note": "No GA4 property is linked to this site, web metrics are not included. Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:seo-leeds.uk",
+    "sources": "search=gsc",
+    "start_date": "2026-07-27"
+  }
+}

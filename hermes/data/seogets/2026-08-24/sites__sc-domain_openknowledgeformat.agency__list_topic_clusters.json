@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:openknowledgeformat.agency",
+  "args": {},
+  "data": {
+    "property": "sc-domain:openknowledgeformat.agency",
+    "topic_clusters": []
+  }
+}
