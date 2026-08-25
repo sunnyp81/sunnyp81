@@ -1,0 +1,16 @@
+{
+  "tool": "get_site_performance",
+  "site": "https://seosheffield.uk/",
+  "args": {
+    "start_date": "2026-07-28",
+    "end_date": "2026-08-25"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t3\t3607\t0.08\t85.01",
+    "end_date": "2026-08-25",
+    "note": "No GA4 property is linked to this site, web metrics are not included. Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "https://seosheffield.uk/",
+    "sources": "search=gsc",
+    "start_date": "2026-07-28"
+  }
+}

@@ -1,0 +1,1144 @@
+{
+  "day": "2026-08-25",
+  "accounts": {
+    "2012infinite": {
+      "error": "<HttpError 403 when requesting https://analyticsadmin.googleapis.com/v1beta/accountSummaries?alt=json returned \"Request had insufficient authentication scopes.\". Details: \"[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_SCOPE_INSUFFICIENT', 'domain': 'googleapis.com', 'metadata': {'service': 'analyticsadmin.googleapis.com', 'method': 'google.analytics.admin.v1beta.AnalyticsAdminService.ListAccountSummaries'}}]\">"
+    },
+    "sunnypat81": {
+      "email": "sunnypat81@gmail.com",
+      "property_count": 113,
+      "properties": [
+        {
+          "account": "sunnypat81",
+          "property": "properties/352128004",
+          "rows_traffic": 452,
+          "rows_country": 80,
+          "rows_source_medium": 19,
+          "rows_date": 28,
+          "rows_conversions": 10,
+          "displayName": "She Cooks She Eats - GA4"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/528495064",
+          "rows_traffic": 441,
+          "rows_country": 94,
+          "rows_source_medium": 13,
+          "rows_date": 29,
+          "rows_conversions": 5,
+          "displayName": "PunchFoods"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530203338",
+          "rows_traffic": 77,
+          "rows_country": 76,
+          "rows_source_medium": 12,
+          "rows_date": 29,
+          "rows_conversions": 10,
+          "displayName": "BookKeepingFlow.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530297987",
+          "rows_traffic": 646,
+          "rows_country": 17,
+          "rows_source_medium": 5,
+          "rows_date": 25,
+          "rows_conversions": 5,
+          "displayName": "Wage Area"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530310074",
+          "rows_traffic": 3,
+          "rows_country": 1,
+          "rows_source_medium": 2,
+          "rows_date": 4,
+          "rows_conversions": 5,
+          "displayName": "epc.report"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530321498",
+          "rows_traffic": 111,
+          "rows_country": 13,
+          "rows_source_medium": 9,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "ownedwork.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530321555",
+          "rows_traffic": 25,
+          "rows_country": 31,
+          "rows_source_medium": 9,
+          "rows_date": 26,
+          "rows_conversions": 6,
+          "displayName": "signforge.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530332707",
+          "rows_traffic": 1,
+          "rows_country": 2,
+          "rows_source_medium": 1,
+          "rows_date": 4,
+          "rows_conversions": 3,
+          "displayName": "Radon Tips"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530337025",
+          "rows_traffic": 27,
+          "rows_country": 13,
+          "rows_source_medium": 4,
+          "rows_date": 19,
+          "rows_conversions": 8,
+          "displayName": "checkamover.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530342110",
+          "rows_traffic": 1000,
+          "rows_country": 108,
+          "rows_source_medium": 17,
+          "rows_date": 29,
+          "rows_conversions": 7,
+          "displayName": "rentalyield.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530346597",
+          "rows_traffic": 1000,
+          "rows_country": 52,
+          "rows_source_medium": 25,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "chargefinder.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530346664",
+          "rows_traffic": 94,
+          "rows_country": 21,
+          "rows_source_medium": 7,
+          "rows_date": 28,
+          "rows_conversions": 5,
+          "displayName": "seo.bargains"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530346990",
+          "rows_traffic": 42,
+          "rows_country": 20,
+          "rows_source_medium": 11,
+          "rows_date": 28,
+          "rows_conversions": 7,
+          "displayName": "heatpumpchecker.co.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530351656",
+          "rows_traffic": 39,
+          "rows_country": 61,
+          "rows_source_medium": 21,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "deadhangs.com "
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530355215",
+          "rows_traffic": 47,
+          "rows_country": 22,
+          "rows_source_medium": 7,
+          "rows_date": 28,
+          "rows_conversions": 7,
+          "displayName": "solarhq.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530359154",
+          "rows_traffic": 7,
+          "rows_country": 6,
+          "rows_source_medium": 6,
+          "rows_date": 12,
+          "rows_conversions": 5,
+          "displayName": "Gathrd "
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530359259",
+          "rows_traffic": 6,
+          "rows_country": 5,
+          "rows_source_medium": 4,
+          "rows_date": 12,
+          "rows_conversions": 6,
+          "displayName": "reportbolt.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530360712",
+          "rows_traffic": 6,
+          "rows_country": 7,
+          "rows_source_medium": 1,
+          "rows_date": 5,
+          "rows_conversions": 5,
+          "displayName": "auditweb.site"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530361177",
+          "rows_traffic": 30,
+          "rows_country": 12,
+          "rows_source_medium": 7,
+          "rows_date": 27,
+          "rows_conversions": 7,
+          "displayName": "carrecallhq.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530365210",
+          "rows_traffic": 6,
+          "rows_country": 7,
+          "rows_source_medium": 2,
+          "rows_date": 11,
+          "rows_conversions": 5,
+          "displayName": "supplementcheck.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530366785",
+          "rows_traffic": 1000,
+          "rows_country": 46,
+          "rows_source_medium": 18,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "noisecheck.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530370476",
+          "rows_traffic": 177,
+          "rows_country": 16,
+          "rows_source_medium": 9,
+          "rows_date": 28,
+          "rows_conversions": 6,
+          "displayName": "drivingtestpass.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530371781",
+          "rows_traffic": 1000,
+          "rows_country": 56,
+          "rows_source_medium": 16,
+          "rows_date": 29,
+          "rows_conversions": 9,
+          "displayName": "signalcheck.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530374190",
+          "rows_traffic": 65,
+          "rows_country": 22,
+          "rows_source_medium": 23,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "complain.report"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530376289",
+          "rows_traffic": 1000,
+          "rows_country": 103,
+          "rows_source_medium": 23,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "breedhealth.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530376635",
+          "rows_traffic": 56,
+          "rows_country": 40,
+          "rows_source_medium": 17,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "clinicaltrialhub.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530376968",
+          "rows_traffic": 85,
+          "rows_country": 31,
+          "rows_source_medium": 20,
+          "rows_date": 29,
+          "rows_conversions": 7,
+          "displayName": "calculator.place"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530378525",
+          "rows_traffic": 42,
+          "rows_country": 8,
+          "rows_source_medium": 8,
+          "rows_date": 20,
+          "rows_conversions": 5,
+          "displayName": "planningleads.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530384916",
+          "rows_traffic": 74,
+          "rows_country": 54,
+          "rows_source_medium": 30,
+          "rows_date": 28,
+          "rows_conversions": 12,
+          "displayName": "selflandlord.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530385990",
+          "rows_traffic": 9,
+          "rows_country": 9,
+          "rows_source_medium": 3,
+          "rows_date": 14,
+          "rows_conversions": 5,
+          "displayName": "scopepitch.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530385992",
+          "rows_traffic": 176,
+          "rows_country": 14,
+          "rows_source_medium": 15,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "knotweedcheck.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530394843",
+          "rows_traffic": 265,
+          "rows_country": 110,
+          "rows_source_medium": 48,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "redlighttherapy.expert"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530397226",
+          "rows_traffic": 1000,
+          "rows_country": 149,
+          "rows_source_medium": 13,
+          "rows_date": 29,
+          "rows_conversions": 9,
+          "displayName": "postcode.page"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530397304",
+          "rows_traffic": 1000,
+          "rows_country": 27,
+          "rows_source_medium": 11,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "carehome.page"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530397474",
+          "rows_traffic": 743,
+          "rows_country": 65,
+          "rows_source_medium": 12,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "nomadranker.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530404743",
+          "rows_traffic": 1000,
+          "rows_country": 63,
+          "rows_source_medium": 27,
+          "rows_date": 29,
+          "rows_conversions": 11,
+          "displayName": "waterhard.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530409548",
+          "rows_traffic": 322,
+          "rows_country": 14,
+          "rows_source_medium": 2,
+          "rows_date": 29,
+          "rows_conversions": 5,
+          "displayName": "stackswitch.co"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/530424072",
+          "rows_traffic": 1000,
+          "rows_country": 63,
+          "rows_source_medium": 24,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "catchment.school"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531804077",
+          "rows_traffic": 29,
+          "rows_country": 5,
+          "rows_source_medium": 4,
+          "rows_date": 12,
+          "rows_conversions": 5,
+          "displayName": "leadscaffold.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531811436",
+          "rows_traffic": 73,
+          "rows_country": 8,
+          "rows_source_medium": 7,
+          "rows_date": 27,
+          "rows_conversions": 5,
+          "displayName": "salarycareer.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531815019",
+          "rows_traffic": 23,
+          "rows_country": 28,
+          "rows_source_medium": 5,
+          "rows_date": 23,
+          "rows_conversions": 5,
+          "displayName": "qrcode.ink"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531817632",
+          "rows_traffic": 57,
+          "rows_country": 32,
+          "rows_source_medium": 6,
+          "rows_date": 26,
+          "rows_conversions": 5,
+          "displayName": "aifor.tech"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531818618",
+          "rows_traffic": 6,
+          "rows_country": 10,
+          "rows_source_medium": 5,
+          "rows_date": 16,
+          "rows_conversions": 8,
+          "displayName": "mobilebarhirelondon.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531823350",
+          "rows_traffic": 1000,
+          "rows_country": 129,
+          "rows_source_medium": 30,
+          "rows_date": 29,
+          "rows_conversions": 7,
+          "displayName": "drugnote.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531825093",
+          "rows_traffic": 3,
+          "rows_country": 9,
+          "rows_source_medium": 3,
+          "rows_date": 13,
+          "rows_conversions": 5,
+          "displayName": "100percentvegan.co.uk "
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531825707",
+          "rows_traffic": 1,
+          "rows_country": 4,
+          "rows_source_medium": 10,
+          "rows_date": 14,
+          "rows_conversions": 5,
+          "displayName": "text.taxi"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531847203",
+          "rows_traffic": 1,
+          "rows_country": 3,
+          "rows_source_medium": 8,
+          "rows_date": 11,
+          "rows_conversions": 5,
+          "displayName": "aiagentic.news"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531848008",
+          "rows_traffic": 1,
+          "rows_country": 2,
+          "rows_source_medium": 3,
+          "rows_date": 6,
+          "rows_conversions": 5,
+          "displayName": "formhq.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531851676",
+          "rows_traffic": 111,
+          "rows_country": 11,
+          "rows_source_medium": 9,
+          "rows_date": 29,
+          "rows_conversions": 5,
+          "displayName": "zoningbase.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/531864510",
+          "rows_traffic": 67,
+          "rows_country": 31,
+          "rows_source_medium": 17,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "agenticai.associates"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/532368902",
+          "rows_traffic": 2,
+          "rows_country": 6,
+          "rows_source_medium": 1,
+          "rows_date": 10,
+          "rows_conversions": 5,
+          "displayName": "generator.express"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/532496362",
+          "rows_traffic": 0,
+          "rows_country": 0,
+          "rows_source_medium": 0,
+          "rows_date": 0,
+          "rows_conversions": 0,
+          "displayName": "https://generator.express/"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/538491017",
+          "rows_traffic": 36,
+          "rows_country": 27,
+          "rows_source_medium": 5,
+          "rows_date": 27,
+          "rows_conversions": 5,
+          "displayName": "claimwatt.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/538515864",
+          "rows_traffic": 130,
+          "rows_country": 61,
+          "rows_source_medium": 22,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "salarydata.co.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/538558909",
+          "rows_traffic": 119,
+          "rows_country": 18,
+          "rows_source_medium": 11,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "towrating.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/538560712",
+          "rows_traffic": 2,
+          "rows_country": 6,
+          "rows_source_medium": 2,
+          "rows_date": 10,
+          "rows_conversions": 4,
+          "displayName": "areaiq.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/538562220",
+          "rows_traffic": 74,
+          "rows_country": 12,
+          "rows_source_medium": 11,
+          "rows_date": 24,
+          "rows_conversions": 6,
+          "displayName": "tradecost.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/538565040",
+          "rows_traffic": 19,
+          "rows_country": 9,
+          "rows_source_medium": 8,
+          "rows_date": 18,
+          "rows_conversions": 7,
+          "displayName": "mobileautomechanic.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/538567099",
+          "rows_traffic": 28,
+          "rows_country": 14,
+          "rows_source_medium": 2,
+          "rows_date": 17,
+          "rows_conversions": 8,
+          "displayName": "fixerror.dev"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/538594939",
+          "rows_traffic": 55,
+          "rows_country": 57,
+          "rows_source_medium": 27,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "template.how"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/540459561",
+          "rows_traffic": 170,
+          "rows_country": 64,
+          "rows_source_medium": 17,
+          "rows_date": 29,
+          "rows_conversions": 7,
+          "displayName": "TheBestMowers"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/541420633",
+          "rows_traffic": 113,
+          "rows_country": 61,
+          "rows_source_medium": 27,
+          "rows_date": 29,
+          "rows_conversions": 5,
+          "displayName": "bestvibrationplates.co.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545149048",
+          "rows_traffic": 1,
+          "rows_country": 3,
+          "rows_source_medium": 8,
+          "rows_date": 11,
+          "rows_conversions": 5,
+          "displayName": "merch.observer"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545150128",
+          "rows_traffic": 7,
+          "rows_country": 6,
+          "rows_source_medium": 3,
+          "rows_date": 10,
+          "rows_conversions": 6,
+          "displayName": "piyadesigns.co.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545150526",
+          "rows_traffic": 18,
+          "rows_country": 21,
+          "rows_source_medium": 6,
+          "rows_date": 18,
+          "rows_conversions": 5,
+          "displayName": "bestcordlessdrills.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545151117",
+          "rows_traffic": 200,
+          "rows_country": 105,
+          "rows_source_medium": 33,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "e-bikereview.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545153393",
+          "rows_traffic": 2,
+          "rows_country": 5,
+          "rows_source_medium": 1,
+          "rows_date": 12,
+          "rows_conversions": 7,
+          "displayName": "seoswansea.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545153899",
+          "rows_traffic": 3,
+          "rows_country": 1,
+          "rows_source_medium": 1,
+          "rows_date": 1,
+          "rows_conversions": 6,
+          "displayName": "geooptimised.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545153902",
+          "rows_traffic": 6,
+          "rows_country": 6,
+          "rows_source_medium": 6,
+          "rows_date": 10,
+          "rows_conversions": 4,
+          "displayName": "implementai.today"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545154296",
+          "rows_traffic": 1,
+          "rows_country": 2,
+          "rows_source_medium": 2,
+          "rows_date": 4,
+          "rows_conversions": 3,
+          "displayName": "citationgenerator.store"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545155716",
+          "rows_traffic": 2,
+          "rows_country": 3,
+          "rows_source_medium": 1,
+          "rows_date": 4,
+          "rows_conversions": 4,
+          "displayName": "seo-birmingham.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545156398",
+          "rows_traffic": 41,
+          "rows_country": 21,
+          "rows_source_medium": 10,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "luxurytrex.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545158548",
+          "rows_traffic": 14,
+          "rows_country": 16,
+          "rows_source_medium": 7,
+          "rows_date": 28,
+          "rows_conversions": 7,
+          "displayName": "bestchainsaw.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545160043",
+          "rows_traffic": 0,
+          "rows_country": 0,
+          "rows_source_medium": 0,
+          "rows_date": 0,
+          "rows_conversions": 0,
+          "displayName": "crosstrainerhome.co.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545160745",
+          "rows_traffic": 170,
+          "rows_country": 54,
+          "rows_source_medium": 10,
+          "rows_date": 29,
+          "rows_conversions": 7,
+          "displayName": "topsewingmachines.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545162260",
+          "rows_traffic": 4,
+          "rows_country": 8,
+          "rows_source_medium": 7,
+          "rows_date": 13,
+          "rows_conversions": 5,
+          "displayName": "seo.archi"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545162443",
+          "rows_traffic": 113,
+          "rows_country": 71,
+          "rows_source_medium": 14,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "colourlabelprinter.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545162461",
+          "rows_traffic": 1,
+          "rows_country": 1,
+          "rows_source_medium": 1,
+          "rows_date": 3,
+          "rows_conversions": 3,
+          "displayName": "seo-leeds.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545163732",
+          "rows_traffic": 11,
+          "rows_country": 17,
+          "rows_source_medium": 2,
+          "rows_date": 10,
+          "rows_conversions": 7,
+          "displayName": "seo-guildford.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545164640",
+          "rows_traffic": 28,
+          "rows_country": 6,
+          "rows_source_medium": 2,
+          "rows_date": 20,
+          "rows_conversions": 5,
+          "displayName": "optimisedwebsite.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545165044",
+          "rows_traffic": 2,
+          "rows_country": 6,
+          "rows_source_medium": 2,
+          "rows_date": 9,
+          "rows_conversions": 5,
+          "displayName": "seoreading.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545165529",
+          "rows_traffic": 1000,
+          "rows_country": 93,
+          "rows_source_medium": 9,
+          "rows_date": 29,
+          "rows_conversions": 6,
+          "displayName": "towerfanreviews.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545166134",
+          "rows_traffic": 123,
+          "rows_country": 38,
+          "rows_source_medium": 15,
+          "rows_date": 29,
+          "rows_conversions": 7,
+          "displayName": "dashboardcamreviews.co.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545167424",
+          "rows_traffic": 1,
+          "rows_country": 1,
+          "rows_source_medium": 1,
+          "rows_date": 1,
+          "rows_conversions": 4,
+          "displayName": "londonweb.design"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545168295",
+          "rows_traffic": 6,
+          "rows_country": 5,
+          "rows_source_medium": 4,
+          "rows_date": 6,
+          "rows_conversions": 9,
+          "displayName": "sitemap.digital"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545168852",
+          "rows_traffic": 65,
+          "rows_country": 51,
+          "rows_source_medium": 13,
+          "rows_date": 24,
+          "rows_conversions": 6,
+          "displayName": "bestturbotrainers.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545189760",
+          "rows_traffic": 3,
+          "rows_country": 6,
+          "rows_source_medium": 3,
+          "rows_date": 6,
+          "rows_conversions": 5,
+          "displayName": "ideeeas.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545205247",
+          "rows_traffic": 0,
+          "rows_country": 0,
+          "rows_source_medium": 0,
+          "rows_date": 0,
+          "rows_conversions": 0,
+          "displayName": "techloved.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545207697",
+          "rows_traffic": 0,
+          "rows_country": 0,
+          "rows_source_medium": 0,
+          "rows_date": 0,
+          "rows_conversions": 0,
+          "displayName": "agenticaisecured.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545209326",
+          "rows_traffic": 176,
+          "rows_country": 71,
+          "rows_source_medium": 15,
+          "rows_date": 29,
+          "rows_conversions": 8,
+          "displayName": "thetutor.link"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545213405",
+          "rows_traffic": 11,
+          "rows_country": 4,
+          "rows_source_medium": 3,
+          "rows_date": 6,
+          "rows_conversions": 6,
+          "displayName": "bestreviews.co.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545216021",
+          "rows_traffic": 29,
+          "rows_country": 20,
+          "rows_source_medium": 4,
+          "rows_date": 12,
+          "rows_conversions": 7,
+          "displayName": "aifor.property"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545216523",
+          "rows_traffic": 54,
+          "rows_country": 19,
+          "rows_source_medium": 6,
+          "rows_date": 29,
+          "rows_conversions": 5,
+          "displayName": "lockyourbike.org.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545217138",
+          "rows_traffic": 3,
+          "rows_country": 3,
+          "rows_source_medium": 1,
+          "rows_date": 5,
+          "rows_conversions": 4,
+          "displayName": "openknowledgeformat.academy"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545220364",
+          "rows_traffic": 1,
+          "rows_country": 2,
+          "rows_source_medium": 1,
+          "rows_date": 3,
+          "rows_conversions": 4,
+          "displayName": "openknowledgeformat.agency"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545220623",
+          "rows_traffic": 0,
+          "rows_country": 0,
+          "rows_source_medium": 0,
+          "rows_date": 0,
+          "rows_conversions": 0,
+          "displayName": "readingschoolofmartialarts.co.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/545820800",
+          "rows_traffic": 6,
+          "rows_country": 7,
+          "rows_source_medium": 3,
+          "rows_date": 9,
+          "rows_conversions": 5,
+          "displayName": "aifor.fitness"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546115017",
+          "rows_traffic": 11,
+          "rows_country": 5,
+          "rows_source_medium": 7,
+          "rows_date": 13,
+          "rows_conversions": 6,
+          "displayName": "smmcnj.org"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546128263",
+          "rows_traffic": 8,
+          "rows_country": 10,
+          "rows_source_medium": 2,
+          "rows_date": 13,
+          "rows_conversions": 7,
+          "displayName": "seosheffield.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546134840",
+          "rows_traffic": 6,
+          "rows_country": 10,
+          "rows_source_medium": 3,
+          "rows_date": 17,
+          "rows_conversions": 5,
+          "displayName": "seoleicester.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546145482",
+          "rows_traffic": 2,
+          "rows_country": 4,
+          "rows_source_medium": 2,
+          "rows_date": 12,
+          "rows_conversions": 6,
+          "displayName": "seohertfordshire.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546157097",
+          "rows_traffic": 5,
+          "rows_country": 8,
+          "rows_source_medium": 2,
+          "rows_date": 23,
+          "rows_conversions": 5,
+          "displayName": "seocoventry.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546157520",
+          "rows_traffic": 8,
+          "rows_country": 12,
+          "rows_source_medium": 4,
+          "rows_date": 20,
+          "rows_conversions": 5,
+          "displayName": "seomiltonkeynes.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546160506",
+          "rows_traffic": 5,
+          "rows_country": 11,
+          "rows_source_medium": 2,
+          "rows_date": 17,
+          "rows_conversions": 5,
+          "displayName": "seo-cambridge.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546165774",
+          "rows_traffic": 9,
+          "rows_country": 11,
+          "rows_source_medium": 3,
+          "rows_date": 18,
+          "rows_conversions": 5,
+          "displayName": "seowigan.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546203138",
+          "rows_traffic": 3,
+          "rows_country": 8,
+          "rows_source_medium": 1,
+          "rows_date": 12,
+          "rows_conversions": 5,
+          "displayName": "seowakefield.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546222054",
+          "rows_traffic": 6,
+          "rows_country": 15,
+          "rows_source_medium": 2,
+          "rows_date": 16,
+          "rows_conversions": 5,
+          "displayName": "seo-middlesbrough.com"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546229290",
+          "rows_traffic": 7,
+          "rows_country": 8,
+          "rows_source_medium": 2,
+          "rows_date": 16,
+          "rows_conversions": 5,
+          "displayName": "seotelford.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/546240239",
+          "rows_traffic": 4,
+          "rows_country": 9,
+          "rows_source_medium": 1,
+          "rows_date": 16,
+          "rows_conversions": 5,
+          "displayName": "seoandover.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/549141244",
+          "rows_traffic": 7,
+          "rows_country": 13,
+          "rows_source_medium": 3,
+          "rows_date": 11,
+          "rows_conversions": 7,
+          "displayName": "mypartyhire.uk"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/532501282",
+          "rows_traffic": 2,
+          "rows_country": 3,
+          "rows_source_medium": 3,
+          "rows_date": 7,
+          "rows_conversions": 4,
+          "displayName": "seo.associates"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/539989460",
+          "rows_traffic": 83,
+          "rows_country": 44,
+          "rows_source_medium": 10,
+          "rows_date": 29,
+          "rows_conversions": 14,
+          "displayName": "https://theseshbars.com/"
+        },
+        {
+          "account": "sunnypat81",
+          "property": "properties/409078193",
+          "rows_traffic": 157,
+          "rows_country": 27,
+          "rows_source_medium": 13,
+          "rows_date": 28,
+          "rows_conversions": 7,
+          "displayName": "Sunny Patel - GA4"
+        }
+      ]
+    }
+  }
+}

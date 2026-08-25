@@ -1,0 +1,59 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:selflandlord.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://selflandlord.com",
+        "paths": [
+          "/guides/sa105-form/",
+          "/",
+          "/templates/notice-to-enter/",
+          "/templates/rent-receipt/",
+          "/templates/right-to-rent-check/",
+          "/templates/written-statement-of-terms/",
+          "/templates/tenancy-agreement/",
+          "/guides/written-statement-of-terms/",
+          "/templates/",
+          "/templates/inventory-checklist/",
+          "/tools/rent-increase-checker/",
+          "/contact/",
+          "/guides/convert-ast-to-periodic-tenancy/",
+          "/guides/decent-homes-standard-landlord/",
+          "/guides/end-of-section-21/",
+          "/guides/epc-landlord-requirements/",
+          "/guides/form-4a-rent-increase/",
+          "/guides/how-to-evict-tenant-uk/",
+          "/guides/landlord-ombudsman-scheme/",
+          "/guides/landlord-tax-deductions/",
+          "/guides/mtd-quarterly-deadlines/",
+          "/guides/periodic-tenancy-renters-rights-act/",
+          "/guides/property-portal-landlord-registration/",
+          "/guides/renters-rights-act-faqs/",
+          "/guides/renters-rights-act-pets/",
+          "/guides/renters-rights-act-timeline/",
+          "/guides/renters-rights-act/",
+          "/guides/section-8-notice/",
+          "/pack/",
+          "/privacy/",
+          "/refund/",
+          "/reminders/",
+          "/templates/section-13-rent-increase/",
+          "/templates/section-21-notice/",
+          "/templates/section-8-notice/",
+          "/templates/tenant-reference-request/",
+          "/terms/",
+          "/tools/deposit-cap-calculator/"
+        ]
+      }
+    ],
+    "note": "Returned 38 unique paths across 1 hosts from 2025-04-25 to 2026-08-24.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
