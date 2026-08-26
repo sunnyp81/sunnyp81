@@ -1,0 +1,15 @@
+{
+  "tool": "get_gsc_performance",
+  "site": "https://www.visible-ads.com/",
+  "args": {
+    "start_date": "2026-07-29",
+    "end_date": "2026-08-26"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t5\t708\t0.71\t5.83",
+    "end_date": "2026-08-26",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "https://www.visible-ads.com/",
+    "start_date": "2026-07-29"
+  }
+}

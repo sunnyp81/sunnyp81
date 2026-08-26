@@ -1,0 +1,46 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:seo.archi",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 30 queries from 2025-04-26 to 2026-08-25.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "crawl depth checker",
+      "architect seo",
+      "architect seo website",
+      "architectural seo",
+      "architecture seo",
+      "click depth",
+      "click depth seo",
+      "content architecture seo",
+      "crawl depth",
+      "crawl map",
+      "ecommerce site structure",
+      "freecrawl",
+      "seo architecture",
+      "seo site architecture",
+      "seo website architecture",
+      "site architecture and seo",
+      "site architecture audit",
+      "site architecture for seo",
+      "site architecture in seo",
+      "site architecture seo",
+      "technical seo issues caused by flat site structure",
+      "technical seo site architecture",
+      "webshop site structure",
+      "website architecture audit seo usa",
+      "website architecture checker",
+      "website architecture for seo",
+      "website architecture seo",
+      "website structure checker",
+      "what is site architecture",
+      "what is site architecture in seo"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seosheffield.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seosheffield.uk",
+        "paths": [
+          "/contact/",
+          "/local-seo-sheffield/",
+          "/seo-services-sheffield/",
+          "/",
+          "/about/",
+          "/ai-visibility-sheffield/",
+          "/ai-visibility-sprint/",
+          "/pricing/",
+          "/privacy/",
+          "/sheffield-seo-market-report/",
+          "/technical-notes/",
+          "/technical-notes/google-business-profile-for-industrial-firms/"
+        ]
+      }
+    ],
+    "note": "Returned 12 unique paths across 1 hosts from 2025-04-26 to 2026-08-25.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "get_site_performance",
+  "site": "sc-domain:catchment.school",
+  "args": {
+    "start_date": "2026-07-29",
+    "end_date": "2026-08-26"
+  },
+  "data": {
+    "currency": "GBP",
+    "data": "clicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\n\t10\t2961\t0.34\t51.55\t3232\t3705\t1836\t49.55\t0\t0.00",
+    "end_date": "2026-08-26",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:catchment.school",
+    "sources": "search=gsc, web=ga4",
+    "start_date": "2026-07-29"
+  }
+}
