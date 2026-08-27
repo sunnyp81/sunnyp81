@@ -1,0 +1,87 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:colourlabelprinter.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://colourlabelprinter.com",
+        "paths": [
+          "/best-printer-for-infrequent-use/",
+          "/printer-required-royal-mail-services/",
+          "/is-asa-food-safe/",
+          "/epson-vs-hp-printers/",
+          "/where-can-i-use-a-3d-printer-for-free/",
+          "/epson-vs-canon-printers/",
+          "/how-to-print-labels-on-zebra-printer/",
+          "/best-3d-printer-for-kids/",
+          "/best-label-printer-for-amazon-fba/",
+          "/best-printer-for-depop-sellers/",
+          "/best-printer-for-occasional-use/",
+          "/can-i-sell-3d-printed-items-legally/",
+          "/dymo-vs-brother-label-printers/",
+          "/is-abs-biodegradable/",
+          "/3d-printing-costs-breakdown/",
+          "/best-3d-printer-under-500/",
+          "/best-laser-printer-for-home/",
+          "/best-printer-for-students/",
+          "/best-printer-for-teachers/",
+          "/food-label-printer-uk/",
+          "/which-side-do-labels-go-in-printer/",
+          "/",
+          "/3d-printer-bed-adhesion-guide/",
+          "/3d-printer-filament-types-compared/",
+          "/3d-printer-nozzle-sizes-explained/",
+          "/3d-printing/",
+          "/abs-vs-pla/",
+          "/advantages-of-laser-printers/",
+          "/best-3d-printer-filament-brands/",
+          "/best-3d-printer-for-beginners/",
+          "/best-3d-printer-for-cosplay/",
+          "/best-3d-printer-for-miniatures/",
+          "/best-3d-printer-under-1000/",
+          "/best-3d-printer-under-200/",
+          "/best-all-in-one-printer/",
+          "/best-barcode-label-printer/",
+          "/best-label-printer-for-ebay/",
+          "/best-label-printer-for-etsy/",
+          "/best-printer-for-photos/",
+          "/best-resin-3d-printer/",
+          "/best-shipping-label-printer/",
+          "/best-slicer-software-for-3d-printing/",
+          "/best-thermal-label-printer-for-home/",
+          "/best/etsy/",
+          "/can-you-make-money-with-a-3d-printer/",
+          "/cheapest-printer-ink/",
+          "/do-laser-printers-dry-out/",
+          "/home-printers/",
+          "/how-much-electricity-does-a-3d-printer-use/",
+          "/how-often-to-clean-3d-printer-nozzle/",
+          "/how-to-fix-3d-print-stringing/",
+          "/how-to-paint-3d-prints/",
+          "/how-to-start-a-3d-printing-business/",
+          "/inkjet-vs-laser-for-infrequent-printing/",
+          "/is-pla-food-safe/",
+          "/label-printers/",
+          "/laser-vs-inkjet-printer/",
+          "/print-labels-hp-printer/",
+          "/tpu-3d-printing-guide/",
+          "/whats-better-inkjet-or-laser-printers/"
+        ]
+      },
+      {
+        "host": "http://colourlabelprinter.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 61 unique paths across 2 hosts from 2025-04-27 to 2026-08-26.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

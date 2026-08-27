@@ -1,0 +1,15 @@
+{
+  "tool": "get_indexing_status",
+  "site": "sc-domain:colourlabelprinter.com",
+  "args": {
+    "filters": [],
+    "status_filter": [],
+    "crawled_days_ago": 0,
+    "page": 1
+  },
+  "data": {
+    "data": null,
+    "note": "indexing data is only available for super sites. sc-domain:colourlabelprinter.com is not a super site",
+    "property": "sc-domain:colourlabelprinter.com"
+  }
+}

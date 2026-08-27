@@ -1,0 +1,53 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:aiagentic.news",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://aiagentic.news",
+        "paths": [
+          "/",
+          "/story/ress-learning-reasoning-models-for-tabular-data-prediction-via-symbolic-scaffold/",
+          "/category/tools/",
+          "/digest/2026-04-03/",
+          "/digest/2026-04-06/",
+          "/story/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/",
+          "/story/desalination-plants-vulnerable-in-middle-east-conflict/",
+          "/story/desalination-technology-by-the-numbers/",
+          "/story/france-pulls-last-gold-held-in-us-for-15b-gain/",
+          "/story/from-gpt-2-to-claude-mythos-the-return-of-ai-models-deemed-too-dangerous-to-rele/",
+          "/story/google-rolls-out-gemini-in-chrome-in-7-new-countries/",
+          "/story/holos-a-web-scale-llm-based-multi-agent-system-for-the-agentic-web/",
+          "/story/linear-programming-for-multi-criteria-assessment-with-cardinal-and-ordinal-data/",
+          "/story/mitigating-llm-biases-toward-spurious-social-contexts-using-direct-preference-op/",
+          "/story/new-stanford-study-reveals-when-teaming-up-ai-agents-is-worth-the-compute/",
+          "/story/pangram-labs-ai-detection-tool-warns-users-about-ai-generated-content/",
+          "/story/proximity-measure-of-information-object-features-for-solving-the-problem-of-thei/",
+          "/story/quantum-inspired-qubit-qutrit-neural-networks-for-real-time-financial-forecastin/",
+          "/story/stanfords-ai-index-2026-highlights-rapid-progress-safety-concerns-and-eroding-tr/",
+          "/story/study-maps-developer-frustration-over-quotai-slopquot-as-a-quottragedy-of-the-co/",
+          "/story/sycophantic-ai-chatbots-can-break-even-ideal-rational-thinkers-researchers-forma/",
+          "/story/the-noise-we-make-is-hurting-animals-can-we-learn-to-shut-up/",
+          "/story/the-us-army-is-building-its-own-chatbot-for-combat/",
+          "/story/webxskill-closing-the-grounding-gap-for-autonomous-web-agents/",
+          "/story/xpertbench-expert-level-tasks-with-rubrics-based-evaluation/",
+          "/story/yelp-is-making-its-ai-chatbot-way-more-useful/"
+        ]
+      },
+      {
+        "host": "http://aiagentic.news",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 27 unique paths across 2 hosts from 2025-04-27 to 2026-08-26.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

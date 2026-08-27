@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:openknowledgeformat.academy",
+  "args": {
+    "start_date": "2026-07-30",
+    "end_date": "2026-08-27"
+  },
+  "data": {
+    "annotations": [
+      {
+        "date": "2026-08-18",
+        "description": "The rollout was complete as of Aug 21, 2026.",
+        "href": "https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE",
+        "id": "G-LEubPCm2octf2uMqCFKE",
+        "source": "google",
+        "title": "August 2026 Spam Update"
+      }
+    ],
+    "end_date": "2026-08-27",
+    "property_id": "sc-domain:openknowledgeformat.academy",
+    "start_date": "2026-07-30"
+  }
+}
