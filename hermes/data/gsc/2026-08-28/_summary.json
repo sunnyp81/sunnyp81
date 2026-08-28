@@ -1,0 +1,11 @@
+{
+  "day": "2026-08-28",
+  "accounts": {
+    "2012infinite": {
+      "error": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
+    },
+    "sunnypat81": {
+      "error": "GSC_REFRESH_TOKEN_SUNNYPAT81 env var not set"
+    }
+  }
+}

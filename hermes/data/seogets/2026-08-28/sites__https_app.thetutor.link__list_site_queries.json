@@ -1,0 +1,41 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://app.thetutor.link/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 25 queries from 2025-04-28 to 2026-08-27.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "tutor link",
+      "the tutoring link",
+      "maths tutor reading",
+      "the tutor link",
+      "thetutor",
+      "#thetutor",
+      "home tutor app",
+      "link tutor",
+      "linktutor",
+      "online tutoring equipment",
+      "t utor",
+      "tech tutor link",
+      "teletutor",
+      "the tutor online",
+      "the tutor pages",
+      "the tutor website",
+      "the tutor.me",
+      "thetutor.me login",
+      "tuition near me",
+      "tutor reading",
+      "tutoring in reading",
+      "tutoring link",
+      "tutorlink",
+      "tutorlink.me",
+      "tutors link"
+    ]
+  }
+}

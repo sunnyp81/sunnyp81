@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://myknifeguide.com/",
+  "args": {
+    "start_date": "2026-07-31",
+    "end_date": "2026-08-28"
+  },
+  "data": {
+    "annotations": [
+      {
+        "date": "2026-08-18",
+        "description": "The rollout was complete as of Aug 21, 2026.",
+        "href": "https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE",
+        "id": "G-LEubPCm2octf2uMqCFKE",
+        "source": "google",
+        "title": "August 2026 Spam Update"
+      }
+    ],
+    "end_date": "2026-08-28",
+    "property_id": "https://myknifeguide.com/",
+    "start_date": "2026-07-31"
+  }
+}
