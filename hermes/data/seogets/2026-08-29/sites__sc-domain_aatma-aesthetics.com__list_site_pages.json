@@ -1,0 +1,22 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:aatma-aesthetics.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://aatma-aesthetics.com",
+        "paths": [
+          "/conditions/weak-chin/"
+        ]
+      }
+    ],
+    "note": "Returned 1 unique paths across 1 hosts from 2025-04-29 to 2026-08-28.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

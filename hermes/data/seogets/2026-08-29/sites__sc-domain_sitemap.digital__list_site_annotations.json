@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:sitemap.digital",
+  "args": {
+    "start_date": "2026-08-01",
+    "end_date": "2026-08-29"
+  },
+  "data": {
+    "annotations": [
+      {
+        "date": "2026-08-18",
+        "description": "The rollout was complete as of Aug 21, 2026.",
+        "href": "https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE",
+        "id": "G-LEubPCm2octf2uMqCFKE",
+        "source": "google",
+        "title": "August 2026 Spam Update"
+      }
+    ],
+    "end_date": "2026-08-29",
+    "property_id": "sc-domain:sitemap.digital",
+    "start_date": "2026-08-01"
+  }
+}

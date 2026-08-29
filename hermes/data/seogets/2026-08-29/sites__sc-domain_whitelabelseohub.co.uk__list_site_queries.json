@@ -1,0 +1,53 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:whitelabelseohub.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 37 queries from 2025-04-29 to 2026-08-28.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "seo packages forrayleigh",
+      "seo report white label",
+      "seo software white label",
+      "seo tool white label",
+      "seo tools white label",
+      "seo white label",
+      "seo white label ranking tool",
+      "seo white label software",
+      "seo whitelabel",
+      "uk white label seo",
+      "white label rank checker",
+      "white label reporting tool",
+      "white label reports",
+      "white label seo",
+      "white label seo analysis tool",
+      "white label seo audit service",
+      "white label seo audit tool",
+      "white label seo audit tools",
+      "white label seo dashboard",
+      "white label seo london",
+      "white label seo near you",
+      "white label seo platform",
+      "white label seo pricing",
+      "white label seo providers",
+      "white label seo report",
+      "white label seo reporting",
+      "white label seo reporting tool",
+      "white label seo reports",
+      "white label seo services uk",
+      "white label seo software",
+      "white label seo tool",
+      "white label seo tools",
+      "white label seo uk",
+      "white label website audit tool",
+      "white lable seo",
+      "white-label seo reports",
+      "whitelable seo"
+    ]
+  }
+}

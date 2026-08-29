@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:agenticai.associates",
+  "args": {},
+  "data": {
+    "property": "sc-domain:agenticai.associates",
+    "topic_clusters": []
+  }
+}
