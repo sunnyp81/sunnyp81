@@ -1,0 +1,70 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:bookkeepingflow.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://bookkeepingflow.com",
+        "paths": [
+          "/",
+          "/blog/bookkeeping/bank-reconciliation-guide/",
+          "/blog/bookkeeping/bookkeeper-cost/",
+          "/blog/bookkeeping/expense-categories-small-business/",
+          "/resources/calculators/quickbooks-migration-checklist/",
+          "/about/",
+          "/blog/",
+          "/blog/bookkeeping/",
+          "/blog/bookkeeping/cash-vs-accrual-accounting/",
+          "/blog/bookkeeping/chart-of-accounts-small-business/",
+          "/blog/bookkeeping/how-to-do-bookkeeping-small-business/",
+          "/blog/cash-flow/",
+          "/blog/cash-flow/cash-flow-statement-guide/",
+          "/blog/cash-flow/improving-cash-flow/",
+          "/blog/invoicing/",
+          "/blog/invoicing/invoice-template-guide/",
+          "/blog/invoicing/late-payment-follow-up/",
+          "/blog/invoicing/net-30-payment-terms/",
+          "/blog/taxes/",
+          "/blog/taxes/home-office-deduction/",
+          "/blog/taxes/quarterly-estimated-tax-payments/",
+          "/blog/taxes/states/illinois/",
+          "/compare/",
+          "/compare/freshbooks-alternative/",
+          "/compare/quickbooks-alternative/",
+          "/compare/xero-alternative/",
+          "/features/",
+          "/industries/consultants/",
+          "/industries/contractors/",
+          "/industries/ecommerce/",
+          "/industries/freelancers/",
+          "/industries/real-estate/",
+          "/industries/restaurants/",
+          "/pricing/",
+          "/resources/calculators/",
+          "/resources/calculators/bookkeeper-cost/",
+          "/resources/calculators/business-deductions/",
+          "/resources/calculators/cash-flow-forecast/",
+          "/resources/calculators/freelance-rate/",
+          "/resources/calculators/home-office-deduction/",
+          "/resources/calculators/llc-vs-s-corp/",
+          "/resources/calculators/quarterly-estimated-tax/",
+          "/resources/glossary/",
+          "/resources/templates/",
+          "/resources/templates/cash-flow-forecast/",
+          "/resources/templates/chart-of-accounts/",
+          "/resources/templates/expense-tracking",
+          "/resources/templates/expense-tracking/",
+          "/resources/templates/invoice-templates/"
+        ]
+      }
+    ],
+    "note": "Returned 49 unique paths across 1 hosts from 2025-05-01 to 2026-08-30.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:seo-birmingham.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://seo-birmingham.uk",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://seo-birmingham.uk",
+        "paths": [
+          "/",
+          "/local-seo-checklist-birmingham/"
+        ]
+      }
+    ],
+    "note": "Returned 3 unique paths across 2 hosts from 2025-05-01 to 2026-08-30.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

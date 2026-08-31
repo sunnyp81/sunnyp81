@@ -1,0 +1,16 @@
+{
+  "tool": "get_site_performance",
+  "site": "sc-domain:sitemap.digital",
+  "args": {
+    "start_date": "2026-08-03",
+    "end_date": "2026-08-31"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t0\t119\t0.00\t88.54",
+    "end_date": "2026-08-31",
+    "note": "No GA4 property is linked to this site, web metrics are not included. Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:sitemap.digital",
+    "sources": "search=gsc",
+    "start_date": "2026-08-03"
+  }
+}
