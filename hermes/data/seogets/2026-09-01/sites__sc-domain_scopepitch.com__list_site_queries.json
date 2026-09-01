@@ -1,0 +1,30 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:scopepitch.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 14 queries from 2025-05-01 to 2026-08-31.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "how to invoice a company",
+      "how to send an invoice as an individual",
+      "justpitch",
+      "scope in software development",
+      "scope of software",
+      "scope of work example software development",
+      "scope of work for software development",
+      "scope of work software",
+      "scope of work software development",
+      "scope of work template for software development",
+      "software development scope of work",
+      "software development scope of work example",
+      "software scope",
+      "software scope of work"
+    ]
+  }
+}

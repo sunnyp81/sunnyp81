@@ -1,0 +1,40 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:collinspress.ie",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://www.collinspress.ie",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://betting.collinspress.ie",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "http://www.collinspress.ie",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://collinspress.ie",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 4 unique paths across 4 hosts from 2025-05-01 to 2026-08-31.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
