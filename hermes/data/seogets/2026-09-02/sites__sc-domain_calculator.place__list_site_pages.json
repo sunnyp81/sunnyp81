@@ -1,0 +1,52 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:calculator.place",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://calculator.place",
+        "paths": [
+          "/id/",
+          "/",
+          "/health/pregnancy-calculator/",
+          "/health/calorie-calculator/",
+          "/health/ideal-weight-calculator/",
+          "/math/average-calculator/",
+          "/pl/",
+          "/blog/calorie-calculator-vs-tdee/",
+          "/de/",
+          "/finance/hourly-to-salary-calculator/",
+          "/finance/mortgage-calculator/",
+          "/health/calories-burned-calculator/",
+          "/blog/",
+          "/blog/bmi-vs-body-fat-calculator/",
+          "/blog/calorie-needs-62kg-178cm-male-maintenance/",
+          "/blog/compound-interest-explained/",
+          "/blog/hamwi-formula-ideal-body-weight/",
+          "/blog/how-much-would-a-mortgage-cost-for-180000/",
+          "/blog/how-to-calculate-mortgage-repayments/",
+          "/blog/investment-rate-of-return-calculator/",
+          "/blog/ovulation-vs-period-calculator/",
+          "/calculators/",
+          "/finance/credit-card-payoff-calculator/",
+          "/finance/investment-return-calculator/",
+          "/health/",
+          "/hi/",
+          "/privacy",
+          "/privacy/",
+          "/resources/",
+          "/terms/",
+          "/tools/"
+        ]
+      }
+    ],
+    "note": "Returned 31 unique paths across 1 hosts from 2025-05-02 to 2026-09-01.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

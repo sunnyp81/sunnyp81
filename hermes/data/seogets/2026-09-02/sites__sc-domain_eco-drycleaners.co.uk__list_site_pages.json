@@ -1,0 +1,69 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:eco-drycleaners.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://eco-drycleaners.co.uk",
+        "paths": [
+          "/",
+          "/can-dry-cleaners-fix-zippers/",
+          "/do-dry-cleaners-steam-wedding-dresses/",
+          "/do-dry-cleaners-iron-clothes/",
+          "/dry-cleaning-services/alterations-repairs/",
+          "/how-long-do-dry-cleaners-take/",
+          "/how-do-dry-cleaners-work/",
+          "/can-dry-cleaners-get-stains-out-of-silk/",
+          "/pricing/",
+          "/can-dry-cleaners-remove-ink-stains/",
+          "/do-dry-cleaners-sew/",
+          "/how-much-do-dry-cleaners-cost/",
+          "/dry-cleaning-services/leather-care/",
+          "/can-dry-cleaners-remove-stains-from-white-clothes/",
+          "/can-dry-cleaners-get-stains-out/",
+          "/dry-cleaning-services/wedding-dress/",
+          "/dry-cleaning-services/dry-cleaning/",
+          "/dry-cleaning-services/home-bedding/",
+          "/index.html",
+          "/contact-us/",
+          "/do-dry-cleaners-wash-comforters/",
+          "/about-us/",
+          "/dry-cleaning-services/",
+          "/dry-cleaning-services/delicate-traditional-garment-care/",
+          "/dry-cleaning-services/wash-fold/",
+          "/dry-cleaning-services/curtain-cleaning-matters/",
+          "/do-dry-cleaners-clean-rugs/",
+          "/why-eco-friendly-dry-cleaning-is-the-future-of-garment-care/",
+          "/blog/",
+          "/can-dry-cleaners-get-oil-stains-out/",
+          "/dry-cleaning-services/shirt-service/",
+          "/wp-content/uploads/2024/10/Eco-Dry-Cleaners-Footer-logo.png"
+        ]
+      },
+      {
+        "host": "http://eco-drycleaners.co.uk",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://www.eco-drycleaners.co.uk",
+        "paths": [
+          "/price.html",
+          "/contact.html",
+          "/process.html",
+          "/about.html",
+          "/do-dry-cleaning-remove-wrinkles/"
+        ]
+      }
+    ],
+    "note": "Returned 38 unique paths across 3 hosts from 2025-05-02 to 2026-09-01.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:carrecallhq.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://carrecallhq.com",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://carrecallhq.com",
+        "paths": [
+          "/",
+          "/2018-honda-cr-v/",
+          "/2020-toyota-camry/",
+          "/compare/2015-honda-civic-vs-2022-honda-pilot/",
+          "/guides/",
+          "/model/honda-civic/",
+          "/problems/visibility/",
+          "/recalls/",
+          "/safest-cars/2018/",
+          "/safest-cars/2022/",
+          "/worst-cars/2019/",
+          "/year/2019/",
+          "/year/2022/"
+        ]
+      }
+    ],
+    "note": "Returned 14 unique paths across 2 hosts from 2025-05-02 to 2026-09-01.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

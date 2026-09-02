@@ -1,0 +1,26 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:mobileautomechanic.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://mobileautomechanic.uk",
+        "paths": [
+          "/",
+          "/services/alternator-starter/",
+          "/services/auto-electrical/",
+          "/info/",
+          "/services/mot-repairs/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 1 hosts from 2025-05-02 to 2026-09-01.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

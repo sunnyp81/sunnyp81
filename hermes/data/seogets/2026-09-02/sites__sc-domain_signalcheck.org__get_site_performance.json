@@ -1,0 +1,17 @@
+{
+  "tool": "get_site_performance",
+  "site": "sc-domain:signalcheck.org",
+  "args": {
+    "start_date": "2026-08-05",
+    "end_date": "2026-09-02"
+  },
+  "data": {
+    "currency": "GBP",
+    "data": "clicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\n\t2\t6006\t0.03\t32.75\t732\t783\t377\t48.15\t3\t0.00",
+    "end_date": "2026-09-02",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:signalcheck.org",
+    "sources": "search=gsc, web=ga4",
+    "start_date": "2026-08-05"
+  }
+}

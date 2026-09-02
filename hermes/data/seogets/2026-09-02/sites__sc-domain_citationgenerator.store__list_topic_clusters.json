@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:citationgenerator.store",
+  "args": {},
+  "data": {
+    "property": "sc-domain:citationgenerator.store",
+    "topic_clusters": []
+  }
+}
