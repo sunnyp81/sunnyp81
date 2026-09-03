@@ -1,0 +1,29 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:seoswansea.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://seoswansea.uk",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://seoswansea.uk",
+        "paths": [
+          "/",
+          "/seo-audit-swansea/"
+        ]
+      }
+    ],
+    "note": "Returned 3 unique paths across 2 hosts from 2025-05-03 to 2026-09-02.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
