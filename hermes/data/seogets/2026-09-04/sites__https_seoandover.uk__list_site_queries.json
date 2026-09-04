@@ -1,0 +1,48 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://seoandover.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 32 queries from 2025-05-04 to 2026-09-03.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "ai visibility sprint",
+      "andover business",
+      "andover business district",
+      "andover seo",
+      "andover seo company",
+      "andover,--,,370,,\"local pack, reviews, video, people also ask, gbp\",\"no data\",\"no data\",\"no data\",\"no data\",\"no data\",\"no data\",\"no data\",\"no data\",\"no data\",\"no data\",56,56,56,36,36,36,56,36,36,36,36,36",
+      "business website andover",
+      "digital marketing companies andover",
+      "digital marketing in andover",
+      "digital marketing strategy services andover",
+      "dover seo",
+      "how to make money in andover",
+      "local seo kinver",
+      "local web design andover",
+      "mayfair seo",
+      "mayfair seo company",
+      "paid search andover",
+      "ppc agency andover",
+      "search engine optimisation in andover",
+      "search engine optimisation in dover",
+      "search engine optimisation in waterlooville",
+      "seo agency dover",
+      "seo andover",
+      "seo andover agency",
+      "seo copy writers andover",
+      "seo dover",
+      "seo kinver",
+      "seo services andover",
+      "seo services dover",
+      "seo services in dover",
+      "seo services in waterlooville",
+      "seo waterlooville"
+    ]
+  }
+}

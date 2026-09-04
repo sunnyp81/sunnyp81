@@ -1,0 +1,46 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:drinksbykingpin.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://drinksbykingpin.com",
+        "paths": [
+          "/",
+          "/about/",
+          "/latest-work/buoy-gin/",
+          "/portfolio/buoy-gin/",
+          "/latest-work/mavens-gin/",
+          "/portfolio/smiling-wolf-non-alcoholic-non-alcoholic-rtd/",
+          "/gin-label-design-elements/",
+          "/portfolio/yorkshire-distilling-co-spirits-vodka-and-gin/",
+          "/how-drinks-packaging-design-affects-sales/",
+          "/latest-work/scorza-grapefruit-liqueur/",
+          "/portfolio/howlers-vodka/",
+          "/portfolio/maison-leroux-champagne/",
+          "/portfolio/mavens-gin/",
+          "/portfolio/scorza-grapefruit-liqueur/",
+          "/showcase/",
+          "/what-to-look-for-in-drinks-branding-agency/",
+          "/work/",
+          "/how-to-design-drinks-packaging/",
+          "/latest-work/skyeside-gin/",
+          "/latest-work/yorkshire-distilling-co-spirits-vodka-and-gin/",
+          "/portfolio/bangalore-bill-spice-island-rum/",
+          "/portfolio/tipplemill-gin/",
+          "/privacy-policy/",
+          "/wp-content/uploads/2025/09/Kingpin_Yorkshire-Distilling-Co_Vodka_Packaging-Branding-Design_Nico-Tjarks-3-uai-961x1922.jpg",
+          "/wp-content/uploads/2025/10/Kingpin-Design_Howlers-Vodka_Liquor-Packaging-Branding-Design_Nico-Tjarks_Light-7-uai-1490x894.jpg"
+        ]
+      }
+    ],
+    "note": "Returned 25 unique paths across 1 hosts from 2025-05-04 to 2026-09-03.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

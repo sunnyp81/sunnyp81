@@ -1,0 +1,82 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:topsewingmachines.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://topsewingmachines.uk",
+        "paths": [
+          "/tesco-review/",
+          "/brother-m343d-overlocker/",
+          "/quietest-machines/",
+          "/singer-s14-78-review/",
+          "/",
+          "/about/",
+          "/are-needles-universal/",
+          "/bernina-1008s-review/",
+          "/bernina-330/",
+          "/best-dressmaking/",
+          "/best-for-beginners/",
+          "/best-for-embroidery/",
+          "/best-for-kids/",
+          "/best-for-quilting/",
+          "/best-handheld/",
+          "/best-under-100/",
+          "/brother-1034d-review/",
+          "/brother-3034d-review/",
+          "/brother-4234d-review/",
+          "/brother-ae1700-review/",
+          "/brother-ae2500/",
+          "/brother-as40-reviews/",
+          "/brother-cs6000i-review/",
+          "/brother-fs210-pro-led/",
+          "/brother-fs40-review/",
+          "/brother-fs40s/",
+          "/brother-innovis-a16/",
+          "/brother-l14-reviews/",
+          "/brother-ls14s-review/",
+          "/brother-ls14s/",
+          "/brother-vs-singer-vs-janome/",
+          "/computerized-vs-mechanical/",
+          "/faq/",
+          "/heavy-duty-leather/",
+          "/janome-2200xt-review/",
+          "/janome-230dc/",
+          "/janome-725s-review/",
+          "/janome-8002d-review/",
+          "/janome-hd2200-review/",
+          "/janome-j3-18/",
+          "/quilting-machines/",
+          "/singer-1409/",
+          "/singer-4423/",
+          "/singer-4432-heavy-duty/",
+          "/singer-confidence-7465/",
+          "/thread-keeps-breaking/",
+          "/what-use-bee/",
+          "/why-keep-skipping-stitches/",
+          "/why-not-moving-fabric/"
+        ]
+      },
+      {
+        "host": "http://www.topsewingmachines.uk",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://www.topsewingmachines.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 51 unique paths across 3 hosts from 2025-05-04 to 2026-09-03.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:seo-birmingham.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:seo-birmingham.uk",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:lockyourbike.org.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://lockyourbike.org.uk",
+        "paths": [
+          "/what-size-room-do-you-need-for-turbo-training-2/",
+          "/understanding-room-temperature-for-indoor-training/",
+          "/what-type-of-fan-is-best-for-turbo-training/",
+          "/understanding-humidity-impact-on-indoor-training-2/",
+          "/where-to-position-fans-for-indoor-training/",
+          "/bike-parking-security-assessment-risk-analysis-guide/",
+          "/how-long-should-turbo-training-sessions-be/",
+          "/how-to-soundproof-your-training-area-2/",
+          "/knog-party-frank-cable-lock-review/",
+          "/setting-up-proper-lighting-for-indoor-training-2/",
+          "/weather-resistant-bike-locks-performance-analysis/",
+          "/",
+          "/bike-lock-evolution-technology-and-security-guide/",
+          "/bike-security-cameras-complete-surveillance-coverage-guide/",
+          "/bike-security-guide-essential-anti-theft-protection-tips/",
+          "/bike-theft-insurance/",
+          "/bike-theft/",
+          "/combining-outdoor-and-indoor-training-effectively-2/",
+          "/creating-a-permanent-indoor-training-setup-2/",
+          "/creating-a-permanent-indoor-training-setup/",
+          "/cycle-insurance/lock-requirements/",
+          "/how-to-create-an-efficient-training-corner/",
+          "/how-to-protect-your-floor-during-turbo-training-2/",
+          "/how-to-reduce-noise-in-your-training-space-2/",
+          "/how-to-reduce-noise-in-your-training-space/",
+          "/how-to-soundproof-your-training-area/",
+          "/layered-bike-security-comprehensive-protection-guide/",
+          "/lock-cylinder-security-technical-analysis-guide/",
+          "/managing-air-quality-during-indoor-training-2/",
+          "/managing-air-quality-during-indoor-training/",
+          "/mechanical-vs-electronic-locks-security-comparison/",
+          "/page/2/",
+          "/page/6/",
+          "/page/7/",
+          "/push-bike-insurance/",
+          "/time-based-bike-security-strategic-protection-guide/",
+          "/understanding-rpe-for-turbo-training/",
+          "/what-size-room-do-you-need-for-turbo-training/",
+          "/what-type-of-fan-is-best-for-turbo-training-2/",
+          "/when-to-do-low-intensity-turbo-training/",
+          "/wp-content/uploads/2024/11/effective_indoor_training_lighting.jpg"
+        ]
+      },
+      {
+        "host": "http://www.lockyourbike.org.uk",
+        "paths": [
+          "/knog-party-frank-cable-lock-review/"
+        ]
+      },
+      {
+        "host": "https://www.lockyourbike.org.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 43 unique paths across 3 hosts from 2025-05-04 to 2026-09-03.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "get_gsc_performance",
+  "site": "https://seo-cambridge.uk/",
+  "args": {
+    "start_date": "2026-08-07",
+    "end_date": "2026-09-04"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t1\t6002\t0.02\t83.74",
+    "end_date": "2026-09-04",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "https://seo-cambridge.uk/",
+    "start_date": "2026-08-07"
+  }
+}

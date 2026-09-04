@@ -1,0 +1,17 @@
+{
+  "tool": "get_site_performance",
+  "site": "sc-domain:redlighttherapy.expert",
+  "args": {
+    "start_date": "2026-08-07",
+    "end_date": "2026-09-04"
+  },
+  "data": {
+    "currency": "USD",
+    "data": "clicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\n\t13\t1632\t0.80\t37.97\t4244\t5171\t1676\t32.41\t7\t0.00",
+    "end_date": "2026-09-04",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:redlighttherapy.expert",
+    "sources": "search=gsc, web=ga4",
+    "start_date": "2026-08-07"
+  }
+}

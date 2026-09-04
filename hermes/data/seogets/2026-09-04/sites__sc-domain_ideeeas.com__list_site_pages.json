@@ -1,0 +1,27 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:ideeeas.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://ideeeas.com",
+        "paths": [
+          "/",
+          "/how-to-design-for-augmented-reality-experiences/",
+          "/how-to-design-for-dark-mode/",
+          "/portfolio/",
+          "/privacy-policy/",
+          "/whats-the-best-way-to-display-related-content/"
+        ]
+      }
+    ],
+    "note": "Returned 6 unique paths across 1 hosts from 2025-05-04 to 2026-09-03.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

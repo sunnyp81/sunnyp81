@@ -1,0 +1,35 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seowakefield.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seowakefield.uk",
+        "paths": [
+          "/",
+          "/about/",
+          "/ai-visibility-sprint/",
+          "/ai-visibility-wakefield/",
+          "/checkatrade-or-your-own-website/",
+          "/contact/",
+          "/distribution-and-trades/",
+          "/local-seo-wakefield/",
+          "/pricing-for-hauliers-and-trades/",
+          "/pricing/",
+          "/privacy/",
+          "/seo-services-wakefield/",
+          "/wakefield-seo-market-report/",
+          "/what-procurement-buyers-type/"
+        ]
+      }
+    ],
+    "note": "Returned 14 unique paths across 1 hosts from 2025-05-04 to 2026-09-03.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

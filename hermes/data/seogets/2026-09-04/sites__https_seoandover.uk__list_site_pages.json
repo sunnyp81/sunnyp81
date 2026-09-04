@@ -1,0 +1,31 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://seoandover.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://seoandover.uk",
+        "paths": [
+          "/",
+          "/about/",
+          "/ai-visibility-andover/",
+          "/ai-visibility-sprint/",
+          "/andover-seo-market-report/",
+          "/how-ai-assistants-pick-a-local-business/",
+          "/local-seo-andover/",
+          "/privacy/",
+          "/seo-services-andover/",
+          "/test-valley-rural-business-guide/"
+        ]
+      }
+    ],
+    "note": "Returned 10 unique paths across 1 hosts from 2025-05-04 to 2026-09-03.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

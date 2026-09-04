@@ -1,0 +1,17 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:reportbolt.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 1 queries from 2025-05-04 to 2026-09-03.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "bolt reports"
+    ]
+  }
+}
