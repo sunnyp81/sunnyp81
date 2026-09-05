@@ -1,0 +1,57 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:aifor.tech",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://aifor.tech",
+        "paths": [
+          "/category/education/",
+          "/",
+          "/alternatives/babylon-health/",
+          "/alternatives/cleo/",
+          "/alternatives/playground-ai/",
+          "/best/coding/",
+          "/best/education/",
+          "/category/design/",
+          "/category/finance/",
+          "/category/writing/",
+          "/compare/adcreative-ai-vs-hubspot-ai/",
+          "/compare/amazon-codewhisperer-vs-tabnine/",
+          "/compare/fireflies-ai-vs-notion-ai/",
+          "/compare/github-copilot-vs-replit/",
+          "/compare/nightcafe-vs-playground-ai/",
+          "/tools/anyword/",
+          "/tools/content-at-scale/",
+          "/tools/cursor/",
+          "/tools/figma-ai/",
+          "/tools/hubspot-ai/",
+          "/tools/jasper-ai/",
+          "/tools/looka/",
+          "/tools/notion-ai/",
+          "/tools/perplexity/",
+          "/tools/persado/",
+          "/tools/quillbot/",
+          "/tools/quizlet-q-chat/",
+          "/tools/rytr/",
+          "/tools/scalenut/",
+          "/tools/wordtune/"
+        ]
+      },
+      {
+        "host": "http://aifor.tech",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 31 unique paths across 2 hosts from 2025-05-05 to 2026-09-04.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

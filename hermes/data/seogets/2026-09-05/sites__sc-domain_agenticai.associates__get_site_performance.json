@@ -1,0 +1,17 @@
+{
+  "tool": "get_site_performance",
+  "site": "sc-domain:agenticai.associates",
+  "args": {
+    "start_date": "2026-08-08",
+    "end_date": "2026-09-05"
+  },
+  "data": {
+    "currency": "USD",
+    "data": "clicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\n\t16\t4552\t0.35\t55.84\t134\t162\t44\t27.16\t0\t0.00",
+    "end_date": "2026-09-05",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:agenticai.associates",
+    "sources": "search=gsc, web=ga4",
+    "start_date": "2026-08-08"
+  }
+}
