@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://seowakefield.uk/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://seowakefield.uk/"
+  }
+}

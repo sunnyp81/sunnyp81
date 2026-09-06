@@ -1,0 +1,39 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:seoswansea.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 23 queries from 2025-05-06 to 2026-09-05.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "content writing seo swansea",
+      "keyword research swansea",
+      "local seo swansea",
+      "on page optimisation swansea",
+      "port talbot seo",
+      "search engine optimisation swansea",
+      "seo agency swansea",
+      "seo company swansea",
+      "seo consultant swansea",
+      "seo neath",
+      "seo pembrokeshire",
+      "seo port talbot",
+      "seo services swansea",
+      "seo swansea",
+      "seo wales",
+      "seo-wales",
+      "south wales seo",
+      "swansea seo",
+      "swansea seo agency",
+      "swansea seo services",
+      "technical seo audit bridgend",
+      "technical seo audit swansea",
+      "technical site audit swansea"
+    ]
+  }
+}

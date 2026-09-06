@@ -1,0 +1,1 @@
+{"dimensionHeaders": [{"name": "country"}], "metricHeaders": [{"name": "sessions", "type": "TYPE_INTEGER"}, {"name": "activeUsers", "type": "TYPE_INTEGER"}], "rows": [{"dimensionValues": [{"value": "United Kingdom"}], "metricValues": [{"value": "3"}, {"value": "2"}]}], "rowCount": 1, "metadata": {"currencyCode": "GBP", "timeZone": "Etc/GMT"}, "kind": "analyticsData#runReport"}
