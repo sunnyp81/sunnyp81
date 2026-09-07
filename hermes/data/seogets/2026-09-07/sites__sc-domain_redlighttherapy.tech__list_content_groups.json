@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:redlighttherapy.tech",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:redlighttherapy.tech"
+  }
+}

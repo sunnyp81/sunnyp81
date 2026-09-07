@@ -1,0 +1,15 @@
+{
+  "tool": "get_indexing_status",
+  "site": "sc-domain:drinksbykingpin.com",
+  "args": {
+    "filters": [],
+    "status_filter": [],
+    "crawled_days_ago": 0,
+    "page": 1
+  },
+  "data": {
+    "data": null,
+    "note": "indexing data is only available for super sites. sc-domain:drinksbykingpin.com is not a super site",
+    "property": "sc-domain:drinksbykingpin.com"
+  }
+}

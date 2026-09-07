@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:drugnote.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:drugnote.com",
+    "topic_clusters": []
+  }
+}
