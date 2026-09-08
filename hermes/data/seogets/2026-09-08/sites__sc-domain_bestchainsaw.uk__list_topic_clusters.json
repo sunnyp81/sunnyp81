@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:bestchainsaw.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:bestchainsaw.uk",
+    "topic_clusters": []
+  }
+}

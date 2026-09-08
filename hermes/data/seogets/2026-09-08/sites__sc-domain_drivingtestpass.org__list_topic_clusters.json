@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:drivingtestpass.org",
+  "args": {},
+  "data": {
+    "property": "sc-domain:drivingtestpass.org",
+    "topic_clusters": []
+  }
+}

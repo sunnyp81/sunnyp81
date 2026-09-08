@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:knotweedcheck.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:knotweedcheck.com",
+    "topic_clusters": []
+  }
+}
