@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:techloved.com",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:techloved.com is not a super site",
+    "property": "sc-domain:techloved.com"
+  }
+}

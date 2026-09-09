@@ -1,0 +1,15 @@
+{
+  "tool": "get_gsc_performance",
+  "site": "http://www.laundryhome.co.uk/",
+  "args": {
+    "start_date": "2026-08-12",
+    "end_date": "2026-09-09"
+  },
+  "data": {
+    "data": "clicks\timpressions\tctr\tposition\n\t54\t1217\t4.44\t4.21",
+    "end_date": "2026-09-09",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "http://www.laundryhome.co.uk/",
+    "start_date": "2026-08-12"
+  }
+}
