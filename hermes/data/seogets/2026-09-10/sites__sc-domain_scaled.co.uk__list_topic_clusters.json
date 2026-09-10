@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:scaled.co.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:scaled.co.uk",
+    "topic_clusters": []
+  }
+}
