@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:readingschoolofmartialarts.co.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:readingschoolofmartialarts.co.uk",
+    "topic_clusters": []
+  }
+}
