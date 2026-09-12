@@ -1,0 +1,64 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:drinksbykingpin.com",
+  "args": {},
+  "data": {
+    "content_groups": [
+      {
+        "filters": [
+          {
+            "expression": "https://drinksbykingpin.com/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Homepage"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/portfolio/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Portfolio Pages"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/work/|/showcase/|/latest-work/",
+            "operator": "contains"
+          },
+          {
+            "expression": "/portfolio/",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Work & Showcase"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/about/|/privacy-policy/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "About & Info"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/wp-content/uploads/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Media Assets"
+      }
+    ],
+    "property": "sc-domain:drinksbykingpin.com"
+  }
+}
