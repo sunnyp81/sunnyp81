@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:salarycareer.com",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:salarycareer.com"
+  }
+}

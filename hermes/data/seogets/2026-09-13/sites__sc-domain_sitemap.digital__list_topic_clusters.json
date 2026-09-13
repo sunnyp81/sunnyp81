@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:sitemap.digital",
+  "args": {},
+  "data": {
+    "property": "sc-domain:sitemap.digital",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:fixerror.dev",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://fixerror.dev",
+        "paths": [
+          "/",
+          "/stripe/api-key-invalid/",
+          "/aws/no-such-bucket/",
+          "/firebase/",
+          "/github/",
+          "/openai/insufficient-quota/",
+          "/openai/model-not-found/",
+          "/postgres/40p01-deadlock-detected/",
+          "/stripe/card-declined/",
+          "/anthropic/",
+          "/anthropic/overloaded-error/",
+          "/anthropic/rate-limit-error/",
+          "/auth0/",
+          "/aws/access-denied-exception/",
+          "/aws/throttling-exception/",
+          "/cloudflare/",
+          "/compare/",
+          "/compare/stripe-vs-paypal-errors/",
+          "/django/",
+          "/gcp/",
+          "/glossary/",
+          "/guide/handling-rate-limits/",
+          "/http/",
+          "/http/202/",
+          "/http/308/",
+          "/http/401/",
+          "/http/402/",
+          "/http/403/",
+          "/http/405/",
+          "/http/408/",
+          "/http/409/",
+          "/http/413/",
+          "/http/422/",
+          "/http/429/",
+          "/http/431/",
+          "/http/500/",
+          "/http/502/",
+          "/http/504/",
+          "/http/520/",
+          "/http/526/",
+          "/kubernetes/",
+          "/kubernetes/imagepullbackoff/",
+          "/mongodb/",
+          "/nextjs/",
+          "/nextjs/function-invocation-timeout/",
+          "/nextjs/hydration-failed/",
+          "/nextjs/module-not-found/",
+          "/nginx/",
+          "/nodejs/",
+          "/nodejs/err-require-esm/",
+          "/openai/",
+          "/openai/context-length-exceeded/",
+          "/paypal/",
+          "/postgres/23505-unique-violation/",
+          "/python/module-not-found-error/",
+          "/redis/",
+          "/rust/",
+          "/services/",
+          "/shopify/",
+          "/stripe/",
+          "/stripe/authentication-required/",
+          "/stripe/insufficient-funds/",
+          "/stripe/signature-verification-failed/",
+          "/supabase/",
+          "/twilio/",
+          "/vercel/"
+        ]
+      },
+      {
+        "host": "http://fixerror.dev",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 67 unique paths across 2 hosts from 2025-05-13 to 2026-09-12.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
