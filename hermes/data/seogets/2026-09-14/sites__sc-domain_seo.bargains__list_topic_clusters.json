@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:seo.bargains",
+  "args": {},
+  "data": {
+    "property": "sc-domain:seo.bargains",
+    "topic_clusters": []
+  }
+}

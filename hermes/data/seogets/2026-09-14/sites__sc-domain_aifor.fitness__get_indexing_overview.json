@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:aifor.fitness",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:aifor.fitness is not a super site",
+    "property": "sc-domain:aifor.fitness"
+  }
+}
