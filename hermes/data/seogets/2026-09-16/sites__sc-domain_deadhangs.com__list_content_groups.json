@@ -1,0 +1,70 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:deadhangs.com",
+  "args": {},
+  "data": {
+    "content_groups": [
+      {
+        "filters": [
+          {
+            "expression": "-week-program",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Training Programs"
+      },
+      {
+        "filters": [
+          {
+            "expression": "deadhang-guide|deadhang-variations|dead-hang-time-by-age|dead-hang-world-record",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Dead Hang Information"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/grip-strength/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Grip Strength"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/complementary-exercises/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Complementary Exercises"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/mobility/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Mobility"
+      },
+      {
+        "filters": [
+          {
+            "expression": "https://deadhangs.com/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Homepage"
+      }
+    ],
+    "property": "sc-domain:deadhangs.com"
+  }
+}
