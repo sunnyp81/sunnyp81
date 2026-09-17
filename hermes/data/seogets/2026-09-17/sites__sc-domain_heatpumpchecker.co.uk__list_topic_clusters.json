@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:heatpumpchecker.co.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:heatpumpchecker.co.uk",
+    "topic_clusters": []
+  }
+}

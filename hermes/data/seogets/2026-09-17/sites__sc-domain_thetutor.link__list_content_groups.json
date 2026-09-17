@@ -1,0 +1,134 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:thetutor.link",
+  "args": {},
+  "data": {
+    "content_groups": [
+      {
+        "filters": [
+          {
+            "expression": "https://thetutor.link/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Homepage"
+      },
+      {
+        "filters": [
+          {
+            "expression": "app.thetutor.link",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "App Pages"
+      },
+      {
+        "filters": [
+          {
+            "expression": "-tutor-uk/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Subject Tutoring UK"
+      },
+      {
+        "filters": [
+          {
+            "expression": "-tutoring-uk/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tutoring Services UK"
+      },
+      {
+        "filters": [
+          {
+            "expression": "tutors-",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "City Tutors"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/vs-",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Competitor Comparisons"
+      },
+      {
+        "filters": [
+          {
+            "expression": "online-jobs",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Online Jobs"
+      },
+      {
+        "filters": [
+          {
+            "expression": "how-",
+            "operator": "contains"
+          },
+          {
+            "expression": "how-it-works",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "How To Guides"
+      },
+      {
+        "filters": [
+          {
+            "expression": "can-",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Student Questions"
+      },
+      {
+        "filters": [
+          {
+            "expression": "become-a-tutor|find-a-tutor|how-it-works|certified|franchises",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Core Service Pages"
+      },
+      {
+        "filters": [
+          {
+            "expression": "category/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Categories"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/page/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Pagination"
+      }
+    ],
+    "property": "sc-domain:thetutor.link"
+  }
+}
