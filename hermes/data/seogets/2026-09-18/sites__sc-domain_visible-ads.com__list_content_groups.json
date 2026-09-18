@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:visible-ads.com",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:visible-ads.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:crosstrainerhome.co.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:crosstrainerhome.co.uk",
+    "topic_clusters": []
+  }
+}
