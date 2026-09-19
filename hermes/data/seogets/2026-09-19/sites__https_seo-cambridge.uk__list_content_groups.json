@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://seo-cambridge.uk/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://seo-cambridge.uk/"
+  }
+}
