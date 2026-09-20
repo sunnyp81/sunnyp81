@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:qrcode.ink",
+  "args": {},
+  "data": {
+    "property": "sc-domain:qrcode.ink",
+    "topic_clusters": []
+  }
+}

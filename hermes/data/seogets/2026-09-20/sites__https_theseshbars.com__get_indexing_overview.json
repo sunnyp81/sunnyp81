@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "https://theseshbars.com/",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:theseshbars.com is not a super site",
+    "property": "sc-domain:theseshbars.com"
+  }
+}
