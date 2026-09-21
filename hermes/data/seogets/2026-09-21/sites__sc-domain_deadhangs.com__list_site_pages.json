@@ -1,0 +1,72 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:deadhangs.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://deadhangs.com",
+        "paths": [
+          "/dead-hang-time-by-age/",
+          "/dead-hang-world-record/",
+          "/deadhang-guide/",
+          "/dead-hang-calculator/",
+          "/deadhang-progressions/",
+          "/equipment-guide/",
+          "/",
+          "/grip-strength/",
+          "/deadhang-benefits/",
+          "/weighted-hang-guide/",
+          "/deadhang-form/",
+          "/deadhang-variations/",
+          "/dead-hang-calculator",
+          "/deadhangs-progressions/",
+          "/12-week-program/",
+          "/8-week-program/",
+          "/complementary-exercises/wrist-curls/",
+          "/contact/",
+          "/dead-hang-time-by-age",
+          "/dead-hangs.com/dead-hang-calculator/",
+          "/deadhand-calculator/",
+          "/deadhang-benefits",
+          "/deadhang-guide",
+          "/deadhang-progressions",
+          "/deadhang-record-progressions/",
+          "/deadhangprogression",
+          "/deadhangs-benefits/",
+          "/deadhangs-from-zero-to-one-arm-hangs",
+          "/deadhangs-guide/",
+          "/deadhangs.com/dead-hang-calculator/",
+          "/deadhangs.com/dead-hang-progressions/",
+          "/deadhangs.com/deadhang-benefits",
+          "/deadhangs.com/deadhang-progressions/",
+          "/grip-strength/grip-types/",
+          "/images/dead-hang-time-by-age_banner.png",
+          "/images/deadhang-guide_banner.png",
+          "/images/grip-strength_banner.png",
+          "/mobility/wrist-flexibility/",
+          "/training-programs/"
+        ]
+      },
+      {
+        "host": "http://deadhangs.com",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://www.deadhangs.com",
+        "paths": [
+          "/deadhang-progressions/"
+        ]
+      }
+    ],
+    "note": "Returned 41 unique paths across 3 hosts from 2025-05-21 to 2026-09-20.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

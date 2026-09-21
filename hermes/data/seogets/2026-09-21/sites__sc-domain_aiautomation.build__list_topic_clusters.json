@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:aiautomation.build",
+  "args": {},
+  "data": {
+    "property": "sc-domain:aiautomation.build",
+    "topic_clusters": []
+  }
+}

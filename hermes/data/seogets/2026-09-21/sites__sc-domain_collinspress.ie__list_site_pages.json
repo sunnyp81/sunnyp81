@@ -1,0 +1,42 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:collinspress.ie",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://www.collinspress.ie",
+        "paths": [
+          "/",
+          "/surplus-people.html",
+          "/the-blasket-islandman.html"
+        ]
+      },
+      {
+        "host": "https://betting.collinspress.ie",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "http://www.collinspress.ie",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://collinspress.ie",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 6 unique paths across 4 hosts from 2025-05-21 to 2026-09-20.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
