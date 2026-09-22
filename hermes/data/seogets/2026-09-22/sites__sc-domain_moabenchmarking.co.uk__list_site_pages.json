@@ -1,0 +1,110 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:moabenchmarking.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://moabenchmarking.co.uk",
+        "paths": [
+          "/",
+          "/module-1-incident-management-system/",
+          "/platform/",
+          "/framework-for-quality-assessment-in-healthcare/",
+          "/modules/",
+          "/homecare/",
+          "/module-1-feedback-and-complaints/",
+          "/care-homes/",
+          "/reporting/",
+          "/wp-content/uploads/2025/04/Privacy-Policy.pdf",
+          "/support/",
+          "/category/healthcare/",
+          "/supported-living/",
+          "/help/",
+          "/terms-conditions/",
+          "/the-complaint-is-a-gift-are-you-ready-to-receive-it/",
+          "/about-us/",
+          "/cqc-compliance-with-moa-benchmarking/",
+          "/navigating-compliance-with-multiple-sets-of-standards-challenges-and-solutions/",
+          "/moa-platform/",
+          "/terms-of-service-2/",
+          "/wp-content/uploads/2025/04/Terms-of-Service.pdf",
+          "/blog/",
+          "/enhancing-quality-in-social-care-a-data-driven-approach-to-compliance-and-improvement/",
+          "/registration-regulation-18-avoiding-pitfalls-and-ensuring-compliance/",
+          "/category/residential-age-care/",
+          "/category/retirement/",
+          "/contact-us/",
+          "/how-the-cqc-single-assessment-framework-is-used-when-reviewing-autistic-people-and-those-with-learning-disabilities/",
+          "/platform",
+          "/privacy-policy/",
+          "/we-care-group-and-summit-care-group-partner-with-moa-benchmarking-to-strengthen-quality-and-compliance-in-social-care/",
+          "/2025/06/10/",
+          "/2025/06/16/",
+          "/author/admin/",
+          "/blog",
+          "/category/homecare/",
+          "/category/ndis-provider-and-disability-support/",
+          "/help",
+          "/homecare",
+          "/importance-of-robust-quality-systems/",
+          "/latestnews/",
+          "/moa/platform/",
+          "/moa/reporting/",
+          "/module-1/",
+          "/tag/autism/",
+          "/tag/ciw-compliance/",
+          "/tag/ciw-software/",
+          "/tag/cqc-software/",
+          "/tag/quality-improvement/",
+          "/terms-and-conditions/",
+          "/terms-of-service-2",
+          "/terms-of-service/",
+          "/the-path-forward-for-the-cqc-insights-from-parliaments-health-and-social-care-committee/"
+        ]
+      },
+      {
+        "host": "https://qip.moabenchmarking.co.uk",
+        "paths": [
+          "/Web/login/remotelogin.aspx",
+          "/Web/Dashboard/View.aspx",
+          "/Web/DownloadRedirect.aspx",
+          "/Web/Login/LoginForgetPassword.aspx"
+        ]
+      },
+      {
+        "host": "https://test02.moabenchmarking.co.uk",
+        "paths": [
+          "/",
+          "/Web/Login/RemoteLogin.aspx"
+        ]
+      },
+      {
+        "host": "https://test01.moabenchmarking.co.uk",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://test03.moabenchmarking.co.uk",
+        "paths": [
+          "/",
+          "/Web/Login/Default.aspx"
+        ]
+      },
+      {
+        "host": "https://www.moabenchmarking.co.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 64 unique paths across 6 hosts from 2025-05-22 to 2026-09-21.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

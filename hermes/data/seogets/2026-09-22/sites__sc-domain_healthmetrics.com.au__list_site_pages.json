@@ -1,0 +1,325 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:healthmetrics.com.au",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://healthmetrics.com.au",
+        "paths": [
+          "/",
+          "/platform-overview/",
+          "/tag/ecase/",
+          "/residential-aged-care-software/",
+          "/resident-management-rac-retirement-villages/",
+          "/about-us/",
+          "/home-care-software/",
+          "/customer-support/",
+          "/the-future-of-aged-care-5-key-trends-to-watch/",
+          "/contact-us/",
+          "/accel-kkr-completes-acquisition-of-health-metrics/",
+          "/health-metrics-announces-new-ceo-to-lead-next-phase-of-growth/",
+          "/careers/",
+          "/integrations/",
+          "/save-the-date-ecase-customer-conference-2026/",
+          "/accel-kkr-acquires-moa-expanding-innovation-in-aged-care-and-clinical-management-technology/",
+          "/news-events/",
+          "/tag/aged-care/",
+          "/the-current-state-of-integrating-ai-into-aged-care/",
+          "/tag/moa/",
+          "/tag/healthmetrics/",
+          "/mercy-community-unifying-aged-and-home-care-with-ecase/",
+          "/health-metrics-and-bestmed-announce-preferred-supplier-agreement/",
+          "/rethinking-aged-care-careers-attracting-the-next-generation-of-workers/",
+          "/seamless-integration-painchek-and-ecase/",
+          "/wp-content/uploads/2024/09/Home-Care-Documentation-2024.pdf",
+          "/ecase-ensures-a-seamless-transition-to-the-new-aged-care-act/",
+          "/ecase-at-itac-conference-2025-innovation-in-aged-care-technology/",
+          "/support-at-home-are-your-home-care-systems-ready/",
+          "/disability-care-software/",
+          "/optimising-an-acc-funding-with-ecase/",
+          "/tag/summit/",
+          "/harnessing-clinical-data-for-improved-resident-outcomes/",
+          "/health-metrics-launches-new-brand/",
+          "/alis-home-healthcare-case-study/",
+          "/new-ecase-customer-summerset/",
+          "/retirement-living-software/",
+          "/category/partnerships/",
+          "/tag/akkr/",
+          "/by-role/",
+          "/eldercare-partners-with-health-metrics/",
+          "/new-ecase-customer-was-amana-living-takes-up-ecase-retirement-living-aged-care-and-home-care-tech-solution/",
+          "/st-andrews-has-implemented-the-ecase-software-platform-to-streamline-operations-increase-efficiency-and-meet-compliance-requirements/",
+          "/data-security-ecase-achieves-iso-27001-certification/",
+          "/new-ecase-customer-amaroo-care-services-western-australia/",
+          "/st-john-of-god-hauora-trust/",
+          "/5-ways-real-time-data-can-future-proof-aged-care/",
+          "/why-the-future-of-retirement-living-depends-on-connected-care/",
+          "/category/product/",
+          "/author/healthmetrics-dev/",
+          "/southern-cross-care-queensland-putting-people-at-the-centre-of-care/",
+          "/tell-touch-announces-seamless-integration-with-ecase-aged-care-software-platform/",
+          "/solutions/",
+          "/tag/accel-kkr/",
+          "/category/news/",
+          "/checked-in-care-receives-majority-investment-from-accel-kkr-becomes-part-of-evaran-in-broader-vision-of-connected-care/",
+          "/privacy-policy-2/",
+          "/enhancing-pain-management-ecase-and-painchek-new-integration/",
+          "/how-technology-can-optimise-aged-care-employee-management-and-improve-retention/",
+          "/from-home-care-to-health-care/",
+          "/health-metrics-award-for-future-retirement-living-leader/",
+          "/st-andrews-ecase-case-study/",
+          "/future-proofing-aged-care/",
+          "/tag/home-care-provider/",
+          "/health-metrics-terms-and-conditions/",
+          "/tag/ai/",
+          "/customer-stories/",
+          "/health-metrics-at-the-leaders-summit-2025-optimism-mk-ii-silver-sponsor/",
+          "/new-ecase-customer-the-henley-on-broadwater/",
+          "/tag/announcement/",
+          "/tag/summerset/",
+          "/wp-content/uploads/2026/04/Health-Metrics-NZ-Licence-and-Support-Agreement_April-2026.pdf",
+          "/tag/integration/",
+          "/tag/pain/",
+          "/wp-content/uploads/2024/09/Care-on-demand-The-New-Village-Value-Weekly-Source-September-2024-1.pdf",
+          "/new-models-aged-care-webinar/",
+          "/tag/leader/",
+          "/the-first-120-days-of-the-new-aged-care-act/",
+          "/wp-content/uploads/2024/08/ISO-27001-Information-Documentation-2024-1.pdf",
+          "/corumbene-care-engages-health-metrics/",
+          "/tag/2025/",
+          "/tag/agreement/",
+          "/tag/assessments/",
+          "/tag/challenges/",
+          "/tag/clinical/",
+          "/tag/conference/",
+          "/tag/future/",
+          "/tag/integrate/",
+          "/tag/platform/",
+          "/tag/queensland/",
+          "/tag/support-at-home/",
+          "/the-new-aged-care-act-takes-effect-tomorrow-supporting-providers-through-a-new-era-of-quality-compliance-and-home-care-reform/",
+          "/webinars/harnessing-clinical-data-for-improved-resident-outcomes/",
+          "/wp-content/uploads/2026/01/Health-Metrics-NZ-Licence-and-Support-Agreement_January-2025.pdf",
+          "/author/casey/",
+          "/category/customers/",
+          "/ecase-team-volunteering-at-c-care-kitchen/",
+          "/evaran-launches-to-unify-aged-care-technology-as-providers-adapt-to-new-regulatory-environment/",
+          "/story-type/story-cat-1/",
+          "/tag/data/",
+          "/tag/digital/",
+          "/tag/ebook/",
+          "/tag/integrating/",
+          "/tag/itac/",
+          "/tag/painchek/",
+          "/tag/proud/",
+          "/tag/seamless/",
+          "/tag/sponsor/",
+          "/tag/supplier/",
+          "/webinars/webinar-3/",
+          "/wp-content/uploads/2024/08/Home-Care-Document-1-2.pdf",
+          "/wp-content/uploads/2026/01/Health-Metrics-AU-Licence-and-Support-Agreement_January-2025.pdf",
+          "/wp-content/uploads/2026/04/Health-Metrics-AU-Licence-and-Support-Agreement-April-2026.pdf",
+          "/accel-kkr-acquisition-of-health-metrics/",
+          "/accel-kkr-completion-acquisition-health-metrics",
+          "/author/bmatthews/",
+          "/category/events/",
+          "/category/news/page/2/",
+          "/connected-capable-and-future-ready-3-things-shaping-the-future-of-aged-care/",
+          "/content-page/",
+          "/future-proofing-aged-care-starts-with-supporting-staff-wellbeing/",
+          "/health-metrics-announces-new-ceo-to-lead-growth/",
+          "/hospital-in-the-home-care-on-demand/",
+          "/integrating-digital-solutions-into-the-aged-care-journey/",
+          "/new-aged-care-act-what-the-first-120-days-mean-for-providers/",
+          "/platform",
+          "/residential-aced-care-software/",
+          "/residential-care/software/",
+          "/tag/artificialintelligence/",
+          "/tag/award/",
+          "/tag/awards/",
+          "/tag/clinicalworkflow/",
+          "/tag/comprehensive-care-plans/",
+          "/tag/connected/",
+          "/tag/customer/",
+          "/tag/data-security/",
+          "/tag/design/",
+          "/tag/disability/",
+          "/tag/families/",
+          "/tag/finance/",
+          "/tag/henley/",
+          "/tag/hith/",
+          "/tag/homecare/",
+          "/tag/hospitalinthehome/",
+          "/tag/human/",
+          "/tag/innovation/",
+          "/tag/journey/",
+          "/tag/leaderssummit/",
+          "/tag/new/",
+          "/tag/operational/",
+          "/tag/provider/",
+          "/tag/remote/",
+          "/tag/resident/",
+          "/tag/resourcing/",
+          "/tag/retirement/",
+          "/tag/retirementliving/",
+          "/tag/singleclientrecord/",
+          "/tag/software/",
+          "/tag/softwareplatform/",
+          "/tag/solutions/",
+          "/tag/southport/",
+          "/tag/staff/",
+          "/tag/support/",
+          "/tag/technology/",
+          "/tag/telltouch/",
+          "/tag/trends/",
+          "/tag/workflow/",
+          "/the-human-touch-getting-the-balance-right-in-aged-care/",
+          "/the-importance-of-integrated-care/",
+          "/webinar-type/webinar-cat/",
+          "/webinar/",
+          "/webinars/webinar-2/",
+          "/why-a-single-client-record-is-the-key-to-better-care-outcomes/",
+          "/wp-content/uploads/2024/05/Eldercare-new-thumbnail.png",
+          "/wp-content/uploads/2024/05/Estia-Health.png",
+          "/wp-content/uploads/2024/05/Mobile-phone-screen-scaled.jpg",
+          "/wp-content/uploads/2024/05/Request-a-Demo-Image.png",
+          "/wp-content/uploads/2024/05/eCase-brand-update-thumbnail-1.png",
+          "/wp-content/uploads/2024/05/ecase-bestmed-partner-thumbnail.png",
+          "/wp-content/uploads/2024/05/iPad-Screen-scaled.jpg",
+          "/wp-content/uploads/2024/06/eCase_2-colour_Icons_Illustrator-19-e1718149876956.png",
+          "/wp-content/uploads/2024/06/eCase_2-colour_Icons_Illustrator-27-e1718149856113.png",
+          "/wp-content/uploads/2024/06/eCase_2-colour_Icons_Illustrator-29-e1718149896274.png",
+          "/wp-content/uploads/2024/06/eCase_2-colour_Icons_Illustrator-30-e1718149918219.png",
+          "/wp-content/uploads/2024/07/Amaroo.png",
+          "/wp-content/uploads/2024/08/ISO-27001-Information-Documentation-2024.pdf",
+          "/wp-content/uploads/2024/08/eCase-and-PainChek-3.jpg",
+          "/wp-content/uploads/2025/06/8-Considerations-for-AI-in-Aged-Care.pdf",
+          "/wp-content/uploads/2025/09/Website-Article-Banner2-scaled.png"
+        ]
+      },
+      {
+        "host": "https://mi.healthmetrics.com.au",
+        "paths": [
+          "/",
+          "/passwordRecovery.php",
+          "/main.php"
+        ]
+      },
+      {
+        "host": "https://uat3.healthmetrics.com.au",
+        "paths": [
+          "/ecase5training/passwordRecovery.php"
+        ]
+      },
+      {
+        "host": "https://prosims.healthmetrics.com.au",
+        "paths": [
+          "/JS/Site/MASP/TimeOnline/Security/Login",
+          "/JS/Site/MASP/ClientOnline/login",
+          "/JS/Site/MASP/TimeOnline/Security/PasswordRequest"
+        ]
+      },
+      {
+        "host": "https://marketing.healthmetrics.com.au",
+        "paths": [
+          "/en-au/ecase-software-for-disability-providers",
+          "/hubfs/2021%20eCase%20Flyers/eCase%20RAC%20Flyer.pdf",
+          "/press-release-health-metrics-and-tanarra-capital",
+          "/health-metrics-acquires-uniti-software",
+          "/hubfs/Case%20Studies/St%20Andrews%20Case%20Study_Full%20Version(1).pdf",
+          "/hubfs/2021%20eCase%20Flyers/eCase%20Disability%20Software%20Flyer.pdf",
+          "/hubfs/eCase%20NZ%20Flyers/eCase_RV_Flyer_NZ_Digital_9-9-22.pdf",
+          "/health-metrics-appoints-mike-giuffrida-as-ceo",
+          "/hubfs/2021%20eCase%20Flyers/eCase%20Retirement%20Living%20Flyer.pdf",
+          "/book-a-demo",
+          "/disability-flyer-download",
+          "/rac-flyer-download",
+          "/careers-register-interest",
+          "/retirement-living-flyer",
+          "/adopting-a-digital-mindset",
+          "/book-a-demo-nz",
+          "/customer-360-crm-nz",
+          "/disability-care-flyer-nz",
+          "/disability-case-study-download",
+          "/disability-case-study-download-nz",
+          "/home-care-flyer-download",
+          "/hs-fs/hubfs/smartmockups_k6u8coop%20(1)(2).png",
+          "/hubfs/Disability%20Roster%20Mock%20Up.png",
+          "/rac-rv-flyer-nz",
+          "/residential-retirement-flyer",
+          "/retirement-village-software-flyer",
+          "/weekly-source-webinar-retirementliving2030",
+          "/weekly-source-webinar"
+        ]
+      },
+      {
+        "host": "https://demo.healthmetrics.com.au",
+        "paths": [
+          "/nzPreProd50/passwordRecovery.php",
+          "/phcdemo2/main.php",
+          "/phcdemo2/passwordRecovery.php"
+        ]
+      },
+      {
+        "host": "http://healthmetrics.com.au",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://ecasecustomerconference2024.healthmetrics.com.au",
+        "paths": [
+          "/home.html",
+          "/",
+          "/sponsors.html"
+        ]
+      },
+      {
+        "host": "https://jmv.healthmetrics.com.au",
+        "paths": [
+          "/main.php"
+        ]
+      },
+      {
+        "host": "https://www.healthmetrics.com.au",
+        "paths": [
+          "/",
+          "/ecase-ensures-a-seamless-transition-to-the-new-aged-care-act/",
+          "/optimising-an-acc-funding-with-ecase/"
+        ]
+      },
+      {
+        "host": "http://www.healthmetrics.com.au",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://aac.healthmetrics.com.au",
+        "paths": [
+          "/main.php"
+        ]
+      },
+      {
+        "host": "https://sr.healthmetrics.com.au",
+        "paths": [
+          "/uploads/1784285200-1300_001.pdf"
+        ]
+      },
+      {
+        "host": "https://tc.healthmetrics.com.au",
+        "paths": [
+          "/uploads/1784435213-doc01009220260719141909.pdf"
+        ]
+      }
+    ],
+    "note": "Returned 239 unique paths across 14 hosts from 2025-05-22 to 2026-09-21.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

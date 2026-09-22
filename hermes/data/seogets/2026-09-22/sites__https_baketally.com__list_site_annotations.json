@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "https://baketally.com/",
+  "args": {
+    "start_date": "2026-08-25",
+    "end_date": "2026-09-22"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-09-22",
+    "property_id": "https://baketally.com/",
+    "start_date": "2026-08-25"
+  }
+}
