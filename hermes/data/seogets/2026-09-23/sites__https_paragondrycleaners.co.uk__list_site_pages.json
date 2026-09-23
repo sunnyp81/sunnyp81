@@ -1,0 +1,31 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://paragondrycleaners.co.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://paragondrycleaners.co.uk",
+        "paths": [
+          "/",
+          "/take-washing-powder/",
+          "/pricing/",
+          "/wash-clothes-once-week/",
+          "/contact/",
+          "/services/",
+          "/how-much-cost/",
+          "/about-us/",
+          "/category/blog/",
+          "/wash-clothes-week/"
+        ]
+      }
+    ],
+    "note": "Returned 10 unique paths across 1 hosts from 2025-05-23 to 2026-09-22.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

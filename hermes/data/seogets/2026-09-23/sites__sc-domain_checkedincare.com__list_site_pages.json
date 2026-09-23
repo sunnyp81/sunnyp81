@@ -1,0 +1,58 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:checkedincare.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://checkedincare.com",
+        "paths": [
+          "/",
+          "/about-us/",
+          "/a-world-where-all-people-live-their-best-lives-with-choice-and-dignity/",
+          "/bupa-aged-care-roll-our-free-covid-19-app-for-families-and-staff/",
+          "/rawhiti-estate-new-zealand-retirement-living/be-group-and-checked-in-care-nz-aged-care-news/",
+          "/author/john/",
+          "/book/",
+          "/case-studies/",
+          "/case-study/just-better-care/",
+          "/case-study/technology-a-tool-for-building-and-growing-person-centered-care-and-empowered-staff/cfi-linkedin/",
+          "/checked-in-care/",
+          "/checked-in-care/greenright/",
+          "/client_stories/bupa/",
+          "/contact/",
+          "/disability-care/",
+          "/faqs/",
+          "/home-care-3/",
+          "/news/",
+          "/picture-3-copy/",
+          "/privacy-policy/",
+          "/rawhiti-estate-new-zealand-retirement-living/",
+          "/residential-care/",
+          "/roi/",
+          "/senior-living/",
+          "/thank-you/",
+          "/thanks/",
+          "/the-digital-divide-technology-will-be-a-major-driver-behind-the-federal-governments-new-support-at-home-program-and-operators-will-be-left-behind-if-they-are-not-able-to-scale-quic/",
+          "/vmch-logo/",
+          "/winner-social-care-awards-2022-telehealth-solution-of-the-year-australasia-cic-connect/",
+          "/winners-for-the-second-year-in-a-row/",
+          "/winners-national-innovageing-award/"
+        ]
+      },
+      {
+        "host": "https://www.checkedincare.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 32 unique paths across 2 hosts from 2025-05-23 to 2026-09-22.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
