@@ -1,0 +1,60 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:evaran.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://evaran.com",
+        "paths": [
+          "/",
+          "/about-us/",
+          "/our-software/",
+          "/contact/",
+          "/news/",
+          "/brochure/",
+          "/accel-kkr-acquisition-health-metrics/",
+          "/press-release-checked-in-care-evaran/",
+          "/tyron-ball-ceo-interview-connected-care/",
+          "/meet-the-team/",
+          "/terms-conditions/",
+          "/checked-in-care-resident-self-service-platform/",
+          "/higher-everyday-living/",
+          "/privacy-policy/",
+          "/webinar-introducing-evaran-the-case-for-connected-care/",
+          "/company-news/",
+          "/evaran-announces-new-ceo-to-lead-next-phase-of-growth/",
+          "/person-centred-person-led-care/",
+          "/qa-getting-to-know-bree-danielle-wyatt/",
+          "/ageing-australia-qld-conference-2026/",
+          "/ai/",
+          "/carelinelive-secures-majority-investment-from-technology-investment-firm-accel-kkr/",
+          "/carelinelive-to-deepen-collaboration-with-moa-as-part-of-accel-kkr-portfolio/",
+          "/case-studies/",
+          "/case-study-alis-home-healthcare/",
+          "/connected-care-record/",
+          "/downloads/",
+          "/evaran-launches/",
+          "/events/",
+          "/falls-incident-reporting-care/",
+          "/feedback-complaints-care-regulatory-requirement-service-delivery/",
+          "/how-ai-can-transform-care/",
+          "/press-coverage/",
+          "/press-releases/",
+          "/quality-of-care-aged-care-process-outcome-experience-access/",
+          "/three-pillars-of-care/",
+          "/unplanned-weight-loss-connected-care/",
+          "/what-are-you-doing-in-ai/",
+          "/white-paper-the-future-of-care-is-connected/"
+        ]
+      }
+    ],
+    "note": "Returned 39 unique paths across 1 hosts from 2025-05-24 to 2026-09-23.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

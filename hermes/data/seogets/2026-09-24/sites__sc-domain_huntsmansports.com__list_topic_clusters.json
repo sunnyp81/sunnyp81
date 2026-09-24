@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:huntsmansports.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:huntsmansports.com",
+    "topic_clusters": []
+  }
+}

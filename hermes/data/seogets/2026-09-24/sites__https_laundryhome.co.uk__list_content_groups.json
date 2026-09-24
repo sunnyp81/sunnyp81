@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://laundryhome.co.uk/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://laundryhome.co.uk/"
+  }
+}

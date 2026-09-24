@@ -1,0 +1,40 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:mypartyhire.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://mypartyhire.uk",
+        "paths": [
+          "/how-many-children-per-bouncy-castle/",
+          "/",
+          "/about/",
+          "/bouncy-castle-hall-hire-reading/",
+          "/bouncy-castle-hire-reading",
+          "/bouncy-castle-hire-reading/",
+          "/bouncy-castle-rain-policy/",
+          "/bouncy-castle-safety/",
+          "/contact/",
+          "/faq/",
+          "/overnight-bouncy-castle-hire/",
+          "/prices/",
+          "/will-a-bouncy-castle-fit-my-garden/"
+        ]
+      },
+      {
+        "host": "http://mypartyhire.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 14 unique paths across 2 hosts from 2025-05-24 to 2026-09-23.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
