@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://carelinelive.com.au/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://carelinelive.com.au/"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:luxurytrex.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://luxurytrex.com",
+        "paths": [
+          "/best-rfid-blocking-wallets-card-holders/",
+          "/blog/best-leather-wash-bag-for-men-uk/",
+          "/italian-leather-vs-english-leather/",
+          "/gifts/his-and-hers-wash-bag-pair/",
+          "/product/lead-free-crystal-ultra-thin-whisky-glass/",
+          "/product/premium-mens-hanging-leather-wash-bag/",
+          "/product/metal-rfid-card-wallet/",
+          "/best-leather-wash-bag-for-men-uk/",
+          "/best-whisky-decanter-sets-under-200/",
+          "/product/dinnerware-set-designer/",
+          "/product/feather-lamp/",
+          "/",
+          "/about-us/",
+          "/about/",
+          "/blog/best-stylish-mirrors-uk/",
+          "/blog/luxurious-velvet-bag-fashion-trends/",
+          "/category/accessories/",
+          "/category/gift-guides/",
+          "/category/grooming-travel/",
+          "/category/travel-accessories-guide/",
+          "/category/wallets-rfid/",
+          "/contact-us/",
+          "/designer-clutch-purses-with-gold-hardware/",
+          "/disclaimer/",
+          "/gifts/",
+          "/gifts/cocktail-hour-set/",
+          "/gifts/couples-travel-set/",
+          "/leather-passport-holder-vs-passport-wallet/",
+          "/luxurious-velvet-bag-fashion-trends/",
+          "/luxury-bag-care-and-maintenance-tips/",
+          "/luxury-bag-quality-with-durable-stitching/",
+          "/luxury-travel-bag-packing-essentials/",
+          "/pages/contact-us/",
+          "/personalised-leather-travel-accessories/",
+          "/privacy/",
+          "/product-category/home-ornaments/",
+          "/product-category/lights/",
+          "/product/asymmetric-mirror/",
+          "/product/cocktail-shaker-set-gold-finish/",
+          "/product/crystal-gin-glasses-copa/",
+          "/product/crystal-glass-classic-whisky-glass-ice-sphere-cup/",
+          "/product/crystal-thin-bottomed-minimalist-whiskey-glass-classic-cockt/",
+          "/product/crystal-whisky-glasses-set/",
+          "/product/faux-leather-valet-tray-nightstand-or-dresser-top-organizer/",
+          "/product/genuine-leather-notebook-cover-a5/",
+          "/product/lead-free-crystal-highball-cocktail-glass-vintage-style/",
+          "/product/leather-passport-holder/",
+          "/product/leather-vintage-laptop-bag/",
+          "/product/mens-hanging-leather-wash-toiletry-bag-gift-men/",
+          "/product/ostrich-feather-floor-lamp/",
+          "/product/premium-mens-hanging-leather-wash-bag-buckle/",
+          "/product/pu-leather-watch-storage-box/",
+          "/product/silk-travel-eye-mask/",
+          "/returns-policy/",
+          "/returns/",
+          "/shop/",
+          "/wp-content/uploads/2017/12/Mens-Leather-Hanging-Wash-bag.jpg",
+          "/wp-content/uploads/2018/12/luxury-leather-passport-document-holder-wallet.jpg",
+          "/wp-content/uploads/2018/12/minimalistic-metal-rfid-blocking-card-wallet-2.jpeg",
+          "/wp-content/uploads/2018/12/minimalistic-metal-rfid-blocking-card-wallet.jpeg",
+          "/wp-content/uploads/2018/12/vintage-leather-laptop-bag-2.jpg",
+          "/wp-content/uploads/2023/01/Feather-Lamp-Bedside-On-247x300.jpg",
+          "/wp-content/uploads/2023/07/Lagoon-Irregular-Frameless-Mirror-2-Sizes.jpeg"
+        ]
+      },
+      {
+        "host": "https://www.luxurytrex.com",
+        "paths": [
+          "/category/wallets-rfid/",
+          "/product/crystal-gin-glasses-copa/"
+        ]
+      }
+    ],
+    "note": "Returned 65 unique paths across 2 hosts from 2025-05-25 to 2026-09-24.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

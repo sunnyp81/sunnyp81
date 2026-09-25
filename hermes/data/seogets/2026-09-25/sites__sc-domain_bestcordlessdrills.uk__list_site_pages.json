@@ -1,0 +1,38 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:bestcordlessdrills.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://bestcordlessdrills.uk",
+        "paths": [
+          "/",
+          "/bosch-cordless-circular-saw-review/",
+          "/best-budget/",
+          "/best-combi-drill/",
+          "/best-electric-cordless-drill-under-100-top-3/",
+          "/black-decker-screwdriver-review/",
+          "/bosch-hammer-review/",
+          "/cordless-angle-drill-reviews/",
+          "/cordless-circular-rip-saw-reviews/",
+          "/cordless-electric-screwdriver-reviews/",
+          "/cordless-miter-saw-reviews/",
+          "/cordless-torque-wrench-review-top-3/",
+          "/drill-vs-combi-vs-impact-driver/",
+          "/impact-wrench-reviews/",
+          "/own-brand-vs-premium/",
+          "/reciprocating-saw-reviews/",
+          "/worx-cordless-drill-review/"
+        ]
+      }
+    ],
+    "note": "Returned 17 unique paths across 1 hosts from 2025-05-25 to 2026-09-24.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

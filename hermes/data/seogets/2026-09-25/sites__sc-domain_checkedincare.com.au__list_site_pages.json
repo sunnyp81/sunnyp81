@@ -1,0 +1,109 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:checkedincare.com.au",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://checkedincare.com.au",
+        "paths": [
+          "/",
+          "/about-us/",
+          "/residential-care/",
+          "/wp-content/uploads/2026/06/Press-Release.pdf",
+          "/case-study/this-is-the-helf-solution-youve-been-waiting-for/",
+          "/case-study/prepare-for-helf-implementation/",
+          "/faqs/",
+          "/book/",
+          "/budget-and-spend-24-secs-gif/",
+          "/bupa-aged-care-roll-our-free-covid-19-app-for-families-and-staff/bupa-aged-care-logo/",
+          "/case-study/a-case-study-on-how-providers-are-working-to-achieve-strengthened-standard-6/",
+          "/checked-in-care-and-vitalcare-partner-to-improve-home-care-services/",
+          "/checked-in-care/",
+          "/connect-html/",
+          "/ndvr-logo/",
+          "/2021-was-a-year-of-challenge-and-change-for-the-care-sector/",
+          "/a-world-where-all-people-live-their-best-lives-with-choice-and-dignity/",
+          "/about-us-3/",
+          "/anna-cropped/",
+          "/author/john/",
+          "/brochure-cic-connect-pdf/",
+          "/bupa-aged-care-2/",
+          "/case-studies/",
+          "/case-study/aged-health/",
+          "/case-study/endeavour/",
+          "/case-study/endeavour/dqwdq/",
+          "/case-study/irt/",
+          "/case-study/just-better-care-2/",
+          "/case-study/prepare-for-helf-implementation/2024-anz-linkedin-d/",
+          "/case-study/prepare-for-helf-implementation/2024-anz-linkedin/",
+          "/case-study/rawhiti-estate/",
+          "/case-study/rawhiti-estate/rw8/",
+          "/case-study/reduce-costs-increase-care-succeed-with-support-at-home/",
+          "/checked-in-care-home-care-2/",
+          "/checked-in-care-logo/",
+          "/checked-in-care/homecare/",
+          "/checked-in-care/jbc-staff-20-sec-run-through-gif/",
+          "/checked-in-care/residential/",
+          "/checked-in-crae-who-we-help/",
+          "/cic-connect-activities/",
+          "/cic-connect/",
+          "/conference-aus/copy-of-cic-social-posts/",
+          "/conference-usa/",
+          "/contact/",
+          "/contect_type/customer-stories/",
+          "/contect_type/webinar/",
+          "/disability-care/",
+          "/finalist-2021-innovageing-national-awards/",
+          "/home-care-3/",
+          "/increases-revenue/",
+          "/irt-notifications/",
+          "/keep-physical-distance-not-social-distance-via-the-free-covid-19-app-for-aged-care-facilities/",
+          "/logo/",
+          "/news/",
+          "/options-for-immediate-response-to-the-acrc-final-report/",
+          "/placeholder-png/",
+          "/privacy-policy/",
+          "/privacypolicy.html",
+          "/proof-of-life/",
+          "/rawhiti-estate-new-zealand-retirement-living/",
+          "/retirement-living/",
+          "/roi/",
+          "/self-branded-app-new/",
+          "/southern-cross-care-interview/",
+          "/team/bree-danielle-wyatt/bree/",
+          "/team/melissa-m-chavez/img_1042/",
+          "/team/swathy-kalluri/swathy/",
+          "/team_type/1-leadership-team/",
+          "/team_type/2-customer-care-team/",
+          "/thanks/",
+          "/the-digital-divide-technology-will-be-a-major-driver-behind-the-federal-governments-new-support-at-home-program-and-operators-will-be-left-behind-if-they-are-not-able-to-scale-quic/",
+          "/winner-9th-asia-pacific-eldercare-innovation-awards/",
+          "/winner-_-best-smart-care-technology-operational-management-solution/",
+          "/winners-for-the-second-year-in-a-row/",
+          "/wp-content/uploads/2020/07/BE-Group-and-Checked-In-Care-NZ-Aged-Care-News.pdf",
+          "/wp-content/uploads/2020/07/Checked-In-Care-Generic.pdf"
+        ]
+      },
+      {
+        "host": "http://checkedincare.com.au",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://www.checkedincare.com.au",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 78 unique paths across 3 hosts from 2025-05-25 to 2026-09-24.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
