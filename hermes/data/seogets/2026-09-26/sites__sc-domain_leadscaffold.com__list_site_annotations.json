@@ -1,0 +1,14 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:leadscaffold.com",
+  "args": {
+    "start_date": "2026-08-29",
+    "end_date": "2026-09-26"
+  },
+  "data": {
+    "annotations": [],
+    "end_date": "2026-09-26",
+    "property_id": "sc-domain:leadscaffold.com",
+    "start_date": "2026-08-29"
+  }
+}

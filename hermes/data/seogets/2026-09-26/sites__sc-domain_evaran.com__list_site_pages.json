@@ -1,0 +1,66 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:evaran.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://evaran.com",
+        "paths": [
+          "/",
+          "/about-us/",
+          "/our-software/",
+          "/contact/",
+          "/news/",
+          "/brochure/",
+          "/accel-kkr-acquisition-health-metrics/",
+          "/press-release-checked-in-care-evaran/",
+          "/tyron-ball-ceo-interview-connected-care/",
+          "/meet-the-team/",
+          "/terms-conditions/",
+          "/checked-in-care-resident-self-service-platform/",
+          "/evaran-announces-new-ceo-to-lead-next-phase-of-growth/",
+          "/higher-everyday-living/",
+          "/privacy-policy/",
+          "/qa-getting-to-know-bree-danielle-wyatt/",
+          "/webinar-introducing-evaran-the-case-for-connected-care/",
+          "/case-study-alis-home-healthcare/",
+          "/company-news/",
+          "/person-centred-person-led-care/",
+          "/press-coverage/",
+          "/ageing-australia-qld-conference-2026/",
+          "/ai/",
+          "/carelinelive-secures-majority-investment-from-technology-investment-firm-accel-kkr/",
+          "/carelinelive-to-deepen-collaboration-with-moa-as-part-of-accel-kkr-portfolio/",
+          "/case-studies/",
+          "/connected-care-record/",
+          "/downloads/",
+          "/evaran-launches/",
+          "/events/",
+          "/falls-incident-reporting-care/",
+          "/feedback-complaints-care-regulatory-requirement-service-delivery/",
+          "/how-ai-can-transform-care/",
+          "/press-releases/",
+          "/quality-of-care-aged-care-process-outcome-experience-access/",
+          "/three-pillars-of-care/",
+          "/unplanned-weight-loss-connected-care/",
+          "/what-are-you-doing-in-ai/",
+          "/white-paper-the-future-of-care-is-connected/"
+        ]
+      },
+      {
+        "host": "https://www.evaran.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 40 unique paths across 2 hosts from 2025-05-26 to 2026-09-25.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

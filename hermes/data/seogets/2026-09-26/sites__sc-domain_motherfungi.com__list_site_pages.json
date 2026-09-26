@@ -1,0 +1,48 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:motherfungi.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://motherfungi.com",
+        "paths": [
+          "/",
+          "/collections/all",
+          "/pages/why-fungi",
+          "/pages/our-story",
+          "/blogs/news/why-most-mushroom-supplements-are-under-dosed-and-how-to-spot-the-difference",
+          "/products/good-morning-motherfungi",
+          "/blogs/news/i-burnt-out-at-33-heres-what-i-changed",
+          "/pages/contact",
+          "/pages/contact-us",
+          "/blogs/news/what-happens-when-you-actually-take-functional-mushrooms-every-day",
+          "/blogs/news",
+          "/blogs/news/caffeine-free-morning-routine-how-to-have-energy-without-the-crash",
+          "/blogs/news/chaga-vs-lions-mane-vs-cordyceps-whats-the-difference",
+          "/blogs/news/what-are-adaptogens-and-why-does-your-body-need-them",
+          "/blogs/news/what-is-lions-mane-mushroom-and-does-it-actually-work",
+          "/cart",
+          "/policies/contact-information",
+          "/policies/refund-policy",
+          "/policies/shipping-policy",
+          "/policies/terms-of-service",
+          "/search"
+        ]
+      },
+      {
+        "host": "http://motherfungi.com",
+        "paths": [
+          "/cdn/shop/files/1_93c491cf-505a-44a2-bd47-288c49ded8a8.jpg"
+        ]
+      }
+    ],
+    "note": "Returned 22 unique paths across 2 hosts from 2025-05-26 to 2026-09-25.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

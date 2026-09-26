@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://seoleicester.uk/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://seoleicester.uk/"
+  }
+}

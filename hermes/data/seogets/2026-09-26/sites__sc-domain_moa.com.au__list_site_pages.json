@@ -1,0 +1,106 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:moa.com.au",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://pci.moa.com.au",
+        "paths": [
+          "/Web/Login/Login.aspx",
+          "/Web/Login/ForgotPassword.aspx",
+          "/Web/Download.aspx",
+          "/Web/Tools/DataEntryDataSheet.aspx",
+          "/LinkRedirects/ChampionsGroupSurvey",
+          "/Web/Feedback/Form.aspx",
+          "/Web/Feedback/SimplifiedForm.aspx",
+          "/Web/Feedback/Form.aspx/GetSelectList",
+          "/Web/Feedback/Form.aspx/SaveFeedback"
+        ]
+      },
+      {
+        "host": "https://uat.moa.com.au",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://moa.com.au",
+        "paths": [
+          "/collaboration/",
+          "/wp-content/uploads/2024/03/MOA-Terms-Conditions-v1.02.pdf",
+          "/",
+          "/privacy-policy-2/"
+        ]
+      },
+      {
+        "host": "https://analytics.moa.com.au",
+        "paths": [
+          "/",
+          "/posts/control-charts-aged-care",
+          "/posts/flu-analysis",
+          "/posts/food-satisfaction-and-weight-loss/",
+          "/posts/language-diversity",
+          "/posts/nz-analysis",
+          "/posts/performance-Q1-FY25-26",
+          "/posts/pets-in-aged-care",
+          "/posts/potential-underreporting",
+          "/posts/qol-qce-survey-improvement",
+          "/posts/star-ratings-Q2-FY22-23",
+          "/posts/star-ratings-Q2-FY22-23-linear-model",
+          "/posts/star-ratings-calculator",
+          "/posts/text-mining-feedback"
+        ]
+      },
+      {
+        "host": "https://auth.moa.com.au",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://test03.moa.com.au",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://test04.moa.com.au",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://test11.moa.com.au",
+        "paths": [
+          "/Web/Login/Login.aspx"
+        ]
+      },
+      {
+        "host": "https://test12.moa.com.au",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://test15.moa.com.au",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://www.moa.com.au",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 35 unique paths across 11 hosts from 2025-05-26 to 2026-09-25.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
