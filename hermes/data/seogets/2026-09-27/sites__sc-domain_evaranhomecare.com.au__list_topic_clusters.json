@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:evaranhomecare.com.au",
+  "args": {},
+  "data": {
+    "property": "sc-domain:evaranhomecare.com.au",
+    "topic_clusters": []
+  }
+}

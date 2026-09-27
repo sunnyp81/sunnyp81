@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://aatma-aesthetics.com/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://aatma-aesthetics.com/"
+  }
+}

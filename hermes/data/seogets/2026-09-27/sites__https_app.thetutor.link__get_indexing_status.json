@@ -1,0 +1,15 @@
+{
+  "tool": "get_indexing_status",
+  "site": "https://app.thetutor.link/",
+  "args": {
+    "filters": [],
+    "status_filter": [],
+    "crawled_days_ago": 0,
+    "page": 1
+  },
+  "data": {
+    "data": null,
+    "note": "indexing data is only available for super sites. https://app.thetutor.link/ is not a super site",
+    "property": "https://app.thetutor.link/"
+  }
+}

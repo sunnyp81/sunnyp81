@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:mypartyhire.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:mypartyhire.uk",
+    "topic_clusters": []
+  }
+}

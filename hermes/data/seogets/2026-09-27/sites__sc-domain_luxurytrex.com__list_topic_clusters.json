@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:luxurytrex.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:luxurytrex.com",
+    "topic_clusters": []
+  }
+}
