@@ -1,0 +1,46 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:text.taxi",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 30 queries from 2025-05-28 to 2026-09-27.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "17 font style copy and paste",
+      "ascii twitter",
+      "cursive discord font",
+      "cursive discord text",
+      "cursive font for twitter",
+      "cursive font generator copy and paste",
+      "cursive font generator copy paste",
+      "cursive font twitter",
+      "cursive twitter font",
+      "curvy font copy and paste",
+      "discord category copy and paste",
+      "discord cursive text",
+      "discord schriften",
+      "elegant cursive fonts copy and paste",
+      "fake taxi font generator",
+      "fonts for twitter",
+      "fonts in whatsapp",
+      "fonts twitter",
+      "special fonts discord",
+      "textric",
+      "texttrick",
+      "tiktok cursive font",
+      "twitter fond",
+      "twitter fonts",
+      "twitter fonts copy and paste",
+      "twitter \u30d5\u30a9\u30f3\u30c8",
+      "whatsapp font",
+      "whatsapp font style",
+      "whatsapp text font",
+      "whatsapp text style"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:carehome.page",
+  "args": {},
+  "data": {
+    "property": "sc-domain:carehome.page",
+    "topic_clusters": []
+  }
+}
