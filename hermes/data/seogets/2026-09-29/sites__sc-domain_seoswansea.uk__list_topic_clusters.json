@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:seoswansea.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:seoswansea.uk",
+    "topic_clusters": []
+  }
+}

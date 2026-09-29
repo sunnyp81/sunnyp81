@@ -1,0 +1,29 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://myknifeguide.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://myknifeguide.com",
+        "paths": [
+          "/",
+          "/best-auto-knives-under-50/",
+          "/best-brand-of-knives-for-chefs/",
+          "/best-case-knives-to-collect/",
+          "/best-chef-knives-for-small-hands/",
+          "/cangshan-n1-review/",
+          "/what-caper-knife-used/",
+          "/zyliss-review/"
+        ]
+      }
+    ],
+    "note": "Returned 8 unique paths across 1 hosts from 2025-05-29 to 2026-09-28.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:citationgenerator.store",
+  "args": {
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-29"
+  },
+  "data": {
+    "annotations": [
+      {
+        "date": "2026-09-24",
+        "description": "",
+        "href": "https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu",
+        "id": "G-XhUDXP7A67iHCD2kmbVu",
+        "source": "google",
+        "title": "September 2026 Spam Update"
+      }
+    ],
+    "end_date": "2026-09-29",
+    "property_id": "sc-domain:citationgenerator.store",
+    "start_date": "2026-09-01"
+  }
+}

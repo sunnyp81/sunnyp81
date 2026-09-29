@@ -1,0 +1,21 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://myknifeguide.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 5 queries from 2025-05-29 to 2026-09-28.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "best automatic knife under 50",
+      "cangshan n1 series review",
+      "is it which top rated kitchen knife sets have strong warranties and positive customer reviews?",
+      "nitkaguides handy guides by notinthekitchenanymore",
+      "zyliss knives review"
+    ]
+  }
+}
