@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_annotations",
+  "site": "sc-domain:sitemap.digital",
+  "args": {
+    "start_date": "2026-09-02",
+    "end_date": "2026-09-30"
+  },
+  "data": {
+    "annotations": [
+      {
+        "date": "2026-09-24",
+        "description": "",
+        "href": "https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu",
+        "id": "G-XhUDXP7A67iHCD2kmbVu",
+        "source": "google",
+        "title": "September 2026 Spam Update"
+      }
+    ],
+    "end_date": "2026-09-30",
+    "property_id": "sc-domain:sitemap.digital",
+    "start_date": "2026-09-02"
+  }
+}

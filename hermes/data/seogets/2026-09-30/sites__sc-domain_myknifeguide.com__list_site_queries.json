@@ -1,0 +1,39 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:myknifeguide.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 23 queries from 2025-05-30 to 2026-09-29.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "are lock knives legal in the uk",
+      "are lock knives legal in uk",
+      "best automatic knife under 50",
+      "best case knife",
+      "best chef knife for small hands",
+      "cangshan n1 series review",
+      "how to safely dispose of knives",
+      "husk knife reviews",
+      "huusk",
+      "huusk knife",
+      "huusk knife review",
+      "huusk knives",
+      "is it which top rated kitchen knife sets have strong warranties and positive customer reviews?",
+      "is mosfiata a good knife brand",
+      "knife laws uk",
+      "lock knife",
+      "mosfiata knife review",
+      "nitkaguides handy guides by notinthekitchenanymore",
+      "ontario rat 3",
+      "what is a caper knife",
+      "what is a non locking knife",
+      "which top rated kitchen knife sets have strong warranties and positive customer reviews?",
+      "zyliss knives review"
+    ]
+  }
+}
