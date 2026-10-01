@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:carehome.page",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:carehome.page is not a super site",
+    "property": "sc-domain:carehome.page"
+  }
+}
