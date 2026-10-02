@@ -1,0 +1,26 @@
+{
+  "tool": "list_content_changes",
+  "site": "sc-domain:text.taxi",
+  "args": {
+    "start_date": "2026-09-04",
+    "end_date": "2026-10-02"
+  },
+  "data": {
+    "days": [
+      {
+        "date": "2026-09-24",
+        "items": [
+          {
+            "href": "https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu",
+            "title": "September 2026 Spam Update",
+            "type": "google_update"
+          }
+        ]
+      }
+    ],
+    "end_date": "2026-10-02",
+    "note": "Automatic content change tracking is only available for super sites; sc-domain:text.taxi is not a super site, so only annotations and Google updates are returned.",
+    "property": "sc-domain:text.taxi",
+    "start_date": "2026-09-04"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:scopepitch.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:scopepitch.com",
+    "topic_clusters": []
+  }
+}

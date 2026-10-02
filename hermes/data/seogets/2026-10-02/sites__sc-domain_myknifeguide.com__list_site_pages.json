@@ -1,0 +1,59 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:myknifeguide.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://myknifeguide.com",
+        "paths": [
+          "/best-auto-knives-under-50/",
+          "/best-cs-go-knives-under-250/",
+          "/",
+          "/best-assisted-opening-knives-under-50/",
+          "/best-bang-for-your-buck-steak-knives/",
+          "/best-brand-of-knives-for-chefs/",
+          "/best-buck-knives-for-hunting/",
+          "/best-butcher-knives/",
+          "/best-button-lock-flipper-knives/",
+          "/best-case-knives-to-collect/",
+          "/best-ceramic-honing-rod-for-japanese-knives/",
+          "/best-chef-knives-for-small-hands/",
+          "/best-chef-knives-under-200/",
+          "/best-cs-go-knives-under-120/",
+          "/best-cs-go-knives-under-50/",
+          "/cangshan-n1-review/",
+          "/cutco-trimmer-review/",
+          "/disposal/",
+          "/glock-review/",
+          "/huusk-review-sharpness-durability/",
+          "/kamikoto-roll-review/",
+          "/kitchen/sharpeners/",
+          "/law/",
+          "/law/banned-knives/",
+          "/law/buying-online/",
+          "/law/carrying/",
+          "/law/good-reason/",
+          "/law/lock-knives/",
+          "/law/multitools/",
+          "/law/travel/",
+          "/mosfiata-set-review/",
+          "/ontario-rat-3-review/",
+          "/paudin-review/",
+          "/pepper-cannon-review/",
+          "/statistics/",
+          "/uk-legal-knives/",
+          "/what-caper-knife-used/",
+          "/zyliss-review/"
+        ]
+      }
+    ],
+    "note": "Returned 38 unique paths across 1 hosts from 2025-06-02 to 2026-10-01.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
