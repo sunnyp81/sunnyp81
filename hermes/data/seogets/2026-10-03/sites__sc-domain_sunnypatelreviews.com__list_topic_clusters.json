@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:sunnypatelreviews.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:sunnypatelreviews.com",
+    "topic_clusters": []
+  }
+}
