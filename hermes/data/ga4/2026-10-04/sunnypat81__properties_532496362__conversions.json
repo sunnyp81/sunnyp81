@@ -1,0 +1,1 @@
+{"dimensionHeaders": [{"name": "eventName"}], "metricHeaders": [{"name": "conversions", "type": "TYPE_FLOAT"}, {"name": "eventCount", "type": "TYPE_INTEGER"}], "metadata": {"currencyCode": "USD", "timeZone": "America/Los_Angeles"}, "kind": "analyticsData#runReport"}
