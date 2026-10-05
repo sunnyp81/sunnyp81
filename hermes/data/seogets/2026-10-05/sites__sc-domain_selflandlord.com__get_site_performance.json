@@ -1,0 +1,17 @@
+{
+  "tool": "get_site_performance",
+  "site": "sc-domain:selflandlord.com",
+  "args": {
+    "start_date": "2026-09-07",
+    "end_date": "2026-10-05"
+  },
+  "data": {
+    "currency": "USD",
+    "data": "clicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\n\t26\t3082\t0.84\t45.16\t162\t201\t146\t72.64\t26\t11.93",
+    "end_date": "2026-10-05",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined.",
+    "property": "sc-domain:selflandlord.com",
+    "sources": "search=gsc, web=ga4",
+    "start_date": "2026-09-07"
+  }
+}
