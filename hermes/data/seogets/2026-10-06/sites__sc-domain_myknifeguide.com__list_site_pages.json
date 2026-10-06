@@ -1,0 +1,64 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:myknifeguide.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://myknifeguide.com",
+        "paths": [
+          "/best-auto-knives-under-50/",
+          "/best-cs-go-knives-under-250/",
+          "/disposal/",
+          "/law/banned-knives/",
+          "/law/buying-online/",
+          "/law/travel/",
+          "/",
+          "/best-assisted-opening-knives-under-50/",
+          "/best-automatic-knives-under-300/",
+          "/best-bang-for-your-buck-steak-knives/",
+          "/best-brand-of-knives-for-chefs/",
+          "/best-buck-knives-for-hunting/",
+          "/best-bushcraft-knives-under-200/",
+          "/best-butcher-knives/",
+          "/best-button-lock-flipper-knives/",
+          "/best-case-knives-to-collect/",
+          "/best-ceramic-honing-rod-for-japanese-knives/",
+          "/best-chef-knives-for-small-hands/",
+          "/best-chef-knives-under-200/",
+          "/best-cs-go-knives-under-120/",
+          "/best-cs-go-knives-under-150/",
+          "/best-cs-go-knives-under-50/",
+          "/cangshan-n1-review/",
+          "/cutco-trimmer-review/",
+          "/glock-review/",
+          "/huusk-review-sharpness-durability/",
+          "/kamikoto-roll-review/",
+          "/kitchen/safety/",
+          "/kitchen/sharpeners/",
+          "/kyoku-samurai-review/",
+          "/law/",
+          "/law/carrying/",
+          "/law/good-reason/",
+          "/law/lock-knives/",
+          "/law/multitools/",
+          "/mosfiata-set-review/",
+          "/ontario-rat-3-review/",
+          "/paudin-review/",
+          "/pepper-cannon-review/",
+          "/statistics/",
+          "/uk-legal-knives/",
+          "/what-caper-knife-used/",
+          "/zyliss-review/"
+        ]
+      }
+    ],
+    "note": "Returned 43 unique paths across 1 hosts from 2025-06-06 to 2026-10-05.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
