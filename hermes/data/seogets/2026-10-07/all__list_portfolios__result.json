@@ -1,0 +1,129 @@
+{
+  "tool": "list_portfolios",
+  "args": {},
+  "data": {
+    "note": "Use the portfolio name or id with get_portfolio_performance for combined metrics, or with manage_portfolio_sites to change its sites.",
+    "portfolios": [
+      {
+        "color": "#84cc16",
+        "content_groups": [],
+        "id": "SBlC9Sqt0b4v25yy7WZTfocq3udPDT",
+        "kind": "portfolio",
+        "name": "Client",
+        "property_ids": [
+          "http://www.laundryhome.co.uk/",
+          "https://aatma-aesthetics.com/",
+          "https://laundryhome.co.uk/",
+          "https://paragondrycleaners.co.uk/",
+          "https://theseshbars.com/",
+          "sc-domain:aatma-aesthetics.com",
+          "sc-domain:bespokeairsoft.co.uk",
+          "sc-domain:cfw.co.uk",
+          "sc-domain:drinksbykingpin.com",
+          "sc-domain:eco-drycleaners.co.uk",
+          "sc-domain:kingpin.design",
+          "sc-domain:readingschoolofmartialarts.co.uk",
+          "sc-domain:sephra.com",
+          "sc-domain:sephrausa.com",
+          "sc-domain:theseshbars.com"
+        ],
+        "scope": "user",
+        "sites_count": 15,
+        "topic_clusters": []
+      },
+      {
+        "color": "#8b5cf6",
+        "content_groups": [],
+        "id": "yLf5TwydkqUT0qv6zqhBOKLNWSNJBn",
+        "kind": "portfolio",
+        "name": "News",
+        "property_ids": [
+          "sc-domain:bedfordshiretimes.co.uk",
+          "sc-domain:berkshiretimes.co.uk",
+          "sc-domain:buckinghamshiretimes.co.uk",
+          "sc-domain:cheshiretimes.co.uk",
+          "sc-domain:directory.berkshiretimes.co.uk",
+          "sc-domain:dorsettimes.co.uk",
+          "sc-domain:hertfordshiretimes.uk",
+          "sc-domain:oxfordshiretimes.co.uk",
+          "sc-domain:theenglandtimes.co.uk",
+          "sc-domain:thesurreytimes.co.uk"
+        ],
+        "scope": "user",
+        "sites_count": 10,
+        "topic_clusters": []
+      },
+      {
+        "color": "#4ad6f2",
+        "content_groups": [],
+        "id": "GKFffBJ2prfJ9B2odBIZflrZyeX4CU",
+        "kind": "portfolio",
+        "name": "ExWPX",
+        "property_ids": [
+          "sc-domain:best-binoculars.uk",
+          "sc-domain:bestreviews.co.uk",
+          "sc-domain:crosstrainerhome.co.uk",
+          "sc-domain:e-bikereview.uk",
+          "sc-domain:homegardenhq.co.uk",
+          "sc-domain:lightweightluggagereviews.com",
+          "sc-domain:neocandle.com",
+          "sc-domain:punchfoods.com",
+          "sc-domain:sewingthis.com",
+          "sc-domain:shecookssheeats.co.uk",
+          "sc-domain:sustainabletag.com",
+          "sc-domain:teachmediy.co.uk",
+          "sc-domain:techloved.com",
+          "sc-domain:thebestmowers.co.uk",
+          "sc-domain:thefryerguide.com",
+          "sc-domain:towerfanreviews.uk"
+        ],
+        "scope": "user",
+        "sites_count": 16,
+        "topic_clusters": []
+      },
+      {
+        "color": "#41d280",
+        "content_groups": [],
+        "id": "7By7Dv3VN5hjFUF67Vg94rKqOsd4Ry",
+        "kind": "portfolio",
+        "name": "Directory",
+        "property_ids": [
+          "sc-domain:dermatologists.london",
+          "sc-domain:directory.berkshiretimes.co.uk",
+          "sc-domain:directory.faceartfun.com",
+          "sc-domain:dubai.realty.directory",
+          "sc-domain:influencermarketing.directory",
+          "sc-domain:jewellers.london",
+          "sc-domain:lifecoaches.london",
+          "sc-domain:london.realty.directory",
+          "sc-domain:nyc.realty.directory",
+          "sc-domain:physiotherapists.london",
+          "sc-domain:plumbersden.com",
+          "sc-domain:realty.directory",
+          "sc-domain:slopes.directory",
+          "sc-domain:smmcnj.org",
+          "sc-domain:solarenergy.london",
+          "sc-domain:vegantab.com",
+          "sc-domain:webservices.london"
+        ],
+        "scope": "user",
+        "sites_count": 17,
+        "topic_clusters": []
+      },
+      {
+        "color": "#d946ef",
+        "content_groups": [],
+        "id": "HkJYlct0F9JGIApeZKV1mulNMJNkQT",
+        "kind": "portfolio",
+        "name": "To Focus",
+        "property_ids": [
+          "sc-domain:bestvibrationplates.co.uk",
+          "sc-domain:faithfulsage.com"
+        ],
+        "scope": "user",
+        "sites_count": 2,
+        "topic_clusters": []
+      }
+    ]
+  }
+}
