@@ -1,0 +1,44 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:optimisedwebsite.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://optimisedwebsite.com",
+        "paths": [
+          "/",
+          "/compare/pre-built-seo-websites/",
+          "/learn/eeat-and-trust-signals/",
+          "/learn/website-redesign-statistics/",
+          "/case-studies/she-cooks-she-eats/",
+          "/compare/",
+          "/compare/best-website-builder-for-seo/",
+          "/compare/diy-vs-professional-seo-website/",
+          "/compare/seo-website-for-small-business/",
+          "/compare/turnkey-seo-website-options/",
+          "/contact/",
+          "/industry/",
+          "/learn/core-web-vitals-statistics/",
+          "/learn/do-seo-websites-work/",
+          "/learn/how-google-ranks-websites/",
+          "/learn/schema-markup-statistics/",
+          "/learn/what-is-an-seo-optimised-website/",
+          "/pricing/",
+          "/seo-web-design/",
+          "/services/",
+          "/services/schema-markup/",
+          "/state-of-seo-websites/",
+          "/website-redesign-seo-migration/"
+        ]
+      }
+    ],
+    "note": "Returned 23 unique paths across 1 hosts from 2025-06-08 to 2026-10-07.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

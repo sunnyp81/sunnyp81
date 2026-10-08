@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:zoningbase.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:zoningbase.com",
+    "topic_clusters": []
+  }
+}
