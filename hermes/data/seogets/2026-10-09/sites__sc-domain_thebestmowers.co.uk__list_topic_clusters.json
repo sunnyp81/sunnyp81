@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:thebestmowers.co.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:thebestmowers.co.uk",
+    "topic_clusters": []
+  }
+}

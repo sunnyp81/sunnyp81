@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://seo-middlesbrough.com/",
+  "args": {},
+  "data": {
+    "property": "https://seo-middlesbrough.com/",
+    "topic_clusters": []
+  }
+}

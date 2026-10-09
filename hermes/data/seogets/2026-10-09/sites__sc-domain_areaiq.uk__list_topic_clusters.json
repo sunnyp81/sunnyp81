@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:areaiq.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:areaiq.uk",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:tradecost.uk",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:tradecost.uk"
+  }
+}

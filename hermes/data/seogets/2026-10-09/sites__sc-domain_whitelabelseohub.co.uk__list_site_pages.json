@@ -1,0 +1,49 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:whitelabelseohub.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://whitelabelseohub.co.uk",
+        "paths": [
+          "/about/",
+          "/software/",
+          "/",
+          "/disclosure/",
+          "/explained/",
+          "/guides/",
+          "/link-building/",
+          "/local/",
+          "/managed/",
+          "/methodology/",
+          "/pricing/",
+          "/privacy/",
+          "/providers/",
+          "/reporting-tools/",
+          "/research/white-label-seo-pricing-transparency/",
+          "/reseller-programs/",
+          "/uk/",
+          "/uk/leeds/",
+          "/uk/london/",
+          "/uk/manchester/",
+          "/uk/york/",
+          "/vs-in-house/"
+        ]
+      },
+      {
+        "host": "http://whitelabelseohub.co.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 23 unique paths across 2 hosts from 2025-06-09 to 2026-10-08.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
