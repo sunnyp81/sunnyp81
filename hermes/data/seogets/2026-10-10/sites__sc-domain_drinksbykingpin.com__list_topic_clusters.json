@@ -1,0 +1,64 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:drinksbykingpin.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:drinksbykingpin.com",
+    "topic_clusters": [
+      {
+        "filters": [
+          {
+            "expression": "kingpin|kinpin",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Kingpin Brand & Agency"
+      },
+      {
+        "filters": [
+          {
+            "expression": "smiling wolf|smilingwolf",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Smiling Wolf Brand"
+      },
+      {
+        "filters": [
+          {
+            "expression": "yorkshire distilling|yorkshire spirits",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Yorkshire Distilling"
+      },
+      {
+        "filters": [
+          {
+            "expression": "buoy spirits|howler's|maison leroux|maisonleroux|scorza",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Client Portfolio Brands"
+      },
+      {
+        "filters": [
+          {
+            "expression": "drinks design|drink design",
+            "operator": "contains"
+          },
+          {
+            "expression": "kingpin",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Drinks Design Services"
+      }
+    ]
+  }
+}

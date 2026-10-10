@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://plugandplay.com/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://plugandplay.com/"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://plugandplay.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://plugandplay.com",
+        "paths": [
+          "/",
+          "/about/",
+          "/contact/",
+          "/privacy-policy/",
+          "/careers/",
+          "/enterprise-websites/",
+          "/insights/imagery-photography-and-graphic-elements/",
+          "/work/",
+          "/about",
+          "/ai-implementation/",
+          "/ai-website-builder/",
+          "/book-a-call/",
+          "/contact",
+          "/cookies-policy-copy-2/",
+          "/cookies-policy-copy/",
+          "/cookies-policy/",
+          "/digital-transformation/",
+          "/equal-opportunities-and-anti-harassment-policy/",
+          "/insights",
+          "/insights/",
+          "/insights/color-palette-primary-and-secondary-colors",
+          "/insights/example-applications-real-world-usage-scenarios/",
+          "/insights/how-can-smes-rank-in-search-engines/",
+          "/mobile-apps/",
+          "/modern-slavery-policy/",
+          "/technology",
+          "/technology/",
+          "/terms-and-conditions/",
+          "/whistleblowing-policy/",
+          "/work/chambers",
+          "/work/chambers/",
+          "/work/eco-online/",
+          "/work/powerleague/",
+          "/work/prysim-id",
+          "/work/prysim-id/",
+          "/work/third-space/",
+          "/work/triple-point/"
+        ]
+      }
+    ],
+    "note": "Returned 37 unique paths across 1 hosts from 2025-06-10 to 2026-10-09.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

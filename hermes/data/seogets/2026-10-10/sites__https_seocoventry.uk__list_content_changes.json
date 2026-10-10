@@ -1,0 +1,27 @@
+{
+  "tool": "list_content_changes",
+  "site": "https://seocoventry.uk/",
+  "args": {
+    "start_date": "2026-09-12",
+    "end_date": "2026-10-10"
+  },
+  "data": {
+    "days": [
+      {
+        "date": "2026-09-24",
+        "items": [
+          {
+            "description": "The rollout was complete as of October 8, 2026.",
+            "href": "https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu",
+            "title": "September 2026 Spam Update",
+            "type": "google_update"
+          }
+        ]
+      }
+    ],
+    "end_date": "2026-10-10",
+    "note": "Automatic content change tracking is only available for super sites; https://seocoventry.uk/ is not a super site, so only annotations and Google updates are returned.",
+    "property": "https://seocoventry.uk/",
+    "start_date": "2026-09-12"
+  }
+}

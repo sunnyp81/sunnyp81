@@ -1,0 +1,52 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:agenticaisecured.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 36 queries from 2025-06-10 to 2026-10-09.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "agentic security workshop",
+      "ai agent compromise",
+      "ai agent hardening",
+      "ai agent least privilege",
+      "ai agent least privilege access",
+      "ai agent security checklist",
+      "ai agent validation checklist",
+      "ai coding agent credentials",
+      "ai-powered remediation guidance for secure coding teams",
+      "aws mcp gateway alternatives",
+      "compromised agent detection",
+      "compromised ai",
+      "how to contain a compromised ai agent",
+      "indirect prompt injection",
+      "indirect prompt injection examples",
+      "least privilege ai agents",
+      "llm owasp top 10",
+      "mcp gateway",
+      "mcp gateway features",
+      "mcp gateway tools",
+      "mcp proxy",
+      "mcp-proxy",
+      "owasp llm checklist",
+      "owasp llm top 10",
+      "owasp llm top 10 2024",
+      "owasp llm top 10 2026 update",
+      "owasp llm top 10 explained",
+      "owasp llm top 10 prompt injection",
+      "owasp top 10 for llm",
+      "owasp top 10 for llms",
+      "owasp top 10 llm",
+      "owasp top 10 llm applications 2025 prompt injection excessive agency",
+      "trufflehog official documentation secret scanning verified secrets",
+      "trufflehog official documentation secrets scanner",
+      "verifying that an agent is still 'active' and hasn't been hijacked or gone rogue.",
+      "what is prompt injection"
+    ]
+  }
+}
