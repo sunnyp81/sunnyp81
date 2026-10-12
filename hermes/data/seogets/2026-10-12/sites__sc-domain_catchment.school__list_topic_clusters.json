@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:catchment.school",
+  "args": {},
+  "data": {
+    "property": "sc-domain:catchment.school",
+    "topic_clusters": []
+  }
+}
