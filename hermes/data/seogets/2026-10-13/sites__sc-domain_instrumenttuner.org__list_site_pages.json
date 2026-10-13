@@ -1,0 +1,26 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:instrumenttuner.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://instrumenttuner.org",
+        "paths": [
+          "/",
+          "/bass-tuner/",
+          "/cello-tuner/",
+          "/guitar-tuner/",
+          "/tuning-fork/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 1 hosts from 2025-06-13 to 2026-10-12.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

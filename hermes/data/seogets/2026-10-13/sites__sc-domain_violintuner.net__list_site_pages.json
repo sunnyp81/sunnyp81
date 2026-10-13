@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:violintuner.net",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://violintuner.net",
+        "paths": [
+          "/",
+          "/violin-string-notes/"
+        ]
+      }
+    ],
+    "note": "Returned 2 unique paths across 1 hosts from 2025-06-13 to 2026-10-12.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

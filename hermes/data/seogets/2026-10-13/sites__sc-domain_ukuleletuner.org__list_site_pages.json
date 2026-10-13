@@ -1,0 +1,25 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:ukuleletuner.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://ukuleletuner.org",
+        "paths": [
+          "/",
+          "/about/",
+          "/baritone-ukulele-tuner/",
+          "/how-to-tune-a-ukulele/"
+        ]
+      }
+    ],
+    "note": "Returned 4 unique paths across 1 hosts from 2025-06-13 to 2026-10-12.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:ukuleletuner.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 18 queries from 2025-06-13 to 2026-10-12.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "baritone ukulele online tuner",
+      "baritone ukulele tuner online",
+      "baritone ukulele tuning",
+      "soprano ukulele tuner",
+      "tuner for ukulele",
+      "tuner ukulele",
+      "uke tuner",
+      "uke tuner mic",
+      "uke tuner with mic",
+      "ukelel tuner",
+      "ukelele tiner",
+      "ukelele tuning",
+      "ukulele tuner",
+      "ukulele tuner online mic",
+      "ukulele tuner online microphone",
+      "ukulele tuner website",
+      "ukulele tuning",
+      "ukulele tuning online microphone"
+    ]
+  }
+}

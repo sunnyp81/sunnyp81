@@ -1,0 +1,33 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:instrumenttuner.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 17 queries from 2025-06-13 to 2026-10-12.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "bass guitar tuner",
+      "bass tune online",
+      "bass tuner",
+      "bass tuner free",
+      "bass tuner online",
+      "bass tuner online free",
+      "chromatic instrument tuner",
+      "chromatic tuning",
+      "electric bass tuner",
+      "online band tuner",
+      "online metronome and tuner",
+      "online tuner",
+      "online tuning fork",
+      "tune cello",
+      "tune violin online free",
+      "tuner for band",
+      "violin tuner online free"
+    ]
+  }
+}
