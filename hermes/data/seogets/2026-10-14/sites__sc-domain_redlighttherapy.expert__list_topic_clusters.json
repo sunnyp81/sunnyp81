@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:redlighttherapy.expert",
+  "args": {},
+  "data": {
+    "property": "sc-domain:redlighttherapy.expert",
+    "topic_clusters": []
+  }
+}
