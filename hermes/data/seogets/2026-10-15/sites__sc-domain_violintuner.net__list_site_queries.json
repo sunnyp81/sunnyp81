@@ -1,0 +1,29 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:violintuner.net",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 13 queries from 2025-06-15 to 2026-10-14.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "tune in violin",
+      "tuned violin",
+      "tuner for violin online",
+      "tuner violin",
+      "tuner violin online",
+      "tuning on a violin",
+      "violin e string tuner",
+      "violin how to tune",
+      "violin string tuning",
+      "violin tuner",
+      "violin tuner online free",
+      "violine tuning",
+      "volin tuner"
+    ]
+  }
+}
