@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:visible-ads.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:visible-ads.com",
+    "topic_clusters": []
+  }
+}
