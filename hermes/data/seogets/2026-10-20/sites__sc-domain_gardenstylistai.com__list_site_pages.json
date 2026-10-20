@@ -1,0 +1,24 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:gardenstylistai.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://gardenstylistai.com",
+        "paths": [
+          "/backyard-design/",
+          "/front-yard-design/",
+          "/plants/"
+        ]
+      }
+    ],
+    "note": "Returned 3 unique paths across 1 hosts from 2025-06-20 to 2026-10-19.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://seotelford.uk/",
+  "args": {},
+  "data": {
+    "property": "https://seotelford.uk/",
+    "topic_clusters": []
+  }
+}

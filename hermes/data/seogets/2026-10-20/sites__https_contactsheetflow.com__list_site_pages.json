@@ -1,0 +1,26 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://contactsheetflow.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://contactsheetflow.com",
+        "paths": [
+          "/",
+          "/contact-sheet-templates/",
+          "/photography-contact-sheet/",
+          "/privacy/",
+          "/terms/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 1 hosts from 2025-06-20 to 2026-10-19.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

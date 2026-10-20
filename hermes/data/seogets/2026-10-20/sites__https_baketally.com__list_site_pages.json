@@ -1,0 +1,27 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://baketally.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://baketally.com",
+        "paths": [
+          "/",
+          "/about",
+          "/about/",
+          "/how-it-works/",
+          "/pricing/",
+          "/privacy/"
+        ]
+      }
+    ],
+    "note": "Returned 6 unique paths across 1 hosts from 2025-06-20 to 2026-10-19.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
