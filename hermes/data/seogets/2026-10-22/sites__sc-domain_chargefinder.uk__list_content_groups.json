@@ -1,0 +1,90 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:chargefinder.uk",
+  "args": {},
+  "data": {
+    "content_groups": [
+      {
+        "filters": [
+          {
+            "expression": "https://www.chargefinder.uk/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": false,
+        "name": "Homepage"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/network/|/networks/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Charging Networks"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/motorway/|/motorways/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Motorway Charging"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/area/|/areas/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "City & Area Pages"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/county/|/counties/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "County Pages"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/guides/|/ev-charging-costs/|/ev-road-trip-guide/|/home-charger-guide/|/best-ev-charging-apps/|/free-ev-charging/|/rapid-chargers-near-me/|/workplace-charging/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Guides & Resources"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/about/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "About"
+      },
+      {
+        "filters": [
+          {
+            "expression": "/area/|/areas/|/county/|/counties/|/network/|/networks/|/motorway/|/motorways/|/guides/|/ev-charging-costs/|/ev-road-trip-guide/|/home-charger-guide/|/best-ev-charging-apps/|/free-ev-charging/|/rapid-chargers-near-me/|/workplace-charging/|/about/",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Postcode Pages"
+      }
+    ],
+    "property": "sc-domain:chargefinder.uk"
+  }
+}

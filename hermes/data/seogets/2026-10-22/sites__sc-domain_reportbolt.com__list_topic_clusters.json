@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:reportbolt.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:reportbolt.com",
+    "topic_clusters": []
+  }
+}
