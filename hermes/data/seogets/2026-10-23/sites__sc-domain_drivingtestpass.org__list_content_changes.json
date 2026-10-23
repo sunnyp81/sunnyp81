@@ -1,0 +1,15 @@
+{
+  "tool": "list_content_changes",
+  "site": "sc-domain:drivingtestpass.org",
+  "args": {
+    "start_date": "2026-09-25",
+    "end_date": "2026-10-23"
+  },
+  "data": {
+    "days": [],
+    "end_date": "2026-10-23",
+    "note": "Automatic content change tracking is only available for super sites; sc-domain:drivingtestpass.org is not a super site, so only annotations and Google updates are returned.",
+    "property": "sc-domain:drivingtestpass.org",
+    "start_date": "2026-09-25"
+  }
+}

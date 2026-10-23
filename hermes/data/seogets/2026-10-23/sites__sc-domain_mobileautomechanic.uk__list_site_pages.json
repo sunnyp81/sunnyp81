@@ -1,0 +1,41 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:mobileautomechanic.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://mobileautomechanic.uk",
+        "paths": [
+          "/",
+          "/services/alternator-starter/",
+          "/become-a-mobile-mechanic/",
+          "/services/auto-electrical/",
+          "/car-systems/braking-system/",
+          "/car-systems/engine/",
+          "/diagnose/engine-diagnostic/",
+          "/info/",
+          "/info/car-service-cost/",
+          "/info/mot-failure-reasons/",
+          "/mechanic-jobs-reading/",
+          "/repair-guides/how-to-change-brake-pads/",
+          "/repair-guides/how-to-change-wiper-blades/",
+          "/repair-guides/how-to-top-up-engine-oil/",
+          "/services/",
+          "/services/exhaust-repairs/",
+          "/services/mot-repairs/",
+          "/warning-lights/brake-warning-light/",
+          "/warning-lights/oil-pressure-warning/",
+          "/warning-lights/temperature-warning-light/"
+        ]
+      }
+    ],
+    "note": "Returned 20 unique paths across 1 hosts from 2025-06-23 to 2026-10-22.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

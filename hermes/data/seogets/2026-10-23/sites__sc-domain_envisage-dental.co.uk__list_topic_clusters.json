@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:envisage-dental.co.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:envisage-dental.co.uk",
+    "topic_clusters": []
+  }
+}
