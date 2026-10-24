@@ -1,0 +1,15 @@
+{
+  "tool": "list_content_changes",
+  "site": "sc-domain:scopepitch.com",
+  "args": {
+    "start_date": "2026-09-26",
+    "end_date": "2026-10-24"
+  },
+  "data": {
+    "days": [],
+    "end_date": "2026-10-24",
+    "note": "Automatic content change tracking is only available for super sites; sc-domain:scopepitch.com is not a super site, so only annotations and Google updates are returned.",
+    "property": "sc-domain:scopepitch.com",
+    "start_date": "2026-09-26"
+  }
+}

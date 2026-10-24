@@ -1,0 +1,36 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:roomstylistai.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 20 queries from 2025-06-24 to 2026-10-23.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "average bathroom remodel cost",
+      "average remodel cost for kitchen",
+      "bathroom remodel average price",
+      "bathroom remodel cost",
+      "bathroom remodel estimate",
+      "bathroom remodel price",
+      "bathroom renovation cost",
+      "bathroom renovation costs",
+      "bathroom renovations price",
+      "bathtub renovation cost",
+      "cost for full bathroom remodel",
+      "cost of a full bathroom remodel",
+      "cost of bathroom remodel",
+      "cost of renovation of bathroom",
+      "full bath renovation cost",
+      "full bathroom remodel cost",
+      "redesign this room",
+      "remodeled kitchens cost",
+      "remodeling bathroom cost",
+      "shower remodel cost"
+    ]
+  }
+}

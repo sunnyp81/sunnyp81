@@ -1,0 +1,36 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:gardenstylistai.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 20 queries from 2025-06-24 to 2026-10-23.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "average garden size uk",
+      "average uk garden size",
+      "design my back yard",
+      "design my lawn",
+      "design your back garden",
+      "front garden",
+      "front garden designs",
+      "front garden landscaping",
+      "front landscape design",
+      "front landscaping",
+      "front yard landscaping plans",
+      "garden restyle",
+      "hardiness ratings uk",
+      "modern plant design",
+      "navrhni obrazek",
+      "patio designer",
+      "rhs award of garden merit plant list",
+      "rhs hardiness rating",
+      "rhs hardiness ratings",
+      "uk gardening statistics"
+    ]
+  }
+}
