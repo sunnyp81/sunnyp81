@@ -1,0 +1,158 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:visible-ads.com",
+  "args": {},
+  "data": {
+    "content_groups": [
+      {
+        "filters": [
+          {
+            "expression": "https://visible-ads.com/|https://www.visible-ads.com/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": true,
+        "name": "Homepage"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/google-ads|visible-ads.com/google-ads-seo|visible-ads.com/choosing-a-google-ads-agency|visible-ads.com/amazon-google-ads",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Google Ads Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/amazon|visible-ads.com/high-sku-advertising",
+            "operator": "contains"
+          },
+          {
+            "expression": "visible-ads.com/amazon-google-ads",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Amazon Advertising"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/meta-ads|visible-ads.com/paid-social",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Paid Social & Meta Ads"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/bing-ads|visible-ads.com/free-bing-ads-audit",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Bing Ads"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/seo|visible-ads.com/ecro|visible-ads.com/roas-vs-profit",
+            "operator": "contains"
+          },
+          {
+            "expression": "visible-ads.com/google-ads-seo|visible-ads.com/blog",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO & eCRO"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/ppc-management|visible-ads.com/display-advertising|visible-ads.com/multi-channel-services|visible-ads.com/white-label-ppc-seo-pricing-uk",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "PPC & Agency Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/case-studies",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Case Studies"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/blog",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Blog"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/blueprint|visible-ads.com/how-we-audit|visible-ads.com/free-ads-audit",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Blueprint & Audit"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/ppc-london|visible-ads.com/kingston-upon-thames|visible-ads.com/richmond-upon-thames|visible-ads.com/surrey",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Local Landing Pages"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/tools",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tools"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/about|visible-ads.com/contact",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "About & Contact"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible-ads.com/privacy-policy|visible-ads.com/ai-policy",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Legal & Policy Pages"
+      }
+    ],
+    "property": "sc-domain:visible-ads.com"
+  }
+}

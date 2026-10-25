@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:thebestmowers.co.uk",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:thebestmowers.co.uk"
+  }
+}
