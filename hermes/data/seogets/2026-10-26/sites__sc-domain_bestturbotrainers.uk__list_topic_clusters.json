@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:bestturbotrainers.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:bestturbotrainers.uk",
+    "topic_clusters": []
+  }
+}

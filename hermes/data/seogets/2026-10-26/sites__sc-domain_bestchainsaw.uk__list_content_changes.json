@@ -1,0 +1,15 @@
+{
+  "tool": "list_content_changes",
+  "site": "sc-domain:bestchainsaw.uk",
+  "args": {
+    "start_date": "2026-09-28",
+    "end_date": "2026-10-26"
+  },
+  "data": {
+    "days": [],
+    "end_date": "2026-10-26",
+    "note": "Automatic content change tracking is only available for super sites; sc-domain:bestchainsaw.uk is not a super site, so only annotations and Google updates are returned.",
+    "property": "sc-domain:bestchainsaw.uk",
+    "start_date": "2026-09-28"
+  }
+}

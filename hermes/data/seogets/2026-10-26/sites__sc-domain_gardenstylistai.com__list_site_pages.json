@@ -1,0 +1,41 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:gardenstylistai.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://gardenstylistai.com",
+        "paths": [
+          "/plants/",
+          "/small-spaces/"
+        ]
+      },
+      {
+        "host": "https://gardenstylistai.com",
+        "paths": [
+          "/",
+          "/backyard-design/",
+          "/conditions/north-facing/",
+          "/front-yard-design/",
+          "/landscape-design/",
+          "/patio-design/",
+          "/plants/",
+          "/small-spaces/",
+          "/statistics/front-paving-and-flooding/",
+          "/statistics/outdoor-space-uk/",
+          "/styles/cottage/",
+          "/styles/mediterranean/",
+          "/styles/modern/"
+        ]
+      }
+    ],
+    "note": "Returned 15 unique paths across 2 hosts from 2025-06-26 to 2026-10-25.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

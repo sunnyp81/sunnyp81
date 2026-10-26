@@ -1,0 +1,41 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:roomstylistai.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 25 queries from 2025-06-26 to 2026-10-25.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "average bathroom remodel cost",
+      "average cost of kitchen renovation 2022",
+      "average remodel cost for kitchen",
+      "bathroom remodel average price",
+      "bathroom remodel cost",
+      "bathroom remodel estimate",
+      "bathroom remodel price",
+      "bathroom renovation cost",
+      "bathroom renovation costs",
+      "bathroom renovations price",
+      "bathtub renovation cost",
+      "cost for full bathroom remodel",
+      "cost of a full bathroom remodel",
+      "cost of bathroom remodel",
+      "cost of renovation of bathroom",
+      "full bath renovation cost",
+      "full bathroom remodel cost",
+      "hocu slike",
+      "master bathroom remodel cost estimator",
+      "redesign this room",
+      "remodeled kitchens cost",
+      "remodeling bathroom cost",
+      "restyle the bedroom. output an image.",
+      "shower remodel cost",
+      "the room"
+    ]
+  }
+}

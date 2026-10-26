@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:gardenstylistai.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:gardenstylistai.com",
+    "topic_clusters": []
+  }
+}

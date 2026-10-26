@@ -1,0 +1,204 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:visible-ads.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:visible-ads.com",
+    "topic_clusters": [
+      {
+        "filters": [
+          {
+            "expression": "google ads|google ad |google adwords|adwords|google ppc|google advertising|google adsense|cro google|google marketing cro|google organic paid|google display ad|google paid ad|google strategies|google vs. bing|google and bing|ads google|google ad marketing|google ad strategy|google ad cost|google ad price|make google ad|strategy for google ads|best google ads|optimised google ads|chatgpt ads|chatgpt shopping ads|chat gpt shopping ads|deepseek ad|deepseek ads",
+            "operator": "contains"
+          },
+          {
+            "expression": "google ads help roas definition revenue divided by cost|google ads help roas revenue divided by cost|google ads roas definition revenue divided by cost|google ads roas revenue not profit",
+            "operator": "equals"
+          },
+          {
+            "expression": "bing|amazon|facebook|meta|paid social|microsoft|display advert",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Google Ads Management for eCommerce"
+      },
+      {
+        "filters": [
+          {
+            "expression": "meta ads|meta ad |paid social|facebook ads|social media agency|smm agency|instagram|who manages meta ads",
+            "operator": "contains"
+          },
+          {
+            "expression": "meta roas|meta and google|meta vs google|meta advertising services|low roas 0.53 paid social audit improvement strategy|difference between google ads and meta ads|google ads vs facebook ads|meta ads vs google ads|meta ads vs google shopping",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Paid Social Advertising"
+      },
+      {
+        "filters": [
+          {
+            "expression": "amazon ads|amazon advertising|amazon ppc|amazon pay per click|amazon sponsored|amazon profit|advertising amazon|how much amazon|how much does amazon|how much to advertise on amazon|factors that contribute to amazon sales|prevent competitors bidding on brand name amazon",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Amazon Advertising"
+      },
+      {
+        "filters": [
+          {
+            "expression": "bing ads|bing ad |bing ppc|bing paid|bing marketing|bing advertising|bing retargeting|bing bid|bing campaign|bing display|bing annonsering|bing vs google|bing reseller|advertise bing ads microsoft|microsoft ads|microsoft advertising|site:help.ads.microsoft.com",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Microsoft & Bing Ads"
+      },
+      {
+        "filters": [
+          {
+            "expression": "cro |ecro|e cro|ectro|ecommerce conversion|conversion rate optim",
+            "operator": "contains"
+          },
+          {
+            "expression": "what is ecro",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": true,
+        "name": "eCommerce Conversion Rate Optimisation"
+      },
+      {
+        "filters": [
+          {
+            "expression": "seo agency|seo company|seo services|seo consultants|seo kingston|seo richmond|seo surrey|seo in london|seo ppc|seo search engine|seo website|seo vs paid|technical seo|local seo|private label seo|white label seo|search engine optimisation",
+            "operator": "contains"
+          },
+          {
+            "expression": "betting seo audit|bvisible seo agency|richmond upon thames seo specialist|seo and ppc agency in london|seo and ppc agency london",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO for eCommerce Brands"
+      },
+      {
+        "filters": [
+          {
+            "expression": "multi channel|multichannel|multilingual ppc|b2b multi channel|integrated campaigns|cross-format|how do i measure which ads are really driving|reconcile meta and google|reconcile paid social and google|how to compare paid social and google|best alternatives to google and meta|top-rated ad networks outside|running meta and google|ai for paid ads|ai to optimize ad budgets",
+            "operator": "contains"
+          },
+          {
+            "expression": "b2b multi channel paid ads|what are the top-rated ad networks outside of facebook and google ads?|best alternatives to google and meta for brand advertising?",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": true,
+        "name": "Multi-Channel Paid Advertising Strategy"
+      },
+      {
+        "filters": [
+          {
+            "expression": "roas|break even roas|break-even roas|profit on ad spend|poas|gross margin|high roas|low roas|net roas|gross roas|negative roas|profitable roas|misinterpreting roas|roas vs|profit roas|profit rose|return on marketing investment|platform-reported roas|4x roas|teach me the difference between channel roas",
+            "operator": "contains"
+          },
+          {
+            "expression": "is roas revenue divided by spend|is 30% good?",
+            "operator": "equals"
+          },
+          {
+            "expression": "break-even roas formula 1 divided by gross margin|what is a good break even roas|what is a high roas|what is bad roas|what is break even roas|what is the best strategy for google ads?",
+            "operator": "contains"
+          },
+          {
+            "expression": "poas ppc|profit on ad spend poas",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Profit-First ROAS & Performance Metrics"
+      },
+      {
+        "filters": [
+          {
+            "expression": "visible ads method|visible ads blueprint|visible ads methodology|advisible|advisible technologies|built visible|visible ad|visible ads|visible advertising|visible agency|visible agent|visible branding|visible brands|visible business|visible ceo|visible company|visible factors|visible inc|visible measures|visible one|visible pr|visible privacy policy|visible productions|visible seo|visible social media|visible websites|visible worx|visabal|visable agency|visibble ads|visibility ads|visibility agency|visibility reseller|vista st ads|visual ads",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "The Visible Ads Blueprint Methodology"
+      },
+      {
+        "filters": [
+          {
+            "expression": "large sku|sku-level|sku level|catalog ad|catalogue ad|what's the best catalog ad platform",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Large SKU Catalogue Advertising"
+      },
+      {
+        "filters": [
+          {
+            "expression": "b2b ppc|ppc for small businesses|professional services|agencies|white label ppc|white label pay per click|white lable ppc|ppc white label|which saas ppc|which agencies take your product cost|is there a ppc agency with senior|independent agency|independent assessment|independent advertising agencies",
+            "operator": "contains"
+          },
+          {
+            "expression": "what does it mean for an agency to be independent",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "PPC for Professional Services & Agencies"
+      },
+      {
+        "filters": [
+          {
+            "expression": "kingston|surrey|richmond|surbiton|epsom|guildford|reigate|farnham|godalming|woking|camberley|staines|wandsworth|clapham|putney|battersea|fulham|brixton|mitcham|croydon|wimbledon|balham|lambeth|south london|south west london|west london|south east london|london ppc|london pay per click|london expert ppc|pay per click london|ppc london|local ppc|local ad|local advertising|local business|local seo|businesses around me|businesses in kingston|digital marketing kingston|digital marketing in kingston|digital marketing in richmond|ecommerce marketing agency kingston|marketing agency kingston|performance marketing agency kingston|paid social agency kingston|paid social agency guildford|paid social agency surrey|content marketing agency surrey|content marketing services surrey|display advertising surrey|paid media surrey|advertising in surrey|advertising in richmond|advertising agency kingston|advertising agency surrey|ppc agency kingston|seo agency kingston|digital agency kingston|search engine marketing richmond|social media agency richmond|digital marketing near me|marketing agencies near me|marketing agency near me|ads near me|ads local|local adds|local advertisements|top marketing agencies near richmond|who are the leading digital-first creative agencies in richmond",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Local PPC Agency in London & Surrey"
+      },
+      {
+        "filters": [
+          {
+            "expression": "sephra|tbt solutions|iwholesales|zephra media|ecommerce awards|uk ecommerce awards|case stud|evaluate the digital marketing|evaluate the seo",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "eCommerce Paid Advertising Case Studies"
+      },
+      {
+        "filters": [
+          {
+            "expression": "audit ads|free ads audit|paid ads audit|paid ads audits|free amazon ads audit|free bing ads audit|free twitter ads audit|free youtube ads audit|microsoft ads audit|bing ads audit|ppc audit|audit report template|independent assessment of our paid setup|we want a professional audit",
+            "operator": "contains"
+          },
+          {
+            "expression": "before renewing with our performance agency i'd like an independent assessment",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Tools & Calculators for Paid Ads"
+      },
+      {
+        "filters": [
+          {
+            "expression": "golden quarter|seasonal campaign|black friday|peak season|holiday campaign",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Golden Quarter & Seasonal Campaign Tactics"
+      }
+    ]
+  }
+}
