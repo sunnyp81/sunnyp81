@@ -1,0 +1,15 @@
+{
+  "tool": "list_content_changes",
+  "site": "sc-domain:redlighttherapy.expert",
+  "args": {
+    "start_date": "2026-09-29",
+    "end_date": "2026-10-27"
+  },
+  "data": {
+    "days": [],
+    "end_date": "2026-10-27",
+    "note": "Automatic content change tracking is only available for super sites; sc-domain:redlighttherapy.expert is not a super site, so only annotations and Google updates are returned.",
+    "property": "sc-domain:redlighttherapy.expert",
+    "start_date": "2026-09-29"
+  }
+}
