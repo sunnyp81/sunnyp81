@@ -1,0 +1,15 @@
+{
+  "tool": "list_content_changes",
+  "site": "https://seoandover.uk/",
+  "args": {
+    "start_date": "2026-09-30",
+    "end_date": "2026-10-28"
+  },
+  "data": {
+    "days": [],
+    "end_date": "2026-10-28",
+    "note": "Automatic content change tracking is only available for super sites; https://seoandover.uk/ is not a super site, so only annotations and Google updates are returned.",
+    "property": "https://seoandover.uk/",
+    "start_date": "2026-09-30"
+  }
+}

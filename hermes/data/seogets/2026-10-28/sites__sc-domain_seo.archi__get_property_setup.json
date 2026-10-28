@@ -1,0 +1,26 @@
+{
+  "tool": "get_property_setup",
+  "site": "sc-domain:seo.archi",
+  "args": {},
+  "data": {
+    "can_run_setup": true,
+    "is_complete": false,
+    "is_running": false,
+    "missing": [
+      "brand_summary",
+      "branded_keywords",
+      "content_groups",
+      "topic_clusters"
+    ],
+    "note": "Setup is incomplete. Call setup_property to set up the missing parts.",
+    "property": "sc-domain:seo.archi",
+    "status": {
+      "branded_keywords": 0,
+      "content_groups": 0,
+      "has_brand_summary": false,
+      "priority_content_groups": [],
+      "priority_topic_clusters": [],
+      "topic_clusters": 0
+    }
+  }
+}

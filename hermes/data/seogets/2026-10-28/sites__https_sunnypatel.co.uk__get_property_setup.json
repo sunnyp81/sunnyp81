@@ -1,0 +1,20 @@
+{
+  "tool": "get_property_setup",
+  "site": "https://sunnypatel.co.uk/",
+  "args": {},
+  "data": {
+    "can_run_setup": true,
+    "is_complete": true,
+    "is_running": false,
+    "note": "Setup is complete but nothing is prioritized. After answering, ask the user if you may prioritize their content groups and topic clusters, explaining that it focuses the next answers on the pages and topics that matter most to their business and uses some of their SEO Gets AI credits. If they agree, call prioritize_property_groups.",
+    "property": "sc-domain:sunnypatel.co.uk",
+    "status": {
+      "branded_keywords": 2,
+      "content_groups": 14,
+      "has_brand_summary": true,
+      "priority_content_groups": [],
+      "priority_topic_clusters": [],
+      "topic_clusters": 13
+    }
+  }
+}

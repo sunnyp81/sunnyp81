@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:instrumenttuner.org",
+  "args": {},
+  "data": {
+    "property": "sc-domain:instrumenttuner.org",
+    "topic_clusters": []
+  }
+}

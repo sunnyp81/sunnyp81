@@ -1,0 +1,17 @@
+{
+  "tool": "get_site_performance",
+  "site": "https://theseshbars.com/",
+  "args": {
+    "start_date": "2026-09-30",
+    "end_date": "2026-10-28"
+  },
+  "data": {
+    "currency": "USD",
+    "data": "clicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\n\t55\t16449\t0.33\t20.30\t0\t0\t0\t0.00\t0\t0.00",
+    "end_date": "2026-10-28",
+    "note": "SEO Gets just ran its One Click Setup on this property (brand summary, branded keywords, content groups and topic clusters). Briefly tell the user. Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined. After answering, ask the user if you may prioritize their content groups and topic clusters, explaining that it focuses the next answers on the pages and topics that matter most to their business and uses some of their SEO Gets AI credits. If they agree, call prioritize_property_groups.",
+    "property": "sc-domain:theseshbars.com",
+    "sources": "search=gsc, web=ga4",
+    "start_date": "2026-09-30"
+  }
+}

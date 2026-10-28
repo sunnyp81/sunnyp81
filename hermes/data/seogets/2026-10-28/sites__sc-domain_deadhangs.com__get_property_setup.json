@@ -1,0 +1,24 @@
+{
+  "tool": "get_property_setup",
+  "site": "sc-domain:deadhangs.com",
+  "args": {},
+  "data": {
+    "can_run_setup": true,
+    "is_complete": false,
+    "is_running": false,
+    "missing": [
+      "brand_summary",
+      "branded_keywords"
+    ],
+    "note": "Setup is incomplete. Call setup_property to set up the missing parts.",
+    "property": "sc-domain:deadhangs.com",
+    "status": {
+      "branded_keywords": 0,
+      "content_groups": 6,
+      "has_brand_summary": false,
+      "priority_content_groups": [],
+      "priority_topic_clusters": [],
+      "topic_clusters": 10
+    }
+  }
+}

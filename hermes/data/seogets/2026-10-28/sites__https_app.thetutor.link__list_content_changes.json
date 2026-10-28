@@ -1,0 +1,15 @@
+{
+  "tool": "list_content_changes",
+  "site": "https://app.thetutor.link/",
+  "args": {
+    "start_date": "2026-09-30",
+    "end_date": "2026-10-28"
+  },
+  "data": {
+    "days": [],
+    "end_date": "2026-10-28",
+    "note": "Automatic content change tracking is only available for super sites; https://app.thetutor.link/ is not a super site, so only annotations and Google updates are returned.",
+    "property": "https://app.thetutor.link/",
+    "start_date": "2026-09-30"
+  }
+}

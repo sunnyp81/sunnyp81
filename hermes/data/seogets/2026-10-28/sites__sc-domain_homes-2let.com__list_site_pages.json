@@ -1,0 +1,65 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:homes-2let.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://homes-2let.com",
+        "paths": [
+          "/",
+          "/about/",
+          "/bromley-guaranteed-rental-income-scheme/",
+          "/contact/",
+          "/council-guaranteed-rent-scheme-for-croydon-landlords/",
+          "/can-i-live-in-my-buy-to-let-property/",
+          "/guaranteed-rent-lambeth/",
+          "/merton-guaranteed-rental-income-scheme/",
+          "/sutton-guaranteed-rental-income-scheme/",
+          "/12-month-eviction-trap/",
+          "/4-property-renovation-ideas-for-landlords-on-a-budget/",
+          "/a-guide-to-screening-international-rental-applicants/",
+          "/a-landlords-guide-to-the-housing-health-and-safety-rating-system/",
+          "/a-landlords-solution-to-preventing-duplicate-keys/",
+          "/agents/",
+          "/are-rent-guarantee-schemes-worth-it/",
+          "/blind-safety-in-rental-property-what-landlords-need-to-know/",
+          "/can-a-tenant-run-a-business-from-a-rental-property/",
+          "/croydon-the-best-value-borough-for-property-investment-in-2024/",
+          "/free-valuation-request/",
+          "/guaranteed-rent-croydon/",
+          "/guaranteed-rent-london/",
+          "/guaranteed-rent-south-london/",
+          "/guaranteed-rent-southwark/",
+          "/guaranteed-rent-what-is-it-and-how-does-it-work/",
+          "/how-often-should-a-landlord-decorate-their-rental-property/",
+          "/important-things-to-consider-when-renting-to-families-with-children/",
+          "/japanese-knotweed-what-every-landlord-needs-to-know/",
+          "/landlords-beware-tenant-referencing-fraud-continues-to-rise/",
+          "/landlords/",
+          "/letting-agents/",
+          "/property-management-london/",
+          "/property-management/",
+          "/terms-conditions/",
+          "/unpaid-utility-bills-who-has-to-pay/",
+          "/what-a-landlord-needs-to-know-about-trees/",
+          "/what-happens-when-the-croydon-selective-licensing-expires-in-october-2020/",
+          "/what-type-of-flooring-is-best-for-a-rental-property/"
+        ]
+      },
+      {
+        "host": "http://www.homes-2let.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 39 unique paths across 2 hosts from 2025-06-28 to 2026-10-27.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

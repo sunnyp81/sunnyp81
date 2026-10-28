@@ -1,0 +1,23 @@
+{
+  "tool": "get_property_setup",
+  "site": "sc-domain:thetutor.link",
+  "args": {},
+  "data": {
+    "can_run_setup": true,
+    "is_complete": false,
+    "is_running": false,
+    "missing": [
+      "brand_summary"
+    ],
+    "note": "Setup is incomplete. Call setup_property to set up the missing parts.",
+    "property": "sc-domain:thetutor.link",
+    "status": {
+      "branded_keywords": 2,
+      "content_groups": 12,
+      "has_brand_summary": false,
+      "priority_content_groups": [],
+      "priority_topic_clusters": [],
+      "topic_clusters": 15
+    }
+  }
+}
