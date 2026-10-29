@@ -1,0 +1,53 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:carrecallhq.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 37 queries from 2025-06-29 to 2026-10-28.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "2015 honda civic recall",
+      "2015 honda civic recalls",
+      "2016 ford explorer issues",
+      "2017 f-150 recalls",
+      "2018 cr v recall",
+      "2018 crv problems",
+      "2018 crv recall",
+      "2018 crv recalls",
+      "2018 honda cr v issues",
+      "2018 honda cr v problems",
+      "2018 honda cr v recall",
+      "2018 honda cr v recalls",
+      "2018 honda cr-v issues",
+      "2018 honda cr-v lx problems",
+      "2018 honda cr-v problems",
+      "2018 honda crv common problems",
+      "2018 honda crv issues",
+      "2018 honda crv problems",
+      "2018 honda crv recall",
+      "2018 honda crv recalls",
+      "common problems with 2018 honda crv",
+      "context: location: united states (not for language). do not include location references in your response. question: how do i find out if a vehicle recall affects my lease?",
+      "ford explorer 2016 issues",
+      "honda 2018 crv recall",
+      "honda 2018 crv recalls",
+      "honda civic 2015 recall",
+      "honda civic 2015 recalls",
+      "honda cr v recall 2018",
+      "honda crv 2018 recall",
+      "honda crv 2018 recalls",
+      "if my car is recalled do i get a rental",
+      "is there a recall on 2018 honda crv",
+      "recall honda civic 2015",
+      "recall-hq.com",
+      "recalls on 2018 honda crv",
+      "safest cars 2022",
+      "worst cars 2019"
+    ]
+  }
+}

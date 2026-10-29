@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:planningleads.org",
+  "args": {},
+  "data": {
+    "property": "sc-domain:planningleads.org",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tool": "get_property_setup",
+  "site": "sc-domain:chargefinder.uk",
+  "args": {},
+  "data": {
+    "can_run_setup": false,
+    "is_complete": true,
+    "is_running": false,
+    "property": "sc-domain:chargefinder.uk",
+    "status": {
+      "branded_keywords": 1,
+      "content_groups": 8,
+      "has_brand_summary": true,
+      "priority_content_groups": [],
+      "priority_topic_clusters": [],
+      "topic_clusters": 15
+    }
+  }
+}

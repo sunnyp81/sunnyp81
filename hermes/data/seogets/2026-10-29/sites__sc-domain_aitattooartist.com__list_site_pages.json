@@ -1,0 +1,44 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:aitattooartist.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://aitattooartist.com",
+        "paths": [
+          "/tattoo-statistics/",
+          "/",
+          "/cover-up/",
+          "/privacy/",
+          "/stencil-maker/",
+          "/styles/",
+          "/styles/fine-line/",
+          "/tattoo-pain-chart/",
+          "/terms/"
+        ]
+      },
+      {
+        "host": "http://aitattooartist.com",
+        "paths": [
+          "/cover-up/",
+          "/stencil-maker/",
+          "/terms/"
+        ]
+      },
+      {
+        "host": "https://www.aitattooartist.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 13 unique paths across 3 hosts from 2025-06-29 to 2026-10-28.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://seowigan.uk/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://seowigan.uk/"
+  }
+}
