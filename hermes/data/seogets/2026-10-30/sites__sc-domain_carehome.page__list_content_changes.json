@@ -1,0 +1,15 @@
+{
+  "tool": "list_content_changes",
+  "site": "sc-domain:carehome.page",
+  "args": {
+    "start_date": "2026-10-02",
+    "end_date": "2026-10-30"
+  },
+  "data": {
+    "days": [],
+    "end_date": "2026-10-30",
+    "note": "Automatic content change tracking is only available for super sites; sc-domain:carehome.page is not a super site, so only annotations and Google updates are returned.",
+    "property": "sc-domain:carehome.page",
+    "start_date": "2026-10-02"
+  }
+}

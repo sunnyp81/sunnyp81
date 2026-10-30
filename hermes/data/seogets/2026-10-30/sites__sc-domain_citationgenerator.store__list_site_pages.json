@@ -1,0 +1,29 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:citationgenerator.store",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://citationgenerator.store",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://citationgenerator.store",
+        "paths": [
+          "/",
+          "/asme-citation-generator/"
+        ]
+      }
+    ],
+    "note": "Returned 3 unique paths across 2 hosts from 2025-06-30 to 2026-10-29.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

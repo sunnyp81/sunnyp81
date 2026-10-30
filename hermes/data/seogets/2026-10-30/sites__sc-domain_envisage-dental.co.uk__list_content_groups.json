@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:envisage-dental.co.uk",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:envisage-dental.co.uk"
+  }
+}

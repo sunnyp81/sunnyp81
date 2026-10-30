@@ -1,0 +1,31 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:generator.express",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 15 queries from 2025-06-30 to 2026-10-29.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "case converter",
+      "code generat* site:https://arxiv.org/abs/",
+      "fotmeme",
+      "generate it",
+      "generate now",
+      "generatore di nomi elfici",
+      "generatore nome elfico",
+      "incorrect quotes generator",
+      "meme coin name generator",
+      "meme font generator",
+      "memes text font",
+      "random number generator",
+      "random wheel generator names",
+      "username generator",
+      "what grade level is my writing"
+    ]
+  }
+}
