@@ -1,0 +1,46 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:generator.express",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 30 queries from 2025-07-01 to 2026-10-30.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "bio generator",
+      "case changer",
+      "case converter",
+      "code generat* site:https://arxiv.org/abs/",
+      "dice spinner online",
+      "fake identity generator",
+      "fotmeme",
+      "generate it",
+      "generate now",
+      "generatore di nomi elfici",
+      "generatore nome elfico",
+      "generic bio",
+      "incorrect quote generator",
+      "incorrect quotes generator",
+      "instagram hashtags generator",
+      "last name generator",
+      "meme coin name generator",
+      "meme font generator",
+      "meme text generator",
+      "memes text font",
+      "online.dice roller",
+      "random dice roll",
+      "random express",
+      "random number generator",
+      "random wheel generator names",
+      "this or that generator",
+      "username generator",
+      "warriors name generator",
+      "what grade level is my writing",
+      "writing level checker"
+    ]
+  }
+}

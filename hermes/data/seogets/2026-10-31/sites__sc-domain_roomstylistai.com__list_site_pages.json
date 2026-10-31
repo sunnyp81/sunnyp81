@@ -1,0 +1,37 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:roomstylistai.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://roomstylistai.com",
+        "paths": [
+          "/",
+          "/bathroom-renovation-cost/",
+          "/bathroom/",
+          "/bedroom/",
+          "/how-it-works/",
+          "/interior-design/",
+          "/kitchen-renovation-cost/",
+          "/kitchen/",
+          "/living-room/",
+          "/terms/"
+        ]
+      },
+      {
+        "host": "http://roomstylistai.com",
+        "paths": [
+          "/bathroom-renovation-cost/"
+        ]
+      }
+    ],
+    "note": "Returned 11 unique paths across 2 hosts from 2025-07-01 to 2026-10-30.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

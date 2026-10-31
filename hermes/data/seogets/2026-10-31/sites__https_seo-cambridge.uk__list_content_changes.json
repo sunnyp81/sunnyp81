@@ -1,0 +1,15 @@
+{
+  "tool": "list_content_changes",
+  "site": "https://seo-cambridge.uk/",
+  "args": {
+    "start_date": "2026-10-03",
+    "end_date": "2026-10-31"
+  },
+  "data": {
+    "days": [],
+    "end_date": "2026-10-31",
+    "note": "Automatic content change tracking is only available for super sites; https://seo-cambridge.uk/ is not a super site, so only annotations and Google updates are returned.",
+    "property": "https://seo-cambridge.uk/",
+    "start_date": "2026-10-03"
+  }
+}

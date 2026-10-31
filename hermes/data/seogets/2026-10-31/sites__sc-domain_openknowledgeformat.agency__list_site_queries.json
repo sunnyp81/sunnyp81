@@ -1,0 +1,24 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:openknowledgeformat.agency",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 8 queries from 2025-07-01 to 2026-10-30.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "agent okf",
+      "format okf",
+      "okf bundle",
+      "okf bundle generator",
+      "okf file format",
+      "okf format",
+      "okf spec",
+      "open knowledge format"
+    ]
+  }
+}

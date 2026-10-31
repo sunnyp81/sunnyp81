@@ -1,0 +1,53 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:generator.express",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://generator.express",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://generator.express",
+        "paths": [
+          "/",
+          "/business/handwritten-signature/",
+          "/business/signature/",
+          "/code/",
+          "/code/json/",
+          "/code/uuid/",
+          "/names/",
+          "/names/business/",
+          "/names/company/",
+          "/names/elf/",
+          "/names/fake/",
+          "/names/last/",
+          "/names/podcast/",
+          "/names/username/",
+          "/names/warrior-cats/",
+          "/random/",
+          "/random/dice-roller/",
+          "/random/number/",
+          "/social/instagram-hashtag/",
+          "/social/meme-font/",
+          "/text/bio/",
+          "/text/case-converter/",
+          "/text/incorrect-quote/",
+          "/text/readability/",
+          "/visual/",
+          "/visual/meme/"
+        ]
+      }
+    ],
+    "note": "Returned 27 unique paths across 2 hosts from 2025-07-01 to 2026-10-30.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:onlinemetronome.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://onlinemetronome.org",
+        "paths": [
+          "/bpm/110/",
+          "/bpm/120/",
+          "/bpm/160/",
+          "/bpm/40/",
+          "/bpm/90/",
+          "/",
+          "/about/",
+          "/bpm/",
+          "/bpm/100/",
+          "/bpm/130/",
+          "/bpm/140/",
+          "/bpm/150/",
+          "/bpm/170/",
+          "/bpm/180/",
+          "/bpm/200/",
+          "/bpm/220/",
+          "/bpm/50/",
+          "/bpm/60/",
+          "/bpm/70/",
+          "/bpm/72/",
+          "/bpm/80/",
+          "/tap-tempo/",
+          "/tempo-markings/"
+        ]
+      }
+    ],
+    "note": "Returned 23 unique paths across 1 hosts from 2025-07-01 to 2026-10-30.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

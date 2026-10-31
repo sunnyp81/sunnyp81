@@ -1,0 +1,19 @@
+{
+  "tool": "get_property_setup",
+  "site": "sc-domain:sunnypatel.co.uk",
+  "args": {},
+  "data": {
+    "can_run_setup": false,
+    "is_complete": true,
+    "is_running": false,
+    "property": "sc-domain:sunnypatel.co.uk",
+    "status": {
+      "branded_keywords": 2,
+      "content_groups": 14,
+      "has_brand_summary": true,
+      "priority_content_groups": [],
+      "priority_topic_clusters": [],
+      "topic_clusters": 13
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:motherfungi.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:motherfungi.com",
+    "topic_clusters": []
+  }
+}

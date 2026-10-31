@@ -1,0 +1,2555 @@
+{
+  "day": "2026-10-31",
+  "tools": [
+    "add_portfolio_sites",
+    "create_content_group",
+    "create_portfolio",
+    "create_site_annotation",
+    "create_topic_cluster",
+    "delete_content_group",
+    "delete_portfolio",
+    "delete_site_annotation",
+    "delete_topic_cluster",
+    "get_discover_performance",
+    "get_indexing_overview",
+    "get_indexing_status",
+    "get_portfolio_performance",
+    "get_property_setup",
+    "get_site_performance",
+    "list_content_changes",
+    "list_content_groups",
+    "list_portfolios",
+    "list_site_pages",
+    "list_site_queries",
+    "list_sites",
+    "list_topic_clusters",
+    "prioritize_property_groups",
+    "remove_portfolio_sites",
+    "setup_property",
+    "update_content_group",
+    "update_site_annotation",
+    "update_topic_cluster"
+  ],
+  "sites": [
+    "http://www.laundryhome.co.uk/",
+    "https://aatma-aesthetics.com/",
+    "https://laundryhome.co.uk/",
+    "https://paragondrycleaners.co.uk/",
+    "https://theseshbars.com/",
+    "sc-domain:aatma-aesthetics.com",
+    "sc-domain:bespokeairsoft.co.uk",
+    "sc-domain:cfw.co.uk",
+    "sc-domain:drinksbykingpin.com",
+    "sc-domain:eco-drycleaners.co.uk",
+    "sc-domain:kingpin.design",
+    "sc-domain:readingschoolofmartialarts.co.uk",
+    "sc-domain:sephra.com",
+    "sc-domain:sephrausa.com",
+    "sc-domain:theseshbars.com",
+    "sc-domain:bedfordshiretimes.co.uk",
+    "sc-domain:berkshiretimes.co.uk",
+    "sc-domain:buckinghamshiretimes.co.uk",
+    "sc-domain:cheshiretimes.co.uk",
+    "sc-domain:directory.berkshiretimes.co.uk",
+    "sc-domain:dorsettimes.co.uk",
+    "sc-domain:hertfordshiretimes.uk",
+    "sc-domain:oxfordshiretimes.co.uk",
+    "sc-domain:theenglandtimes.co.uk",
+    "sc-domain:thesurreytimes.co.uk",
+    "sc-domain:best-binoculars.uk",
+    "sc-domain:bestreviews.co.uk",
+    "sc-domain:crosstrainerhome.co.uk",
+    "sc-domain:e-bikereview.uk",
+    "sc-domain:homegardenhq.co.uk",
+    "sc-domain:lightweightluggagereviews.com",
+    "sc-domain:neocandle.com",
+    "sc-domain:punchfoods.com",
+    "sc-domain:sewingthis.com",
+    "sc-domain:shecookssheeats.co.uk",
+    "sc-domain:sustainabletag.com",
+    "sc-domain:teachmediy.co.uk",
+    "sc-domain:techloved.com",
+    "sc-domain:thebestmowers.co.uk",
+    "sc-domain:thefryerguide.com",
+    "sc-domain:towerfanreviews.uk",
+    "sc-domain:dermatologists.london",
+    "sc-domain:directory.faceartfun.com",
+    "sc-domain:dubai.realty.directory",
+    "sc-domain:influencermarketing.directory",
+    "sc-domain:jewellers.london",
+    "sc-domain:lifecoaches.london",
+    "sc-domain:london.realty.directory",
+    "sc-domain:nyc.realty.directory",
+    "sc-domain:physiotherapists.london",
+    "sc-domain:plumbersden.com",
+    "sc-domain:realty.directory",
+    "sc-domain:slopes.directory",
+    "sc-domain:smmcnj.org",
+    "sc-domain:solarenergy.london",
+    "sc-domain:vegantab.com",
+    "sc-domain:webservices.london",
+    "sc-domain:bestvibrationplates.co.uk",
+    "sc-domain:faithfulsage.com",
+    "sc-domain:ideeeas.com",
+    "sc-domain:nomadranker.com",
+    "sc-domain:violintuner.net",
+    "sc-domain:colourlabelprinter.com",
+    "sc-domain:complain.report",
+    "sc-domain:dashboardcamreviews.co.uk",
+    "sc-domain:homes-2let.com",
+    "sc-domain:mugscafe.org",
+    "sc-domain:seo-leeds.uk",
+    "https://seocoventry.uk/",
+    "https://seowakefield.uk/",
+    "sc-domain:scopepitch.com",
+    "sc-domain:motherfungi.com",
+    "https://plugandplay.com/",
+    "https://seoleicester.uk/",
+    "sc-domain:areaiq.uk",
+    "sc-domain:knotweedcheck.com",
+    "sc-domain:seo.bargains",
+    "sc-domain:bookkeepingflow.com",
+    "sc-domain:breedhealth.org",
+    "sc-domain:evaran.com",
+    "sc-domain:huntsmansports.com",
+    "sc-domain:powell-europe.com",
+    "https://seowigan.uk/",
+    "sc-domain:ukuleletuner.org",
+    "sc-domain:zoningbase.com",
+    "sc-domain:clinicaltrialhub.org",
+    "sc-domain:sitemap.digital",
+    "sc-domain:tradecost.uk",
+    "sc-domain:lockyourbike.org.uk",
+    "sc-domain:selflandlord.com",
+    "sc-domain:seo-guildford.uk",
+    "https://carelinelive.com.au/",
+    "sc-domain:checkamover.com",
+    "sc-domain:mobilebarhirelondon.uk",
+    "sc-domain:piyadesigns.co.uk",
+    "https://seotelford.uk/",
+    "sc-domain:template.how",
+    "sc-domain:formhq.org",
+    "sc-domain:healthmetrics.com.au",
+    "sc-domain:moa.com.au",
+    "sc-domain:solarhq.uk",
+    "sc-domain:handytoolshome.com",
+    "https://myknifeguide.com/",
+    "sc-domain:radon.tips",
+    "sc-domain:seoswansea.uk",
+    "https://tallyfair.com/",
+    "https://areaiq.uk/",
+    "sc-domain:calculator.place",
+    "sc-domain:deadhangs.com",
+    "sc-domain:wellifepsychology.com",
+    "https://carelinelive.com/",
+    "sc-domain:openknowledgeformat.agency",
+    "sc-domain:seo-birmingham.uk",
+    "sc-domain:signalcheck.org",
+    "https://app.thetutor.link/",
+    "sc-domain:conference-oxford.com",
+    "sc-domain:heatpumpchecker.co.uk",
+    "sc-domain:petsnerd.com",
+    "https://seo-cambridge.uk/",
+    "sc-domain:waterhard.uk",
+    "sc-domain:agenticai.associates",
+    "sc-domain:epc.report",
+    "sc-domain:ownedwork.com",
+    "sc-domain:reportbolt.com",
+    "sc-domain:planningleads.org",
+    "sc-domain:redlighttherapy.expert",
+    "sc-domain:fixerror.dev",
+    "sc-domain:gardenstylistai.com",
+    "sc-domain:londonweb.design",
+    "sc-domain:salarydata.co.uk",
+    "sc-domain:topsewingmachines.uk",
+    "https://baketally.com/",
+    "sc-domain:salarycareer.com",
+    "https://www.plugandplaydesign.co.uk/",
+    "sc-domain:100percentvegan.co.uk",
+    "sc-domain:bestchainsaw.uk",
+    "sc-domain:bestcordlessdrills.uk",
+    "sc-domain:citationgenerator.store",
+    "sc-domain:claimwatt.com",
+    "sc-domain:generator.express",
+    "https://seomiltonkeynes.uk/",
+    "sc-domain:aiagentic.news",
+    "sc-domain:carehome.page",
+    "sc-domain:drugnote.com",
+    "sc-domain:geooptimised.com",
+    "sc-domain:leadscaffold.com",
+    "sc-domain:onlybbguns.co.uk",
+    "sc-domain:chargefinder.uk",
+    "sc-domain:checkedincare.com.au",
+    "sc-domain:envisage-dental.co.uk",
+    "sc-domain:instrumenttuner.org",
+    "https://mydigitalpiano.com/",
+    "sc-domain:optimisedwebsite.com",
+    "https://seoandover.uk/",
+    "sc-domain:agenticaisecured.com",
+    "https://contactsheetflow.com/",
+    "sc-domain:mypartyhire.uk",
+    "sc-domain:scaled.co.uk",
+    "sc-domain:seo.archi",
+    "sc-domain:stackswitch.co",
+    "sc-domain:sunnypatel.co.uk",
+    "sc-domain:myknifeguide.com",
+    "sc-domain:sunnypatelreviews.com",
+    "sc-domain:visible-ads.com",
+    "sc-domain:whitelabelseohub.co.uk",
+    "sc-domain:postcode.page",
+    "sc-domain:bestturbotrainers.uk",
+    "sc-domain:drivingtestpass.org",
+    "sc-domain:noisecheck.uk",
+    "sc-domain:roomstylistai.com",
+    "https://www.mugscafe.org/",
+    "sc-domain:evaranhomecare.com.au",
+    "sc-domain:iwholesales.co.uk",
+    "sc-domain:thetutor.link",
+    "sc-domain:moabenchmarking.co.uk",
+    "sc-domain:mobileautomechanic.uk",
+    "sc-domain:signforge.org",
+    "sc-domain:hummingbird.agency",
+    "https://sunnypatel.co.uk/",
+    "sc-domain:wagearea.com",
+    "http://www.plugandplaydesign.co.uk/",
+    "sc-domain:catchment.school",
+    "sc-domain:qrcode.ink",
+    "https://seohertfordshire.uk/",
+    "sc-domain:text.taxi",
+    "sc-domain:freshairsupplies.co.uk",
+    "sc-domain:londonwebdesign.site",
+    "sc-domain:merch.observer",
+    "sc-domain:rentalyield.uk",
+    "sc-domain:supplementcheck.org",
+    "sc-domain:aitattooartist.com",
+    "sc-domain:auditweb.site",
+    "https://seosheffield.uk/",
+    "https://tallycleanos.com/",
+    "sc-domain:gathrd.co.uk",
+    "sc-domain:implementai.today",
+    "sc-domain:luxurytrex.com",
+    "sc-domain:onlinemetronome.org",
+    "https://seo-middlesbrough.com/",
+    "https://kinderwunschzentren.org/",
+    "https://mugscafe.org/",
+    "sc-domain:openknowledgeformat.academy",
+    "sc-domain:seoreading.uk",
+    "sc-domain:towrating.org",
+    "sc-domain:carrecallhq.com"
+  ],
+  "errors": [
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://seoandover.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:agenticaisecured.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://contactsheetflow.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:mypartyhire.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:scaled.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:seo.archi",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:stackswitch.co",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:sunnypatel.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:myknifeguide.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:sunnypatelreviews.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:visible-ads.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:whitelabelseohub.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:postcode.page",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:bestturbotrainers.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:drivingtestpass.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:noisecheck.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:roomstylistai.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://www.mugscafe.org/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:evaranhomecare.com.au",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:iwholesales.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:thetutor.link",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:moabenchmarking.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:mobileautomechanic.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:signforge.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:hummingbird.agency",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://sunnypatel.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:wagearea.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "http://www.plugandplaydesign.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:catchment.school",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:qrcode.ink",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://seohertfordshire.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:text.taxi",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:freshairsupplies.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:londonwebdesign.site",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:merch.observer",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:rentalyield.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:supplementcheck.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:aitattooartist.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:auditweb.site",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://seosheffield.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://tallycleanos.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:gathrd.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:implementai.today",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:luxurytrex.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:onlinemetronome.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://seo-middlesbrough.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://kinderwunschzentren.org/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "https://mugscafe.org/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:openknowledgeformat.academy",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:seoreading.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:towrating.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "list_topic_clusters",
+      "site": "sc-domain:carrecallhq.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "http://www.laundryhome.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://aatma-aesthetics.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://laundryhome.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://paragondrycleaners.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://theseshbars.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:aatma-aesthetics.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:bespokeairsoft.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:cfw.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:drinksbykingpin.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:eco-drycleaners.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:kingpin.design",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:readingschoolofmartialarts.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:sephra.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:sephrausa.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:theseshbars.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:bedfordshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:berkshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:buckinghamshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:cheshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:directory.berkshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:dorsettimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:hertfordshiretimes.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:oxfordshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:theenglandtimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:thesurreytimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:best-binoculars.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:bestreviews.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:crosstrainerhome.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:e-bikereview.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:homegardenhq.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:lightweightluggagereviews.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:neocandle.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:punchfoods.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:sewingthis.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:shecookssheeats.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:sustainabletag.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:teachmediy.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:techloved.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:thebestmowers.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:thefryerguide.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:towerfanreviews.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:dermatologists.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:directory.faceartfun.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:dubai.realty.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:influencermarketing.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:jewellers.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:lifecoaches.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:london.realty.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:nyc.realty.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:physiotherapists.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:plumbersden.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:realty.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:slopes.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:smmcnj.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:solarenergy.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:vegantab.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:webservices.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:bestvibrationplates.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:faithfulsage.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:ideeeas.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:nomadranker.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:violintuner.net",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:colourlabelprinter.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:complain.report",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:dashboardcamreviews.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:homes-2let.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:mugscafe.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:seo-leeds.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seocoventry.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seowakefield.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:scopepitch.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:motherfungi.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://plugandplay.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seoleicester.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:areaiq.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:knotweedcheck.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:seo.bargains",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:bookkeepingflow.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:breedhealth.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:evaran.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:huntsmansports.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:powell-europe.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seowigan.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:ukuleletuner.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:zoningbase.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:clinicaltrialhub.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:sitemap.digital",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:tradecost.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:lockyourbike.org.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:selflandlord.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:seo-guildford.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://carelinelive.com.au/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:checkamover.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:mobilebarhirelondon.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:piyadesigns.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seotelford.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:template.how",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:formhq.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:healthmetrics.com.au",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:moa.com.au",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:solarhq.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:handytoolshome.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://myknifeguide.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:radon.tips",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:seoswansea.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://tallyfair.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://areaiq.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:calculator.place",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:deadhangs.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:wellifepsychology.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://carelinelive.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:openknowledgeformat.agency",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:seo-birmingham.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:signalcheck.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://app.thetutor.link/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:conference-oxford.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:heatpumpchecker.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:petsnerd.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seo-cambridge.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:waterhard.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:agenticai.associates",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:epc.report",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:ownedwork.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:reportbolt.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:planningleads.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:redlighttherapy.expert",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:fixerror.dev",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:gardenstylistai.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:londonweb.design",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:salarydata.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:topsewingmachines.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://baketally.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:salarycareer.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://www.plugandplaydesign.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:100percentvegan.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:bestchainsaw.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:bestcordlessdrills.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:citationgenerator.store",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:claimwatt.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:generator.express",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seomiltonkeynes.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:aiagentic.news",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:carehome.page",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:drugnote.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:geooptimised.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:leadscaffold.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:onlybbguns.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:chargefinder.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:checkedincare.com.au",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:envisage-dental.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:instrumenttuner.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://mydigitalpiano.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:optimisedwebsite.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seoandover.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:agenticaisecured.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://contactsheetflow.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:mypartyhire.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:scaled.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:seo.archi",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:stackswitch.co",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:sunnypatel.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:myknifeguide.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:sunnypatelreviews.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:visible-ads.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:whitelabelseohub.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:postcode.page",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:bestturbotrainers.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:drivingtestpass.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:noisecheck.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:roomstylistai.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://www.mugscafe.org/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:evaranhomecare.com.au",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:iwholesales.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:thetutor.link",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:moabenchmarking.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:mobileautomechanic.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:signforge.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:hummingbird.agency",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://sunnypatel.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:wagearea.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "http://www.plugandplaydesign.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:catchment.school",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:qrcode.ink",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seohertfordshire.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:text.taxi",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:freshairsupplies.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:londonwebdesign.site",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:merch.observer",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:rentalyield.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:supplementcheck.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:aitattooartist.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:auditweb.site",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seosheffield.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://tallycleanos.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:gathrd.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:implementai.today",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:luxurytrex.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:onlinemetronome.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://seo-middlesbrough.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://kinderwunschzentren.org/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "https://mugscafe.org/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:openknowledgeformat.academy",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:seoreading.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:towrating.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "prioritize_property_groups",
+      "site": "sc-domain:carrecallhq.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "http://www.laundryhome.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://aatma-aesthetics.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://laundryhome.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://paragondrycleaners.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://theseshbars.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:aatma-aesthetics.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:bespokeairsoft.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:cfw.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:drinksbykingpin.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:eco-drycleaners.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:kingpin.design",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:readingschoolofmartialarts.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:sephra.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:sephrausa.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:theseshbars.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:bedfordshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:berkshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:buckinghamshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:cheshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:directory.berkshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:dorsettimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:hertfordshiretimes.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:oxfordshiretimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:theenglandtimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:thesurreytimes.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:best-binoculars.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:bestreviews.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:crosstrainerhome.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:e-bikereview.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:homegardenhq.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:lightweightluggagereviews.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:neocandle.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:punchfoods.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:sewingthis.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:shecookssheeats.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:sustainabletag.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:teachmediy.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:techloved.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:thebestmowers.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:thefryerguide.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:towerfanreviews.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:dermatologists.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:directory.faceartfun.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:dubai.realty.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:influencermarketing.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:jewellers.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:lifecoaches.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:london.realty.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:nyc.realty.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:physiotherapists.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:plumbersden.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:realty.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:slopes.directory",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:smmcnj.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:solarenergy.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:vegantab.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:webservices.london",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:bestvibrationplates.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:faithfulsage.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:ideeeas.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:nomadranker.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:violintuner.net",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:colourlabelprinter.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:complain.report",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:dashboardcamreviews.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:homes-2let.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:mugscafe.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:seo-leeds.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seocoventry.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seowakefield.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:scopepitch.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:motherfungi.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://plugandplay.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seoleicester.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:areaiq.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:knotweedcheck.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:seo.bargains",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:bookkeepingflow.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:breedhealth.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:evaran.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:huntsmansports.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:powell-europe.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seowigan.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:ukuleletuner.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:zoningbase.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:clinicaltrialhub.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:sitemap.digital",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:tradecost.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:lockyourbike.org.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:selflandlord.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:seo-guildford.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://carelinelive.com.au/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:checkamover.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:mobilebarhirelondon.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:piyadesigns.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seotelford.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:template.how",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:formhq.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:healthmetrics.com.au",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:moa.com.au",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:solarhq.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:handytoolshome.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://myknifeguide.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:radon.tips",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:seoswansea.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://tallyfair.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://areaiq.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:calculator.place",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:deadhangs.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:wellifepsychology.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://carelinelive.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:openknowledgeformat.agency",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:seo-birmingham.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:signalcheck.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://app.thetutor.link/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:conference-oxford.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:heatpumpchecker.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:petsnerd.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seo-cambridge.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:waterhard.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:agenticai.associates",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:epc.report",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:ownedwork.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:reportbolt.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:planningleads.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:redlighttherapy.expert",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:fixerror.dev",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:gardenstylistai.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:londonweb.design",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:salarydata.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:topsewingmachines.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://baketally.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:salarycareer.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://www.plugandplaydesign.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:100percentvegan.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:bestchainsaw.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:bestcordlessdrills.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:citationgenerator.store",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:claimwatt.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:generator.express",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seomiltonkeynes.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:aiagentic.news",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:carehome.page",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:drugnote.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:geooptimised.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:leadscaffold.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:onlybbguns.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:chargefinder.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:checkedincare.com.au",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:envisage-dental.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:instrumenttuner.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://mydigitalpiano.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:optimisedwebsite.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seoandover.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:agenticaisecured.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://contactsheetflow.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:mypartyhire.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:scaled.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:seo.archi",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:stackswitch.co",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:sunnypatel.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:myknifeguide.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:sunnypatelreviews.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:visible-ads.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:whitelabelseohub.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:postcode.page",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:bestturbotrainers.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:drivingtestpass.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:noisecheck.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:roomstylistai.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://www.mugscafe.org/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:evaranhomecare.com.au",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:iwholesales.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:thetutor.link",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:moabenchmarking.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:mobileautomechanic.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:signforge.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:hummingbird.agency",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://sunnypatel.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:wagearea.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "http://www.plugandplaydesign.co.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:catchment.school",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:qrcode.ink",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seohertfordshire.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:text.taxi",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:freshairsupplies.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:londonwebdesign.site",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:merch.observer",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:rentalyield.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:supplementcheck.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:aitattooartist.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:auditweb.site",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seosheffield.uk/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://tallycleanos.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:gathrd.co.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:implementai.today",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:luxurytrex.com",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:onlinemetronome.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://seo-middlesbrough.com/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://kinderwunschzentren.org/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "https://mugscafe.org/",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:openknowledgeformat.academy",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:seoreading.uk",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:towrating.org",
+      "error": "dropped: MAX_CALLS"
+    },
+    {
+      "tool": "setup_property",
+      "site": "sc-domain:carrecallhq.com",
+      "error": "dropped: MAX_CALLS"
+    }
+  ],
+  "tool_count": 28,
+  "call_count": 2000,
+  "error_count": 462
+}
