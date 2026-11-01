@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:breedhealth.org",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:breedhealth.org"
+  }
+}

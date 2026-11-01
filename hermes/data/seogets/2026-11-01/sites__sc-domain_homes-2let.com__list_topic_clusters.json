@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:homes-2let.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:homes-2let.com",
+    "topic_clusters": []
+  }
+}

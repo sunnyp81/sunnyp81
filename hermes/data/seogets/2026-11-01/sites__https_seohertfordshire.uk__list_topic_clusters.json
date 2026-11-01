@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://seohertfordshire.uk/",
+  "args": {},
+  "data": {
+    "property": "https://seohertfordshire.uk/",
+    "topic_clusters": []
+  }
+}
