@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:rentalyield.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:rentalyield.uk",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:drivingtestpass.org",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:drivingtestpass.org is not a super site",
+    "property": "sc-domain:drivingtestpass.org"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://seocoventry.uk/",
+  "args": {},
+  "data": {
+    "property": "https://seocoventry.uk/",
+    "topic_clusters": []
+  }
+}

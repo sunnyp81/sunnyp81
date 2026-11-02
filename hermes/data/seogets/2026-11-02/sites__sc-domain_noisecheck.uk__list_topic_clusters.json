@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:noisecheck.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:noisecheck.uk",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,1 @@
+{"data": [{"__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api", "AllOtherCodes": 8, "BlockedByRobotsTxt": 0, "Code2xx": 294, "Code301": 45, "Code302": 0, "Code4xx": 0, "Code5xx": 0, "ConnectionTimeout": 0, "ContainsMalware": 0, "CrawledPages": 70, "CrawlErrors": 0, "Date": "/Date(1793318400000)/", "DnsFailures": 0, "InIndex": 259, "InLinks": 81}]}

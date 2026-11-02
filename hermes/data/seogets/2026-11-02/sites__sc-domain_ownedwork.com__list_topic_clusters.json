@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:ownedwork.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:ownedwork.com",
+    "topic_clusters": []
+  }
+}
