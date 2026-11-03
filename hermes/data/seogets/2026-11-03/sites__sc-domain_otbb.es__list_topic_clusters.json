@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:otbb.es",
+  "args": {},
+  "data": {
+    "property": "sc-domain:otbb.es",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:roomstylistai.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:roomstylistai.com",
+    "topic_clusters": []
+  }
+}

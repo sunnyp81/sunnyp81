@@ -1,0 +1,27 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:comparethebets.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://www.comparethebets.com",
+        "paths": [
+          "/betting-guides/bet365/register/",
+          "/bet365-bonus-code/understanding-settled-bets/",
+          "/betting-guides/bet365/deposit/",
+          "/betting-guides/bet365/withdrawal/",
+          "/betting-guides/bet365/horse-racing/",
+          "/bookmaker/bet365/"
+        ]
+      }
+    ],
+    "note": "Returned 6 unique paths across 1 hosts from 2025-07-03 to 2026-11-02.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

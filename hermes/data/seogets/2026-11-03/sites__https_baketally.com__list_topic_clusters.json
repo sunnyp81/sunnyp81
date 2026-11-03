@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://baketally.com/",
+  "args": {},
+  "data": {
+    "property": "https://baketally.com/",
+    "topic_clusters": []
+  }
+}
