@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "https://kinderwunschzentren.org/",
+  "args": {},
+  "data": {
+    "property": "https://kinderwunschzentren.org/",
+    "topic_clusters": []
+  }
+}

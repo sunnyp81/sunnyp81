@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:stackswitch.co",
+  "args": {},
+  "data": {
+    "property": "sc-domain:stackswitch.co",
+    "topic_clusters": []
+  }
+}

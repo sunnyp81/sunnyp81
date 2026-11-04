@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:comparethebets.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:comparethebets.com",
+    "topic_clusters": []
+  }
+}
