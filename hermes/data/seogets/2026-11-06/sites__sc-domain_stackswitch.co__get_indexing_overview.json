@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:stackswitch.co",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:stackswitch.co is not a super site",
+    "property": "sc-domain:stackswitch.co"
+  }
+}
