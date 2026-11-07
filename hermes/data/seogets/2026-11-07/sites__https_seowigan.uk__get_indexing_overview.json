@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "https://seowigan.uk/",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. https://seowigan.uk/ is not a super site",
+    "property": "https://seowigan.uk/"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:onlinemetronome.org",
+  "args": {},
+  "data": {
+    "property": "sc-domain:onlinemetronome.org",
+    "topic_clusters": []
+  }
+}

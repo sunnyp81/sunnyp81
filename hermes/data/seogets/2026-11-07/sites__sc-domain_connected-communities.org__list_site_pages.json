@@ -1,0 +1,48 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:connected-communities.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://connected-communities.org",
+        "paths": [
+          "/",
+          "/wp-content/uploads/2016/04/16019-Co-constructing-Research-Lit-Review-dev-06.pdf",
+          "/index.php/about/",
+          "/index.php/connected-communities-foundation-series/",
+          "/index.php/news/legjobbkaszino-nepszeru-jatekklub-szuper-penzdijak/",
+          "/index.php/project_resources/experiencing-the-digital-world-pararchive-video",
+          "/reports/aeo_geo_llm_seeding_ai_seo/",
+          "/reports/best-cold-email-service-small-business-2027/",
+          "/wp-content/uploads/2018/07/Knowledge_Online_SP.pdf"
+        ]
+      },
+      {
+        "host": "http://connected-communities.org",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://betting.connected-communities.org",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://www.connected-communities.org",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 12 unique paths across 4 hosts from 2025-07-07 to 2026-11-06.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
