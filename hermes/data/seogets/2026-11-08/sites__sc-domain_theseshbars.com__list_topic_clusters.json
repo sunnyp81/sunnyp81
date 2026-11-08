@@ -1,0 +1,140 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:theseshbars.com",
+  "args": {},
+  "data": {
+    "property": "sc-domain:theseshbars.com",
+    "topic_clusters": [
+      {
+        "filters": [
+          {
+            "expression": "mobile bar hire|bar hire|cocktail bar hire|hire a bar|hire bar|bar for hire",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Mobile Bar Hire Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "event bar|wedding bar|party bar|corporate bar|private event bar|festival bar",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Event Bar Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "pornstar martini|porn star martini|pornstar drink|porn star drink",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Pornstar Martini Information"
+      },
+      {
+        "filters": [
+          {
+            "expression": "bartender hire|mixologist hire|mobile bartender|bartender for|mixologist for",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Bartender and Mixologist Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "gin and coke|gin coke|gin cola|gin with coke|coke and gin",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Gin and Coke Cocktails"
+      },
+      {
+        "filters": [
+          {
+            "expression": "whiskey cocktail|whisky cocktail|whiskey drink|whisky drink|best whiskey|best whisky",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Whiskey Cocktails"
+      },
+      {
+        "filters": [
+          {
+            "expression": "bar equipment|bar tools|bar uniform|bartender uniform|bar staff uniform",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Bar Equipment and Supplies"
+      },
+      {
+        "filters": [
+          {
+            "expression": "slippery nipple|scooby snack|cinnamon toast crunch|french toast shot|tom collins|purple rain",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Specialty Cocktails and Shots"
+      },
+      {
+        "filters": [
+          {
+            "expression": "pop up bar|temporary bar|portable bar|led mobile bar|luxury mobile bar",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Pop Up and Temporary Bars"
+      },
+      {
+        "filters": [
+          {
+            "expression": "wedding bar|bar for wedding|wedding mobile bar|wedding cocktail bar|bar service for wedding",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Wedding Bar Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "become a mixologist|mixologist certification|bartender tricks|how to be|certified mixologist",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Mixology and Bartending Education"
+      },
+      {
+        "filters": [
+          {
+            "expression": "london|chelsea|kensington|battersea|fulham|notting hill",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "London Bar Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "gin vs vodka|difference between gin|vodka vs gin|chardonnay taste|alcohol that tastes",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Alcohol and Spirit Information"
+      }
+    ]
+  }
+}

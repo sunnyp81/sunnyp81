@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://tallyfair.com/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://tallyfair.com/"
+  }
+}
