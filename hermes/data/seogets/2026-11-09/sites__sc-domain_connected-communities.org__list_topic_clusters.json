@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:connected-communities.org",
+  "args": {},
+  "data": {
+    "property": "sc-domain:connected-communities.org",
+    "topic_clusters": []
+  }
+}
