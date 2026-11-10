@@ -1,0 +1,15 @@
+{
+  "tool": "list_content_changes",
+  "site": "https://www.ontheballbets.com/",
+  "args": {
+    "start_date": "2026-10-13",
+    "end_date": "2026-11-10"
+  },
+  "data": {
+    "days": [],
+    "end_date": "2026-11-10",
+    "note": "Automatic content change tracking is only available for super sites; https://www.ontheballbets.com/ is not a super site, so only annotations and Google updates are returned.",
+    "property": "https://www.ontheballbets.com/",
+    "start_date": "2026-10-13"
+  }
+}

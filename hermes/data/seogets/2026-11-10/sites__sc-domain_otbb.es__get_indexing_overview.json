@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:otbb.es",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:otbb.es is not a super site",
+    "property": "sc-domain:otbb.es"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://digitalmarketingagencies.london/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://digitalmarketingagencies.london",
+        "paths": [
+          "/",
+          "/content-marketing/",
+          "/directory/awards/",
+          "/directory/brainlabs/",
+          "/directory/brave-bison/",
+          "/directory/credential/google-partner/",
+          "/directory/credential/google-premier-partner/",
+          "/directory/gain/",
+          "/directory/hallam/",
+          "/directory/incubeta/",
+          "/directory/journey-further/",
+          "/email-marketing/",
+          "/lists/compare/",
+          "/lists/digital-agency-network/",
+          "/ppc/",
+          "/seo/",
+          "/social-media/"
+        ]
+      }
+    ],
+    "note": "Returned 17 unique paths across 1 hosts from 2025-07-10 to 2026-11-09.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
