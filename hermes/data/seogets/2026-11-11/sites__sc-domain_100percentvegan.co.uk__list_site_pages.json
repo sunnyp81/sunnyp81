@@ -1,0 +1,36 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:100percentvegan.co.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://100percentvegan.co.uk",
+        "paths": [
+          "/",
+          "/about-100-percent-vegan"
+        ]
+      },
+      {
+        "host": "http://www.100percentvegan.co.uk",
+        "paths": [
+          "/",
+          "/about-100-percent-vegan/"
+        ]
+      },
+      {
+        "host": "https://www.100percentvegan.co.uk",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 3 hosts from 2025-07-11 to 2026-11-10.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

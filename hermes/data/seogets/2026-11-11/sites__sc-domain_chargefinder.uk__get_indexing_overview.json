@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:chargefinder.uk",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:chargefinder.uk is not a super site",
+    "property": "sc-domain:chargefinder.uk"
+  }
+}

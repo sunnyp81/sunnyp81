@@ -1,0 +1,168 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:hummingbird.agency",
+  "args": {},
+  "data": {
+    "property": "sc-domain:hummingbird.agency",
+    "topic_clusters": [
+      {
+        "filters": [
+          {
+            "expression": "hummingbird",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "About Hummingbird Agency"
+      },
+      {
+        "filters": [
+          {
+            "expression": "travel marketing agenc|travel marketing compan|travel marketing firm|travel marketing service|travel marketing specialist|travel marketing strateg|travel marketing consult|travel marketing media|travel marketing tip|travel marketing in 2025|digital marketing for travel|marketing for travel brand|marketing for travel compan|marketing for travel agenc|marketing for boutique travel|full service digital agency for travel|best travel marketing agenc|top travel marketing agenc|travel brand digital|travel brand performance|travel brand growth|travel content agenc|travel content marketing agenc|should a travel business hire",
+            "operator": "contains"
+          },
+          {
+            "expression": "travel influencer|travel advertising agenc|travel digital agenc|travel media agenc|travel media compan|travel social media agenc",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Digital Marketing for Travel Brands"
+      },
+      {
+        "filters": [
+          {
+            "expression": "seo for travel|seo for tailor made holiday|seo for wellness|seo for health|seo for supplement|seo for hotel|seo for hospitality|seo for fitness|seo for herbal|seo for vitamin|hotel seo|supplement seo|wellness seo|health and wellness seo|experience economy|aeo agency|aeo audit|aeo meaning|aeo services|aeo stands for|aeo tools|aeo platforms|aeo implementation|answer engine optimization|aeo best practices|aeo 2026",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "SEO for Experience Economy Brands"
+      },
+      {
+        "filters": [
+          {
+            "expression": "ppc for travel|ppc agency for travel|ppc travel|travel ppc|ppc for hotel|hotel ppc|ppc for tourism|tourism ppc|ppc for events|ppc for venue|ppc for adventure|ppc for entertainment|ppc management for travel|ppc management for tourism|ppc campaign for travel|ppc keyword strategy for travel|paid advertising for travel|paid ads for travel|facebook ads for travel|google ads for travel|meta ads for travel|travel ad agenc|travel advertising agenc|travel advertising compan|travel ads management|travel pay per click|advertising for travel|advertising for travel agenc|advertise travel|ppc for luxury hotel|hotel paid search|hotel paid media",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Paid Advertising for Travel and Events"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hotel social media|social media for hotel|social media management for hotel|social media for hospitality|social media management for hospitality|hospitality social media|social media in hospitality|social media hotel|social media management for travel agenc|social media for travel agenc|boutique hotel social media|hotel instagram|hotel brand social media|hotel social marketing|hotels social media|hotel social network",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Social Media Management for Hospitality"
+      },
+      {
+        "filters": [
+          {
+            "expression": "travel influencer marketing|influencer marketing travel|influencer marketing for travel|luxury influencer marketing|luxury brand influencer marketing|influencer marketing luxury|luxury travel influencer|travel influencer agenc|travel influencer campaign|travel influencer handbook|travel influencer marketing agenc|travel influencer marketing compan|influencer hotel collaboration|hotel tiktok influencer|hotel influencer",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Influencer Marketing for Travel and Luxury"
+      },
+      {
+        "filters": [
+          {
+            "expression": "content marketing for travel|content marketing travel|travel content marketing|tourism content marketing|content marketing for wellness|content marketing luxury|content marketing in tourism|content marketing in hospitality|content marketing for adventure|content marketing for luxury|destination marketing content|adventure tour operator content marketing|content strategy for tourism|content strategy for travel|content strategy for hotels|hotel content marketing",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Content Marketing for Experience Brands"
+      },
+      {
+        "filters": [
+          {
+            "expression": "email marketing for travel|email marketing travel|travel email marketing|email marketing for tourism|tourism email marketing|email marketing strategy for tour|email marketing pour le tourisme|travel email|travel email marketing|travel tuesday email|email campaigns for travel|aviation email marketing|email marketing for luxury|lifecycle email marketing for luxury",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Email Marketing for Travel and Events"
+      },
+      {
+        "filters": [
+          {
+            "expression": "web design for hotel|hotel website design|hotel web agency|hotel website agency|web design agency peterborough|web design peterborough|web design agency|website design peterborough|website design agency peterborough|web design companies peterborough|web development peterborough|website development peterborough|web developer peterborough|web design services peterborough|web design in peterborough|local web design peterborough|ecommerce web design peterborough|peterborough web design|peterborough website design|peterborough web designer|peterborough website designer|bespoke wordpress development peterborough|responsive web design services agency peterborough|webflow agency peterborough|shopify agency peterborough|magento agency peterborough",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Web Design for Experience Brands"
+      },
+      {
+        "filters": [
+          {
+            "expression": "luxury brand digital marketing|luxury digital marketing|luxury marketing agency|luxury marketing service|luxury brand social media|luxury social media agency|luxury social media marketing|luxury social media strategy|luxury brand social media marketing|luxury hotel digital marketing|luxury hotel marketing agency|luxury hospitality marketing agency|luxury hospitality digital agency|luxury brand content|luxury brand advertising|digital marketing for luxury brands|luxury online marketing|luxury travel digital marketing|luxury tour operator marketing|luxury brand influencer marketing",
+            "operator": "contains"
+          },
+          {
+            "expression": "travel influencer",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Luxury Brand Digital Marketing"
+      },
+      {
+        "filters": [
+          {
+            "expression": "tiktok ad|tiktok advertising|tiktok agency|tiktok marketing|tiktok for travel|tiktok for events|tiktok event|tiktok travel|tiktok for hotel|hotel tiktok|event marketing on tiktok|tiktok ads for|tiktok agency for|tiktok marketing agency|tiktok marketing for|tiktok creative agency|tiktok video agency|tiktok management agency|tiktok social agency",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "TikTok Advertising for Events and Travel"
+      },
+      {
+        "filters": [
+          {
+            "expression": "boutique digital marketing agency|boutique marketing agency|digital marketing agency uk|digital marketing agency peterborough|marketing agency peterborough|marketing agency uk|marketing agency cambridgeshire|marketing agency lincolnshire|digital marketing peterborough|digital agency peterborough|marketing companies peterborough|marketing companies near me|marketing agency near me|peterborough marketing agency|peterborough digital marketing|peterborough marketing|agencies peterborough|agency peterborough|advertising agency peterborough|advertising agency uk",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Boutique Digital Marketing Agency UK"
+      },
+      {
+        "filters": [
+          {
+            "expression": "case study|client results|aamp agency starline tours case study|performance marketing case study|nest commerce hummingbird|marketing audit|marketing audit for|audit marketing|audit in marketing|marketing auditing|inbound marketing audit",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Case Studies and Client Results"
+      },
+      {
+        "filters": [
+          {
+            "expression": "google ads for travel|google ads management for travel|travel agency google ads|hotel google ads|adwords for travel|google ads management peterborough|google ads agency peterborough|google ads peterborough|google adwords agency|google ads for events|adwords for events|google ads supplements|google ads management",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Google Ads Management for Travel"
+      },
+      {
+        "filters": [
+          {
+            "expression": "events and hospitality marketing|event marketing|event influencer marketing|event driven marketing|event marketing social media|hospitality marketing agenc|hospitality marketing compan|hospitality digital marketing|hospitality marketing london|hospitality marketing uk|hospitality marketing agency|events marketing|event promotion|event venue ppc|hospitality marketing strategy|events influencer marketing|hospitality campaign",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Events and Hospitality Marketing Strategy"
+      }
+    ]
+  }
+}
