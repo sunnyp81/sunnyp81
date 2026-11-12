@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:digitalmarketingagencies.london",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:digitalmarketingagencies.london is not a super site",
+    "property": "sc-domain:digitalmarketingagencies.london"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:generator.express",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://generator.express",
+        "paths": [
+          "/random/dnd-dice/",
+          "/random/number/",
+          "/text/incorrect-quote/",
+          "/",
+          "/business/handwritten-signature/",
+          "/business/qr-with-logo/",
+          "/business/signature/",
+          "/code/",
+          "/code/epoch/",
+          "/code/json/",
+          "/code/uuid/",
+          "/names/",
+          "/names/band/",
+          "/names/business/",
+          "/names/character/",
+          "/names/company/",
+          "/names/dnd/",
+          "/names/elf/",
+          "/names/fake/",
+          "/names/fantasy/",
+          "/names/japanese/",
+          "/names/last/",
+          "/names/podcast/",
+          "/names/username/",
+          "/names/warrior-cats/",
+          "/random/",
+          "/random/dice-roller/",
+          "/random/picker/",
+          "/random/quote/",
+          "/random/team/",
+          "/random/wheel/",
+          "/random/yes-no/",
+          "/social/",
+          "/social/fake-tweet/",
+          "/social/instagram-hashtag/",
+          "/social/meme-font/",
+          "/text/",
+          "/text/bio/",
+          "/text/case-converter/",
+          "/text/character-counter/",
+          "/text/instagram-bio/",
+          "/text/readability/",
+          "/visual/",
+          "/visual/meme/",
+          "/visual/qr-code/"
+        ]
+      },
+      {
+        "host": "http://generator.express",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 46 unique paths across 2 hosts from 2025-07-12 to 2026-11-11.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

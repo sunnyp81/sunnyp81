@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "https://tallycleanos.com/",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. https://tallycleanos.com/ is not a super site",
+    "property": "https://tallycleanos.com/"
+  }
+}

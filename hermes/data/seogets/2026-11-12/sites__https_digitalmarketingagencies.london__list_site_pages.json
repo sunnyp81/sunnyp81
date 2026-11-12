@@ -1,0 +1,50 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://digitalmarketingagencies.london/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://digitalmarketingagencies.london",
+        "paths": [
+          "/directory/credential/google-partner/",
+          "/",
+          "/content-marketing/",
+          "/corrections/",
+          "/directory/accord-marketing/",
+          "/directory/anything-is-possible/",
+          "/directory/awards/",
+          "/directory/blue-frontier/",
+          "/directory/brainlabs/",
+          "/directory/brave-bison/",
+          "/directory/credential/google-premier-partner/",
+          "/directory/croud/",
+          "/directory/digitas-uk/",
+          "/directory/gain/",
+          "/directory/hallam/",
+          "/directory/harvest-digital/",
+          "/directory/incubeta/",
+          "/directory/john-ayling-associates/",
+          "/directory/journey-further/",
+          "/directory/nautilus-marketing/",
+          "/email-marketing/",
+          "/lists/clutch/",
+          "/lists/compare/",
+          "/lists/designrush/",
+          "/lists/digital-agency-network/",
+          "/ppc/",
+          "/seo/",
+          "/shortlist-check/",
+          "/social-media/"
+        ]
+      }
+    ],
+    "note": "Returned 29 unique paths across 1 hosts from 2025-07-12 to 2026-11-11.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

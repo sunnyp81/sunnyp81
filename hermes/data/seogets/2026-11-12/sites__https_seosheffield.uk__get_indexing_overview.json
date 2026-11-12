@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "https://seosheffield.uk/",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. https://seosheffield.uk/ is not a super site",
+    "property": "https://seosheffield.uk/"
+  }
+}

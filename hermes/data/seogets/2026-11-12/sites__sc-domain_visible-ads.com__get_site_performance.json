@@ -1,0 +1,19 @@
+{
+  "tool": "get_site_performance",
+  "site": "sc-domain:visible-ads.com",
+  "args": {
+    "start_date": "2026-10-15",
+    "end_date": "2026-11-12"
+  },
+  "data": {
+    "currency": "GBP",
+    "data": "clicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\n\t58\t10913\t0.53\t20.96\t598\t634\t182\t28.71\t6\t0.00",
+    "end_date": "2026-11-12",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined. Answer with the prioritized content groups and topic clusters first, then the rest of the data.",
+    "priority_content_groups": "contentGroup\tclicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\nHomepage\t31\t1044\t2.97\t4.13\t260\t272\t131\t48.16\t5\t0.00\nCase Studies\t1\t73\t1.37\t14.66\t21\t21\t4\t19.05\t0\t0.00\nBlueprint & Audit\t1\t676\t0.15\t32.57\t18\t20\t3\t15.00\t0\t0.00\nGoogle Ads Services\t0\t130\t0.00\t5.85\t17\t17\t1\t5.88\t0\t0.00\nPPC & Agency Services\t0\t207\t0.00\t8.54\t15\t15\t0\t0.00\t0\t0.00",
+    "priority_topic_clusters": "topicCluster\tclicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\nThe Visible Ads Blueprint Methodology\t12\t156\t7.69\t15.90\t0\t0\t0\t0.00\t0\t0.00\nMulti-Channel Paid Advertising Strategy\t0\t1\t0.00\t53.00\t0\t0\t0\t0.00\t0\t0.00\neCommerce Paid Advertising Case Studies\t0\t24\t0.00\t32.54\t0\t0\t0\t0.00\t0\t0.00\neCommerce Conversion Rate Optimisation\t0\t3\t0.00\t9.00\t0\t0\t0\t0.00\t0\t0.00",
+    "property": "sc-domain:visible-ads.com",
+    "sources": "search=gsc, web=ga4",
+    "start_date": "2026-10-15"
+  }
+}
