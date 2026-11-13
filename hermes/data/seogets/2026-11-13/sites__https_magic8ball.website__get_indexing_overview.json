@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "https://magic8ball.website/",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. https://magic8ball.website/ is not a super site",
+    "property": "https://magic8ball.website/"
+  }
+}

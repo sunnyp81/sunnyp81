@@ -1,0 +1,31 @@
+{
+  "tool": "get_property_setup",
+  "site": "sc-domain:visible-ads.com",
+  "args": {},
+  "data": {
+    "can_run_setup": false,
+    "is_complete": true,
+    "is_running": false,
+    "property": "sc-domain:visible-ads.com",
+    "status": {
+      "branded_keywords": 9,
+      "content_groups": 14,
+      "has_brand_summary": true,
+      "priority_content_groups": [
+        "Homepage",
+        "Google Ads Services",
+        "PPC & Agency Services",
+        "Case Studies",
+        "Blueprint & Audit"
+      ],
+      "priority_topic_clusters": [
+        "Google Ads Management for eCommerce",
+        "eCommerce Conversion Rate Optimisation",
+        "Multi-Channel Paid Advertising Strategy",
+        "The Visible Ads Blueprint Methodology",
+        "eCommerce Paid Advertising Case Studies"
+      ],
+      "topic_clusters": 15
+    }
+  }
+}
