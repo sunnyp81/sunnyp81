@@ -1,0 +1,56 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:mobileautomechanic.uk",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://mobileautomechanic.uk",
+        "paths": [
+          "/become-a-mobile-mechanic/",
+          "/",
+          "/services/alternator-starter/",
+          "/services/auto-electrical/",
+          "/car-systems/engine/",
+          "/repair-guides/how-to-change-wiper-blades/",
+          "/services/battery-replacement/",
+          "/services/mot-repairs/",
+          "/areas/",
+          "/areas/basingstoke/",
+          "/areas/caversham/",
+          "/areas/newbury/",
+          "/areas/thatcham/",
+          "/car-systems/",
+          "/car-systems/braking-system/",
+          "/diagnose/engine-diagnostic/",
+          "/diagnose/obd2-fault-codes/",
+          "/info/",
+          "/info/car-service-cost/",
+          "/info/mobile-mechanic-vs-garage/",
+          "/info/mot-failure-reasons/",
+          "/mechanic-jobs-reading/",
+          "/repair-guides/how-to-change-brake-pads/",
+          "/repair-guides/how-to-top-up-engine-oil/",
+          "/services/",
+          "/services/car-servicing/",
+          "/services/engine-repairs/",
+          "/services/exhaust-repairs/",
+          "/services/pre-purchase-inspection/",
+          "/symptoms/",
+          "/warning-lights/",
+          "/warning-lights/battery-warning-light/",
+          "/warning-lights/brake-warning-light/",
+          "/warning-lights/oil-pressure-warning/",
+          "/warning-lights/temperature-warning-light/"
+        ]
+      }
+    ],
+    "note": "Returned 35 unique paths across 1 hosts from 2025-07-14 to 2026-11-13.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

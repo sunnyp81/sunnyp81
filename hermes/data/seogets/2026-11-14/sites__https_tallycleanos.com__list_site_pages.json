@@ -1,0 +1,26 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://tallycleanos.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://tallycleanos.com",
+        "paths": [
+          "/",
+          "/cleaning-profit-margin-calculator/",
+          "/cleaning-quote-calculator/",
+          "/cleaning-quote-template/",
+          "/terms/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 1 hosts from 2025-07-14 to 2026-11-13.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

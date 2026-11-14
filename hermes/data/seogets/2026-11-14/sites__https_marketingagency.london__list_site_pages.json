@@ -1,0 +1,54 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://marketingagency.london/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://marketingagency.london",
+        "paths": [
+          "/agencies/the-think/"
+        ]
+      },
+      {
+        "host": "https://marketingagency.london",
+        "paths": [
+          "/",
+          "/about/",
+          "/agencies/",
+          "/agencies/burst-digital/",
+          "/agencies/byter/",
+          "/agencies/frost-creative/",
+          "/agencies/id-studio/",
+          "/agencies/immersive-media/",
+          "/agencies/klutch-studio/",
+          "/agencies/kota/",
+          "/agencies/loving-social-media/",
+          "/agencies/marketing-tech-london/",
+          "/agencies/ppc-geeks/",
+          "/agencies/rank-me-higher/",
+          "/agencies/republic-marketing/",
+          "/agencies/rocket-saas/",
+          "/agencies/silverstone-digital/",
+          "/agencies/terrier-agency/",
+          "/agencies/the-city-seo/",
+          "/agencies/whitehat/",
+          "/choosing-an-agency/",
+          "/method/",
+          "/prices/",
+          "/prices/ppc/",
+          "/prices/web-design/",
+          "/prices/website-cost/",
+          "/under-1000-a-month/"
+        ]
+      }
+    ],
+    "note": "Returned 28 unique paths across 2 hosts from 2025-07-14 to 2026-11-13.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

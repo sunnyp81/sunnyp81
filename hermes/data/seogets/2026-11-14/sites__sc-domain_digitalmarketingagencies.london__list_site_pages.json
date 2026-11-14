@@ -1,0 +1,53 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:digitalmarketingagencies.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://digitalmarketingagencies.london",
+        "paths": [
+          "/directory/accord-marketing/",
+          "/directory/credential/google-partner/",
+          "/ppc/",
+          "/seo/",
+          "/",
+          "/content-marketing/",
+          "/corrections/",
+          "/directory/anything-is-possible/",
+          "/directory/awards/",
+          "/directory/blue-frontier/",
+          "/directory/brainlabs/",
+          "/directory/brave-bison/",
+          "/directory/credential/google-premier-partner/",
+          "/directory/croud/",
+          "/directory/digitas-uk/",
+          "/directory/gain/",
+          "/directory/hallam/",
+          "/directory/harvest-digital/",
+          "/directory/incubeta/",
+          "/directory/john-ayling-associates/",
+          "/directory/journey-further/",
+          "/directory/nautilus-marketing/",
+          "/directory/on-3-or-more-lists/",
+          "/email-marketing/",
+          "/lists/",
+          "/lists/clutch/",
+          "/lists/compare/",
+          "/lists/designrush/",
+          "/lists/digital-agency-network/",
+          "/lists/feedbax/",
+          "/shortlist-check/",
+          "/social-media/"
+        ]
+      }
+    ],
+    "note": "Returned 32 unique paths across 1 hosts from 2025-07-14 to 2026-11-13.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
