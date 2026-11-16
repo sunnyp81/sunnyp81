@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://magic8ball.website/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://magic8ball.website/"
+  }
+}
