@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:evaranhomecare.com.au",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:evaranhomecare.com.au"
+  }
+}

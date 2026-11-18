@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:kingpin.design",
+  "args": {},
+  "data": {
+    "property": "sc-domain:kingpin.design",
+    "topic_clusters": []
+  }
+}
