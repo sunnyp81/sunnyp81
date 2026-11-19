@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:homes-2let.com",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:homes-2let.com is not a super site",
+    "property": "sc-domain:homes-2let.com"
+  }
+}

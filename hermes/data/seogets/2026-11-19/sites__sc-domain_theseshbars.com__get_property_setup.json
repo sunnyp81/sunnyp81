@@ -1,0 +1,19 @@
+{
+  "tool": "get_property_setup",
+  "site": "sc-domain:theseshbars.com",
+  "args": {},
+  "data": {
+    "can_run_setup": false,
+    "is_complete": true,
+    "is_running": false,
+    "property": "sc-domain:theseshbars.com",
+    "status": {
+      "branded_keywords": 2,
+      "content_groups": 11,
+      "has_brand_summary": true,
+      "priority_content_groups": [],
+      "priority_topic_clusters": [],
+      "topic_clusters": 13
+    }
+  }
+}
