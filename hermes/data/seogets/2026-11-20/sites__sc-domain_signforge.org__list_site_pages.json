@@ -1,0 +1,48 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:signforge.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://signforge.org",
+        "paths": [
+          "/",
+          "/blog/communication/funny-email-sign-offs",
+          "/blog/gmail/change-email-signature-gmail",
+          "/email-signature-accountants",
+          "/blog",
+          "/blog/design/best-font-email-signature",
+          "/blog/outlook/update-email-signature-outlook",
+          "/corporate-email-signature",
+          "/email-signature-examples",
+          "/email-signature-healthcare",
+          "/gmail-signature",
+          "/outlook-signature",
+          "/templates"
+        ]
+      },
+      {
+        "host": "http://signforge.org",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://www.signforge.org",
+        "paths": [
+          "/corporate-email-signature",
+          "/email-signature-college-students",
+          "/email-signature-small-business"
+        ]
+      }
+    ],
+    "note": "Returned 17 unique paths across 3 hosts from 2025-07-20 to 2026-11-19.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

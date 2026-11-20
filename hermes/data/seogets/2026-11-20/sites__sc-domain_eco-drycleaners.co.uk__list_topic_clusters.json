@@ -1,0 +1,9 @@
+{
+  "tool": "list_topic_clusters",
+  "site": "sc-domain:eco-drycleaners.co.uk",
+  "args": {},
+  "data": {
+    "property": "sc-domain:eco-drycleaners.co.uk",
+    "topic_clusters": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:drinksbykingpin.com",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:drinksbykingpin.com is not a super site",
+    "property": "sc-domain:drinksbykingpin.com"
+  }
+}

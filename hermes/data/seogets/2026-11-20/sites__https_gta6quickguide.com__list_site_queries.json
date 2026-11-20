@@ -1,0 +1,18 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://gta6quickguide.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 2 queries from 2025-07-20 to 2026-11-19.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "gta 6 unstuck",
+      "how to get unstuck in gta 6"
+    ]
+  }
+}
