@@ -1,0 +1,26 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://gta6quickguide.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 10 queries from 2025-07-21 to 2026-11-20.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "how to get unstuck in gta 6",
+      "free month gta plus",
+      "gta 6 unstuck",
+      "gta6 setting",
+      "how to get car unstuck gta6",
+      "how to get my car unstuck in gta 6",
+      "how to get unstuck gta 6",
+      "how to go to main menu gta6",
+      "vintage vice city",
+      "where is the setting for gta 6"
+    ]
+  }
+}
