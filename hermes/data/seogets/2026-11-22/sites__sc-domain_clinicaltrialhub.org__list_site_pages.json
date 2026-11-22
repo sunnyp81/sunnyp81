@@ -1,0 +1,59 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:clinicaltrialhub.org",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://clinicaltrialhub.org",
+        "paths": [
+          "/",
+          "/guides/caregiver-guide-to-clinical-trials/",
+          "/about/",
+          "/glossary/healthy-volunteer/",
+          "/guides/what-are-trial-phases/",
+          "/condition/alzheimers-disease/",
+          "/condition/breast-cancer/",
+          "/condition/depression/",
+          "/condition/heart-failure/",
+          "/condition/hiv/",
+          "/condition/lung-cancer/",
+          "/condition/rheumatoid-arthritis/",
+          "/condition/type-2-diabetes/",
+          "/conditions/",
+          "/drug/novel-medication/",
+          "/faq/",
+          "/glossary/",
+          "/glossary/adaptive-design/",
+          "/glossary/adjuvant-therapy/",
+          "/glossary/fast-track/",
+          "/glossary/informed-consent/",
+          "/glossary/investigational-drug/",
+          "/glossary/irb/",
+          "/glossary/observational-study/",
+          "/glossary/power/",
+          "/glossary/response-rate/",
+          "/glossary/sample-size/",
+          "/guides/",
+          "/guides/clinical-trial-myths/",
+          "/guides/how-to-join-a-clinical-trial/",
+          "/guides/how-to-read-eligibility-criteria/",
+          "/guides/what-is-a-clinical-trial/"
+        ]
+      },
+      {
+        "host": "http://clinicaltrialhub.org",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 33 unique paths across 2 hosts from 2025-07-22 to 2026-11-21.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:homes-2let.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://homes-2let.com",
+        "paths": [
+          "/",
+          "/council-guaranteed-rent-scheme-for-croydon-landlords/",
+          "/guaranteed-rent-croydon/",
+          "/sutton-guaranteed-rental-income-scheme/",
+          "/guaranteed-rent-lambeth/",
+          "/merton-guaranteed-rental-income-scheme/",
+          "/about/",
+          "/bromley-guaranteed-rental-income-scheme/",
+          "/can-i-live-in-my-buy-to-let-property/",
+          "/contact/",
+          "/guaranteed-rent-thornton-heath/",
+          "/a-landlords-solution-to-preventing-duplicate-keys/",
+          "/croydon-selective-licensing-guide/",
+          "/guaranteed-rent-south-london/",
+          "/how-often-should-a-landlord-decorate-their-rental-property/",
+          "/2026-autumn-budget-impact-landlords/",
+          "/agents/",
+          "/blind-safety-in-rental-property-what-landlords-need-to-know/",
+          "/guaranteed-rent-london/",
+          "/guaranteed-rent-southwark/",
+          "/paying-tax-on-rental-income-advice-for-landlords/",
+          "/terms-conditions/",
+          "/unpaid-utility-bills-who-has-to-pay/",
+          "/what-happens-when-the-croydon-selective-licensing-expires-in-october-2020/",
+          "/12-month-eviction-trap/",
+          "/4-property-renovation-ideas-for-landlords-on-a-budget/",
+          "/a-guide-to-property-investment-in-croydon/",
+          "/a-guide-to-screening-international-rental-applicants/",
+          "/a-landlords-guide-to-the-housing-health-and-safety-rating-system/",
+          "/andy-burnham-rent-freeze-landlords/",
+          "/are-rent-guarantee-schemes-worth-it/",
+          "/budget-2021-what-it-means-for-uk-landlords/",
+          "/burnham-your-first-home-scheme/",
+          "/buy-to-let-repossessions-surge-landlord-guide/",
+          "/can-a-tenant-run-a-business-from-a-rental-property/",
+          "/category/letting/",
+          "/croydon-the-best-value-borough-for-property-investment-in-2024/",
+          "/free-valuation-request/",
+          "/government-gas-boiler-ban-how-should-landlords-react/",
+          "/guaranteed-rent-what-is-it-and-how-does-it-work/",
+          "/important-things-to-consider-when-renting-to-families-with-children/",
+          "/in-what-circumstances-can-a-landlord-change-the-locks/",
+          "/insights/",
+          "/interest-rate-cuts-and-why-croydon-remains-a-strong-investment/",
+          "/japanese-knotweed-what-every-landlord-needs-to-know/",
+          "/labours-london-housing-gambit-unpacking-the-plan-to-tackle-the-capitals-crisis-amidst-ambitious-targets-and-contentious-reforms/",
+          "/landlords-beware-tenant-referencing-fraud-continues-to-rise/",
+          "/landlords/",
+          "/letting-agents/",
+          "/leveraging-interest-only-mortgages-a-strategic-guide-for-landlords/",
+          "/local-authorities/",
+          "/london-property-slump-2026-landlord-sell-vs-guaranteed-rent/",
+          "/pensioner-renting-boom-ppi-report-landlords/",
+          "/privacy-policy/",
+          "/property-management-croydon/",
+          "/property-management-london/",
+          "/property-management/",
+          "/reform-uk-renters-rights/",
+          "/renters-rights-bill-guaranteed-rent-landlord-protection/",
+          "/savills-2028-property-forecast-landlord-strategy/",
+          "/south-london-rents-rise-supply-shrinks-2026/",
+          "/the-importance-of-regular-mid-term-inspections/",
+          "/the-shift-in-the-uk-buy-to-let-market-navigating-landlords-sales-surge-and-rising-rents/",
+          "/the-top-5-most-common-landlord-insurance-claims/",
+          "/understanding-the-basics-of-charging-for-tenant-damage/",
+          "/what-a-landlord-needs-to-know-about-trees/",
+          "/what-type-of-flooring-is-best-for-a-rental-property/"
+        ]
+      },
+      {
+        "host": "http://www.homes-2let.com",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "http://homes-2let.com",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "host": "https://www.homes-2let.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 70 unique paths across 4 hosts from 2025-07-22 to 2026-11-21.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "sc-domain:salarycareer.com",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. sc-domain:salarycareer.com is not a super site",
+    "property": "sc-domain:salarycareer.com"
+  }
+}
