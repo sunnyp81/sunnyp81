@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://digitalmarketingagencies.london/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "sc-domain:digitalmarketingagencies.london"
+  }
+}

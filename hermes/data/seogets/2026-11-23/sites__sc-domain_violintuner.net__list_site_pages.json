@@ -1,0 +1,31 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:violintuner.net",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://violintuner.net",
+        "paths": [
+          "/",
+          "/how-to-tune-a-violin/",
+          "/about/",
+          "/violin-string-notes/"
+        ]
+      },
+      {
+        "host": "https://www.violintuner.net",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 5 unique paths across 2 hosts from 2025-07-23 to 2026-11-22.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

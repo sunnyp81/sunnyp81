@@ -1,0 +1,9 @@
+{
+  "tool": "list_content_groups",
+  "site": "https://gta6quickguide.com/",
+  "args": {},
+  "data": {
+    "content_groups": [],
+    "property": "https://gta6quickguide.com/"
+  }
+}
