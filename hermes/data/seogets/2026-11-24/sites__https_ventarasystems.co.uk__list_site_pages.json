@@ -1,0 +1,27 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://ventarasystems.co.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://ventarasystems.co.uk",
+        "paths": [
+          "/single-room/air-plus-humidity-wifi/",
+          "/ceiling-mounted/breathe/",
+          "/contact/",
+          "/single-room/",
+          "/single-room/air-humidity-wifi/",
+          "/single-room/air-humidity/"
+        ]
+      }
+    ],
+    "note": "Returned 6 unique paths across 1 hosts from 2025-07-24 to 2026-11-23.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

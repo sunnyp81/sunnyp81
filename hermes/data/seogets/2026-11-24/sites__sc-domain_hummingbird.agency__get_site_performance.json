@@ -1,0 +1,19 @@
+{
+  "tool": "get_site_performance",
+  "site": "sc-domain:hummingbird.agency",
+  "args": {
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-24"
+  },
+  "data": {
+    "currency": "GBP",
+    "data": "clicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\n\t203\t66112\t0.31\t25.05\t1867\t2020\t404\t20.00\t47\t0.00",
+    "end_date": "2026-11-24",
+    "note": "Use only the data included in the response for your analysis. Provide exact values as given, without estimation. Do not draw conclusions about causes unless they are directly supported by the data. If the data is insufficient to answer a question, explicitly indicate that the answer cannot be determined. Answer with the prioritized content groups and topic clusters first, then the rest of the data.",
+    "priority_content_groups": "contentGroup\tclicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\nHomepage\t80\t9330\t0.86\t18.44\t955\t1006\t252\t25.05\t36\t0.00\nAgency Info & Lead Gen\t10\t1276\t0.78\t18.65\t64\t69\t29\t42.03\t11\t0.00\nServices & Capabilities\t5\t5162\t0.10\t30.27\t30\t30\t6\t20.00\t0\t0.00\nTravel Services\t2\t3435\t0.06\t36.67\t18\t18\t1\t5.56\t0\t0.00\nCase Studies\t0\t182\t0.00\t10.52\t59\t59\t6\t10.17\t0\t0.00",
+    "priority_topic_clusters": "topicCluster\tclicks\timpressions\tctr\tposition\tactiveUsers\tsessions\tengagedSessions\tengagementRate\tkeyEvents\trevenue\nAbout Hummingbird Agency\t48\t1025\t4.68\t13.73\t0\t0\t0\t0.00\t0\t0.00\nDigital Marketing for Travel Brands\t0\t1366\t0.00\t42.90\t0\t0\t0\t0.00\t0\t0.00\nCase Studies and Client Results\t0\t1381\t0.00\t36.32\t0\t0\t0\t0.00\t0\t0.00\nPaid Advertising for Travel and Events\t0\t1318\t0.00\t22.11\t0\t0\t0\t0.00\t0\t0.00\nLuxury Brand Digital Marketing\t0\t283\t0.00\t49.11\t0\t0\t0\t0.00\t0\t0.00",
+    "property": "sc-domain:hummingbird.agency",
+    "sources": "search=gsc, web=ga4",
+    "start_date": "2026-10-27"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:generator.express",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://generator.express",
+        "paths": [
+          "/text/incorrect-quote/",
+          "/random/picker/",
+          "/names/business/",
+          "/names/character/",
+          "/names/warrior-cats/",
+          "/random/dnd-dice/",
+          "/random/number/",
+          "/random/quote/",
+          "/social/fake-tweet/",
+          "/text/bio/",
+          "/text/case-converter/",
+          "/",
+          "/about/",
+          "/business/handwritten-signature/",
+          "/business/qr-with-logo/",
+          "/business/signature/",
+          "/code/",
+          "/code/epoch/",
+          "/code/json/",
+          "/code/roman-numeral/",
+          "/code/url-encode/",
+          "/code/uuid/",
+          "/names/",
+          "/names/band/",
+          "/names/company/",
+          "/names/dnd/",
+          "/names/elf/",
+          "/names/fake/",
+          "/names/fantasy/",
+          "/names/japanese/",
+          "/names/last/",
+          "/names/name/",
+          "/names/podcast/",
+          "/names/username/",
+          "/random/",
+          "/random/dice-roller/",
+          "/random/letter/",
+          "/random/team/",
+          "/random/wheel/",
+          "/random/yes-no/",
+          "/social/",
+          "/social/hashtag/",
+          "/social/instagram-hashtag/",
+          "/social/meme-font/",
+          "/social/wedding-hashtag/",
+          "/terms/",
+          "/text/",
+          "/text/character-counter/",
+          "/text/instagram-bio/",
+          "/text/readability/",
+          "/text/word-counter/",
+          "/visual/",
+          "/visual/color-picker/",
+          "/visual/meme/",
+          "/visual/qr-code/"
+        ]
+      },
+      {
+        "host": "http://generator.express",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 56 unique paths across 2 hosts from 2025-07-24 to 2026-11-23.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "get_indexing_overview",
+  "site": "https://www.ontheballbets.com/",
+  "args": {},
+  "data": {
+    "note": "Indexing data is only available for super sites. https://www.ontheballbets.com/ is not a super site",
+    "property": "https://www.ontheballbets.com/"
+  }
+}
