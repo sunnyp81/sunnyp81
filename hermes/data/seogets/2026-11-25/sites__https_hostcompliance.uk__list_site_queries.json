@@ -1,0 +1,39 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://hostcompliance.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 23 queries from 2025-07-25 to 2026-11-24.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "business rates for holiday lets cornwall",
+      "do i need a licence to open a hotel",
+      "fire regulations for holiday lets 2023 pdf",
+      "fire regulations for holiday lets uk",
+      "gas safety on holiday",
+      "health and safety regulations for holiday lets",
+      "holiday let 4 year rule",
+      "holiday let occupancy rules",
+      "holiday let smoke alarm requirements",
+      "holiday lets calculate rateable value",
+      "hot tub regulations for holiday lets",
+      "is pat testing a legal requirement for holiday lets",
+      "licensing for holiday parks",
+      "minimum epc rating for holiday lets",
+      "new epc regulations 2025 holiday lets",
+      "new fire regs for holiday lets",
+      "new fire regulations for holiday lets",
+      "new rules for holiday lets",
+      "rules for holiday lets in blackpool",
+      "scottish fire regulations for holiday lets",
+      "what electrical checks are required in holiday lets",
+      "what is a holiday let",
+      "what is the 10 year rule for holiday lets"
+    ]
+  }
+}

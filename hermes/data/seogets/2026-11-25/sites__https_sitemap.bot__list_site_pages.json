@@ -1,0 +1,23 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://sitemap.bot/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://sitemap.bot",
+        "paths": [
+          "/",
+          "/ai-crawler-checker/"
+        ]
+      }
+    ],
+    "note": "Returned 2 unique paths across 1 hosts from 2025-07-25 to 2026-11-24.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
