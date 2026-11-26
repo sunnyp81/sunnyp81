@@ -1,0 +1,27 @@
+{
+  "tool": "list_site_queries",
+  "site": "sc-domain:aitattooartist.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 11 queries from 2025-07-26 to 2026-11-25.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "american traditional tattoo",
+      "american traditional tattoos",
+      "cover a tattoo",
+      "fine line tattoo pros and cons",
+      "image to tattoo stencil converter",
+      "stencil maker",
+      "stencil maker tattoo",
+      "tattoo pain levels explained",
+      "tattoo stencil generator",
+      "tattoo stencil maker online free",
+      "what percentage of people have tattoos in the world"
+    ]
+  }
+}

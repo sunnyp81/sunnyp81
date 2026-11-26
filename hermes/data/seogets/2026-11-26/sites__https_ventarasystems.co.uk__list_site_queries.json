@@ -1,0 +1,22 @@
+{
+  "tool": "list_site_queries",
+  "site": "https://ventarasystems.co.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "note": "Returned 6 queries from 2025-07-26 to 2026-11-25.",
+    "page": 1,
+    "page_size": 1000,
+    "queries": [
+      "ceiling mounted single room heat recovery unit",
+      "heat recovery bathroom fan condensation ventilation",
+      "heat recovery fan single room",
+      "single room heat recovery system",
+      "ventara",
+      "with wifi"
+    ]
+  }
+}

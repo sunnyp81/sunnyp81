@@ -1,0 +1,66 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:carrecallhq.com",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://carrecallhq.com",
+        "paths": [
+          "/guides/dealer-obligations-recalls/",
+          "/",
+          "/2015-ford-focus/",
+          "/2015-honda-civic/",
+          "/2016-ford-explorer/",
+          "/2017-ford-f-150/",
+          "/2018-ford-escape/",
+          "/2018-honda-cr-v/",
+          "/2019-toyota-rav4/",
+          "/2020-toyota-camry/",
+          "/2022-honda-pilot/",
+          "/compare/",
+          "/compare/2015-honda-civic-vs-2022-honda-pilot/",
+          "/compare/2019-toyota-rav4-vs-2020-toyota-camry/",
+          "/compare/2020-honda-accord-vs-2020-toyota-camry/",
+          "/compare/2020-toyota-camry-vs-2021-toyota-highlander/",
+          "/guides/",
+          "/guides/how-recalls-work-leased-cars/",
+          "/guides/lemon-law-rights/",
+          "/guides/most-recalled-cars/",
+          "/guides/recall-vs-tsb/",
+          "/make/ford/",
+          "/make/honda/",
+          "/make/toyota/",
+          "/model/honda-civic/",
+          "/problems/",
+          "/problems/visibility/",
+          "/recalls/",
+          "/recalls/visibility/",
+          "/safest-cars/2018/",
+          "/safest-cars/2022/",
+          "/worst-cars/2018/",
+          "/worst-cars/2019/",
+          "/worst-cars/2021/",
+          "/worst-cars/2022/",
+          "/year/2015/",
+          "/year/2017/",
+          "/year/2019/",
+          "/year/2022/"
+        ]
+      },
+      {
+        "host": "http://carrecallhq.com",
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "note": "Returned 40 unique paths across 2 hosts from 2025-07-26 to 2026-11-25.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

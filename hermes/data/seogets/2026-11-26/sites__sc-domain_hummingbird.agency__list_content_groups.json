@@ -1,0 +1,180 @@
+{
+  "tool": "list_content_groups",
+  "site": "sc-domain:hummingbird.agency",
+  "args": {},
+  "data": {
+    "content_groups": [
+      {
+        "filters": [
+          {
+            "expression": "https://www.hummingbird.agency/|https://staging.hummingbird.agency/",
+            "operator": "equals"
+          }
+        ],
+        "is_priority": true,
+        "name": "Homepage"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hummingbird.agency/about-us|hummingbird.agency/what-we-do|hummingbird.agency/why-choose-hummingbird|hummingbird.agency/client-examples|hummingbird.agency/pricing|hummingbird.agency/contact|hummingbird.agency/results|hummingbird.agency/locations|hummingbird.agency/download-ebook",
+            "operator": "contains"
+          },
+          {
+            "expression": "hummingbird.agency/results/",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Agency Info & Lead Gen"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hummingbird.agency/results/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Case Studies"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hummingbird.agency/travel/|hummingbird.agency/travel-marketing-companies|hummingbird.agency/tourism-marketing-agency|hummingbird.agency/travel-agency-digital-marketing|hummingbird.agency/experience-led-travel-brands|hummingbird.agency/finding-your-perfect-travel-marketing-agency",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Travel Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hummingbird.agency/health-and-wellness|hummingbird.agency/health-wellness-marketing|hummingbird.agency/supplement-marketing|hummingbird.agency/top-wellness-marketing-agencies",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Health & Wellness Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hummingbird.agency/hotels-and-restaurants|hummingbird.agency/hotel-marketing-agency|hummingbird.agency/hospitality-marketing-agency|hummingbird.agency/hotel-ppc|hummingbird.agency/hotel-seo-services|hummingbird.agency/hotel-social-media-marketing|hummingbird.agency/best-hotel-marketing-agencies",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Hotel & Hospitality Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hummingbird.agency/events-attractions|hummingbird.agency/luxury/|hummingbird.agency/ecommerce|hummingbird.agency/aeo",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Niche Sector Services"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hummingbird.agency/social-media-agency|hummingbird.agency/social-media-marketing-consulting|hummingbird.agency/social-media-marketing-specialists|hummingbird.agency/social-media-branding|hummingbird.agency/uk-social-media-management|hummingbird.agency/tiktok-marketing-agency|hummingbird.agency/content-marketing|hummingbird.agency/performance-marketing|hummingbird.agency/digital-strategy|hummingbird.agency/web-design|hummingbird.agency/geo|hummingbird.agency/digital-marketing-cambridge|hummingbird.agency/marketing-agency-peterborough|hummingbird.agency/web-design-peterborough",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": true,
+        "name": "Services & Capabilities"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hummingbird.agency/blog|hummingbird.agency/author/",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Blog & Authors"
+      },
+      {
+        "filters": [
+          {
+            "expression": "tiktok",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "TikTok Content"
+      },
+      {
+        "filters": [
+          {
+            "expression": "travel",
+            "operator": "contains"
+          },
+          {
+            "expression": "tiktok",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Travel Blog Content"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hotel|hospitality",
+            "operator": "contains"
+          },
+          {
+            "expression": "tiktok|hummingbird.agency/hotel-marketing-agency|hummingbird.agency/hotel-ppc|hummingbird.agency/hotel-seo|hummingbird.agency/hotel-social|hummingbird.agency/hospitality-marketing-agency|hummingbird.agency/hotels-and-restaurants|hummingbird.agency/best-hotel",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Hotel & Hospitality Blog Content"
+      },
+      {
+        "filters": [
+          {
+            "expression": "wellness|supplement|health",
+            "operator": "contains"
+          },
+          {
+            "expression": "tiktok|hummingbird.agency/health-and-wellness|hummingbird.agency/health-wellness-marketing|hummingbird.agency/supplement-marketing|hummingbird.agency/top-wellness",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Wellness Blog Content"
+      },
+      {
+        "filters": [
+          {
+            "expression": "event|influencer|ugc|user-generated|social-media|instagram|email-marketing|content-marketing|seo|ppc|web-design|affiliate|digital-marketing|ecommerce|social-first|cross-promotion|banner|product-launch|analytics|storytelling",
+            "operator": "contains"
+          },
+          {
+            "expression": "tiktok|travel|hotel|hospitality|wellness|supplement|health|hummingbird.agency/social-media-agency|hummingbird.agency/content-marketing|hummingbird.agency/performance-marketing|hummingbird.agency/web-design/|hummingbird.agency/web-design-peterborough",
+            "operator": "notContains"
+          }
+        ],
+        "is_priority": false,
+        "name": "General Marketing Blog Content"
+      },
+      {
+        "filters": [
+          {
+            "expression": "hummingbird.agency/privacy-policy|hummingbird.agency/terms-and-conditions|hummingbird.agency/email-marketing-policy",
+            "operator": "contains"
+          }
+        ],
+        "is_priority": false,
+        "name": "Legal & Policy"
+      }
+    ],
+    "property": "sc-domain:hummingbird.agency"
+  }
+}

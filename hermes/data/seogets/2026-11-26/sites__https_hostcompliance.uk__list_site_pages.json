@@ -1,0 +1,40 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://hostcompliance.uk/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://hostcompliance.uk",
+        "paths": [
+          "/wales-registration/",
+          "/contact/",
+          "/guides/",
+          "/guides/business-rates-or-council-tax/",
+          "/guides/electrical-safety/",
+          "/guides/epc/",
+          "/guides/fire-safety/",
+          "/guides/gas-safety/",
+          "/guides/holiday-let-legal-requirements/",
+          "/guides/hot-tubs/",
+          "/guides/smoke-co-alarms/",
+          "/hosts/accessible-holiday-lets/",
+          "/hosts/airbnb-and-platform-hosts/",
+          "/hosts/bed-and-breakfast/",
+          "/hosts/garden-annexe-and-huts/",
+          "/hosts/glamping-campsites-and-caravans/",
+          "/hosts/second-homes/",
+          "/hosts/spare-room/",
+          "/privacy/"
+        ]
+      }
+    ],
+    "note": "Returned 19 unique paths across 1 hosts from 2025-07-26 to 2026-11-25.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "tool": "list_site_pages",
+  "site": "https://gta6quickguide.com/",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "https://gta6quickguide.com",
+        "paths": [
+          "/",
+          "/start/platforms-and-modes/",
+          "/controls/settings-guide/",
+          "/editions/gta-plus-free-month/",
+          "/editions/vintage-vice-city-pack/",
+          "/fixes/code-region-error/",
+          "/privacy/",
+          "/sources/",
+          "/about/",
+          "/controls/",
+          "/controls/accessibility/",
+          "/editions/",
+          "/editions/standard-vs-ultimate/",
+          "/fixes/",
+          "/start/"
+        ]
+      }
+    ],
+    "note": "Returned 15 unique paths across 1 hosts from 2025-07-26 to 2026-11-25.",
+    "page": 1,
+    "page_size": 1000
+  }
+}
