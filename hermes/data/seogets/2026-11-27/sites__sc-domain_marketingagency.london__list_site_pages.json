@@ -1,0 +1,64 @@
+{
+  "tool": "list_site_pages",
+  "site": "sc-domain:marketingagency.london",
+  "args": {
+    "page": 1,
+    "page_size": 1000
+  },
+  "data": {
+    "has_more": false,
+    "hosts": [
+      {
+        "host": "http://marketingagency.london",
+        "paths": [
+          "/agencies/the-think/"
+        ]
+      },
+      {
+        "host": "https://marketingagency.london",
+        "paths": [
+          "/",
+          "/about/",
+          "/agencies/",
+          "/agencies/brafton/",
+          "/agencies/bulldog-digital-media/",
+          "/agencies/burst-digital/",
+          "/agencies/byter/",
+          "/agencies/frost-creative/",
+          "/agencies/gripped/",
+          "/agencies/id-studio/",
+          "/agencies/immersive-media/",
+          "/agencies/klutch-studio/",
+          "/agencies/kota/",
+          "/agencies/loving-social-media/",
+          "/agencies/magnifylab/",
+          "/agencies/marketing-tech-london/",
+          "/agencies/nerds-agency/",
+          "/agencies/nettrackers/",
+          "/agencies/ppc-geeks/",
+          "/agencies/prime-lion-digital/",
+          "/agencies/rank-me-higher/",
+          "/agencies/republic-marketing/",
+          "/agencies/rocket-saas/",
+          "/agencies/silverstone-digital/",
+          "/agencies/solvid/",
+          "/agencies/terrier-agency/",
+          "/agencies/the-city-seo/",
+          "/agencies/visionary-marketing/",
+          "/agencies/whitehat/",
+          "/choosing-an-agency/",
+          "/for-agencies/",
+          "/method/",
+          "/prices/",
+          "/prices/ppc/",
+          "/prices/web-design/",
+          "/prices/website-cost/",
+          "/under-1000-a-month/"
+        ]
+      }
+    ],
+    "note": "Returned 38 unique paths across 2 hosts from 2025-07-27 to 2026-11-26.",
+    "page": 1,
+    "page_size": 1000
+  }
+}

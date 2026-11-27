@@ -1,0 +1,19 @@
+{
+  "tool": "get_property_setup",
+  "site": "sc-domain:drinksbykingpin.com",
+  "args": {},
+  "data": {
+    "can_run_setup": false,
+    "is_complete": true,
+    "is_running": false,
+    "property": "sc-domain:drinksbykingpin.com",
+    "status": {
+      "branded_keywords": 3,
+      "content_groups": 5,
+      "has_brand_summary": true,
+      "priority_content_groups": [],
+      "priority_topic_clusters": [],
+      "topic_clusters": 5
+    }
+  }
+}
